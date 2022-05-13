@@ -5,11 +5,13 @@ import styles from "../styles/Home.module.css";
 import { TermDB, TermDTO } from "../types/terms";
 import { SkillDB, SkillDTO } from "../types/skills";
 import Term from "../components/Term";
+import { WardenDB, WardenDTO } from "../types/wardens";
 
 const Home: NextPage<{
   skills: SkillDTO[];
   terms: TermDTO[];
-}> = ({ skills, terms }) => {
+  wardens: WardenDTO[];
+}> = ({ skills, terms, wardens }) => {
   return (
     <div>
       <Head>
@@ -35,7 +37,9 @@ const Home: NextPage<{
               <ul>
                 {skill.levels.map((level) => (
                   <li key={level.level}>
-                    <div>Level {level.level}:</div>
+                    <div>
+                      <Term terms={terms} type="level" count={level.level} />
+                    </div>
                     {level.term && (
                       <div
                         dangerouslySetInnerHTML={{
@@ -50,16 +54,13 @@ const Home: NextPage<{
                     )}
                     {level.modifierData?.map((modifier) => (
                       <div key={modifier.type}>
-                        <span className={styles.positive}>
-                          +{modifier.amountToAdd}
-                        </span>{" "}
-                        {terms
-                          .find(
-                            (term) =>
-                              term.type === "modifier" &&
-                              term.id === modifier.type
-                          )
-                          ?.term.replace("{0} ", "")}
+                        <Term
+                          terms={terms}
+                          type="modifier"
+                          id={modifier.type}
+                          applicationType={modifier.applicationType}
+                          count={modifier.amountToAdd}
+                        />
                       </div>
                     ))}
                     {level.resourcesIncome &&
@@ -85,6 +86,24 @@ const Home: NextPage<{
                     ))}
                   </li>
                 ))}
+                <li>
+                  <Term terms={terms} type="availableTo" />
+                  <div>
+                    {wardens
+                      .filter((warden) =>
+                        warden.skillPools.some((skillPool) =>
+                          skillPool.skills.some(
+                            (skillPoolSkill) =>
+                              skillPoolSkill.skill === skill.id
+                          )
+                        )
+                      )
+                      .sort((a, b) => a.term.localeCompare(b.term))
+                      .map((warden) => (
+                        <span key={warden.name}>{warden.term}</span>
+                      ))}
+                  </div>
+                </li>
               </ul>
             </div>
           </div>
@@ -124,13 +143,22 @@ export const getStaticProps: GetStaticProps = async (context) => {
       }))
       .toArray();
 
+    const wardensCollection = client.db().collection<WardenDB>("wardens");
+    const wardens = await wardensCollection
+      .find({}, { projection: { _id: 0 } })
+      .map(({ terms, ...rest }) => ({
+        ...rest,
+        term: terms.find((term) => term.locale === locale)?.term || null,
+      }))
+      .toArray();
+
     return {
-      props: { skills, terms },
+      props: { skills, terms, wardens },
     };
   } catch (e) {
     console.error(e);
     return {
-      props: { skills: [], terms: [] },
+      props: { skills: [], terms: [], wardens: [] },
     };
   }
 };

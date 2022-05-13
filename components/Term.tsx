@@ -1,33 +1,45 @@
 import { useRouter } from "next/router";
+import { ModifierDataDTO } from "../types/skills";
 import { TermDTO } from "../types/terms";
+import styles from "./Term.module.css";
 
 type TermProps = {
   terms: TermDTO[];
   type: string;
-  id: number | undefined;
+  id?: number;
   count?: number;
+  applicationType?: ModifierDataDTO["applicationType"];
 };
-const Term = ({ terms, type, id, count }: TermProps) => {
+const Term = ({ terms, type, id, count, applicationType }: TermProps) => {
   const { locale } = useRouter();
   let term: string | undefined;
   if (count && locale) {
     const pluralForm = getPluralForm(locale, count);
-    term = terms
-      .find(
-        (term) =>
-          term.type === type && term.id === id && term.pluralForm === pluralForm
-      )
-      ?.term.replace(" {0}", "")
-      .replace("{0} ", "");
+    term = terms.find(
+      (term) =>
+        term.type === type && term.id === id && term.pluralForm === pluralForm
+    )?.term;
   }
   if (!term) {
-    term = terms
-      .find((term) => term.type === type && term.id === id)
-      ?.term.replace(" {0}", "")
-      .replace("{0} ", "");
+    term =
+      terms.find((term) => term.type === type && term.id === id)?.term || "";
+  }
+  if (count) {
+    term = term.replace(
+      "{0}",
+      `<span class="${
+        applicationType !== undefined
+          ? count > 0
+            ? styles.positive
+            : styles.negative
+          : ""
+      }">${
+        applicationType !== undefined ? (count > 0 ? "+" : "-") : ""
+      }${count}${applicationType === 1 ? "%" : ""}</span>`
+    );
   }
 
-  return <span>{term}</span>;
+  return <span dangerouslySetInnerHTML={{ __html: term }} />;
 };
 
 export default Term;

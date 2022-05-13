@@ -1,3 +1,9 @@
+export type ModifierDataDTO = {
+  type: number;
+  applicationType: 0 | 1;
+  amountToAdd: number;
+};
+
 export type SkillDB = {
   id: number;
   name: string;
@@ -15,10 +21,7 @@ export type SkillDB = {
       term: string;
       locale: string;
     }[];
-    modifierData?: {
-      type: number;
-      amountToAdd: number;
-    }[];
+    modifierData?: ModifierDataDTO[];
     resourcesIncome: {
       type: number;
       amount: number;
@@ -43,10 +46,7 @@ export type SkillDTO = {
   levels: {
     level: number;
     term: string;
-    modifierData?: {
-      type: number;
-      amountToAdd: number;
-    }[];
+    modifierData?: ModifierDataDTO[];
     resourcesIncome?: {
       type: number;
       amount: number;
