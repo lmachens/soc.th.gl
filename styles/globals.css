@@ -1,8 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Roboto&display=swap");
 :root {
   --color-primary: #f28f0d;
   --color-neutral: #dfcdaa;
+  --color-positive: #177c13;
   --color-background: #1b0c22;
 }
 
@@ -14,6 +14,8 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--color-background);
   color: var(--color-neutral);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 h1,
@@ -24,6 +26,7 @@ h5,
 h6 {
   color: var(--color-primary);
   font-family: "Averia Serif Libre", cursive;
+  font-weight: 700;
   margin: 0;
 }
 

@@ -24,6 +24,10 @@ export type SkillDB = {
       amount: number;
       allTimeAmount: number;
     }[];
+    durations?: {
+      type: number;
+      duration: number;
+    }[];
   }[];
   sprite?: {
     x: number;
@@ -47,6 +51,10 @@ export type SkillDTO = {
       type: number;
       amount: number;
       allTimeAmount: number;
+    }[];
+    durations?: {
+      type: number;
+      duration: number;
     }[];
   }[];
   sprite?: {

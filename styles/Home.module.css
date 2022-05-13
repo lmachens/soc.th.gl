@@ -5,6 +5,14 @@
 
 .skill {
   background: url(/SkillIcons.png);
-  height: 94px;
-  width: 94px;
+  height: 90px;
+  width: 90px;
+}
+
+.positive {
+  color: var(--color-positive);
+}
+
+.highlight {
+  color: var(--color-primary);
 }
