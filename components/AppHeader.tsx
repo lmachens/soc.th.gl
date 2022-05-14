@@ -1,4 +1,5 @@
 import { Button, Grid, Group, Header, Title, Tooltip } from "@mantine/core";
+import Link from "next/link";
 
 const AppHeader = () => {
   return (
@@ -6,10 +7,16 @@ const AppHeader = () => {
       <Grid justify="space-between">
         <Title order={1}>SoC.gg</Title>
         <Group>
-          <Button variant="subtle">Skill Builder</Button>
-          <Tooltip label="Coming soon" position="bottom" withArrow>
-            <Button variant="subtle">Database</Button>
-          </Tooltip>
+          <Link href="/" passHref>
+            <Button component="a" variant="subtle">
+              Database
+            </Button>
+          </Link>
+          <Link href="/skillbuilder" passHref>
+            <Button component="a" variant="subtle">
+              Skill Builder
+            </Button>
+          </Link>
           <Tooltip label="Coming soon" position="bottom" withArrow>
             <Button variant="subtle">Guides</Button>
           </Tooltip>

@@ -23,9 +23,9 @@ const LevelDetails = ({ bacteria, type, level }: LevelDetailsProps) => {
         </div>
       ))}
 
-      {/* {bacteria.resourcesIncome &&
-        `Income +${bacteria.resourcesIncome[0].amount} of ${bacteria.resourcesIncome[0].type}`}
-      {bacteria.durations?.map((duration) => (
+      {bacteria.income?.resources &&
+        `Income +${bacteria.income.resources[0].amount} of ${bacteria.income.resources[0].type}`}
+      {/* {bacteria.durations?.map((duration) => (
         <div key={duration.type}>
           {terms
             .find((term) => term.type === "bacteriaDuration" && !term.id)
