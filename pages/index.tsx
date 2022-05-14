@@ -1,115 +1,287 @@
 import type { GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import clientPromise from "../lib/db";
-import styles from "../styles/Home.module.css";
-import { TermDB, TermDTO } from "../types/terms";
-import { SkillDB, SkillDTO } from "../types/skills";
 import Term from "../components/Term";
-import { WardenDB, WardenDTO } from "../types/wardens";
+import { useState } from "react";
+import {
+  Center,
+  Container,
+  Grid,
+  SimpleGrid,
+  Text,
+  Timeline,
+  Title,
+} from "@mantine/core";
+import LevelDetails from "../components/LevelDetails";
+import SpriteSheet from "../components/SpriteSheet";
+import PopoverActionIcon from "../components/PopoverActionIcon";
 
 const Home: NextPage<{
-  skills: SkillDTO[];
-  terms: TermDTO[];
-  wardens: WardenDTO[];
-}> = ({ skills, terms, wardens }) => {
+  factions: any[];
+  skills: any[];
+  bacterias: any[];
+  skillPools: any[];
+}> = ({ factions, skills, bacterias, skillPools }) => {
+  const [faction, setFaction] = useState<any | null>(null);
+  const [commander, setCommander] = useState<any | null>(null);
+
+  const [selectedSkillLevels, setSelectedSkillLevels] = useState<
+    { skill: number; level: number }[]
+  >([]);
+
+  // useEffect(() => {
+  //   setSelectedSkillLevels([]);
+  // }, [selectedWarden]);
+
+  const level = selectedSkillLevels?.length + 1 - commander?.skills.length;
+
+  const skillPool =
+    commander &&
+    skillPools.find((skillPool) => skillPool.id === commander.skillPool);
+
+  const levelPool = skillPool?.pools.find(
+    (pool) => level >= pool.levelRange.min && level <= pool.levelRange.max
+  );
+
+  const availableSkills = levelPool?.skills
+    .filter((levelPoolSkill) => {
+      if (
+        !levelPoolSkill.requiredSkills.every((requiredSkill) =>
+          selectedSkillLevels.some(
+            (selectedSkillLevel) =>
+              selectedSkillLevel.skill === requiredSkill.skill &&
+              selectedSkillLevel.level >= requiredSkill.level
+          )
+        )
+      ) {
+        return false;
+      }
+
+      const prevSkillLevel = Math.max(
+        0,
+        ...selectedSkillLevels
+          .filter(
+            (selectedSkillLevel) =>
+              selectedSkillLevel.skill === levelPoolSkill.skill
+          )
+          .map((selectedSkillLevel) => selectedSkillLevel.level)
+      );
+
+      if (prevSkillLevel) {
+        const skill = skills.find((skill) => skill.id === levelPoolSkill.skill);
+
+        const nextLevel = skill?.[prevSkillLevel];
+        if (!nextLevel) {
+          return false;
+        }
+      }
+
+      return true;
+    })
+    .map((availableSkill) =>
+      skills.find((skill) => skill.id === availableSkill.skill)
+    );
+  selectedSkillLevels.forEach((selectedSkillLevel) => {
+    const skill = skills.find((skill) => skill.id === selectedSkillLevel.skill);
+
+    const nextLevel = skill?.levels[selectedSkillLevel.level];
+    if (!nextLevel) {
+      return;
+    }
+    if (
+      !selectedSkillLevels.some(
+        (otherSkillLevel) =>
+          otherSkillLevel.id === selectedSkillLevel.id &&
+          otherSkillLevel.level === selectedSkillLevel.level + 1
+      ) &&
+      !availableSkills.some((availableSkill) => availableSkill.id === skill.id)
+    ) {
+      availableSkills.push(skill);
+    }
+  });
+
   return (
-    <div>
+    <Container>
       <Head>
-        <title>SoC.gg</title>
-        <meta name="description" content="Songs of Conquest fansite" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Skill Builder - SoC.gg</title>
+        <meta name="description" content="Songs of Conquest Skill Builder" />
       </Head>
 
-      <main>
-        {skills.map((skill) => (
-          <div key={skill.name} title={skill.term} className={styles.card}>
-            <div
-              className={styles.skill}
-              style={{
-                backgroundPosition: skill.sprite
-                  ? `left -${skill.sprite.x}px bottom -${skill.sprite.y}px`
-                  : "initial",
-              }}
-            />
-            <div>
-              <h3>{skill.term}</h3>
-              <p>{skill.loreTerm}</p>
-              <ul>
-                {skill.levels.map((level) => (
-                  <li key={level.level}>
-                    <div>
-                      <Term terms={terms} type="level" count={level.level} />
-                    </div>
-                    {level.term && (
-                      <div
-                        dangerouslySetInnerHTML={{
-                          __html: level.term
-                            .replace(
-                              "<hl>",
-                              `<span class="${styles.highlight}">`
-                            )
-                            .replace("</hl>", "</span>"),
-                        }}
+      <Center>
+        <Title order={2}>Skill Builder</Title>
+      </Center>
+
+      <Grid justify="center" mt="md">
+        {!faction &&
+          factions.map((faction) => (
+            <Grid.Col key={faction.id} sx={{ flexBasis: "auto" }}>
+              <PopoverActionIcon
+                popover={
+                  <>
+                    <Title order={4}>
+                      <Term term={`Factions/${faction.languageKey}/Name`} />
+                    </Title>
+                    <Text size="sm">
+                      <Term
+                        term={`Factions/${faction.languageKey}/Description`}
                       />
-                    )}
-                    {level.modifierData?.map((modifier) => (
-                      <div key={modifier.type}>
-                        <Term
-                          terms={terms}
-                          type="modifier"
-                          id={modifier.type}
-                          applicationType={modifier.applicationType}
-                          count={modifier.amountToAdd}
+                    </Text>
+                  </>
+                }
+                onClick={() => setFaction(faction)}
+              >
+                <SpriteSheet spriteSheet={faction.symbolSprite} />
+              </PopoverActionIcon>
+            </Grid.Col>
+          ))}
+      </Grid>
+
+      {!commander && faction && (
+        <Grid justify="center" mt="md">
+          {faction.commanders.map((commander) => (
+            <Grid.Col key={commander.id} sx={{ flexBasis: "auto" }}>
+              <PopoverActionIcon
+                popover={
+                  <>
+                    <Title order={4}>
+                      <Term term={`${faction.type}/${commander.type}/Name`} />
+                    </Title>
+                    <Text size="sm">
+                      <Term
+                        term={`${faction.type}/${commander.type}/Description`}
+                      />
+                    </Text>
+                  </>
+                }
+                onClick={() => {
+                  setCommander(commander);
+                  setSelectedSkillLevels(commander.skills);
+                }}
+              >
+                <SpriteSheet spriteSheet={commander.portrait} />
+              </PopoverActionIcon>
+            </Grid.Col>
+          ))}
+        </Grid>
+      )}
+
+      {commander && (
+        <Timeline
+          mt="lg"
+          bulletSize={90}
+          lineWidth={2}
+          styles={{
+            itemBullet: {
+              background: "none !important",
+              border: "none !important",
+            },
+          }}
+        >
+          {selectedSkillLevels.map((selectedSkill) => {
+            const skill = skills.find(
+              (skill) => skill.id === selectedSkill.skill
+            )!;
+            const skillLevel = skill.levels[selectedSkill.level - 1];
+            const bacteria = bacterias.find(
+              (bacteria) => bacteria.id === skillLevel.bacterias[0].type
+            );
+
+            return (
+              <Timeline.Item
+                key={skill.type}
+                title={
+                  <Title order={4}>
+                    <Term term={`Skills/${skill.type}`} />{" "}
+                    <Term term="Common/Level" count={selectedSkill.level} />
+                  </Title>
+                }
+                sx={{
+                  minHeight: 100,
+                  paddingLeft: 70,
+                }}
+                bullet={<SpriteSheet spriteSheet={skill.icon} />}
+              >
+                <Text color="dimmed" size="sm">
+                  <Term term={`Skills/${skill.type}/Lore`} />
+                </Text>
+                <LevelDetails
+                  bacteria={bacteria}
+                  type={skill.type}
+                  level={selectedSkill.level}
+                />
+              </Timeline.Item>
+            );
+          })}
+
+          <Timeline.Item
+            title="Choose a skill"
+            sx={{
+              minHeight: 100,
+              paddingLeft: 70,
+            }}
+            lineVariant="dashed"
+          >
+            <SimpleGrid cols={3}>
+              {availableSkills.map((availableSkill) => {
+                const skill = skills.find(
+                  (skill) => skill.id === availableSkill.id
+                );
+                const prevSkillLevel = Math.max(
+                  0,
+                  ...selectedSkillLevels
+                    .filter(
+                      (selectedSkillLevel) =>
+                        selectedSkillLevel.skill === skill.id
+                    )
+                    .map((selectedSkillLevel) => selectedSkillLevel.level)
+                );
+
+                const skillLevel = skill.levels[prevSkillLevel];
+                const bacteria = bacterias.find(
+                  (bacteria) => bacteria.id === skillLevel.bacterias[0].type
+                );
+
+                return (
+                  <PopoverActionIcon
+                    key={skill.id}
+                    popover={
+                      <>
+                        <Title order={4}>
+                          <Term term={`Skills/${skill.type}`} />{" "}
+                          <Term
+                            term="Common/Level"
+                            count={prevSkillLevel + 1}
+                          />
+                        </Title>
+                        <Text color="dimmed" size="sm">
+                          <Term term={`Skills/${skill.type}/Lore`} />
+                        </Text>
+                        <LevelDetails
+                          bacteria={bacteria}
+                          type={skill.type}
+                          level={prevSkillLevel + 1}
                         />
-                      </div>
-                    ))}
-                    {level.resourcesIncome &&
-                      `Income +${level.resourcesIncome[0].amount} of ${level.resourcesIncome[0].type}`}
-                    {level.durations?.map((duration) => (
-                      <div key={duration.type}>
-                        {terms
-                          .find(
-                            (term) =>
-                              term.type === "bacteriaDuration" && !term.id
-                          )
-                          ?.term.replace(" {0}", "")}{" "}
-                        <span className={styles.positive}>
-                          {duration.duration}
-                        </span>{" "}
-                        <Term
-                          terms={terms}
-                          type="bacteriaDuration"
-                          id={duration.type}
-                          count={duration.duration}
-                        />
-                      </div>
-                    ))}
-                  </li>
-                ))}
-                <li>
-                  <Term terms={terms} type="availableTo" />
-                  <div>
-                    {wardens
-                      .filter((warden) =>
-                        warden.skillPools.some((skillPool) =>
-                          skillPool.skills.some(
-                            (skillPoolSkill) =>
-                              skillPoolSkill.skill === skill.id
-                          )
-                        )
-                      )
-                      .sort((a, b) => a.term.localeCompare(b.term))
-                      .map((warden) => (
-                        <span key={warden.name}>{warden.term}</span>
-                      ))}
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        ))}
-      </main>
-    </div>
+                      </>
+                    }
+                    onClick={() => {
+                      setSelectedSkillLevels([
+                        ...selectedSkillLevels,
+                        {
+                          skill: skill.id,
+                          level: prevSkillLevel + 1,
+                        },
+                      ]);
+                    }}
+                  >
+                    <SpriteSheet spriteSheet={skill.icon} />
+                  </PopoverActionIcon>
+                );
+              })}
+            </SimpleGrid>
+          </Timeline.Item>
+        </Timeline>
+      )}
+    </Container>
   );
 };
 
@@ -117,48 +289,69 @@ export default Home;
 
 export const getStaticProps: GetStaticProps = async (context) => {
   try {
-    const { locale } = context;
     const client = await clientPromise;
-    const skillsCollection = client.db().collection<SkillDB>("skills");
-    const skills = await skillsCollection
-      .find({}, { projection: { _id: 0 } })
-      .map(({ terms, loreTerms, levels, ...rest }) => ({
-        ...rest,
-        levels: levels.map(({ terms, ...rest }) => ({
-          term: terms?.find((term) => term.locale === locale)?.term || null,
-          ...rest,
-        })),
-        term: terms.find((term) => term.locale === locale)?.term || null,
-        loreTerm:
-          loreTerms?.find((term) => term.locale === locale)?.term || null,
-      }))
-      .toArray();
 
-    const termsCollection = client.db().collection<TermDB>("terms");
+    const localesCollection = client.db().collection("Locales");
+    const locale = await localesCollection.findOne({
+      code: context.locale || "en",
+    });
+
+    const termsCollection = client.db().collection("Terms");
     const terms = await termsCollection
-      .find({}, { projection: { _id: 0 } })
-      .map(({ terms, ...rest }) => ({
-        ...rest,
-        term: terms.find((term) => term.locale === locale)?.term || null,
-      }))
+      .find({
+        $or: [
+          { term: "Common/Level" },
+          { term: /^Skill/ },
+          { term: /^Loth/ },
+          { term: /^Arleon/ },
+          { term: /^Barya/ },
+          { term: /^Rana/ },
+          { term: /^Factions/ },
+          { term: /^Modifiers/ },
+        ],
+      })
+      .toArray();
+    const termsMap = terms.reduce(
+      (curr, term) => ({
+        ...curr,
+        [term.term]: term.languages[locale!.index],
+      }),
+      {}
+    );
+
+    const factionCollection = client.db().collection("Faction");
+    const factions = await factionCollection
+      .find({ id: { $ne: 0 } }, { projection: { _id: 0 } })
       .toArray();
 
-    const wardensCollection = client.db().collection<WardenDB>("wardens");
-    const wardens = await wardensCollection
+    const skillCollection = client.db().collection("Skill");
+    const skills = await skillCollection
+      .find({ id: { $ne: 0 } }, { projection: { _id: 0 } })
+      .toArray();
+
+    const bacterialCollection = client.db().collection("Bacteria");
+    const bacterias = await bacterialCollection
       .find({}, { projection: { _id: 0 } })
-      .map(({ terms, ...rest }) => ({
-        ...rest,
-        term: terms.find((term) => term.locale === locale)?.term || null,
-      }))
+      .toArray();
+
+    const skillPoolCollection = client.db().collection("SkillPool");
+    const skillPools = await skillPoolCollection
+      .find({}, { projection: { _id: 0 } })
       .toArray();
 
     return {
-      props: { skills, terms, wardens },
+      props: {
+        termsMap,
+        factions,
+        skills,
+        bacterias,
+        skillPools,
+      },
     };
   } catch (e) {
     console.error(e);
     return {
-      props: { skills: [], terms: [], wardens: [] },
+      props: {},
     };
   }
 };

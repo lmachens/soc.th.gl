@@ -1,31 +1,33 @@
+import { useMantineTheme } from "@mantine/core";
 import { useRouter } from "next/router";
+import { useTerms } from "../lib/terms";
 import { ModifierDataDTO } from "../types/skills";
-import { TermDTO } from "../types/terms";
 import styles from "./Term.module.css";
 
 type TermProps = {
-  terms: TermDTO[];
-  type: string;
+  term: string;
   id?: number;
   count?: number;
   applicationType?: ModifierDataDTO["applicationType"];
 };
-const Term = ({ terms, type, id, count, applicationType }: TermProps) => {
+const Term = ({ term, count, applicationType }: TermProps) => {
   const { locale } = useRouter();
-  let term: string | undefined;
+  const theme = useMantineTheme();
+  const terms = useTerms();
+
+  let value: string | undefined;
   if (count && locale) {
     const pluralForm = getPluralForm(locale, count);
-    term = terms.find(
-      (term) =>
-        term.type === type && term.id === id && term.pluralForm === pluralForm
-    )?.term;
+    value = terms[`${term}_${pluralForm}`] || terms[term];
+  } else {
+    value = terms[term];
   }
-  if (!term) {
-    term =
-      terms.find((term) => term.type === type && term.id === id)?.term || "";
+
+  if (!value) {
+    value = term;
   }
   if (count) {
-    term = term.replace(
+    value = value.replace(
       "{0}",
       `<span class="${
         applicationType !== undefined
@@ -38,8 +40,14 @@ const Term = ({ terms, type, id, count, applicationType }: TermProps) => {
       }${count}${applicationType === 1 ? "%" : ""}</span>`
     );
   }
+  value = value
+    .replace(
+      "<hl>",
+      `<span style="color: ${theme.colors[theme.primaryColor][4]}">`
+    )
+    .replace("</hl>", "</span>");
 
-  return <span dangerouslySetInnerHTML={{ __html: term }} />;
+  return <span dangerouslySetInnerHTML={{ __html: value }} />;
 };
 
 export default Term;

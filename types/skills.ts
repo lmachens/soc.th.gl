@@ -38,25 +38,27 @@ export type SkillDB = {
   };
 };
 
+export type LevelDTO = {
+  level: number;
+  term: string;
+  modifierData?: ModifierDataDTO[];
+  resourcesIncome?: {
+    type: number;
+    amount: number;
+    allTimeAmount: number;
+  }[];
+  durations?: {
+    type: number;
+    duration: number;
+  }[];
+};
+
 export type SkillDTO = {
   id: number;
   name: string;
   term: string;
   loreTerm: string;
-  levels: {
-    level: number;
-    term: string;
-    modifierData?: ModifierDataDTO[];
-    resourcesIncome?: {
-      type: number;
-      amount: number;
-      allTimeAmount: number;
-    }[];
-    durations?: {
-      type: number;
-      duration: number;
-    }[];
-  }[];
+  levels: LevelDTO[];
   sprite?: {
     x: number;
     y: number;
