@@ -1,14 +1,13 @@
 import { AppProps } from "next/app";
 import Head from "next/head";
-import { AppShell, MantineProvider } from "@mantine/core";
-import AppHeader from "../components/AppHeader";
-import { TermsContext } from "../lib/terms";
+import { Container, Global, MantineProvider } from "@mantine/core";
+import AppLayout from "../components/AppLayout/AppLayout";
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
 
   return (
-    <TermsContext.Provider value={props.pageProps.termsMap}>
+    <>
       <Head>
         <title>SoC.gg</title>
         <meta name="description" content="Songs of Conquest Fansite" />
@@ -50,10 +49,25 @@ export default function App(props: AppProps) {
           }),
         }}
       >
-        <AppShell header={<AppHeader />}>
-          <Component {...pageProps} />
-        </AppShell>
+        <Global
+          styles={() => ({
+            ".highlight": {
+              color: "#f28f0d",
+            },
+            ".positive": {
+              color: "#177c13",
+            },
+            ".negative": {
+              color: "#c51b1b",
+            },
+          })}
+        />
+        <AppLayout collectionLinks={pageProps.collectionLinks}>
+          <Container>
+            <Component {...pageProps} />
+          </Container>
+        </AppLayout>
       </MantineProvider>
-    </TermsContext.Provider>
+    </>
   );
 }

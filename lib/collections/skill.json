@@ -1,0 +1,1756 @@
+[
+  {
+    "id": 1,
+    "icon": {
+      "name": "Precision",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 274,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 3,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 4,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 5,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Archery"
+  },
+  {
+    "id": 2,
+    "icon": {
+      "name": "Cunning",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 274,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 6,
+            "duration": {
+              "type": 1,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 7,
+            "duration": {
+              "type": 1,
+              "duration": 3
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 8,
+            "duration": {
+              "type": 1,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Cunning"
+  },
+  {
+    "id": 3,
+    "icon": {
+      "name": "Guard",
+      "spriteSheet": "SkillIcons.png",
+      "x": 378,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 9,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 10,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 11,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Guard"
+  },
+  {
+    "id": 4,
+    "icon": {
+      "name": "Hand to Hand",
+      "spriteSheet": "SkillIcons.png",
+      "x": 472,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 12,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 13,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 14,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "HandToHand"
+  },
+  {
+    "id": 5,
+    "icon": {
+      "name": "Prepared",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 180,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 15,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 16,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 17,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Prepared"
+  },
+  {
+    "id": 7,
+    "icon": {
+      "name": "Arcana",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 443,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 444,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 445,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Arcana"
+  },
+  {
+    "id": 8,
+    "icon": {
+      "name": "Chaos Magic",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 556,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 447,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 448,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 449,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Chaos"
+  },
+  {
+    "id": 9,
+    "icon": {
+      "name": "Creation Magic",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 368,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 450,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 451,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 452,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Creation"
+  },
+  {
+    "id": 10,
+    "icon": {
+      "name": "Destruction",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 180,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 453,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 454,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 455,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Destruction"
+  },
+  {
+    "id": 11,
+    "icon": {
+      "name": "Order Magic",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 462,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 456,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 457,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 458,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Order"
+  },
+  {
+    "id": 12,
+    "icon": {
+      "name": "Command",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 462,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 347,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 348,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 349,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 350,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 351,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 352,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 353,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 354,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 355,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Command"
+  },
+  {
+    "id": 14,
+    "icon": {
+      "name": "Taxes",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 556,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 377,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 378,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 379,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Taxes"
+  },
+  {
+    "id": 15,
+    "icon": {
+      "name": "Brutal",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 744,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 1,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 380,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 381,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Brutal"
+  },
+  {
+    "id": 16,
+    "icon": {
+      "name": "Rigor",
+      "spriteSheet": "SkillIcons.png",
+      "x": 754,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 1,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 383,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 384,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Rigor"
+  },
+  {
+    "id": 17,
+    "icon": {
+      "name": "March",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 744,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 386,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 387,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 388,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "March"
+  },
+  {
+    "id": 18,
+    "icon": {
+      "name": "Melee",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 650,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 389,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 390,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 391,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Melee"
+  },
+  {
+    "id": 19,
+    "icon": {
+      "name": "Speed of Winds",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 650,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 1,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 392,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 393,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "SpeedOfWinds"
+  },
+  {
+    "id": 20,
+    "icon": {
+      "name": "Scouting",
+      "spriteSheet": "SkillIcons.png",
+      "x": 848,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 395,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 396,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 397,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Scouting"
+  },
+  {
+    "id": 23,
+    "icon": {
+      "name": "Levy",
+      "spriteSheet": "SkillIcons.png",
+      "x": 754,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 1,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 462,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 463,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Levy"
+  },
+  {
+    "id": 24,
+    "icon": {
+      "name": "Magic Resistance",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 468,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 469,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 470,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "MagicResistance"
+  },
+  {
+    "id": 25,
+    "icon": {
+      "name": "Channeling",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 650,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 465,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 466,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 467,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Channeling"
+  },
+  {
+    "id": 26,
+    "icon": {
+      "name": "Raider",
+      "spriteSheet": "SkillIcons.png",
+      "x": 660,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 493,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 494,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 495,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Raider"
+  },
+  {
+    "id": 28,
+    "icon": {
+      "name": "Learning",
+      "spriteSheet": "SkillIcons.png",
+      "x": 660,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 876,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 901,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 902,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Learning"
+  },
+  {
+    "id": 29,
+    "icon": {
+      "name": "Production Glimmerweave",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 877,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 887,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 888,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "ProduceGlimmer"
+  },
+  {
+    "id": 30,
+    "icon": {
+      "name": "Production Amber",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 86,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 878,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 884,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 883,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "ProduceAmber"
+  },
+  {
+    "id": 31,
+    "icon": {
+      "name": "Production Ore",
+      "spriteSheet": "SkillIcons.png",
+      "x": 284,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 879,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 885,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 886,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "ProduceCelestial"
+  },
+  {
+    "id": 32,
+    "icon": {
+      "name": "Farsight",
+      "spriteSheet": "SkillIcons.png",
+      "x": 284,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 1,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 880,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 881,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "PowerRange"
+  },
+  {
+    "id": 33,
+    "icon": {
+      "name": "Production Stone",
+      "spriteSheet": "SkillIcons.png",
+      "x": 378,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 889,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 890,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 891,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "ProduceStone"
+  },
+  {
+    "id": 34,
+    "icon": {
+      "name": "Production Wood",
+      "spriteSheet": "SkillIcons.png",
+      "x": 472,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 892,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 893,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 894,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "ProduceWood"
+  },
+  {
+    "id": 35,
+    "icon": {
+      "name": "Eager",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 86,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 1,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 895,
+            "duration": {
+              "type": 1,
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 896,
+            "duration": {
+              "type": 1,
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Fast"
+  },
+  {
+    "id": 36,
+    "icon": {
+      "name": "Positioning",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 368,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 1111,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1112,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1113,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Positioning"
+  },
+  {
+    "id": 38,
+    "icon": {
+      "name": "Impressive",
+      "spriteSheet": "SkillIcons.png",
+      "x": 566,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 913,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 914,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 915,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Diplomacy"
+  },
+  {
+    "id": 39,
+    "icon": {
+      "name": "Essence Burst",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 1108,
+            "duration": {
+              "type": 1,
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1109,
+            "duration": {
+              "type": 1,
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1110,
+            "duration": {
+              "type": 1,
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ],
+    "type": "EssenceBurst"
+  },
+  {
+    "id": 40,
+    "icon": {
+      "name": "Shielded",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 744,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 1,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 1147,
+            "duration": {
+              "type": 3,
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1148,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      }
+    ],
+    "type": "PowerShielded"
+  },
+  {
+    "id": 42,
+    "icon": {
+      "name": "Tutoring",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 462,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 1122,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1123,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1124,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Tutor"
+  },
+  {
+    "id": 41,
+    "icon": {
+      "name": "Attuned",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 1,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 1120,
+            "duration": {
+              "type": 3,
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1121,
+            "duration": {
+              "type": 3,
+              "duration": 3
+            }
+          }
+        ]
+      }
+    ],
+    "type": "Attuned"
+  },
+  {
+    "id": 45,
+    "icon": {
+      "name": "Essence Leech",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "variant": 0,
+    "levels": [
+      {
+        "bacterias": [
+          {
+            "type": 1139,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1140,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      },
+      {
+        "bacterias": [
+          {
+            "type": 1141,
+            "duration": {
+              "type": 3,
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ],
+    "type": "EssenceLeech"
+  }
+]

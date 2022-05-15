@@ -1,25 +1,14 @@
+const locales = require("./lib/collections/locale.json");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   i18n: {
     // These are all the locales you want to support in
     // your application
-    locales: [
-      "en",
-      "sv",
-      "ru",
-      "cs",
-      "fr",
-      "de",
-      "it",
-      "pl",
-      "es",
-      "zh-CN",
-      "ja",
-      "ko",
-      "pt-BR",
-      "uk",
-    ],
+    locales: locales
+      .filter((locale) => locale.code)
+      .map((locale) => locale.code),
     // This is the default locale you want to be used when visiting
     // a non-locale prefixed path e.g. `/hello`
     defaultLocale: "en",
