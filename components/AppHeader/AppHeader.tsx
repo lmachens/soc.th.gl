@@ -37,7 +37,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
         </MediaQuery>
         <Image src={LogoSmall} alt="SOC.GG" />
       </Box>
-      <Group spacing="xs" style={{ display: "none" }}>
+      <Group spacing="xs">
         <HeaderControl
           link="https://discord.com/invite/NTZu8Px"
           tooltip="Join the community"
