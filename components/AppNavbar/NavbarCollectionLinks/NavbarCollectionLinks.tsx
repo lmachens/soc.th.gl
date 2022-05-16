@@ -1,5 +1,5 @@
 import { Text } from "@mantine/core";
-import { ChevronDownIcon } from "@modulz/radix-icons";
+import { ChevronDownIcon } from "@primer/octicons-react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";

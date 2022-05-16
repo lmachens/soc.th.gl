@@ -1,6 +1,6 @@
 import { AppProps } from "next/app";
 import Head from "next/head";
-import { Container, Global, MantineProvider } from "@mantine/core";
+import { Global, MantineProvider } from "@mantine/core";
 import AppLayout from "../components/AppLayout/AppLayout";
 
 export default function App(props: AppProps) {
@@ -17,7 +17,6 @@ export default function App(props: AppProps) {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </Head>
-
       <MantineProvider
         withGlobalStyles
         withNormalizeCSS
@@ -63,9 +62,7 @@ export default function App(props: AppProps) {
           })}
         />
         <AppLayout collectionLinks={pageProps.collectionLinks}>
-          <Container>
-            <Component {...pageProps} />
-          </Container>
+          <Component {...pageProps} />
         </AppLayout>
       </MantineProvider>
     </>

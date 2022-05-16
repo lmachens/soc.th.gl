@@ -1,4 +1,4 @@
-import { AppShell } from "@mantine/core";
+import { AppShell, Container } from "@mantine/core";
 import { ReactNode, useState } from "react";
 import { CollectionLink } from "../../lib/staticProps";
 import AppHeader from "../AppHeader/AppHeader";
@@ -26,7 +26,7 @@ const AppLayout = ({ collectionLinks, children }: Props) => {
         <AppNavbar opened={openedNavbar} collectionLinks={collectionLinks} />
       }
     >
-      {children}
+      <Container>{children}</Container>
     </AppShell>
   );
 };

@@ -1,5 +1,5 @@
 import { Navbar, ScrollArea } from "@mantine/core";
-import { HomeIcon } from "@modulz/radix-icons";
+import { HomeIcon } from "@primer/octicons-react";
 import { CollectionLink } from "../../lib/staticProps";
 import NavbarCollectionLinks from "./NavbarCollectionLinks/NavbarCollectionLinks";
 import NavbarMainLink from "./NavbarMainLink/NavbarMainLink";
@@ -23,10 +23,7 @@ const AppNavbar = ({ collectionLinks, opened }: Props) => {
       width={{ sm: 200, lg: 300 }}
     >
       <ScrollArea style={{ height: "100vh" }} type="scroll">
-        <NavbarMainLink
-          href="/"
-          icon={<HomeIcon style={{ height: 18, width: 18 }} />}
-        >
+        <NavbarMainLink href="/" icon={<HomeIcon size={18} />}>
           Home
         </NavbarMainLink>
         {links}
