@@ -1,11 +1,10 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
-import factionCollection from "../../lib/collections/faction.json";
 
 import { Grid, Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../lib/terms";
-import { FactionDTO, getFaction } from "../../lib/factions";
+import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
 
 const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
   faction,
@@ -14,14 +13,31 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
   return (
     <Stack>
       <Title order={4}>{faction.name}</Title>
-      <SpriteSheet spriteSheet={faction.bannerSprite} />
-      <SpriteSheet spriteSheet={faction.symbolSprite} />
+      {faction.bannerSprite && (
+        <SpriteSheet spriteSheet={faction.bannerSprite} />
+      )}
+      {faction.symbolSprite && (
+        <SpriteSheet spriteSheet={faction.symbolSprite} />
+      )}
       <Text size="sm">{faction.description}</Text>
       <Title order={5}>{terms.wielders}</Title>
-      <Grid justify="center" mt="md">
-        {faction.commanders.map((commander: any) => (
-          <Grid.Col key={commander.id} sx={{ flexBasis: "auto" }}>
-            <SpriteSheet spriteSheet={commander.portrait} />
+      <Grid mt="md">
+        {faction.commanders.map((commander) => (
+          <Grid.Col key={commander.type} sx={{ flexBasis: "auto" }}>
+            {commander.portrait && (
+              <SpriteSheet spriteSheet={commander.portrait} />
+            )}
+          </Grid.Col>
+        ))}
+      </Grid>
+      <Title order={5}>{terms.units}</Title>
+
+      <Grid mt="md">
+        {faction.units.map((unit) => (
+          <Grid.Col key={unit.vanilla.languageKey} sx={{ flexBasis: "auto" }}>
+            {unit.vanilla.sprite && (
+              <SpriteSheet spriteSheet={unit.vanilla.sprite} />
+            )}
           </Grid.Col>
         ))}
       </Grid>
@@ -40,9 +56,9 @@ export const getStaticProps = withStaticBase(async (context) => {
       notFound: true,
     };
   }
-
   const terms: TermsDTO = {
     wielders: getTerm("Common/Wielders", context.locale!),
+    units: getTerm("Tutorial/CodexCategory/Units", context.locale!),
   };
 
   return {
@@ -55,7 +71,7 @@ export const getStaticProps = withStaticBase(async (context) => {
 });
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const factions = factionCollection
+  const factions = getFactions("en")
     .filter((faction) => faction.symbolSprite)
     .map((faction) => ({
       params: {

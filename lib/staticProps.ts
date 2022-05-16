@@ -1,6 +1,7 @@
 import { GetStaticProps } from "next";
-import factionCollection from "./collections/faction.json";
+
 import skillCollection from "./collections/skill.json";
+import { getFactions } from "./factions";
 import { getTerm } from "./terms";
 
 export type CollectionLink = {
@@ -22,7 +23,7 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       ...propsResult,
     };
 
-    const factions = factionCollection
+    const factions = getFactions(context.locale!)
       .filter((faction) => faction.symbolSprite)
       .map((faction) => ({
         to: `/factions/${faction.type}`,

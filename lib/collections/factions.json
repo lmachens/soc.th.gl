@@ -1,0 +1,1835 @@
+[
+  {
+    "type": "Neutral",
+    "languageKey": "Neutral",
+    "bannerSprite": {
+      "name": "BannerColorable",
+      "spriteSheet": "NeutralUIDecoration.png",
+      "x": 0,
+      "y": 739.0761,
+      "width": 193,
+      "height": 284.9239
+    },
+    "symbolSprite": null,
+    "commanders": [
+      {
+        "id": 1,
+        "portrait": {
+          "name": "HostilePortrait",
+          "spriteSheet": "NeutralWielderPortraits.png",
+          "x": 6,
+          "y": 59,
+          "width": 193,
+          "height": 191
+        },
+        "type": "Ghost"
+      },
+      {
+        "id": 2,
+        "portrait": null
+      },
+      {
+        "id": 3,
+        "portrait": null
+      }
+    ],
+    "units": [
+      {
+        "vanilla": {
+          "id": 0,
+          "languageKey": "Wolf",
+          "sprite": {
+            "name": "NeutralWolfDefault1Idle1",
+            "spriteSheet": "NeutralWolfAtlas.png",
+            "x": 327,
+            "y": 42,
+            "width": 67,
+            "height": 43
+          },
+          "adventureSprite": {
+            "name": "NeutralHostilesDefault1Wolf1",
+            "spriteSheet": "NeutralHostilesAtlas.png",
+            "x": 122,
+            "y": 47,
+            "width": 43,
+            "height": 27
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 6,
+          "languageKey": "Bandit",
+          "sprite": {
+            "name": "NeutralBanditLeftAxe1Idle1",
+            "spriteSheet": "NeutralBanditAtlas.png",
+            "x": 145,
+            "y": 134,
+            "width": 1,
+            "height": 1
+          },
+          "adventureSprite": {
+            "name": "NeutralHostilesDefault7Bandit1",
+            "spriteSheet": "NeutralHostilesAtlas.png",
+            "x": 32,
+            "y": 35,
+            "width": 46.923878,
+            "height": 48
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      }
+    ]
+  },
+  {
+    "type": "Arleon",
+    "languageKey": "Arleon",
+    "bannerSprite": {
+      "name": "BannerColorable",
+      "spriteSheet": "ArleonUI.png",
+      "x": 1436,
+      "y": 1682,
+      "width": 96,
+      "height": 147
+    },
+    "symbolSprite": {
+      "name": "TopCircleSymbol",
+      "spriteSheet": "ArleonUI.png",
+      "x": 1569,
+      "y": 1833,
+      "width": 82,
+      "height": 91
+    },
+    "commanders": [
+      {
+        "id": 2,
+        "portrait": {
+          "name": "StormspirePortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 288,
+          "y": 796,
+          "width": 208,
+          "height": 228
+        },
+        "type": "GiandraStormspire"
+      },
+      {
+        "id": 3,
+        "portrait": {
+          "name": "StoutheartPortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 0,
+          "y": 298,
+          "width": 185,
+          "height": 208
+        },
+        "type": "Cecilia"
+      },
+      {
+        "id": 4,
+        "portrait": {
+          "name": "SilverlinkPortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 0,
+          "y": 67,
+          "width": 147,
+          "height": 227
+        },
+        "type": "BaronSilverlink"
+      },
+      {
+        "id": 5,
+        "portrait": {
+          "name": "EthyllePortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 0,
+          "y": 510,
+          "width": 277,
+          "height": 269
+        },
+        "type": "EthylleErnaline"
+      },
+      {
+        "id": 6,
+        "portrait": {
+          "name": "RavenfayrePortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 151,
+          "y": 76,
+          "width": 173,
+          "height": 218
+        },
+        "type": "Ravenfayre"
+      },
+      {
+        "id": 7,
+        "portrait": {
+          "name": "PeradinePortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 328,
+          "y": 123,
+          "width": 180,
+          "height": 214
+        },
+        "type": "Peradine"
+      },
+      {
+        "id": 8,
+        "portrait": {
+          "name": "GnawPortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 0,
+          "y": 783,
+          "width": 284,
+          "height": 241
+        },
+        "type": "Gnaw"
+      },
+      {
+        "id": 10,
+        "portrait": {
+          "name": "ThornecliffPortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 281,
+          "y": 341,
+          "width": 190,
+          "height": 225
+        },
+        "type": "ViljaOfThornecliff"
+      },
+      {
+        "id": 11,
+        "portrait": {
+          "name": "HammondPortrait",
+          "spriteSheet": "ArleonWielderPortraits.png",
+          "x": 288,
+          "y": 570,
+          "width": 191,
+          "height": 222
+        },
+        "type": "LadyElisaHammond"
+      }
+    ],
+    "units": [
+      {
+        "vanilla": {
+          "id": 11,
+          "languageKey": "Militia",
+          "sprite": {
+            "name": "ArleonMilitiaDefault1idle1",
+            "spriteSheet": "ArleonMilitiaAtlas.png",
+            "x": 380,
+            "y": 328,
+            "width": 39.941795,
+            "height": 58
+          },
+          "adventureSprite": {
+            "name": "ArleonHostilesIdle1Militia1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 346,
+            "y": 87,
+            "width": 25,
+            "height": 35
+          }
+        },
+        "upgraded": {
+          "id": 1,
+          "languageKey": "Sapper",
+          "sprite": {
+            "name": "ArleonHostilesIdle7Sapper1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 395,
+            "y": 160,
+            "width": 27,
+            "height": 42
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 10,
+          "languageKey": "Ranger",
+          "sprite": {
+            "name": "ArleonRangerDefault1Idle1",
+            "spriteSheet": "ArleonRangerAtlas.png",
+            "x": 147.01291,
+            "y": 301.0761,
+            "width": 60.974174,
+            "height": 67.89713
+          },
+          "adventureSprite": {
+            "name": "ArleonHostilesIdle25Ranger1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 167,
+            "y": 190,
+            "width": 33,
+            "height": 42
+          }
+        },
+        "upgraded": {
+          "id": 2,
+          "languageKey": "Archer",
+          "sprite": {
+            "name": "ArleonHostilesIdle31Archer1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 67,
+            "y": 116,
+            "width": 36.881676,
+            "height": 41
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 12,
+          "languageKey": "Minstrel",
+          "sprite": {
+            "name": "ArleonMinstrelDefault1Idle1",
+            "spriteSheet": "ArleonMinstrelAtlas.png",
+            "x": 138,
+            "y": 248.07613,
+            "width": 39,
+            "height": 70.92388
+          },
+          "adventureSprite": {
+            "name": "ArleonHostilesIdle13Minstrel1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 284,
+            "y": 74,
+            "width": 21,
+            "height": 41
+          }
+        },
+        "upgraded": {
+          "id": 3,
+          "languageKey": "Troubadour",
+          "sprite": {
+            "name": "ArleonHostilesIdle19Troubadour1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 220,
+            "y": 85,
+            "width": 21,
+            "height": 41
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 4,
+          "languageKey": "Footman",
+          "sprite": {
+            "name": "ArleonFootmanDefault1Idle1",
+            "spriteSheet": "ArleonFootmanAtlas.png",
+            "x": 227,
+            "y": 130,
+            "width": 41.923878,
+            "height": 68
+          },
+          "adventureSprite": {
+            "name": "ArleonHostilesIdle37Footman1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 395,
+            "y": 202,
+            "width": 31,
+            "height": 41
+          }
+        },
+        "upgraded": {
+          "id": 13,
+          "languageKey": "ShieldOfOrder",
+          "sprite": {
+            "name": "ArleonHostilesIdle43ShieldOfOrder1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 335,
+            "y": 203,
+            "width": 31,
+            "height": 41
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 5,
+          "languageKey": "Knight",
+          "sprite": {
+            "name": "ArleonKnightDefault1Idle1",
+            "spriteSheet": "ArleonKnightAtlas.png",
+            "x": 458,
+            "y": 663,
+            "width": 83,
+            "height": 121
+          },
+          "adventureSprite": {
+            "name": "ArleonHostilesIdle49Knight1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 0,
+            "y": 374,
+            "width": 51,
+            "height": 69
+          }
+        },
+        "upgraded": {
+          "id": 14,
+          "languageKey": "FistOfOrder",
+          "sprite": {
+            "name": "ArleonHostilesIdle55FistOfOrder1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 228,
+            "y": 444,
+            "width": 47,
+            "height": 68
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 6,
+          "languageKey": "HornedOne",
+          "sprite": {
+            "name": "ArleonHornedOneDefault1Idle1",
+            "spriteSheet": "ArleonHornedOneAtlas.png",
+            "x": 293,
+            "y": 359,
+            "width": 65,
+            "height": 102
+          },
+          "adventureSprite": {
+            "name": "ArleonHostilesIdle69HornedOne1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 143,
+            "y": 288,
+            "width": 39,
+            "height": 56
+          }
+        },
+        "upgraded": {
+          "id": 15,
+          "languageKey": "QueensGuard",
+          "sprite": {
+            "name": "ArleonHostilesIdle75QueensGuard1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 343,
+            "y": 322,
+            "width": 39,
+            "height": 59
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 7,
+          "languageKey": "FaeySpirit",
+          "sprite": {
+            "name": "ArleonFaeySpiritDefault1Idle1",
+            "spriteSheet": "ArleonFaeySpiritAtlas.png",
+            "x": 189,
+            "y": 97,
+            "width": 65,
+            "height": 47
+          },
+          "adventureSprite": {
+            "name": "ArleonHostilesIdle61FaeySpirit1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 0.05131668,
+            "y": 91.07612,
+            "width": 45.921932,
+            "height": 37.923878
+          }
+        },
+        "upgraded": {
+          "id": 16,
+          "languageKey": "FaeyRager",
+          "sprite": {
+            "name": "ArleonHostilesIdle65FaeyRager1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 455,
+            "y": 331,
+            "width": 45.973248,
+            "height": 47
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 8,
+          "languageKey": "FaeyNoble",
+          "sprite": {
+            "name": "ArleonFaeyNobleDefault1Idle1",
+            "spriteSheet": "ArleonFaeyNobleAtlas.png",
+            "x": 337,
+            "y": 272,
+            "width": 79,
+            "height": 107
+          },
+          "adventureSprite": {
+            "name": "ArleonHostilesIdle81FaeyNoble1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 289,
+            "y": 387,
+            "width": 44,
+            "height": 51.923878
+          }
+        },
+        "upgraded": {
+          "id": 17,
+          "languageKey": "FaeyQueen",
+          "sprite": {
+            "name": "ArleonHostilesIdle87FaeyQueen1",
+            "spriteSheet": "ArleonHostilesAtlas.png",
+            "x": 259,
+            "y": 340,
+            "width": 49,
+            "height": 53
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 8,
+          "languageKey": "Ballista",
+          "sprite": {
+            "name": "ArleonBalistaDefault1Idle1",
+            "spriteSheet": "ArleonBallistaAtlas.png",
+            "x": 128,
+            "y": 230,
+            "width": 72,
+            "height": 54
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      }
+    ]
+  },
+  {
+    "type": "Loth",
+    "languageKey": "Loth",
+    "bannerSprite": {
+      "name": "BannerColorable",
+      "spriteSheet": "LothUI.png",
+      "x": 1436,
+      "y": 1680,
+      "width": 96,
+      "height": 149
+    },
+    "symbolSprite": {
+      "name": "TopCircleSymbol",
+      "spriteSheet": "LothUI.png",
+      "x": 1569,
+      "y": 1833,
+      "width": 82,
+      "height": 91
+    },
+    "commanders": [
+      {
+        "id": 1,
+        "portrait": {
+          "name": "AldusPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 344,
+          "y": 176,
+          "width": 161,
+          "height": 212
+        },
+        "type": "BaronAldus"
+      },
+      {
+        "id": 2,
+        "portrait": {
+          "name": "MarjattaPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 178,
+          "y": 374,
+          "width": 164,
+          "height": 222
+        },
+        "type": "DoctorMarjatta"
+      },
+      {
+        "id": 3,
+        "portrait": {
+          "name": "WieshPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 190,
+          "y": 809,
+          "width": 187,
+          "height": 214
+        },
+        "type": "Wiesh"
+      },
+      {
+        "id": 4,
+        "portrait": {
+          "name": "AmbertinaPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 344,
+          "y": 390,
+          "width": 162,
+          "height": 206
+        },
+        "type": "Ambertina"
+      },
+      {
+        "id": 6,
+        "portrait": {
+          "name": "HillarPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 190,
+          "y": 598,
+          "width": 178,
+          "height": 209
+        },
+        "type": "BrotherHillar"
+      },
+      {
+        "id": 8,
+        "portrait": {
+          "name": "CoralPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 1,
+          "y": 359,
+          "width": 159,
+          "height": 211
+        },
+        "type": "Coral"
+      },
+      {
+        "id": 9,
+        "portrait": {
+          "name": "MagnoliaPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 1,
+          "y": 572,
+          "width": 175,
+          "height": 224
+        },
+        "type": "MagnoliaSilverlink"
+      },
+      {
+        "id": 10,
+        "portrait": {
+          "name": "MerkothPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 1,
+          "y": 798,
+          "width": 187,
+          "height": 225
+        },
+        "type": "Merkoth"
+      },
+      {
+        "id": 12,
+        "portrait": {
+          "name": "RoderickPortrait",
+          "spriteSheet": "LothWielderPortraits.png",
+          "x": 162,
+          "y": 168,
+          "width": 159,
+          "height": 204
+        },
+        "type": "Roderick"
+      }
+    ],
+    "units": [
+      {
+        "vanilla": {
+          "id": 9,
+          "languageKey": "Rats",
+          "sprite": {
+            "name": "LothRatsRat11Idle1",
+            "spriteSheet": "LothRatsAtlas.png",
+            "x": 191,
+            "y": 0,
+            "width": 37,
+            "height": 27
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork1Rats1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 286,
+            "y": 8,
+            "width": 34,
+            "height": 19
+          }
+        },
+        "upgraded": {
+          "id": 1,
+          "languageKey": "PlagueRats",
+          "sprite": {
+            "name": "LothHostilesArtwork7PlagueRats1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 0,
+            "y": 57,
+            "width": 35,
+            "height": 31
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 8,
+          "languageKey": "Oathbound",
+          "sprite": {
+            "name": "LothOathboundDefault1Idle1",
+            "spriteSheet": "LothOathboundAtlas.png",
+            "x": 397,
+            "y": 82,
+            "width": 51,
+            "height": 66
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork13Oathbound1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 344,
+            "y": 40,
+            "width": 27,
+            "height": 38
+          }
+        },
+        "upgraded": {
+          "id": 16,
+          "languageKey": "OathboundLegionaire",
+          "sprite": {
+            "name": "LothHostilesArtwork19OathboundLegionaire1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 470.0233,
+            "y": 124,
+            "width": 34.949966,
+            "height": 38
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 2,
+          "languageKey": "Cultist",
+          "sprite": {
+            "name": "LothCultistDefault1Idle1",
+            "spriteSheet": "LothCultistAtlas.png",
+            "x": 417,
+            "y": 88,
+            "width": 33,
+            "height": 69.97325
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork25Cultist1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 468,
+            "y": 16,
+            "width": 21,
+            "height": 42
+          }
+        },
+        "upgraded": {
+          "id": 10,
+          "languageKey": "Zealot",
+          "sprite": {
+            "name": "LothHostilesArtwork31Zealot1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 298,
+            "y": 40,
+            "width": 22,
+            "height": 43
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 3,
+          "languageKey": "Embalmer",
+          "sprite": {
+            "name": "LothEmbalmerDefault1Idle1",
+            "spriteSheet": "LothEmbalmerAtlas.png",
+            "x": 109,
+            "y": 113,
+            "width": 40,
+            "height": 80
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork37Embalmer1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 2,
+            "y": 88,
+            "width": 26,
+            "height": 46
+          }
+        },
+        "upgraded": {
+          "id": 11,
+          "languageKey": "Doctor",
+          "sprite": {
+            "name": "LothHostilesArtwork43Doctor1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 484,
+            "y": 411,
+            "width": 27,
+            "height": 45
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 4,
+          "languageKey": "Necromancer",
+          "sprite": {
+            "name": "LothScholarDefault1Idle1",
+            "spriteSheet": "LothScholarAtlas.png",
+            "x": 377,
+            "y": 121,
+            "width": 57,
+            "height": 84
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork49Necromancer1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 138,
+            "y": 149,
+            "width": 33,
+            "height": 48
+          }
+        },
+        "upgraded": {
+          "id": 12,
+          "languageKey": "Oathsinger",
+          "sprite": {
+            "name": "LothHostilesArtwork55Oathsinger1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 445,
+            "y": 173,
+            "width": 32,
+            "height": 58
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 14,
+          "languageKey": "SanctifiedBones",
+          "sprite": {
+            "name": "LothSanctifiedBonesDefault1Idle1",
+            "spriteSheet": "LothSanctifiedBonesAtlas.png",
+            "x": 194,
+            "y": 261,
+            "width": 86,
+            "height": 87.94027
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork79SanctifiedBones1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 260,
+            "y": 324,
+            "width": 49.923878,
+            "height": 65
+          }
+        },
+        "upgraded": {
+          "id": 6,
+          "languageKey": "BlessedBones",
+          "sprite": {
+            "name": "LothHostilesArtwork73BlessedBones1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 266,
+            "y": 214,
+            "width": 48,
+            "height": 55
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 5,
+          "languageKey": "AurelianCleric",
+          "sprite": {
+            "name": "LothAurelianClericDefault1Idle1",
+            "spriteSheet": "LothAurelianClericAtlas.png",
+            "x": 245,
+            "y": 233,
+            "width": 55,
+            "height": 83
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork61AurelianCleric1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 129,
+            "y": 105,
+            "width": 30,
+            "height": 44
+          }
+        },
+        "upgraded": {
+          "id": 13,
+          "languageKey": "AurelianHighCleric",
+          "sprite": {
+            "name": "LothHostilesArtwork67AurelianHighCleric1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 27,
+            "y": 129,
+            "width": 31,
+            "height": 46
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 7,
+          "languageKey": "Legion",
+          "sprite": {
+            "name": "LothLegionDefault1Idle1",
+            "spriteSheet": "LothLegionAtlas.png",
+            "x": 448,
+            "y": 358,
+            "width": 83,
+            "height": 110
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork85Legion1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 437.02676,
+            "y": 387,
+            "width": 47.973248,
+            "height": 67.98709
+          }
+        },
+        "upgraded": {
+          "id": 15,
+          "languageKey": "HighLegion",
+          "sprite": {
+            "name": "LothHostilesArtwork91HighLegion1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 182,
+            "y": 387,
+            "width": 58,
+            "height": 68.92388
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 8,
+          "languageKey": "Zombie",
+          "sprite": {
+            "name": "LothZombieDefault1Idle1",
+            "spriteSheet": "LothZombieAtlas.png",
+            "x": 115,
+            "y": 84,
+            "width": 49,
+            "height": 72
+          },
+          "adventureSprite": {
+            "name": "LothHostilesArtwork97Zombie1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 242,
+            "y": 58,
+            "width": 29,
+            "height": 37
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 8,
+          "languageKey": "Ballista",
+          "sprite": {
+            "name": "ArleonBalistaDefault1Idle1",
+            "spriteSheet": "ArleonBallistaAtlas.png",
+            "x": 128,
+            "y": 230,
+            "width": 72,
+            "height": 54
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      }
+    ]
+  },
+  {
+    "type": "Barya",
+    "languageKey": "Barya",
+    "bannerSprite": {
+      "name": "BannerColorable",
+      "spriteSheet": "BaryaUI.png",
+      "x": 958,
+      "y": 1751,
+      "width": 96,
+      "height": 129
+    },
+    "symbolSprite": {
+      "name": "TopCircleSymbol",
+      "spriteSheet": "BaryaUI.png",
+      "x": 1330,
+      "y": 1903,
+      "width": 82,
+      "height": 91
+    },
+    "commanders": [
+      {
+        "id": 2,
+        "portrait": {
+          "name": "NimanderBreeze",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 552,
+          "y": 12,
+          "width": 145,
+          "height": 226
+        },
+        "type": "Nimander"
+      },
+      {
+        "id": 3,
+        "portrait": {
+          "name": "Mehry",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 618,
+          "y": 268,
+          "width": 195,
+          "height": 199
+        },
+        "type": "Mehry"
+      },
+      {
+        "id": 4,
+        "portrait": {
+          "name": "Silkspool",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 1,
+          "y": 199,
+          "width": 218,
+          "height": 268
+        },
+        "type": "Silkspool"
+      },
+      {
+        "id": 5,
+        "portrait": {
+          "name": "Aleah",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 425,
+          "y": 240,
+          "width": 191,
+          "height": 227
+        },
+        "type": "Aleah"
+      },
+      {
+        "id": 6,
+        "portrait": {
+          "name": "Bihgli",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 1,
+          "y": 1,
+          "width": 184,
+          "height": 196
+        },
+        "type": "Bihgli"
+      },
+      {
+        "id": 7,
+        "portrait": {
+          "name": "Everthink",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 387,
+          "y": 35,
+          "width": 163,
+          "height": 203
+        },
+        "type": "Everthink"
+      },
+      {
+        "id": 8,
+        "portrait": {
+          "name": "Rosewater",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 699,
+          "y": 65,
+          "width": 157,
+          "height": 201
+        },
+        "type": "Rosewater"
+      },
+      {
+        "id": 9,
+        "portrait": {
+          "name": "Sanaz",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 221,
+          "y": 241,
+          "width": 202,
+          "height": 226
+        },
+        "type": "Sanaz"
+      },
+      {
+        "id": 10,
+        "portrait": {
+          "name": "Soughtfor",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "x": 221,
+          "y": 40,
+          "width": 164,
+          "height": 199
+        },
+        "type": "Soughtfor"
+      }
+    ],
+    "units": [
+      {
+        "vanilla": {
+          "id": 1,
+          "languageKey": "Piper",
+          "sprite": {
+            "name": "BaryaPiperDefault1Idle1",
+            "spriteSheet": "BaryaPiperAtlas.png",
+            "x": 229,
+            "y": 14,
+            "width": 33,
+            "height": 51
+          },
+          "adventureSprite": {
+            "name": "BaryaHostilesIdle1Piper1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 441,
+            "y": 28,
+            "width": 25,
+            "height": 35
+          }
+        },
+        "upgraded": {
+          "id": 9,
+          "languageKey": "SteamPiper",
+          "sprite": {
+            "name": "BaryaHostilesIdle7Steampiper1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 490,
+            "y": 8,
+            "width": 22,
+            "height": 35
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 2,
+          "languageKey": "Pikeneer",
+          "sprite": {
+            "name": "BaryaPikeneerDefault1Idle1",
+            "spriteSheet": "BaryaPikeneerAtlas.png",
+            "x": 429,
+            "y": 74,
+            "width": 75,
+            "height": 83
+          },
+          "adventureSprite": {
+            "name": "BaryaHostilesIdle25Pikeneer1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 429,
+            "y": 137,
+            "width": 22,
+            "height": 57
+          }
+        },
+        "upgraded": {
+          "id": 10,
+          "languageKey": "PikeneerVeteran",
+          "sprite": {
+            "name": "BaryaHostilesIdle31PikeneerVeteran1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 344,
+            "y": 144,
+            "width": 25,
+            "height": 55
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 3,
+          "languageKey": "Musketeer",
+          "sprite": {
+            "name": "BaryaMusketeerDefault1Idle1",
+            "spriteSheet": "BaryaMusketeerAtlas.png",
+            "x": 90,
+            "y": 244,
+            "width": 51,
+            "height": 74
+          },
+          "adventureSprite": {
+            "name": "BaryaHostilesIdle37Musketeer1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 370,
+            "y": 68,
+            "width": 28,
+            "height": 41
+          }
+        },
+        "upgraded": {
+          "id": 11,
+          "languageKey": "MusketeerVeteran",
+          "sprite": {
+            "name": "BaryaHostilesIdle43MusketeerVeteran1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 144,
+            "y": 151,
+            "width": 32.952297,
+            "height": 43
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 4,
+          "languageKey": "Dreath",
+          "sprite": {
+            "name": "BaryaDreathDefault1Idle1",
+            "spriteSheet": "BaryaDreathAtlas.png",
+            "x": 373,
+            "y": 81,
+            "width": 51,
+            "height": 46
+          },
+          "adventureSprite": {
+            "name": "BaryaHostilesIdle13Dreath1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 163,
+            "y": 10,
+            "width": 31,
+            "height": 26
+          }
+        },
+        "upgraded": {
+          "id": 12,
+          "languageKey": "DireDreath",
+          "sprite": {
+            "name": "BaryaHostilesIdle19DireDreath1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 111,
+            "y": 45,
+            "width": 40,
+            "height": 26
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 5,
+          "languageKey": "Brute",
+          "sprite": {
+            "name": "BaryaBruteDefault1Idle1",
+            "spriteSheet": "BaryaBruteAtlas.png",
+            "x": 361,
+            "y": 54,
+            "width": 77,
+            "height": 90
+          },
+          "adventureSprite": {
+            "name": "BaryaHostilesIdle61Brute1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 208,
+            "y": 193,
+            "width": 47,
+            "height": 49
+          }
+        },
+        "upgraded": {
+          "id": 13,
+          "languageKey": "ScarredBrute",
+          "sprite": {
+            "name": "BaryaHostilesIdle67ScarredBrute1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 234.07613,
+            "y": 242,
+            "width": 46.847755,
+            "height": 55
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 6,
+          "languageKey": "Tinkerer",
+          "sprite": {
+            "name": "BaryaTinkererDefault1Idle1",
+            "spriteSheet": "BaryaTinkererAtlas.png",
+            "x": 338,
+            "y": 89,
+            "width": 47,
+            "height": 70
+          },
+          "adventureSprite": {
+            "name": "BaryaHostilesIdle49Tinkerer1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 482,
+            "y": 72,
+            "width": 30,
+            "height": 40
+          }
+        },
+        "upgraded": {
+          "id": 14,
+          "languageKey": "Artificer",
+          "sprite": {
+            "name": "BaryaHostilesIdle55Artificer1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 271,
+            "y": 109,
+            "width": 31,
+            "height": 43
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 7,
+          "languageKey": "Sassanid",
+          "sprite": {
+            "name": "BaryaSassanidDefault1Idle1",
+            "spriteSheet": "BaryaSassanidAtlas.png",
+            "x": 321,
+            "y": 109,
+            "width": 57,
+            "height": 50.923878
+          },
+          "adventureSprite": {
+            "name": "BaryaHostilesIdle73Sassanid1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 195,
+            "y": 37,
+            "width": 32,
+            "height": 31
+          }
+        },
+        "upgraded": {
+          "id": 15,
+          "languageKey": "SassanidVeteran",
+          "sprite": {
+            "name": "BaryaHostilesIdle79SassanidVeteran1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 47,
+            "y": 104,
+            "width": 32,
+            "height": 39
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 8,
+          "languageKey": "Hellbreath",
+          "sprite": {
+            "name": "BaryaHellbreathDefault1Idle1",
+            "spriteSheet": "BaryaHellbreathAtlas.png",
+            "x": 916,
+            "y": 145,
+            "width": 99.92388,
+            "height": 88
+          },
+          "adventureSprite": {
+            "name": "BaryaHostilesIdle85Hellbreath1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 96,
+            "y": 242,
+            "width": 61,
+            "height": 56
+          }
+        },
+        "upgraded": {
+          "id": 16,
+          "languageKey": "Hellroar",
+          "sprite": {
+            "name": "BaryaHostilesIdle91Hellroar1",
+            "spriteSheet": "BaryaHostilesAtlas.png",
+            "x": 0.047704518,
+            "y": 180,
+            "width": 61.952297,
+            "height": 56
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 8,
+          "languageKey": "Ballista",
+          "sprite": {
+            "name": "ArleonBalistaDefault1Idle1",
+            "spriteSheet": "ArleonBallistaAtlas.png",
+            "x": 128,
+            "y": 230,
+            "width": 72,
+            "height": 54
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      }
+    ]
+  },
+  {
+    "type": "Rana",
+    "languageKey": "Rana",
+    "bannerSprite": {
+      "name": "BannerColorable",
+      "spriteSheet": "RanaUI.png",
+      "x": 958,
+      "y": 1794,
+      "width": 96,
+      "height": 138
+    },
+    "symbolSprite": {
+      "name": "TopCircleSymbol",
+      "spriteSheet": "RanaUI.png",
+      "x": 1254,
+      "y": 1964,
+      "width": 82,
+      "height": 82
+    },
+    "commanders": [
+      {
+        "id": 1,
+        "portrait": {
+          "name": "Cheekham",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 216,
+          "y": 824,
+          "width": 213,
+          "height": 199
+        },
+        "type": "Cheekham"
+      },
+      {
+        "id": 3,
+        "portrait": {
+          "name": "Itchamo",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 216,
+          "y": 645,
+          "width": 205,
+          "height": 177
+        },
+        "type": "Itchamo"
+      },
+      {
+        "id": 4,
+        "portrait": {
+          "name": "MSugna",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 1,
+          "y": 623,
+          "width": 203,
+          "height": 193
+        },
+        "type": "Msugna"
+      },
+      {
+        "id": 5,
+        "portrait": {
+          "name": "PCha",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 1,
+          "y": 214,
+          "width": 189,
+          "height": 209
+        },
+        "type": "Pcha"
+      },
+      {
+        "id": 6,
+        "portrait": {
+          "name": "Rasc",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 1,
+          "y": 23,
+          "width": 182,
+          "height": 189
+        },
+        "type": "Rasc"
+      },
+      {
+        "id": 7,
+        "portrait": {
+          "name": "Rasc",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 1,
+          "y": 23,
+          "width": 182,
+          "height": 189
+        },
+        "type": "RascVanilla"
+      },
+      {
+        "id": 8,
+        "portrait": {
+          "name": "RikTap",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 1,
+          "y": 425,
+          "width": 196,
+          "height": 196
+        },
+        "type": "RikTap"
+      },
+      {
+        "id": 9,
+        "portrait": {
+          "name": "RLac",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 199,
+          "y": 208,
+          "width": 191,
+          "height": 225
+        },
+        "type": "Rlac"
+      },
+      {
+        "id": 10,
+        "portrait": {
+          "name": "SlaKin",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 206,
+          "y": 435,
+          "width": 201,
+          "height": 208
+        },
+        "type": "SlaKin"
+      },
+      {
+        "id": 2,
+        "portrait": {
+          "name": "TChyra",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "x": 1,
+          "y": 818,
+          "width": 213,
+          "height": 205
+        },
+        "type": "Tchyra"
+      }
+    ],
+    "units": [
+      {
+        "vanilla": {
+          "id": 1,
+          "languageKey": "Hunter",
+          "sprite": {
+            "name": "RanaHunterDefault1Idle1",
+            "spriteSheet": "RanaHunterAtlas.png",
+            "x": 118,
+            "y": 88,
+            "width": 70,
+            "height": 47
+          },
+          "adventureSprite": {
+            "name": "RanaHostilesIdle1Hunter1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 294,
+            "y": 21,
+            "width": 42,
+            "height": 31
+          }
+        },
+        "upgraded": {
+          "id": 9,
+          "languageKey": "StormGuard",
+          "sprite": {
+            "name": "RanaHostilesIdle7StormGuard1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 364,
+            "y": 92,
+            "width": 41,
+            "height": 40
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 4,
+          "languageKey": "Shaman",
+          "sprite": {
+            "name": "RanaShamanDefault1Idle1",
+            "spriteSheet": "RanaShamanAtlas.png",
+            "x": 134,
+            "y": 93,
+            "width": 58,
+            "height": 80
+          },
+          "adventureSprite": {
+            "name": "RanaHostilesIdle13Shaman1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 422.05133,
+            "y": 166,
+            "width": 35.89737,
+            "height": 47
+          }
+        },
+        "upgraded": {
+          "id": 10,
+          "languageKey": "Sage",
+          "sprite": {
+            "name": "RanaHostilesIdle19Sage1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 368,
+            "y": 247,
+            "width": 37,
+            "height": 51
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 11,
+          "languageKey": "Guard",
+          "sprite": {
+            "name": "RanaGuardDefault1Idle1",
+            "spriteSheet": "RanaGuardAtlas.png",
+            "x": 118,
+            "y": 42,
+            "width": 53,
+            "height": 59
+          },
+          "adventureSprite": {
+            "name": "RanaHostilesIdle85Guard1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 288,
+            "y": 52,
+            "width": 34,
+            "height": 41
+          }
+        },
+        "upgraded": {
+          "id": 12,
+          "languageKey": "Protector",
+          "sprite": {
+            "name": "RanaHostilesIdle91Guard upgrade1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 446,
+            "y": 85,
+            "width": 33,
+            "height": 47
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 5,
+          "languageKey": "Ravager",
+          "sprite": {
+            "name": "RanaRavagerDefault1Idle1",
+            "spriteSheet": "RanaRavagerAtlas.png",
+            "x": 330,
+            "y": 314,
+            "width": 94,
+            "height": 66
+          },
+          "adventureSprite": {
+            "name": "RanaHostilesIdle25Ravager1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 183.07613,
+            "y": 186,
+            "width": 48.847755,
+            "height": 33
+          }
+        },
+        "upgraded": {
+          "id": 13,
+          "languageKey": "RiderOfTheSwamp",
+          "sprite": {
+            "name": "RanaHostilesIdle31RiderOfTheSwamp1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 353,
+            "y": 332,
+            "width": 49,
+            "height": 62
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 3,
+          "languageKey": "Crawler",
+          "sprite": {
+            "name": "RanaCrawlerDefault1Idle1",
+            "spriteSheet": "RanaCrawlerAtlas.png",
+            "x": 416,
+            "y": 18,
+            "width": 51,
+            "height": 59
+          },
+          "adventureSprite": {
+            "name": "RanaHostilesIdle37Crawler1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 134,
+            "y": 153,
+            "width": 37,
+            "height": 37
+          }
+        },
+        "upgraded": {
+          "id": 14,
+          "languageKey": "AdultCrawler",
+          "sprite": {
+            "name": "RanaHostilesIdle43AdultCrawler1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 3.0761204,
+            "y": 178,
+            "width": 46.897125,
+            "height": 45
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 15,
+          "languageKey": "Tremor",
+          "sprite": {
+            "name": "RanaTremorDefault1Idle1",
+            "spriteSheet": "RanaTremorAtlas.png",
+            "x": 271.0429,
+            "y": 98,
+            "width": 88.95709,
+            "height": 131
+          },
+          "adventureSprite": {
+            "name": "RanaHostilesIdle49Tremor1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 0.0541268,
+            "y": 350,
+            "width": 52.91912,
+            "height": 77.92388
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 6,
+          "languageKey": "Chelun",
+          "sprite": {
+            "name": "RanaChelunDefault1Idle1",
+            "spriteSheet": "RanaChelunAtlas.png",
+            "x": 423,
+            "y": 250,
+            "width": 87,
+            "height": 83
+          },
+          "adventureSprite": {
+            "name": "RanaHostilesIdle55Chelun1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 450,
+            "y": 341,
+            "width": 50,
+            "height": 46.923878
+          }
+        },
+        "upgraded": {
+          "id": 16,
+          "languageKey": "ChelunElder",
+          "sprite": {
+            "name": "RanaHostilesIdle61ChelunElder1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 210,
+            "y": 295,
+            "width": 54,
+            "height": 49
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "id": 7,
+          "languageKey": "Dragonling",
+          "sprite": {
+            "name": "RanaDragonlingDefault1Idle1",
+            "spriteSheet": "RanaDragonlingAtlas.png",
+            "x": 120,
+            "y": 324,
+            "width": 72,
+            "height": 81
+          },
+          "adventureSprite": {
+            "name": "RanaHostilesIdle67Dragonling1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 0.05131668,
+            "y": 86,
+            "width": 45.872562,
+            "height": 46
+          }
+        },
+        "upgraded": {
+          "id": 8,
+          "languageKey": "Dragon",
+          "sprite": {
+            "name": "RanaHostilesIdle73Dragon1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 215,
+            "y": 381,
+            "width": 55,
+            "height": 60
+          }
+        },
+        "superUpgraded": {
+          "id": 8,
+          "languageKey": "ElderDragon",
+          "sprite": {
+            "name": "RanaHostilesIdle79ElderDragon1",
+            "spriteSheet": "RanaHostilesAtlas.png",
+            "x": 50,
+            "y": 369,
+            "width": 55,
+            "height": 62.943626
+          }
+        }
+      },
+      {
+        "vanilla": {
+          "id": 8,
+          "languageKey": "Ballista",
+          "sprite": {
+            "name": "ArleonBalistaDefault1Idle1",
+            "spriteSheet": "ArleonBallistaAtlas.png",
+            "x": 128,
+            "y": 230,
+            "width": 72,
+            "height": 54
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      }
+    ]
+  }
+]

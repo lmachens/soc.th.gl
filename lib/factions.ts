@@ -1,9 +1,9 @@
-import factionCollection from "./collections/faction.json";
+import factionsCollection from "./collections/factions.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
 
 export const getFactions = (locale: string) => {
-  const factions = factionCollection
+  const factions = factionsCollection
     .filter((faction) => faction.symbolSprite)
     .map<FactionSimpleDTO>((faction) => ({
       type: faction.type,
@@ -18,33 +18,25 @@ export const getFactions = (locale: string) => {
 };
 
 export const getFaction = (type: string, locale: string) => {
-  const factionSrc = factionCollection.find((faction) => faction.type === type);
+  const factionSrc = factionsCollection.find(
+    (faction) => faction.type === type
+  );
   if (!factionSrc) {
     return null;
   }
 
   const faction: FactionDTO = {
-    type: factionSrc.type,
+    ...factionSrc,
     name: getTerm(`Factions/${factionSrc.languageKey}/Name`, locale),
     description: getTerm(
       `Factions/${factionSrc.languageKey}/Description`,
       locale
     ),
-    bannerSprite: factionSrc.bannerSprite!,
-    symbolSprite: factionSrc.symbolSprite!,
     commanders: factionSrc.commanders.map((commander) => ({
-      id: commander.id,
-      portrait: commander.portrait.name
-        ? {
-            name: commander.portrait.name,
-            spriteSheet: commander.portrait.spriteSheet,
-            x: commander.portrait.x,
-            y: commander.portrait.y,
-            width: commander.portrait.width,
-            height: commander.portrait.height,
-          }
-        : null,
-      type: commander.type!,
+      ...commander,
+    })),
+    units: factionSrc.units.map((unit) => ({
+      ...unit,
     })),
   };
   return faction;
@@ -61,11 +53,49 @@ export type FactionDTO = {
   type: string;
   name: string;
   description: string;
-  bannerSprite: SpriteDTO;
-  symbolSprite: SpriteDTO;
+  bannerSprite: SpriteDTO | null;
+  symbolSprite: SpriteDTO | null;
   commanders: {
     id: number;
     portrait: SpriteDTO | null;
-    type: string;
+    type?: string;
+  }[];
+  units: {
+    vanilla: {
+      id: number;
+      languageKey: string;
+      sprite?: {
+        name: string;
+        spriteSheet: string;
+        x: number;
+        y: number;
+        width: number;
+        height: number;
+      } | null;
+    };
+    upgraded?: {
+      id: number;
+      languageKey: string;
+      sprite?: {
+        name: string;
+        spriteSheet: string;
+        x: number;
+        y: number;
+        width: number;
+        height: number;
+      };
+    } | null;
+    superUpgraded?: {
+      id: number;
+      languageKey: string;
+      sprite?: {
+        name: string;
+        spriteSheet: string;
+        x: number;
+        y: number;
+        width: number;
+        height: number;
+      };
+    } | null;
   }[];
 };
