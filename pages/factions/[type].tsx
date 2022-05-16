@@ -50,7 +50,6 @@ export default Faction;
 export const getStaticProps = withStaticBase(async (context) => {
   const type = context.params!.type as string;
   const faction = getFaction(type, context.locale!);
-
   if (!faction) {
     return {
       notFound: true,
@@ -78,8 +77,9 @@ export const getStaticPaths: GetStaticPaths = async () => {
         type: faction.type,
       },
     }));
+
   return {
     paths: factions,
-    fallback: false,
+    fallback: "blocking",
   };
 };

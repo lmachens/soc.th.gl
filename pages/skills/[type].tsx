@@ -78,6 +78,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
   }));
   return {
     paths: skills,
-    fallback: false,
+    fallback: "blocking",
   };
 };
