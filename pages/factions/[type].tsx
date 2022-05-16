@@ -6,14 +6,17 @@ import { Grid, Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm } from "../../lib/terms";
 
-const Faction: NextPage<{ faction: any }> = ({ faction }) => {
+const Faction: NextPage<{ faction: any; terms: { [key: string]: string } }> = ({
+  faction,
+  terms,
+}) => {
   return (
     <Stack>
       <Title order={4}>{faction.name}</Title>
       <SpriteSheet spriteSheet={faction.bannerSprite} />
       <SpriteSheet spriteSheet={faction.symbolSprite} />
       <Text size="sm">{faction.description}</Text>
-      <Title order={5}>Commanders</Title>
+      <Title order={5}>{terms.wielders}</Title>
       <Grid justify="center" mt="md">
         {faction.commanders.map((commander: any) => (
           <Grid.Col key={commander.id} sx={{ flexBasis: "auto" }}>
@@ -53,6 +56,9 @@ export const getStaticProps = withStaticBase(async (context) => {
           portrait: commander.portrait,
           type: commander.type,
         })),
+      },
+      terms: {
+        wielders: getTerm("Common/Wielders", context.locale!),
       },
     },
     revalidate: false,
