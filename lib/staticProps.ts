@@ -11,6 +11,9 @@ export type CollectionLink = {
   }[];
 };
 
+const sortByLabel = (a: { label: string }, b: { label: string }) =>
+  a.label.localeCompare(b.label);
+
 export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
   const getStaticPropsWithBase: GetStaticProps<T> = async (context) => {
     const propsResult = await getStaticProps(context);
@@ -24,12 +27,15 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       .map((faction) => ({
         to: `/factions/${faction.type}`,
         label: getTerm(`Factions/${faction.type}/Name`, context.locale!),
-      }));
+      }))
+      .sort(sortByLabel);
 
-    const skills = skillCollection.map((skill) => ({
-      to: `/skills/${skill.type}`,
-      label: getTerm(`Skills/${skill.type}`, context.locale!),
-    }));
+    const skills = skillCollection
+      .map((skill) => ({
+        to: `/skills/${skill.type}`,
+        label: getTerm(`Skills/${skill.type}`, context.locale!),
+      }))
+      .sort(sortByLabel);
 
     const collectionLinks: CollectionLink[] = [
       {
