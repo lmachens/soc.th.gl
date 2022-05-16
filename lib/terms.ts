@@ -22,7 +22,7 @@ export const getTerm = (
 
   if (!value) {
     console.warn(`Can not find ${term} - ${locale}`);
-    value = term;
+    value = "";
   }
 
   if (count) {

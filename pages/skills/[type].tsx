@@ -8,7 +8,10 @@ import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm } from "../../lib/terms";
 import { Fragment } from "react";
 
-const Skill: NextPage<{ skill: any }> = ({ skill }) => {
+const Skill: NextPage<{ skill: any; terms: { [key: string]: string } }> = ({
+  skill,
+  terms,
+}) => {
   return (
     <Stack>
       <Title order={4}>{skill.name}</Title>
@@ -18,13 +21,21 @@ const Skill: NextPage<{ skill: any }> = ({ skill }) => {
       <Stack>
         {skill.levels.map((level: any, index: number) => (
           <Fragment key={index}>
-            <Text dangerouslySetInnerHTML={{ __html: level.name }} />
-            <Text dangerouslySetInnerHTML={{ __html: level.description }} />
-            {level.bacteria.modifierData?.map((modifier: any) => (
+            <Title order={5} dangerouslySetInnerHTML={{ __html: level.name }} />
+            {level.description && (
+              <Text dangerouslySetInnerHTML={{ __html: level.description }} />
+            )}
+            {level.modifierData.map((modifier: any) => (
               <Text
                 key={modifier.type}
                 dangerouslySetInnerHTML={{ __html: modifier.description }}
               />
+            ))}
+            {level.resourcesIncome.map((resourceIncome: any) => (
+              <Text key={resourceIncome.type}>
+                {terms.production}
+                {resourceIncome.amount}
+              </Text>
             ))}
           </Fragment>
         ))}
@@ -62,23 +73,33 @@ export const getStaticProps = withStaticBase(async (context) => {
               `Skills/${skill.type}/Level${index + 1}/Description`,
               context.locale!
             ),
-            bacteria: {
-              modifierData:
-                bacteria.modifierData?.map((modifier) => ({
-                  type: modifier.type,
-                  description: getTerm(
-                    `Modifiers/${modifier.modifier.replace(
-                      "Troop",
-                      ""
-                    )}/Description`,
-                    context.locale!,
-                    modifier.amountToAdd,
-                    modifier.applicationType
-                  ),
-                })) || [],
-            },
+            modifierData:
+              bacteria.modifierData?.map((modifier) => ({
+                type: modifier.type,
+                description: getTerm(
+                  `Modifiers/${modifier.modifier.replace(
+                    "Troop",
+                    ""
+                  )}/Description`,
+                  context.locale!,
+                  modifier.amountToAdd,
+                  modifier.applicationType
+                ),
+              })) || [],
+            resourcesIncome:
+              bacteria.income?.resources.map((resource) => ({
+                type: resource.type,
+                amount: resource.amount,
+                allTimeAmount: resource.allTimeAmount,
+              })) || [],
           };
         }),
+      },
+      terms: {
+        production: getTerm(
+          "Skills/Production/Level1/Description",
+          context.locale!
+        ),
       },
     },
     revalidate: false,
