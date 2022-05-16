@@ -4,9 +4,10 @@ import factionCollection from "../../lib/collections/faction.json";
 
 import { Grid, Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import { getTerm } from "../../lib/terms";
+import { getTerm, TermsDTO } from "../../lib/terms";
+import { FactionDTO, getFaction } from "../../lib/factions";
 
-const Faction: NextPage<{ faction: any; terms: { [key: string]: string } }> = ({
+const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
   faction,
   terms,
 }) => {
@@ -31,35 +32,23 @@ const Faction: NextPage<{ faction: any; terms: { [key: string]: string } }> = ({
 export default Faction;
 
 export const getStaticProps = withStaticBase(async (context) => {
-  const type = context.params!.type;
+  const type = context.params!.type as string;
+  const faction = getFaction(type, context.locale!);
 
-  const faction = factionCollection.find((faction) => faction.type === type);
   if (!faction) {
     return {
       notFound: true,
     };
   }
 
+  const terms: TermsDTO = {
+    wielders: getTerm("Common/Wielders", context.locale!),
+  };
+
   return {
     props: {
-      faction: {
-        type: faction.type,
-        name: getTerm(`Factions/${faction.languageKey}/Name`, context.locale!),
-        description: getTerm(
-          `Factions/${faction.languageKey}/Description`,
-          context.locale!
-        ),
-        bannerSprite: faction.bannerSprite || null,
-        symbolSprite: faction.symbolSprite || null,
-        commanders: faction.commanders.map((commander) => ({
-          id: commander.id,
-          portrait: commander.portrait,
-          type: commander.type,
-        })),
-      },
-      terms: {
-        wielders: getTerm("Common/Wielders", context.locale!),
-      },
+      faction,
+      terms,
     },
     revalidate: false,
   };

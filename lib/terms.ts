@@ -1,5 +1,9 @@
 import termMap from "./collections/termMap.json";
 
+export type TermsDTO = {
+  [key: string]: string;
+};
+
 const terms = termMap as unknown as {
   [term: string]: {
     [locale: string]: string;

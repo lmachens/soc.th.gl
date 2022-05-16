@@ -1,13 +1,12 @@
 import { NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
-import factionCollection from "../../lib/collections/faction.json";
 
 import { Grid, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
-import { getTerm } from "../../lib/terms";
+import { FactionSimpleDTO, getFactions } from "../../lib/factions";
 
-const Factions: NextPage<{ factions: any[] }> = ({ factions }) => {
+const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
   return (
     <Grid justify="center" mt="md">
       {factions.map((faction) => (
@@ -32,17 +31,8 @@ const Factions: NextPage<{ factions: any[] }> = ({ factions }) => {
 export default Factions;
 
 export const getStaticProps = withStaticBase(async (context) => {
-  const factions = factionCollection
-    .filter((faction) => faction.symbolSprite)
-    .map((faction) => ({
-      type: faction.type,
-      name: getTerm(`Factions/${faction.languageKey}/Name`, context.locale!),
-      description: getTerm(
-        `Factions/${faction.languageKey}/Description`,
-        context.locale!
-      ),
-      symbolSprite: faction.symbolSprite || null,
-    }));
+  const factions = getFactions(context.locale!);
+
   return {
     props: {
       factions,

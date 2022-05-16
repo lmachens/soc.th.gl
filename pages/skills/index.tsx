@@ -1,13 +1,12 @@
 import { NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
-import skillCollection from "../../lib/collections/skill.json";
 
 import { Grid, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import { getTerm } from "../../lib/terms";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
+import { getSkills, SkillSimpleDTO } from "../../lib/skills";
 
-const Skills: NextPage<{ skills: any[] }> = ({ skills }) => {
+const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
   return (
     <Grid justify="center" mt="md">
       {skills.map((skill) => (
@@ -34,12 +33,7 @@ const Skills: NextPage<{ skills: any[] }> = ({ skills }) => {
 export default Skills;
 
 export const getStaticProps = withStaticBase(async (context) => {
-  const skills = skillCollection.map((skill) => ({
-    type: skill.type,
-    name: getTerm(`Skills/${skill.type}`, context.locale!),
-    lore: getTerm(`Skills/${skill.type}/Lore`, context.locale!),
-    icon: skill.icon,
-  }));
+  const skills = getSkills(context.locale!);
 
   return {
     props: {
