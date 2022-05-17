@@ -12,7 +12,7 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[] }> = ({ wielders }) => {
       {wielders.map((wielder) => (
         <Grid.Col key={wielder.type} sx={{ flexBasis: "auto" }}>
           <PopoverLink
-            href={`/factions/${wielder.type}`}
+            href={`/wielders/${wielder.type}`}
             popover={
               <>
                 <Title order={4}>{wielder.name}</Title>
