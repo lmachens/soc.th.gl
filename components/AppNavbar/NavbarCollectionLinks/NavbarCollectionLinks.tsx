@@ -2,7 +2,7 @@ import { Text } from "@mantine/core";
 import { ChevronDownIcon } from "@primer/octicons-react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { CollectionLink } from "../../../lib/staticProps";
 import useStyles from "./NavbarCollectionLinks.styles";
 
@@ -36,6 +36,13 @@ const NavbarCollectionLinks = ({ collectionLink }: Props) => {
       </Text>
     </Link>
   ));
+
+  useEffect(() => {
+    const activeLink = hasActiveLink(collectionLink, asPath);
+    if (activeLink && collapsed) {
+      setCollapsed(false);
+    }
+  }, [asPath]);
 
   return (
     <div

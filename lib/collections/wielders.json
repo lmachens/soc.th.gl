@@ -1,0 +1,458 @@
+[
+  {
+    "type": "Ghost",
+    "faction": "Neutral",
+    "portrait": {
+      "name": "HostilePortrait",
+      "spriteSheet": "NeutralWielderPortraits.png",
+      "x": 6,
+      "y": 59,
+      "width": 193,
+      "height": 191
+    }
+  },
+  {
+    "type": "GiandraStormspire",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "StormspirePortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 288,
+      "y": 796,
+      "width": 208,
+      "height": 228
+    }
+  },
+  {
+    "type": "Cecilia",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "StoutheartPortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 0,
+      "y": 298,
+      "width": 185,
+      "height": 208
+    }
+  },
+  {
+    "type": "BaronSilverlink",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "SilverlinkPortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 0,
+      "y": 67,
+      "width": 147,
+      "height": 227
+    }
+  },
+  {
+    "type": "EthylleErnaline",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "EthyllePortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 0,
+      "y": 510,
+      "width": 277,
+      "height": 269
+    }
+  },
+  {
+    "type": "Ravenfayre",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "RavenfayrePortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 151,
+      "y": 76,
+      "width": 173,
+      "height": 218
+    }
+  },
+  {
+    "type": "Peradine",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "PeradinePortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 328,
+      "y": 123,
+      "width": 180,
+      "height": 214
+    }
+  },
+  {
+    "type": "Gnaw",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "GnawPortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 0,
+      "y": 783,
+      "width": 284,
+      "height": 241
+    }
+  },
+  {
+    "type": "ViljaOfThornecliff",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "ThornecliffPortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 281,
+      "y": 341,
+      "width": 190,
+      "height": 225
+    }
+  },
+  {
+    "type": "LadyElisaHammond",
+    "faction": "Arleon",
+    "portrait": {
+      "name": "HammondPortrait",
+      "spriteSheet": "ArleonWielderPortraits.png",
+      "x": 288,
+      "y": 570,
+      "width": 191,
+      "height": 222
+    }
+  },
+  {
+    "type": "BaronAldus",
+    "faction": "Loth",
+    "portrait": {
+      "name": "AldusPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 344,
+      "y": 176,
+      "width": 161,
+      "height": 212
+    }
+  },
+  {
+    "type": "DoctorMarjatta",
+    "faction": "Loth",
+    "portrait": {
+      "name": "MarjattaPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 178,
+      "y": 374,
+      "width": 164,
+      "height": 222
+    }
+  },
+  {
+    "type": "Wiesh",
+    "faction": "Loth",
+    "portrait": {
+      "name": "WieshPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 190,
+      "y": 809,
+      "width": 187,
+      "height": 214
+    }
+  },
+  {
+    "type": "Ambertina",
+    "faction": "Loth",
+    "portrait": {
+      "name": "AmbertinaPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 344,
+      "y": 390,
+      "width": 162,
+      "height": 206
+    }
+  },
+  {
+    "type": "BrotherHillar",
+    "faction": "Loth",
+    "portrait": {
+      "name": "HillarPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 190,
+      "y": 598,
+      "width": 178,
+      "height": 209
+    }
+  },
+  {
+    "type": "Coral",
+    "faction": "Loth",
+    "portrait": {
+      "name": "CoralPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 1,
+      "y": 359,
+      "width": 159,
+      "height": 211
+    }
+  },
+  {
+    "type": "MagnoliaSilverlink",
+    "faction": "Loth",
+    "portrait": {
+      "name": "MagnoliaPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 1,
+      "y": 572,
+      "width": 175,
+      "height": 224
+    }
+  },
+  {
+    "type": "Merkoth",
+    "faction": "Loth",
+    "portrait": {
+      "name": "MerkothPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 1,
+      "y": 798,
+      "width": 187,
+      "height": 225
+    }
+  },
+  {
+    "type": "Roderick",
+    "faction": "Loth",
+    "portrait": {
+      "name": "RoderickPortrait",
+      "spriteSheet": "LothWielderPortraits.png",
+      "x": 162,
+      "y": 168,
+      "width": 159,
+      "height": 204
+    }
+  },
+  {
+    "type": "Nimander",
+    "faction": "Barya",
+    "portrait": {
+      "name": "NimanderBreeze",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 552,
+      "y": 12,
+      "width": 145,
+      "height": 226
+    }
+  },
+  {
+    "type": "Mehry",
+    "faction": "Barya",
+    "portrait": {
+      "name": "Mehry",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 618,
+      "y": 268,
+      "width": 195,
+      "height": 199
+    }
+  },
+  {
+    "type": "Silkspool",
+    "faction": "Barya",
+    "portrait": {
+      "name": "Silkspool",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 1,
+      "y": 199,
+      "width": 218,
+      "height": 268
+    }
+  },
+  {
+    "type": "Aleah",
+    "faction": "Barya",
+    "portrait": {
+      "name": "Aleah",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 425,
+      "y": 240,
+      "width": 191,
+      "height": 227
+    }
+  },
+  {
+    "type": "Bihgli",
+    "faction": "Barya",
+    "portrait": {
+      "name": "Bihgli",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 1,
+      "y": 1,
+      "width": 184,
+      "height": 196
+    }
+  },
+  {
+    "type": "Everthink",
+    "faction": "Barya",
+    "portrait": {
+      "name": "Everthink",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 387,
+      "y": 35,
+      "width": 163,
+      "height": 203
+    }
+  },
+  {
+    "type": "Rosewater",
+    "faction": "Barya",
+    "portrait": {
+      "name": "Rosewater",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 699,
+      "y": 65,
+      "width": 157,
+      "height": 201
+    }
+  },
+  {
+    "type": "Sanaz",
+    "faction": "Barya",
+    "portrait": {
+      "name": "Sanaz",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 221,
+      "y": 241,
+      "width": 202,
+      "height": 226
+    }
+  },
+  {
+    "type": "Soughtfor",
+    "faction": "Barya",
+    "portrait": {
+      "name": "Soughtfor",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "x": 221,
+      "y": 40,
+      "width": 164,
+      "height": 199
+    }
+  },
+  {
+    "type": "Cheekham",
+    "faction": "Rana",
+    "portrait": {
+      "name": "Cheekham",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 216,
+      "y": 824,
+      "width": 213,
+      "height": 199
+    }
+  },
+  {
+    "type": "Itchamo",
+    "faction": "Rana",
+    "portrait": {
+      "name": "Itchamo",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 216,
+      "y": 645,
+      "width": 205,
+      "height": 177
+    }
+  },
+  {
+    "type": "Msugna",
+    "faction": "Rana",
+    "portrait": {
+      "name": "MSugna",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 1,
+      "y": 623,
+      "width": 203,
+      "height": 193
+    }
+  },
+  {
+    "type": "Pcha",
+    "faction": "Rana",
+    "portrait": {
+      "name": "PCha",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 1,
+      "y": 214,
+      "width": 189,
+      "height": 209
+    }
+  },
+  {
+    "type": "Rasc",
+    "faction": "Rana",
+    "portrait": {
+      "name": "Rasc",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 1,
+      "y": 23,
+      "width": 182,
+      "height": 189
+    }
+  },
+  {
+    "type": "RascVanilla",
+    "faction": "Rana",
+    "portrait": {
+      "name": "Rasc",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 1,
+      "y": 23,
+      "width": 182,
+      "height": 189
+    }
+  },
+  {
+    "type": "RikTap",
+    "faction": "Rana",
+    "portrait": {
+      "name": "RikTap",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 1,
+      "y": 425,
+      "width": 196,
+      "height": 196
+    }
+  },
+  {
+    "type": "Rlac",
+    "faction": "Rana",
+    "portrait": {
+      "name": "RLac",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 199,
+      "y": 208,
+      "width": 191,
+      "height": 225
+    }
+  },
+  {
+    "type": "SlaKin",
+    "faction": "Rana",
+    "portrait": {
+      "name": "SlaKin",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 206,
+      "y": 435,
+      "width": 201,
+      "height": 208
+    }
+  },
+  {
+    "type": "Tchyra",
+    "faction": "Rana",
+    "portrait": {
+      "name": "TChyra",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "x": 1,
+      "y": 818,
+      "width": 213,
+      "height": 205
+    }
+  }
+]

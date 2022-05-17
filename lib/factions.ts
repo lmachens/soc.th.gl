@@ -34,6 +34,11 @@ export const getFaction = (type: string, locale: string) => {
     ),
     commanders: factionSrc.commanders.map((commander) => ({
       ...commander,
+      name: getTerm(`${factionSrc.languageKey}/${commander.type}/Name`, locale),
+      description: getTerm(
+        `${factionSrc.languageKey}/${commander.type}/Description`,
+        locale
+      ),
     })),
     units: factionSrc.units.map((unit) => ({
       ...unit,
@@ -53,12 +58,13 @@ export type FactionDTO = {
   type: string;
   name: string;
   description: string;
-  bannerSprite: SpriteDTO | null;
+  bannerSprite: SpriteDTO;
   symbolSprite: SpriteDTO | null;
   commanders: {
-    id: number;
-    portrait: SpriteDTO | null;
-    type?: string;
+    portrait: SpriteDTO;
+    name: string;
+    description: string;
+    type: string;
   }[];
   units: {
     vanilla: {

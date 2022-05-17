@@ -1,21 +1,3 @@
-export interface Faction {
-  id: number;
-  languageKey: string;
-  visualPath: string;
-  commanderEnumName: string;
-  unitEnumName: string;
-  commanders: Commander[];
-  units: Unit2[];
-  ballistaReference: BallistaReference;
-  commanderGuid2Ids: any[];
-  unitGuid2Ids: any[];
-  aiScheme: AiScheme;
-  contentProfile: number;
-  type: string;
-  bannerSprite: BannerSprite;
-  symbolSprite: SymbolSprite;
-}
-
 export interface Commander {
   id: number;
   faction: number;

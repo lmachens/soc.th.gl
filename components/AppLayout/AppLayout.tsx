@@ -1,5 +1,6 @@
 import { AppShell, Container } from "@mantine/core";
-import { ReactNode, useState } from "react";
+import { useRouter } from "next/router";
+import { ReactNode, useEffect, useState } from "react";
 import { CollectionLink } from "../../lib/staticProps";
 import AppHeader from "../AppHeader/AppHeader";
 import AppNavbar from "../AppNavbar/AppNavbar";
@@ -10,6 +11,11 @@ type Props = {
 };
 const AppLayout = ({ collectionLinks, children }: Props) => {
   const [openedNavbar, setOpenedNavbar] = useState(false);
+  const { asPath } = useRouter();
+
+  useEffect(() => {
+    setOpenedNavbar(false);
+  }, [asPath]);
 
   return (
     <AppShell

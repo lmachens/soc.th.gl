@@ -3,6 +3,7 @@ import { GetStaticProps } from "next";
 import skillCollection from "./collections/skill.json";
 import { getFactions } from "./factions";
 import { getTerm } from "./terms";
+import { getWielders } from "./wielders";
 
 export type CollectionLink = {
   label: string;
@@ -23,18 +24,26 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       ...propsResult,
     };
 
-    const factions = getFactions(context.locale!)
+    const locale = context.locale!;
+    const factions = getFactions(locale)
       .filter((faction) => faction.symbolSprite)
       .map((faction) => ({
         to: `/factions/${faction.type}`,
-        label: getTerm(`Factions/${faction.type}/Name`, context.locale!),
+        label: getTerm(`Factions/${faction.type}/Name`, locale),
+      }))
+      .sort(sortByLabel);
+
+    const wielders = getWielders(locale)
+      .map((wielder) => ({
+        to: `/wielders/${wielder.type}`,
+        label: wielder.name,
       }))
       .sort(sortByLabel);
 
     const skills = skillCollection
       .map((skill) => ({
         to: `/skills/${skill.type}`,
-        label: getTerm(`Skills/${skill.type}`, context.locale!),
+        label: getTerm(`Skills/${skill.type}`, locale),
       }))
       .sort(sortByLabel);
 
@@ -47,6 +56,16 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
             label: "All factions",
           },
           ...factions,
+        ],
+      },
+      {
+        label: "Wielders",
+        docs: [
+          {
+            to: "/wielders",
+            label: "All wielders",
+          },
+          ...wielders,
         ],
       },
       {

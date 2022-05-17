@@ -5,6 +5,7 @@ import { Grid, Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
+import PopoverLink from "../../components/PopoverLink/PopoverLink";
 
 const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
   faction,
@@ -13,9 +14,7 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
   return (
     <Stack>
       <Title order={4}>{faction.name}</Title>
-      {faction.bannerSprite && (
-        <SpriteSheet spriteSheet={faction.bannerSprite} />
-      )}
+      <SpriteSheet spriteSheet={faction.bannerSprite} />
       {faction.symbolSprite && (
         <SpriteSheet spriteSheet={faction.symbolSprite} />
       )}
@@ -25,7 +24,17 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
         {faction.commanders.map((commander) => (
           <Grid.Col key={commander.type} sx={{ flexBasis: "auto" }}>
             {commander.portrait && (
-              <SpriteSheet spriteSheet={commander.portrait} />
+              <PopoverLink
+                href={`/wielders/${commander.type}`}
+                popover={
+                  <>
+                    <Title order={4}>{commander.name}</Title>
+                    <Text size="sm">{commander.description}</Text>
+                  </>
+                }
+              >
+                <SpriteSheet spriteSheet={commander.portrait} />
+              </PopoverLink>
             )}
           </Grid.Col>
         ))}

@@ -13,7 +13,7 @@
     "symbolSprite": null,
     "commanders": [
       {
-        "id": 1,
+        "type": "Ghost",
         "portrait": {
           "name": "HostilePortrait",
           "spriteSheet": "NeutralWielderPortraits.png",
@@ -21,16 +21,7 @@
           "y": 59,
           "width": 193,
           "height": 191
-        },
-        "type": "Ghost"
-      },
-      {
-        "id": 2,
-        "portrait": null
-      },
-      {
-        "id": 3,
-        "portrait": null
+        }
       }
     ],
     "units": [
@@ -105,7 +96,7 @@
     },
     "commanders": [
       {
-        "id": 2,
+        "type": "GiandraStormspire",
         "portrait": {
           "name": "StormspirePortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -113,11 +104,10 @@
           "y": 796,
           "width": 208,
           "height": 228
-        },
-        "type": "GiandraStormspire"
+        }
       },
       {
-        "id": 3,
+        "type": "Cecilia",
         "portrait": {
           "name": "StoutheartPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -125,11 +115,10 @@
           "y": 298,
           "width": 185,
           "height": 208
-        },
-        "type": "Cecilia"
+        }
       },
       {
-        "id": 4,
+        "type": "BaronSilverlink",
         "portrait": {
           "name": "SilverlinkPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -137,11 +126,10 @@
           "y": 67,
           "width": 147,
           "height": 227
-        },
-        "type": "BaronSilverlink"
+        }
       },
       {
-        "id": 5,
+        "type": "EthylleErnaline",
         "portrait": {
           "name": "EthyllePortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -149,11 +137,10 @@
           "y": 510,
           "width": 277,
           "height": 269
-        },
-        "type": "EthylleErnaline"
+        }
       },
       {
-        "id": 6,
+        "type": "Ravenfayre",
         "portrait": {
           "name": "RavenfayrePortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -161,11 +148,10 @@
           "y": 76,
           "width": 173,
           "height": 218
-        },
-        "type": "Ravenfayre"
+        }
       },
       {
-        "id": 7,
+        "type": "Peradine",
         "portrait": {
           "name": "PeradinePortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -173,11 +159,10 @@
           "y": 123,
           "width": 180,
           "height": 214
-        },
-        "type": "Peradine"
+        }
       },
       {
-        "id": 8,
+        "type": "Gnaw",
         "portrait": {
           "name": "GnawPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -185,11 +170,10 @@
           "y": 783,
           "width": 284,
           "height": 241
-        },
-        "type": "Gnaw"
+        }
       },
       {
-        "id": 10,
+        "type": "ViljaOfThornecliff",
         "portrait": {
           "name": "ThornecliffPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -197,11 +181,10 @@
           "y": 341,
           "width": 190,
           "height": 225
-        },
-        "type": "ViljaOfThornecliff"
+        }
       },
       {
-        "id": 11,
+        "type": "LadyElisaHammond",
         "portrait": {
           "name": "HammondPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
@@ -209,8 +192,7 @@
           "y": 570,
           "width": 191,
           "height": 222
-        },
-        "type": "LadyElisaHammond"
+        }
       }
     ],
     "units": [
@@ -533,7 +515,7 @@
     },
     "commanders": [
       {
-        "id": 1,
+        "type": "BaronAldus",
         "portrait": {
           "name": "AldusPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -541,11 +523,10 @@
           "y": 176,
           "width": 161,
           "height": 212
-        },
-        "type": "BaronAldus"
+        }
       },
       {
-        "id": 2,
+        "type": "DoctorMarjatta",
         "portrait": {
           "name": "MarjattaPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -553,11 +534,10 @@
           "y": 374,
           "width": 164,
           "height": 222
-        },
-        "type": "DoctorMarjatta"
+        }
       },
       {
-        "id": 3,
+        "type": "Wiesh",
         "portrait": {
           "name": "WieshPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -565,11 +545,10 @@
           "y": 809,
           "width": 187,
           "height": 214
-        },
-        "type": "Wiesh"
+        }
       },
       {
-        "id": 4,
+        "type": "Ambertina",
         "portrait": {
           "name": "AmbertinaPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -577,11 +556,10 @@
           "y": 390,
           "width": 162,
           "height": 206
-        },
-        "type": "Ambertina"
+        }
       },
       {
-        "id": 6,
+        "type": "BrotherHillar",
         "portrait": {
           "name": "HillarPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -589,11 +567,10 @@
           "y": 598,
           "width": 178,
           "height": 209
-        },
-        "type": "BrotherHillar"
+        }
       },
       {
-        "id": 8,
+        "type": "Coral",
         "portrait": {
           "name": "CoralPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -601,11 +578,10 @@
           "y": 359,
           "width": 159,
           "height": 211
-        },
-        "type": "Coral"
+        }
       },
       {
-        "id": 9,
+        "type": "MagnoliaSilverlink",
         "portrait": {
           "name": "MagnoliaPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -613,11 +589,10 @@
           "y": 572,
           "width": 175,
           "height": 224
-        },
-        "type": "MagnoliaSilverlink"
+        }
       },
       {
-        "id": 10,
+        "type": "Merkoth",
         "portrait": {
           "name": "MerkothPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -625,11 +600,10 @@
           "y": 798,
           "width": 187,
           "height": 225
-        },
-        "type": "Merkoth"
+        }
       },
       {
-        "id": 12,
+        "type": "Roderick",
         "portrait": {
           "name": "RoderickPortrait",
           "spriteSheet": "LothWielderPortraits.png",
@@ -637,8 +611,7 @@
           "y": 168,
           "width": 159,
           "height": 204
-        },
-        "type": "Roderick"
+        }
       }
     ],
     "units": [
@@ -985,7 +958,7 @@
     },
     "commanders": [
       {
-        "id": 2,
+        "type": "Nimander",
         "portrait": {
           "name": "NimanderBreeze",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -993,11 +966,10 @@
           "y": 12,
           "width": 145,
           "height": 226
-        },
-        "type": "Nimander"
+        }
       },
       {
-        "id": 3,
+        "type": "Mehry",
         "portrait": {
           "name": "Mehry",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -1005,11 +977,10 @@
           "y": 268,
           "width": 195,
           "height": 199
-        },
-        "type": "Mehry"
+        }
       },
       {
-        "id": 4,
+        "type": "Silkspool",
         "portrait": {
           "name": "Silkspool",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -1017,11 +988,10 @@
           "y": 199,
           "width": 218,
           "height": 268
-        },
-        "type": "Silkspool"
+        }
       },
       {
-        "id": 5,
+        "type": "Aleah",
         "portrait": {
           "name": "Aleah",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -1029,11 +999,10 @@
           "y": 240,
           "width": 191,
           "height": 227
-        },
-        "type": "Aleah"
+        }
       },
       {
-        "id": 6,
+        "type": "Bihgli",
         "portrait": {
           "name": "Bihgli",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -1041,11 +1010,10 @@
           "y": 1,
           "width": 184,
           "height": 196
-        },
-        "type": "Bihgli"
+        }
       },
       {
-        "id": 7,
+        "type": "Everthink",
         "portrait": {
           "name": "Everthink",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -1053,11 +1021,10 @@
           "y": 35,
           "width": 163,
           "height": 203
-        },
-        "type": "Everthink"
+        }
       },
       {
-        "id": 8,
+        "type": "Rosewater",
         "portrait": {
           "name": "Rosewater",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -1065,11 +1032,10 @@
           "y": 65,
           "width": 157,
           "height": 201
-        },
-        "type": "Rosewater"
+        }
       },
       {
-        "id": 9,
+        "type": "Sanaz",
         "portrait": {
           "name": "Sanaz",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -1077,11 +1043,10 @@
           "y": 241,
           "width": 202,
           "height": 226
-        },
-        "type": "Sanaz"
+        }
       },
       {
-        "id": 10,
+        "type": "Soughtfor",
         "portrait": {
           "name": "Soughtfor",
           "spriteSheet": "BaryaWielderPortraitsAtlas.png",
@@ -1089,8 +1054,7 @@
           "y": 40,
           "width": 164,
           "height": 199
-        },
-        "type": "Soughtfor"
+        }
       }
     ],
     "units": [
@@ -1413,7 +1377,7 @@
     },
     "commanders": [
       {
-        "id": 1,
+        "type": "Cheekham",
         "portrait": {
           "name": "Cheekham",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1421,11 +1385,10 @@
           "y": 824,
           "width": 213,
           "height": 199
-        },
-        "type": "Cheekham"
+        }
       },
       {
-        "id": 3,
+        "type": "Itchamo",
         "portrait": {
           "name": "Itchamo",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1433,11 +1396,10 @@
           "y": 645,
           "width": 205,
           "height": 177
-        },
-        "type": "Itchamo"
+        }
       },
       {
-        "id": 4,
+        "type": "Msugna",
         "portrait": {
           "name": "MSugna",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1445,11 +1407,10 @@
           "y": 623,
           "width": 203,
           "height": 193
-        },
-        "type": "Msugna"
+        }
       },
       {
-        "id": 5,
+        "type": "Pcha",
         "portrait": {
           "name": "PCha",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1457,11 +1418,10 @@
           "y": 214,
           "width": 189,
           "height": 209
-        },
-        "type": "Pcha"
+        }
       },
       {
-        "id": 6,
+        "type": "Rasc",
         "portrait": {
           "name": "Rasc",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1469,11 +1429,10 @@
           "y": 23,
           "width": 182,
           "height": 189
-        },
-        "type": "Rasc"
+        }
       },
       {
-        "id": 7,
+        "type": "RascVanilla",
         "portrait": {
           "name": "Rasc",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1481,11 +1440,10 @@
           "y": 23,
           "width": 182,
           "height": 189
-        },
-        "type": "RascVanilla"
+        }
       },
       {
-        "id": 8,
+        "type": "RikTap",
         "portrait": {
           "name": "RikTap",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1493,11 +1451,10 @@
           "y": 425,
           "width": 196,
           "height": 196
-        },
-        "type": "RikTap"
+        }
       },
       {
-        "id": 9,
+        "type": "Rlac",
         "portrait": {
           "name": "RLac",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1505,11 +1462,10 @@
           "y": 208,
           "width": 191,
           "height": 225
-        },
-        "type": "Rlac"
+        }
       },
       {
-        "id": 10,
+        "type": "SlaKin",
         "portrait": {
           "name": "SlaKin",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1517,11 +1473,10 @@
           "y": 435,
           "width": 201,
           "height": 208
-        },
-        "type": "SlaKin"
+        }
       },
       {
-        "id": 2,
+        "type": "Tchyra",
         "portrait": {
           "name": "TChyra",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
@@ -1529,8 +1484,7 @@
           "y": 818,
           "width": 213,
           "height": 205
-        },
-        "type": "Tchyra"
+        }
       }
     ],
     "units": [
