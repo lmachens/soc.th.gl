@@ -44,9 +44,17 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
       <Grid mt="md">
         {faction.units.map((unit) => (
           <Grid.Col key={unit.vanilla.languageKey} sx={{ flexBasis: "auto" }}>
-            {unit.vanilla.sprite && (
+            <PopoverLink
+              href={`/units/${unit.vanilla.languageKey}`}
+              popover={
+                <>
+                  <Title order={4}>{unit.vanilla.name}</Title>
+                  <Text size="sm">{unit.vanilla.description}</Text>
+                </>
+              }
+            >
               <SpriteSheet spriteSheet={unit.vanilla.sprite} />
-            )}
+            </PopoverLink>
           </Grid.Col>
         ))}
       </Grid>

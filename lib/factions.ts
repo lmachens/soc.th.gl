@@ -42,6 +42,39 @@ export const getFaction = (type: string, locale: string) => {
     })),
     units: factionSrc.units.map((unit) => ({
       ...unit,
+      vanilla: {
+        ...unit.vanilla,
+        name: getTerm(
+          `${factionSrc.type}/${unit.vanilla.languageKey}/Name`,
+          locale
+        ),
+        description: getTerm(
+          `${factionSrc.type}/${unit.vanilla.languageKey}/Description`,
+          locale
+        ),
+      },
+      upgraded: unit.upgraded && {
+        ...unit.upgraded,
+        name: getTerm(
+          `${factionSrc.type}/${unit.upgraded.languageKey}/Name`,
+          locale
+        ),
+        description: getTerm(
+          `${factionSrc.type}/${unit.upgraded.languageKey}/Description`,
+          locale
+        ),
+      },
+      superUpgraded: unit.superUpgraded && {
+        ...unit.superUpgraded,
+        name: getTerm(
+          `${factionSrc.type}/${unit.superUpgraded.languageKey}/Name`,
+          locale
+        ),
+        description: getTerm(
+          `${factionSrc.type}/${unit.superUpgraded.languageKey}/Description`,
+          locale
+        ),
+      },
     })),
   };
   return faction;
@@ -68,40 +101,22 @@ export type FactionDTO = {
   }[];
   units: {
     vanilla: {
-      id: number;
       languageKey: string;
-      sprite?: {
-        name: string;
-        spriteSheet: string;
-        x: number;
-        y: number;
-        width: number;
-        height: number;
-      } | null;
+      sprite: SpriteDTO;
+      name: string;
+      description: string;
     };
-    upgraded?: {
-      id: number;
+    upgraded: {
       languageKey: string;
-      sprite?: {
-        name: string;
-        spriteSheet: string;
-        x: number;
-        y: number;
-        width: number;
-        height: number;
-      };
+      sprite: SpriteDTO;
+      name: string;
+      description: string;
     } | null;
-    superUpgraded?: {
-      id: number;
+    superUpgraded: {
       languageKey: string;
-      sprite?: {
-        name: string;
-        spriteSheet: string;
-        x: number;
-        y: number;
-        width: number;
-        height: number;
-      };
+      sprite: SpriteDTO;
+      name: string;
+      description: string;
     } | null;
   }[];
 };

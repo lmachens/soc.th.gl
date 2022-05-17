@@ -27,7 +27,6 @@
     "units": [
       {
         "vanilla": {
-          "id": 0,
           "languageKey": "Wolf",
           "sprite": {
             "name": "NeutralWolfDefault1Idle1",
@@ -51,7 +50,6 @@
       },
       {
         "vanilla": {
-          "id": 6,
           "languageKey": "Bandit",
           "sprite": {
             "name": "NeutralBanditLeftAxe1Idle1",
@@ -198,7 +196,6 @@
     "units": [
       {
         "vanilla": {
-          "id": 11,
           "languageKey": "Militia",
           "sprite": {
             "name": "ArleonMilitiaDefault1idle1",
@@ -218,7 +215,6 @@
           }
         },
         "upgraded": {
-          "id": 1,
           "languageKey": "Sapper",
           "sprite": {
             "name": "ArleonHostilesIdle7Sapper1",
@@ -233,7 +229,6 @@
       },
       {
         "vanilla": {
-          "id": 10,
           "languageKey": "Ranger",
           "sprite": {
             "name": "ArleonRangerDefault1Idle1",
@@ -253,7 +248,6 @@
           }
         },
         "upgraded": {
-          "id": 2,
           "languageKey": "Archer",
           "sprite": {
             "name": "ArleonHostilesIdle31Archer1",
@@ -268,7 +262,6 @@
       },
       {
         "vanilla": {
-          "id": 12,
           "languageKey": "Minstrel",
           "sprite": {
             "name": "ArleonMinstrelDefault1Idle1",
@@ -288,7 +281,6 @@
           }
         },
         "upgraded": {
-          "id": 3,
           "languageKey": "Troubadour",
           "sprite": {
             "name": "ArleonHostilesIdle19Troubadour1",
@@ -303,7 +295,6 @@
       },
       {
         "vanilla": {
-          "id": 4,
           "languageKey": "Footman",
           "sprite": {
             "name": "ArleonFootmanDefault1Idle1",
@@ -323,7 +314,6 @@
           }
         },
         "upgraded": {
-          "id": 13,
           "languageKey": "ShieldOfOrder",
           "sprite": {
             "name": "ArleonHostilesIdle43ShieldOfOrder1",
@@ -338,7 +328,6 @@
       },
       {
         "vanilla": {
-          "id": 5,
           "languageKey": "Knight",
           "sprite": {
             "name": "ArleonKnightDefault1Idle1",
@@ -358,7 +347,6 @@
           }
         },
         "upgraded": {
-          "id": 14,
           "languageKey": "FistOfOrder",
           "sprite": {
             "name": "ArleonHostilesIdle55FistOfOrder1",
@@ -373,7 +361,6 @@
       },
       {
         "vanilla": {
-          "id": 6,
           "languageKey": "HornedOne",
           "sprite": {
             "name": "ArleonHornedOneDefault1Idle1",
@@ -393,7 +380,6 @@
           }
         },
         "upgraded": {
-          "id": 15,
           "languageKey": "QueensGuard",
           "sprite": {
             "name": "ArleonHostilesIdle75QueensGuard1",
@@ -408,7 +394,6 @@
       },
       {
         "vanilla": {
-          "id": 7,
           "languageKey": "FaeySpirit",
           "sprite": {
             "name": "ArleonFaeySpiritDefault1Idle1",
@@ -428,7 +413,6 @@
           }
         },
         "upgraded": {
-          "id": 16,
           "languageKey": "FaeyRager",
           "sprite": {
             "name": "ArleonHostilesIdle65FaeyRager1",
@@ -443,7 +427,6 @@
       },
       {
         "vanilla": {
-          "id": 8,
           "languageKey": "FaeyNoble",
           "sprite": {
             "name": "ArleonFaeyNobleDefault1Idle1",
@@ -463,7 +446,6 @@
           }
         },
         "upgraded": {
-          "id": 17,
           "languageKey": "FaeyQueen",
           "sprite": {
             "name": "ArleonHostilesIdle87FaeyQueen1",
@@ -478,7 +460,6 @@
       },
       {
         "vanilla": {
-          "id": 8,
           "languageKey": "Ballista",
           "sprite": {
             "name": "ArleonBalistaDefault1Idle1",
@@ -617,7 +598,6 @@
     "units": [
       {
         "vanilla": {
-          "id": 9,
           "languageKey": "Rats",
           "sprite": {
             "name": "LothRatsRat11Idle1",
@@ -637,7 +617,6 @@
           }
         },
         "upgraded": {
-          "id": 1,
           "languageKey": "PlagueRats",
           "sprite": {
             "name": "LothHostilesArtwork7PlagueRats1",
@@ -652,7 +631,6 @@
       },
       {
         "vanilla": {
-          "id": 8,
           "languageKey": "Oathbound",
           "sprite": {
             "name": "LothOathboundDefault1Idle1",
@@ -672,7 +650,6 @@
           }
         },
         "upgraded": {
-          "id": 16,
           "languageKey": "OathboundLegionaire",
           "sprite": {
             "name": "LothHostilesArtwork19OathboundLegionaire1",
@@ -687,7 +664,6 @@
       },
       {
         "vanilla": {
-          "id": 2,
           "languageKey": "Cultist",
           "sprite": {
             "name": "LothCultistDefault1Idle1",
@@ -707,7 +683,6 @@
           }
         },
         "upgraded": {
-          "id": 10,
           "languageKey": "Zealot",
           "sprite": {
             "name": "LothHostilesArtwork31Zealot1",
@@ -722,7 +697,6 @@
       },
       {
         "vanilla": {
-          "id": 3,
           "languageKey": "Embalmer",
           "sprite": {
             "name": "LothEmbalmerDefault1Idle1",
@@ -742,7 +716,6 @@
           }
         },
         "upgraded": {
-          "id": 11,
           "languageKey": "Doctor",
           "sprite": {
             "name": "LothHostilesArtwork43Doctor1",
@@ -757,7 +730,6 @@
       },
       {
         "vanilla": {
-          "id": 4,
           "languageKey": "Necromancer",
           "sprite": {
             "name": "LothScholarDefault1Idle1",
@@ -777,7 +749,6 @@
           }
         },
         "upgraded": {
-          "id": 12,
           "languageKey": "Oathsinger",
           "sprite": {
             "name": "LothHostilesArtwork55Oathsinger1",
@@ -792,7 +763,6 @@
       },
       {
         "vanilla": {
-          "id": 14,
           "languageKey": "SanctifiedBones",
           "sprite": {
             "name": "LothSanctifiedBonesDefault1Idle1",
@@ -812,7 +782,6 @@
           }
         },
         "upgraded": {
-          "id": 6,
           "languageKey": "BlessedBones",
           "sprite": {
             "name": "LothHostilesArtwork73BlessedBones1",
@@ -827,7 +796,6 @@
       },
       {
         "vanilla": {
-          "id": 5,
           "languageKey": "AurelianCleric",
           "sprite": {
             "name": "LothAurelianClericDefault1Idle1",
@@ -847,7 +815,6 @@
           }
         },
         "upgraded": {
-          "id": 13,
           "languageKey": "AurelianHighCleric",
           "sprite": {
             "name": "LothHostilesArtwork67AurelianHighCleric1",
@@ -862,7 +829,6 @@
       },
       {
         "vanilla": {
-          "id": 7,
           "languageKey": "Legion",
           "sprite": {
             "name": "LothLegionDefault1Idle1",
@@ -882,7 +848,6 @@
           }
         },
         "upgraded": {
-          "id": 15,
           "languageKey": "HighLegion",
           "sprite": {
             "name": "LothHostilesArtwork91HighLegion1",
@@ -897,7 +862,6 @@
       },
       {
         "vanilla": {
-          "id": 8,
           "languageKey": "Zombie",
           "sprite": {
             "name": "LothZombieDefault1Idle1",
@@ -921,7 +885,6 @@
       },
       {
         "vanilla": {
-          "id": 8,
           "languageKey": "Ballista",
           "sprite": {
             "name": "ArleonBalistaDefault1Idle1",
@@ -1060,7 +1023,6 @@
     "units": [
       {
         "vanilla": {
-          "id": 1,
           "languageKey": "Piper",
           "sprite": {
             "name": "BaryaPiperDefault1Idle1",
@@ -1080,7 +1042,6 @@
           }
         },
         "upgraded": {
-          "id": 9,
           "languageKey": "SteamPiper",
           "sprite": {
             "name": "BaryaHostilesIdle7Steampiper1",
@@ -1095,7 +1056,6 @@
       },
       {
         "vanilla": {
-          "id": 2,
           "languageKey": "Pikeneer",
           "sprite": {
             "name": "BaryaPikeneerDefault1Idle1",
@@ -1115,7 +1075,6 @@
           }
         },
         "upgraded": {
-          "id": 10,
           "languageKey": "PikeneerVeteran",
           "sprite": {
             "name": "BaryaHostilesIdle31PikeneerVeteran1",
@@ -1130,7 +1089,6 @@
       },
       {
         "vanilla": {
-          "id": 3,
           "languageKey": "Musketeer",
           "sprite": {
             "name": "BaryaMusketeerDefault1Idle1",
@@ -1150,7 +1108,6 @@
           }
         },
         "upgraded": {
-          "id": 11,
           "languageKey": "MusketeerVeteran",
           "sprite": {
             "name": "BaryaHostilesIdle43MusketeerVeteran1",
@@ -1165,7 +1122,6 @@
       },
       {
         "vanilla": {
-          "id": 4,
           "languageKey": "Dreath",
           "sprite": {
             "name": "BaryaDreathDefault1Idle1",
@@ -1185,7 +1141,6 @@
           }
         },
         "upgraded": {
-          "id": 12,
           "languageKey": "DireDreath",
           "sprite": {
             "name": "BaryaHostilesIdle19DireDreath1",
@@ -1200,7 +1155,6 @@
       },
       {
         "vanilla": {
-          "id": 5,
           "languageKey": "Brute",
           "sprite": {
             "name": "BaryaBruteDefault1Idle1",
@@ -1220,7 +1174,6 @@
           }
         },
         "upgraded": {
-          "id": 13,
           "languageKey": "ScarredBrute",
           "sprite": {
             "name": "BaryaHostilesIdle67ScarredBrute1",
@@ -1235,7 +1188,6 @@
       },
       {
         "vanilla": {
-          "id": 6,
           "languageKey": "Tinkerer",
           "sprite": {
             "name": "BaryaTinkererDefault1Idle1",
@@ -1255,7 +1207,6 @@
           }
         },
         "upgraded": {
-          "id": 14,
           "languageKey": "Artificer",
           "sprite": {
             "name": "BaryaHostilesIdle55Artificer1",
@@ -1270,7 +1221,6 @@
       },
       {
         "vanilla": {
-          "id": 7,
           "languageKey": "Sassanid",
           "sprite": {
             "name": "BaryaSassanidDefault1Idle1",
@@ -1290,7 +1240,6 @@
           }
         },
         "upgraded": {
-          "id": 15,
           "languageKey": "SassanidVeteran",
           "sprite": {
             "name": "BaryaHostilesIdle79SassanidVeteran1",
@@ -1305,7 +1254,6 @@
       },
       {
         "vanilla": {
-          "id": 8,
           "languageKey": "Hellbreath",
           "sprite": {
             "name": "BaryaHellbreathDefault1Idle1",
@@ -1325,7 +1273,6 @@
           }
         },
         "upgraded": {
-          "id": 16,
           "languageKey": "Hellroar",
           "sprite": {
             "name": "BaryaHostilesIdle91Hellroar1",
@@ -1340,7 +1287,6 @@
       },
       {
         "vanilla": {
-          "id": 8,
           "languageKey": "Ballista",
           "sprite": {
             "name": "ArleonBalistaDefault1Idle1",
@@ -1490,7 +1436,6 @@
     "units": [
       {
         "vanilla": {
-          "id": 1,
           "languageKey": "Hunter",
           "sprite": {
             "name": "RanaHunterDefault1Idle1",
@@ -1510,7 +1455,6 @@
           }
         },
         "upgraded": {
-          "id": 9,
           "languageKey": "StormGuard",
           "sprite": {
             "name": "RanaHostilesIdle7StormGuard1",
@@ -1525,7 +1469,6 @@
       },
       {
         "vanilla": {
-          "id": 4,
           "languageKey": "Shaman",
           "sprite": {
             "name": "RanaShamanDefault1Idle1",
@@ -1545,7 +1488,6 @@
           }
         },
         "upgraded": {
-          "id": 10,
           "languageKey": "Sage",
           "sprite": {
             "name": "RanaHostilesIdle19Sage1",
@@ -1560,7 +1502,6 @@
       },
       {
         "vanilla": {
-          "id": 11,
           "languageKey": "Guard",
           "sprite": {
             "name": "RanaGuardDefault1Idle1",
@@ -1580,7 +1521,6 @@
           }
         },
         "upgraded": {
-          "id": 12,
           "languageKey": "Protector",
           "sprite": {
             "name": "RanaHostilesIdle91Guard upgrade1",
@@ -1595,7 +1535,6 @@
       },
       {
         "vanilla": {
-          "id": 5,
           "languageKey": "Ravager",
           "sprite": {
             "name": "RanaRavagerDefault1Idle1",
@@ -1615,7 +1554,6 @@
           }
         },
         "upgraded": {
-          "id": 13,
           "languageKey": "RiderOfTheSwamp",
           "sprite": {
             "name": "RanaHostilesIdle31RiderOfTheSwamp1",
@@ -1630,7 +1568,6 @@
       },
       {
         "vanilla": {
-          "id": 3,
           "languageKey": "Crawler",
           "sprite": {
             "name": "RanaCrawlerDefault1Idle1",
@@ -1650,7 +1587,6 @@
           }
         },
         "upgraded": {
-          "id": 14,
           "languageKey": "AdultCrawler",
           "sprite": {
             "name": "RanaHostilesIdle43AdultCrawler1",
@@ -1665,7 +1601,6 @@
       },
       {
         "vanilla": {
-          "id": 15,
           "languageKey": "Tremor",
           "sprite": {
             "name": "RanaTremorDefault1Idle1",
@@ -1689,7 +1624,6 @@
       },
       {
         "vanilla": {
-          "id": 6,
           "languageKey": "Chelun",
           "sprite": {
             "name": "RanaChelunDefault1Idle1",
@@ -1709,7 +1643,6 @@
           }
         },
         "upgraded": {
-          "id": 16,
           "languageKey": "ChelunElder",
           "sprite": {
             "name": "RanaHostilesIdle61ChelunElder1",
@@ -1724,7 +1657,6 @@
       },
       {
         "vanilla": {
-          "id": 7,
           "languageKey": "Dragonling",
           "sprite": {
             "name": "RanaDragonlingDefault1Idle1",
@@ -1744,7 +1676,6 @@
           }
         },
         "upgraded": {
-          "id": 8,
           "languageKey": "Dragon",
           "sprite": {
             "name": "RanaHostilesIdle73Dragon1",
@@ -1756,7 +1687,6 @@
           }
         },
         "superUpgraded": {
-          "id": 8,
           "languageKey": "ElderDragon",
           "sprite": {
             "name": "RanaHostilesIdle79ElderDragon1",
@@ -1770,7 +1700,6 @@
       },
       {
         "vanilla": {
-          "id": 8,
           "languageKey": "Ballista",
           "sprite": {
             "name": "ArleonBalistaDefault1Idle1",
