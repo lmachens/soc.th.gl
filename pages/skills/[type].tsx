@@ -8,6 +8,15 @@ import { getTerm, TermsDTO } from "../../lib/terms";
 import { Fragment } from "react";
 import { getSkill, SkillDTO } from "../../lib/skills";
 
+const resourceTypes = [
+  "gold",
+  "wood",
+  "stone",
+  "ancientAmber",
+  "glimmerweave",
+  "celestialOre",
+];
+
 const Skill: NextPage<{
   skill: SkillDTO;
   terms: TermsDTO;
@@ -19,21 +28,23 @@ const Skill: NextPage<{
       <SpriteSheet spriteSheet={skill.icon} />
 
       <Stack>
-        {skill.levels.map((level: any, index: number) => (
+        {skill.levels.map((level, index) => (
           <Fragment key={index}>
             <Title order={5} dangerouslySetInnerHTML={{ __html: level.name }} />
             {level.description && (
               <Text dangerouslySetInnerHTML={{ __html: level.description }} />
             )}
-            {level.modifierData.map((modifier: any) => (
+            {level.modifierData.map((modifier) => (
               <Text
                 key={modifier.type}
                 dangerouslySetInnerHTML={{ __html: modifier.description }}
               />
             ))}
-            {level.resourcesIncome.map((resourceIncome: any) => (
+            {level.resourcesIncome.map((resourceIncome) => (
               <Text key={resourceIncome.type}>
-                {`${terms.production} +${resourceIncome.amount} ${terms.gold}`}
+                {`${terms.production} +${resourceIncome.amount} ${
+                  terms[resourceTypes[resourceIncome.type]]
+                }`}
               </Text>
             ))}
           </Fragment>
@@ -47,8 +58,9 @@ export default Skill;
 
 export const getStaticProps = withStaticBase(async (context) => {
   const type = context.params!.type as string;
+  const locale = context.locale!;
 
-  const skill = getSkill(type, context.locale!);
+  const skill = getSkill(type, locale);
 
   if (!skill) {
     return {
@@ -57,8 +69,13 @@ export const getStaticProps = withStaticBase(async (context) => {
   }
 
   const terms: TermsDTO = {
-    production: getTerm("Common/Details/GeneratesResources", context.locale!),
-    gold: getTerm("Common/Resource/Gold", context.locale!),
+    production: getTerm("Common/Details/GeneratesResources", locale),
+    gold: getTerm("Common/Resource/Gold", locale),
+    wood: getTerm("Common/Resource/Wood", locale),
+    stone: getTerm("Common/Resource/Stone", locale),
+    ancientAmber: getTerm("Common/Resource/AncientAmber", locale),
+    glimmerweave: getTerm("Common/Resource/Glimmerweave", locale),
+    celestialOre: getTerm("Common/Resource/CelestialOre", locale),
   };
 
   return {

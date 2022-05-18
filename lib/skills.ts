@@ -42,7 +42,8 @@ export const getSkill = (type: string, locale: string) => {
               `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
               locale,
               modifier.amountToAdd,
-              modifier.applicationType
+              modifier.applicationType ||
+                Number(modifier.modifier === "CommanderTutorPercent")
             ),
           })) || [],
         resourcesIncome:
