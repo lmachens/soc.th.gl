@@ -8,6 +8,8 @@ const nextConfig = {
     // your application
     locales: locales
       .filter((locale) => locale.code)
+      // Disable swedish translations, because it's only used as placeholders
+      .filter((locale) => locale.code !== "sv")
       .map((locale) => locale.code),
     // This is the default locale you want to be used when visiting
     // a non-locale prefixed path e.g. `/hello`
