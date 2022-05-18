@@ -4,6 +4,8 @@ import { MarkGithubIcon } from "@primer/octicons-react";
 import { HeaderControl } from "./HeaderControl/HeaderControl";
 import Image from "next/image";
 import LogoSmall from "../../public/logo_small.png";
+import { SearchControl } from "./SearchControl/SearchControl";
+import { ClientOnly } from "../ClientOnly/ClientOnly";
 
 type Props = {
   openedBurger: boolean;
@@ -38,6 +40,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
         <Image src={LogoSmall} alt="SOC.GG" />
       </Box>
       <Group spacing="xs">
+        <ClientOnly>{() => <SearchControl />}</ClientOnly>
         <HeaderControl
           link="https://discord.com/invite/NTZu8Px"
           tooltip="Join the community"

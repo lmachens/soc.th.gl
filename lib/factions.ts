@@ -12,6 +12,7 @@ export const getFactions = (locale: string) => {
         `Factions/${faction.languageKey}/Description`,
         locale
       ),
+      bannerSprite: faction.bannerSprite!,
       symbolSprite: faction.symbolSprite!,
     }));
   return factions;
@@ -84,6 +85,7 @@ export type FactionSimpleDTO = {
   type: string;
   name: string;
   description: string;
+  bannerSprite: SpriteDTO;
   symbolSprite: SpriteDTO;
 };
 

@@ -5,6 +5,8 @@ import { CollectionLink } from "../../lib/staticProps";
 import AppHeader from "../AppHeader/AppHeader";
 import AppNavbar from "../AppNavbar/AppNavbar";
 
+import SpotlightSearchProvider from "./SpotlightSearchProvider/SpotlightSearchProvider";
+
 type Props = {
   collectionLinks: CollectionLink[];
   children: ReactNode;
@@ -18,22 +20,24 @@ const AppLayout = ({ collectionLinks, children }: Props) => {
   }, [asPath]);
 
   return (
-    <AppShell
-      navbarOffsetBreakpoint="sm"
-      asideOffsetBreakpoint="sm"
-      fixed
-      header={
-        <AppHeader
-          openedBurger={openedNavbar}
-          onBurgerClick={() => setOpenedNavbar((opened) => !opened)}
-        />
-      }
-      navbar={
-        <AppNavbar opened={openedNavbar} collectionLinks={collectionLinks} />
-      }
-    >
-      <Container>{children}</Container>
-    </AppShell>
+    <SpotlightSearchProvider collectionLinks={collectionLinks}>
+      <AppShell
+        navbarOffsetBreakpoint="sm"
+        asideOffsetBreakpoint="sm"
+        fixed
+        header={
+          <AppHeader
+            openedBurger={openedNavbar}
+            onBurgerClick={() => setOpenedNavbar((opened) => !opened)}
+          />
+        }
+        navbar={
+          <AppNavbar opened={openedNavbar} collectionLinks={collectionLinks} />
+        }
+      >
+        <Container>{children}</Container>
+      </AppShell>
+    </SpotlightSearchProvider>
   );
 };
 

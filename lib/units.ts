@@ -39,9 +39,13 @@ export const getUnits = (locale: string): UnitSimpleDTO[] => {
   return units;
 };
 
-export const getUnit = (type: string, locale: string): UnitDTO | null => {
+export const getUnit = (
+  faction: string,
+  type: string,
+  locale: string
+): UnitDTO | null => {
   const unitSrc = unitsCollection.find(
-    (unit) => unit.vanilla.languageKey === type
+    (unit) => unit.faction === faction && unit.vanilla.languageKey === type
   );
   if (!unitSrc) {
     return null;

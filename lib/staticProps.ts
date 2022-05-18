@@ -11,6 +11,7 @@ export type CollectionLink = {
   docs: {
     to: string;
     label: string;
+    description?: string;
   }[];
 };
 
@@ -49,10 +50,13 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       .sort(sortByLabel);
 
     const units = getUnits(locale)
-      .map((unit) => ({
-        to: `/units/${unit.vanilla.languageKey}`,
-        label: unit.vanilla.name,
-      }))
+      .map((unit) => {
+        return {
+          to: `/units/${unit.faction}/${unit.vanilla.languageKey}`,
+          label: unit.vanilla.name,
+          description: unit.faction,
+        };
+      })
       .sort(sortByLabel);
 
     const collectionLinks: CollectionLink[] = [

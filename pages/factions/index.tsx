@@ -20,7 +20,7 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
               </>
             }
           >
-            <SpriteSheet spriteSheet={faction.symbolSprite} />
+            <SpriteSheet spriteSheet={faction.bannerSprite} />
           </PopoverLink>
         </Grid.Col>
       ))}
