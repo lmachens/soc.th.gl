@@ -70,12 +70,6 @@ export const getStaticProps = withStaticBase(async (context) => {
 
   const terms: TermsDTO = {
     production: getTerm("Common/Details/GeneratesResources", locale),
-    gold: getTerm("Common/Resource/Gold", locale),
-    wood: getTerm("Common/Resource/Wood", locale),
-    stone: getTerm("Common/Resource/Stone", locale),
-    ancientAmber: getTerm("Common/Resource/AncientAmber", locale),
-    glimmerweave: getTerm("Common/Resource/Glimmerweave", locale),
-    celestialOre: getTerm("Common/Resource/CelestialOre", locale),
   };
 
   return {

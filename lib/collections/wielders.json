@@ -9,7 +9,15 @@
       "y": 59,
       "width": 193,
       "height": 191
-    }
+    },
+    "stats": {
+      "defense": 0,
+      "offense": 0,
+      "movement": 0,
+      "viewRadius": 0,
+      "command": 5
+    },
+    "skills": []
   },
   {
     "type": "GiandraStormspire",
@@ -17,11 +25,28 @@
     "portrait": {
       "name": "StormspirePortrait",
       "spriteSheet": "ArleonWielderPortraits.png",
-      "x": 288,
-      "y": 796,
+      "x": 0,
+      "y": 551,
       "width": 208,
       "height": 228
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 8,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Cecilia",
@@ -29,11 +54,28 @@
     "portrait": {
       "name": "StoutheartPortrait",
       "spriteSheet": "ArleonWielderPortraits.png",
-      "x": 0,
-      "y": 298,
+      "x": 569,
+      "y": 590,
       "width": 185,
       "height": 208
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 3,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "BaronSilverlink",
@@ -41,11 +83,28 @@
     "portrait": {
       "name": "SilverlinkPortrait",
       "spriteSheet": "ArleonWielderPortraits.png",
-      "x": 0,
-      "y": 67,
+      "x": 396,
+      "y": 524,
       "width": 147,
       "height": 227
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 14,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "EthylleErnaline",
@@ -53,11 +112,28 @@
     "portrait": {
       "name": "EthyllePortrait",
       "spriteSheet": "ArleonWielderPortraits.png",
-      "x": 0,
-      "y": 510,
+      "x": 288,
+      "y": 755,
       "width": 277,
       "height": 269
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 25,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Ravenfayre",
@@ -65,11 +141,28 @@
     "portrait": {
       "name": "RavenfayrePortrait",
       "spriteSheet": "ArleonWielderPortraits.png",
-      "x": 151,
-      "y": 76,
+      "x": 547,
+      "y": 368,
       "width": 173,
       "height": 218
-    }
+    },
+    "stats": {
+      "defense": 0,
+      "offense": 10,
+      "movement": 13,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 1,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Peradine",
@@ -77,11 +170,28 @@
     "portrait": {
       "name": "PeradinePortrait",
       "spriteSheet": "ArleonWielderPortraits.png",
-      "x": 328,
-      "y": 123,
+      "x": 758,
+      "y": 581,
       "width": 180,
       "height": 214
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 5,
+      "movement": 13,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 17,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Gnaw",
@@ -93,7 +203,24 @@
       "y": 783,
       "width": 284,
       "height": 241
-    }
+    },
+    "stats": {
+      "defense": 0,
+      "offense": 15,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 18,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "ViljaOfThornecliff",
@@ -101,11 +228,28 @@
     "portrait": {
       "name": "ThornecliffPortrait",
       "spriteSheet": "ArleonWielderPortraits.png",
-      "x": 281,
-      "y": 341,
+      "x": 764,
+      "y": 799,
       "width": 190,
       "height": 225
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 5,
+      "movement": 13,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 5,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "LadyElisaHammond",
@@ -113,11 +257,28 @@
     "portrait": {
       "name": "HammondPortrait",
       "spriteSheet": "ArleonWielderPortraits.png",
-      "x": 288,
-      "y": 570,
+      "x": 569,
+      "y": 802,
       "width": 191,
       "height": 222
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 2,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "BaronAldus",
@@ -129,7 +290,24 @@
       "y": 176,
       "width": 161,
       "height": 212
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 4,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "DoctorMarjatta",
@@ -141,7 +319,24 @@
       "y": 374,
       "width": 164,
       "height": 222
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 7,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Wiesh",
@@ -153,7 +348,24 @@
       "y": 809,
       "width": 187,
       "height": 214
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 11,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Ambertina",
@@ -165,7 +377,24 @@
       "y": 390,
       "width": 162,
       "height": 206
-    }
+    },
+    "stats": {
+      "defense": 0,
+      "offense": 15,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 10,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "BrotherHillar",
@@ -177,7 +406,24 @@
       "y": 598,
       "width": 178,
       "height": 209
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 2,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Coral",
@@ -189,7 +435,24 @@
       "y": 359,
       "width": 159,
       "height": 211
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 3,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "MagnoliaSilverlink",
@@ -201,7 +464,24 @@
       "y": 572,
       "width": 175,
       "height": 224
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 14,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Merkoth",
@@ -213,7 +493,24 @@
       "y": 798,
       "width": 187,
       "height": 225
-    }
+    },
+    "stats": {
+      "defense": 0,
+      "offense": 15,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 18,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Roderick",
@@ -225,7 +522,24 @@
       "y": 168,
       "width": 159,
       "height": 204
-    }
+    },
+    "stats": {
+      "defense": 15,
+      "offense": 0,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 17,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Nimander",
@@ -237,7 +551,24 @@
       "y": 12,
       "width": 145,
       "height": 226
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 4,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Mehry",
@@ -249,7 +580,24 @@
       "y": 268,
       "width": 195,
       "height": 199
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 28,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Silkspool",
@@ -261,7 +609,24 @@
       "y": 199,
       "width": 218,
       "height": 268
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 18,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Aleah",
@@ -273,7 +638,24 @@
       "y": 240,
       "width": 191,
       "height": 227
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 5,
+      "movement": 13,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 1,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Bihgli",
@@ -285,7 +667,24 @@
       "y": 1,
       "width": 184,
       "height": 196
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 8,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Everthink",
@@ -297,7 +696,24 @@
       "y": 35,
       "width": 163,
       "height": 203
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 2,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Rosewater",
@@ -309,7 +725,20 @@
       "y": 65,
       "width": 157,
       "height": 201
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 12,
+        "level": 4
+      }
+    ]
   },
   {
     "type": "Sanaz",
@@ -321,7 +750,24 @@
       "y": 241,
       "width": 202,
       "height": 226
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 5,
+      "movement": 13,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 3,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Soughtfor",
@@ -333,7 +779,24 @@
       "y": 40,
       "width": 164,
       "height": 199
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 5,
+      "movement": 13,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 20,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Cheekham",
@@ -345,7 +808,24 @@
       "y": 824,
       "width": 213,
       "height": 199
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 5,
+      "movement": 13,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 4,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Itchamo",
@@ -357,7 +837,24 @@
       "y": 645,
       "width": 205,
       "height": 177
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 10,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Msugna",
@@ -369,7 +866,24 @@
       "y": 623,
       "width": 203,
       "height": 193
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 9,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Pcha",
@@ -381,7 +895,24 @@
       "y": 214,
       "width": 189,
       "height": 209
-    }
+    },
+    "stats": {
+      "defense": 15,
+      "offense": 0,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 24,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Rasc",
@@ -393,7 +924,24 @@
       "y": 23,
       "width": 182,
       "height": 189
-    }
+    },
+    "stats": {
+      "defense": 0,
+      "offense": 5,
+      "movement": 14,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 18,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "RascVanilla",
@@ -405,7 +953,24 @@
       "y": 23,
       "width": 182,
       "height": 189
-    }
+    },
+    "stats": {
+      "defense": 0,
+      "offense": 5,
+      "movement": 13,
+      "viewRadius": 8,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 18,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "RikTap",
@@ -417,7 +982,24 @@
       "y": 425,
       "width": 196,
       "height": 196
-    }
+    },
+    "stats": {
+      "defense": 15,
+      "offense": 0,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 3,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Rlac",
@@ -429,7 +1011,24 @@
       "y": 208,
       "width": 191,
       "height": 225
-    }
+    },
+    "stats": {
+      "defense": 0,
+      "offense": 15,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 4,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "SlaKin",
@@ -441,7 +1040,24 @@
       "y": 435,
       "width": 201,
       "height": 208
-    }
+    },
+    "stats": {
+      "defense": 10,
+      "offense": 5,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 28,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   },
   {
     "type": "Tchyra",
@@ -453,6 +1069,23 @@
       "y": 818,
       "width": 213,
       "height": 205
-    }
+    },
+    "stats": {
+      "defense": 5,
+      "offense": 10,
+      "movement": 12,
+      "viewRadius": 7,
+      "command": 0
+    },
+    "skills": [
+      {
+        "skill": 7,
+        "level": 1
+      },
+      {
+        "skill": 12,
+        "level": 3
+      }
+    ]
   }
 ]

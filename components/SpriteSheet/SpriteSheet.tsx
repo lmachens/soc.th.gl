@@ -1,4 +1,5 @@
 type SpriteSheetProps = {
+  folder?: string;
   spriteSheet: {
     name: string;
     spriteSheet: string;
@@ -8,11 +9,13 @@ type SpriteSheetProps = {
     height: number;
   };
 };
-const SpriteSheet = ({ spriteSheet }: SpriteSheetProps) => {
+const SpriteSheet = ({ folder = "", spriteSheet }: SpriteSheetProps) => {
   return (
     <div
       style={{
-        backgroundImage: `url(/${spriteSheet.spriteSheet})`,
+        backgroundImage: `url(/${folder ? `${folder}/` : ""}${
+          spriteSheet.spriteSheet
+        })`,
         backgroundPosition: `left -${spriteSheet.x}px bottom -${spriteSheet.y}px`,
         height: spriteSheet.height,
         width: spriteSheet.width,

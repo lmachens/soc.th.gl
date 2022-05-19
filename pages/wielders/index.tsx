@@ -20,7 +20,7 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[] }> = ({ wielders }) => {
               </>
             }
           >
-            <SpriteSheet spriteSheet={wielder.portrait} />
+            <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
           </PopoverLink>
         </Grid.Col>
       ))}

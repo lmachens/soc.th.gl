@@ -47,4 +47,15 @@ export type WielderDTO = {
   portrait: SpriteDTO;
   name: string;
   description: string;
+  stats: {
+    defense: number;
+    offense: number;
+    movement: number;
+    viewRadius: number;
+    command: number;
+  };
+  skills: {
+    skill: number;
+    level: number;
+  }[];
 };
