@@ -1,4 +1,5 @@
 type SpriteSheetProps = {
+  className?: string;
   folder?: string;
   spriteSheet: {
     name: string;
@@ -9,7 +10,11 @@ type SpriteSheetProps = {
     height: number;
   };
 };
-const SpriteSheet = ({ folder = "", spriteSheet }: SpriteSheetProps) => {
+const SpriteSheet = ({
+  className,
+  folder = "",
+  spriteSheet,
+}: SpriteSheetProps) => {
   return (
     <div
       style={{
@@ -20,6 +25,7 @@ const SpriteSheet = ({ folder = "", spriteSheet }: SpriteSheetProps) => {
         height: spriteSheet.height,
         width: spriteSheet.width,
       }}
+      className={className}
     />
   );
 };

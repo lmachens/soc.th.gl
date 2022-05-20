@@ -1,6 +1,5 @@
 import { NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
-
 import { Grid, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
