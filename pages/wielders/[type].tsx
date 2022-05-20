@@ -1,7 +1,7 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Stack, Table, Text, Title } from "@mantine/core";
+import { Blockquote, Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
 import { getTerm, TermsDTO } from "../../lib/terms";
@@ -19,7 +19,7 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
     <Stack>
       <Title order={4}>{wielder.name}</Title>
       <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
-      <Text size="sm">{wielder.description}</Text>
+      <Blockquote>{wielder.description}</Blockquote>
       <Table>
         <tbody>
           <tr>
@@ -44,6 +44,18 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
           </tr>
         </tbody>
       </Table>
+      <Title order={5}>{terms.startingTroops}</Title>
+      {wielder.units.map((unit, index) => (
+        <Text key={index}>
+          <Text
+            sx={(theme) => ({ color: theme.colors[theme.primaryColor][5] })}
+            component="span"
+          >
+            {unit.size}
+          </Text>{" "}
+          {unit.name}
+        </Text>
+      ))}
     </Stack>
   );
 };
@@ -67,6 +79,10 @@ export const getStaticProps = withStaticBase(async (context) => {
     movement: getTerm("Commanders/Details/CommanderStat/Movement", locale),
     viewRadius: getTerm("Commanders/Details/CommanderStat/View", locale),
     command: getTerm("Commanders/Details/CommanderStat/Command", locale),
+    startingTroops: getTerm(
+      "Adventure/PurchaseWielderMenu/TroopsAtStartHeader",
+      locale
+    ),
   };
 
   return {
