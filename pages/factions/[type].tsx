@@ -42,7 +42,10 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
                     </>
                   }
                 >
-                  <SpriteSheet spriteSheet={commander.portrait} />
+                  <SpriteSheet
+                    spriteSheet={commander.portrait}
+                    folder="wielders"
+                  />
                 </PopoverLink>
               )}
             </Grid.Col>
