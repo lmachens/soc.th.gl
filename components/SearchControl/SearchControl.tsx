@@ -1,8 +1,9 @@
 import React from "react";
-import { UnstyledButton, Text, Group } from "@mantine/core";
+import { UnstyledButton, Text, Group, Grid } from "@mantine/core";
 import { useSpotlight } from "@mantine/spotlight";
 import { SearchIcon } from "@primer/octicons-react";
 import Shortcut from "./Shortcut";
+import { ClientOnly } from "../ClientOnly/ClientOnly";
 
 export function SearchControl(props: React.ComponentPropsWithoutRef<"button">) {
   const spotlight = useSpotlight();
@@ -19,23 +20,21 @@ export function SearchControl(props: React.ComponentPropsWithoutRef<"button">) {
         color: theme.colors.dark[2],
         backgroundColor: theme.colors.dark[5],
         border: `1px solid ${theme.colors.dark[5]}`,
-
+        width: "100%",
         "&:hover": {
           backgroundColor: theme.fn.rgba(theme.colors.dark[5], 0.85),
         },
-
-        [theme.fn.smallerThan("sm")]: {
-          display: "none",
-        },
       })}
     >
-      <Group spacing="xs">
-        <SearchIcon size={14} />
-        <Text size="sm" color="dimmed" pr={80}>
-          Search
-        </Text>
-        <Shortcut />
-      </Group>
+      <Grid justify="space-between" align="center" px="xs">
+        <Group spacing="xs">
+          <SearchIcon size={14} />
+          <Text size="sm" color="dimmed">
+            Search
+          </Text>
+        </Group>
+        <ClientOnly>{() => <Shortcut />}</ClientOnly>
+      </Grid>
     </UnstyledButton>
   );
 }

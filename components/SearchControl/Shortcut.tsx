@@ -15,6 +15,10 @@ const Shortcut = () => {
         color: theme.colors.dark[0],
         border: `1px solid ${theme.colors.dark[6]}`,
         backgroundColor: theme.colors.dark[6],
+
+        [theme.fn.smallerThan("sm")]: {
+          display: "none",
+        },
       })}
     >
       {os === "undetermined" || os === "macos" ? "⌘" : "Ctrl"} + K
