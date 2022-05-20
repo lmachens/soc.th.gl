@@ -11,7 +11,7 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
   terms,
 }) => {
   const level = wielder.skills
-    ? wielder.skills.find((skill) => skill.skill === wielder.stats.command)
+    ? wielder.skills.find((skill) => skill.id === wielder.stats.command)
         ?.level || wielder.skills.at(-1)?.level
     : 0;
 
@@ -45,8 +45,8 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
         </tbody>
       </Table>
       <Title order={5}>{terms.startingTroops}</Title>
-      {wielder.units.map((unit, index) => (
-        <Text key={index}>
+      {wielder.units.map((unit) => (
+        <Text key={`${wielder.name}-${unit.name}`}>
           <Text
             sx={(theme) => ({ color: theme.colors[theme.primaryColor][5] })}
             component="span"
@@ -55,6 +55,10 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
           </Text>{" "}
           {unit.name}
         </Text>
+      ))}
+      <Title order={5}>{terms.skills}</Title>
+      {wielder.skills.map((skill, index) => (
+        <Text key={index}>{skill.name}</Text>
       ))}
     </Stack>
   );
@@ -83,6 +87,7 @@ export const getStaticProps = withStaticBase(async (context) => {
       "Adventure/PurchaseWielderMenu/TroopsAtStartHeader",
       locale
     ),
+    skills: getTerm("Tutorial/CodexCategory/Skills", locale),
   };
 
   return {

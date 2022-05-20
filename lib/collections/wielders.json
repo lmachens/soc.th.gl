@@ -40,11 +40,13 @@
     },
     "skills": [
       {
-        "skill": 8,
+        "id": 8,
+        "type": "Chaos",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -83,11 +85,13 @@
     },
     "skills": [
       {
-        "skill": 3,
+        "id": 3,
+        "type": "Guard",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -122,11 +126,13 @@
     },
     "skills": [
       {
-        "skill": 14,
+        "id": 14,
+        "type": "Taxes",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -165,11 +171,13 @@
     },
     "skills": [
       {
-        "skill": 25,
+        "id": 25,
+        "type": "Channeling",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -204,11 +212,13 @@
     },
     "skills": [
       {
-        "skill": 1,
+        "id": 1,
+        "type": "Archery",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -243,11 +253,13 @@
     },
     "skills": [
       {
-        "skill": 17,
+        "id": 17,
+        "type": "March",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -278,11 +290,13 @@
     },
     "skills": [
       {
-        "skill": 18,
+        "id": 18,
+        "type": "Melee",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -313,11 +327,13 @@
     },
     "skills": [
       {
-        "skill": 5,
+        "id": 5,
+        "type": "Prepared",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -352,11 +368,13 @@
     },
     "skills": [
       {
-        "skill": 2,
+        "id": 2,
+        "type": "Cunning",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -391,11 +409,13 @@
     },
     "skills": [
       {
-        "skill": 4,
+        "id": 4,
+        "type": "HandToHand",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -434,11 +454,13 @@
     },
     "skills": [
       {
-        "skill": 7,
+        "id": 7,
+        "type": "Arcana",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -477,11 +499,13 @@
     },
     "skills": [
       {
-        "skill": 11,
+        "id": 11,
+        "type": "Order",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -516,11 +540,13 @@
     },
     "skills": [
       {
-        "skill": 10,
+        "id": 10,
+        "type": "Destruction",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -555,11 +581,13 @@
     },
     "skills": [
       {
-        "skill": 2,
+        "id": 2,
+        "type": "Cunning",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -594,11 +622,13 @@
     },
     "skills": [
       {
-        "skill": 3,
+        "id": 3,
+        "type": "Guard",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -633,11 +663,13 @@
     },
     "skills": [
       {
-        "skill": 14,
+        "id": 14,
+        "type": "Taxes",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -672,11 +704,13 @@
     },
     "skills": [
       {
-        "skill": 18,
+        "id": 18,
+        "type": "Melee",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -711,11 +745,13 @@
     },
     "skills": [
       {
-        "skill": 17,
+        "id": 17,
+        "type": "March",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -750,11 +786,13 @@
     },
     "skills": [
       {
-        "skill": 4,
+        "id": 4,
+        "type": "HandToHand",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -789,11 +827,13 @@
     },
     "skills": [
       {
-        "skill": 28,
+        "id": 28,
+        "type": "Learning",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -828,11 +868,13 @@
     },
     "skills": [
       {
-        "skill": 18,
+        "id": 18,
+        "type": "Melee",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -867,11 +909,13 @@
     },
     "skills": [
       {
-        "skill": 1,
+        "id": 1,
+        "type": "Archery",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -906,11 +950,13 @@
     },
     "skills": [
       {
-        "skill": 8,
+        "id": 8,
+        "type": "Chaos",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -945,11 +991,13 @@
     },
     "skills": [
       {
-        "skill": 2,
+        "id": 2,
+        "type": "Cunning",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -984,7 +1032,8 @@
     },
     "skills": [
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 4
       }
     ],
@@ -1023,11 +1072,13 @@
     },
     "skills": [
       {
-        "skill": 3,
+        "id": 3,
+        "type": "Guard",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1062,11 +1113,13 @@
     },
     "skills": [
       {
-        "skill": 20,
+        "id": 20,
+        "type": "Scouting",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1101,11 +1154,13 @@
     },
     "skills": [
       {
-        "skill": 4,
+        "id": 4,
+        "type": "HandToHand",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1140,11 +1195,13 @@
     },
     "skills": [
       {
-        "skill": 10,
+        "id": 10,
+        "type": "Destruction",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1179,11 +1236,13 @@
     },
     "skills": [
       {
-        "skill": 9,
+        "id": 9,
+        "type": "Creation",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1214,11 +1273,13 @@
     },
     "skills": [
       {
-        "skill": 24,
+        "id": 24,
+        "type": "MagicResistance",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1253,11 +1314,13 @@
     },
     "skills": [
       {
-        "skill": 18,
+        "id": 18,
+        "type": "Melee",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1292,11 +1355,13 @@
     },
     "skills": [
       {
-        "skill": 18,
+        "id": 18,
+        "type": "Melee",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1331,11 +1396,13 @@
     },
     "skills": [
       {
-        "skill": 3,
+        "id": 3,
+        "type": "Guard",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1370,11 +1437,13 @@
     },
     "skills": [
       {
-        "skill": 4,
+        "id": 4,
+        "type": "HandToHand",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1409,11 +1478,13 @@
     },
     "skills": [
       {
-        "skill": 28,
+        "id": 28,
+        "type": "Learning",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],
@@ -1444,11 +1515,13 @@
     },
     "skills": [
       {
-        "skill": 7,
+        "id": 7,
+        "type": "Arcana",
         "level": 1
       },
       {
-        "skill": 12,
+        "id": 12,
+        "type": "Command",
         "level": 3
       }
     ],

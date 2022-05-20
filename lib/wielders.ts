@@ -33,6 +33,11 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       name: getTerm(`${wielderSrc.faction}/${unit.languageKey}/Name`, locale),
       size: unit.size,
     })),
+    skills: wielderSrc.skills.map((skill) => ({
+      id: skill.id,
+      name: getTerm(`Skills/${skill.type}`, locale),
+      level: skill.level,
+    })),
   };
   return wielder;
 };
@@ -59,7 +64,8 @@ export type WielderDTO = {
     command: number;
   };
   skills: {
-    skill: number;
+    id: number;
+    name: string;
     level: number;
   }[];
   units: {
