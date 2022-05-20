@@ -6,39 +6,52 @@ import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { Fragment } from "react";
 import { getSkill, getSkills, SkillDTO } from "../../lib/skills";
+import Head from "next/head";
 
 const Skill: NextPage<{
   skill: SkillDTO;
   terms: TermsDTO;
 }> = ({ skill, terms }) => {
   return (
-    <Stack>
-      <Title order={4}>{skill.name}</Title>
-      <Text size="sm">{skill.lore}</Text>
-      <SpriteSheet spriteSheet={skill.icon} />
-
+    <>
+      <Head>
+        <title>{skill.name} - SoC.gg</title>
+        <meta
+          name="description"
+          content={`${skill.name} skill details of Songs of Conquest`}
+        />
+      </Head>
       <Stack>
-        {skill.levels.map((level, index) => (
-          <Fragment key={index}>
-            <Title order={5} dangerouslySetInnerHTML={{ __html: level.name }} />
-            {level.description && (
-              <Text dangerouslySetInnerHTML={{ __html: level.description }} />
-            )}
-            {level.modifierData.map((modifier) => (
-              <Text
-                key={modifier.type}
-                dangerouslySetInnerHTML={{ __html: modifier.description }}
+        <Title order={4}>{skill.name}</Title>
+        <Text size="sm">{skill.lore}</Text>
+        <SpriteSheet spriteSheet={skill.icon} />
+
+        <Stack>
+          {skill.levels.map((level, index) => (
+            <Fragment key={index}>
+              <Title
+                order={5}
+                dangerouslySetInnerHTML={{ __html: level.name }}
               />
-            ))}
-            {level.resourcesIncome.map((resourceIncome) => (
-              <Text key={resourceIncome.type}>
-                {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
-              </Text>
-            ))}
-          </Fragment>
-        ))}
+              {level.description && (
+                <Text dangerouslySetInnerHTML={{ __html: level.description }} />
+              )}
+              {level.modifierData.map((modifier) => (
+                <Text
+                  key={modifier.type}
+                  dangerouslySetInnerHTML={{ __html: modifier.description }}
+                />
+              ))}
+              {level.resourcesIncome.map((resourceIncome) => (
+                <Text key={resourceIncome.type}>
+                  {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
+                </Text>
+              ))}
+            </Fragment>
+          ))}
+        </Stack>
       </Stack>
-    </Stack>
+    </>
   );
 };
 

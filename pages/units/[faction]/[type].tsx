@@ -4,14 +4,24 @@ import { withStaticBase } from "../../../lib/staticProps";
 import { Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { getUnit, getUnits, UnitDTO } from "../../../lib/units";
+import Head from "next/head";
 
 const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
   return (
-    <Stack>
-      <Title order={4}>{unit.vanilla.name}</Title>
-      <SpriteSheet spriteSheet={unit.vanilla.sprite} />
-      <Text size="sm">{unit.vanilla.description}</Text>
-    </Stack>
+    <>
+      <Head>
+        <title>{unit.vanilla.name} - SoC.gg</title>
+        <meta
+          name="description"
+          content={`${unit.vanilla.name} unit details of Songs of Conquest`}
+        />
+      </Head>
+      <Stack>
+        <Title order={4}>{unit.vanilla.name}</Title>
+        <SpriteSheet spriteSheet={unit.vanilla.sprite} />
+        <Text size="sm">{unit.vanilla.description}</Text>
+      </Stack>
+    </>
   );
 };
 

@@ -5,26 +5,33 @@ import { Grid, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
 import { getWielders, WielderSimpleDTO } from "../../lib/wielders";
+import Head from "next/head";
 
 const Wielders: NextPage<{ wielders: WielderSimpleDTO[] }> = ({ wielders }) => {
   return (
-    <Grid justify="center" mt="md">
-      {wielders.map((wielder) => (
-        <Grid.Col key={wielder.type} sx={{ flexBasis: "auto" }}>
-          <PopoverLink
-            href={`/wielders/${wielder.type}`}
-            popover={
-              <>
-                <Title order={4}>{wielder.name}</Title>
-                <Text size="sm">{wielder.description}</Text>
-              </>
-            }
-          >
-            <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
-          </PopoverLink>
-        </Grid.Col>
-      ))}
-    </Grid>
+    <>
+      <Head>
+        <title>Wielders - SoC.gg</title>
+        <meta name="description" content="All wielders of Songs of Conquest" />
+      </Head>
+      <Grid justify="center" mt="md">
+        {wielders.map((wielder) => (
+          <Grid.Col key={wielder.type} sx={{ flexBasis: "auto" }}>
+            <PopoverLink
+              href={`/wielders/${wielder.type}`}
+              popover={
+                <>
+                  <Title order={4}>{wielder.name}</Title>
+                  <Text size="sm">{wielder.description}</Text>
+                </>
+              }
+            >
+              <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
+            </PopoverLink>
+          </Grid.Col>
+        ))}
+      </Grid>
+    </>
   );
 };
 

@@ -5,26 +5,33 @@ import { Grid, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
 import { getUnits, UnitSimpleDTO } from "../../lib/units";
+import Head from "next/head";
 
 const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
   return (
-    <Grid justify="center" mt="md">
-      {units.map((unit) => (
-        <Grid.Col key={unit.vanilla.languageKey} sx={{ flexBasis: "auto" }}>
-          <PopoverLink
-            href={`/factions/${unit.vanilla.languageKey}`}
-            popover={
-              <>
-                <Title order={4}>{unit.vanilla.name}</Title>
-                <Text size="sm">{unit.vanilla.description}</Text>
-              </>
-            }
-          >
-            <SpriteSheet spriteSheet={unit.vanilla.sprite} />
-          </PopoverLink>
-        </Grid.Col>
-      ))}
-    </Grid>
+    <>
+      <Head>
+        <title>Units - SoC.gg</title>
+        <meta name="description" content="All units of Songs of Conquest" />
+      </Head>
+      <Grid justify="center" mt="md">
+        {units.map((unit) => (
+          <Grid.Col key={unit.vanilla.languageKey} sx={{ flexBasis: "auto" }}>
+            <PopoverLink
+              href={`/factions/${unit.vanilla.languageKey}`}
+              popover={
+                <>
+                  <Title order={4}>{unit.vanilla.name}</Title>
+                  <Text size="sm">{unit.vanilla.description}</Text>
+                </>
+              }
+            >
+              <SpriteSheet spriteSheet={unit.vanilla.sprite} />
+            </PopoverLink>
+          </Grid.Col>
+        ))}
+      </Grid>
+    </>
   );
 };
 
