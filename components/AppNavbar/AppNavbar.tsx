@@ -22,7 +22,23 @@ const AppNavbar = ({ collectionLinks, opened }: Props) => {
       hidden={!opened}
       width={{ sm: 200, lg: 300 }}
     >
-      <ScrollArea style={{ height: "100vh" }} type="scroll">
+      <ScrollArea
+        styles={{
+          root: {
+            height: "100vh",
+            '[data-orientation="horizontal"]': {
+              display: "none",
+            },
+          },
+          viewport: {
+            overflow: "hidden scroll !important",
+            "> div": {
+              display: "block !important",
+            },
+          },
+        }}
+        type="scroll"
+      >
         <NavbarMainLink href="/" icon={<HomeIcon size={18} />}>
           Home
         </NavbarMainLink>

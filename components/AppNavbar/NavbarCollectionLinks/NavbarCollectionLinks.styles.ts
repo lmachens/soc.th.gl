@@ -104,6 +104,10 @@ export default createStyles((theme) => ({
     borderBottomRightRadius: theme.radius.sm,
     fontSize: theme.fontSizes.sm,
     userSelect: "none",
+    textOverflow: "ellipsis",
+    overflow: "hidden",
+    whiteSpace: "nowrap",
+    maxWidth: "calc(100% - 7px)",
   },
 
   linkActive: {
