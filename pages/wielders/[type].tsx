@@ -57,8 +57,25 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
         </Text>
       ))}
       <Title order={5}>{terms.skills}</Title>
-      {wielder.skills.map((skill, index) => (
-        <Text key={index}>{skill.name}</Text>
+      {wielder.skills.map((skill) => (
+        <Text key={`${wielder.name}-${skill.name}`}>{skill.name}</Text>
+      ))}
+      <Title order={5}>{terms.specializations}</Title>
+      {wielder.specializations.map((specialization) => (
+        <Text key={`${wielder.name}-${specialization.bacteriaType}`}>
+          {specialization.modifierData.map((modifier) => (
+            <Text
+              key={modifier.type}
+              dangerouslySetInnerHTML={{ __html: modifier.description }}
+              component="span"
+            />
+          ))}
+          {specialization.resourcesIncome.map((resourceIncome) => (
+            <Text key={resourceIncome.type} component="span">
+              {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
+            </Text>
+          ))}
+        </Text>
       ))}
     </Stack>
   );
@@ -88,6 +105,7 @@ export const getStaticProps = withStaticBase(async (context) => {
       locale
     ),
     skills: getTerm("Tutorial/CodexCategory/Skills", locale),
+    specializations: getTerm("Commanders/Tooltip/Specializations", locale),
   };
 
   return {

@@ -1,11 +1,11 @@
-import skillCollection from "./collections/skill.json";
-import bacteriaCollection from "./collections/bacteria.json";
+import skillsCollection from "./collections/skills.json";
 
 import { getTerm } from "./terms";
 import { SpriteDTO } from "./sprites";
+import { RESOURCE_TYPES } from "./bacterias";
 
 export const getSkills = (locale: string) => {
-  const skills = skillCollection.map<SkillSimpleDTO>((skill) => ({
+  const skills = skillsCollection.map<SkillSimpleDTO>((skill) => ({
     type: skill.type,
     name: getTerm(`Skills/${skill.type}`, locale),
     lore: getTerm(`Skills/${skill.type}/Lore`, locale),
@@ -15,7 +15,7 @@ export const getSkills = (locale: string) => {
 };
 
 export const getSkill = (type: string, locale: string) => {
-  const skillSrc = skillCollection.find((skill) => skill.type === type);
+  const skillSrc = skillsCollection.find((skill) => skill.type === type);
   if (!skillSrc) {
     return null;
   }
@@ -25,35 +25,33 @@ export const getSkill = (type: string, locale: string) => {
     name: getTerm(`Skills/${skillSrc.type}`, locale),
     lore: getTerm(`Skills/${skillSrc.type}/Lore`, locale),
     icon: skillSrc.icon,
-    levels: skillSrc.levels.map((level, index) => {
-      const bacteria = bacteriaCollection.find(
-        (bacteria) => bacteria.id === level.bacterias[0].type
-      )!;
-      return {
-        name: getTerm(`Common/Level`, locale, index + 1),
+    levels: skillSrc.levels.map((level, index) => ({
+      name: getTerm(`Common/Level`, locale, index + 1),
+      description: getTerm(
+        `Skills/${skillSrc.type}/Level${index + 1}/Description`,
+        locale
+      ),
+      bacteriaType: level.bacteriaType,
+      modifierData: level.modifierData.map((modifier) => ({
+        type: modifier.type,
         description: getTerm(
-          `Skills/${skillSrc.type}/Level${index + 1}/Description`,
+          `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
+          locale,
+          modifier.amountToAdd,
+          modifier.applicationType ||
+            Number(modifier.modifier === "CommanderTutorPercent")
+        ),
+      })),
+      resourcesIncome: level.resourcesIncome.map((resourceIncome) => ({
+        type: resourceIncome.type,
+        name: getTerm(
+          `Common/Resource/${RESOURCE_TYPES[resourceIncome.type]}`,
           locale
         ),
-        modifierData:
-          bacteria.modifierData?.map((modifier) => ({
-            type: modifier.type,
-            description: getTerm(
-              `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
-              locale,
-              modifier.amountToAdd,
-              modifier.applicationType ||
-                Number(modifier.modifier === "CommanderTutorPercent")
-            ),
-          })) || [],
-        resourcesIncome:
-          bacteria.income?.resources.map((resource) => ({
-            type: resource.type,
-            amount: resource.amount,
-            allTimeAmount: resource.allTimeAmount,
-          })) || [],
-      };
-    }),
+        amount: resourceIncome.amount,
+        allTimeAmount: resourceIncome.allTimeAmount,
+      })),
+    })),
   };
   return skill;
 };
@@ -79,6 +77,7 @@ export type SkillDTO = {
     }[];
     resourcesIncome: {
       type: number;
+      name: string;
       amount: number;
       allTimeAmount: number;
     }[];

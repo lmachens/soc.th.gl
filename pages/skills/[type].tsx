@@ -1,21 +1,11 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
-import skillCollection from "../../lib/collections/skill.json";
 
 import { Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { Fragment } from "react";
-import { getSkill, SkillDTO } from "../../lib/skills";
-
-const resourceTypes = [
-  "gold",
-  "wood",
-  "stone",
-  "ancientAmber",
-  "glimmerweave",
-  "celestialOre",
-];
+import { getSkill, getSkills, SkillDTO } from "../../lib/skills";
 
 const Skill: NextPage<{
   skill: SkillDTO;
@@ -42,9 +32,7 @@ const Skill: NextPage<{
             ))}
             {level.resourcesIncome.map((resourceIncome) => (
               <Text key={resourceIncome.type}>
-                {`${terms.production} +${resourceIncome.amount} ${
-                  terms[resourceTypes[resourceIncome.type]]
-                }`}
+                {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
               </Text>
             ))}
           </Fragment>
@@ -82,7 +70,7 @@ export const getStaticProps = withStaticBase(async (context) => {
 });
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const skills = skillCollection.map((skill) => ({
+  const skills = getSkills("en").map((skill) => ({
     params: {
       type: skill.type,
     },

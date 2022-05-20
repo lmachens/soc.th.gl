@@ -18,7 +18,8 @@
       "command": 5
     },
     "skills": [],
-    "units": []
+    "units": [],
+    "specializations": []
   },
   {
     "type": "GiandraStormspire",
@@ -63,6 +64,20 @@
         "languageKey": "FaeySpirit",
         "size": 3
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 700,
+        "modifierData": [
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -103,6 +118,20 @@
       {
         "languageKey": "Footman",
         "size": 5
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 705,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -149,6 +178,20 @@
         "languageKey": "Minstrel",
         "size": 9
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 711,
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -189,6 +232,20 @@
       {
         "languageKey": "FaeySpirit",
         "size": 4
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 709,
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 40,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -231,6 +288,20 @@
         "languageKey": "Ranger",
         "size": 5
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 706,
+        "modifierData": [
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -268,6 +339,20 @@
         "languageKey": "Ranger",
         "size": 10
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 701,
+        "modifierData": [
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -304,6 +389,26 @@
       {
         "languageKey": "HornedOne",
         "size": 3
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 703,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          },
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -346,6 +451,20 @@
         "languageKey": "Ranger",
         "size": 5
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 710,
+        "modifierData": [
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 40,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -386,6 +505,20 @@
       {
         "languageKey": "Militia",
         "size": 10
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 704,
+        "modifierData": [
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -432,6 +565,20 @@
         "languageKey": "Rats",
         "size": 5
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 705,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -477,6 +624,20 @@
         "languageKey": "Oathbound",
         "size": 5
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 709,
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 40,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -517,6 +678,20 @@
       {
         "languageKey": "Rats",
         "size": 10
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 699,
+        "modifierData": [
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -559,6 +734,20 @@
         "languageKey": "Rats",
         "size": 16
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 702,
+        "modifierData": [
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -599,6 +788,20 @@
       {
         "languageKey": "Rats",
         "size": 14
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 708,
+        "modifierData": [
+          {
+            "type": 13,
+            "modifier": "TroopHealth",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -641,6 +844,20 @@
         "languageKey": "Oathbound",
         "size": 8
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 707,
+        "modifierData": [
+          {
+            "type": 7,
+            "modifier": "TroopRangedAttackResistance",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -681,6 +898,20 @@
       {
         "languageKey": "Embalmer",
         "size": 4
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 711,
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -723,6 +954,20 @@
         "languageKey": "Oathbound",
         "size": 8
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 856,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -763,6 +1008,20 @@
       {
         "languageKey": "Cultist",
         "size": 5
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 704,
+        "modifierData": [
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -805,6 +1064,19 @@
         "languageKey": "Pikeneer",
         "size": 6
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 857,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 0,
+            "amount": 200,
+            "allTimeAmount": 0
+          }
+        ]
+      }
     ]
   },
   {
@@ -845,6 +1117,20 @@
       {
         "languageKey": "Tinkerer",
         "size": 3
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 855,
+        "modifierData": [
+          {
+            "type": 18,
+            "modifier": "TroopRangedRange",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -887,6 +1173,20 @@
         "languageKey": "Pikeneer",
         "size": 6
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 705,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -927,6 +1227,20 @@
       {
         "languageKey": "Musketeer",
         "size": 5
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 706,
+        "modifierData": [
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -969,6 +1283,20 @@
         "languageKey": "Pikeneer",
         "size": 5
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 700,
+        "modifierData": [
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -1010,6 +1338,20 @@
         "languageKey": "Tinkerer",
         "size": 2
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 710,
+        "modifierData": [
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 40,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -1049,6 +1391,20 @@
       {
         "languageKey": "Piper",
         "size": 1
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 702,
+        "modifierData": [
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -1091,6 +1447,20 @@
         "languageKey": "Musketeer",
         "size": 6
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 704,
+        "modifierData": [
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -1131,6 +1501,20 @@
       {
         "languageKey": "Piper",
         "size": 6
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 712,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -1173,6 +1557,20 @@
         "languageKey": "Hunter",
         "size": 10
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 1125,
+        "modifierData": [
+          {
+            "type": 1,
+            "modifier": "TroopDamage",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -1214,6 +1612,20 @@
         "languageKey": "Guard",
         "size": 4
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 702,
+        "modifierData": [
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -1250,6 +1662,20 @@
       {
         "languageKey": "Tremor",
         "size": 3
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 709,
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 40,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -1292,6 +1718,20 @@
         "languageKey": "Shaman",
         "size": 3
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 710,
+        "modifierData": [
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 40,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -1332,6 +1772,20 @@
       {
         "languageKey": "Hunter",
         "size": 6
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 1159,
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -1374,7 +1828,8 @@
         "languageKey": "Hunter",
         "size": 10
       }
-    ]
+    ],
+    "specializations": []
   },
   {
     "type": "RikTap",
@@ -1414,6 +1869,20 @@
       {
         "languageKey": "Hunter",
         "size": 4
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 707,
+        "modifierData": [
+          {
+            "type": 7,
+            "modifier": "TroopRangedAttackResistance",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -1456,6 +1925,26 @@
         "languageKey": "Guard",
         "size": 4
       }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 859,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          },
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
     ]
   },
   {
@@ -1492,6 +1981,20 @@
       {
         "languageKey": "Dragonling",
         "size": 2
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 855,
+        "modifierData": [
+          {
+            "type": 18,
+            "modifier": "TroopRangedRange",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   },
@@ -1533,6 +2036,20 @@
       {
         "languageKey": "Shaman",
         "size": 7
+      }
+    ],
+    "specializations": [
+      {
+        "bacteriaType": 699,
+        "modifierData": [
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
       }
     ]
   }

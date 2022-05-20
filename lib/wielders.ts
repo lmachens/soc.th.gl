@@ -1,3 +1,4 @@
+import { RESOURCE_TYPES } from "./bacterias";
 import wieldersCollection from "./collections/wielders.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
@@ -38,6 +39,28 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       name: getTerm(`Skills/${skill.type}`, locale),
       level: skill.level,
     })),
+    specializations: wielderSrc.specializations.map((specialization) => ({
+      bacteriaType: specialization.bacteriaType,
+      modifierData: specialization.modifierData.map((modifier) => ({
+        type: modifier.type,
+        description: getTerm(
+          `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
+          locale,
+          modifier.amountToAdd,
+          modifier.applicationType ||
+            Number(modifier.modifier === "CommanderTutorPercent")
+        ),
+      })),
+      resourcesIncome: specialization.resourcesIncome.map((resourceIncome) => ({
+        type: resourceIncome.type,
+        name: getTerm(
+          `Common/Resource/${RESOURCE_TYPES[resourceIncome.type]}`,
+          locale
+        ),
+        amount: resourceIncome.amount,
+        allTimeAmount: resourceIncome.allTimeAmount,
+      })),
+    })),
   };
   return wielder;
 };
@@ -71,5 +94,18 @@ export type WielderDTO = {
   units: {
     name: string;
     size: number;
+  }[];
+  specializations: {
+    bacteriaType: number;
+    modifierData: {
+      type: number;
+      description: string;
+    }[];
+    resourcesIncome: {
+      type: number;
+      name: string;
+      amount: number;
+      allTimeAmount: number;
+    }[];
   }[];
 };

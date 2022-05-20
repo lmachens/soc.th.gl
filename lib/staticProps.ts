@@ -1,7 +1,7 @@
 import { GetStaticProps } from "next";
 
-import skillCollection from "./collections/skill.json";
 import { getFactions } from "./factions";
+import { getSkills } from "./skills";
 import { getTerm } from "./terms";
 import { getUnits } from "./units";
 import { getWielders } from "./wielders";
@@ -35,7 +35,7 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       }))
       .sort(sortByLabel);
 
-    const skills = skillCollection
+    const skills = getSkills(locale)
       .map((skill) => ({
         to: `/skills/${skill.type}`,
         label: getTerm(`Skills/${skill.type}`, locale),

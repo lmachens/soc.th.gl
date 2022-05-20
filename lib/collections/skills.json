@@ -1,0 +1,1957 @@
+[
+  {
+    "type": "Archery",
+    "icon": {
+      "name": "Precision",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 274,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 3,
+        "modifierData": [
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 4,
+        "modifierData": [
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 5,
+        "modifierData": [
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          },
+          {
+            "type": 18,
+            "modifier": "TroopRangedRange",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Cunning",
+    "icon": {
+      "name": "Cunning",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 274,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 6,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 7,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 15,
+            "applicationType": 0
+          },
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 15,
+            "applicationType": 0
+          },
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 8,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 25,
+            "applicationType": 0
+          },
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 25,
+            "applicationType": 0
+          },
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": 25,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Guard",
+    "icon": {
+      "name": "Guard",
+      "spriteSheet": "SkillIcons.png",
+      "x": 378,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 9,
+        "modifierData": [
+          {
+            "type": 4,
+            "modifier": "TroopMeleeAttackResistance",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 10,
+        "modifierData": [
+          {
+            "type": 4,
+            "modifier": "TroopMeleeAttackResistance",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 11,
+        "modifierData": [
+          {
+            "type": 4,
+            "modifier": "TroopMeleeAttackResistance",
+            "amountToAdd": 30,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "HandToHand",
+    "icon": {
+      "name": "Hand to Hand",
+      "spriteSheet": "SkillIcons.png",
+      "x": 472,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 12,
+        "modifierData": [
+          {
+            "type": 47,
+            "modifier": "TroopDamageMultiplier",
+            "amountToAdd": 10,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 13,
+        "modifierData": [
+          {
+            "type": 47,
+            "modifier": "TroopDamageMultiplier",
+            "amountToAdd": 20,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 14,
+        "modifierData": [
+          {
+            "type": 47,
+            "modifier": "TroopDamageMultiplier",
+            "amountToAdd": 20,
+            "applicationType": 1
+          },
+          {
+            "type": 9,
+            "modifier": "TroopRetaliations",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Prepared",
+    "icon": {
+      "name": "Prepared",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 180,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 15,
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 16,
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 17,
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Arcana",
+    "icon": {
+      "name": "Arcana",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 443,
+        "modifierData": [
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 444,
+        "modifierData": [
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 445,
+        "modifierData": [
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Chaos",
+    "icon": {
+      "name": "Chaos Magic",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 556,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 447,
+        "modifierData": [
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 448,
+        "modifierData": [
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 449,
+        "modifierData": [
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Creation",
+    "icon": {
+      "name": "Creation Magic",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 368,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 450,
+        "modifierData": [
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 451,
+        "modifierData": [
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 452,
+        "modifierData": [
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Destruction",
+    "icon": {
+      "name": "Destruction",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 180,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 453,
+        "modifierData": [
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 454,
+        "modifierData": [
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 455,
+        "modifierData": [
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Order",
+    "icon": {
+      "name": "Order Magic",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 462,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 456,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 457,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 458,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Command",
+    "icon": {
+      "name": "Command",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 462,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 347,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 348,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 349,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 350,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 351,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 352,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 353,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 7,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 354,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 8,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 355,
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 9,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Taxes",
+    "icon": {
+      "name": "Taxes",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 556,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 377,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 0,
+            "amount": 100,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 378,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 0,
+            "amount": 250,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 379,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 0,
+            "amount": 500,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Brutal",
+    "icon": {
+      "name": "Brutal",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 744,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 380,
+        "modifierData": [
+          {
+            "type": 1,
+            "modifier": "TroopDamage",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 381,
+        "modifierData": [
+          {
+            "type": 1,
+            "modifier": "TroopDamage",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Rigor",
+    "icon": {
+      "name": "Rigor",
+      "spriteSheet": "SkillIcons.png",
+      "x": 754,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 383,
+        "modifierData": [
+          {
+            "type": 13,
+            "modifier": "TroopHealth",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 384,
+        "modifierData": [
+          {
+            "type": 13,
+            "modifier": "TroopHealth",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "March",
+    "icon": {
+      "name": "March",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 744,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 386,
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 387,
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 388,
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Melee",
+    "icon": {
+      "name": "Melee",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 650,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 389,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 390,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 391,
+        "modifierData": [
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 20,
+            "applicationType": 0
+          },
+          {
+            "type": 4,
+            "modifier": "TroopMeleeAttackResistance",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "SpeedOfWinds",
+    "icon": {
+      "name": "Speed of Winds",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 650,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 392,
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 393,
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Scouting",
+    "icon": {
+      "name": "Scouting",
+      "spriteSheet": "SkillIcons.png",
+      "x": 848,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 395,
+        "modifierData": [
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 396,
+        "modifierData": [
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 397,
+        "modifierData": [
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 5,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Levy",
+    "icon": {
+      "name": "Levy",
+      "spriteSheet": "SkillIcons.png",
+      "x": 754,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 462,
+        "modifierData": [
+          {
+            "type": 17,
+            "modifier": "TeamAllDwellingIncrease",
+            "amountToAdd": 30,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 463,
+        "modifierData": [
+          {
+            "type": 17,
+            "modifier": "TeamAllDwellingIncrease",
+            "amountToAdd": 60,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "MagicResistance",
+    "icon": {
+      "name": "Magic Resistance",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 468,
+        "modifierData": [
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 25,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 469,
+        "modifierData": [
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 50,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 470,
+        "modifierData": [
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 75,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Channeling",
+    "icon": {
+      "name": "Channeling",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 650,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 465,
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 30,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 466,
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 60,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 467,
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 100,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Raider",
+    "icon": {
+      "name": "Raider",
+      "spriteSheet": "SkillIcons.png",
+      "x": 660,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 493,
+        "modifierData": [
+          {
+            "type": 37,
+            "modifier": "CommanderPillageBonus",
+            "amountToAdd": 200,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 494,
+        "modifierData": [
+          {
+            "type": 37,
+            "modifier": "CommanderPillageBonus",
+            "amountToAdd": 400,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 495,
+        "modifierData": [
+          {
+            "type": 37,
+            "modifier": "CommanderPillageBonus",
+            "amountToAdd": 600,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Learning",
+    "icon": {
+      "name": "Learning",
+      "spriteSheet": "SkillIcons.png",
+      "x": 660,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 876,
+        "modifierData": [
+          {
+            "type": 43,
+            "modifier": "CommanderXPMultiplier",
+            "amountToAdd": 15,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 901,
+        "modifierData": [
+          {
+            "type": 43,
+            "modifier": "CommanderXPMultiplier",
+            "amountToAdd": 30,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 902,
+        "modifierData": [
+          {
+            "type": 43,
+            "modifier": "CommanderXPMultiplier",
+            "amountToAdd": 50,
+            "applicationType": 1
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "ProduceGlimmer",
+    "icon": {
+      "name": "Production Glimmerweave",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 877,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 4,
+            "amount": 1,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 887,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 4,
+            "amount": 2,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 888,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 4,
+            "amount": 3,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ProduceAmber",
+    "icon": {
+      "name": "Production Amber",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 86,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 878,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 3,
+            "amount": 1,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 884,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 3,
+            "amount": 2,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 883,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 3,
+            "amount": 3,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ProduceCelestial",
+    "icon": {
+      "name": "Production Ore",
+      "spriteSheet": "SkillIcons.png",
+      "x": 284,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 879,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 5,
+            "amount": 1,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 885,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 5,
+            "amount": 2,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 886,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 5,
+            "amount": 3,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "PowerRange",
+    "icon": {
+      "name": "Farsight",
+      "spriteSheet": "SkillIcons.png",
+      "x": 284,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 880,
+        "modifierData": [
+          {
+            "type": 18,
+            "modifier": "TroopRangedRange",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 881,
+        "modifierData": [
+          {
+            "type": 18,
+            "modifier": "TroopRangedRange",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 39,
+            "modifier": "TroopDeadlyRange",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "ProduceStone",
+    "icon": {
+      "name": "Production Stone",
+      "spriteSheet": "SkillIcons.png",
+      "x": 378,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 889,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 2,
+            "amount": 1,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 890,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 2,
+            "amount": 2,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 891,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 2,
+            "amount": 3,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "ProduceWood",
+    "icon": {
+      "name": "Production Wood",
+      "spriteSheet": "SkillIcons.png",
+      "x": 472,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 892,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 1,
+            "amount": 1,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 893,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 1,
+            "amount": 2,
+            "allTimeAmount": 0
+          }
+        ]
+      },
+      {
+        "bacteriaType": 894,
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 1,
+            "amount": 3,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "Fast",
+    "icon": {
+      "name": "Eager",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 86,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 895,
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 896,
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 30,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Positioning",
+    "icon": {
+      "name": "Positioning",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 368,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 1111,
+        "modifierData": [
+          {
+            "type": 7,
+            "modifier": "TroopRangedAttackResistance",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1112,
+        "modifierData": [
+          {
+            "type": 7,
+            "modifier": "TroopRangedAttackResistance",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1113,
+        "modifierData": [
+          {
+            "type": 7,
+            "modifier": "TroopRangedAttackResistance",
+            "amountToAdd": 30,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Diplomacy",
+    "icon": {
+      "name": "Impressive",
+      "spriteSheet": "SkillIcons.png",
+      "x": 566,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 913,
+        "modifierData": [
+          {
+            "type": 45,
+            "modifier": "CommanderDiplomacyBonus",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 914,
+        "modifierData": [
+          {
+            "type": 45,
+            "modifier": "CommanderDiplomacyBonus",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 915,
+        "modifierData": [
+          {
+            "type": 45,
+            "modifier": "CommanderDiplomacyBonus",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "EssenceBurst",
+    "icon": {
+      "name": "Essence Burst",
+      "spriteSheet": "SkillIcons.png",
+      "x": 96,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 1108,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1109,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 4,
+            "applicationType": 0
+          },
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 4,
+            "applicationType": 0
+          },
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 4,
+            "applicationType": 0
+          },
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 4,
+            "applicationType": 0
+          },
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1110,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 6,
+            "applicationType": 0
+          },
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 6,
+            "applicationType": 0
+          },
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 6,
+            "applicationType": 0
+          },
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 6,
+            "applicationType": 0
+          },
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "PowerShielded",
+    "icon": {
+      "name": "Shielded",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 744,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 1147,
+        "modifierData": [],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1148,
+        "modifierData": [],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Tutor",
+    "icon": {
+      "name": "Tutoring",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 462,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 1122,
+        "modifierData": [
+          {
+            "type": 46,
+            "modifier": "CommanderTutorPercent",
+            "amountToAdd": 25,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1123,
+        "modifierData": [
+          {
+            "type": 46,
+            "modifier": "CommanderTutorPercent",
+            "amountToAdd": 50,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1124,
+        "modifierData": [
+          {
+            "type": 46,
+            "modifier": "CommanderTutorPercent",
+            "amountToAdd": 75,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "Attuned",
+    "icon": {
+      "name": "Attuned",
+      "spriteSheet": "SkillIcons.png",
+      "x": 2,
+      "y": 838,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 1120,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1121,
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "type": "EssenceLeech",
+    "icon": {
+      "name": "Essence Leech",
+      "spriteSheet": "SkillIcons.png",
+      "x": 190,
+      "y": 932,
+      "width": 90,
+      "height": 90
+    },
+    "levels": [
+      {
+        "bacteriaType": 1139,
+        "modifierData": [
+          {
+            "type": 48,
+            "modifier": "CommanderEssenceLeech",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1140,
+        "modifierData": [
+          {
+            "type": 48,
+            "modifier": "CommanderEssenceLeech",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      },
+      {
+        "bacteriaType": 1141,
+        "modifierData": [
+          {
+            "type": 48,
+            "modifier": "CommanderEssenceLeech",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  }
+]
