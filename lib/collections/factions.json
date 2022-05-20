@@ -98,8 +98,8 @@
         "portrait": {
           "name": "StormspirePortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
-          "x": 288,
-          "y": 796,
+          "x": 0,
+          "y": 551,
           "width": 208,
           "height": 228
         }
@@ -109,8 +109,8 @@
         "portrait": {
           "name": "StoutheartPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
-          "x": 0,
-          "y": 298,
+          "x": 569,
+          "y": 590,
           "width": 185,
           "height": 208
         }
@@ -120,8 +120,8 @@
         "portrait": {
           "name": "SilverlinkPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
-          "x": 0,
-          "y": 67,
+          "x": 396,
+          "y": 524,
           "width": 147,
           "height": 227
         }
@@ -131,8 +131,8 @@
         "portrait": {
           "name": "EthyllePortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
-          "x": 0,
-          "y": 510,
+          "x": 288,
+          "y": 755,
           "width": 277,
           "height": 269
         }
@@ -142,8 +142,8 @@
         "portrait": {
           "name": "RavenfayrePortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
-          "x": 151,
-          "y": 76,
+          "x": 547,
+          "y": 368,
           "width": 173,
           "height": 218
         }
@@ -153,8 +153,8 @@
         "portrait": {
           "name": "PeradinePortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
-          "x": 328,
-          "y": 123,
+          "x": 758,
+          "y": 581,
           "width": 180,
           "height": 214
         }
@@ -175,8 +175,8 @@
         "portrait": {
           "name": "ThornecliffPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
-          "x": 281,
-          "y": 341,
+          "x": 764,
+          "y": 799,
           "width": 190,
           "height": 225
         }
@@ -186,8 +186,8 @@
         "portrait": {
           "name": "HammondPortrait",
           "spriteSheet": "ArleonWielderPortraits.png",
-          "x": 288,
-          "y": 570,
+          "x": 569,
+          "y": 802,
           "width": 191,
           "height": 222
         }
