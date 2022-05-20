@@ -116,6 +116,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     ),
     skills: getTerm("Tutorial/CodexCategory/Skills", locale),
     specializations: getTerm("Commanders/Tooltip/Specializations", locale),
+    production: getTerm("Common/Details/GeneratesResources", locale),
   };
 
   return {
