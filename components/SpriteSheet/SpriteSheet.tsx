@@ -1,16 +1,30 @@
 import { CSSProperties } from "react";
+import { SpriteDTO } from "../../lib/sprites";
 
+const getClipPath = (spriteSheet: SpriteDTO) => {
+  if (!spriteSheet.outline) {
+    return "initial";
+  }
+  const paths =
+    spriteSheet.outline.reduce(
+      (path, outline) =>
+        path +
+        outline.reduce(
+          (prev, position) =>
+            prev +
+            `${spriteSheet.width / 2 + position.x},${
+              spriteSheet.height / 2 - position.y
+            } `,
+          "M"
+        ),
+      "path('"
+    ) + "Z')";
+  return paths;
+};
 type SpriteSheetProps = {
   className?: string;
   folder?: string;
-  spriteSheet: {
-    name: string;
-    spriteSheet: string;
-    x: number;
-    y: number;
-    width: number;
-    height: number;
-  };
+  spriteSheet: SpriteDTO;
   resize?: number;
 };
 const SpriteSheet = ({
@@ -27,6 +41,7 @@ const SpriteSheet = ({
     height: spriteSheet.height,
     width: spriteSheet.width,
     margin: "0 auto",
+    clipPath: getClipPath(spriteSheet),
   };
   if (resize) {
     const percentage = resize * 100;

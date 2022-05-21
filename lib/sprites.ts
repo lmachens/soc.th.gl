@@ -5,4 +5,5 @@ export type SpriteDTO = {
   y: number;
   width: number;
   height: number;
+  outline?: { x: number; y: number }[][];
 };
