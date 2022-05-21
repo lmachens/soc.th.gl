@@ -28,6 +28,8 @@ export const getFaction = (type: string, locale: string) => {
 
   const faction: FactionDTO = {
     ...factionSrc,
+    bannerSprite: factionSrc.bannerSprite!,
+    symbolSprite: factionSrc.symbolSprite!,
     name: getTerm(`Factions/${factionSrc.languageKey}/Name`, locale),
     description: getTerm(
       `Factions/${factionSrc.languageKey}/Description`,
@@ -94,7 +96,7 @@ export type FactionDTO = {
   name: string;
   description: string;
   bannerSprite: SpriteDTO;
-  symbolSprite: SpriteDTO | null;
+  symbolSprite: SpriteDTO;
   commanders: {
     portrait: SpriteDTO;
     name: string;
