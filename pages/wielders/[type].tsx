@@ -1,7 +1,7 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Blockquote, Stack, Table, Text, Title } from "@mantine/core";
+import { Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
 import { getTerm, TermsDTO } from "../../lib/terms";
@@ -26,9 +26,11 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
         />
       </Head>
       <Stack>
-        <Title order={4}>{wielder.name}</Title>
         <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
-        <Blockquote>{wielder.description}</Blockquote>
+        <Stack>
+          <Title order={2}>{wielder.name}</Title>
+          <Text size="sm">{wielder.description}</Text>
+        </Stack>
         <Table>
           <tbody>
             <tr>
@@ -53,7 +55,7 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
             </tr>
           </tbody>
         </Table>
-        <Title order={5}>{terms.startingTroops}</Title>
+        <Title order={3}>{terms.startingTroops}</Title>
         {wielder.units.map((unit) => (
           <Text key={`${wielder.name}-${unit.name}`}>
             <Text
@@ -65,11 +67,11 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
             {unit.name}
           </Text>
         ))}
-        <Title order={5}>{terms.skills}</Title>
+        <Title order={3}>{terms.skills}</Title>
         {wielder.skills.map((skill) => (
           <Text key={`${wielder.name}-${skill.name}`}>{skill.name}</Text>
         ))}
-        <Title order={5}>{terms.specializations}</Title>
+        <Title order={3}>{terms.specializations}</Title>
         {wielder.specializations.map((specialization) => (
           <Text key={`${wielder.name}-${specialization.bacteriaType}`}>
             {specialization.modifierData.map((modifier) => (

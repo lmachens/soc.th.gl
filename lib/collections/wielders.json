@@ -1,27 +1,5 @@
 [
   {
-    "type": "Ghost",
-    "faction": "Neutral",
-    "portrait": {
-      "name": "HostilePortrait",
-      "spriteSheet": "NeutralWielderPortraits.png",
-      "x": 6,
-      "y": 59,
-      "width": 193,
-      "height": 191
-    },
-    "stats": {
-      "defense": 0,
-      "offense": 0,
-      "movement": 0,
-      "viewRadius": 0,
-      "command": 5
-    },
-    "skills": [],
-    "units": [],
-    "specializations": []
-  },
-  {
     "type": "GiandraStormspire",
     "faction": "Arleon",
     "portrait": {
@@ -1788,48 +1766,6 @@
         "resourcesIncome": []
       }
     ]
-  },
-  {
-    "type": "RascVanilla",
-    "faction": "Rana",
-    "portrait": {
-      "name": "Rasc",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
-      "x": 1,
-      "y": 23,
-      "width": 182,
-      "height": 189
-    },
-    "stats": {
-      "defense": 0,
-      "offense": 5,
-      "movement": 13,
-      "viewRadius": 8,
-      "command": 0
-    },
-    "skills": [
-      {
-        "id": 18,
-        "type": "Melee",
-        "level": 1
-      },
-      {
-        "id": 12,
-        "type": "Command",
-        "level": 3
-      }
-    ],
-    "units": [
-      {
-        "languageKey": "Hunter",
-        "size": 10
-      },
-      {
-        "languageKey": "Hunter",
-        "size": 10
-      }
-    ],
-    "specializations": []
   },
   {
     "type": "RikTap",

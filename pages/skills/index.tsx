@@ -1,11 +1,11 @@
 import { NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Grid, Text, Title } from "@mantine/core";
+import { Stack } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import PopoverLink from "../../components/PopoverLink/PopoverLink";
 import { getSkills, SkillSimpleDTO } from "../../lib/skills";
 import Head from "next/head";
+import Article from "../../components/Article/Article";
 
 const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
   return (
@@ -14,25 +14,17 @@ const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
         <title>Skills - SoC.gg</title>
         <meta name="description" content="All skills of Songs of Conquest" />
       </Head>
-      <Grid justify="center" mt="md">
+      <Stack>
         {skills.map((skill) => (
-          <Grid.Col key={skill.type} sx={{ flexBasis: "auto" }}>
-            <PopoverLink
-              href={`/skills/${skill.type}`}
-              popover={
-                <>
-                  <Title order={4}>{skill.name}</Title>
-                  <Text color="dimmed" size="sm">
-                    {skill.lore}
-                  </Text>
-                </>
-              }
-            >
-              <SpriteSheet spriteSheet={skill.icon} />
-            </PopoverLink>
-          </Grid.Col>
+          <Article
+            key={skill.type}
+            image={<SpriteSheet spriteSheet={skill.icon} />}
+            name={skill.name}
+            description={skill.lore}
+            href={`/skills/${skill.type}`}
+          />
         ))}
-      </Grid>
+      </Stack>
     </>
   );
 };

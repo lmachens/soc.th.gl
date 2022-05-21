@@ -22,15 +22,18 @@ const Skill: NextPage<{
         />
       </Head>
       <Stack>
-        <Title order={4}>{skill.name}</Title>
-        <Text size="sm">{skill.lore}</Text>
         <SpriteSheet spriteSheet={skill.icon} />
+
+        <Stack>
+          <Title order={2}>{skill.name}</Title>
+          <Text size="sm">{skill.lore}</Text>
+        </Stack>
 
         <Stack>
           {skill.levels.map((level, index) => (
             <Fragment key={index}>
               <Title
-                order={5}
+                order={3}
                 dangerouslySetInnerHTML={{ __html: level.name }}
               />
               {level.description && (

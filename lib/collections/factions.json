@@ -381,19 +381,7 @@
         ]
       }
     ],
-    "commanders": [
-      {
-        "type": "Ghost",
-        "portrait": {
-          "name": "HostilePortrait",
-          "spriteSheet": "NeutralWielderPortraits.png",
-          "x": 6,
-          "y": 59,
-          "width": 193,
-          "height": 191
-        }
-      }
-    ],
+    "commanders": [],
     "units": [
       {
         "vanilla": {
@@ -8542,17 +8530,6 @@
       },
       {
         "type": "Rasc",
-        "portrait": {
-          "name": "Rasc",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
-          "x": 1,
-          "y": 23,
-          "width": 182,
-          "height": 189
-        }
-      },
-      {
-        "type": "RascVanilla",
         "portrait": {
           "name": "Rasc",
           "spriteSheet": "RanaWielderPortraitsAtlas.png",
