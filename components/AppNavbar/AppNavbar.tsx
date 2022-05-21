@@ -1,9 +1,7 @@
 import { Navbar, ScrollArea, Space } from "@mantine/core";
-import { HomeIcon } from "@primer/octicons-react";
 import { CollectionLink } from "../../lib/staticProps";
 import { SearchControl } from "../SearchControl/SearchControl";
 import NavbarCollectionLinks from "./NavbarCollectionLinks/NavbarCollectionLinks";
-import NavbarMainLink from "./NavbarMainLink/NavbarMainLink";
 
 type Props = {
   collectionLinks: CollectionLink[];
@@ -42,9 +40,6 @@ const AppNavbar = ({ collectionLinks, opened }: Props) => {
       >
         <SearchControl />
         <Space h="xs" />
-        <NavbarMainLink href="/" icon={<HomeIcon size={18} />}>
-          Home
-        </NavbarMainLink>
         {links}
       </ScrollArea>
     </Navbar>
