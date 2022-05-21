@@ -8,8 +8,9 @@ type Props = {
   name: string;
   description: string;
   href: string;
+  children?: ReactNode;
 };
-const Article = ({ image, name, description, href }: Props) => {
+const Article = ({ image, name, description, href, children }: Props) => {
   return (
     <Box
       component="article"
@@ -26,7 +27,10 @@ const Article = ({ image, name, description, href }: Props) => {
       {image}
       <Stack>
         <Title order={3}>{name}</Title>
-        <Text size="sm">{description}</Text>
+        <Text size="sm" sx={{ fontStyle: "italic" }}>
+          {description}
+        </Text>
+        {children}
         <AppLink href={href}>
           <MilestoneIcon /> Learn more
         </AppLink>

@@ -1,7 +1,7 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Image, Stack, Text, Title } from "@mantine/core";
+import { Group, Image, Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
@@ -46,7 +46,34 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
               name={commander.name}
               description={commander.description}
               href={`/wielders/${commander.type}`}
-            />
+            >
+              <Group>
+                <Text color="dimmed" size="sm">
+                  {terms.offense}{" "}
+                  <Text component="span" color="gray" size="sm">
+                    {commander.stats.offense}
+                  </Text>
+                </Text>
+                <Text color="dimmed" size="sm">
+                  {terms.defense}{" "}
+                  <Text component="span" color="gray" size="sm">
+                    {commander.stats.defense}
+                  </Text>
+                </Text>
+                <Text color="dimmed" size="sm">
+                  {terms.movement}{" "}
+                  <Text component="span" color="gray" size="sm">
+                    {commander.stats.movement}
+                  </Text>
+                </Text>
+                <Text color="dimmed" size="sm">
+                  {terms.viewRadius}{" "}
+                  <Text component="span" color="gray" size="sm">
+                    {commander.stats.viewRadius}
+                  </Text>
+                </Text>
+              </Group>
+            </Article>
           ))}
         </Stack>
         <Title order={2}>{terms.units}</Title>
@@ -71,6 +98,7 @@ export default Faction;
 
 export const getStaticProps = withStaticBase(async (context) => {
   const type = context.params!.type as string;
+  const locale = context.locale! as string;
   const faction = getFaction(type, context.locale!);
   if (!faction) {
     return {
@@ -78,8 +106,12 @@ export const getStaticProps = withStaticBase(async (context) => {
     };
   }
   const terms: TermsDTO = {
-    wielders: getTerm("Common/Wielders", context.locale!),
-    units: getTerm("Tutorial/CodexCategory/Units", context.locale!),
+    wielders: getTerm("Common/Wielders", locale),
+    units: getTerm("Tutorial/CodexCategory/Units", locale),
+    offense: getTerm("Commanders/Details/CommanderStat/Offense", locale),
+    defense: getTerm("Commanders/Details/CommanderStat/Defense", locale),
+    movement: getTerm("Commanders/Details/CommanderStat/Movement", locale),
+    viewRadius: getTerm("Commanders/Details/CommanderStat/View", locale),
   };
 
   return {

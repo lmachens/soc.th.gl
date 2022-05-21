@@ -1,6 +1,7 @@
 import factionsCollection from "./collections/factions.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
+import wieldersCollection from "./collections/wielders.json";
 
 export const getFactions = (locale: string) => {
   const factions = factionsCollection
@@ -42,6 +43,9 @@ export const getFaction = (type: string, locale: string) => {
         `${factionSrc.languageKey}/${commander.type}/Description`,
         locale
       ),
+      stats: wieldersCollection.find(
+        (wielder) => wielder.type === commander.type
+      )!.stats,
     })),
     units: factionSrc.units.map((unit) => ({
       ...unit,
@@ -103,6 +107,13 @@ export type FactionDTO = {
     name: string;
     description: string;
     type: string;
+    stats: {
+      defense: number;
+      offense: number;
+      movement: number;
+      viewRadius: number;
+      command: number;
+    };
   }[];
   units: {
     vanilla: {
