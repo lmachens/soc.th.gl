@@ -1,12 +1,12 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Grid, Stack, Text, Title } from "@mantine/core";
+import { Image, Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
-import PopoverLink from "../../components/PopoverLink/PopoverLink";
 import Head from "next/head";
+import Article from "../../components/Article/Article";
 
 const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
   faction,
@@ -16,60 +16,52 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
     <>
       <Head>
         <title>{faction.name} - SoC.gg</title>
-        <meta
-          name="description"
-          content={`${faction.name} faction details of Songs of Conquest`}
-        />
+        <meta name="description" content={faction.description} />
       </Head>
       <Stack>
-        <Title order={4}>{faction.name}</Title>
-        <SpriteSheet spriteSheet={faction.bannerSprite} />
-        {faction.symbolSprite && (
-          <SpriteSheet spriteSheet={faction.symbolSprite} />
-        )}
-        <Text size="sm">{faction.description}</Text>
-        <Title order={5}>{terms.wielders}</Title>
-        <Grid mt="md">
-          {faction.commanders.map((commander) => (
-            <Grid.Col key={commander.type} sx={{ flexBasis: "auto" }}>
-              {commander.portrait && (
-                <PopoverLink
-                  href={`/wielders/${commander.type}`}
-                  popover={
-                    <>
-                      <Title order={4}>{commander.name}</Title>
-                      <Text size="sm">{commander.description}</Text>
-                    </>
-                  }
-                >
-                  <SpriteSheet
-                    spriteSheet={commander.portrait}
-                    folder="wielders"
-                  />
-                </PopoverLink>
-              )}
-            </Grid.Col>
-          ))}
-        </Grid>
-        <Title order={5}>{terms.units}</Title>
+        <Image
+          src={`/factions/${faction.type}AnimatedFactionBanner.gif`}
+          height={200}
+          fit="contain"
+          alt=""
+        />
 
-        <Grid mt="md">
-          {faction.units.map((unit) => (
-            <Grid.Col key={unit.vanilla.languageKey} sx={{ flexBasis: "auto" }}>
-              <PopoverLink
-                href={`/units/${unit.vanilla.languageKey}`}
-                popover={
-                  <>
-                    <Title order={4}>{unit.vanilla.name}</Title>
-                    <Text size="sm">{unit.vanilla.description}</Text>
-                  </>
-                }
-              >
-                <SpriteSheet spriteSheet={unit.vanilla.sprite} />
-              </PopoverLink>
-            </Grid.Col>
+        <Stack>
+          <Title order={2}>{faction.name}</Title>
+          <Text size="sm">{faction.description}</Text>
+        </Stack>
+
+        <Title order={2}>{terms.wielders}</Title>
+        <Stack>
+          {faction.commanders.map((commander) => (
+            <Article
+              key={commander.type}
+              image={
+                <SpriteSheet
+                  spriteSheet={commander.portrait}
+                  folder="wielders"
+                  resize={0.5}
+                />
+              }
+              name={commander.name}
+              description={commander.description}
+              href={`/wielders/${commander.type}`}
+            />
           ))}
-        </Grid>
+        </Stack>
+        <Title order={2}>{terms.units}</Title>
+
+        <Stack>
+          {faction.units.map((unit) => (
+            <Article
+              key={unit.vanilla.languageKey}
+              image={<SpriteSheet spriteSheet={unit.vanilla.sprite} />}
+              name={unit.vanilla.name}
+              description={unit.vanilla.description}
+              href={`/units/${faction.type}/${unit.vanilla.languageKey}`}
+            />
+          ))}
+        </Stack>
       </Stack>
     </>
   );

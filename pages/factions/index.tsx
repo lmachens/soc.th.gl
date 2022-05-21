@@ -2,11 +2,11 @@ import { NextPage } from "next";
 import Head from "next/head";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Box, Divider, Grid, Image, Stack, Text, Title } from "@mantine/core";
+import { Divider, Grid, Image, Stack, Text } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { FactionSimpleDTO, getFactions } from "../../lib/factions";
-import { MilestoneIcon } from "@primer/octicons-react";
 import AppLink from "../../components/AppLink/AppLink";
+import Article from "../../components/Article/Article";
 
 const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
   return (
@@ -36,28 +36,13 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
 
       <Stack>
         {factions.map((faction) => (
-          <Box
-            component="article"
+          <Article
             key={faction.type}
-            sx={(theme) => ({
-              display: "grid",
-              gridTemplateColumns: "auto 1fr",
-              gap: theme.spacing.lg,
-              [theme.fn.smallerThan("sm")]: {
-                gridTemplateColumns: "auto",
-                justifyItems: "center",
-              },
-            })}
-          >
-            <SpriteSheet spriteSheet={faction.symbolSprite} />
-            <Stack>
-              <Title order={2}>{faction.name}</Title>
-              <Text size="sm">{faction.description}</Text>
-              <AppLink href={`/factions/${faction.type}`}>
-                <MilestoneIcon /> Learn more
-              </AppLink>
-            </Stack>
-          </Box>
+            image={<SpriteSheet spriteSheet={faction.symbolSprite} />}
+            name={faction.name}
+            description={faction.description}
+            href={`/factions/${faction.type}`}
+          />
         ))}
       </Stack>
     </>

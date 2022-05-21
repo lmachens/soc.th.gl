@@ -97,6 +97,7 @@ export type FactionDTO = {
   description: string;
   bannerSprite: SpriteDTO;
   symbolSprite: SpriteDTO;
+  wielderFrames: SpriteDTO[];
   commanders: {
     portrait: SpriteDTO;
     name: string;

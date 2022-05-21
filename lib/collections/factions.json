@@ -11,6 +11,16 @@
       "height": 284.9239
     },
     "symbolSprite": null,
+    "wielderFrames": [
+      {
+        "name": "HostileHUDFrame",
+        "spriteSheet": "NeutralUIDecoration.png",
+        "x": 707,
+        "y": 698,
+        "width": 306,
+        "height": 326
+      }
+    ],
     "commanders": [
       {
         "type": "Ghost",
@@ -92,6 +102,24 @@
       "width": 82,
       "height": 91
     },
+    "wielderFrames": [
+      {
+        "name": "HostileArleonFrame",
+        "spriteSheet": "ArleonWielderFrames.png",
+        "x": 316,
+        "y": 682,
+        "width": 310,
+        "height": 340
+      },
+      {
+        "name": "ArleonWielderHUDFrame",
+        "spriteSheet": "ArleonWielderFrames.png",
+        "x": 2,
+        "y": 682,
+        "width": 310,
+        "height": 340
+      }
+    ],
     "commanders": [
       {
         "type": "GiandraStormspire",
@@ -494,6 +522,24 @@
       "width": 82,
       "height": 91
     },
+    "wielderFrames": [
+      {
+        "name": "HostileLothWielderFrame",
+        "spriteSheet": "LothWielderFrames.png",
+        "x": 2,
+        "y": 682,
+        "width": 310,
+        "height": 340
+      },
+      {
+        "name": "LothWielderHUDFrame",
+        "spriteSheet": "LothWielderFrames.png",
+        "x": 316,
+        "y": 682,
+        "width": 310,
+        "height": 340
+      }
+    ],
     "commanders": [
       {
         "type": "BaronAldus",
@@ -919,6 +965,24 @@
       "width": 82,
       "height": 91
     },
+    "wielderFrames": [
+      {
+        "name": "HostileBaryaWielderFrame",
+        "spriteSheet": "BaryaWielderFrames.png",
+        "x": 0,
+        "y": 684,
+        "width": 310,
+        "height": 340
+      },
+      {
+        "name": "WielderHUDFrame",
+        "spriteSheet": "BaryaWielderFrames.png",
+        "x": 310,
+        "y": 684,
+        "width": 310,
+        "height": 340
+      }
+    ],
     "commanders": [
       {
         "type": "Nimander",
@@ -1321,6 +1385,24 @@
       "width": 82,
       "height": 82
     },
+    "wielderFrames": [
+      {
+        "name": "HostileRanaWielderFrame",
+        "spriteSheet": "RanaWielderFrames.png",
+        "x": 2,
+        "y": 682,
+        "width": 310,
+        "height": 340
+      },
+      {
+        "name": "RanaWielderHUDFrame",
+        "spriteSheet": "RanaWielderFrames.png",
+        "x": 316,
+        "y": 682,
+        "width": 310,
+        "height": 340
+      }
+    ],
     "commanders": [
       {
         "type": "Cheekham",
