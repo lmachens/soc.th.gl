@@ -6,6 +6,7 @@ import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import Head from "next/head";
+import PopoverLink from "../../components/PopoverLink/PopoverLink";
 
 const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
   wielder,
@@ -57,19 +58,41 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
         </Table>
         <Title order={3}>{terms.startingTroops}</Title>
         {wielder.units.map((unit) => (
-          <Text key={`${wielder.name}-${unit.name}`}>
-            <Text
-              sx={(theme) => ({ color: theme.colors[theme.primaryColor][5] })}
-              component="span"
-            >
-              {unit.size}
-            </Text>{" "}
-            {unit.name}
-          </Text>
+          <PopoverLink
+            key={`${wielder.name}-${unit.name}`}
+            href={`/units/${wielder.faction}/${unit.languageKey}`}
+            popover={
+              <Stack>
+                <Title order={4}>{unit.name}</Title>
+                <Text size="sm">{unit.description}</Text>
+              </Stack>
+            }
+          >
+            <Text>
+              <Text
+                sx={(theme) => ({ color: theme.colors[theme.primaryColor][5] })}
+                component="span"
+              >
+                {unit.size}
+              </Text>{" "}
+              {unit.name}
+            </Text>
+          </PopoverLink>
         ))}
         <Title order={3}>{terms.skills}</Title>
         {wielder.skills.map((skill) => (
-          <Text key={`${wielder.name}-${skill.name}`}>{skill.name}</Text>
+          <PopoverLink
+            key={`${wielder.name}-${skill.type}`}
+            href={`/skills/${skill.type}`}
+            popover={
+              <Stack>
+                <Title order={4}>{skill.name}</Title>
+                <Text size="sm">{skill.lore}</Text>
+              </Stack>
+            }
+          >
+            <Text>{skill.name}</Text>
+          </PopoverLink>
         ))}
         <Title order={3}>{terms.specializations}</Title>
         {wielder.specializations.map((specialization) => (
