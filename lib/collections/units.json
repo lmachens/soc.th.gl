@@ -106,7 +106,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 2,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 15,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 3,
+          "max": 5
+        },
+        "movement": 5,
+        "initiative": 33,
+        "health": 11,
+        "maxTroopSize": 40,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": null,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": null,
     "superUpgraded": null
@@ -142,7 +198,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 350
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 6,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 25,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 10,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 5,
+          "max": 7
+        },
+        "movement": 4,
+        "initiative": 16,
+        "health": 25,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": null,
     "superUpgraded": null
@@ -234,7 +346,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 100
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 1,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 1,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 5,
+          "range": {
+            "min": 0,
+            "max": 5
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 3,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 1,
+          "max": 3
+        },
+        "movement": 2,
+        "initiative": 10,
+        "health": 6,
+        "maxTroopSize": 50,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "Sapper",
@@ -329,7 +497,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 150
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 11,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 1,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 8,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 9,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 3
+        },
+        "movement": 3,
+        "initiative": 13,
+        "health": 11,
+        "maxTroopSize": 50,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 15
     },
     "superUpgraded": null
   },
@@ -444,7 +668,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 3,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 2,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 11,
+          "range": {
+            "min": 0,
+            "max": 7
+          },
+          "deadlyRange": 4,
+          "resistancePercent": 0
+        },
+        "defense": 4,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 3
+        },
+        "movement": 4,
+        "initiative": 7,
+        "health": 7,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "Archer",
@@ -555,7 +835,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 300
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 13,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 5,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 17,
+          "range": {
+            "min": 0,
+            "max": 8
+          },
+          "deadlyRange": 5,
+          "resistancePercent": 0
+        },
+        "defense": 10,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 3,
+          "max": 4
+        },
+        "movement": 3,
+        "initiative": 8,
+        "health": 12,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 2
     },
     "superUpgraded": null
   },
@@ -670,7 +1006,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 140
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 2,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 12,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 6,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 4
+        },
+        "movement": 3,
+        "initiative": 19,
+        "health": 7,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 786432,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 6
     },
     "upgraded": {
       "languageKey": "Troubadour",
@@ -777,7 +1169,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 250
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 12,
+        "essenceStats": {
+          "order": 0,
+          "creation": 2,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 17,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 9,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 3,
+          "max": 5
+        },
+        "movement": 3,
+        "initiative": 23,
+        "health": 12,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 786432,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 10
     },
     "superUpgraded": null
   },
@@ -880,7 +1328,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 4,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 10,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 16,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 5
+        },
+        "movement": 3,
+        "initiative": 18,
+        "health": 15,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "ShieldOfOrder",
@@ -967,7 +1471,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 320
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 14,
+        "essenceStats": {
+          "order": 3,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 13,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 24,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 4,
+          "max": 7
+        },
+        "movement": 3,
+        "initiative": 20,
+        "health": 25,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 8
     },
     "superUpgraded": null
   },
@@ -1166,7 +1726,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 700
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 7,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 26,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 22,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 13,
+          "max": 16
+        },
+        "movement": 5,
+        "initiative": 27,
+        "health": 30,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "FistOfOrder",
@@ -1361,7 +1977,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1000
+          },
+          {
+            "type": 5,
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 17,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 37,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 33,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 20,
+          "max": 24
+        },
+        "movement": 5,
+        "initiative": 31,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 12
     },
     "superUpgraded": null
   },
@@ -1504,7 +2180,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 650
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 6,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 23,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 12,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 13,
+          "max": 16
+        },
+        "movement": 4,
+        "initiative": 23,
+        "health": 40,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 262144,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "QueensGuard",
@@ -1655,7 +2387,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1000
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 16,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 35,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 23,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 18,
+          "max": 22
+        },
+        "movement": 4,
+        "initiative": 28,
+        "health": 60,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 262144,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 7
     },
     "superUpgraded": null
   },
@@ -1822,7 +2610,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 250
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 5,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 2,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 17,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 12,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 8,
+          "max": 12
+        },
+        "movement": 5,
+        "initiative": 27,
+        "health": 6,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 262144,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "FaeyRager",
@@ -2001,7 +2845,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 450
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 15,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 3,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 19,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 13,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 8,
+          "max": 12
+        },
+        "movement": 5,
+        "initiative": 31,
+        "health": 10,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 262144,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 1
     },
     "superUpgraded": null
   },
@@ -2184,7 +3084,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1200
+          },
+          {
+            "type": 4,
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 8,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 21,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 28,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 4,
+          "resistancePercent": 0
+        },
+        "defense": 20,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 13,
+          "max": 16
+        },
+        "movement": 3,
+        "initiative": 17,
+        "health": 65,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 262144,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "FaeyQueen",
@@ -2387,7 +3347,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1800
+          },
+          {
+            "type": 4,
+            "amount": 2
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 18,
+        "essenceStats": {
+          "order": 0,
+          "creation": 2,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 30,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 41,
+          "range": {
+            "min": 0,
+            "max": 7
+          },
+          "deadlyRange": 5,
+          "resistancePercent": 0
+        },
+        "defense": 29,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 22,
+          "max": 26
+        },
+        "movement": 4,
+        "initiative": 23,
+        "health": 90,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 262144,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 21
     },
     "superUpgraded": null
   },
@@ -2510,7 +3530,71 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 900
+          }
+        ]
+      },
+      "obsoleteGoldCost": 900,
+      "stats": {
+        "tier": 0,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 20,
+          "range": {
+            "min": 2,
+            "max": 15
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 20,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 20,
+          "max": 30
+        },
+        "movement": 0,
+        "initiative": 50,
+        "health": 40,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": null,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": [
+          {
+            "statistic": 2,
+            "range": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        ]
+      },
+      "troopAbility": 13
     },
     "upgraded": null,
     "superUpgraded": null
@@ -2598,7 +3682,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 60
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 1,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 4,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 3,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 1,
+          "max": 2
+        },
+        "movement": 4,
+        "initiative": 31,
+        "health": 4,
+        "maxTroopSize": 100,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": null,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "PlagueRats",
@@ -2681,7 +3821,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 100
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 11,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 8,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 5,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 3
+        },
+        "movement": 4,
+        "initiative": 36,
+        "health": 6,
+        "maxTroopSize": 100,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": null,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "superUpgraded": null
   },
@@ -2824,7 +4020,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 140
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 2,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 7,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 8,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 3
+        },
+        "movement": 3,
+        "initiative": 9,
+        "health": 11,
+        "maxTroopSize": 40,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "OathboundLegionaire",
@@ -2971,7 +4223,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 260
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 12,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 12,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 4,
+          "max": 6
+        },
+        "movement": 3,
+        "initiative": 11,
+        "health": 18,
+        "maxTroopSize": 40,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 7
     },
     "superUpgraded": null
   },
@@ -3038,7 +4346,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 150
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 3,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 9,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 6,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 4
+        },
+        "movement": 4,
+        "initiative": 25,
+        "health": 9,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 786432,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 5
     },
     "upgraded": {
       "languageKey": "Zealot",
@@ -3101,7 +4465,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 300
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 13,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 16,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 12,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 4,
+          "max": 7
+        },
+        "movement": 4,
+        "initiative": 29,
+        "health": 18,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 786432,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 9
     },
     "superUpgraded": null
   },
@@ -3200,7 +4620,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 250
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 4,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 6,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 11,
+          "range": {
+            "min": 0,
+            "max": 5
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 5,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 4
+        },
+        "movement": 3,
+        "initiative": 11,
+        "health": 10,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "Doctor",
@@ -3283,7 +4759,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 350
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 14,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 9,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 21,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 4,
+          "resistancePercent": 0
+        },
+        "defense": 12,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 6,
+          "max": 9
+        },
+        "movement": 4,
+        "initiative": 15,
+        "health": 18,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 14
     },
     "superUpgraded": null
   },
@@ -3374,7 +4906,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 600
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 5,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 2,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 4,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 16,
+          "range": {
+            "min": 0,
+            "max": 7
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 10,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 4,
+          "max": 7
+        },
+        "movement": 3,
+        "initiative": 21,
+        "health": 26,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "Oathsinger",
@@ -3507,7 +5095,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1000
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 15,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 2,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 5,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 25,
+          "range": {
+            "min": 0,
+            "max": 7
+          },
+          "deadlyRange": 4,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 6,
+          "max": 11
+        },
+        "movement": 3,
+        "initiative": 23,
+        "health": 40,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 19
     },
     "superUpgraded": null
   },
@@ -3732,7 +5376,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 900
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 6,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 21,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 26,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 15,
+          "max": 20
+        },
+        "movement": 4,
+        "initiative": 5,
+        "health": 60,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "BlessedBones",
@@ -3975,7 +5675,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1200
+          },
+          {
+            "type": 4,
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 16,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 29,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 30,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 25,
+          "max": 28
+        },
+        "movement": 4,
+        "initiative": 6,
+        "health": 85,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 17
     },
     "superUpgraded": null
   },
@@ -4080,7 +5840,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 650
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 7,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 2,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 21,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 19,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 13,
+          "max": 15
+        },
+        "movement": 5,
+        "initiative": 20,
+        "health": 30,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "AurelianHighCleric",
@@ -4199,7 +6015,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1100
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 17,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 33,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 30,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 18,
+          "max": 22
+        },
+        "movement": 5,
+        "initiative": 25,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 12
     },
     "superUpgraded": null
   },
@@ -4598,7 +6470,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1400
+          },
+          {
+            "type": 3,
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 8,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 44,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 35,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 25,
+          "max": 35
+        },
+        "movement": 4,
+        "initiative": 18,
+        "health": 85,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "HighLegion",
@@ -5013,7 +6945,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 2000
+          },
+          {
+            "type": 3,
+            "amount": 2
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 18,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 55,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 44,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 40,
+          "max": 45
+        },
+        "movement": 4,
+        "initiative": 23,
+        "health": 125,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 8
     },
     "superUpgraded": null
   },
@@ -5104,7 +7096,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 100
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 0,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 4,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 4,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 1,
+          "max": 2
+        },
+        "movement": 2,
+        "initiative": 2,
+        "health": 10,
+        "maxTroopSize": 100,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 524288,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": null,
     "superUpgraded": null
@@ -5228,7 +7276,71 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 900
+          }
+        ]
+      },
+      "obsoleteGoldCost": 900,
+      "stats": {
+        "tier": 0,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 20,
+          "range": {
+            "min": 2,
+            "max": 15
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 20,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 20,
+          "max": 30
+        },
+        "movement": 0,
+        "initiative": 50,
+        "health": 40,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": null,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": [
+          {
+            "statistic": 2,
+            "range": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        ]
+      },
+      "troopAbility": 13
     },
     "upgraded": null,
     "superUpgraded": null
@@ -5292,7 +7404,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 80
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 1,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 5,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 7,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 1,
+          "max": 2
+        },
+        "movement": 4,
+        "initiative": 24,
+        "health": 6,
+        "maxTroopSize": 50,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 26388279853056,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 4
     },
     "upgraded": {
       "languageKey": "SteamPiper",
@@ -5359,7 +7527,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 150
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 11,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 9,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 13,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 3
+        },
+        "movement": 4,
+        "initiative": 27,
+        "health": 8,
+        "maxTroopSize": 50,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 26388279853056,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 11
     },
     "superUpgraded": null
   },
@@ -5478,7 +7702,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 170
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 3,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 10,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 7,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 3,
+          "max": 5
+        },
+        "movement": 3,
+        "initiative": 12,
+        "health": 9,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "PikeneerVeteran",
@@ -5617,7 +7897,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 290
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 13,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 21,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 13,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 5,
+          "max": 7
+        },
+        "movement": 3,
+        "initiative": 18,
+        "health": 16,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 20
     },
     "superUpgraded": null
   },
@@ -5716,7 +8052,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 4,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 4,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 13,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 4,
+          "resistancePercent": 0
+        },
+        "defense": 5,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 3,
+          "max": 5
+        },
+        "movement": 3,
+        "initiative": 13,
+        "health": 7,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "MusketeerVeteran",
@@ -5835,7 +8227,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 350
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 14,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 5,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 18,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 4,
+          "resistancePercent": 0
+        },
+        "defense": 7,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 5,
+          "max": 8
+        },
+        "movement": 3,
+        "initiative": 15,
+        "health": 12,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 14
     },
     "superUpgraded": null
   },
@@ -6020,7 +8468,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 150
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 2,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 10,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 4,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 4
+        },
+        "movement": 5,
+        "initiative": 11,
+        "health": 9,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1310720,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "DireDreath",
@@ -6221,7 +8725,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 280
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 12,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 14,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 13,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 4,
+          "max": 7
+        },
+        "movement": 5,
+        "initiative": 13,
+        "health": 17,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1310720,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 1
     },
     "superUpgraded": null
   },
@@ -6384,7 +8944,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 700
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 6,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 28,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 17,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 12,
+          "max": 16
+        },
+        "movement": 4,
+        "initiative": 20,
+        "health": 45,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1572864,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "ScarredBrute",
@@ -6537,7 +9153,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 900
+          },
+          {
+            "type": 3,
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 16,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 34,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 25,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 18,
+          "max": 24
+        },
+        "movement": 4,
+        "initiative": 23,
+        "health": 65,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1572864,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "superUpgraded": null
   },
@@ -6656,7 +9332,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 350
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 5,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 18,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 14,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 6,
+          "max": 9
+        },
+        "movement": 4,
+        "initiative": 19,
+        "health": 22,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 15
     },
     "upgraded": {
       "languageKey": "Artificer",
@@ -6757,7 +9489,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 650
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 5,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 2
+        },
+        "meleeAttack": {
+          "offense": 28,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 21,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 10,
+          "max": 14
+        },
+        "movement": 4,
+        "initiative": 22,
+        "health": 35,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 16
     },
     "superUpgraded": null
   },
@@ -6856,7 +9644,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 700
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 8,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 31,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 16,
+          "max": 18
+        },
+        "movement": 5,
+        "initiative": 29,
+        "health": 25,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1572864,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "SassanidVeteran",
@@ -6963,7 +9807,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 1200,
+      "stats": {
+        "tier": 17,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 45,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 21,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 26,
+          "max": 30
+        },
+        "movement": 5,
+        "initiative": 31,
+        "health": 35,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1572864,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 1
     },
     "superUpgraded": null
   },
@@ -7106,7 +10006,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1400
+          },
+          {
+            "type": 5,
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 8,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 2,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 42,
+          "range": {
+            "min": 0,
+            "max": 8
+          },
+          "deadlyRange": 5,
+          "resistancePercent": 0
+        },
+        "defense": 16,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 16,
+          "max": 20
+        },
+        "movement": 1,
+        "initiative": 24,
+        "health": 80,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "Hellroar",
@@ -7261,7 +10221,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 2000
+          },
+          {
+            "type": 5,
+            "amount": 2
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 18,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 6,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 59,
+          "range": {
+            "min": 0,
+            "max": 9
+          },
+          "deadlyRange": 6,
+          "resistancePercent": 0
+        },
+        "defense": 25,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 25,
+          "max": 30
+        },
+        "movement": 1,
+        "initiative": 28,
+        "health": 100,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 0,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 1
     },
     "superUpgraded": null
   },
@@ -7384,7 +10404,71 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 900
+          }
+        ]
+      },
+      "obsoleteGoldCost": 900,
+      "stats": {
+        "tier": 0,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 20,
+          "range": {
+            "min": 2,
+            "max": 15
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 20,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 15,
+          "max": 30
+        },
+        "movement": 0,
+        "initiative": 50,
+        "health": 40,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": null,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": [
+          {
+            "statistic": 2,
+            "range": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        ]
+      },
+      "troopAbility": 13
     },
     "upgraded": null,
     "superUpgraded": null
@@ -7484,7 +10568,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 100
+          }
+        ]
+      },
+      "obsoleteGoldCost": 100,
+      "stats": {
+        "tier": 1,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 6,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 2,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 3
+        },
+        "movement": 4,
+        "initiative": 30,
+        "health": 6,
+        "maxTroopSize": 50,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "StormGuard",
@@ -7587,7 +10727,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 220
+          }
+        ]
+      },
+      "obsoleteGoldCost": 100,
+      "stats": {
+        "tier": 11,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 16,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 13,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 4,
+          "max": 6
+        },
+        "movement": 4,
+        "initiative": 36,
+        "health": 12,
+        "maxTroopSize": 50,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 7
     },
     "superUpgraded": null
   },
@@ -7778,7 +10974,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 140
+          }
+        ]
+      },
+      "obsoleteGoldCost": 200,
+      "stats": {
+        "tier": 2,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 3,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 7,
+          "range": {
+            "min": 0,
+            "max": 5
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 1,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 1,
+          "max": 2
+        },
+        "movement": 3,
+        "initiative": 14,
+        "health": 9,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "Sage",
@@ -7989,7 +11241,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 320
+          }
+        ]
+      },
+      "obsoleteGoldCost": 200,
+      "stats": {
+        "tier": 12,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 5,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 13,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 4,
+          "resistancePercent": 0
+        },
+        "defense": 8,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 3,
+          "max": 5
+        },
+        "movement": 3,
+        "initiative": 16,
+        "health": 15,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "superUpgraded": null
   },
@@ -8096,7 +11404,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 230
+          }
+        ]
+      },
+      "obsoleteGoldCost": 100,
+      "stats": {
+        "tier": 3,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 5,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 16,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 2,
+          "max": 4
+        },
+        "movement": 2,
+        "initiative": 10,
+        "health": 24,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "Protector",
@@ -8203,7 +11567,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 450
+          }
+        ]
+      },
+      "obsoleteGoldCost": 100,
+      "stats": {
+        "tier": 13,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 12,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 31,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 5,
+          "max": 7
+        },
+        "movement": 2,
+        "initiative": 11,
+        "health": 40,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 8
     },
     "superUpgraded": null
   },
@@ -8380,7 +11800,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 450
+          }
+        ]
+      },
+      "obsoleteGoldCost": 450,
+      "stats": {
+        "tier": 4,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 19,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 13,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 7,
+          "max": 9
+        },
+        "movement": 5,
+        "initiative": 27,
+        "health": 30,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1310720,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "RiderOfTheSwamp",
@@ -8585,7 +12061,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 700
+          }
+        ]
+      },
+      "obsoleteGoldCost": 700,
+      "stats": {
+        "tier": 14,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 2
+        },
+        "meleeAttack": {
+          "offense": 27,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 21,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 9,
+          "max": 12
+        },
+        "movement": 5,
+        "initiative": 31,
+        "health": 40,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 17592187355136,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 1
     },
     "superUpgraded": null
   },
@@ -8676,7 +12208,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 400
+          }
+        ]
+      },
+      "obsoleteGoldCost": 400,
+      "stats": {
+        "tier": 5,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 21,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 26,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 6,
+          "max": 9
+        },
+        "movement": 3,
+        "initiative": 11,
+        "health": 25,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1310720,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "AdultCrawler",
@@ -8827,7 +12415,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 600
+          }
+        ]
+      },
+      "obsoleteGoldCost": 550,
+      "stats": {
+        "tier": 15,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 25,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 30,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 9,
+          "max": 13
+        },
+        "movement": 3,
+        "initiative": 15,
+        "health": 35,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1310720,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 1
     },
     "superUpgraded": null
   },
@@ -9028,7 +12672,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 650
+          }
+        ]
+      },
+      "obsoleteGoldCost": 600,
+      "stats": {
+        "tier": 6,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 19,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 12,
+          "max": 15
+        },
+        "movement": 4,
+        "initiative": 17,
+        "health": 35,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 221360946476701970000,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 3
     },
     "upgraded": null,
     "superUpgraded": null
@@ -9184,7 +12884,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 800
+          }
+        ]
+      },
+      "obsoleteGoldCost": 800,
+      "stats": {
+        "tier": 7,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 19,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 29,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 15,
+          "max": 17
+        },
+        "movement": 2,
+        "initiative": 7,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 13
     },
     "upgraded": {
       "languageKey": "ChelunElder",
@@ -9355,7 +13111,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1000
+          },
+          {
+            "type": 4,
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 800,
+      "stats": {
+        "tier": 17,
+        "essenceStats": {
+          "order": 0,
+          "creation": 2,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 26,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 35,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 18,
+          "max": 22
+        },
+        "movement": 2,
+        "initiative": 9,
+        "health": 70,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 19
     },
     "superUpgraded": null
   },
@@ -9518,7 +13334,63 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 1000
+          }
+        ]
+      },
+      "obsoleteGoldCost": 1000,
+      "stats": {
+        "tier": 8,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 19,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 21,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 20,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 8,
+          "max": 10
+        },
+        "movement": 5,
+        "initiative": 23,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 2
     },
     "upgraded": {
       "languageKey": "Dragon",
@@ -9649,7 +13521,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 2600
+          },
+          {
+            "type": 3,
+            "amount": 2
+          }
+        ]
+      },
+      "obsoleteGoldCost": 3000,
+      "stats": {
+        "tier": 18,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 2,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 72,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 5
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 54,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 35,
+          "max": 50
+        },
+        "movement": 6,
+        "initiative": 31,
+        "health": 140,
+        "maxTroopSize": 3,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 1
     },
     "superUpgraded": {
       "languageKey": "ElderDragon",
@@ -9780,7 +13712,67 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 3000
+          },
+          {
+            "type": 3,
+            "amount": 7
+          }
+        ]
+      },
+      "obsoleteGoldCost": 4400,
+      "stats": {
+        "tier": 19,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 2,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 80,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 5
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 64,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 50,
+          "max": 75
+        },
+        "movement": 7,
+        "initiative": 32,
+        "health": 200,
+        "maxTroopSize": 3,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": 1048576,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": []
+      },
+      "troopAbility": 1
     }
   },
   {
@@ -9902,7 +13894,71 @@
             }
           ]
         ]
-      }
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": 0,
+            "amount": 900
+          }
+        ]
+      },
+      "obsoleteGoldCost": 900,
+      "stats": {
+        "tier": 0,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 20,
+          "range": {
+            "min": 2,
+            "max": 15
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 20,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 20,
+          "max": 30
+        },
+        "movement": 0,
+        "initiative": 50,
+        "health": 40,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": null,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "restrictions": [
+          {
+            "statistic": 2,
+            "range": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        ]
+      },
+      "troopAbility": 13
     },
     "upgraded": null,
     "superUpgraded": null
