@@ -1,12 +1,66 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../../lib/staticProps";
 
-import { Stack, Text, Title } from "@mantine/core";
+import { Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
-import { getUnit, getUnits, UnitDTO } from "../../../lib/units";
+import { getUnit, getUnits, UnitDTO, UnitTypeDTO } from "../../../lib/units";
 import Head from "next/head";
+import { getTerm, TermsDTO } from "../../../lib/terms";
 
-const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
+const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
+  unit,
+  terms,
+}) => {
+  const renderType = (unitType: UnitTypeDTO) => (
+    <>
+      <Stack>
+        <Title order={4}>{unitType.name}</Title>
+        <SpriteSheet spriteSheet={unitType.sprite} />
+        <Text size="sm" sx={{ fontStyle: "italic" }}>
+          {unitType.description}
+        </Text>
+      </Stack>
+      <Table>
+        <tbody>
+          <tr>
+            <td>{terms.maxTroopSize}</td>
+            <td>{unitType.stats.maxTroopSize}</td>
+          </tr>
+          <tr>
+            <td>{terms.damage}</td>
+            <td>
+              {unitType.stats.damage.min}-{unitType.stats.damage.max}
+            </td>
+          </tr>
+          <tr>
+            <td>{terms.health}</td>
+            <td>{unitType.stats.health}</td>
+          </tr>
+          <tr>
+            <td>{terms.meleeOffence}</td>
+            <td>{unitType.stats.meleeAttack.offense}</td>
+          </tr>
+          <tr>
+            <td>{terms.defense}</td>
+            <td>{unitType.stats.defense}</td>
+          </tr>
+          <tr>
+            <td>{terms.movement}</td>
+            <td>{unitType.stats.movement}</td>
+          </tr>
+          <tr>
+            <td>{terms.initiative}</td>
+            <td>{unitType.stats.initiative}</td>
+          </tr>
+          <tr>
+            <td>{terms.cost}</td>
+            <td>{unitType.purchaseCost.costEntries[0].amount}</td>
+          </tr>
+        </tbody>
+      </Table>
+    </>
+  );
+
   return (
     <>
       <Head>
@@ -17,9 +71,9 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
         />
       </Head>
       <Stack>
-        <Title order={4}>{unit.vanilla.name}</Title>
-        <SpriteSheet spriteSheet={unit.vanilla.sprite} />
-        <Text size="sm">{unit.vanilla.description}</Text>
+        {renderType(unit.vanilla)}
+        {unit.upgraded && renderType(unit.upgraded)}
+        {unit.superUpgraded && renderType(unit.superUpgraded)}
       </Stack>
     </>
   );
@@ -28,18 +82,32 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
 export default Unit;
 
 export const getStaticProps = withStaticBase(async (context) => {
+  const locale = context.locale!;
   const faction = context.params!.faction as string;
   const type = context.params!.type as string;
-  const unit = getUnit(faction, type, context.locale!);
+  const unit = getUnit(faction, type, locale);
   if (!unit) {
     return {
       notFound: true,
     };
   }
 
+  const terms: TermsDTO = {
+    cost: getTerm("Common/Resource/Cost", locale),
+    maxTroopSize: getTerm("Units/Tooltip/MaxTroopSize", locale),
+    damage: getTerm("Units/Tooltip/Damage", locale),
+    health: getTerm("Units/Tooltip/Health", locale),
+    meleeOffence: getTerm("Units/Tooltip/MeleeOffense", locale),
+    defense: getTerm("Units/Tooltip/Defense", locale),
+    movement: getTerm("Units/Tooltip/Movement", locale),
+    initiative: getTerm("Units/Tooltip/Initiative", locale),
+    status: getTerm("Units/Tooltip/Status", locale),
+  };
+
   return {
     props: {
       unit,
+      terms,
     },
     revalidate: false,
   };
