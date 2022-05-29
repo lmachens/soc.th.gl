@@ -112,24 +112,75 @@ export type UnitSimpleDTO = {
   } | null;
 };
 
+export type UnitTypeDTO = {
+  languageKey: string;
+  sprite: SpriteDTO;
+  name: string;
+  description: string;
+  purchaseCost: {
+    costEntries: {
+      type: number;
+      amount: number;
+    }[];
+  };
+  stats: {
+    tier: number;
+    essenceStats: {
+      order: number;
+      creation: number;
+      chaos: number;
+      arcana: number;
+      destruction: number;
+    };
+    meleeAttack: {
+      offense: number;
+      range: {
+        min: number;
+        max: number;
+      };
+      deadlyRange: number;
+      resistancePercent: number;
+    };
+    rangedAttack: {
+      offense: number;
+      range: {
+        min: number;
+        max: number;
+      };
+      deadlyRange: number;
+      resistancePercent: number;
+    };
+    defense: number;
+    attacks: number;
+    retaliations: number;
+    damage: {
+      min: number;
+      max: number;
+    };
+    movement: number;
+    initiative: number;
+    health: number;
+    maxTroopSize: number;
+    damageMultiplier: number;
+    spellDamageResistance: number;
+    statuses: number | null;
+    size: number;
+    canPerformAttacksOfOpportunity: number;
+    ignoresZoneOfControlCounter: number;
+    restrictions: {
+      statistic: number;
+      range: {
+        min: number;
+        max: number;
+      };
+    }[];
+  };
+  troopAbility: number;
+};
+
 export type UnitDTO = {
   faction: string;
-  vanilla: {
-    languageKey: string;
-    sprite: SpriteDTO;
-    name: string;
-    description: string;
-  };
-  upgraded: {
-    languageKey: string;
-    sprite: SpriteDTO;
-    name: string;
-    description: string;
-  } | null;
-  superUpgraded: {
-    languageKey: string;
-    sprite: SpriteDTO;
-    name: string;
-    description: string;
-  } | null;
+  vanilla: UnitTypeDTO;
+  upgraded: UnitTypeDTO | null;
+  superUpgraded: UnitTypeDTO | null;
 };
