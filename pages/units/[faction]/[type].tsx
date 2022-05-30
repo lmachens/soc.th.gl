@@ -53,6 +53,10 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
             <td>{unitType.stats.initiative}</td>
           </tr>
           <tr>
+            <td>{terms.status}</td>
+            <td>{unitType.stats.statuses?.join(", ")}</td>
+          </tr>
+          <tr>
             <td>{terms.cost}</td>
             <td>{unitType.purchaseCost.costEntries[0].amount}</td>
           </tr>

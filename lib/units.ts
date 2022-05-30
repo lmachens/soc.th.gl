@@ -51,41 +51,28 @@ export const getUnit = (
     return null;
   }
 
+  const getType = (type: typeof unitSrc.vanilla) => ({
+    ...type,
+    stats: {
+      ...type.stats,
+      statuses: type.stats.statuses
+        ? type.stats.statuses.map((status) =>
+            getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
+          )
+        : null,
+    },
+    name: getTerm(`${unitSrc.faction}/${type.languageKey}/Name`, locale),
+    description: getTerm(
+      `${unitSrc.faction}/${type.languageKey}/Description`,
+      locale
+    ),
+  });
+
   const unit = {
     ...unitSrc,
-    vanilla: {
-      ...unitSrc.vanilla,
-      name: getTerm(
-        `${unitSrc.faction}/${unitSrc.vanilla.languageKey}/Name`,
-        locale
-      ),
-      description: getTerm(
-        `${unitSrc.faction}/${unitSrc.vanilla.languageKey}/Description`,
-        locale
-      ),
-    },
-    upgraded: unitSrc.upgraded && {
-      ...unitSrc.upgraded,
-      name: getTerm(
-        `${unitSrc.faction}/${unitSrc.upgraded.languageKey}/Name`,
-        locale
-      ),
-      description: getTerm(
-        `${unitSrc.faction}/${unitSrc.upgraded.languageKey}/Description`,
-        locale
-      ),
-    },
-    superUpgraded: unitSrc.superUpgraded && {
-      ...unitSrc.superUpgraded,
-      name: getTerm(
-        `${unitSrc.faction}/${unitSrc.superUpgraded.languageKey}/Name`,
-        locale
-      ),
-      description: getTerm(
-        `${unitSrc.faction}/${unitSrc.superUpgraded.languageKey}/Description`,
-        locale
-      ),
-    },
+    vanilla: getType(unitSrc.vanilla),
+    upgraded: unitSrc.upgraded && getType(unitSrc.upgraded),
+    superUpgraded: unitSrc.superUpgraded && getType(unitSrc.superUpgraded),
   };
   return unit;
 };
@@ -163,7 +150,7 @@ export type UnitTypeDTO = {
     maxTroopSize: number;
     damageMultiplier: number;
     spellDamageResistance: number;
-    statuses: number | null;
+    statuses: string[] | null;
     size: number;
     canPerformAttacksOfOpportunity: number;
     ignoresZoneOfControlCounter: number;
