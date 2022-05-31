@@ -20,7 +20,6 @@ const Article = ({ image, name, description, href, children }: Props) => {
         gap: theme.spacing.lg,
         [theme.fn.smallerThan("sm")]: {
           gridTemplateColumns: "auto",
-          justifyItems: "center",
         },
       })}
     >
