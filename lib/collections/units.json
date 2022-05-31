@@ -162,7 +162,22 @@
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 804,
+          "type": "TraitStealthy1",
+          "modifierData": [
+            {
+              "type": 42,
+              "modifier": "TroopIgnoreZoneOfControl",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": null,
     "superUpgraded": null
@@ -248,13 +263,14 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": []
     },
     "upgraded": null,
     "superUpgraded": null
@@ -396,13 +412,21 @@
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 65,
+          "type": "TraitReload",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "Sapper",
@@ -547,13 +571,52 @@
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 15
+      "troopAbility": {
+        "type": "Palisades",
+        "icon": {
+          "name": "AbilityIconPalisades",
+          "spriteSheet": "Icons.png",
+          "x": 801,
+          "y": 369,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 65,
+          "type": "TraitReload",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -718,13 +781,14 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "Archer",
@@ -885,13 +949,45 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 2
+      "troopAbility": {
+        "type": "Overwatch",
+        "icon": {
+          "name": "AbilityIconOverwatch",
+          "spriteSheet": "Icons.png",
+          "x": 776,
+          "y": 644,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": []
     },
     "superUpgraded": null
   },
@@ -1056,13 +1152,59 @@
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 786432,
+        "statuses": ["Human", "Musician"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 6
+      "troopAbility": {
+        "type": "FearNoFoe",
+        "icon": {
+          "name": "AbilityIconSing",
+          "spriteSheet": "Icons.png",
+          "x": 847,
+          "y": 513,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 148,
+            "type": "TroopAbilityFearNoFoe",
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "Troubadour",
@@ -1219,13 +1361,59 @@
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 786432,
+        "statuses": ["Human", "Musician"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 10
+      "troopAbility": {
+        "type": "StoutheartShallStand",
+        "icon": {
+          "name": "AbilityIconEpic",
+          "spriteSheet": "Icons.png",
+          "x": 729,
+          "y": 3,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 793,
+            "type": "TroopAbilityStoutheartShallStand",
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": []
     },
     "superUpgraded": null
   },
@@ -1378,13 +1566,28 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "ShieldOfOrder",
@@ -1521,13 +1724,66 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 8
+      "troopAbility": {
+        "type": "Protect",
+        "icon": {
+          "name": "AbilityIconProtectDefend",
+          "spriteSheet": "Icons.png",
+          "x": 889,
+          "y": 573,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 409,
+            "type": "TroopAbilityProtect",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -1776,13 +2032,34 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 871,
+          "type": "TraitCharger",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "FistOfOrder",
@@ -2031,13 +2308,72 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 12
+      "troopAbility": {
+        "type": "Inspire",
+        "icon": {
+          "name": "AbilityIconInspire",
+          "spriteSheet": "Icons.png",
+          "x": 782,
+          "y": 3,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 802,
+            "type": "TroopAbilityInspire",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 871,
+          "type": "TraitCharger",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -2230,13 +2566,21 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 262144,
+        "statuses": ["Faey"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 59,
+          "type": "TraitBerserker",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "QueensGuard",
@@ -2437,13 +2781,66 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 262144,
+        "statuses": ["Faey"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 7
+      "troopAbility": {
+        "type": "Defend",
+        "icon": {
+          "name": "AbilityIconProtectDefend",
+          "spriteSheet": "Icons.png",
+          "x": 889,
+          "y": 573,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 408,
+            "type": "TroopAbilityDefend",
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 30,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 59,
+          "type": "TraitBerserker",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -2660,13 +3057,14 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 262144,
+        "statuses": ["Faey"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "FaeyRager",
@@ -2895,13 +3293,59 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 262144,
+        "statuses": ["Faey"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 1
+      "troopAbility": {
+        "type": "Wait",
+        "icon": {
+          "name": "AbilityIconWait",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 425,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 427,
+          "type": "TraitDoubleStrike",
+          "modifierData": [
+            {
+              "type": 0,
+              "modifier": "TroopAttacks",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -3138,13 +3582,21 @@
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 262144,
+        "statuses": ["Faey"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "FaeyQueen",
@@ -3401,13 +3853,59 @@
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 262144,
+        "statuses": ["Faey"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 21
+      "troopAbility": {
+        "type": "FaeyFire",
+        "icon": {
+          "name": "AbilityIconFaeyFire",
+          "spriteSheet": "Icons.png",
+          "x": 399,
+          "y": 58,
+          "width": 52,
+          "height": 53,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26.5
+              },
+              {
+                "x": -26,
+                "y": 26.500002
+              },
+              {
+                "x": 26,
+                "y": 26.500002
+              },
+              {
+                "x": 26,
+                "y": -26.5
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 1,
+            "type": "Empty",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -3594,7 +4092,15 @@
           }
         ]
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": null,
     "superUpgraded": null
@@ -3738,7 +4244,15 @@
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 59,
+          "type": "TraitBerserker",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "PlagueRats",
@@ -3877,7 +4391,21 @@
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 59,
+          "type": "TraitBerserker",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 866,
+          "type": "TraitVenomous",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -4070,13 +4598,14 @@
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "OathboundLegionaire",
@@ -4273,13 +4802,73 @@
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 7
+      "troopAbility": {
+        "type": "Defend",
+        "icon": {
+          "name": "AbilityIconProtectDefend",
+          "spriteSheet": "Icons.png",
+          "x": 889,
+          "y": 573,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 408,
+            "type": "TroopAbilityDefend",
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 30,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -4396,13 +4985,65 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 786432,
+        "statuses": ["Human", "Musician"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 5
+      "troopAbility": {
+        "type": "HerAimWasTrue",
+        "icon": {
+          "name": "AbilityIconSing",
+          "spriteSheet": "Icons.png",
+          "x": 847,
+          "y": 513,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 149,
+            "type": "TroopAbilityHerAimWasTrue",
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 5,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "Zealot",
@@ -4515,13 +5156,71 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 786432,
+        "statuses": ["Human", "Musician"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 9
+      "troopAbility": {
+        "type": "AureliaEternal",
+        "icon": {
+          "name": "AbilityIconEpic",
+          "spriteSheet": "Icons.png",
+          "x": 729,
+          "y": 3,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 792,
+            "type": "TroopAbilityAureliaEternal",
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 5,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 5,
+                "applicationType": 0
+              },
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": []
     },
     "superUpgraded": null
   },
@@ -4670,13 +5369,21 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 866,
+          "type": "TraitVenomous",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "Doctor",
@@ -4809,13 +5516,72 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 14
+      "troopAbility": {
+        "type": "Aim",
+        "icon": {
+          "name": "AbilityIconAim",
+          "spriteSheet": "Icons.png",
+          "x": 521,
+          "y": 112,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 825,
+            "type": "TroopAbilityAim",
+            "modifierData": [
+              {
+                "type": 18,
+                "modifier": "TroopRangedRange",
+                "amountToAdd": 3,
+                "applicationType": 0
+              },
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 3,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 866,
+          "type": "TraitVenomous",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -4956,13 +5722,21 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "Oathsinger",
@@ -5145,13 +5919,59 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 19
+      "troopAbility": {
+        "type": "ChargeEssence",
+        "icon": {
+          "name": "AbilityIconChargeEssence",
+          "spriteSheet": "Icons.png",
+          "x": 574,
+          "y": 108,
+          "width": 56,
+          "height": 57,
+          "outline": [
+            [
+              {
+                "x": -28,
+                "y": -28.5
+              },
+              {
+                "x": -28,
+                "y": 28.5
+              },
+              {
+                "x": 28,
+                "y": 28.5
+              },
+              {
+                "x": 28,
+                "y": -28.5
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 867,
+            "type": "TroopAbilityChargeEssence",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -5426,13 +6246,28 @@
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 798,
+          "type": "TraitPersistent",
+          "modifierData": [
+            {
+              "type": 9,
+              "modifier": "TroopRetaliations",
+              "amountToAdd": 9999,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "BlessedBones",
@@ -5729,13 +6564,66 @@
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 17
+      "troopAbility": {
+        "type": "SacrificeBones",
+        "icon": {
+          "name": "AbilityIconSacrificeBones",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 145,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 829,
+            "type": "TroopAbilitySacrificeBones",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 798,
+          "type": "TraitPersistent",
+          "modifierData": [
+            {
+              "type": 9,
+              "modifier": "TroopRetaliations",
+              "amountToAdd": 9999,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -5890,13 +6778,28 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 804,
+          "type": "TraitStealthy1",
+          "modifierData": [
+            {
+              "type": 42,
+              "modifier": "TroopIgnoreZoneOfControl",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "AurelianHighCleric",
@@ -6065,13 +6968,66 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 12
+      "troopAbility": {
+        "type": "Inspire",
+        "icon": {
+          "name": "AbilityIconInspire",
+          "spriteSheet": "Icons.png",
+          "x": 782,
+          "y": 3,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 802,
+            "type": "TroopAbilityInspire",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 804,
+          "type": "TraitStealthy1",
+          "modifierData": [
+            {
+              "type": 42,
+              "modifier": "TroopIgnoreZoneOfControl",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -6524,13 +7480,27 @@
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 1054,
+          "type": "TraitSweepAttack",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "HighLegion",
@@ -6999,13 +7969,78 @@
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 8
+      "troopAbility": {
+        "type": "Protect",
+        "icon": {
+          "name": "AbilityIconProtectDefend",
+          "spriteSheet": "Icons.png",
+          "x": 889,
+          "y": 573,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 409,
+            "type": "TroopAbilityProtect",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 1054,
+          "type": "TraitSweepAttack",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -7146,13 +8181,14 @@
         "maxTroopSize": 100,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 524288,
+        "statuses": ["Undead"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": []
     },
     "upgraded": null,
     "superUpgraded": null
@@ -7340,7 +8376,15 @@
           }
         ]
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": null,
     "superUpgraded": null
@@ -7454,13 +8498,66 @@
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 26388279853056,
+        "statuses": ["Harima", "Musician"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 4
+      "troopAbility": {
+        "type": "JigOfJugs",
+        "icon": {
+          "name": "AbilityIconSing",
+          "spriteSheet": "Icons.png",
+          "x": 847,
+          "y": 513,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 150,
+            "type": "TroopAbilityJigOfJugs",
+            "modifierData": [
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "SteamPiper",
@@ -7577,13 +8674,65 @@
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 26388279853056,
+        "statuses": ["Harima", "Musician"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 11
+      "troopAbility": {
+        "type": "TheCoinInMyHand",
+        "icon": {
+          "name": "AbilityIconEpic",
+          "spriteSheet": "Icons.png",
+          "x": 729,
+          "y": 3,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 794,
+            "type": "TroopAbilityTheCoinInMyHand",
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": []
     },
     "superUpgraded": null
   },
@@ -7752,13 +8901,28 @@
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 799,
+          "type": "TraitReach",
+          "modifierData": [
+            {
+              "type": 41,
+              "modifier": "TroopMeleeRange",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "PikeneerVeteran",
@@ -7947,13 +9111,59 @@
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 20
+      "troopAbility": {
+        "type": "Spearwall",
+        "icon": {
+          "name": "AbilityIconSpearwall",
+          "spriteSheet": "Icons.png",
+          "x": 676,
+          "y": 2,
+          "width": 52,
+          "height": 53,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26.5
+              },
+              {
+                "x": -26,
+                "y": 26.500002
+              },
+              {
+                "x": 26,
+                "y": 26.500002
+              },
+              {
+                "x": 26,
+                "y": -26.5
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 799,
+          "type": "TraitReach",
+          "modifierData": [
+            {
+              "type": 41,
+              "modifier": "TroopMeleeRange",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -8102,13 +9312,21 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 65,
+          "type": "TraitReload",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "MusketeerVeteran",
@@ -8277,13 +9495,72 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 14
+      "troopAbility": {
+        "type": "Aim",
+        "icon": {
+          "name": "AbilityIconAim",
+          "spriteSheet": "Icons.png",
+          "x": 521,
+          "y": 112,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 825,
+            "type": "TroopAbilityAim",
+            "modifierData": [
+              {
+                "type": 18,
+                "modifier": "TroopRangedRange",
+                "amountToAdd": 3,
+                "applicationType": 0
+              },
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 3,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 65,
+          "type": "TraitReload",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -8518,13 +9795,21 @@
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1310720,
+        "statuses": ["Beast"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 795,
+          "type": "TraitQuick",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "DireDreath",
@@ -8775,13 +10060,65 @@
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1310720,
+        "statuses": ["Beast"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 1
+      "troopAbility": {
+        "type": "Wait",
+        "icon": {
+          "name": "AbilityIconWait",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 425,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 795,
+          "type": "TraitQuick",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 798,
+          "type": "TraitPersistent",
+          "modifierData": [
+            {
+              "type": 9,
+              "modifier": "TroopRetaliations",
+              "amountToAdd": 9999,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -8994,13 +10331,14 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1572864,
+        "statuses": ["Harima"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "ScarredBrute",
@@ -9207,13 +10545,21 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1572864,
+        "statuses": ["Harima"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -9382,13 +10728,45 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 15
+      "troopAbility": {
+        "type": "Palisades",
+        "icon": {
+          "name": "AbilityIconPalisades",
+          "spriteSheet": "Icons.png",
+          "x": 801,
+          "y": 369,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "Artificer",
@@ -9539,13 +10917,52 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 16
+      "troopAbility": {
+        "type": "PlaceMine",
+        "icon": {
+          "name": "AbilityIconPlaceMine",
+          "spriteSheet": "Icons.png",
+          "x": 807,
+          "y": 316,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 869,
+          "type": "TraitFlameAttack",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -9694,13 +11111,21 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1572864,
+        "statuses": ["Harima"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 801,
+          "type": "TraitBackstabber",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "SassanidVeteran",
@@ -9857,13 +11282,65 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1572864,
+        "statuses": ["Harima"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 1
+      "troopAbility": {
+        "type": "Wait",
+        "icon": {
+          "name": "AbilityIconWait",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 425,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 804,
+          "type": "TraitStealthy1",
+          "modifierData": [
+            {
+              "type": 42,
+              "modifier": "TroopIgnoreZoneOfControl",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 801,
+          "type": "TraitBackstabber",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -10060,13 +11537,33 @@
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 65,
+          "type": "TraitReload",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 1104,
+          "type": "TraitBarrageAttack",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "Hellroar",
@@ -10275,13 +11772,70 @@
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 0,
+        "statuses": ["Human"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 1
+      "troopAbility": {
+        "type": "Wait",
+        "icon": {
+          "name": "AbilityIconWait",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 425,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 65,
+          "type": "TraitReload",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 1104,
+          "type": "TraitBarrageAttack",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -10468,7 +12022,15 @@
           }
         ]
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": null,
     "superUpgraded": null
@@ -10618,13 +12180,14 @@
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "StormGuard",
@@ -10777,13 +12340,73 @@
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 7
+      "troopAbility": {
+        "type": "Defend",
+        "icon": {
+          "name": "AbilityIconProtectDefend",
+          "spriteSheet": "Icons.png",
+          "x": 889,
+          "y": 573,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 408,
+            "type": "TroopAbilityDefend",
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 30,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 804,
+          "type": "TraitStealthy1",
+          "modifierData": [
+            {
+              "type": 42,
+              "modifier": "TroopIgnoreZoneOfControl",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -11024,13 +12647,21 @@
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 866,
+          "type": "TraitVenomous",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "Sage",
@@ -11291,13 +12922,27 @@
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 866,
+          "type": "TraitVenomous",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -11454,13 +13099,21 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 66,
+          "type": "TraitGuard",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "Protector",
@@ -11617,13 +13270,59 @@
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 8
+      "troopAbility": {
+        "type": "Protect",
+        "icon": {
+          "name": "AbilityIconProtectDefend",
+          "spriteSheet": "Icons.png",
+          "x": 889,
+          "y": 573,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 409,
+            "type": "TroopAbilityProtect",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 66,
+          "type": "TraitGuard",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -11850,13 +13549,21 @@
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1310720,
+        "statuses": ["Beast"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 871,
+          "type": "TraitCharger",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "RiderOfTheSwamp",
@@ -12111,13 +13818,52 @@
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 17592187355136,
+        "statuses": ["Rana", "Beast"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 1
+      "troopAbility": {
+        "type": "Wait",
+        "icon": {
+          "name": "AbilityIconWait",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 425,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 871,
+          "type": "TraitCharger",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -12258,13 +14004,21 @@
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1310720,
+        "statuses": ["Beast"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "AdultCrawler",
@@ -12465,13 +14219,52 @@
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1310720,
+        "statuses": ["Beast"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 1
+      "troopAbility": {
+        "type": "Wait",
+        "icon": {
+          "name": "AbilityIconWait",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 425,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -12722,13 +14515,72 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 221360946476701970000,
+        "statuses": ["Musician", "Rana", "Beast"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 3
+      "troopAbility": {
+        "type": "TheDragonsRoar",
+        "icon": {
+          "name": "AbilityIconSing",
+          "spriteSheet": "Icons.png",
+          "x": 847,
+          "y": 513,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 151,
+            "type": "TroopAbilityTheDragonsRoar",
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": -10,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": null,
     "superUpgraded": null
@@ -12934,13 +14786,28 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "ChelunElder",
@@ -13165,13 +15032,66 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 19
+      "troopAbility": {
+        "type": "ChargeEssence",
+        "icon": {
+          "name": "AbilityIconChargeEssence",
+          "spriteSheet": "Icons.png",
+          "x": 574,
+          "y": 108,
+          "width": 56,
+          "height": 57,
+          "outline": [
+            [
+              {
+                "x": -28,
+                "y": -28.5
+              },
+              {
+                "x": -28,
+                "y": 28.5
+              },
+              {
+                "x": 28,
+                "y": 28.5
+              },
+              {
+                "x": 28,
+                "y": -28.5
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 867,
+            "type": "TroopAbilityChargeEssence",
+            "modifierData": [],
+            "resourcesIncome": []
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": null
   },
@@ -13384,13 +15304,45 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 2
+      "troopAbility": {
+        "type": "Overwatch",
+        "icon": {
+          "name": "AbilityIconOverwatch",
+          "spriteSheet": "Icons.png",
+          "x": 776,
+          "y": 644,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": []
     },
     "upgraded": {
       "languageKey": "Dragon",
@@ -13575,13 +15527,77 @@
         "maxTroopSize": 3,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 1
+      "troopAbility": {
+        "type": "Wait",
+        "icon": {
+          "name": "AbilityIconWait",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 425,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 799,
+          "type": "TraitReach",
+          "modifierData": [
+            {
+              "type": 41,
+              "modifier": "TroopMeleeRange",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 869,
+          "type": "TraitFlameAttack",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "superUpgraded": {
       "languageKey": "ElderDragon",
@@ -13766,13 +15782,77 @@
         "maxTroopSize": 3,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": 1048576,
+        "statuses": ["Rana"],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
         "restrictions": []
       },
-      "troopAbility": 1
+      "troopAbility": {
+        "type": "Wait",
+        "icon": {
+          "name": "AbilityIconWait",
+          "spriteSheet": "Icons.png",
+          "x": 853,
+          "y": 425,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "modifierData": [],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 799,
+          "type": "TraitReach",
+          "modifierData": [
+            {
+              "type": 41,
+              "modifier": "TroopMeleeRange",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": []
+        },
+        {
+          "bacteriaType": 869,
+          "type": "TraitFlameAttack",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     }
   },
   {
@@ -13958,7 +16038,15 @@
           }
         ]
       },
-      "troopAbility": 13
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "modifierData": [],
+          "resourcesIncome": []
+        }
+      ]
     },
     "upgraded": null,
     "superUpgraded": null

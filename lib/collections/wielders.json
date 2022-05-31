@@ -1197,6 +1197,7 @@
     "specializations": [
       {
         "bacteriaType": 700,
+        "type": "SpecializationChaos",
         "modifierData": [
           {
             "type": 30,
@@ -2209,6 +2210,7 @@
     "specializations": [
       {
         "bacteriaType": 705,
+        "type": "SpecializationOrder",
         "modifierData": [
           {
             "type": 28,
@@ -3225,6 +3227,7 @@
     "specializations": [
       {
         "bacteriaType": 711,
+        "type": "SpecializationTroopMove",
         "modifierData": [
           {
             "type": 6,
@@ -4431,6 +4434,7 @@
     "specializations": [
       {
         "bacteriaType": 709,
+        "type": "SpecializationSpellDamage",
         "modifierData": [
           {
             "type": 35,
@@ -5745,6 +5749,7 @@
     "specializations": [
       {
         "bacteriaType": 706,
+        "type": "SpecializationRangedDamage",
         "modifierData": [
           {
             "type": 8,
@@ -7055,6 +7060,7 @@
     "specializations": [
       {
         "bacteriaType": 701,
+        "type": "SpecializationCreation",
         "modifierData": [
           {
             "type": 29,
@@ -8257,6 +8263,7 @@
     "specializations": [
       {
         "bacteriaType": 703,
+        "type": "SpecializationFaeyOffense",
         "modifierData": [
           {
             "type": 5,
@@ -9577,6 +9584,7 @@
     "specializations": [
       {
         "bacteriaType": 710,
+        "type": "SpecializationSpellResistance",
         "modifierData": [
           {
             "type": 34,
@@ -10589,6 +10597,7 @@
     "specializations": [
       {
         "bacteriaType": 704,
+        "type": "SpecializationHumanDefense",
         "modifierData": [
           {
             "type": 2,
@@ -11713,6 +11722,7 @@
     "specializations": [
       {
         "bacteriaType": 705,
+        "type": "SpecializationOrder",
         "modifierData": [
           {
             "type": 28,
@@ -12914,6 +12924,7 @@
     "specializations": [
       {
         "bacteriaType": 709,
+        "type": "SpecializationSpellDamage",
         "modifierData": [
           {
             "type": 35,
@@ -13950,6 +13961,7 @@
     "specializations": [
       {
         "bacteriaType": 699,
+        "type": "SpecializationArcana",
         "modifierData": [
           {
             "type": 31,
@@ -15147,6 +15159,7 @@
     "specializations": [
       {
         "bacteriaType": 702,
+        "type": "SpecializationDestruction",
         "modifierData": [
           {
             "type": 32,
@@ -16344,6 +16357,7 @@
     "specializations": [
       {
         "bacteriaType": 708,
+        "type": "SpecializationRatsHP",
         "modifierData": [
           {
             "type": 13,
@@ -17380,6 +17394,7 @@
     "specializations": [
       {
         "bacteriaType": 707,
+        "type": "SpecializationRangedResistance",
         "modifierData": [
           {
             "type": 7,
@@ -18500,6 +18515,7 @@
     "specializations": [
       {
         "bacteriaType": 711,
+        "type": "SpecializationTroopMove",
         "modifierData": [
           {
             "type": 6,
@@ -19536,6 +19552,7 @@
     "specializations": [
       {
         "bacteriaType": 856,
+        "type": "SpecializationUndeadOffense",
         "modifierData": [
           {
             "type": 5,
@@ -20656,6 +20673,7 @@
     "specializations": [
       {
         "bacteriaType": 704,
+        "type": "SpecializationHumanDefense",
         "modifierData": [
           {
             "type": 2,
@@ -21580,6 +21598,7 @@
     "specializations": [
       {
         "bacteriaType": 857,
+        "type": "SpecializationIncome",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -22683,6 +22702,7 @@
     "specializations": [
       {
         "bacteriaType": 855,
+        "type": "SpecializationTroopRangedRange",
         "modifierData": [
           {
             "type": 18,
@@ -23607,6 +23627,7 @@
     "specializations": [
       {
         "bacteriaType": 705,
+        "type": "SpecializationOrder",
         "modifierData": [
           {
             "type": 28,
@@ -24703,6 +24724,7 @@
     "specializations": [
       {
         "bacteriaType": 706,
+        "type": "SpecializationRangedDamage",
         "modifierData": [
           {
             "type": 8,
@@ -25807,6 +25829,7 @@
     "specializations": [
       {
         "bacteriaType": 700,
+        "type": "SpecializationChaos",
         "modifierData": [
           {
             "type": 30,
@@ -26911,6 +26934,7 @@
     "specializations": [
       {
         "bacteriaType": 710,
+        "type": "SpecializationSpellResistance",
         "modifierData": [
           {
             "type": 34,
@@ -28006,6 +28030,7 @@
     "specializations": [
       {
         "bacteriaType": 702,
+        "type": "SpecializationDestruction",
         "modifierData": [
           {
             "type": 32,
@@ -28930,6 +28955,7 @@
     "specializations": [
       {
         "bacteriaType": 704,
+        "type": "SpecializationHumanDefense",
         "modifierData": [
           {
             "type": 2,
@@ -30026,6 +30052,7 @@
     "specializations": [
       {
         "bacteriaType": 712,
+        "type": "SpecializationHarimaOffense",
         "modifierData": [
           {
             "type": 5,
@@ -31118,6 +31145,7 @@
     "specializations": [
       {
         "bacteriaType": 1125,
+        "type": "SpecializationHunterDamage",
         "modifierData": [
           {
             "type": 1,
@@ -32179,6 +32207,7 @@
     "specializations": [
       {
         "bacteriaType": 702,
+        "type": "SpecializationDestruction",
         "modifierData": [
           {
             "type": 32,
@@ -33236,6 +33265,7 @@
     "specializations": [
       {
         "bacteriaType": 709,
+        "type": "SpecializationSpellDamage",
         "modifierData": [
           {
             "type": 35,
@@ -34297,6 +34327,7 @@
     "specializations": [
       {
         "bacteriaType": 710,
+        "type": "SpecializationSpellResistance",
         "modifierData": [
           {
             "type": 34,
@@ -35389,6 +35420,7 @@
     "specializations": [
       {
         "bacteriaType": 1159,
+        "type": "SpecializationRavagerMove",
         "modifierData": [
           {
             "type": 6,
@@ -36481,6 +36513,7 @@
     "specializations": [
       {
         "bacteriaType": 707,
+        "type": "SpecializationRangedResistance",
         "modifierData": [
           {
             "type": 7,
@@ -37678,6 +37711,7 @@
     "specializations": [
       {
         "bacteriaType": 859,
+        "type": "SpecializationRanaOffense",
         "modifierData": [
           {
             "type": 5,
@@ -38877,6 +38911,7 @@
     "specializations": [
       {
         "bacteriaType": 855,
+        "type": "SpecializationTroopRangedRange",
         "modifierData": [
           {
             "type": 18,
@@ -40074,6 +40109,7 @@
     "specializations": [
       {
         "bacteriaType": 699,
+        "type": "SpecializationArcana",
         "modifierData": [
           {
             "type": 31,

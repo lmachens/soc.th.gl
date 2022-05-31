@@ -53,9 +53,30 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
             <td>{unitType.stats.initiative}</td>
           </tr>
           <tr>
+            <td>{terms.status}</td>
+            <td>{unitType.stats.statuses?.join(", ")}</td>
+          </tr>
+          <tr>
             <td>{terms.cost}</td>
             <td>{unitType.purchaseCost.costEntries[0].amount}</td>
           </tr>
+          {unitType.troopAbility && (
+            <tr>
+              <td>{unitType.troopAbility.name}</td>
+              <td>{unitType.troopAbility.description}</td>
+            </tr>
+          )}
+          {unitType.bacterias.map((bacteria) => (
+            <tr key={bacteria.bacteriaType}>
+              <td>{bacteria.name}</td>
+              <td>
+                {bacteria.description ||
+                  bacteria.modifierData
+                    .map((modifier) => modifier.description)
+                    .join(", ")}
+              </td>
+            </tr>
+          ))}
         </tbody>
       </Table>
     </>
