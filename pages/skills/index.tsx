@@ -18,7 +18,7 @@ const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
         breakpoints={[
           { minWidth: 'sm', cols: 1 },
           { minWidth: 'md', cols: 2 },
-          { minWidth: 1200, cols: 3 },
+          { minWidth: 'lg', cols: 3 },
         ]}
       >
         {skills.map((skill) => (

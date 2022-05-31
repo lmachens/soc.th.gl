@@ -17,7 +17,7 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[] }> = ({ wielders }) => {
         breakpoints={[
           { minWidth: 'sm', cols: 1 },
           { minWidth: 'md', cols: 2 },
-          { minWidth: 1200, cols: 3 },
+          { minWidth: 'lg', cols: 3 },
         ]}
       >
         {wielders.map((wielder) => (

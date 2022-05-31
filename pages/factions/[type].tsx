@@ -36,7 +36,7 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
           breakpoints={[
             { minWidth: 'sm', cols: 1 },
             { minWidth: 'md', cols: 2 },
-            { minWidth: 1200, cols: 3 },
+            { minWidth: 'lg', cols: 3 },
           ]}
         >
           {faction.commanders.map((commander) => (
@@ -88,7 +88,7 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
           breakpoints={[
             { minWidth: 'sm', cols: 1 },
             { minWidth: 'md', cols: 2 },
-            { minWidth: 1200, cols: 3 },
+            { minWidth: 'lg', cols: 3 },
           ]}
         >
           {faction.units.map((unit) => (
