@@ -1,6 +1,6 @@
 import { NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
-import { Stack } from "@mantine/core";
+import { SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getWielders, WielderSimpleDTO } from "../../lib/wielders";
 import Head from "next/head";
@@ -13,7 +13,13 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[] }> = ({ wielders }) => {
         <title>Wielders - SoC.gg</title>
         <meta name="description" content="All wielders of Songs of Conquest" />
       </Head>
-      <Stack>
+      <SimpleGrid 
+        breakpoints={[
+          { minWidth: 'sm', cols: 1 },
+          { minWidth: 'md', cols: 2 },
+          { minWidth: 1200, cols: 3 },
+        ]}
+      >
         {wielders.map((wielder) => (
           <Article
             key={wielder.type}
@@ -29,7 +35,7 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[] }> = ({ wielders }) => {
             href={`/wielders/${wielder.type}`}
           />
         ))}
-      </Stack>
+      </SimpleGrid>
     </>
   );
 };

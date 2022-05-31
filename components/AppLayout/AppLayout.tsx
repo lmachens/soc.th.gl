@@ -35,7 +35,7 @@ const AppLayout = ({ collectionLinks, children }: Props) => {
           <AppNavbar opened={openedNavbar} collectionLinks={collectionLinks} />
         }
       >
-        <Container>{children}</Container>
+        <Container size="xl">{children}</Container>
       </AppShell>
     </SpotlightSearchProvider>
   );
