@@ -1,3 +1,4 @@
+import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 import unitsCollection from "./collections/units.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
@@ -51,28 +52,52 @@ export const getUnit = (
     return null;
   }
 
-  const getType = (type: typeof unitSrc.vanilla) => ({
-    ...type,
-    stats: {
-      ...type.stats,
-      statuses: type.stats.statuses
-        ? type.stats.statuses.map((status) =>
-            getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
-          )
+  const getType = (
+    type:
+      | typeof unitSrc.vanilla
+      | typeof unitSrc.upgraded
+      | typeof unitSrc.superUpgraded
+  ) => {
+    if (!type) {
+      return null;
+    }
+    return {
+      ...type,
+      stats: {
+        ...type.stats,
+        statuses: type.stats.statuses
+          ? type.stats.statuses.map((status) =>
+              getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
+            )
+          : null,
+      },
+      name: getTerm(`${unitSrc.faction}/${type.languageKey}/Name`, locale),
+      description: getTerm(
+        `${unitSrc.faction}/${type.languageKey}/Description`,
+        locale
+      ),
+      troopAbility: type.troopAbility
+        ? {
+            type: type.troopAbility.type,
+            icon: type.troopAbility.icon,
+            name: getTerm(`Units/Abilities/Wait`, locale),
+            description: getTerm(`Units/Abilities/Wait/Description`, locale),
+            bacterias: type.troopAbility.bacterias.map((bacteria) =>
+              getLocaleBacteria(bacteria, locale)
+            ),
+          }
         : null,
-    },
-    name: getTerm(`${unitSrc.faction}/${type.languageKey}/Name`, locale),
-    description: getTerm(
-      `${unitSrc.faction}/${type.languageKey}/Description`,
-      locale
-    ),
-  });
+      bacterias: type.bacterias.map((bacteria) =>
+        getLocaleBacteria(bacteria, locale)
+      ),
+    };
+  };
 
   const unit = {
     ...unitSrc,
-    vanilla: getType(unitSrc.vanilla),
-    upgraded: unitSrc.upgraded && getType(unitSrc.upgraded),
-    superUpgraded: unitSrc.superUpgraded && getType(unitSrc.superUpgraded),
+    vanilla: getType(unitSrc.vanilla)!,
+    upgraded: getType(unitSrc.upgraded),
+    superUpgraded: getType(unitSrc.superUpgraded),
   };
   return unit;
 };
@@ -162,7 +187,14 @@ export type UnitTypeDTO = {
       };
     }[];
   };
-  troopAbility: number;
+  troopAbility: {
+    type: string;
+    icon: SpriteDTO;
+    name: string;
+    description: string;
+    bacterias: BacteriaDTO[];
+  } | null;
+  bacterias: BacteriaDTO[];
 };
 
 export type UnitDTO = {
