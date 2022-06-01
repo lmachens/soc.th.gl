@@ -1,7 +1,7 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Group, Image, Stack, Text, Title } from "@mantine/core";
+import { Group, Image, Stack, Text, Title, SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
@@ -32,7 +32,13 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
         </Stack>
 
         <Title order={2}>{terms.wielders}</Title>
-        <Stack>
+        <SimpleGrid
+          breakpoints={[
+            { minWidth: 'sm', cols: 1 },
+            { minWidth: 'md', cols: 2 },
+            { minWidth: 'lg', cols: 3 },
+          ]}
+        >
           {faction.commanders.map((commander) => (
             <Article
               key={commander.type}
@@ -75,10 +81,16 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
               </Group>
             </Article>
           ))}
-        </Stack>
+        </SimpleGrid>
         <Title order={2}>{terms.units}</Title>
 
-        <Stack>
+        <SimpleGrid
+          breakpoints={[
+            { minWidth: 'sm', cols: 1 },
+            { minWidth: 'md', cols: 2 },
+            { minWidth: 'lg', cols: 3 },
+          ]}
+        >
           {faction.units.map((unit) => (
             <Article
               key={unit.vanilla.languageKey}
@@ -88,7 +100,7 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
               href={`/units/${faction.type}/${unit.vanilla.languageKey}`}
             />
           ))}
-        </Stack>
+        </SimpleGrid>
       </Stack>
     </>
   );

@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Head from "next/head";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Divider, Grid, Image, Stack, Text } from "@mantine/core";
+import { Divider, Grid, Image, Stack, SimpleGrid, Text } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { FactionSimpleDTO, getFactions } from "../../lib/factions";
 import AppLink from "../../components/AppLink/AppLink";
@@ -34,7 +34,12 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
       </Grid>
       <Divider my="md" />
 
-      <Stack>
+      <SimpleGrid
+        breakpoints={[
+          { minWidth: 'sm', cols: 1 },
+          { minWidth: 'md', cols: 2 },
+        ]}
+      >
         {factions.map((faction) => (
           <Article
             key={faction.type}
@@ -44,7 +49,7 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
             href={`/factions/${faction.type}`}
           />
         ))}
-      </Stack>
+      </SimpleGrid>
     </>
   );
 };

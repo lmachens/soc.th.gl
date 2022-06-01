@@ -1,7 +1,7 @@
 import { NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Stack } from "@mantine/core";
+import { SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getSkills, SkillSimpleDTO } from "../../lib/skills";
 import Head from "next/head";
@@ -14,7 +14,13 @@ const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
         <title>Skills - SoC.gg</title>
         <meta name="description" content="All skills of Songs of Conquest" />
       </Head>
-      <Stack>
+      <SimpleGrid
+        breakpoints={[
+          { minWidth: 'sm', cols: 1 },
+          { minWidth: 'md', cols: 2 },
+          { minWidth: 'lg', cols: 3 },
+        ]}
+      >
         {skills.map((skill) => (
           <Article
             key={skill.type}
@@ -24,7 +30,7 @@ const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
             href={`/skills/${skill.type}`}
           />
         ))}
-      </Stack>
+      </SimpleGrid>
     </>
   );
 };
