@@ -18,7 +18,7 @@ const Article = ({ image, name, description, href, children }: Props) => {
         display: "grid",
         gridTemplateColumns: "150px 1fr",
         gap: theme.spacing.lg,
-        [theme.fn.smallerThan("sm")]: {
+        [theme.fn.smallerThan("xs")]: {
           gridTemplateColumns: "auto",
         },
       })}
