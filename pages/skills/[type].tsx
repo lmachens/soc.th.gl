@@ -34,10 +34,12 @@ const Skill: NextPage<{
             <Fragment key={index}>
               <Title
                 order={3}
-                dangerouslySetInnerHTML={{ __html: level.name }}
+                dangerouslySetInnerHTML={{ __html: level.levelName }}
               />
-              {level.description && (
-                <Text dangerouslySetInnerHTML={{ __html: level.description }} />
+              {level.levelDescription && (
+                <Text
+                  dangerouslySetInnerHTML={{ __html: level.levelDescription }}
+                />
               )}
               {level.modifierData.map((modifier) => (
                 <Text
@@ -50,6 +52,27 @@ const Skill: NextPage<{
                   {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
                 </Text>
               ))}
+
+              {level.settings?.bacterias.map((bacteria) => (
+                <Fragment key={bacteria.bacteriaType}>
+                  {bacteria.modifierData.map((modifier) => (
+                    <Text
+                      key={modifier.type}
+                      dangerouslySetInnerHTML={{
+                        __html: modifier.description,
+                      }}
+                    />
+                  ))}
+                  {bacteria.resourcesIncome.map((resourceIncome) => (
+                    <Text key={resourceIncome.type}>
+                      {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
+                    </Text>
+                  ))}
+                </Fragment>
+              ))}
+              {level.settings && level.duration && (
+                <Text>{level.duration}</Text>
+              )}
             </Fragment>
           ))}
         </Stack>

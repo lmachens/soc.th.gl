@@ -10,14 +10,26 @@ const terms = termMap as unknown as {
   };
 };
 
+const PERCENTAGE_BASED_MODIFIERS = [
+  "TroopMeleeAttackResistance",
+  "TroopRangedAttackResistance",
+  "TroopSpellDamageResistance",
+  "CommanderSpellDamagePower",
+  "CommanderPillageBonus",
+  "CommanderXPMultiplier",
+  "CommanderDiplomacyBonus",
+  "CommanderTutorPercent",
+  "TroopDamageMultiplier",
+];
+
 export const getTerm = (
   term: string,
   locale: string,
-  count?: number,
-  applicationType?: number
+  count?: number | string,
+  modifier?: string
 ) => {
   let value: string | undefined;
-  if (count) {
+  if (count && typeof count === "number") {
     const pluralForm = getPluralForm(locale, count);
     value = (terms[`${term}_${pluralForm}`] || terms[term])?.[locale];
   } else {
@@ -30,18 +42,18 @@ export const getTerm = (
   }
 
   if (count) {
-    value = value.replace(
-      "{0}",
-      `<span class="${
-        applicationType !== undefined
-          ? count > 0
-            ? "positive"
-            : "negative"
-          : ""
-      }">${
-        applicationType !== undefined ? (count > 0 ? "+" : "-") : ""
-      }${count}${applicationType === 1 ? "%" : ""}</span>`
-    );
+    if (typeof count === "number" && modifier !== undefined) {
+      const isPercentageModifier =
+        PERCENTAGE_BASED_MODIFIERS.includes(modifier);
+      value = value.replace(
+        "{0}",
+        `<span class="${count > 0 ? "positive" : "negative"}">${
+          count > 0 ? "+" : "-"
+        }${count}${isPercentageModifier ? "%" : ""}</span>`
+      );
+    } else {
+      value = value.replace("{0}", count.toString());
+    }
   }
 
   value = value
