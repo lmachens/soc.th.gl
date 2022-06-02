@@ -48,6 +48,7 @@
     "levels": [
       {
         "bacteriaType": 3,
+        "type": "SkillArchery1",
         "modifierData": [
           {
             "type": 8,
@@ -56,10 +57,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 4,
+        "type": "SkillArchery2",
         "modifierData": [
           {
             "type": 8,
@@ -68,10 +74,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 5,
+        "type": "SkillArchery3",
         "modifierData": [
           {
             "type": 8,
@@ -86,7 +97,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -139,6 +154,7 @@
     "levels": [
       {
         "bacteriaType": 6,
+        "type": "SkillCunning1",
         "modifierData": [
           {
             "type": 5,
@@ -159,10 +175,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 1,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 7,
+        "type": "SkillCunning2",
         "modifierData": [
           {
             "type": 5,
@@ -183,10 +204,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 1,
+          "duration": 3
+        }
       },
       {
         "bacteriaType": 8,
+        "type": "SkillCunning3",
         "modifierData": [
           {
             "type": 5,
@@ -207,7 +233,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 1,
+          "duration": 3
+        }
       }
     ]
   },
@@ -260,6 +290,7 @@
     "levels": [
       {
         "bacteriaType": 9,
+        "type": "SkillGuard1",
         "modifierData": [
           {
             "type": 4,
@@ -268,10 +299,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 10,
+        "type": "SkillGuard2",
         "modifierData": [
           {
             "type": 4,
@@ -280,10 +316,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 11,
+        "type": "SkillGuard3",
         "modifierData": [
           {
             "type": 4,
@@ -292,7 +333,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -345,6 +390,7 @@
     "levels": [
       {
         "bacteriaType": 12,
+        "type": "SkillHandToHand1",
         "modifierData": [
           {
             "type": 47,
@@ -353,10 +399,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 13,
+        "type": "SkillHandToHand2",
         "modifierData": [
           {
             "type": 47,
@@ -365,10 +416,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 14,
+        "type": "SkillHandToHand3",
         "modifierData": [
           {
             "type": 47,
@@ -383,7 +439,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -436,6 +496,7 @@
     "levels": [
       {
         "bacteriaType": 15,
+        "type": "SkillPrepared1",
         "modifierData": [
           {
             "type": 3,
@@ -444,10 +505,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 16,
+        "type": "SkillPrepared2",
         "modifierData": [
           {
             "type": 3,
@@ -456,10 +522,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 17,
+        "type": "SkillPrepared3",
         "modifierData": [
           {
             "type": 3,
@@ -468,7 +539,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -521,6 +596,7 @@
     "levels": [
       {
         "bacteriaType": 443,
+        "type": "SkillArcana1",
         "modifierData": [
           {
             "type": 31,
@@ -529,10 +605,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 444,
+        "type": "SkillArcana2",
         "modifierData": [
           {
             "type": 31,
@@ -541,10 +622,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 445,
+        "type": "SkillArcana3",
         "modifierData": [
           {
             "type": 31,
@@ -553,7 +639,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -606,6 +696,7 @@
     "levels": [
       {
         "bacteriaType": 447,
+        "type": "SkillChaos1",
         "modifierData": [
           {
             "type": 30,
@@ -614,10 +705,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 448,
+        "type": "SkillChaos2",
         "modifierData": [
           {
             "type": 30,
@@ -626,10 +722,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 449,
+        "type": "SkillChaos3",
         "modifierData": [
           {
             "type": 30,
@@ -638,7 +739,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -691,6 +796,7 @@
     "levels": [
       {
         "bacteriaType": 450,
+        "type": "SkillCreation1",
         "modifierData": [
           {
             "type": 29,
@@ -699,10 +805,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 451,
+        "type": "SkillCreation2",
         "modifierData": [
           {
             "type": 29,
@@ -711,10 +822,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 452,
+        "type": "SkillCreation3",
         "modifierData": [
           {
             "type": 29,
@@ -723,7 +839,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -776,6 +896,7 @@
     "levels": [
       {
         "bacteriaType": 453,
+        "type": "SkillDestruction1",
         "modifierData": [
           {
             "type": 32,
@@ -784,10 +905,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 454,
+        "type": "SkillDestruction2",
         "modifierData": [
           {
             "type": 32,
@@ -796,10 +922,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 455,
+        "type": "SkillDestruction3",
         "modifierData": [
           {
             "type": 32,
@@ -808,7 +939,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -861,6 +996,7 @@
     "levels": [
       {
         "bacteriaType": 456,
+        "type": "SkillOrder1",
         "modifierData": [
           {
             "type": 28,
@@ -869,10 +1005,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 457,
+        "type": "SkillOrder2",
         "modifierData": [
           {
             "type": 28,
@@ -881,10 +1022,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 458,
+        "type": "SkillOrder3",
         "modifierData": [
           {
             "type": 28,
@@ -893,7 +1039,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -946,6 +1096,7 @@
     "levels": [
       {
         "bacteriaType": 347,
+        "type": "SkillCommand1",
         "modifierData": [
           {
             "type": 19,
@@ -954,10 +1105,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 348,
+        "type": "SkillCommand2",
         "modifierData": [
           {
             "type": 19,
@@ -966,10 +1122,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 349,
+        "type": "SkillCommand3",
         "modifierData": [
           {
             "type": 19,
@@ -978,10 +1139,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 350,
+        "type": "SkillCommand4",
         "modifierData": [
           {
             "type": 19,
@@ -990,10 +1156,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 351,
+        "type": "SkillCommand5",
         "modifierData": [
           {
             "type": 19,
@@ -1002,10 +1173,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 352,
+        "type": "SkillCommand6",
         "modifierData": [
           {
             "type": 19,
@@ -1014,10 +1190,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 353,
+        "type": "SkillCommand7",
         "modifierData": [
           {
             "type": 19,
@@ -1026,10 +1207,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 354,
+        "type": "SkillCommand8",
         "modifierData": [
           {
             "type": 19,
@@ -1038,10 +1224,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 355,
+        "type": "SkillCommand9",
         "modifierData": [
           {
             "type": 19,
@@ -1050,7 +1241,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -1103,6 +1298,7 @@
     "levels": [
       {
         "bacteriaType": 377,
+        "type": "SkillTaxes1",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -1110,10 +1306,15 @@
             "amount": 100,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 378,
+        "type": "SkillTaxes2",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -1121,10 +1322,15 @@
             "amount": 250,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       },
       {
         "bacteriaType": 379,
+        "type": "SkillTaxes3",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -1132,7 +1338,11 @@
             "amount": 500,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       }
     ]
   },
@@ -1185,6 +1395,7 @@
     "levels": [
       {
         "bacteriaType": 380,
+        "type": "SkillBrutal1",
         "modifierData": [
           {
             "type": 1,
@@ -1193,10 +1404,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 381,
+        "type": "SkillBrutal2",
         "modifierData": [
           {
             "type": 1,
@@ -1205,7 +1421,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       }
     ]
   },
@@ -1258,6 +1478,7 @@
     "levels": [
       {
         "bacteriaType": 383,
+        "type": "SkillRigor1",
         "modifierData": [
           {
             "type": 13,
@@ -1266,10 +1487,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 384,
+        "type": "SkillRigor2",
         "modifierData": [
           {
             "type": 13,
@@ -1278,7 +1504,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       }
     ]
   },
@@ -1331,6 +1561,7 @@
     "levels": [
       {
         "bacteriaType": 386,
+        "type": "SkillMarch1",
         "modifierData": [
           {
             "type": 12,
@@ -1339,10 +1570,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 387,
+        "type": "SkillMarch2",
         "modifierData": [
           {
             "type": 12,
@@ -1351,10 +1587,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 388,
+        "type": "SkillMarch3",
         "modifierData": [
           {
             "type": 12,
@@ -1363,7 +1604,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -1416,6 +1661,7 @@
     "levels": [
       {
         "bacteriaType": 389,
+        "type": "SkillMelee1",
         "modifierData": [
           {
             "type": 5,
@@ -1424,10 +1670,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 390,
+        "type": "SkillMelee2",
         "modifierData": [
           {
             "type": 5,
@@ -1436,10 +1687,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 391,
+        "type": "SkillMelee3",
         "modifierData": [
           {
             "type": 5,
@@ -1454,7 +1710,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -1507,6 +1767,7 @@
     "levels": [
       {
         "bacteriaType": 392,
+        "type": "SkillSpeedOfWinds1",
         "modifierData": [
           {
             "type": 6,
@@ -1515,10 +1776,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 393,
+        "type": "SkillSpeedOfWinds2",
         "modifierData": [
           {
             "type": 6,
@@ -1533,7 +1799,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       }
     ]
   },
@@ -1586,6 +1856,7 @@
     "levels": [
       {
         "bacteriaType": 395,
+        "type": "SkillScouting1",
         "modifierData": [
           {
             "type": 21,
@@ -1594,10 +1865,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 396,
+        "type": "SkillScouting2",
         "modifierData": [
           {
             "type": 21,
@@ -1606,10 +1882,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       },
       {
         "bacteriaType": 397,
+        "type": "SkillScouting3",
         "modifierData": [
           {
             "type": 21,
@@ -1624,7 +1905,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       }
     ]
   },
@@ -1677,6 +1962,7 @@
     "levels": [
       {
         "bacteriaType": 462,
+        "type": "SkillLevy1",
         "modifierData": [
           {
             "type": 17,
@@ -1685,10 +1971,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 463,
+        "type": "SkillLevy2",
         "modifierData": [
           {
             "type": 17,
@@ -1697,7 +1988,11 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       }
     ]
   },
@@ -1750,6 +2045,7 @@
     "levels": [
       {
         "bacteriaType": 468,
+        "type": "SkillMagicResistance1",
         "modifierData": [
           {
             "type": 34,
@@ -1758,10 +2054,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 469,
+        "type": "SkillMagicResistance2",
         "modifierData": [
           {
             "type": 34,
@@ -1770,10 +2071,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 470,
+        "type": "SkillMagicResistance3",
         "modifierData": [
           {
             "type": 34,
@@ -1782,7 +2088,11 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -1835,6 +2145,7 @@
     "levels": [
       {
         "bacteriaType": 465,
+        "type": "SkillChanneling1",
         "modifierData": [
           {
             "type": 35,
@@ -1843,10 +2154,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 466,
+        "type": "SkillChanneling2",
         "modifierData": [
           {
             "type": 35,
@@ -1855,10 +2171,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 467,
+        "type": "SkillChanneling3",
         "modifierData": [
           {
             "type": 35,
@@ -1867,7 +2188,11 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -1920,6 +2245,7 @@
     "levels": [
       {
         "bacteriaType": 493,
+        "type": "SkillRaider1",
         "modifierData": [
           {
             "type": 37,
@@ -1928,10 +2254,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 494,
+        "type": "SkillRaider2",
         "modifierData": [
           {
             "type": 37,
@@ -1940,10 +2271,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       },
       {
         "bacteriaType": 495,
+        "type": "SkillRaider3",
         "modifierData": [
           {
             "type": 37,
@@ -1952,7 +2288,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       }
     ]
   },
@@ -2005,6 +2345,7 @@
     "levels": [
       {
         "bacteriaType": 876,
+        "type": "SkillLearning1",
         "modifierData": [
           {
             "type": 43,
@@ -2013,10 +2354,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 901,
+        "type": "SkillLearning2",
         "modifierData": [
           {
             "type": 43,
@@ -2025,10 +2371,15 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 902,
+        "type": "SkillLearning3",
         "modifierData": [
           {
             "type": 43,
@@ -2037,7 +2388,11 @@
             "applicationType": 1
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2090,6 +2445,7 @@
     "levels": [
       {
         "bacteriaType": 877,
+        "type": "SkillProduceGlimmer1",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2097,10 +2453,15 @@
             "amount": 1,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 887,
+        "type": "SkillProduceGlimmer2",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2108,10 +2469,15 @@
             "amount": 2,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 888,
+        "type": "SkillProduceGlimmer3",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2119,7 +2485,11 @@
             "amount": 3,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2172,6 +2542,7 @@
     "levels": [
       {
         "bacteriaType": 878,
+        "type": "SkillProduceAmber1",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2179,10 +2550,15 @@
             "amount": 1,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 884,
+        "type": "SkillProduceAmber2",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2190,10 +2566,15 @@
             "amount": 2,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 883,
+        "type": "SkillProduceAmber3",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2201,7 +2582,11 @@
             "amount": 3,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2254,6 +2639,7 @@
     "levels": [
       {
         "bacteriaType": 879,
+        "type": "SkillProduceCelestial1",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2261,10 +2647,15 @@
             "amount": 1,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 885,
+        "type": "SkillProduceCelestial2",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2272,10 +2663,15 @@
             "amount": 2,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 886,
+        "type": "SkillProduceCelestial3",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2283,7 +2679,11 @@
             "amount": 3,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2336,6 +2736,7 @@
     "levels": [
       {
         "bacteriaType": 880,
+        "type": "SkillRange1",
         "modifierData": [
           {
             "type": 18,
@@ -2344,10 +2745,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 881,
+        "type": "SkillRange2",
         "modifierData": [
           {
             "type": 18,
@@ -2362,7 +2768,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2415,6 +2825,7 @@
     "levels": [
       {
         "bacteriaType": 889,
+        "type": "SkillProduceStone1",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2422,10 +2833,15 @@
             "amount": 1,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 890,
+        "type": "SkillProduceStone2",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2433,10 +2849,15 @@
             "amount": 2,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 891,
+        "type": "SkillProduceStone3",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2444,7 +2865,11 @@
             "amount": 3,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2497,6 +2922,7 @@
     "levels": [
       {
         "bacteriaType": 892,
+        "type": "SkillProduceWood1",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2504,10 +2930,15 @@
             "amount": 1,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 893,
+        "type": "SkillProduceWood2",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2515,10 +2946,15 @@
             "amount": 2,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 894,
+        "type": "SkillProduceWood3",
         "modifierData": [],
         "resourcesIncome": [
           {
@@ -2526,7 +2962,11 @@
             "amount": 3,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2579,6 +3019,7 @@
     "levels": [
       {
         "bacteriaType": 895,
+        "type": "SkillFast1",
         "modifierData": [
           {
             "type": 6,
@@ -2587,10 +3028,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 1,
+          "duration": 1
+        }
       },
       {
         "bacteriaType": 896,
+        "type": "SkillFast2",
         "modifierData": [
           {
             "type": 6,
@@ -2605,7 +3051,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 1,
+          "duration": 1
+        }
       }
     ]
   },
@@ -2658,6 +3108,7 @@
     "levels": [
       {
         "bacteriaType": 1111,
+        "type": "SkillPositioning1",
         "modifierData": [
           {
             "type": 7,
@@ -2666,10 +3117,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 1112,
+        "type": "SkillPositioning2",
         "modifierData": [
           {
             "type": 7,
@@ -2678,10 +3134,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 1113,
+        "type": "SkillPositioning3",
         "modifierData": [
           {
             "type": 7,
@@ -2690,7 +3151,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2743,6 +3208,7 @@
     "levels": [
       {
         "bacteriaType": 913,
+        "type": "SkillDiplomacy1",
         "modifierData": [
           {
             "type": 45,
@@ -2751,10 +3217,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 914,
+        "type": "SkillDiplomacy2",
         "modifierData": [
           {
             "type": 45,
@@ -2763,10 +3234,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 915,
+        "type": "SkillDiplomacy3",
         "modifierData": [
           {
             "type": 45,
@@ -2775,7 +3251,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2828,6 +3308,7 @@
     "levels": [
       {
         "bacteriaType": 1108,
+        "type": "SkillEssenceBurst1",
         "modifierData": [
           {
             "type": 28,
@@ -2860,10 +3341,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 1,
+          "duration": 1
+        }
       },
       {
         "bacteriaType": 1109,
+        "type": "SkillEssenceBurst2",
         "modifierData": [
           {
             "type": 28,
@@ -2896,10 +3382,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 1,
+          "duration": 1
+        }
       },
       {
         "bacteriaType": 1110,
+        "type": "SkillEssenceBurst3",
         "modifierData": [
           {
             "type": 28,
@@ -2932,7 +3423,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 1,
+          "duration": 1
+        }
       }
     ]
   },
@@ -2985,13 +3480,57 @@
     "levels": [
       {
         "bacteriaType": 1147,
+        "type": "SkillPowerShielded1",
         "modifierData": [],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "settings": {
+          "bacterias": [
+            {
+              "bacteriaType": 898,
+              "type": "SkillShields1",
+              "modifierData": [
+                {
+                  "type": 7,
+                  "modifier": "TroopRangedAttackResistance",
+                  "amountToAdd": 50,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": []
+            }
+          ]
+        },
+        "duration": {
+          "type": 3,
+          "duration": 1
+        }
       },
       {
         "bacteriaType": 1148,
+        "type": "SkillPowerShielded2",
         "modifierData": [],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "settings": {
+          "bacterias": [
+            {
+              "bacteriaType": 899,
+              "type": "SkillShields2",
+              "modifierData": [
+                {
+                  "type": 7,
+                  "modifier": "TroopRangedAttackResistance",
+                  "amountToAdd": 50,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": []
+            }
+          ]
+        },
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       }
     ]
   },
@@ -3044,6 +3583,7 @@
     "levels": [
       {
         "bacteriaType": 1122,
+        "type": "SkillTutor1",
         "modifierData": [
           {
             "type": 46,
@@ -3052,10 +3592,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 1123,
+        "type": "SkillTutor2",
         "modifierData": [
           {
             "type": 46,
@@ -3064,10 +3609,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 1124,
+        "type": "SkillTutor3",
         "modifierData": [
           {
             "type": 46,
@@ -3076,7 +3626,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -3129,6 +3683,7 @@
     "levels": [
       {
         "bacteriaType": 1120,
+        "type": "SkillAttuned1",
         "modifierData": [
           {
             "type": 28,
@@ -3161,10 +3716,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 2
+        }
       },
       {
         "bacteriaType": 1121,
+        "type": "SkillAttuned2",
         "modifierData": [
           {
             "type": 28,
@@ -3197,7 +3757,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 3
+        }
       }
     ]
   },
@@ -3250,6 +3814,7 @@
     "levels": [
       {
         "bacteriaType": 1139,
+        "type": "SkillEssenceLeech1",
         "modifierData": [
           {
             "type": 48,
@@ -3258,10 +3823,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 1140,
+        "type": "SkillEssenceLeech2",
         "modifierData": [
           {
             "type": 48,
@@ -3270,10 +3840,15 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       },
       {
         "bacteriaType": 1141,
+        "type": "SkillEssenceLeech3",
         "modifierData": [
           {
             "type": 48,
@@ -3282,7 +3857,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   }

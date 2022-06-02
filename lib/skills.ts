@@ -2,7 +2,7 @@ import skillsCollection from "./collections/skills.json";
 
 import { getTerm } from "./terms";
 import { SpriteDTO } from "./sprites";
-import { RESOURCE_TYPES } from "./bacterias";
+import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 
 export const getSkills = (locale: string) => {
   const skills = skillsCollection.map<SkillSimpleDTO>((skill) => ({
@@ -26,31 +26,12 @@ export const getSkill = (type: string, locale: string) => {
     lore: getTerm(`Skills/${skillSrc.type}/Lore`, locale),
     icon: skillSrc.icon,
     levels: skillSrc.levels.map((level, index) => ({
-      name: getTerm(`Common/Level`, locale, index + 1),
-      description: getTerm(
+      levelName: getTerm(`Common/Level`, locale, index + 1),
+      levelDescription: getTerm(
         `Skills/${skillSrc.type}/Level${index + 1}/Description`,
         locale
       ),
-      bacteriaType: level.bacteriaType,
-      modifierData: level.modifierData.map((modifier) => ({
-        type: modifier.type,
-        description: getTerm(
-          `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
-          locale,
-          modifier.amountToAdd,
-          modifier.applicationType ||
-            Number(modifier.modifier === "CommanderTutorPercent")
-        ),
-      })),
-      resourcesIncome: level.resourcesIncome.map((resourceIncome) => ({
-        type: resourceIncome.type,
-        name: getTerm(
-          `Common/Resource/${RESOURCE_TYPES[resourceIncome.type]}`,
-          locale
-        ),
-        amount: resourceIncome.amount,
-        allTimeAmount: resourceIncome.allTimeAmount,
-      })),
+      ...getLocaleBacteria(level, locale),
     })),
   };
   return skill;
@@ -68,18 +49,8 @@ export type SkillDTO = {
   name: string;
   lore: string;
   icon: SpriteDTO;
-  levels: {
-    name: string;
-    description: string;
-    modifierData: {
-      type: number;
-      description: string;
-    }[];
-    resourcesIncome: {
-      type: number;
-      name: string;
-      amount: number;
-      allTimeAmount: number;
-    }[];
-  }[];
+  levels: ({
+    levelName: string;
+    levelDescription: string;
+  } & BacteriaDTO)[];
 };
