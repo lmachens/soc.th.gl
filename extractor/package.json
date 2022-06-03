@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "scripts": {
+    "cache": "node cache.mjs",
+    "seed": "node seed.mjs",
+    "convert": "node convert.mjs",
+    "start": "npm run cache && npm run seed && npm run convert"
+  },
+  "dependencies": {
+    "camelcase-keys": "^7.0.2",
+    "klaw": "^4.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/klaw": "^3.0.3"
+  }
+}
