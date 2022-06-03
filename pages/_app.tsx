@@ -2,9 +2,15 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import { Global, MantineProvider } from "@mantine/core";
 import AppLayout from "../components/AppLayout/AppLayout";
+import { useEffect } from "react";
+import { initPlausible } from "../lib/stats";
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
+
+  useEffect(() => {
+    initPlausible();
+  }, []);
 
   return (
     <>
