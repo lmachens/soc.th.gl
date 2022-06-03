@@ -19,6 +19,7 @@
     "@mantine/spotlight": "^4.2.5",
     "@primer/octicons-react": "^17.2.0",
     "next": "^12.1.7-canary.6",
+    "plausible-tracker": "^0.3.5",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "sharp": "^0.30.4"
