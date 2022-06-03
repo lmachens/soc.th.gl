@@ -1,0 +1,5 @@
+SongsOfConquest
+node_modules
+cache.json
+out/*
+!.gitkeep

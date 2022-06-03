@@ -36,6 +36,10 @@ You can start editing the page by modifying `pages/index.tsx`. The page auto-upd
 The collection files in `lib/collections` are extracted from the game data. This is done by a different project, which is not part of the repository.
 If you require more information, please add an [issue](https://github.com/lmachens/soc.gg/issues).
 
+## Game data extractor
+
+This project is based on the game data of Songs of Conquest. See [extractor/README.md](extractor/README.md) for more information.
+
 ## License
 
 MIT

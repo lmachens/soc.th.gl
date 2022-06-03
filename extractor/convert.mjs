@@ -1,0 +1,208 @@
+import { copyImageFile, readJSONFile, writeJSONFile } from "./lib/out.mjs";
+
+const bacteriasSrc = await readJSONFile("./out/bacteria.json");
+const skillsSrc = await readJSONFile("./out/skill.json");
+const factionsSrc = await readJSONFile("./out/faction.json");
+const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
+const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
+
+const factions = factionsSrc.map((factionSrc) => ({
+  type: factionSrc.type,
+  languageKey: factionSrc.languageKey,
+  bannerSprite: factionSrc.bannerSprite,
+  symbolSprite: factionSrc.symbolSprite,
+  wielderFrames: factionSrc.wielderFrames,
+  commanders: factionSrc.commanders
+    .filter((commander) => commander.type && commander.usageType === 0)
+    .map((commander) => ({
+      type: commander.type,
+      portrait: {
+        name: commander.portrait.name,
+        spriteSheet: commander.portrait.spriteSheet,
+        x: commander.portrait.x,
+        y: commander.portrait.y,
+        width: commander.portrait.width,
+        height: commander.portrait.height,
+      },
+    })),
+  units: factionSrc.units.map((unit) => ({
+    vanilla: {
+      languageKey: unit.vanilla.languageKey,
+      sprite: unit.vanilla.visuals?.prefab.sprite,
+      adventureSprite: unit.vanilla.visuals?.adventurePrefab.sprite,
+    },
+    upgraded: unit.upgraded.languageKey
+      ? {
+          languageKey: unit.upgraded.languageKey,
+          sprite: unit.upgraded.visuals?.adventurePrefab.sprite,
+        }
+      : null,
+    superUpgraded: unit.superUpgraded.languageKey
+      ? {
+          languageKey: unit.superUpgraded.languageKey,
+          sprite: unit.superUpgraded.visuals?.adventurePrefab.sprite,
+        }
+      : null,
+  })),
+}));
+
+await writeJSONFile(factions, "../../lib/collections/factions");
+
+for (const faction of factions) {
+  for (const wielderFrame of faction.wielderFrames) {
+    await copyImageFile(wielderFrame.spriteSheet, "../public/factions");
+  }
+}
+
+const getBacteria = ({ bacteriaType }) => {
+  const bacteria = bacteriasSrc.find(
+    (bacteriaSrc) => bacteriaSrc.id === bacteriaType
+  );
+
+  const result = {
+    bacteriaType: bacteria.id,
+    type: bacteria.type,
+    modifierData:
+      bacteria.modifierData?.map((modifier) => ({
+        type: modifier.type,
+        modifier: modifier.modifier,
+        amountToAdd: modifier.amountToAdd,
+        applicationType: modifier.applicationType,
+      })) || [],
+    resourcesIncome:
+      bacteria.income?.resources.map((resource) => ({
+        type: resource.type,
+        amount: resource.amount,
+        allTimeAmount: resource.allTimeAmount,
+      })) || [],
+  };
+  if (bacteria.settings?.bacterias) {
+    result.settings = {
+      bacterias: bacteria.settings.bacterias.map(getBacteria),
+    };
+  }
+  return result;
+};
+const UNIT_TYPES = ["vanilla", "upgraded", "superUpgraded"];
+const getUnit = ({ factionIndex, unitIndex, upgradeType }) => {
+  const unitType = UNIT_TYPES[upgradeType];
+  return factions[factionIndex].units[unitIndex][unitType];
+};
+const wielders = factionsSrc
+  .map((factionSrc) =>
+    factionSrc.commanders
+      .filter((commander) => commander.type && commander.usageType === 0)
+      .map((commander) => ({
+        type: commander.type,
+        faction: factionSrc.languageKey,
+        portrait: {
+          name: commander.portrait.name,
+          spriteSheet: commander.portrait.spriteSheet,
+          x: commander.portrait.x,
+          y: commander.portrait.y,
+          width: commander.portrait.width,
+          height: commander.portrait.height,
+        },
+        stats: {
+          defense: commander.stats.defense,
+          offense: commander.stats.offense,
+          movement: commander.stats.movement,
+          viewRadius: commander.stats.viewRadius,
+          command: commander.stats.command,
+        },
+        skillPool: {
+          id: commander.skillPool,
+          pools: skillPoolsSrc
+            .find((skillPoolSrc) => skillPoolSrc.id === commander.skillPool)
+            .pools.map((pool) => ({
+              ...pool,
+              skills: pool.skills.map((skill) => ({
+                ...skill,
+                type: skillsSrc.find((skillSrc) => skillSrc.id === skill.skill)
+                  .type,
+                requiredSkills: skill.requiredSkills.map((requiredSkill) => ({
+                  ...requiredSkill,
+                  type: skillsSrc.find(
+                    (skillSrc) => skillSrc.id === requiredSkill.skill
+                  ).type,
+                })),
+              })),
+            })),
+        },
+        skills: commander.skills.map((skill) => ({
+          id: skill.skill,
+          type: skillsSrc.find((skillSrc) => skillSrc.id === skill.skill).type,
+          level: skill.level,
+        })),
+        units: commander.units.map((unit) => ({
+          languageKey: getUnit(unit).languageKey,
+          size: unit.size,
+        })),
+        specializations: commander.specializations.map(getBacteria),
+      }))
+  )
+  .flat();
+
+await writeJSONFile(wielders, "../../lib/collections/wielders");
+
+for (const wielder of wielders) {
+  await copyImageFile(wielder.portrait.spriteSheet, "../public/wielders");
+}
+
+const getTroopAbility = (id) => {
+  const ability = troopAbilitiesSrc.find((ability) => ability.id === id);
+  if (ability.type === "None") {
+    return null;
+  }
+  return {
+    type: ability.type,
+    icon: ability.icon,
+    bacterias: ability.bacterias.map(getBacteria),
+  };
+};
+
+const getUnitType = (type) => ({
+  languageKey: type.languageKey,
+  sprite: type.visuals.prefab.sprite,
+  purchaseCost: type.purchaseCost,
+  obsoleteGoldCost: type.obsoleteGoldCost,
+  stats: type.stats,
+  troopAbility: getTroopAbility(type.troopAbility),
+  bacterias: type.bacterias.map(getBacteria),
+});
+const units = factionsSrc
+  .map((factionSrc) =>
+    factionSrc.units.map((unit) => ({
+      faction: factionSrc.languageKey,
+      vanilla: getUnitType(unit.vanilla),
+      upgraded: unit.upgraded.languageKey ? getUnitType(unit.upgraded) : null,
+      superUpgraded: unit.superUpgraded.languageKey
+        ? getUnitType(unit.superUpgraded)
+        : null,
+    }))
+  )
+  .flat();
+
+await writeJSONFile(units, "../../lib/collections/units");
+
+const skills = skillsSrc.map((skillSrc) => ({
+  type: skillSrc.type,
+  icon: skillSrc.icon,
+  levels: skillSrc.levels.map((level) => {
+    const levelBacteria = level.bacterias[0];
+    return {
+      ...getBacteria({ bacteriaType: levelBacteria.type }),
+      duration: levelBacteria.duration,
+    };
+  }),
+}));
+
+await writeJSONFile(skills, "../../lib/collections/skills");
+
+const skillPools = skillPoolsSrc.map((skillPool) => ({
+  id: skillPool.id,
+  type: skillPool.type,
+  pools: skillPool.pools,
+}));
+
+await writeJSONFile(skillPools, "../../lib/collections/skillPools");
