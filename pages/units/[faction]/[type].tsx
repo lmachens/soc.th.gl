@@ -6,6 +6,7 @@ import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { getUnit, getUnits, UnitDTO, UnitTypeDTO } from "../../../lib/units";
 import Head from "next/head";
 import { getTerm, TermsDTO } from "../../../lib/terms";
+import { BacteriaDTO } from "../../../lib/bacterias";
 
 const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
   unit,
@@ -69,12 +70,7 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
           {unitType.bacterias.map((bacteria) => (
             <tr key={bacteria.bacteriaType}>
               <td>{bacteria.name}</td>
-              <td>
-                {bacteria.description ||
-                  bacteria.modifierData
-                    .map((modifier) => modifier.description)
-                    .join(", ")}
-              </td>
+              <td dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)} />
             </tr>
           ))}
         </tbody>
@@ -133,6 +129,16 @@ export const getStaticProps = withStaticBase(async (context) => {
     revalidate: false,
   };
 });
+
+const sanitizeBacteriaData = (bacteria: BacteriaDTO) => {
+  if (bacteria.description === "") {
+    return { __html: bacteria.modifierData
+      .map((modifier) => modifier.description)
+      .join(", ")
+  }}
+
+  return { __html: bacteria.description }
+}
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const units = getUnits("en").map((unit) => ({
