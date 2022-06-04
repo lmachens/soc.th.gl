@@ -7,6 +7,7 @@ import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import Head from "next/head";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
+import { Fragment } from "react";
 
 const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
   wielder,
@@ -79,21 +80,6 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
             </Text>
           </PopoverLink>
         ))}
-        <Title order={3}>{terms.skills}</Title>
-        {wielder.skills.map((skill) => (
-          <PopoverLink
-            key={`${wielder.name}-${skill.type}`}
-            href={`/skills/${skill.type}`}
-            popover={
-              <Stack>
-                <Title order={4}>{skill.name}</Title>
-                <Text size="sm">{skill.lore}</Text>
-              </Stack>
-            }
-          >
-            <Text>{skill.name}</Text>
-          </PopoverLink>
-        ))}
         <Title order={3}>{terms.specializations}</Title>
         {wielder.specializations.map((specialization) => (
           <Text key={`${wielder.name}-${specialization.bacteriaType}`}>
@@ -110,6 +96,43 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
               </Text>
             ))}
           </Text>
+        ))}
+        <Title order={3}>{terms.skills}</Title>
+        {wielder.skills.map((skill) => (
+          <PopoverLink
+            key={`${wielder.name}-${skill.type}`}
+            href={`/skills/${skill.type}`}
+            popover={
+              <Stack>
+                <Title order={4}>{skill.name}</Title>
+                <Text size="sm">{skill.lore}</Text>
+              </Stack>
+            }
+          >
+            <Text>{skill.name}</Text>
+          </PopoverLink>
+        ))}
+        {wielder.skillPools.map((skillPool) => (
+          <Fragment key={skillPool.name}>
+            <Title order={4}>
+              {terms.level} {skillPool.levelRange.min} -{" "}
+              {skillPool.levelRange.max}
+            </Title>
+            {skillPool.skills.map((skill) => (
+              <PopoverLink
+                key={`${wielder.name}-${skill.type}`}
+                href={`/skills/${skill.type}`}
+                popover={
+                  <Stack>
+                    <Title order={4}>{skill.name}</Title>
+                    <Text size="sm">{skill.lore}</Text>
+                  </Stack>
+                }
+              >
+                <Text>{skill.name}</Text>
+              </PopoverLink>
+            ))}
+          </Fragment>
         ))}
       </Stack>
     </>
@@ -142,6 +165,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     skills: getTerm("Tutorial/CodexCategory/Skills", locale),
     specializations: getTerm("Commanders/Tooltip/Specializations", locale),
     production: getTerm("Common/Details/GeneratesResources", locale),
+    level: getTerm("Common/Stats/Level/Header", locale),
   };
 
   return {
