@@ -7,15 +7,14 @@ import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import Head from "next/head";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
-import { Fragment } from "react";
 
 const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
   wielder,
   terms,
 }) => {
   const level = wielder.skills
-    ? wielder.skills.find((skill) => skill.id === wielder.stats.command)
-        ?.level || wielder.skills.at(-1)?.level
+    ? wielder.skills.find((skill) => skill.type === "Command")?.level ||
+      wielder.skills.at(-1)?.level
     : 0;
 
   return (
@@ -98,42 +97,58 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
           </Text>
         ))}
         <Title order={3}>{terms.skills}</Title>
-        {wielder.skills.map((skill) => (
-          <PopoverLink
-            key={`${wielder.name}-${skill.type}`}
-            href={`/skills/${skill.type}`}
-            popover={
-              <Stack>
-                <Title order={4}>{skill.name}</Title>
-                <Text size="sm">{skill.lore}</Text>
-              </Stack>
-            }
-          >
-            <Text>{skill.name}</Text>
-          </PopoverLink>
-        ))}
-        {wielder.skillPools.map((skillPool) => (
-          <Fragment key={skillPool.name}>
-            <Title order={4}>
-              {terms.level} {skillPool.levelRange.min} -{" "}
-              {skillPool.levelRange.max}
-            </Title>
-            {skillPool.skills.map((skill) => (
-              <PopoverLink
-                key={`${wielder.name}-${skill.type}`}
-                href={`/skills/${skill.type}`}
-                popover={
-                  <Stack>
-                    <Title order={4}>{skill.name}</Title>
-                    <Text size="sm">{skill.lore}</Text>
-                  </Stack>
-                }
-              >
-                <Text>{skill.name}</Text>
-              </PopoverLink>
+        <Table striped>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Required Skills</th>
+              <th>Minimum Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            {wielder.skills.map((skill) => (
+              <tr key={`${wielder.name}-${skill.type}`}>
+                <td>
+                  <PopoverLink
+                    href={`/skills/${skill.type}`}
+                    popover={
+                      <Stack>
+                        <Title order={4}>{skill.name}</Title>
+                        <Text size="sm">{skill.lore}</Text>
+                      </Stack>
+                    }
+                  >
+                    {skill.name}
+                    {skill.level && (
+                      <Text>
+                        {terms.level} {skill.level}
+                      </Text>
+                    )}
+                  </PopoverLink>
+                </td>
+                <td>
+                  {skill.requiredSkills?.map((requiredSkill) => (
+                    <PopoverLink
+                      key={requiredSkill.type}
+                      href={`/skills/${requiredSkill.type}`}
+                      popover={
+                        <Stack>
+                          <Title order={4}>{requiredSkill.name}</Title>
+                          <Text size="sm">{requiredSkill.lore}</Text>
+                        </Stack>
+                      }
+                    >
+                      <Text component="span" mr="sm">
+                        {requiredSkill.name}
+                      </Text>
+                    </PopoverLink>
+                  ))}
+                </td>
+                <td>{skill.levelRange?.min || 1}</td>
+              </tr>
             ))}
-          </Fragment>
-        ))}
+          </tbody>
+        </Table>
       </Stack>
     </>
   );
