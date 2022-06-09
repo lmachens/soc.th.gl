@@ -1,0 +1,6859 @@
+[
+  {
+    "id": 27,
+    "type": "AllSeeingEye",
+    "icon": {
+      "name": "AllSeeingEyeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 205,
+      "y": 259,
+      "width": 28,
+      "height": 28,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -14
+          },
+          {
+            "x": -14,
+            "y": 14
+          },
+          {
+            "x": 14,
+            "y": 14
+          },
+          {
+            "x": 14,
+            "y": -14
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 490,
+        "type": "AllSeeingEyeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "type": "AncientSteampipe",
+    "icon": {
+      "name": "AncientSteampipeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 311,
+      "y": 227,
+      "width": 31,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -15
+          },
+          {
+            "x": -15.5,
+            "y": 15
+          },
+          {
+            "x": 15.5,
+            "y": 15
+          },
+          {
+            "x": 15.5,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 492,
+        "type": "AncientSteampipeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "type": "BucklerShield",
+    "icon": {
+      "name": "BucklerShieldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 33,
+      "y": 260,
+      "width": 31,
+      "height": 27,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -13.5
+          },
+          {
+            "x": -15.5,
+            "y": 13.5
+          },
+          {
+            "x": 15.5,
+            "y": 13.5
+          },
+          {
+            "x": 15.5,
+            "y": -13.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 496,
+        "type": "BucklerShieldArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 7,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "type": "DragonscaleCrown",
+    "icon": {
+      "name": "DragonscaleCrownDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 239,
+      "y": 288,
+      "width": 31,
+      "height": 26,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -13
+          },
+          {
+            "x": -15.5,
+            "y": 13
+          },
+          {
+            "x": 15.5,
+            "y": 13
+          },
+          {
+            "x": 15.5,
+            "y": -13
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 497,
+        "type": "DragonscaleCrownArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "type": "OpenFacedBacinett",
+    "icon": {
+      "name": "OpenFacedBacinettDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 184,
+      "y": 93,
+      "width": 28,
+      "height": 34,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -17
+          },
+          {
+            "x": -14,
+            "y": 17
+          },
+          {
+            "x": 14,
+            "y": 17
+          },
+          {
+            "x": 14,
+            "y": -17
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 498,
+        "type": "OpenFacedBacinettArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "type": "PetrifiedDragonEgg",
+    "icon": {
+      "name": "PetrifiedDragonEggDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 115,
+      "y": 228,
+      "width": 27,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -14.5
+          },
+          {
+            "x": -13.5,
+            "y": 14.5
+          },
+          {
+            "x": 13.5,
+            "y": 14.5
+          },
+          {
+            "x": 13.5,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 499,
+        "type": "PetrifiedDragonEggArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 13,
+            "modifier": "TroopHealth",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "type": "SassanidVelvetShoes",
+    "icon": {
+      "name": "SassanidVelvetShoesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 157,
+      "y": 260,
+      "width": 30,
+      "height": 27,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -13.5
+          },
+          {
+            "x": -15,
+            "y": 13.5
+          },
+          {
+            "x": 15,
+            "y": 13.5
+          },
+          {
+            "x": 15,
+            "y": -13.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 500,
+        "type": "SassanidVelvetShoesArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "type": "TalismanOfArcana",
+    "icon": {
+      "name": "TalismanOfArcanaDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 47,
+      "y": 163,
+      "width": 26,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -12.999999,
+            "y": -15.5
+          },
+          {
+            "x": -12.999999,
+            "y": 15.5
+          },
+          {
+            "x": 13.000001,
+            "y": 15.5
+          },
+          {
+            "x": 13.000001,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 501,
+        "type": "TalismanOfArcanaArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "type": "TalismanOfChaos",
+    "icon": {
+      "name": "TalismanOfChaosDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 74,
+      "y": 163,
+      "width": 27,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -15.5
+          },
+          {
+            "x": -13.5,
+            "y": 15.5
+          },
+          {
+            "x": 13.5,
+            "y": 15.5
+          },
+          {
+            "x": 13.5,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 502,
+        "type": "TalismanOfChaosArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "type": "TheBonesOfCornelius",
+    "icon": {
+      "name": "TheBonesOfCorneliusDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 131,
+      "y": 289,
+      "width": 31,
+      "height": 25,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -12.5
+          },
+          {
+            "x": -15.5,
+            "y": 12.5
+          },
+          {
+            "x": 15.5,
+            "y": 12.5
+          },
+          {
+            "x": 15.5,
+            "y": -12.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 503,
+        "type": "TheBonesOfCorneliusArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 40,
+            "applicationType": 0
+          },
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "type": "BreastplateoftheSun",
+    "icon": {
+      "name": "BreastplateOfTheSunDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 205,
+      "y": 162,
+      "width": 27,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -16
+          },
+          {
+            "x": -13.5,
+            "y": 16
+          },
+          {
+            "x": 13.5,
+            "y": 16
+          },
+          {
+            "x": 13.5,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 504,
+        "type": "BreastplateoftheSunArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 12,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "type": "SpikedGauntlet",
+    "icon": {
+      "name": "SpikedGauntletDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 105,
+      "y": 129,
+      "width": 29,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -14.500001,
+            "y": -16
+          },
+          {
+            "x": -14.500001,
+            "y": 16
+          },
+          {
+            "x": 14.499999,
+            "y": 16
+          },
+          {
+            "x": 14.499999,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 505,
+        "type": "SpikedGauntletArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "type": "Dagger",
+    "icon": {
+      "name": "DaggerDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 188,
+      "y": 320,
+      "width": 34,
+      "height": 20,
+      "outline": [
+        [
+          {
+            "x": -17,
+            "y": -10
+          },
+          {
+            "x": -17,
+            "y": 10
+          },
+          {
+            "x": 17,
+            "y": 10
+          },
+          {
+            "x": 17,
+            "y": -10
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 506,
+        "type": "DaggerArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "type": "BoneScimitar",
+    "icon": {
+      "name": "BoneScimitarDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 324,
+      "y": 92,
+      "width": 29,
+      "height": 35,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -17.5
+          },
+          {
+            "x": -14.5,
+            "y": 17.5
+          },
+          {
+            "x": 14.5,
+            "y": 17.5
+          },
+          {
+            "x": 14.5,
+            "y": -17.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 507,
+        "type": "BoneScimitarArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "type": "AncientFalchion",
+    "icon": {
+      "name": "AncientFalchionDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 33,
+      "y": 93,
+      "width": 32,
+      "height": 34,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -17
+          },
+          {
+            "x": -16,
+            "y": 17
+          },
+          {
+            "x": 16,
+            "y": 17
+          },
+          {
+            "x": 16,
+            "y": -17
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 508,
+        "type": "AncientFalchionArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "type": "HandgunPrototype",
+    "icon": {
+      "name": "HandgunPrototypeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 47,
+      "y": 325,
+      "width": 36,
+      "height": 15,
+      "outline": [
+        [
+          {
+            "x": -18,
+            "y": -7.5
+          },
+          {
+            "x": -18,
+            "y": 7.5
+          },
+          {
+            "x": 18,
+            "y": 7.5
+          },
+          {
+            "x": 18,
+            "y": -7.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 509,
+        "type": "HandgunPrototypeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "type": "GreatAxe",
+    "icon": {
+      "name": "GreatAxeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 64,
+      "y": 14,
+      "width": 27,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -13.499999,
+            "y": -19
+          },
+          {
+            "x": -13.499999,
+            "y": 19
+          },
+          {
+            "x": 13.500001,
+            "y": 19
+          },
+          {
+            "x": 13.500001,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 510,
+        "type": "GreatAxeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 11,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "type": "BoarSpear",
+    "icon": {
+      "name": "BoarSpearDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 386,
+      "y": 53,
+      "width": 37,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -18.5,
+            "y": -19
+          },
+          {
+            "x": -18.5,
+            "y": 19
+          },
+          {
+            "x": 18.5,
+            "y": 19
+          },
+          {
+            "x": 18.5,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 511,
+        "type": "BoarSpearArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 9,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "type": "SwampSpear",
+    "icon": {
+      "name": "SwampSpearDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 147,
+      "y": 14,
+      "width": 32,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -19
+          },
+          {
+            "x": -16,
+            "y": 19
+          },
+          {
+            "x": 16,
+            "y": 19
+          },
+          {
+            "x": 16,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 512,
+        "type": "SwampSpearArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "type": "TwoHandedSword",
+    "icon": {
+      "name": "TwoHandedSwordDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 453,
+      "y": 4,
+      "width": 26,
+      "height": 48,
+      "outline": [
+        [
+          {
+            "x": -12.999999,
+            "y": -24
+          },
+          {
+            "x": -12.999999,
+            "y": 24
+          },
+          {
+            "x": 13.000001,
+            "y": 24
+          },
+          {
+            "x": 13.000001,
+            "y": -24
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 513,
+        "type": "TwoHandedSwordArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "type": "StaffOfTheMagus",
+    "icon": {
+      "name": "StaffOfTheMagusDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 135,
+      "y": 129,
+      "width": 32,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -16
+          },
+          {
+            "x": -16,
+            "y": 16
+          },
+          {
+            "x": 16,
+            "y": 16
+          },
+          {
+            "x": 16,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 514,
+        "type": "StaffOfTheMagusArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 50,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "type": "ArchersGambeson",
+    "icon": {
+      "name": "ArchersGambesonDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 327,
+      "y": 53,
+      "width": 32,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -19
+          },
+          {
+            "x": -16,
+            "y": 19
+          },
+          {
+            "x": 16,
+            "y": 19
+          },
+          {
+            "x": 16,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 515,
+        "type": "ArchersGambesonArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "type": "ChainmailHauberk",
+    "icon": {
+      "name": "ChainmailHauberkDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 455,
+      "y": 53,
+      "width": 27,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -19
+          },
+          {
+            "x": -13.5,
+            "y": 19
+          },
+          {
+            "x": 13.5,
+            "y": 19
+          },
+          {
+            "x": 13.5,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 516,
+        "type": "ChainmailHauberkArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 7,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "type": "CelestialBreastplate",
+    "icon": {
+      "name": "CelestialBreastplateDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 266,
+      "y": 162,
+      "width": 29,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -14.500001,
+            "y": -16
+          },
+          {
+            "x": -14.500001,
+            "y": 16
+          },
+          {
+            "x": 14.499999,
+            "y": 16
+          },
+          {
+            "x": 14.499999,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 517,
+        "type": "CelestialBreastplateArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 14,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "type": "CowlofEndlessEssence",
+    "icon": {
+      "name": "CowlOfEndlessEssenceDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 231,
+      "y": 195,
+      "width": 30,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -15.5
+          },
+          {
+            "x": -15,
+            "y": 15.5
+          },
+          {
+            "x": 15,
+            "y": 15.5
+          },
+          {
+            "x": 15,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 518,
+        "type": "CowlofEndlessEssenceArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 30,
+            "modifier": "CommanderEssenceChaos",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "type": "WornBoots",
+    "icon": {
+      "name": "WornBootsLayer 11",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 180,
+      "y": 289,
+      "width": 28,
+      "height": 25,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -12.5
+          },
+          {
+            "x": -14,
+            "y": 12.5
+          },
+          {
+            "x": 14,
+            "y": 12.5
+          },
+          {
+            "x": 14,
+            "y": -12.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 519,
+        "type": "WornBootsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "type": "RidingBoots",
+    "icon": {
+      "name": "RidingBootsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 0,
+      "y": 163,
+      "width": 22,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -11,
+            "y": -15.5
+          },
+          {
+            "x": -11,
+            "y": 15.5
+          },
+          {
+            "x": 11,
+            "y": 15.5
+          },
+          {
+            "x": 11,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 520,
+        "type": "RidingBootsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "type": "MasterlyCraftedBoots",
+    "icon": {
+      "name": "MasterlyCraftedBootsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 481,
+      "y": 162,
+      "width": 31,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -16
+          },
+          {
+            "x": -15.5,
+            "y": 16
+          },
+          {
+            "x": 15.5,
+            "y": 16
+          },
+          {
+            "x": 15.5,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 521,
+        "type": "MasterlyCraftedBootsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "type": "BootsOfTheWhisperingLeafs",
+    "icon": {
+      "name": "BootsOfTheWhisperingLeavesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 71,
+      "y": 55,
+      "width": 32,
+      "height": 36,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -18
+          },
+          {
+            "x": -16,
+            "y": 18
+          },
+          {
+            "x": 16,
+            "y": 18
+          },
+          {
+            "x": 16,
+            "y": -18
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 522,
+        "type": "BootsOfTheWhisperingLeafsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "type": "WornGloves",
+    "icon": {
+      "name": "WornLeatherGlovesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 223,
+      "y": 320,
+      "width": 29,
+      "height": 20,
+      "outline": [
+        [
+          {
+            "x": -14.500001,
+            "y": -10
+          },
+          {
+            "x": -14.500001,
+            "y": 10
+          },
+          {
+            "x": 14.499999,
+            "y": 10
+          },
+          {
+            "x": 14.499999,
+            "y": -10
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 523,
+        "type": "WornGlovesArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "type": "Glimmergloves",
+    "icon": {
+      "name": "GlimmerglovesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 234,
+      "y": 259,
+      "width": 30,
+      "height": 28,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -14
+          },
+          {
+            "x": -15,
+            "y": 14
+          },
+          {
+            "x": 15,
+            "y": 14
+          },
+          {
+            "x": 15,
+            "y": -14
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 525,
+        "type": "GlimmerglovesArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 25,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "type": "CelestialGauntlets",
+    "icon": {
+      "name": "CelestialGauntletsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 380,
+      "y": 227,
+      "width": 30,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -15
+          },
+          {
+            "x": -15,
+            "y": 15
+          },
+          {
+            "x": 15,
+            "y": 15
+          },
+          {
+            "x": 15,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 526,
+        "type": "CelestialGauntletsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "type": "GlovesOfTheWildHunt",
+    "icon": {
+      "name": "GlovesOfTheWildHuntDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 284,
+      "y": 319,
+      "width": 30,
+      "height": 21,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -10.5
+          },
+          {
+            "x": -15,
+            "y": 10.5
+          },
+          {
+            "x": 15,
+            "y": 10.5
+          },
+          {
+            "x": 15,
+            "y": -10.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 524,
+        "type": "GlovesOfTheWildHuntArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "type": "Gauntlets",
+    "icon": {
+      "name": "GauntletsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 27,
+      "y": 228,
+      "width": 31,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -14.5
+          },
+          {
+            "x": -15.5,
+            "y": 14.5
+          },
+          {
+            "x": 15.5,
+            "y": 14.5
+          },
+          {
+            "x": 15.5,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 527,
+        "type": "GauntletsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 4,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "type": "HelmetOfTheVanir",
+    "icon": {
+      "name": "HelmetOfTheVanirDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 350,
+      "y": 195,
+      "width": 25,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -12.5,
+            "y": -15.5
+          },
+          {
+            "x": -12.5,
+            "y": 15.5
+          },
+          {
+            "x": 12.5,
+            "y": 15.5
+          },
+          {
+            "x": 12.5,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 528,
+        "type": "HelmetOfTheVanirArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "type": "VisoredBarbuta",
+    "icon": {
+      "name": "VisoredBarbutaDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 241,
+      "y": 93,
+      "width": 25,
+      "height": 34,
+      "outline": [
+        [
+          {
+            "x": -12.5,
+            "y": -17
+          },
+          {
+            "x": -12.5,
+            "y": 17
+          },
+          {
+            "x": 12.5,
+            "y": 17
+          },
+          {
+            "x": 12.5,
+            "y": -17
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 529,
+        "type": "VisoredBarbutaArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 12,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": -1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "type": "MaskOfWiesh",
+    "icon": {
+      "name": "MaskOfWieshDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 477,
+      "y": 227,
+      "width": 28,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -15
+          },
+          {
+            "x": -14,
+            "y": 15
+          },
+          {
+            "x": 14,
+            "y": 15
+          },
+          {
+            "x": 14,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 530,
+        "type": "MaskOfWieshArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 6,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 5,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "type": "VanirAxe",
+    "icon": {
+      "name": "VanirAxeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 41,
+      "y": 56,
+      "width": 29,
+      "height": 35,
+      "outline": [
+        [
+          {
+            "x": -14.500001,
+            "y": -17.5
+          },
+          {
+            "x": -14.500001,
+            "y": 17.5
+          },
+          {
+            "x": 14.499999,
+            "y": 17.5
+          },
+          {
+            "x": 14.499999,
+            "y": -17.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 531,
+        "type": "VanirAxeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "type": "BladeOfTheVanir",
+    "icon": {
+      "name": "BladeOfTheVanirDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 262,
+      "y": 13,
+      "width": 22,
+      "height": 39,
+      "outline": [
+        [
+          {
+            "x": -11,
+            "y": -19.5
+          },
+          {
+            "x": -11,
+            "y": 19.5
+          },
+          {
+            "x": 11,
+            "y": 19.5
+          },
+          {
+            "x": 11,
+            "y": -19.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 532,
+        "type": "BladeOfTheVanirArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "type": "Crossbow",
+    "icon": {
+      "name": "CrossbowDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 65,
+      "y": 260,
+      "width": 31,
+      "height": 27,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -13.5
+          },
+          {
+            "x": -15.5,
+            "y": 13.5
+          },
+          {
+            "x": 15.5,
+            "y": 13.5
+          },
+          {
+            "x": 15.5,
+            "y": -13.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 533,
+        "type": "CrossbowArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "type": "FaeyHornWarbow",
+    "icon": {
+      "name": "FaeyHornWarbowDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 318,
+      "y": 11,
+      "width": 31,
+      "height": 41,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -20.5
+          },
+          {
+            "x": -15.5,
+            "y": 20.5
+          },
+          {
+            "x": 15.5,
+            "y": 20.5
+          },
+          {
+            "x": 15.5,
+            "y": -20.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 534,
+        "type": "FaeyHornWarbowArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": 25,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "type": "EternalLightbringer",
+    "icon": {
+      "name": "EternalLightbringerDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 324,
+      "y": 162,
+      "width": 32,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -16
+          },
+          {
+            "x": -16,
+            "y": 16
+          },
+          {
+            "x": 16,
+            "y": 16
+          },
+          {
+            "x": 16,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 535,
+        "type": "EternalLightbringerArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "type": "Roundshield",
+    "icon": {
+      "name": "RoundShieldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 143,
+      "y": 228,
+      "width": 27,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -14.5
+          },
+          {
+            "x": -13.5,
+            "y": 14.5
+          },
+          {
+            "x": 13.5,
+            "y": 14.5
+          },
+          {
+            "x": 13.5,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 536,
+        "type": "RoundshieldArtifactArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "type": "KiteShield",
+    "icon": {
+      "name": "KiteShieldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 136,
+      "y": 55,
+      "width": 29,
+      "height": 36,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -18
+          },
+          {
+            "x": -14.5,
+            "y": 18
+          },
+          {
+            "x": 14.5,
+            "y": 18
+          },
+          {
+            "x": 14.5,
+            "y": -18
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 537,
+        "type": "KiteShieldArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 9,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "type": "HeaterShield",
+    "icon": {
+      "name": "HeaterShieldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 104,
+      "y": 55,
+      "width": 31,
+      "height": 36,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -18
+          },
+          {
+            "x": -15.5,
+            "y": 18
+          },
+          {
+            "x": 15.5,
+            "y": 18
+          },
+          {
+            "x": 15.5,
+            "y": -18
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 538,
+        "type": "HeaterShieldArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 12,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "type": "EthyllesBlessing",
+    "icon": {
+      "name": "EthyllesBlessingDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 411,
+      "y": 92,
+      "width": 31,
+      "height": 35,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -17.5
+          },
+          {
+            "x": -15.5,
+            "y": 17.5
+          },
+          {
+            "x": 15.5,
+            "y": 17.5
+          },
+          {
+            "x": 15.5,
+            "y": -17.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 539,
+        "type": "EthyllesBlessingArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 16,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "type": "TalismanOfDestruction",
+    "icon": {
+      "name": "TalismanOfDestructionDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 228,
+      "y": 228,
+      "width": 25,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -12.5,
+            "y": -14.5
+          },
+          {
+            "x": -12.5,
+            "y": 14.5
+          },
+          {
+            "x": 12.5,
+            "y": 14.5
+          },
+          {
+            "x": 12.5,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 540,
+        "type": "TalismanOfDestructionArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "type": "TalismanOfOrder",
+    "icon": {
+      "name": "TalismanOfOrderDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 348,
+      "y": 259,
+      "width": 28,
+      "height": 28,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -14
+          },
+          {
+            "x": -14,
+            "y": 14
+          },
+          {
+            "x": 14,
+            "y": 14
+          },
+          {
+            "x": 14,
+            "y": -14
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 541,
+        "type": "TalismanOfOrderArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 28,
+            "modifier": "CommanderEssenceOrder",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "type": "AureliasAshes",
+    "icon": {
+      "name": "AureliasAshesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 360,
+      "y": 53,
+      "width": 25,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -12.5,
+            "y": -19
+          },
+          {
+            "x": -12.5,
+            "y": 19
+          },
+          {
+            "x": 12.5,
+            "y": 19
+          },
+          {
+            "x": 12.5,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 542,
+        "type": "AureliasAshesArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "type": "TheMakersCompass",
+    "icon": {
+      "name": "TheMakersCompassDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 400,
+      "y": 128,
+      "width": 27,
+      "height": 33,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -16.5
+          },
+          {
+            "x": -13.5,
+            "y": 16.5
+          },
+          {
+            "x": 13.5,
+            "y": 16.5
+          },
+          {
+            "x": 13.5,
+            "y": -16.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 543,
+        "type": "TheMakersCompassArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 6,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "type": "ToolsOfTheMasterMason",
+    "icon": {
+      "name": "ToolsOfTheMasterMasonDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 254,
+      "y": 228,
+      "width": 28,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -14.5
+          },
+          {
+            "x": -14,
+            "y": 14.5
+          },
+          {
+            "x": 14,
+            "y": 14.5
+          },
+          {
+            "x": 14,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 545,
+        "type": "ToolsOfTheMasterMasonArtifactBacteria",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 2,
+            "amount": 2,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "type": "EnchantedBagOfAcorns",
+    "icon": {
+      "name": "EnchantedBagOfAcornsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 25,
+      "y": 289,
+      "width": 23,
+      "height": 25,
+      "outline": [
+        [
+          {
+            "x": -11.5,
+            "y": -12.5
+          },
+          {
+            "x": -11.5,
+            "y": 12.5
+          },
+          {
+            "x": 11.5,
+            "y": 12.5
+          },
+          {
+            "x": 11.5,
+            "y": -12.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 546,
+        "type": "EnchantedBagOfAcornsArtifactBacteria",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 1,
+            "amount": 2,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "type": "TheGoldenGoose",
+    "icon": {
+      "name": "TheGoldenGooseDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 443,
+      "y": 92,
+      "width": 23,
+      "height": 35,
+      "outline": [
+        [
+          {
+            "x": -11.499999,
+            "y": -17.5
+          },
+          {
+            "x": -11.499999,
+            "y": 17.5
+          },
+          {
+            "x": 11.500001,
+            "y": 17.5
+          },
+          {
+            "x": 11.500001,
+            "y": -17.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 547,
+        "type": "TheGoldenGooseArtifactBacteria",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 0,
+            "amount": 250,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "type": "GlimmerweaveSpinningWheel",
+    "icon": {
+      "name": "GlimmerweaveSpinningWheelDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 121,
+      "y": 93,
+      "width": 32,
+      "height": 34,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -17
+          },
+          {
+            "x": -16,
+            "y": 17
+          },
+          {
+            "x": 16,
+            "y": 17
+          },
+          {
+            "x": 16,
+            "y": -17
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 548,
+        "type": "GlimmerweaveSpinningWheelArtifactBacteria",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 4,
+            "amount": 1,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "type": "EverflowingBranchOfSap",
+    "icon": {
+      "name": "EverflowingBranchOfSapDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 33,
+      "y": 14,
+      "width": 30,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -19
+          },
+          {
+            "x": -15,
+            "y": 19
+          },
+          {
+            "x": 15,
+            "y": 19
+          },
+          {
+            "x": 15,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 549,
+        "type": "EverflowingBranchOfSapArtifactBacteria",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 3,
+            "amount": 1,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "type": "CelestialCompass",
+    "icon": {
+      "name": "CelestialCompassDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 170,
+      "y": 195,
+      "width": 32,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -15.5
+          },
+          {
+            "x": -16,
+            "y": 15.5
+          },
+          {
+            "x": 16,
+            "y": 15.5
+          },
+          {
+            "x": 16,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 550,
+        "type": "CelestialCompassArtifactBacteria",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 5,
+            "amount": 1,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "type": "TalismanOfCreation",
+    "icon": {
+      "name": "TalismanOfCreationDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 81,
+      "y": 196,
+      "width": 29,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -15
+          },
+          {
+            "x": -14.5,
+            "y": 15
+          },
+          {
+            "x": 14.5,
+            "y": 15
+          },
+          {
+            "x": 14.5,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 551,
+        "type": "TalismanOfCreationArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "type": "GlovesOfTheMerchantsGuild",
+    "icon": {
+      "name": "EnchantedSilkGlovesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 253,
+      "y": 319,
+      "width": 30,
+      "height": 21,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -10.5
+          },
+          {
+            "x": -15,
+            "y": 10.5
+          },
+          {
+            "x": 15,
+            "y": 10.5
+          },
+          {
+            "x": 15,
+            "y": -10.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 604,
+        "type": "GlovesOfTheMerchantsGuildArtifactBacteria",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 0,
+            "amount": 100,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "type": "GauntletsOfTheNight",
+    "icon": {
+      "name": "GauntletsOfTheNightDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 411,
+      "y": 227,
+      "width": 31,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -15
+          },
+          {
+            "x": -15.5,
+            "y": 15
+          },
+          {
+            "x": 15.5,
+            "y": 15
+          },
+          {
+            "x": 15.5,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 605,
+        "type": "GauntletsOfTheNightArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "type": "GlovesOfEternity",
+    "icon": {
+      "name": "GlovesOfEternityDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 265,
+      "y": 259,
+      "width": 28,
+      "height": 28,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -14
+          },
+          {
+            "x": -14,
+            "y": 14
+          },
+          {
+            "x": 14,
+            "y": 14
+          },
+          {
+            "x": 14,
+            "y": -14
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 606,
+        "type": "GlovesOfEternityArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 0,
+            "modifier": "TroopAttacks",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": -50,
+            "applicationType": 0
+          },
+          {
+            "type": 8,
+            "modifier": "TroopRangedOffense",
+            "amountToAdd": -50,
+            "applicationType": 0
+          },
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": -50,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "type": "GlovesOfThePhoenix",
+    "icon": {
+      "name": "GlovesOfThePhoenixDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 443,
+      "y": 227,
+      "width": 33,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -16.5,
+            "y": -15
+          },
+          {
+            "x": -16.5,
+            "y": 15
+          },
+          {
+            "x": 16.5,
+            "y": 15
+          },
+          {
+            "x": 16.5,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 607,
+        "type": "GlovesOfThePhoenixArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 29,
+            "modifier": "CommanderEssenceCreation",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 13,
+            "modifier": "TroopHealth",
+            "amountToAdd": -3,
+            "applicationType": 0
+          },
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": -20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "type": "GauntletsOfEssence",
+    "icon": {
+      "name": "GauntletsOfEssenceDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 97,
+      "y": 260,
+      "width": 28,
+      "height": 27,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -13.5
+          },
+          {
+            "x": -14,
+            "y": 13.5
+          },
+          {
+            "x": 14,
+            "y": 13.5
+          },
+          {
+            "x": 14,
+            "y": -13.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 608,
+        "type": "GauntletsOfEssenceArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 30,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "type": "IronShield",
+    "icon": {
+      "name": "IronShieldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 405,
+      "y": 195,
+      "width": 29,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -15.5
+          },
+          {
+            "x": -14.5,
+            "y": 15.5
+          },
+          {
+            "x": 14.5,
+            "y": 15.5
+          },
+          {
+            "x": 14.5,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 609,
+        "type": "IronShieldArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 12,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": -1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "type": "ShieldOfEternalServitude",
+    "icon": {
+      "name": "ShieldOEternalServitudeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 23,
+      "y": 163,
+      "width": 23,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -11.5,
+            "y": -15.5
+          },
+          {
+            "x": -11.5,
+            "y": 15.5
+          },
+          {
+            "x": 11.5,
+            "y": 15.5
+          },
+          {
+            "x": 11.5,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 610,
+        "type": "ShieldOfEternalServitudeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "type": "ShieldOfTheOgre",
+    "icon": {
+      "name": "ShieldOfTheOgreDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 421,
+      "y": 10,
+      "width": 31,
+      "height": 42,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -21
+          },
+          {
+            "x": -15.5,
+            "y": 21
+          },
+          {
+            "x": 15.5,
+            "y": 21
+          },
+          {
+            "x": 15.5,
+            "y": -21
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 611,
+        "type": "ShieldOfTheOgreArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 11,
+            "applicationType": 0
+          },
+          {
+            "type": 7,
+            "modifier": "TroopRangedAttackResistance",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "type": "EtheralShield",
+    "icon": {
+      "name": "EtheralShieldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 463,
+      "y": 258,
+      "width": 26,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -13,
+            "y": -14.5
+          },
+          {
+            "x": -13,
+            "y": 14.5
+          },
+          {
+            "x": 13,
+            "y": 14.5
+          },
+          {
+            "x": 13,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 612,
+        "type": "EtheralShieldArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "type": "SpikedShield",
+    "icon": {
+      "name": "SpikedShieldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 467,
+      "y": 92,
+      "width": 30,
+      "height": 35,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -17.5
+          },
+          {
+            "x": -15,
+            "y": 17.5
+          },
+          {
+            "x": 15,
+            "y": 17.5
+          },
+          {
+            "x": 15,
+            "y": -17.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 805,
+        "type": "SpikedShieldArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "type": "BoneClub",
+    "icon": {
+      "name": "BoneClubDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 295,
+      "y": 92,
+      "width": 28,
+      "height": 35,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -17.5
+          },
+          {
+            "x": -14,
+            "y": 17.5
+          },
+          {
+            "x": 14,
+            "y": 17.5
+          },
+          {
+            "x": 14,
+            "y": -17.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 807,
+        "type": "BoneClubArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "type": "SpikedBoots",
+    "icon": {
+      "name": "SpikedBootsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 409,
+      "y": 288,
+      "width": 32,
+      "height": 26,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -13
+          },
+          {
+            "x": -16,
+            "y": 13
+          },
+          {
+            "x": 16,
+            "y": 13
+          },
+          {
+            "x": 16,
+            "y": -13
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 806,
+        "type": "SpikedBootsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "type": "DragonTooth",
+    "icon": {
+      "name": "DragonToothDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 290,
+      "y": 195,
+      "width": 26,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -13,
+            "y": -15.5
+          },
+          {
+            "x": -13,
+            "y": 15.5
+          },
+          {
+            "x": 13,
+            "y": 15.5
+          },
+          {
+            "x": 13,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 808,
+        "type": "DragonToothArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 31,
+            "modifier": "CommanderEssenceArcana",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "type": "AncientBlade",
+    "icon": {
+      "name": "AncientBladeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 222,
+      "y": 128,
+      "width": 31,
+      "height": 33,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -16.5
+          },
+          {
+            "x": -15.5,
+            "y": 16.5
+          },
+          {
+            "x": 15.5,
+            "y": 16.5
+          },
+          {
+            "x": 15.5,
+            "y": -16.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 809,
+        "type": "AncientBladeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 9,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "type": "DaggerOfRage",
+    "icon": {
+      "name": "DaggerOfRageDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 354,
+      "y": 92,
+      "width": 27,
+      "height": 35,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -17.5
+          },
+          {
+            "x": -13.5,
+            "y": 17.5
+          },
+          {
+            "x": 13.5,
+            "y": 17.5
+          },
+          {
+            "x": 13.5,
+            "y": -17.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 810,
+        "type": "DaggerOfRageArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          },
+          {
+            "type": 1,
+            "modifier": "TroopDamage",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "type": "BewitchedBlade",
+    "icon": {
+      "name": "BewitchedBladeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 140,
+      "y": 195,
+      "width": 29,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -15.5
+          },
+          {
+            "x": -14.5,
+            "y": 15.5
+          },
+          {
+            "x": 14.5,
+            "y": 15.5
+          },
+          {
+            "x": 14.5,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 811,
+        "type": "BewitchedBladeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          },
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 25,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "type": "ElementalAxe",
+    "icon": {
+      "name": "ElementalAxeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 317,
+      "y": 195,
+      "width": 32,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -15.5
+          },
+          {
+            "x": -16,
+            "y": 15.5
+          },
+          {
+            "x": 16,
+            "y": 15.5
+          },
+          {
+            "x": 16,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 812,
+        "type": "ElementalAxeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 15,
+            "applicationType": 0
+          },
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "type": "Mace",
+    "icon": {
+      "name": "MaceDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 448,
+      "y": 162,
+      "width": 32,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -16
+          },
+          {
+            "x": -16,
+            "y": 16
+          },
+          {
+            "x": 16,
+            "y": 16
+          },
+          {
+            "x": 16,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 813,
+        "type": "MaceArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 7,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "type": "MorningStar",
+    "icon": {
+      "name": "MorningStarDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 460,
+      "y": 195,
+      "width": 31,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -15.5
+          },
+          {
+            "x": -15.5,
+            "y": 15.5
+          },
+          {
+            "x": 15.5,
+            "y": 15.5
+          },
+          {
+            "x": 15.5,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 814,
+        "type": "MorningStarArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "type": "TheOathkeeper",
+    "icon": {
+      "name": "TheOathkeeperDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 260,
+      "y": 54,
+      "width": 29,
+      "height": 37,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -18.5
+          },
+          {
+            "x": -14.5,
+            "y": 18.5
+          },
+          {
+            "x": 14.5,
+            "y": 18.5
+          },
+          {
+            "x": 14.5,
+            "y": -18.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 815,
+        "type": "TheOathkeeperArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 19,
+            "modifier": "CommanderCommand",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "type": "WarHammer",
+    "icon": {
+      "name": "WarhammerDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 236,
+      "y": 14,
+      "width": 25,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -12.5,
+            "y": -19
+          },
+          {
+            "x": -12.5,
+            "y": 19
+          },
+          {
+            "x": 12.5,
+            "y": 19
+          },
+          {
+            "x": 12.5,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 816,
+        "type": "WarHammerArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 11,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "type": "BeakOfTheBeast",
+    "icon": {
+      "name": "BeakOfTheBeastDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 285,
+      "y": 12,
+      "width": 32,
+      "height": 40,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -20
+          },
+          {
+            "x": -16,
+            "y": 20
+          },
+          {
+            "x": 16,
+            "y": 20
+          },
+          {
+            "x": 16,
+            "y": -20
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 817,
+        "type": "BeakOfTheBeastArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 14,
+            "applicationType": 0
+          },
+          {
+            "type": 37,
+            "modifier": "CommanderPillageBonus",
+            "amountToAdd": 100,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "type": "PoleaxeOfPain",
+    "icon": {
+      "name": "PoleaxeOfPainDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 480,
+      "y": 3,
+      "width": 31,
+      "height": 49,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -24.5
+          },
+          {
+            "x": -15.5,
+            "y": 24.5
+          },
+          {
+            "x": 15.5,
+            "y": 24.5
+          },
+          {
+            "x": 15.5,
+            "y": -24.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 818,
+        "type": "PoleaxeOfPainArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 15,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "type": "RodOfTheRoots",
+    "icon": {
+      "name": "RodOfTheRootsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 388,
+      "y": 10,
+      "width": 32,
+      "height": 42,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -21
+          },
+          {
+            "x": -16,
+            "y": 21
+          },
+          {
+            "x": 16,
+            "y": 21
+          },
+          {
+            "x": 16,
+            "y": -21
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 819,
+        "type": "RodOfTheRootsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 5,
+            "applicationType": 0
+          },
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 20,
+            "applicationType": 0
+          },
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "type": "TheEmancipator",
+    "icon": {
+      "name": "TheEmancipatorDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 0,
+      "y": 56,
+      "width": 40,
+      "height": 35,
+      "outline": [
+        [
+          {
+            "x": -20,
+            "y": -17.5
+          },
+          {
+            "x": -20,
+            "y": 17.5
+          },
+          {
+            "x": 20,
+            "y": 17.5
+          },
+          {
+            "x": 20,
+            "y": -17.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 820,
+        "type": "TheEmancipatorArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 14,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "type": "TheStinger",
+    "icon": {
+      "name": "TheStingerDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 290,
+      "y": 54,
+      "width": 36,
+      "height": 37,
+      "outline": [
+        [
+          {
+            "x": -18,
+            "y": -18.5
+          },
+          {
+            "x": -18,
+            "y": 18.5
+          },
+          {
+            "x": 18,
+            "y": 18.5
+          },
+          {
+            "x": 18,
+            "y": -18.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 821,
+        "type": "TheStingerArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "type": "BootsOfTheHeavens",
+    "icon": {
+      "name": "BootsOfTheHeavensDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 343,
+      "y": 227,
+      "width": 36,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -18,
+            "y": -15
+          },
+          {
+            "x": -18,
+            "y": 15
+          },
+          {
+            "x": 18,
+            "y": 15
+          },
+          {
+            "x": 18,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 822,
+        "type": "BootsOfTheHeavensArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "type": "NimbleBoots",
+    "icon": {
+      "name": "NimbleBootsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 384,
+      "y": 288,
+      "width": 24,
+      "height": 26,
+      "outline": [
+        [
+          {
+            "x": -12,
+            "y": -13
+          },
+          {
+            "x": -12,
+            "y": 13
+          },
+          {
+            "x": 12,
+            "y": 13
+          },
+          {
+            "x": 12,
+            "y": -13
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 823,
+        "type": "NimbleBootsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "type": "ShoesOfTheWanderer",
+    "icon": {
+      "name": "ShoesOfTheWandererDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 171,
+      "y": 228,
+      "width": 27,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -14.5
+          },
+          {
+            "x": -13.5,
+            "y": 14.5
+          },
+          {
+            "x": 13.5,
+            "y": 14.5
+          },
+          {
+            "x": 13.5,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 824,
+        "type": "ShoesOfTheWandererArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "type": "ArchersHelmet",
+    "icon": {
+      "name": "ArchersHelmetDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 459,
+      "y": 315,
+      "width": 31,
+      "height": 25,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -12.5
+          },
+          {
+            "x": -15.5,
+            "y": 12.5
+          },
+          {
+            "x": 15.5,
+            "y": 12.5
+          },
+          {
+            "x": 15.5,
+            "y": -12.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 830,
+        "type": "ArchersHelmetArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "type": "CapeOfLeaves",
+    "icon": {
+      "name": "CapeOfLeavesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 424,
+      "y": 53,
+      "width": 30,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -19
+          },
+          {
+            "x": -15,
+            "y": 19
+          },
+          {
+            "x": 15,
+            "y": 19
+          },
+          {
+            "x": 15,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 831,
+        "type": "CapeOfLeavesArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 7,
+            "modifier": "TroopRangedAttackResistance",
+            "amountToAdd": 20,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "type": "CelestialHelmet",
+    "icon": {
+      "name": "CelestialHelmetDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 296,
+      "y": 162,
+      "width": 27,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -16
+          },
+          {
+            "x": -13.5,
+            "y": 16
+          },
+          {
+            "x": 13.5,
+            "y": 16
+          },
+          {
+            "x": 13.5,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 832,
+        "type": "CelestialHelmetArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "type": "CloakOfTheAncients",
+    "icon": {
+      "name": "CloakOfTheAncientsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 203,
+      "y": 195,
+      "width": 27,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -15.5
+          },
+          {
+            "x": -13.5,
+            "y": 15.5
+          },
+          {
+            "x": 13.5,
+            "y": 15.5
+          },
+          {
+            "x": 13.5,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 833,
+        "type": "CloakOfTheAncientsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          },
+          {
+            "type": 34,
+            "modifier": "TroopSpellDamageResistance",
+            "amountToAdd": 30,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "type": "GoldenLaurelWreath",
+    "icon": {
+      "name": "GoldenLaurelWreathDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 374,
+      "y": 316,
+      "width": 30,
+      "height": 24,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -12
+          },
+          {
+            "x": -15,
+            "y": 12
+          },
+          {
+            "x": 15,
+            "y": 12
+          },
+          {
+            "x": 15,
+            "y": -12
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 834,
+        "type": "GoldenLaurelWreathArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 36,
+            "modifier": "TroopMaxTroopSize",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "type": "HatOfTheMagus",
+    "icon": {
+      "name": "HatOfTheMagusDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 126,
+      "y": 260,
+      "width": 30,
+      "height": 27,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -13.5
+          },
+          {
+            "x": -15,
+            "y": 13.5
+          },
+          {
+            "x": 15,
+            "y": 13.5
+          },
+          {
+            "x": 15,
+            "y": -13.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 835,
+        "type": "HatOfTheMagusArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 60,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "type": "HelmetOfTheArena",
+    "icon": {
+      "name": "HelmetOfTheArenaDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 390,
+      "y": 162,
+      "width": 26,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -12.999999,
+            "y": -16
+          },
+          {
+            "x": -12.999999,
+            "y": 16
+          },
+          {
+            "x": 13.000001,
+            "y": 16
+          },
+          {
+            "x": 13.000001,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 836,
+        "type": "HelmetOfTheArenaArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": -1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "type": "OrnateBreastplate",
+    "icon": {
+      "name": "OrnateBreastplateDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 374,
+      "y": 128,
+      "width": 25,
+      "height": 33,
+      "outline": [
+        [
+          {
+            "x": -12.5,
+            "y": -16.5
+          },
+          {
+            "x": -12.5,
+            "y": 16.5
+          },
+          {
+            "x": 12.5,
+            "y": 16.5
+          },
+          {
+            "x": 12.5,
+            "y": -16.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 837,
+        "type": "OrnateBreastplateArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 8,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "type": "TunicOfTheForestCourt",
+    "icon": {
+      "name": "TunicOfTheForestCourtDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 195,
+      "y": 129,
+      "width": 26,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -12.999999,
+            "y": -16
+          },
+          {
+            "x": -12.999999,
+            "y": 16
+          },
+          {
+            "x": 13.000001,
+            "y": 16
+          },
+          {
+            "x": 13.000001,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 838,
+        "type": "TunicOfTheForestCourtArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          },
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "type": "TurbanHelmet",
+    "icon": {
+      "name": "TurbanHelmetDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 111,
+      "y": 196,
+      "width": 28,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -15
+          },
+          {
+            "x": -14,
+            "y": 15
+          },
+          {
+            "x": 14,
+            "y": 15
+          },
+          {
+            "x": 14,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 839,
+        "type": "TurbanHelmetArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "type": "WornBrigandine",
+    "icon": {
+      "name": "WornBrigandineDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 267,
+      "y": 93,
+      "width": 27,
+      "height": 34,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -17
+          },
+          {
+            "x": -13.5,
+            "y": 17
+          },
+          {
+            "x": 13.5,
+            "y": 17
+          },
+          {
+            "x": 13.5,
+            "y": -17
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 840,
+        "type": "WornBrigandineArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "type": "AncientAmberSpyglass",
+    "icon": {
+      "name": "AncientAmberSpyglassDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 0,
+      "y": 260,
+      "width": 32,
+      "height": 27,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -13.5
+          },
+          {
+            "x": -16,
+            "y": 13.5
+          },
+          {
+            "x": 16,
+            "y": 13.5
+          },
+          {
+            "x": 16,
+            "y": -13.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 841,
+        "type": "AncientAmberSpyglassArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 18,
+            "modifier": "TroopRangedRange",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 125,
+    "type": "ArcaneTome",
+    "icon": {
+      "name": "ArcaneTomeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 426,
+      "y": 315,
+      "width": 32,
+      "height": 25,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -12.5
+          },
+          {
+            "x": -16,
+            "y": 12.5
+          },
+          {
+            "x": 16,
+            "y": 12.5
+          },
+          {
+            "x": 16,
+            "y": -12.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 842,
+        "type": "ArcaneTomeArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 35,
+            "modifier": "CommanderSpellDamagePower",
+            "amountToAdd": 50,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 126,
+    "type": "BannerOfUnyieldingHatred",
+    "icon": {
+      "name": "BannerOfUnyieldingHatredDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 166,
+      "y": 54,
+      "width": 31,
+      "height": 37,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -18.5
+          },
+          {
+            "x": -15.5,
+            "y": 18.5
+          },
+          {
+            "x": 15.5,
+            "y": 18.5
+          },
+          {
+            "x": 15.5,
+            "y": -18.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 843,
+        "type": "BannerOfUnyieldingHatredArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 5,
+            "applicationType": 0
+          },
+          {
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 127,
+    "type": "BaryanGlasses",
+    "icon": {
+      "name": "BaryanGlassesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 209,
+      "y": 288,
+      "width": 29,
+      "height": 26,
+      "outline": [
+        [
+          {
+            "x": -14.500001,
+            "y": -13
+          },
+          {
+            "x": -14.500001,
+            "y": 13
+          },
+          {
+            "x": 14.499999,
+            "y": 13
+          },
+          {
+            "x": 14.499999,
+            "y": -13
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 844,
+        "type": "BaryanGlassesArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 4,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 128,
+    "type": "BraidOfTheHornedOnes",
+    "icon": {
+      "name": "BraidOfTheHornedOnesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 198,
+      "y": 54,
+      "width": 26,
+      "height": 37,
+      "outline": [
+        [
+          {
+            "x": -13,
+            "y": -18.5
+          },
+          {
+            "x": -13,
+            "y": 18.5
+          },
+          {
+            "x": 13,
+            "y": 18.5
+          },
+          {
+            "x": 13,
+            "y": -18.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 845,
+        "type": "BraidOfTheHornedOnesArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": -5,
+            "applicationType": 0
+          },
+          {
+            "type": 37,
+            "modifier": "CommanderPillageBonus",
+            "amountToAdd": 100,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 129,
+    "type": "DrumOfTheMarches",
+    "icon": {
+      "name": "DrumOfTheMarchesDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 271,
+      "y": 288,
+      "width": 27,
+      "height": 26,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -13
+          },
+          {
+            "x": -13.5,
+            "y": 13
+          },
+          {
+            "x": 13.5,
+            "y": 13
+          },
+          {
+            "x": 13.5,
+            "y": -13
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 846,
+        "type": "DrumOfTheMarchesArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 130,
+    "type": "EndlessSamovar",
+    "icon": {
+      "name": "EndlessSamovarDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 96,
+      "y": 93,
+      "width": 24,
+      "height": 34,
+      "outline": [
+        [
+          {
+            "x": -12,
+            "y": -17
+          },
+          {
+            "x": -12,
+            "y": 17
+          },
+          {
+            "x": 12,
+            "y": 17
+          },
+          {
+            "x": 12,
+            "y": -17
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 847,
+        "type": "EndlessSamovarArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 6,
+            "modifier": "TroopMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 13,
+            "modifier": "TroopHealth",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 131,
+    "type": "MechanicalBird",
+    "icon": {
+      "name": "MechanicalBirdDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 435,
+      "y": 195,
+      "width": 24,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -12,
+            "y": -15.5
+          },
+          {
+            "x": -12,
+            "y": 15.5
+          },
+          {
+            "x": 12,
+            "y": 15.5
+          },
+          {
+            "x": 12,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 848,
+        "type": "MechanicalBirdArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 132,
+    "type": "NeverEndingChestOfGold",
+    "icon": {
+      "name": "NeverendingChestOfGoldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 88,
+      "y": 228,
+      "width": 26,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -13,
+            "y": -14.5
+          },
+          {
+            "x": -13,
+            "y": 14.5
+          },
+          {
+            "x": 13,
+            "y": 14.5
+          },
+          {
+            "x": 13,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 853,
+        "type": "NeverEndingChestOfGoldArtifactBacteria",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": 0,
+            "amount": 500,
+            "allTimeAmount": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 133,
+    "type": "SkullOfAeons",
+    "icon": {
+      "name": "SkullOfAeonsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 77,
+      "y": 129,
+      "width": 27,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -16
+          },
+          {
+            "x": -13.5,
+            "y": 16
+          },
+          {
+            "x": 13.5,
+            "y": 16
+          },
+          {
+            "x": 13.5,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 850,
+        "type": "SkullOfAeonsArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 1,
+            "modifier": "TroopDamage",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 9,
+            "modifier": "TroopRetaliations",
+            "amountToAdd": -1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 134,
+    "type": "TheLuteOfPinecoast",
+    "icon": {
+      "name": "LuteOfPinecoastDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 92,
+      "y": 14,
+      "width": 29,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -19
+          },
+          {
+            "x": -14.5,
+            "y": 19
+          },
+          {
+            "x": 14.5,
+            "y": 19
+          },
+          {
+            "x": 14.5,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 851,
+        "type": "TheLuteOfPinecoastArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 1,
+            "modifier": "TroopDamage",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 2,
+            "modifier": "TroopDefense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 135,
+    "type": "VialOfTheHeart",
+    "icon": {
+      "name": "VialOfTheHeartDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 405,
+      "y": 316,
+      "width": 20,
+      "height": 24,
+      "outline": [
+        [
+          {
+            "x": -10,
+            "y": -12
+          },
+          {
+            "x": -10,
+            "y": 12
+          },
+          {
+            "x": 10,
+            "y": 12
+          },
+          {
+            "x": 10,
+            "y": -12
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 852,
+        "type": "VialOfTheHeartArtifactBacteria",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
+          {
+            "type": 13,
+            "modifier": "TroopHealth",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": []
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "type": "TownPortalScroll",
+    "icon": {
+      "name": "ScrollOfGnollDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 294,
+      "y": 259,
+      "width": 26,
+      "height": 28,
+      "outline": [
+        [
+          {
+            "x": -13,
+            "y": -14
+          },
+          {
+            "x": -13,
+            "y": 14
+          },
+          {
+            "x": 13,
+            "y": 14
+          },
+          {
+            "x": 13,
+            "y": -14
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  }
+]
