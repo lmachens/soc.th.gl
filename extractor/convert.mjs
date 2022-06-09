@@ -58,17 +58,33 @@ const getBacteria = ({ bacteriaType }) => {
   const bacteria = bacteriasSrc.find(
     (bacteriaSrc) => bacteriaSrc.id === bacteriaType
   );
+  let modifierData;
+  if (bacteria.auraSettings?.bacteriaToAdd.bacteriaType) {
+    const bacteriaToAdd = bacteriasSrc.find(
+      (bacteriaSrc) =>
+        bacteriaSrc.id === bacteria.auraSettings.bacteriaToAdd.bacteriaType
+    );
+    modifierData = bacteriaToAdd.modifierData?.map((modifier) => ({
+      type: modifier.type,
+      modifier: modifier.modifier,
+      amountToAdd: modifier.amountToAdd,
+      applicationType: modifier.applicationType,
+    }));
+  } else {
+    modifierData = bacteria.modifierData?.map((modifier) => ({
+      type: modifier.type,
+      modifier: modifier.modifier,
+      amountToAdd: modifier.amountToAdd,
+      applicationType: modifier.applicationType,
+    }));
+  }
 
   const result = {
     bacteriaType: bacteria.id,
     type: bacteria.type,
-    modifierData:
-      bacteria.modifierData?.map((modifier) => ({
-        type: modifier.type,
-        modifier: modifier.modifier,
-        amountToAdd: modifier.amountToAdd,
-        applicationType: modifier.applicationType,
-      })) || [],
+    restriction: bacteria.restriction,
+    auraSettings: bacteria.auraSettings,
+    modifierData: modifierData || [],
     resourcesIncome:
       bacteria.income?.resources.map((resource) => ({
         type: resource.type,

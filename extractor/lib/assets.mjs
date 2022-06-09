@@ -94,6 +94,12 @@ const toCaseSensitivePath = (path) => {
 const bacteriaModifierTypes = await readCSTypes(
   `./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Bacterias/BacteriaModifierType.cs`
 );
+const bacteriaTroopRestrictions = await readCSTypes(
+  `./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Battle/BattleTroopRestriction.cs`
+);
+const auraRecipients = await readCSTypes(
+  `./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Server/Bacterias/Utilities/AuraRecipients.cs`
+);
 
 const resolveTypes = async (asset) => {
   if (asset.generatedEnumName) {
@@ -121,6 +127,16 @@ const resolveTypes = async (asset) => {
       const type = types[commander.id];
       commander.type = type;
     }
+  }
+  if (asset.restriction) {
+    asset.restriction = bacteriaTroopRestrictions[asset.restriction];
+  }
+  if (asset.auraSettings) {
+    asset.auraSettings = {
+      ...asset.auraSettings,
+      recipients: auraRecipients[asset.auraSettings.recipients],
+      hexRadius: asset.auraSettings.hexRadius,
+    };
   }
 };
 

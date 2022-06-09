@@ -167,6 +167,19 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 42,
@@ -218,7 +231,7 @@
         "costEntries": [
           {
             "type": 0,
-            "amount": 350
+            "amount": 360
           }
         ]
       },
@@ -1205,6 +1218,19 @@
           {
             "bacteriaType": 148,
             "type": "TroopAbilityFearNoFoe",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 2,
@@ -1417,6 +1443,19 @@
           {
             "bacteriaType": 793,
             "type": "TroopAbilityStoutheartShallStand",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 2,
@@ -1595,6 +1634,19 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 7,
@@ -1784,7 +1836,27 @@
           {
             "bacteriaType": 409,
             "type": "TroopAbilityProtect",
-            "modifierData": [],
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 410,
+                "duration": {
+                  "type": 3,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 25,
+                "applicationType": 0
+              }
+            ],
             "resourcesIncome": []
           }
         ]
@@ -1793,6 +1865,19 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 7,
@@ -2065,6 +2150,19 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 7,
@@ -2372,7 +2470,39 @@
           {
             "bacteriaType": 802,
             "type": "TroopAbilityInspire",
-            "modifierData": [],
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 803,
+                "duration": {
+                  "type": 3,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
             "resourcesIncome": []
           }
         ]
@@ -2381,6 +2511,19 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 7,
@@ -2849,6 +2992,19 @@
           {
             "bacteriaType": 408,
             "type": "TroopAbilityDefend",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 2,
@@ -3367,6 +3523,19 @@
         {
           "bacteriaType": 427,
           "type": "TraitDoubleStrike",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 0,
@@ -3627,7 +3796,39 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -3938,7 +4139,39 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -4133,6 +4366,7 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         }
@@ -4882,6 +5116,19 @@
           {
             "bacteriaType": 408,
             "type": "TroopAbilityDefend",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 2,
@@ -4898,6 +5145,19 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 7,
@@ -5068,6 +5328,19 @@
           {
             "bacteriaType": 149,
             "type": "TroopAbilityHerAimWasTrue",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 5,
@@ -5242,6 +5515,19 @@
           {
             "bacteriaType": 792,
             "type": "TroopAbilityAureliaEternal",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 5,
@@ -5410,7 +5696,7 @@
           "max": 4
         },
         "movement": 3,
-        "initiative": 11,
+        "initiative": 12,
         "health": 10,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
@@ -5520,6 +5806,10 @@
           {
             "type": 0,
             "amount": 350
+          },
+          {
+            "type": 5,
+            "amount": 1
           }
         ]
       },
@@ -5556,10 +5846,10 @@
         "retaliations": 1,
         "damage": {
           "min": 6,
-          "max": 9
+          "max": 8
         },
         "movement": 4,
-        "initiative": 15,
+        "initiative": 16,
         "health": 18,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
@@ -5606,6 +5896,19 @@
           {
             "bacteriaType": 825,
             "type": "TroopAbilityAim",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 18,
@@ -5767,7 +6070,7 @@
           "max": 7
         },
         "movement": 3,
-        "initiative": 21,
+        "initiative": 9,
         "health": 26,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
@@ -5785,6 +6088,7 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         }
@@ -5966,7 +6270,7 @@
           "max": 11
         },
         "movement": 3,
-        "initiative": 23,
+        "initiative": 10,
         "health": 40,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
@@ -6013,7 +6317,39 @@
           {
             "bacteriaType": 867,
             "type": "TroopAbilityChargeEssence",
-            "modifierData": [],
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 803,
+                "duration": {
+                  "type": 3,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
             "resourcesIncome": []
           }
         ]
@@ -6022,6 +6358,7 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         }
@@ -6313,6 +6650,19 @@
         {
           "bacteriaType": 798,
           "type": "TraitPersistent",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 9,
@@ -6571,11 +6921,7 @@
         "costEntries": [
           {
             "type": 0,
-            "amount": 1200
-          },
-          {
-            "type": 4,
-            "amount": 1
+            "amount": 1400
           }
         ]
       },
@@ -6662,6 +7008,19 @@
           {
             "bacteriaType": 829,
             "type": "TroopAbilitySacrificeBones",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [],
             "resourcesIncome": []
           }
@@ -6671,6 +7030,19 @@
         {
           "bacteriaType": 798,
           "type": "TraitPersistent",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 9,
@@ -6849,6 +7221,19 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 42,
@@ -7070,7 +7455,39 @@
           {
             "bacteriaType": 802,
             "type": "TroopAbilityInspire",
-            "modifierData": [],
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 803,
+                "duration": {
+                  "type": 3,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
             "resourcesIncome": []
           }
         ]
@@ -7079,6 +7496,19 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 42,
@@ -7555,7 +7985,33 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         },
         {
@@ -8075,7 +8531,27 @@
           {
             "bacteriaType": 409,
             "type": "TroopAbilityProtect",
-            "modifierData": [],
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 410,
+                "duration": {
+                  "type": 3,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 25,
+                "applicationType": 0
+              }
+            ],
             "resourcesIncome": []
           }
         ]
@@ -8084,7 +8560,33 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         },
         {
@@ -8096,6 +8598,19 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 7,
@@ -8449,6 +8964,7 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         }
@@ -8609,6 +9125,19 @@
           {
             "bacteriaType": 150,
             "type": "TroopAbilityJigOfJugs",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 3,
@@ -8625,6 +9154,7 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         }
@@ -8788,6 +9318,19 @@
           {
             "bacteriaType": 794,
             "type": "TroopAbilityTheCoinInMyHand",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 5,
@@ -8988,6 +9531,19 @@
         {
           "bacteriaType": 799,
           "type": "TraitReach",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 41,
@@ -9231,6 +9787,19 @@
         {
           "bacteriaType": 799,
           "type": "TraitReach",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 41,
@@ -9617,6 +10186,19 @@
           {
             "bacteriaType": 825,
             "type": "TroopAbilityAim",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 18,
@@ -10136,7 +10718,7 @@
         "retaliations": 1,
         "damage": {
           "min": 4,
-          "max": 7
+          "max": 6
         },
         "movement": 5,
         "initiative": 13,
@@ -10194,6 +10776,19 @@
         {
           "bacteriaType": 798,
           "type": "TraitPersistent",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 9,
@@ -10646,7 +11241,33 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -11218,6 +11839,7 @@
         {
           "bacteriaType": 801,
           "type": "TraitBackstabber",
+          "restriction": "CantBeRetaliatedOn",
           "modifierData": [],
           "resourcesIncome": []
         }
@@ -11422,6 +12044,19 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 42,
@@ -11435,6 +12070,7 @@
         {
           "bacteriaType": 801,
           "type": "TraitBackstabber",
+          "restriction": "CantBeRetaliatedOn",
           "modifierData": [],
           "resourcesIncome": []
         }
@@ -11627,7 +12263,7 @@
         "retaliations": 1,
         "damage": {
           "min": 16,
-          "max": 20
+          "max": 24
         },
         "movement": 1,
         "initiative": 24,
@@ -11654,6 +12290,7 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         },
@@ -11863,8 +12500,8 @@
         "attacks": 1,
         "retaliations": 1,
         "damage": {
-          "min": 25,
-          "max": 30
+          "min": 26,
+          "max": 32
         },
         "movement": 1,
         "initiative": 28,
@@ -11922,13 +12559,46 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         },
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         },
         {
@@ -12129,6 +12799,7 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         }
@@ -12399,7 +13070,7 @@
         "costEntries": [
           {
             "type": 0,
-            "amount": 220
+            "amount": 200
           }
         ]
       },
@@ -12435,8 +13106,8 @@
         "attacks": 1,
         "retaliations": 1,
         "damage": {
-          "min": 4,
-          "max": 6
+          "min": 3,
+          "max": 5
         },
         "movement": 4,
         "initiative": 36,
@@ -12486,6 +13157,19 @@
           {
             "bacteriaType": 408,
             "type": "TroopAbilityDefend",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 2,
@@ -12502,6 +13186,19 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 42,
@@ -12985,7 +13682,7 @@
         "costEntries": [
           {
             "type": 0,
-            "amount": 320
+            "amount": 340
           }
         ]
       },
@@ -13026,7 +13723,7 @@
         },
         "movement": 3,
         "initiative": 16,
-        "health": 15,
+        "health": 14,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -13043,7 +13740,39 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         },
         {
@@ -13222,7 +13951,27 @@
         {
           "bacteriaType": 66,
           "type": "TraitGuard",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 67,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -13424,7 +14173,27 @@
           {
             "bacteriaType": 409,
             "type": "TroopAbilityProtect",
-            "modifierData": [],
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 410,
+                "duration": {
+                  "type": 3,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 25,
+                "applicationType": 0
+              }
+            ],
             "resourcesIncome": []
           }
         ]
@@ -13433,7 +14202,27 @@
         {
           "bacteriaType": 66,
           "type": "TraitGuard",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 67,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -14136,7 +14925,33 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -14384,7 +15199,33 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -14682,6 +15523,19 @@
           {
             "bacteriaType": 151,
             "type": "TroopAbilityTheDragonsRoar",
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 0,
+                "duration": {
+                  "type": 0,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
             "modifierData": [
               {
                 "type": 2,
@@ -14704,7 +15558,33 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -14926,6 +15806,19 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 7,
@@ -15203,7 +16096,39 @@
           {
             "bacteriaType": 867,
             "type": "TroopAbilityChargeEssence",
-            "modifierData": [],
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 803,
+                "duration": {
+                  "type": 3,
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
             "resourcesIncome": []
           }
         ]
@@ -15212,6 +16137,19 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 7,
@@ -15704,12 +16642,57 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         },
         {
           "bacteriaType": 799,
           "type": "TraitReach",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 41,
@@ -15729,7 +16712,33 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         }
       ]
@@ -15868,11 +16877,11 @@
         "costEntries": [
           {
             "type": 0,
-            "amount": 3000
+            "amount": 3200
           },
           {
             "type": 3,
-            "amount": 7
+            "amount": 5
           }
         ]
       },
@@ -15961,18 +16970,89 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         },
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "modifierData": [],
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "duration": {
+                "type": 2,
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": []
         },
         {
           "bacteriaType": 799,
           "type": "TraitReach",
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 0,
+              "duration": {
+                "type": 0,
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
           "modifierData": [
             {
               "type": 41,
@@ -16180,6 +17260,7 @@
         {
           "bacteriaType": 61,
           "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
           "modifierData": [],
           "resourcesIncome": []
         }

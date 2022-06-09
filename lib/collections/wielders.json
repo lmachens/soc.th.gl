@@ -514,6 +514,19 @@
       {
         "bacteriaType": 700,
         "type": "SpecializationChaos",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 30,
@@ -1042,6 +1055,19 @@
       {
         "bacteriaType": 705,
         "type": "SpecializationOrder",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -1574,6 +1600,19 @@
       {
         "bacteriaType": 711,
         "type": "SpecializationTroopMove",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 6,
@@ -2101,6 +2140,19 @@
       {
         "bacteriaType": 709,
         "type": "SpecializationSpellDamage",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 35,
@@ -2678,6 +2730,19 @@
       {
         "bacteriaType": 706,
         "type": "SpecializationRangedDamage",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 8,
@@ -3251,6 +3316,19 @@
       {
         "bacteriaType": 701,
         "type": "SpecializationCreation",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 29,
@@ -3778,6 +3856,19 @@
       {
         "bacteriaType": 703,
         "type": "SpecializationFaeyOffense",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -4352,6 +4443,19 @@
       {
         "bacteriaType": 710,
         "type": "SpecializationSpellResistance",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 34,
@@ -4871,6 +4975,19 @@
       {
         "bacteriaType": 704,
         "type": "SpecializationHumanDefense",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 2,
@@ -5409,6 +5526,19 @@
       {
         "bacteriaType": 705,
         "type": "SpecializationOrder",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -5974,6 +6104,19 @@
       {
         "bacteriaType": 709,
         "type": "SpecializationSpellDamage",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 35,
@@ -6463,6 +6606,19 @@
       {
         "bacteriaType": 699,
         "type": "SpecializationArcana",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 31,
@@ -7024,6 +7180,19 @@
       {
         "bacteriaType": 702,
         "type": "SpecializationDestruction",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 32,
@@ -7585,6 +7754,19 @@
       {
         "bacteriaType": 708,
         "type": "SpecializationRatsHP",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 13,
@@ -8074,6 +8256,19 @@
       {
         "bacteriaType": 707,
         "type": "SpecializationRangedResistance",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 7,
@@ -8603,6 +8798,19 @@
       {
         "bacteriaType": 711,
         "type": "SpecializationTroopMove",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 6,
@@ -9097,6 +9305,19 @@
       {
         "bacteriaType": 856,
         "type": "SpecializationUndeadOffense",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -9631,6 +9852,19 @@
       {
         "bacteriaType": 704,
         "type": "SpecializationHumanDefense",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 2,
@@ -10578,6 +10812,19 @@
       {
         "bacteriaType": 855,
         "type": "SpecializationTroopRangedRange",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 18,
@@ -11054,6 +11301,19 @@
       {
         "bacteriaType": 705,
         "type": "SpecializationOrder",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -11599,6 +11859,19 @@
       {
         "bacteriaType": 706,
         "type": "SpecializationRangedDamage",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 8,
@@ -12076,6 +12349,19 @@
       {
         "bacteriaType": 700,
         "type": "SpecializationChaos",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 30,
@@ -12553,6 +12839,19 @@
       {
         "bacteriaType": 710,
         "type": "SpecializationSpellResistance",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 34,
@@ -13106,6 +13405,19 @@
       {
         "bacteriaType": 702,
         "type": "SpecializationDestruction",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 32,
@@ -13582,6 +13894,19 @@
       {
         "bacteriaType": 704,
         "type": "SpecializationHumanDefense",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 2,
@@ -14127,6 +14452,19 @@
       {
         "bacteriaType": 712,
         "type": "SpecializationHarimaOffense",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -14658,6 +14996,19 @@
       {
         "bacteriaType": 1125,
         "type": "SpecializationHunterDamage",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 1,
@@ -15152,6 +15503,19 @@
       {
         "bacteriaType": 702,
         "type": "SpecializationDestruction",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 32,
@@ -15642,6 +16006,19 @@
       {
         "bacteriaType": 709,
         "type": "SpecializationSpellDamage",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 35,
@@ -16127,6 +16504,19 @@
       {
         "bacteriaType": 710,
         "type": "SpecializationSpellResistance",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 34,
@@ -16658,6 +17048,19 @@
       {
         "bacteriaType": 1159,
         "type": "SpecializationRavagerMove",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 6,
@@ -17189,6 +17592,19 @@
       {
         "bacteriaType": 707,
         "type": "SpecializationRangedResistance",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 7,
@@ -17737,6 +18153,19 @@
       {
         "bacteriaType": 859,
         "type": "SpecializationRanaOffense",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -18296,6 +18725,19 @@
       {
         "bacteriaType": 855,
         "type": "SpecializationTroopRangedRange",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 18,
@@ -18848,6 +19290,19 @@
       {
         "bacteriaType": 699,
         "type": "SpecializationArcana",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 31,
