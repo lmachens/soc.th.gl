@@ -1,4 +1,5 @@
 import { GetStaticProps } from "next";
+import { getArtifacts } from "./artifacts";
 
 import { getFactions } from "./factions";
 import { getSkills } from "./skills";
@@ -59,6 +60,16 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       })
       .sort(sortByLabel);
 
+    const artifacts = getArtifacts(locale)
+      .map((artifact) => {
+        return {
+          to: `/artifacts/${artifact.type}`,
+          label: artifact.name,
+          description: artifact.description,
+        };
+      })
+      .sort(sortByLabel);
+
     const collectionLinks: CollectionLink[] = [
       {
         label: "Factions",
@@ -98,6 +109,16 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
             label: "All units",
           },
           ...units,
+        ],
+      },
+      {
+        label: "Artifacts",
+        docs: [
+          {
+            to: "/artifacts",
+            label: "All artifacts",
+          },
+          ...artifacts,
         ],
       },
     ];

@@ -25,12 +25,12 @@ const PERCENTAGE_BASED_MODIFIERS = [
 export const getTerm = (
   term: string,
   locale: string,
-  count?: number | string,
+  placeholder?: number | string | string[],
   modifier?: string
 ) => {
   let value: string | undefined;
-  if (count && typeof count === "number") {
-    const pluralForm = getPluralForm(locale, count);
+  if (placeholder && typeof placeholder === "number") {
+    const pluralForm = getPluralForm(locale, placeholder);
     value = (terms[`${term}_${pluralForm}`] || terms[term])?.[locale];
   } else {
     value = terms[term]?.[locale];
@@ -41,18 +41,22 @@ export const getTerm = (
     value = "";
   }
 
-  if (count) {
-    if (typeof count === "number" && modifier !== undefined) {
+  if (placeholder) {
+    if (typeof placeholder === "number" && modifier !== undefined) {
       const isPercentageModifier =
         PERCENTAGE_BASED_MODIFIERS.includes(modifier);
       value = value.replace(
         "{0}",
-        `<span class="${count > 0 ? "positive" : "negative"}">${
-          count > 0 ? "+" : "-"
-        }${count}${isPercentageModifier ? "%" : ""}</span>`
+        `<span class="${placeholder > 0 ? "positive" : "negative"}">${
+          placeholder > 0 ? "+" : "-"
+        }${placeholder}${isPercentageModifier ? "%" : ""}</span>`
       );
-    } else {
-      value = value.replace("{0}", count.toString());
+    } else if (typeof placeholder === "string") {
+      value = value.replace("{0}", placeholder.toString());
+    } else if (Array.isArray(placeholder)) {
+      for (let i = 0; i < placeholder.length; i++) {
+        value = value.replace(`{${i.toString()}}`, placeholder[i]);
+      }
     }
   }
 

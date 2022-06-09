@@ -40,11 +40,18 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       size: unit.size,
     })),
     skills: wielderSrc.skills.map((skill) => ({
-      id: skill.id,
       type: skill.type,
       lore: getTerm(`Skills/${skill.type}/Lore`, locale),
       name: getTerm(`Skills/${skill.type}`, locale),
-      level: skill.level,
+      level: skill.level || null,
+      levelRange: skill.levelRange || null,
+      requiredSkills:
+        skill.requiredSkills?.map((requiredSkill) => ({
+          type: requiredSkill.type,
+          lore: getTerm(`Skills/${requiredSkill.type}/Lore`, locale),
+          name: getTerm(`Skills/${requiredSkill.type}`, locale),
+          level: requiredSkill.level,
+        })) || null,
     })),
     specializations: wielderSrc.specializations.map((specialization) =>
       getLocaleBacteria(specialization, locale)
@@ -75,11 +82,22 @@ export type WielderDTO = {
     command: number;
   };
   skills: {
-    id: number;
     type: string;
     lore: string;
     name: string;
-    level: number;
+    level: number | null;
+    levelRange: {
+      min: number;
+      max: number;
+    } | null;
+    requiredSkills:
+      | {
+          level: number;
+          type: string;
+          lore: string;
+          name: string;
+        }[]
+      | null;
   }[];
   units: {
     name: string;

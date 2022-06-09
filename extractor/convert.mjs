@@ -5,6 +5,7 @@ const skillsSrc = await readJSONFile("./out/skill.json");
 const factionsSrc = await readJSONFile("./out/faction.json");
 const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
 const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
+const artifactsSrc = await readJSONFile("./out/artifact.json");
 
 const factions = factionsSrc.map((factionSrc) => ({
   type: factionSrc.type,
@@ -58,17 +59,33 @@ const getBacteria = ({ bacteriaType }) => {
   const bacteria = bacteriasSrc.find(
     (bacteriaSrc) => bacteriaSrc.id === bacteriaType
   );
+  let modifierData;
+  if (bacteria.auraSettings?.bacteriaToAdd.bacteriaType) {
+    const bacteriaToAdd = bacteriasSrc.find(
+      (bacteriaSrc) =>
+        bacteriaSrc.id === bacteria.auraSettings.bacteriaToAdd.bacteriaType
+    );
+    modifierData = bacteriaToAdd.modifierData?.map((modifier) => ({
+      type: modifier.type,
+      modifier: modifier.modifier,
+      amountToAdd: modifier.amountToAdd,
+      applicationType: modifier.applicationType,
+    }));
+  } else {
+    modifierData = bacteria.modifierData?.map((modifier) => ({
+      type: modifier.type,
+      modifier: modifier.modifier,
+      amountToAdd: modifier.amountToAdd,
+      applicationType: modifier.applicationType,
+    }));
+  }
 
   const result = {
     bacteriaType: bacteria.id,
     type: bacteria.type,
-    modifierData:
-      bacteria.modifierData?.map((modifier) => ({
-        type: modifier.type,
-        modifier: modifier.modifier,
-        amountToAdd: modifier.amountToAdd,
-        applicationType: modifier.applicationType,
-      })) || [],
+    restriction: bacteria.restriction,
+    auraSettings: bacteria.auraSettings,
+    modifierData: modifierData || [],
     resourcesIncome:
       bacteria.income?.resources.map((resource) => ({
         type: resource.type,
@@ -92,54 +109,62 @@ const wielders = factionsSrc
   .map((factionSrc) =>
     factionSrc.commanders
       .filter((commander) => commander.type && commander.usageType === 0)
-      .map((commander) => ({
-        type: commander.type,
-        faction: factionSrc.languageKey,
-        portrait: {
-          name: commander.portrait.name,
-          spriteSheet: commander.portrait.spriteSheet,
-          x: commander.portrait.x,
-          y: commander.portrait.y,
-          width: commander.portrait.width,
-          height: commander.portrait.height,
-        },
-        stats: {
-          defense: commander.stats.defense,
-          offense: commander.stats.offense,
-          movement: commander.stats.movement,
-          viewRadius: commander.stats.viewRadius,
-          command: commander.stats.command,
-        },
-        skillPool: {
-          id: commander.skillPool,
-          pools: skillPoolsSrc
-            .find((skillPoolSrc) => skillPoolSrc.id === commander.skillPool)
-            .pools.map((pool) => ({
-              ...pool,
-              skills: pool.skills.map((skill) => ({
-                ...skill,
-                type: skillsSrc.find((skillSrc) => skillSrc.id === skill.skill)
-                  .type,
+      .map((commander) => {
+        const skillPool = skillPoolsSrc.find(
+          (skillPoolSrc) => skillPoolSrc.id === commander.skillPool
+        );
+
+        const skills = commander.skills.map((skill) => ({
+          type: skillsSrc.find((skillSrc) => skillSrc.id === skill.skill).type,
+          level: skill.level,
+        }));
+
+        skillPool.pools.forEach((pool) => {
+          pool.skills.forEach((skill) => {
+            const type = skillsSrc.find(
+              (skillSrc) => skillSrc.id === skill.skill
+            ).type;
+            if (!skills.some((existingSkill) => existingSkill.type === type)) {
+              skills.push({
+                type: type,
+                levelRange: pool.levelRange,
                 requiredSkills: skill.requiredSkills.map((requiredSkill) => ({
-                  ...requiredSkill,
                   type: skillsSrc.find(
                     (skillSrc) => skillSrc.id === requiredSkill.skill
                   ).type,
+                  level: requiredSkill.level,
                 })),
-              })),
-            })),
-        },
-        skills: commander.skills.map((skill) => ({
-          id: skill.skill,
-          type: skillsSrc.find((skillSrc) => skillSrc.id === skill.skill).type,
-          level: skill.level,
-        })),
-        units: commander.units.map((unit) => ({
-          languageKey: getUnit(unit).languageKey,
-          size: unit.size,
-        })),
-        specializations: commander.specializations.map(getBacteria),
-      }))
+              });
+            }
+          });
+        });
+
+        return {
+          type: commander.type,
+          faction: factionSrc.languageKey,
+          portrait: {
+            name: commander.portrait.name,
+            spriteSheet: commander.portrait.spriteSheet,
+            x: commander.portrait.x,
+            y: commander.portrait.y,
+            width: commander.portrait.width,
+            height: commander.portrait.height,
+          },
+          stats: {
+            defense: commander.stats.defense,
+            offense: commander.stats.offense,
+            movement: commander.stats.movement,
+            viewRadius: commander.stats.viewRadius,
+            command: commander.stats.command,
+          },
+          skills: skills,
+          units: commander.units.map((unit) => ({
+            languageKey: getUnit(unit).languageKey,
+            size: unit.size,
+          })),
+          specializations: commander.specializations.map(getBacteria),
+        };
+      })
   )
   .flat();
 
@@ -206,3 +231,15 @@ const skillPools = skillPoolsSrc.map((skillPool) => ({
 }));
 
 await writeJSONFile(skillPools, "../../lib/collections/skillPools");
+
+const artifacts = artifactsSrc.map((artifact) => ({
+  id: artifact.id,
+  type: artifact.type,
+  icon: artifact.icon,
+  bacterias: artifact.bacterias.map(getBacteria),
+}));
+
+await writeJSONFile(artifacts, "../../lib/collections/artifacts");
+for (const artifact of artifacts) {
+  await copyImageFile(artifact.icon.spriteSheet, "../public/artifacts");
+}

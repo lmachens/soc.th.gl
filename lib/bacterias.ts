@@ -50,23 +50,62 @@ type PureBacteria = {
     type: number;
     duration: number;
   };
+  restriction?: string;
+  auraSettings?: {
+    recipients: string;
+    hexRadius: number;
+    bacteriaToAdd: {
+      bacteriaType: number;
+      duration: {
+        type: number;
+        duration: number;
+      };
+    };
+    isStackable: number;
+    isPassable: number;
+  };
 };
 export const getLocaleBacteria = (
   bacteria: PureBacteria,
   locale: string
 ): BacteriaDTO => {
+  let description = getTerm(
+    `Bacterias/${bacteria.type
+      .replace("Trait", "")
+      .replace(/\d+/g, "")}/Description`,
+    locale
+  );
+  // The description of bacterias with restriction are generated from the restriction type.
+  if (!description) {
+    if (bacteria.restriction) {
+      const restrictionTerm = getTerm(
+        `Units/Restrictions/${bacteria.restriction}`,
+        locale
+      );
+      description = getTerm(
+        `Bacterias/BattleStackRestriction/Description`,
+        locale,
+        restrictionTerm
+      );
+    } else if (bacteria.auraSettings) {
+      const recipientsTerm = getTerm(
+        `Bacterias/Recipients/Aura/${bacteria.auraSettings.recipients}`,
+        locale
+      );
+      description = getTerm(`Bacterias/AuraBacteria/Description`, locale, [
+        recipientsTerm,
+        bacteria.auraSettings.hexRadius.toString(),
+      ]);
+    }
+  }
+
   const result: BacteriaDTO = {
     bacteriaType: bacteria.bacteriaType,
     name: getTerm(
       `Bacterias/${bacteria.type.replace("Trait", "").replace(/\d+/, "")}`,
       locale
     ),
-    description: getTerm(
-      `Bacterias/${bacteria.type
-        .replace("Trait", "")
-        .replace(/\d+/g, "")}/Description`,
-      locale
-    ),
+    description,
     modifierData: bacteria.modifierData.map((modifier) => ({
       type: modifier.type,
       description: getTerm(

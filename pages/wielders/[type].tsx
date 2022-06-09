@@ -13,8 +13,8 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
   terms,
 }) => {
   const level = wielder.skills
-    ? wielder.skills.find((skill) => skill.id === wielder.stats.command)
-        ?.level || wielder.skills.at(-1)?.level
+    ? wielder.skills.find((skill) => skill.type === "Command")?.level ||
+      wielder.skills.at(-1)?.level
     : 0;
 
   return (
@@ -79,21 +79,6 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
             </Text>
           </PopoverLink>
         ))}
-        <Title order={3}>{terms.skills}</Title>
-        {wielder.skills.map((skill) => (
-          <PopoverLink
-            key={`${wielder.name}-${skill.type}`}
-            href={`/skills/${skill.type}`}
-            popover={
-              <Stack>
-                <Title order={4}>{skill.name}</Title>
-                <Text size="sm">{skill.lore}</Text>
-              </Stack>
-            }
-          >
-            <Text>{skill.name}</Text>
-          </PopoverLink>
-        ))}
         <Title order={3}>{terms.specializations}</Title>
         {wielder.specializations.map((specialization) => (
           <Text key={`${wielder.name}-${specialization.bacteriaType}`}>
@@ -111,6 +96,59 @@ const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
             ))}
           </Text>
         ))}
+        <Title order={3}>{terms.skills}</Title>
+        <Table striped>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Required Skills</th>
+              <th>Minimum Level</th>
+            </tr>
+          </thead>
+          <tbody>
+            {wielder.skills.map((skill) => (
+              <tr key={`${wielder.name}-${skill.type}`}>
+                <td>
+                  <PopoverLink
+                    href={`/skills/${skill.type}`}
+                    popover={
+                      <Stack>
+                        <Title order={4}>{skill.name}</Title>
+                        <Text size="sm">{skill.lore}</Text>
+                      </Stack>
+                    }
+                  >
+                    {skill.name}
+                    {skill.level && (
+                      <Text>
+                        {terms.level} {skill.level}
+                      </Text>
+                    )}
+                  </PopoverLink>
+                </td>
+                <td>
+                  {skill.requiredSkills?.map((requiredSkill) => (
+                    <PopoverLink
+                      key={requiredSkill.type}
+                      href={`/skills/${requiredSkill.type}`}
+                      popover={
+                        <Stack>
+                          <Title order={4}>{requiredSkill.name}</Title>
+                          <Text size="sm">{requiredSkill.lore}</Text>
+                        </Stack>
+                      }
+                    >
+                      <Text component="span" mr="sm">
+                        {requiredSkill.name}
+                      </Text>
+                    </PopoverLink>
+                  ))}
+                </td>
+                <td>{skill.levelRange?.min || 1}</td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
       </Stack>
     </>
   );
@@ -142,6 +180,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     skills: getTerm("Tutorial/CodexCategory/Skills", locale),
     specializations: getTerm("Commanders/Tooltip/Specializations", locale),
     production: getTerm("Common/Details/GeneratesResources", locale),
+    level: getTerm("Common/Stats/Level/Header", locale),
   };
 
   return {
