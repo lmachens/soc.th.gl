@@ -5,6 +5,7 @@ const skillsSrc = await readJSONFile("./out/skill.json");
 const factionsSrc = await readJSONFile("./out/faction.json");
 const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
 const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
+const artifactsSrc = await readJSONFile("./out/artifact.json");
 
 const factions = factionsSrc.map((factionSrc) => ({
   type: factionSrc.type,
@@ -230,3 +231,15 @@ const skillPools = skillPoolsSrc.map((skillPool) => ({
 }));
 
 await writeJSONFile(skillPools, "../../lib/collections/skillPools");
+
+const artifacts = artifactsSrc.map((artifact) => ({
+  id: artifact.id,
+  type: artifact.type,
+  icon: artifact.icon,
+  bacterias: artifact.bacterias.map(getBacteria),
+}));
+
+await writeJSONFile(artifacts, "../../lib/collections/artifacts");
+for (const artifact of artifacts) {
+  await copyImageFile(artifact.icon.spriteSheet, "../public/artifacts");
+}
