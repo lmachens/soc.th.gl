@@ -49,6 +49,19 @@
       {
         "bacteriaType": 3,
         "type": "SkillArchery1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 8,
@@ -66,6 +79,19 @@
       {
         "bacteriaType": 4,
         "type": "SkillArchery2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 8,
@@ -83,6 +109,19 @@
       {
         "bacteriaType": 5,
         "type": "SkillArchery3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 8,
@@ -155,6 +194,19 @@
       {
         "bacteriaType": 6,
         "type": "SkillCunning1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -184,6 +236,19 @@
       {
         "bacteriaType": 7,
         "type": "SkillCunning2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -213,6 +278,19 @@
       {
         "bacteriaType": 8,
         "type": "SkillCunning3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -291,6 +369,19 @@
       {
         "bacteriaType": 9,
         "type": "SkillGuard1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 4,
@@ -308,6 +399,19 @@
       {
         "bacteriaType": 10,
         "type": "SkillGuard2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 4,
@@ -325,6 +429,19 @@
       {
         "bacteriaType": 11,
         "type": "SkillGuard3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 4,
@@ -391,6 +508,19 @@
       {
         "bacteriaType": 12,
         "type": "SkillHandToHand1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 47,
@@ -408,6 +538,19 @@
       {
         "bacteriaType": 13,
         "type": "SkillHandToHand2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 47,
@@ -425,6 +568,19 @@
       {
         "bacteriaType": 14,
         "type": "SkillHandToHand3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 47,
@@ -497,6 +653,19 @@
       {
         "bacteriaType": 15,
         "type": "SkillPrepared1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 3,
@@ -514,6 +683,19 @@
       {
         "bacteriaType": 16,
         "type": "SkillPrepared2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 3,
@@ -531,6 +713,19 @@
       {
         "bacteriaType": 17,
         "type": "SkillPrepared3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 3,
@@ -597,6 +792,19 @@
       {
         "bacteriaType": 443,
         "type": "SkillArcana1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 31,
@@ -614,6 +822,19 @@
       {
         "bacteriaType": 444,
         "type": "SkillArcana2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 31,
@@ -631,6 +852,19 @@
       {
         "bacteriaType": 445,
         "type": "SkillArcana3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 31,
@@ -697,6 +931,19 @@
       {
         "bacteriaType": 447,
         "type": "SkillChaos1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 30,
@@ -714,6 +961,19 @@
       {
         "bacteriaType": 448,
         "type": "SkillChaos2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 30,
@@ -731,6 +991,19 @@
       {
         "bacteriaType": 449,
         "type": "SkillChaos3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 30,
@@ -797,6 +1070,19 @@
       {
         "bacteriaType": 450,
         "type": "SkillCreation1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 29,
@@ -814,6 +1100,19 @@
       {
         "bacteriaType": 451,
         "type": "SkillCreation2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 29,
@@ -831,6 +1130,19 @@
       {
         "bacteriaType": 452,
         "type": "SkillCreation3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 29,
@@ -897,6 +1209,19 @@
       {
         "bacteriaType": 453,
         "type": "SkillDestruction1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 32,
@@ -914,6 +1239,19 @@
       {
         "bacteriaType": 454,
         "type": "SkillDestruction2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 32,
@@ -931,6 +1269,19 @@
       {
         "bacteriaType": 455,
         "type": "SkillDestruction3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 32,
@@ -997,6 +1348,19 @@
       {
         "bacteriaType": 456,
         "type": "SkillOrder1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -1014,6 +1378,19 @@
       {
         "bacteriaType": 457,
         "type": "SkillOrder2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -1031,6 +1408,19 @@
       {
         "bacteriaType": 458,
         "type": "SkillOrder3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -1097,6 +1487,19 @@
       {
         "bacteriaType": 347,
         "type": "SkillCommand1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1114,6 +1517,19 @@
       {
         "bacteriaType": 348,
         "type": "SkillCommand2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1131,6 +1547,19 @@
       {
         "bacteriaType": 349,
         "type": "SkillCommand3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1148,6 +1577,19 @@
       {
         "bacteriaType": 350,
         "type": "SkillCommand4",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1165,6 +1607,19 @@
       {
         "bacteriaType": 351,
         "type": "SkillCommand5",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1182,6 +1637,19 @@
       {
         "bacteriaType": 352,
         "type": "SkillCommand6",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1199,6 +1667,19 @@
       {
         "bacteriaType": 353,
         "type": "SkillCommand7",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1216,6 +1697,19 @@
       {
         "bacteriaType": 354,
         "type": "SkillCommand8",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1233,6 +1727,19 @@
       {
         "bacteriaType": 355,
         "type": "SkillCommand9",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 19,
@@ -1396,6 +1903,19 @@
       {
         "bacteriaType": 380,
         "type": "SkillBrutal1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 1,
@@ -1413,6 +1933,19 @@
       {
         "bacteriaType": 381,
         "type": "SkillBrutal2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 1,
@@ -1479,6 +2012,19 @@
       {
         "bacteriaType": 383,
         "type": "SkillRigor1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 13,
@@ -1496,6 +2042,19 @@
       {
         "bacteriaType": 384,
         "type": "SkillRigor2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 13,
@@ -1562,6 +2121,19 @@
       {
         "bacteriaType": 386,
         "type": "SkillMarch1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 12,
@@ -1579,6 +2151,19 @@
       {
         "bacteriaType": 387,
         "type": "SkillMarch2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 12,
@@ -1596,6 +2181,19 @@
       {
         "bacteriaType": 388,
         "type": "SkillMarch3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 12,
@@ -1662,6 +2260,19 @@
       {
         "bacteriaType": 389,
         "type": "SkillMelee1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -1679,6 +2290,19 @@
       {
         "bacteriaType": 390,
         "type": "SkillMelee2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -1696,6 +2320,19 @@
       {
         "bacteriaType": 391,
         "type": "SkillMelee3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 5,
@@ -1768,6 +2405,19 @@
       {
         "bacteriaType": 392,
         "type": "SkillSpeedOfWinds1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 6,
@@ -1785,6 +2435,19 @@
       {
         "bacteriaType": 393,
         "type": "SkillSpeedOfWinds2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 6,
@@ -1857,6 +2520,19 @@
       {
         "bacteriaType": 395,
         "type": "SkillScouting1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 21,
@@ -1874,6 +2550,19 @@
       {
         "bacteriaType": 396,
         "type": "SkillScouting2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 21,
@@ -1891,6 +2580,19 @@
       {
         "bacteriaType": 397,
         "type": "SkillScouting3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 21,
@@ -1963,6 +2665,19 @@
       {
         "bacteriaType": 462,
         "type": "SkillLevy1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 17,
@@ -1980,6 +2695,19 @@
       {
         "bacteriaType": 463,
         "type": "SkillLevy2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 17,
@@ -2046,6 +2774,19 @@
       {
         "bacteriaType": 468,
         "type": "SkillMagicResistance1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 34,
@@ -2063,6 +2804,19 @@
       {
         "bacteriaType": 469,
         "type": "SkillMagicResistance2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 34,
@@ -2080,6 +2834,19 @@
       {
         "bacteriaType": 470,
         "type": "SkillMagicResistance3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 34,
@@ -2146,6 +2913,19 @@
       {
         "bacteriaType": 465,
         "type": "SkillChanneling1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 35,
@@ -2163,6 +2943,19 @@
       {
         "bacteriaType": 466,
         "type": "SkillChanneling2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 35,
@@ -2180,6 +2973,19 @@
       {
         "bacteriaType": 467,
         "type": "SkillChanneling3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 35,
@@ -2246,6 +3052,19 @@
       {
         "bacteriaType": 493,
         "type": "SkillRaider1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 37,
@@ -2263,6 +3082,19 @@
       {
         "bacteriaType": 494,
         "type": "SkillRaider2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 37,
@@ -2280,6 +3112,19 @@
       {
         "bacteriaType": 495,
         "type": "SkillRaider3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 37,
@@ -2346,6 +3191,19 @@
       {
         "bacteriaType": 876,
         "type": "SkillLearning1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 43,
@@ -2363,6 +3221,19 @@
       {
         "bacteriaType": 901,
         "type": "SkillLearning2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 43,
@@ -2380,6 +3251,19 @@
       {
         "bacteriaType": 902,
         "type": "SkillLearning3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 43,
@@ -2737,6 +3621,19 @@
       {
         "bacteriaType": 880,
         "type": "SkillRange1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 18,
@@ -2754,6 +3651,19 @@
       {
         "bacteriaType": 881,
         "type": "SkillRange2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 18,
@@ -3020,6 +3930,19 @@
       {
         "bacteriaType": 895,
         "type": "SkillFast1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 6,
@@ -3037,6 +3960,19 @@
       {
         "bacteriaType": 896,
         "type": "SkillFast2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 6,
@@ -3109,6 +4045,19 @@
       {
         "bacteriaType": 1111,
         "type": "SkillPositioning1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 7,
@@ -3126,6 +4075,19 @@
       {
         "bacteriaType": 1112,
         "type": "SkillPositioning2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 7,
@@ -3143,6 +4105,19 @@
       {
         "bacteriaType": 1113,
         "type": "SkillPositioning3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 7,
@@ -3209,6 +4184,19 @@
       {
         "bacteriaType": 913,
         "type": "SkillDiplomacy1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 45,
@@ -3226,6 +4214,19 @@
       {
         "bacteriaType": 914,
         "type": "SkillDiplomacy2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 45,
@@ -3243,6 +4244,19 @@
       {
         "bacteriaType": 915,
         "type": "SkillDiplomacy3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 45,
@@ -3309,6 +4323,19 @@
       {
         "bacteriaType": 1108,
         "type": "SkillEssenceBurst1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -3350,6 +4377,19 @@
       {
         "bacteriaType": 1109,
         "type": "SkillEssenceBurst2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -3391,6 +4431,19 @@
       {
         "bacteriaType": 1110,
         "type": "SkillEssenceBurst3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -3488,6 +4541,19 @@
             {
               "bacteriaType": 898,
               "type": "SkillShields1",
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": {
+                  "bacteriaType": 0,
+                  "duration": {
+                    "type": 0,
+                    "duration": 0
+                  }
+                },
+                "isStackable": 1,
+                "isPassable": 1
+              },
               "modifierData": [
                 {
                   "type": 7,
@@ -3515,6 +4581,19 @@
             {
               "bacteriaType": 899,
               "type": "SkillShields2",
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": {
+                  "bacteriaType": 0,
+                  "duration": {
+                    "type": 0,
+                    "duration": 0
+                  }
+                },
+                "isStackable": 1,
+                "isPassable": 1
+              },
               "modifierData": [
                 {
                   "type": 7,
@@ -3584,6 +4663,19 @@
       {
         "bacteriaType": 1122,
         "type": "SkillTutor1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 46,
@@ -3601,6 +4693,19 @@
       {
         "bacteriaType": 1123,
         "type": "SkillTutor2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 46,
@@ -3618,6 +4723,19 @@
       {
         "bacteriaType": 1124,
         "type": "SkillTutor3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 46,
@@ -3684,6 +4802,19 @@
       {
         "bacteriaType": 1120,
         "type": "SkillAttuned1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -3725,6 +4856,19 @@
       {
         "bacteriaType": 1121,
         "type": "SkillAttuned2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 28,
@@ -3815,6 +4959,19 @@
       {
         "bacteriaType": 1139,
         "type": "SkillEssenceLeech1",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 48,
@@ -3832,6 +4989,19 @@
       {
         "bacteriaType": 1140,
         "type": "SkillEssenceLeech2",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 48,
@@ -3849,6 +5019,19 @@
       {
         "bacteriaType": 1141,
         "type": "SkillEssenceLeech3",
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": {
+            "bacteriaType": 0,
+            "duration": {
+              "type": 0,
+              "duration": 0
+            }
+          },
+          "isStackable": 1,
+          "isPassable": 1
+        },
         "modifierData": [
           {
             "type": 48,
