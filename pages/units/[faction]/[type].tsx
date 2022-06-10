@@ -70,7 +70,8 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
           {unitType.bacterias.map((bacteria) => (
             <tr key={bacteria.bacteriaType}>
               <td>{bacteria.name}</td>
-              <td dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)} />
+              <div>{bacteria.description}</div>
+              <div dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)} />
             </tr>
           ))}
         </tbody>
@@ -131,11 +132,10 @@ export const getStaticProps = withStaticBase(async (context) => {
 });
 
 const sanitizeBacteriaData = (bacteria: BacteriaDTO) => {
-  if (bacteria.description === "") {
     return { __html: bacteria.modifierData
       .map((modifier) => modifier.description)
       .join(", ")
-  }}
+  }
 
   return { __html: bacteria.description }
 }
