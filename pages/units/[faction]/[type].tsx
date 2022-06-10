@@ -136,8 +136,6 @@ const sanitizeBacteriaData = (bacteria: BacteriaDTO) => {
       .map((modifier) => modifier.description)
       .join(", ")
   }
-
-  return { __html: bacteria.description }
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
