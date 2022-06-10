@@ -26,7 +26,7 @@ export const getSkill = (type: string, locale: string) => {
     lore: getTerm(`Skills/${skillSrc.type}/Lore`, locale),
     icon: skillSrc.icon,
     levels: skillSrc.levels.map((level, index) => ({
-      levelName: getTerm(`Common/Level`, locale, index + 1),
+      levelName: getTerm(`Common/Level`, locale, (index + 1).toString()),
       levelDescription: getTerm(
         `Skills/${skillSrc.type}/Level${index + 1}/Description`,
         locale
