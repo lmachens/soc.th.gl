@@ -3,6 +3,7 @@ import { SearchIcon } from "@primer/octicons-react";
 import { useRouter } from "next/router";
 import { ReactNode } from "react";
 import { CollectionLink } from "../../../lib/staticProps";
+import { getTerm } from "../../../lib/terms";
 
 type Props = {
   collectionLinks: CollectionLink[];
@@ -27,7 +28,7 @@ const SpotlightSearchProvider = ({ collectionLinks, children }: Props) => {
     <SpotlightProvider
       actions={actions}
       searchIcon={<SearchIcon size={18} />}
-      searchPlaceholder="Search documentation"
+      searchPlaceholder={ getTerm("SearchDocumentation", router.locale!) }
       shortcut={["mod + K", "mod + P", "/"]}
       highlightQuery
       transition={{

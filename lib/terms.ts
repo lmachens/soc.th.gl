@@ -1,10 +1,17 @@
-import termMap from "./collections/termMap.json";
+import siteTermMap from "./siteTermMap.json";
+import gameTermMap from "./collections/termMap.json";
 
 export type TermsDTO = {
   [key: string]: string;
 };
 
-const terms = termMap as unknown as {
+const siteTerms = siteTermMap as unknown as {
+  [term: string]: {
+    [locale: string]: string;
+  };
+};
+
+const gameTerms = gameTermMap as unknown as {
   [term: string]: {
     [locale: string]: string;
   };
@@ -31,9 +38,17 @@ export const getTerm = (
   let value: string | undefined;
   if (placeholder && typeof placeholder === "number") {
     const pluralForm = getPluralForm(locale, placeholder);
-    value = (terms[`${term}_${pluralForm}`] || terms[term])?.[locale];
+    value = (siteTerms[`${term}_${pluralForm}`] || siteTerms[term])?.[locale];
+    if(!value)
+    {
+      value = (gameTerms[`${term}_${pluralForm}`] || gameTerms[term])?.[locale];
+    }
   } else {
-    value = terms[term]?.[locale];
+    value = siteTerms[term]?.[locale];
+    if(!value)
+    {
+      value = gameTerms[term]?.[locale];
+    }
   }
 
   if (!value) {

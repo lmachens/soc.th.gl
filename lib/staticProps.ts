@@ -72,51 +72,51 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
 
     const collectionLinks: CollectionLink[] = [
       {
-        label: "Factions",
+        label: getTerm("Factions", locale!),
         docs: [
           {
             to: "/factions",
-            label: "All factions",
+            label: getTerm("AllFactions", locale!),
           },
           ...factions,
         ],
       },
       {
-        label: "Skills",
+        label: getTerm("Skills", locale!),
         docs: [
           {
             to: "/skills",
-            label: "All skills",
+            label: getTerm("AllSkills", locale!),
           },
           ...skills,
         ],
       },
       {
-        label: "Wielders",
+        label: getTerm("Wielders", locale!),
         docs: [
           {
             to: "/wielders",
-            label: "All wielders",
+            label: getTerm("AllWielders", locale!),
           },
           ...wielders,
         ],
       },
       {
-        label: "Units",
+        label: getTerm("Units", locale!),
         docs: [
           {
             to: "/units",
-            label: "All units",
+            label: getTerm("AllUnits", locale!),
           },
           ...units,
         ],
       },
       {
-        label: "Artifacts",
+        label: getTerm("Artifacts", locale!),
         docs: [
           {
             to: "/artifacts",
-            label: "All artifacts",
+            label: getTerm("AllArtifacts", locale!),
           },
           ...artifacts,
         ],
