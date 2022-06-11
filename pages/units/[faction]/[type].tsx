@@ -70,8 +70,10 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
           {unitType.bacterias.map((bacteria) => (
             <tr key={bacteria.bacteriaType}>
               <td>{bacteria.name}</td>
-              <div>{bacteria.description}</div>
-              <div dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)} />
+              <td>
+                <div>{bacteria.description}</div>
+                <div dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)} />
+              </td>
             </tr>
           ))}
         </tbody>
