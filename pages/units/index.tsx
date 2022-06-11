@@ -27,7 +27,7 @@ const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
             image={<SpriteSheet spriteSheet={unit.vanilla.sprite} />}
             name={unit.vanilla.name}
             description={unit.vanilla.description}
-            href={`/units/${unit.vanilla.languageKey}`}
+            href={`/units/${unit.faction}/${unit.vanilla.languageKey}`}
           />
         ))}
       </SimpleGrid>
