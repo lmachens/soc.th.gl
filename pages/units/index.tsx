@@ -18,7 +18,7 @@ const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
         {units.map((unit) => (
           <Grid.Col key={unit.vanilla.languageKey} sx={{ flexBasis: "auto" }}>
             <PopoverLink
-              href={`/units/${unit.vanilla.languageKey}`}
+              href={`/units/${unit.faction}/${unit.vanilla.languageKey}`}
               popover={
                 <>
                   <Title order={4}>{unit.vanilla.name}</Title>
