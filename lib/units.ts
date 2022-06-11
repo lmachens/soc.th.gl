@@ -83,9 +83,12 @@ export const getUnit = (
             name: getTerm(
               "Units/Tooltip/TroopAbility",
               locale,
-              getTerm(`Units/Abilities/Wait`, locale)
+              getTerm(`Units/Abilities/${type.troopAbility.type}`, locale)
             ),
-            description: getTerm(`Units/Abilities/Wait/Description`, locale),
+            description: getTerm(
+              `Units/Abilities/${type.troopAbility.type}/Description`,
+              locale
+            ),
             bacterias: type.troopAbility.bacterias.map((bacteria) =>
               getLocaleBacteria(bacteria, locale)
             ),

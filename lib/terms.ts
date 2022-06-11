@@ -59,10 +59,6 @@ export const getTerm = (
       }
     }
   }
-
-  value = value
-    .replace("<hl>", `<span class="highlight">`)
-    .replace("</hl>", "</span>");
   return value;
 };
 
