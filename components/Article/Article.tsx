@@ -26,9 +26,11 @@ const Article = ({ image, name, description, href, children }: Props) => {
       {image}
       <Stack>
         <Title order={3}>{name}</Title>
-        <Text size="sm" sx={{ fontStyle: "italic" }}>
-          {description}
-        </Text>
+        <Text
+          size="sm"
+          sx={{ fontStyle: "italic" }}
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
         {children}
         <AppLink href={href}>
           <MilestoneIcon /> Learn more

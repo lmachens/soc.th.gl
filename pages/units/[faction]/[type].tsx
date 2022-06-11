@@ -63,7 +63,21 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
           {unitType.troopAbility && (
             <tr>
               <td>{unitType.troopAbility.name}</td>
-              <td>{unitType.troopAbility.description}</td>
+              <td>
+                {unitType.troopAbility.description && (
+                  <div>{unitType.troopAbility.description}</div>
+                )}
+                {unitType.troopAbility.bacterias.map((bacteria) => (
+                  <div
+                    key={bacteria.bacteriaType}
+                    dangerouslySetInnerHTML={{
+                      __html: bacteria.modifierData
+                        .map((modifier) => modifier.description)
+                        .join("<br />"),
+                    }}
+                  />
+                ))}
+              </td>
             </tr>
           )}
           {unitType.bacterias.map((bacteria) => (
