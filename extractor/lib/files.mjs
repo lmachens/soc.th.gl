@@ -43,8 +43,11 @@ export const readYAMLFile = async (path) => {
     .replaceAll(/_/g, "")
     .replaceAll("''", "")
     .replaceAll(/[^']\n\s+\n/g, "")
-    .replaceAll(/- '.+[^']\n(.|\n).+?'/g, "- ")
-    .replaceAll(/- '.+[^']\n(.|\n|\t|\s)+?'/g, (a) => a.replaceAll("\n", ""));
+    .replaceAll(/- '.+[^']\n(.|\n|\t)+?'/g, (a) =>
+      a.replaceAll("\n", "<br>").replaceAll("\t", "")
+    )
+    .replaceAll("<hl>", `<span class="highlight">`)
+    .replaceAll("</hl>", "</span>");
   const content = yaml.parse(cleanFile);
   const obj = camelcaseKeys(content, { deep: true });
   return obj.monoBehaviour || obj;
