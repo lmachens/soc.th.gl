@@ -15,7 +15,7 @@ const NavbarMainLink = ({ href, icon, children }: Props) => {
   const { classes, cx } = useStyles();
 
   return (
-    <Link href={href} passHref>
+    <Link href={href} passHref prefetch={false}>
       <Box
         component="a"
         className={cx(classes.mainLink, asPath === "/" && classes.active)}

@@ -6,6 +6,9 @@ const factionsSrc = await readJSONFile("./out/faction.json");
 const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
 const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
 const artifactsSrc = await readJSONFile("./out/artifact.json");
+const termMapSrc = await readJSONFile("./out/termMap.json");
+
+await writeJSONFile(termMapSrc, "../../lib/collections/termMap");
 
 const factions = factionsSrc.map((factionSrc) => ({
   type: factionSrc.type,

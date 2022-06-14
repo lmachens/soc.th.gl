@@ -8,7 +8,7 @@ type Props = {
 };
 const AppLink = ({ href, children }: Props) => {
   return (
-    <Link href={href} passHref>
+    <Link href={href} passHref prefetch={false}>
       <Anchor color="gray">{children}</Anchor>
     </Link>
   );

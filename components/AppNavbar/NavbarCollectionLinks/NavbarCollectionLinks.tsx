@@ -27,7 +27,7 @@ const NavbarCollectionLinks = ({ collectionLink }: Props) => {
   );
 
   const docLinks = collectionLink.docs.map((doc) => (
-    <Link key={doc.to} href={doc.to} passHref>
+    <Link key={doc.to} href={doc.to} passHref prefetch={false}>
       <Text
         component="a"
         className={cx(classes.link, doc.to === asPath && classes.linkActive)}
