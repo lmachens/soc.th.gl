@@ -71,11 +71,7 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
                 {unitType.troopAbility.bacterias.map((bacteria) => (
                   <div
                     key={bacteria.bacteriaType}
-                    dangerouslySetInnerHTML={{
-                      __html: bacteria.modifierData
-                        .map((modifier) => modifier.description)
-                        .join("<br />"),
-                    }}
+                    dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)}
                   />
                 ))}
               </td>
@@ -86,7 +82,8 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
               <td>{bacteria.name}</td>
               <td>
                 <div>{bacteria.description}</div>
-                <div dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)} />
+                <div dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)}
+              />
               </td>
             </tr>
           ))}
@@ -150,7 +147,7 @@ export const getStaticProps = withStaticBase(async (context) => {
 const sanitizeBacteriaData = (bacteria: BacteriaDTO) => {
     return { __html: bacteria.modifierData
       .map((modifier) => modifier.description)
-      .join(", ")
+      .join("<br />")
   }
 }
 
