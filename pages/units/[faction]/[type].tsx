@@ -6,6 +6,7 @@ import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { getUnit, getUnits, UnitDTO, UnitTypeDTO } from "../../../lib/units";
 import Head from "next/head";
 import { getTerm, TermsDTO } from "../../../lib/terms";
+import { BacteriaDTO } from "../../../lib/bacterias";
 
 const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
   unit,
@@ -70,11 +71,7 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
                 {unitType.troopAbility.bacterias.map((bacteria) => (
                   <div
                     key={bacteria.bacteriaType}
-                    dangerouslySetInnerHTML={{
-                      __html: bacteria.modifierData
-                        .map((modifier) => modifier.description)
-                        .join("<br />"),
-                    }}
+                    dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)}
                   />
                 ))}
               </td>
@@ -85,13 +82,8 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
               <td>{bacteria.name}</td>
               <td>
                 <div>{bacteria.description}</div>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: bacteria.modifierData
-                      .map((modifier) => modifier.description)
-                      .join("<br />"),
-                  }}
-                />
+                <div dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)}
+              />
               </td>
             </tr>
           ))}
@@ -151,6 +143,13 @@ export const getStaticProps = withStaticBase(async (context) => {
     revalidate: false,
   };
 });
+
+const sanitizeBacteriaData = (bacteria: BacteriaDTO) => {
+    return { __html: bacteria.modifierData
+      .map((modifier) => modifier.description)
+      .join("<br />")
+  }
+}
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const units = getUnits("en").map((unit) => ({
