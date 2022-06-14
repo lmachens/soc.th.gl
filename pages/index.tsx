@@ -1,21 +1,134 @@
-import { Stack, Text, Title } from "@mantine/core";
+import {
+  Anchor,
+  Blockquote,
+  Box,
+  Button,
+  Group,
+  SimpleGrid,
+  Stack,
+  Text,
+  Title,
+} from "@mantine/core";
 import { NextPage } from "next";
 import Head from "next/head";
+import Article from "../components/Article/Article";
 import { withStaticBase } from "../lib/staticProps";
+import Markdown from "markdown-to-jsx";
 
-const Home: NextPage<{}> = () => {
+const Home: NextPage<{ releases: GitHubRelease[] }> = ({ releases }) => {
   return (
     <>
       <Head>
-        <title>SoC.gg</title>
-        <meta name="description" content="Songs of Conquest Fansite" />
+        <title>
+          Songs of Conquest factions, units, skills, wielders - SoC.gg
+        </title>
+        <meta
+          name="description"
+          content="SoC.gg contains all the information about factions, units, skills, wielders and more for the turn-based strategy game Songs of Conquest"
+        />
       </Head>
       <Stack>
-        <Title order={2}>Welcome Adventurer!</Title>
-        <Text>This site is under construction.</Text>
+        <Title order={2} color="dimmed">
+          A{" "}
+          <Text color="brand" component="span" inherit>
+            Songs of Conquest
+          </Text>{" "}
+          database
+        </Title>
         <Text>
-          But you can already find factions, skills, wielders and units here.
+          Find all the information you need about factions, units, skills,
+          wielders and more.
         </Text>
+        <SimpleGrid
+          breakpoints={[
+            { minWidth: "xs", cols: 1 },
+            { minWidth: "sm", cols: 2 },
+            { minWidth: "lg", cols: 5 },
+          ]}
+        >
+          <Article
+            name="Factions"
+            description="Four factions representing units, buildings and wielders."
+            href={`/factions`}
+          />
+          <Article
+            name="Skills"
+            description="Skills are special actions performed in combat."
+            href={`/skills`}
+          />
+          <Article
+            name="Units"
+            description="Each faction have different units with unique abilities."
+            href={`/units`}
+          />
+          <Article
+            name="Wielders"
+            description="Your wielder is the commander of your units."
+            href={`/wielders`}
+          />
+          <Article
+            name="Artifacts"
+            description="Improve your wielder stats with these artifacts."
+            href={`/artifacts`}
+          />
+        </SimpleGrid>
+        <Blockquote
+          cite={
+            <Anchor
+              target="_blank"
+              href="https://www.songsofconquest.com/"
+              color="dimmed"
+            >
+              – Official Website
+            </Anchor>
+          }
+        >
+          <Anchor target="_blank" href="https://www.songsofconquest.com/">
+            Songs of Conquest
+          </Anchor>{" "}
+          is a turn-based strategy game inspired by 90s classics. Lead powerful
+          magicians called Wielders and venture to lands unknown. Wage battle
+          against armies that dare oppose you and hunt for powerful artifacts.
+          The world is ripe for the taking – seize it!
+        </Blockquote>
+        <Group>
+          <Button
+            size="md"
+            color="gray"
+            component="a"
+            target="blank"
+            href="https://discord.com/invite/NTZu8Px"
+          >
+            Join Discord
+          </Button>
+          <Button
+            size="md"
+            color="gray"
+            component="a"
+            target="blank"
+            href="https://github.com/lmachens/soc.gg"
+          >
+            Contribute on GitHub
+          </Button>
+        </Group>
+        <Title order={2}>Changelog</Title>
+        {releases.map((release) => (
+          <Box
+            component="article"
+            key={release.id}
+            sx={(theme) => ({
+              a: {
+                color: theme.colors.brand[5],
+              },
+            })}
+          >
+            <Title order={4}>{release.name}</Title>
+            <aside>{new Date(release.published_at).toLocaleDateString()}</aside>
+            <Text>
+              <Markdown>{release.body}</Markdown>
+            </Text>
+          </Box>
+        ))}
       </Stack>
     </>
   );
@@ -23,9 +136,23 @@ const Home: NextPage<{}> = () => {
 
 export default Home;
 
+type GitHubRelease = {
+  id: number;
+  name: string;
+  body: string;
+  published_at: string;
+};
 export const getStaticProps = withStaticBase(async () => {
+  const response = await fetch(
+    "https://api.github.com/repos/lmachens/soc.gg/releases"
+  );
+  const allReleases = (await response.json()) as GitHubRelease[];
+  const releases = allReleases.filter((release: any) => !release.prerelease);
+
   return {
-    props: {},
+    props: {
+      releases,
+    },
     revalidate: false,
   };
 });

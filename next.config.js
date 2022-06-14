@@ -15,15 +15,6 @@ const nextConfig = {
     // a non-locale prefixed path e.g. `/hello`
     defaultLocale: "en",
   },
-  async redirects() {
-    return [
-      {
-        source: "/",
-        destination: "/factions",
-        permanent: false,
-      },
-    ];
-  },
 };
 
 module.exports = nextConfig;
