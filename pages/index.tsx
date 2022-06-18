@@ -9,13 +9,18 @@ import {
   Text,
   Title,
 } from "@mantine/core";
-import { NextPage } from "next";
 import Head from "next/head";
 import Article from "../components/Article/Article";
 import { withStaticBase } from "../lib/staticProps";
 import Markdown from "markdown-to-jsx";
+import BannerSrc from "../public/banner.jpg";
+import LogoSrc from "../public/soc_logo.png";
+import Image from "next/image";
+import { NextPageWithBanner } from "./_app";
 
-const Home: NextPage<{ releases: GitHubRelease[] }> = ({ releases }) => {
+const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
+  releases,
+}) => {
   return (
     <>
       <Head>
@@ -27,15 +32,9 @@ const Home: NextPage<{ releases: GitHubRelease[] }> = ({ releases }) => {
           content="SoC.gg contains all the information about factions, units, skills, wielders and more for the turn-based strategy game Songs of Conquest"
         />
       </Head>
+
       <Stack>
-        <Title order={2} color="dimmed">
-          A{" "}
-          <Text color="brand" component="span" inherit>
-            Songs of Conquest
-          </Text>{" "}
-          database
-        </Title>
-        <Text>
+        <Text size="lg">
           Find all the information you need about factions, units, skills,
           wielders and more.
         </Text>
@@ -145,6 +144,38 @@ const Home: NextPage<{ releases: GitHubRelease[] }> = ({ releases }) => {
     </>
   );
 };
+
+Home.getBanner = () => (
+  <>
+    <Box
+      sx={{
+        position: "absolute",
+        inset: 0,
+        display: "grid",
+        placeContent: "center",
+        zIndex: 1,
+      }}
+    >
+      <Image
+        src={LogoSrc}
+        alt="Songs of Conquest Database"
+        width={292}
+        height={143}
+      />
+    </Box>
+    <Image
+      src={BannerSrc}
+      alt="Splashart of Songs of Conquest"
+      layout="fill"
+      objectFit="cover"
+      objectPosition="center 20%"
+      placeholder="blur"
+      style={{
+        maxWidth: 1320,
+      }}
+    />
+  </>
+);
 
 export default Home;
 
