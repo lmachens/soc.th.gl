@@ -125,7 +125,19 @@ const Home: NextPage<{ releases: GitHubRelease[] }> = ({ releases }) => {
             <Title order={4}>{release.name}</Title>
             <aside>{new Date(release.published_at).toLocaleDateString()}</aside>
             <Text>
-              <Markdown>{release.body}</Markdown>
+              <Markdown
+                options={{
+                  overrides: {
+                    a: {
+                      props: {
+                        target: "_blank",
+                      },
+                    },
+                  },
+                }}
+              >
+                {release.body}
+              </Markdown>
             </Text>
           </Box>
         ))}
@@ -136,18 +148,39 @@ const Home: NextPage<{ releases: GitHubRelease[] }> = ({ releases }) => {
 
 export default Home;
 
+const santizeReleaseBody = (body: string) =>
+  body
+    .replace(
+      /https:\/\/github.com\/lmachens\/soc.gg\/pull\/(\d+)/g,
+      (url, id) => `[#${id}](${url})`
+    )
+    .replace(
+      /https:\/\/github.com\/lmachens\/soc.gg\/compare\/(v\d+.\d+.\d+\.\.\.v\d+.\d+.\d+)/g,
+      (url, versions) => `[${versions}](${url})`
+    )
+    .replace(
+      /https:\/\/github.com\/lmachens\/soc.gg\/commits\/(v\d+.\d+.\d+)/g,
+      (url, version) => `[${version}](${url})`
+    );
+
 type GitHubRelease = {
   id: number;
   name: string;
   body: string;
   published_at: string;
+  prerelease: boolean;
 };
 export const getStaticProps = withStaticBase(async () => {
   const response = await fetch(
     "https://api.github.com/repos/lmachens/soc.gg/releases"
   );
   const allReleases = (await response.json()) as GitHubRelease[];
-  const releases = allReleases.filter((release: any) => !release.prerelease);
+  const releases = allReleases
+    .filter((release) => !release.prerelease)
+    .map((release) => ({
+      ...release,
+      body: santizeReleaseBody(release.body),
+    }));
 
   return {
     props: {
