@@ -6,7 +6,7 @@ import AppLink from "../AppLink/AppLink";
 import { getTerm } from "../../lib/terms";
 
 type Props = {
-  image: ReactNode;
+  image?: ReactNode;
   name: string;
   description: string;
   href: string;
@@ -20,7 +20,7 @@ const Article = ({ image, name, description, href, children }: Props) => {
       component="article"
       sx={(theme) => ({
         display: "grid",
-        gridTemplateColumns: "150px 1fr",
+        gridTemplateColumns: image ? "150px 1fr" : "1fr",
         gap: theme.spacing.lg,
         [theme.fn.smallerThan("xs")]: {
           gridTemplateColumns: "auto",
@@ -30,9 +30,11 @@ const Article = ({ image, name, description, href, children }: Props) => {
       {image}
       <Stack>
         <Title order={3}>{name}</Title>
-        <Text size="sm" sx={{ fontStyle: "italic" }}>
-          {description}
-        </Text>
+        <Text
+          size="sm"
+          sx={{ fontStyle: "italic" }}
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
         {children}
         <AppLink href={href}>
           <MilestoneIcon /> { getTerm("LearnMore", locale!) }

@@ -1,15 +1,18 @@
 import { Anchor } from "@mantine/core";
 import Link from "next/link";
-import { ReactNode } from "react";
+import { CSSProperties, ReactNode } from "react";
 
 type Props = {
   href: string;
   children: ReactNode;
+  style?: CSSProperties;
 };
-const AppLink = ({ href, children }: Props) => {
+const AppLink = ({ href, children, style }: Props) => {
   return (
     <Link href={href} passHref prefetch={false}>
-      <Anchor color="gray">{children}</Anchor>
+      <Anchor color="gray" style={style}>
+        {children}
+      </Anchor>
     </Link>
   );
 };

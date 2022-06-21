@@ -6,6 +6,7 @@ import { HeaderControl } from "./HeaderControl/HeaderControl";
 import Image from "next/image";
 import LogoSmall from "../../public/logo_small.png";
 import { getTerm } from "../../lib/terms";
+import AppLink from "../AppLink/AppLink";
 
 type Props = {
   openedBurger: boolean;
@@ -38,12 +39,14 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
             mr="xl"
           />
         </MediaQuery>
-        <Image src={LogoSmall} alt="SOC.GG" />
+        <AppLink href="/" style={{ display: "flex" }}>
+          <Image src={LogoSmall} alt="SOC.GG" />
+        </AppLink>
       </Box>
       <Group spacing="xs">
         <HeaderControl
           link="https://discord.com/invite/NTZu8Px"
-          tooltip={ getTerm("DiscordToolTip", locale!) }
+          tooltip={getTerm("DiscordToolTip", locale!)}
           variant="discord"
         >
           <DiscordIcon size={20} />
@@ -51,7 +54,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
 
         <HeaderControl
           link="https://github.com/lmachens/soc.gg"
-          tooltip={ getTerm("GithubToolTip", locale!) }
+          tooltip={getTerm("GithubToolTip", locale!)}
         >
           <MarkGithubIcon size={20} />
         </HeaderControl>

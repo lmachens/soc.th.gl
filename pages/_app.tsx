@@ -2,10 +2,19 @@ import { AppProps } from "next/app";
 import Head from "next/head";
 import { Global, MantineProvider } from "@mantine/core";
 import AppLayout from "../components/AppLayout/AppLayout";
-import { useEffect } from "react";
+import { ReactNode, useEffect } from "react";
 import { initPlausible } from "../lib/stats";
+import { NextPage } from "next";
 
-export default function App(props: AppProps) {
+export type NextPageWithBanner<T = {}> = NextPage<T> & {
+  getBanner?: () => ReactNode;
+};
+
+type AppPropsWithBanner = AppProps & {
+  Component: NextPageWithBanner;
+};
+
+export default function App(props: AppPropsWithBanner) {
   const { Component, pageProps } = props;
 
   useEffect(() => {
@@ -67,7 +76,10 @@ export default function App(props: AppProps) {
             },
           })}
         />
-        <AppLayout collectionLinks={pageProps.collectionLinks}>
+        <AppLayout
+          collectionLinks={pageProps.collectionLinks}
+          banner={Component.getBanner?.()}
+        >
           <Component {...pageProps} />
         </AppLayout>
       </MantineProvider>

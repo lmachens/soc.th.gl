@@ -1,4 +1,4 @@
-import { AppShell, Container } from "@mantine/core";
+import { AppShell, Box, Container } from "@mantine/core";
 import { useRouter } from "next/router";
 import { ReactNode, useEffect, useState } from "react";
 import { CollectionLink } from "../../lib/staticProps";
@@ -10,8 +10,9 @@ import SpotlightSearchProvider from "./SpotlightSearchProvider/SpotlightSearchPr
 type Props = {
   collectionLinks: CollectionLink[];
   children: ReactNode;
+  banner?: ReactNode;
 };
-const AppLayout = ({ collectionLinks, children }: Props) => {
+const AppLayout = ({ collectionLinks, children, banner }: Props) => {
   const [openedNavbar, setOpenedNavbar] = useState(false);
   const { asPath } = useRouter();
 
@@ -34,8 +35,21 @@ const AppLayout = ({ collectionLinks, children }: Props) => {
         navbar={
           <AppNavbar opened={openedNavbar} collectionLinks={collectionLinks} />
         }
+        padding={0}
       >
-        <Container size="xl">{children}</Container>
+        {banner && (
+          <Box
+            sx={{
+              position: "relative",
+              height: 300,
+            }}
+          >
+            {banner}
+          </Box>
+        )}
+        <Container p="md" size="xl">
+          {children}
+        </Container>
       </AppShell>
     </SpotlightSearchProvider>
   );
