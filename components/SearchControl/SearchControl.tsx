@@ -4,9 +4,11 @@ import { useSpotlight } from "@mantine/spotlight";
 import { SearchIcon } from "@primer/octicons-react";
 import Shortcut from "./Shortcut";
 import { ClientOnly } from "../ClientOnly/ClientOnly";
+import { useTerms } from "../Terms/Terms";
 
 export function SearchControl(props: React.ComponentPropsWithoutRef<"button">) {
   const spotlight = useSpotlight();
+  const terms = useTerms();
 
   return (
     <UnstyledButton
@@ -30,7 +32,7 @@ export function SearchControl(props: React.ComponentPropsWithoutRef<"button">) {
         <Group spacing="xs">
           <SearchIcon size={14} />
           <Text size="sm" color="dimmed">
-            Search
+            {terms.Search}
           </Text>
         </Group>
         <ClientOnly>{() => <Shortcut />}</ClientOnly>

@@ -1,7 +1,14 @@
+import siteTermMap from "./siteTermMap.json";
 import termMap from "./collections/termMap.json";
 
 export type TermsDTO = {
   [key: string]: string;
+};
+
+const siteTerms = siteTermMap as unknown as {
+  [term: string]: {
+    [locale: string]: string;
+  };
 };
 
 const terms = termMap as unknown as {
@@ -21,6 +28,15 @@ const PERCENTAGE_BASED_MODIFIERS = [
   "CommanderTutorPercent",
   "TroopDamageMultiplier",
 ];
+
+export const getSiteTerm = (term: string, locale: string) => {
+  let value = siteTerms[term]?.[locale] || siteTerms[term]?.en;
+  if (!value) {
+    console.warn(`Can not find ${term} - ${locale}`);
+    value = "";
+  }
+  return value;
+};
 
 export const getTerm = (
   term: string,
@@ -59,6 +75,7 @@ export const getTerm = (
       }
     }
   }
+
   return value;
 };
 

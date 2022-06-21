@@ -3,7 +3,7 @@ import { getArtifacts } from "./artifacts";
 
 import { getFactions } from "./factions";
 import { getSkills } from "./skills";
-import { getTerm } from "./terms";
+import { getSiteTerm, getTerm, TermsDTO } from "./terms";
 import { getUnits } from "./units";
 import { getWielders } from "./wielders";
 
@@ -20,12 +20,20 @@ const sortByLabel = (a: { label: string }, b: { label: string }) =>
   a.label.localeCompare(b.label);
 
 export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
-  const getStaticPropsWithBase: GetStaticProps<T> = async (context) => {
+  const getStaticPropsWithBase: GetStaticProps<
+    | (T & {
+        collectionLinks: CollectionLink[];
+        terms: TermsDTO;
+      })
+    | T
+  > = async (context) => {
     const propsResult = await getStaticProps(context);
-    const result = {
-      props: {},
-      ...propsResult,
-    };
+    if (
+      (propsResult as { notFound: true; revalidate?: number | boolean })
+        .notFound
+    ) {
+      return propsResult;
+    }
 
     const locale = context.locale!;
     const factions = getFactions(locale)
@@ -72,59 +80,83 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
 
     const collectionLinks: CollectionLink[] = [
       {
-        label: "Factions",
+        label: getSiteTerm("Factions", locale),
         docs: [
           {
             to: "/factions",
-            label: "All factions",
+            label: getSiteTerm("AllFactions", locale),
           },
           ...factions,
         ],
       },
       {
-        label: "Skills",
+        label: getSiteTerm("Skills", locale),
         docs: [
           {
             to: "/skills",
-            label: "All skills",
+            label: getSiteTerm("AllSkills", locale),
           },
           ...skills,
         ],
       },
       {
-        label: "Wielders",
+        label: getSiteTerm("Wielders", locale),
         docs: [
           {
             to: "/wielders",
-            label: "All wielders",
+            label: getSiteTerm("AllWielders", locale),
           },
           ...wielders,
         ],
       },
       {
-        label: "Units",
+        label: getSiteTerm("Units", locale),
         docs: [
           {
             to: "/units",
-            label: "All units",
+            label: getSiteTerm("AllUnits", locale),
           },
           ...units,
         ],
       },
       {
-        label: "Artifacts",
+        label: getSiteTerm("Artifacts", locale),
         docs: [
           {
             to: "/artifacts",
-            label: "All artifacts",
+            label: getSiteTerm("AllArtifacts", locale),
           },
           ...artifacts,
         ],
       },
     ];
 
-    // @ts-ignore
-    result.props.collectionLinks = collectionLinks;
+    // Terms loaded for every page
+    const terms: TermsDTO = {
+      DiscordTooltip: getSiteTerm("DiscordTooltip", locale),
+      GitHubTooltip: getSiteTerm("GitHubTooltip", locale),
+      LearnMore: getSiteTerm("LearnMore", locale),
+      Search: getSiteTerm("Search", locale),
+    };
+
+    const pagePropsResult = propsResult as {
+      props: T;
+      revalidate?: number | boolean;
+    };
+    const result: {
+      props: T & {
+        collectionLinks: CollectionLink[];
+        terms: TermsDTO;
+      };
+      revalidate?: number | boolean;
+    } = {
+      props: {
+        ...pagePropsResult.props,
+        collectionLinks,
+        terms,
+      },
+      revalidate: pagePropsResult.revalidate,
+    };
 
     return result;
   };

@@ -7,11 +7,10 @@ import { getUnit, getUnits, UnitDTO, UnitTypeDTO } from "../../../lib/units";
 import Head from "next/head";
 import { getTerm, TermsDTO } from "../../../lib/terms";
 import { BacteriaDTO } from "../../../lib/bacterias";
+import { useTerms } from "../../../components/Terms/Terms";
 
-const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
-  unit,
-  terms,
-}) => {
+const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
+  const terms = useTerms();
   const renderType = (unitType: UnitTypeDTO) => (
     <>
       <Stack>
@@ -82,8 +81,7 @@ const Unit: NextPage<{ unit: UnitDTO; terms: TermsDTO }> = ({
               <td>{bacteria.name}</td>
               <td>
                 <div>{bacteria.description}</div>
-                <div dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)}
-              />
+                <div dangerouslySetInnerHTML={sanitizeBacteriaData(bacteria)} />
               </td>
             </tr>
           ))}
@@ -145,11 +143,12 @@ export const getStaticProps = withStaticBase(async (context) => {
 });
 
 const sanitizeBacteriaData = (bacteria: BacteriaDTO) => {
-    return { __html: bacteria.modifierData
+  return {
+    __html: bacteria.modifierData
       .map((modifier) => modifier.description)
-      .join("<br />")
-  }
-}
+      .join("<br />"),
+  };
+};
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const units = getUnits("en").map((unit) => ({

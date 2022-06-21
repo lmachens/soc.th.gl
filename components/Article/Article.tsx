@@ -2,6 +2,7 @@ import { Box, Stack, Text, Title } from "@mantine/core";
 import { MilestoneIcon } from "@primer/octicons-react";
 import { ReactNode } from "react";
 import AppLink from "../AppLink/AppLink";
+import { useTerms } from "../Terms/Terms";
 
 type Props = {
   image?: ReactNode;
@@ -11,6 +12,8 @@ type Props = {
   children?: ReactNode;
 };
 const Article = ({ image, name, description, href, children }: Props) => {
+  const terms = useTerms();
+
   return (
     <Box
       component="article"
@@ -33,7 +36,7 @@ const Article = ({ image, name, description, href, children }: Props) => {
         />
         {children}
         <AppLink href={href}>
-          <MilestoneIcon /> Learn more
+          <MilestoneIcon /> {terms.LearnMore}
         </AppLink>
       </Stack>
     </Box>

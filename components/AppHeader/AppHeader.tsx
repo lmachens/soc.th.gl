@@ -5,12 +5,15 @@ import { HeaderControl } from "./HeaderControl/HeaderControl";
 import Image from "next/image";
 import LogoSmall from "../../public/logo_small.png";
 import AppLink from "../AppLink/AppLink";
+import { useTerms } from "../Terms/Terms";
 
 type Props = {
   openedBurger: boolean;
   onBurgerClick: () => void;
 };
 const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
+  const terms = useTerms();
+
   return (
     <Header
       height={70}
@@ -43,7 +46,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
       <Group spacing="xs">
         <HeaderControl
           link="https://discord.com/invite/NTZu8Px"
-          tooltip="Join the community"
+          tooltip={terms.DiscordTooltip}
           variant="discord"
         >
           <DiscordIcon size={20} />
@@ -51,7 +54,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
 
         <HeaderControl
           link="https://github.com/lmachens/soc.gg"
-          tooltip="Contribute or give feedback"
+          tooltip={terms.GitHubTooltip}
         >
           <MarkGithubIcon size={20} />
         </HeaderControl>
