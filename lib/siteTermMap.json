@@ -1,12 +1,11 @@
 {
-  "Search":
-  {
+  "Search": {
     "en": "Search",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Suche",
     "it": null,
     "pl": null,
     "es": null,
@@ -16,31 +15,13 @@
     "pt-BR": "Busca",
     "uk": null
   },
-  "SearchDocumentation":
-  {
-    "en": "Search documentation",
-    "sv": null,
-    "ru": null,
-    "cs": null,
-    "fr": null,
-    "de": null,
-    "it": null,
-    "pl": null,
-    "es": null,
-    "zh-CN": null,
-    "ja": null,
-    "ko": null,
-    "pt-BR": "Buscar documentação",
-    "uk": null
-  },
-  "LearnMore":
-  {
+  "LearnMore": {
     "en": "Learn More",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Mehr Details",
     "it": null,
     "pl": null,
     "es": null,
@@ -50,14 +31,13 @@
     "pt-BR": "Saiba Mais",
     "uk": null
   },
-  "Factions":
-  {
+  "Factions": {
     "en": "Factions",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Fraktionen",
     "it": null,
     "pl": null,
     "es": null,
@@ -67,14 +47,13 @@
     "pt-BR": "Facções",
     "uk": null
   },
-  "AllFactions":
-  {
+  "AllFactions": {
     "en": "All Factions",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Alle Fraktionen",
     "it": null,
     "pl": null,
     "es": null,
@@ -84,14 +63,13 @@
     "pt-BR": "Todas as Facções",
     "uk": null
   },
-  "Skills":
-  {
+  "Skills": {
     "en": "Skills",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Fertigkeiten",
     "it": null,
     "pl": null,
     "es": null,
@@ -101,14 +79,13 @@
     "pt-BR": "Habilidades",
     "uk": null
   },
-  "AllSkills":
-  {
+  "AllSkills": {
     "en": "All Skills",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Alle Fertigkeiten",
     "it": null,
     "pl": null,
     "es": null,
@@ -118,14 +95,13 @@
     "pt-BR": "Todas as Habilidades",
     "uk": null
   },
-  "Wielders":
-  {
+  "Wielders": {
     "en": "Wielders",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Hüter",
     "it": null,
     "pl": null,
     "es": null,
@@ -135,14 +111,13 @@
     "pt-BR": "Portadores",
     "uk": null
   },
-  "AllWielders":
-  {
+  "AllWielders": {
     "en": "All Wielders",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Alle Hüter",
     "it": null,
     "pl": null,
     "es": null,
@@ -152,14 +127,13 @@
     "pt-BR": "Todos os Portadores",
     "uk": null
   },
-  "Units":
-  {
+  "Units": {
     "en": "Units",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Einheiten",
     "it": null,
     "pl": null,
     "es": null,
@@ -169,14 +143,13 @@
     "pt-BR": "Unidades",
     "uk": null
   },
-  "AllUnits":
-  {
+  "AllUnits": {
     "en": "All Units",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Alle Einheiten",
     "it": null,
     "pl": null,
     "es": null,
@@ -186,14 +159,13 @@
     "pt-BR": "Todas as Unidades",
     "uk": null
   },
-  "Artifacts":
-  {
+  "Artifacts": {
     "en": "Artifacts",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Artefakte",
     "it": null,
     "pl": null,
     "es": null,
@@ -203,14 +175,13 @@
     "pt-BR": "Artefatos",
     "uk": null
   },
-  "AllArtifacts":
-  {
+  "AllArtifacts": {
     "en": "All Artifacts",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Alle Artefakte",
     "it": null,
     "pl": null,
     "es": null,
@@ -220,14 +191,13 @@
     "pt-BR": "Todos os Artefatos",
     "uk": null
   },
-  "DiscordToolTip":
-  {
+  "DiscordTooltip": {
     "en": "Join the community",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Community beitreten",
     "it": null,
     "pl": null,
     "es": null,
@@ -237,14 +207,13 @@
     "pt-BR": "Junte-se à comunidade",
     "uk": null
   },
-  "GithubToolTip":
-  {
+  "GitHubTooltip": {
     "en": "Contribute or give feedback",
     "sv": null,
     "ru": null,
     "cs": null,
     "fr": null,
-    "de": null,
+    "de": "Beteilige dich oder gib Feedback",
     "it": null,
     "pl": null,
     "es": null,

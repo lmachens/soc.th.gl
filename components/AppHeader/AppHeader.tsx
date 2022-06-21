@@ -1,19 +1,19 @@
-import { useRouter } from "next/router";
 import { Box, Burger, Group, Header, MediaQuery } from "@mantine/core";
 import { DiscordIcon } from "./DiscordIcon";
 import { MarkGithubIcon } from "@primer/octicons-react";
 import { HeaderControl } from "./HeaderControl/HeaderControl";
 import Image from "next/image";
 import LogoSmall from "../../public/logo_small.png";
-import { getTerm } from "../../lib/terms";
 import AppLink from "../AppLink/AppLink";
+import { useTerms } from "../Terms/Terms";
 
 type Props = {
   openedBurger: boolean;
   onBurgerClick: () => void;
 };
 const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
-  const { locale } = useRouter();
+  const terms = useTerms();
+
   return (
     <Header
       height={70}
@@ -46,7 +46,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
       <Group spacing="xs">
         <HeaderControl
           link="https://discord.com/invite/NTZu8Px"
-          tooltip={getTerm("DiscordToolTip", locale!)}
+          tooltip={terms.DiscordTooltip}
           variant="discord"
         >
           <DiscordIcon size={20} />
@@ -54,7 +54,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
 
         <HeaderControl
           link="https://github.com/lmachens/soc.gg"
-          tooltip={getTerm("GithubToolTip", locale!)}
+          tooltip={terms.GitHubTooltip}
         >
           <MarkGithubIcon size={20} />
         </HeaderControl>

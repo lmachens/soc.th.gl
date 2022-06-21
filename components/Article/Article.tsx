@@ -1,9 +1,8 @@
-import { useRouter } from "next/router";
 import { Box, Stack, Text, Title } from "@mantine/core";
 import { MilestoneIcon } from "@primer/octicons-react";
 import { ReactNode } from "react";
 import AppLink from "../AppLink/AppLink";
-import { getTerm } from "../../lib/terms";
+import { useTerms } from "../Terms/Terms";
 
 type Props = {
   image?: ReactNode;
@@ -13,7 +12,7 @@ type Props = {
   children?: ReactNode;
 };
 const Article = ({ image, name, description, href, children }: Props) => {
-  const { locale } = useRouter();
+  const terms = useTerms();
 
   return (
     <Box
@@ -37,7 +36,7 @@ const Article = ({ image, name, description, href, children }: Props) => {
         />
         {children}
         <AppLink href={href}>
-          <MilestoneIcon /> { getTerm("LearnMore", locale!) }
+          <MilestoneIcon /> {terms.LearnMore}
         </AppLink>
       </Stack>
     </Box>

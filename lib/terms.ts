@@ -1,5 +1,5 @@
 import siteTermMap from "./siteTermMap.json";
-import gameTermMap from "./collections/termMap.json";
+import termMap from "./collections/termMap.json";
 
 export type TermsDTO = {
   [key: string]: string;
@@ -11,7 +11,7 @@ const siteTerms = siteTermMap as unknown as {
   };
 };
 
-const gameTerms = gameTermMap as unknown as {
+const terms = termMap as unknown as {
   [term: string]: {
     [locale: string]: string;
   };
@@ -29,6 +29,15 @@ const PERCENTAGE_BASED_MODIFIERS = [
   "TroopDamageMultiplier",
 ];
 
+export const getSiteTerm = (term: string, locale: string) => {
+  let value = siteTerms[term]?.[locale] || siteTerms[term]?.en;
+  if (!value) {
+    console.warn(`Can not find ${term} - ${locale}`);
+    value = "";
+  }
+  return value;
+};
+
 export const getTerm = (
   term: string,
   locale: string,
@@ -38,17 +47,9 @@ export const getTerm = (
   let value: string | undefined;
   if (placeholder && typeof placeholder === "number") {
     const pluralForm = getPluralForm(locale, placeholder);
-    value = (siteTerms[`${term}_${pluralForm}`] || siteTerms[term])?.[locale];
-    if(!value)
-    {
-      value = (gameTerms[`${term}_${pluralForm}`] || gameTerms[term])?.[locale];
-    }
+    value = (terms[`${term}_${pluralForm}`] || terms[term])?.[locale];
   } else {
-    value = siteTerms[term]?.[locale];
-    if(!value)
-    {
-      value = gameTerms[term]?.[locale];
-    }
+    value = terms[term]?.[locale];
   }
 
   if (!value) {
@@ -74,6 +75,10 @@ export const getTerm = (
       }
     }
   }
+
+  value = value
+    .replace("<hl>", `<span class="highlight">`)
+    .replace("</hl>", "</span>");
   return value;
 };
 

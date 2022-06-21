@@ -5,6 +5,7 @@ import AppLayout from "../components/AppLayout/AppLayout";
 import { ReactNode, useEffect } from "react";
 import { initPlausible } from "../lib/stats";
 import { NextPage } from "next";
+import { TermsProvider } from "../components/Terms/Terms";
 
 export type NextPageWithBanner<T = {}> = NextPage<T> & {
   getBanner?: () => ReactNode;
@@ -14,9 +15,7 @@ type AppPropsWithBanner = AppProps & {
   Component: NextPageWithBanner;
 };
 
-export default function App(props: AppPropsWithBanner) {
-  const { Component, pageProps } = props;
-
+const App = ({ Component, pageProps }: AppPropsWithBanner) => {
   useEffect(() => {
     initPlausible();
   }, []);
@@ -85,4 +84,12 @@ export default function App(props: AppPropsWithBanner) {
       </MantineProvider>
     </>
   );
-}
+};
+
+const AppWithTerms = (props: AppPropsWithBanner) => (
+  <TermsProvider terms={props.pageProps.terms}>
+    <App {...props} />
+  </TermsProvider>
+);
+
+export default AppWithTerms;
