@@ -2,7 +2,7 @@ import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 import wieldersCollection from "./collections/wielders.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
-import { getUnit } from "./units";
+import unitsCollection from "./collections/units.json";
 
 export const getWielders = (locale: string): WielderSimpleDTO[] => {
   const wielders = wieldersCollection.map((wielder) => ({
@@ -32,7 +32,17 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       locale
     ),
     units: wielderSrc.units.map((unit) => {
-      const fullUnit = getUnit(wielderSrc.faction, unit.languageKey, locale);
+      const unitSrc = unitsCollection.find(
+        (unitSrc) =>
+          unitSrc.faction === wielderSrc.faction &&
+          (unitSrc.vanilla.languageKey === unit.languageKey ||
+            unitSrc.upgraded?.languageKey === unit.languageKey)
+      );
+      const sprite =
+        unitSrc!.vanilla.languageKey === unit.languageKey
+          ? unitSrc!.vanilla.sprite
+          : unitSrc!.upgraded!.sprite;
+
       return {
         languageKey: unit.languageKey,
         name: getTerm(`${wielderSrc.faction}/${unit.languageKey}/Name`, locale),
@@ -41,7 +51,7 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
           locale
         ),
         size: unit.size,
-        sprite: fullUnit!.vanilla.sprite,
+        sprite: sprite,
       };
     }),
     skills: wielderSrc.skills.map((skill) => ({
