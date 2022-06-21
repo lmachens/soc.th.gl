@@ -7,11 +7,10 @@ import Head from "next/head";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { ArtifactDTO, getArtifact, getArtifacts } from "../../lib/artifacts";
 import { Fragment } from "react";
+import { useTerms } from "../../components/Terms/Terms";
 
-const Unit: NextPage<{ artifact: ArtifactDTO; terms: TermsDTO }> = ({
-  artifact,
-  terms,
-}) => {
+const Unit: NextPage<{ artifact: ArtifactDTO }> = ({ artifact }) => {
+  const terms = useTerms();
   return (
     <>
       <Head>

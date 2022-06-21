@@ -21,15 +21,19 @@ const sortByLabel = (a: { label: string }, b: { label: string }) =>
 
 export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
   const getStaticPropsWithBase: GetStaticProps<
-    T & {
-      collectionLinks: CollectionLink[];
-      terms: TermsDTO;
-    }
+    | (T & {
+        collectionLinks: CollectionLink[];
+        terms: TermsDTO;
+      })
+    | T
   > = async (context) => {
-    const propsResult = (await getStaticProps(context)) as {
-      props: T;
-      revalidate?: number | boolean;
-    };
+    const propsResult = await getStaticProps(context);
+    if (
+      (propsResult as { notFound: true; revalidate?: number | boolean })
+        .notFound
+    ) {
+      return propsResult;
+    }
 
     const locale = context.locale!;
     const factions = getFactions(locale)
@@ -135,6 +139,10 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       Search: getSiteTerm("Search", locale),
     };
 
+    const pagePropsResult = propsResult as {
+      props: T;
+      revalidate?: number | boolean;
+    };
     const result: {
       props: T & {
         collectionLinks: CollectionLink[];
@@ -143,11 +151,11 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       revalidate?: number | boolean;
     } = {
       props: {
-        ...propsResult.props,
+        ...pagePropsResult.props,
         collectionLinks,
         terms,
       },
-      revalidate: propsResult.revalidate,
+      revalidate: pagePropsResult.revalidate,
     };
 
     return result;
