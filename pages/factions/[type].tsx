@@ -7,11 +7,10 @@ import { getTerm, TermsDTO } from "../../lib/terms";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
 import Head from "next/head";
 import Article from "../../components/Article/Article";
+import { useTerms } from "../../components/Terms/Terms";
 
-const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
-  faction,
-  terms,
-}) => {
+const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
+  const terms = useTerms();
   return (
     <>
       <Head>
@@ -34,9 +33,9 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
         <Title order={2}>{terms.wielders}</Title>
         <SimpleGrid
           breakpoints={[
-            { minWidth: 'sm', cols: 1 },
-            { minWidth: 'md', cols: 2 },
-            { minWidth: 'lg', cols: 3 },
+            { minWidth: "sm", cols: 1 },
+            { minWidth: "md", cols: 2 },
+            { minWidth: "lg", cols: 3 },
           ]}
         >
           {faction.commanders.map((commander) => (
@@ -86,9 +85,9 @@ const Faction: NextPage<{ faction: FactionDTO; terms: TermsDTO }> = ({
 
         <SimpleGrid
           breakpoints={[
-            { minWidth: 'sm', cols: 1 },
-            { minWidth: 'md', cols: 2 },
-            { minWidth: 'lg', cols: 3 },
+            { minWidth: "sm", cols: 1 },
+            { minWidth: "md", cols: 2 },
+            { minWidth: "lg", cols: 3 },
           ]}
         >
           {faction.units.map((unit) => (

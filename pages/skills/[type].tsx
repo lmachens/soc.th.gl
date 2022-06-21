@@ -7,11 +7,12 @@ import { getTerm, TermsDTO } from "../../lib/terms";
 import { Fragment } from "react";
 import { getSkill, getSkills, SkillDTO } from "../../lib/skills";
 import Head from "next/head";
+import { useTerms } from "../../components/Terms/Terms";
 
 const Skill: NextPage<{
   skill: SkillDTO;
-  terms: TermsDTO;
-}> = ({ skill, terms }) => {
+}> = ({ skill }) => {
+  const terms = useTerms();
   return (
     <>
       <Head>

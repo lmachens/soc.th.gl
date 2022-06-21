@@ -7,11 +7,10 @@ import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import Head from "next/head";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
+import { useTerms } from "../../components/Terms/Terms";
 
-const Wielder: NextPage<{ wielder: WielderDTO; terms: TermsDTO }> = ({
-  wielder,
-  terms,
-}) => {
+const Wielder: NextPage<{ wielder: WielderDTO }> = ({ wielder }) => {
+  const terms = useTerms();
   const level = wielder.skills
     ? wielder.skills.find((skill) => skill.type === "Command")?.level ||
       wielder.skills.at(-1)?.level
