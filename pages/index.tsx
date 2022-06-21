@@ -216,6 +216,7 @@ export const getStaticProps = withStaticBase(async () => {
   return {
     props: {
       releases,
+      terms: {},
     },
     revalidate: false,
   };
