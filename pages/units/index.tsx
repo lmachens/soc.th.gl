@@ -43,6 +43,7 @@ export const getStaticProps = withStaticBase(async (context) => {
   return {
     props: {
       units,
+      terms: {},
     },
     revalidate: false,
   };

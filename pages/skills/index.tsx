@@ -16,9 +16,9 @@ const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
       </Head>
       <SimpleGrid
         breakpoints={[
-          { minWidth: 'sm', cols: 1 },
-          { minWidth: 'md', cols: 2 },
-          { minWidth: 'lg', cols: 3 },
+          { minWidth: "sm", cols: 1 },
+          { minWidth: "md", cols: 2 },
+          { minWidth: "lg", cols: 3 },
         ]}
       >
         {skills.map((skill) => (
@@ -43,6 +43,7 @@ export const getStaticProps = withStaticBase(async (context) => {
   return {
     props: {
       skills,
+      terms: {},
     },
     revalidate: false,
   };

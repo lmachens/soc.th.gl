@@ -47,6 +47,7 @@ export const getStaticProps = withStaticBase(async (context) => {
   return {
     props: {
       artifacts,
+      terms: {},
     },
     revalidate: false,
   };

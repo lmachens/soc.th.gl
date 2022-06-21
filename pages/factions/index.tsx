@@ -36,8 +36,8 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
 
       <SimpleGrid
         breakpoints={[
-          { minWidth: 'sm', cols: 1 },
-          { minWidth: 'md', cols: 2 },
+          { minWidth: "sm", cols: 1 },
+          { minWidth: "md", cols: 2 },
         ]}
       >
         {factions.map((faction) => (
@@ -62,6 +62,7 @@ export const getStaticProps = withStaticBase(async (context) => {
   return {
     props: {
       factions,
+      terms: {},
     },
     revalidate: false,
   };
