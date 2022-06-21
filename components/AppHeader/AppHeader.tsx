@@ -6,6 +6,7 @@ import Image from "next/image";
 import LogoSmall from "../../public/logo_small.png";
 import AppLink from "../AppLink/AppLink";
 import { useTerms } from "../Terms/Terms";
+import LocaleSelector from "./LocaleSelector/LocaleSelector";
 
 type Props = {
   openedBurger: boolean;
@@ -44,6 +45,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
         </AppLink>
       </Box>
       <Group spacing="xs">
+        <LocaleSelector />
         <HeaderControl
           link="https://discord.com/invite/NTZu8Px"
           tooltip={terms.DiscordTooltip}
