@@ -19,7 +19,9 @@ export type CollectionLink = {
 const sortByLabel = (a: { label: string }, b: { label: string }) =>
   a.label.localeCompare(b.label);
 
-export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
+export const withStaticBase = <T extends { terms?: TermsDTO }>(
+  getStaticProps: GetStaticProps<T>
+) => {
   const getStaticPropsWithBase: GetStaticProps<
     | (T & {
         collectionLinks: CollectionLink[];
@@ -143,6 +145,7 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       props: T;
       revalidate?: number | boolean;
     };
+
     const result: {
       props: T & {
         collectionLinks: CollectionLink[];
@@ -153,7 +156,7 @@ export const withStaticBase = <T>(getStaticProps: GetStaticProps<T>) => {
       props: {
         ...pagePropsResult.props,
         collectionLinks,
-        terms,
+        terms: { ...terms, ...(pagePropsResult.props.terms || {}) },
       },
       revalidate: pagePropsResult.revalidate,
     };
