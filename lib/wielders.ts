@@ -2,6 +2,7 @@ import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 import wieldersCollection from "./collections/wielders.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
+import unitsCollection from "./collections/units.json";
 
 export const getWielders = (locale: string): WielderSimpleDTO[] => {
   const wielders = wieldersCollection.map((wielder) => ({
@@ -30,15 +31,29 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       `${wielderSrc.faction}/${wielderSrc.type}/Description`,
       locale
     ),
-    units: wielderSrc.units.map((unit) => ({
-      languageKey: unit.languageKey,
-      name: getTerm(`${wielderSrc.faction}/${unit.languageKey}/Name`, locale),
-      description: getTerm(
-        `${wielderSrc.faction}/${unit.languageKey}/Description`,
-        locale
-      ),
-      size: unit.size,
-    })),
+    units: wielderSrc.units.map((unit) => {
+      const unitSrc = unitsCollection.find(
+        (unitSrc) =>
+          unitSrc.faction === wielderSrc.faction &&
+          (unitSrc.vanilla.languageKey === unit.languageKey ||
+            unitSrc.upgraded?.languageKey === unit.languageKey)
+      );
+      const sprite =
+        unitSrc!.vanilla.languageKey === unit.languageKey
+          ? unitSrc!.vanilla.sprite
+          : unitSrc!.upgraded!.sprite;
+
+      return {
+        languageKey: unit.languageKey,
+        name: getTerm(`${wielderSrc.faction}/${unit.languageKey}/Name`, locale),
+        description: getTerm(
+          `${wielderSrc.faction}/${unit.languageKey}/Description`,
+          locale
+        ),
+        size: unit.size,
+        sprite: sprite,
+      };
+    }),
     skills: wielderSrc.skills.map((skill) => ({
       type: skill.type,
       lore: getTerm(`Skills/${skill.type}/Lore`, locale),
@@ -104,6 +119,7 @@ export type WielderDTO = {
     description: string;
     languageKey: string;
     size: number;
+    sprite: SpriteDTO;
   }[];
   specializations: BacteriaDTO[];
 };

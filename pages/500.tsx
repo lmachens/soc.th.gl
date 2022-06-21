@@ -9,7 +9,9 @@ export default ErrorPage;
 
 export const getStaticProps = withStaticBase(async () => {
   return {
-    props: {},
+    props: {
+      terms: {},
+    },
     revalidate: false,
   };
 });

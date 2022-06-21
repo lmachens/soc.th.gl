@@ -1,20 +1,18 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Stack, Table, Text, Title } from "@mantine/core";
+import { Box, Group, Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import Head from "next/head";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
 import { useTerms } from "../../components/Terms/Terms";
+import Lore from "../../components/Lore/Lore";
+import WielderStats from "../../components/WielderStats/WielderStats";
 
 const Wielder: NextPage<{ wielder: WielderDTO }> = ({ wielder }) => {
   const terms = useTerms();
-  const level = wielder.skills
-    ? wielder.skills.find((skill) => skill.type === "Command")?.level ||
-      wielder.skills.at(-1)?.level
-    : 0;
 
   return (
     <>
@@ -22,62 +20,55 @@ const Wielder: NextPage<{ wielder: WielderDTO }> = ({ wielder }) => {
         <title>{wielder.name} - SoC.gg</title>
         <meta
           name="description"
-          content={`${wielder.name} wielder details of Songs of Conquest`}
+          content={`${wielder.description} - ${wielder.name} (Songs of Conquest)`}
         />
       </Head>
-      <Stack>
-        <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
-        <Stack>
-          <Title order={2}>{wielder.name}</Title>
-          <Text size="sm">{wielder.description}</Text>
-        </Stack>
-        <Table>
-          <tbody>
-            <tr>
-              <td>{terms.offense}</td>
-              <td>{wielder.stats.offense}</td>
-            </tr>
-            <tr>
-              <td>{terms.defense}</td>
-              <td>{wielder.stats.defense}</td>
-            </tr>
-            <tr>
-              <td>{terms.movement}</td>
-              <td>{wielder.stats.movement}</td>
-            </tr>
-            <tr>
-              <td>{terms.viewRadius}</td>
-              <td>{wielder.stats.viewRadius}</td>
-            </tr>
-            <tr>
-              <td>{terms.command}</td>
-              <td>{level}</td>
-            </tr>
-          </tbody>
-        </Table>
+      <Stack align="flex-start">
+        <Group>
+          <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
+          <Stack>
+            <Title order={2}>{wielder.name}</Title>
+            <Lore text={wielder.description} />
+          </Stack>
+        </Group>
+        <WielderStats wielder={wielder} />
         <Title order={3}>{terms.startingTroops}</Title>
-        {wielder.units.map((unit) => (
-          <PopoverLink
-            key={`${wielder.name}-${unit.name}`}
-            href={`/units/${wielder.faction}/${unit.languageKey}`}
-            popover={
-              <Stack>
-                <Title order={4}>{unit.name}</Title>
-                <Text size="sm">{unit.description}</Text>
-              </Stack>
-            }
-          >
-            <Text>
-              <Text
-                sx={(theme) => ({ color: theme.colors[theme.primaryColor][5] })}
-                component="span"
+        <Group>
+          {wielder.units.map((unit, index) => (
+            <PopoverLink
+              key={`${wielder.name}-${unit.name}-${index}`}
+              href={`/units/${wielder.faction}/${unit.languageKey}`}
+              popover={
+                <Stack>
+                  <Title order={4}>{unit.name}</Title>
+                  <Lore text={unit.description} />
+                </Stack>
+              }
+            >
+              <Box
+                sx={{
+                  display: "grid",
+                  gridTemplateRows: "110px 1fr",
+                  alignItems: "center",
+                  justifyItems: "center",
+                }}
               >
-                {unit.size}
-              </Text>{" "}
-              {unit.name}
-            </Text>
-          </PopoverLink>
-        ))}
+                <SpriteSheet spriteSheet={unit.sprite} />
+                <Text>
+                  <Text
+                    sx={(theme) => ({
+                      color: theme.colors[theme.primaryColor][5],
+                    })}
+                    component="span"
+                  >
+                    {unit.size}
+                  </Text>{" "}
+                  {unit.name}
+                </Text>
+              </Box>
+            </PopoverLink>
+          ))}
+        </Group>
         <Title order={3}>{terms.specializations}</Title>
         {wielder.specializations.map((specialization) => (
           <Text key={`${wielder.name}-${specialization.bacteriaType}`}>

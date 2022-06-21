@@ -13,11 +13,11 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[] }> = ({ wielders }) => {
         <title>Wielders - SoC.gg</title>
         <meta name="description" content="All wielders of Songs of Conquest" />
       </Head>
-      <SimpleGrid 
+      <SimpleGrid
         breakpoints={[
-          { minWidth: 'sm', cols: 1 },
-          { minWidth: 'md', cols: 2 },
-          { minWidth: 'lg', cols: 3 },
+          { minWidth: "sm", cols: 1 },
+          { minWidth: "md", cols: 2 },
+          { minWidth: "lg", cols: 3 },
         ]}
       >
         {wielders.map((wielder) => (
@@ -48,6 +48,7 @@ export const getStaticProps = withStaticBase(async (context) => {
   return {
     props: {
       wielders,
+      terms: {},
     },
     revalidate: false,
   };
