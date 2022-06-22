@@ -26,12 +26,14 @@ type SpriteSheetProps = {
   folder?: string;
   spriteSheet: SpriteDTO;
   resize?: number;
+  inline?: boolean;
 };
 const SpriteSheet = ({
   className,
   folder = "",
   spriteSheet,
   resize,
+  inline,
 }: SpriteSheetProps) => {
   const style: CSSProperties = {
     backgroundImage: `url(/${folder ? `${folder}/` : ""}${
@@ -42,6 +44,7 @@ const SpriteSheet = ({
     width: spriteSheet.width,
     margin: "0 auto",
     clipPath: getClipPath(spriteSheet),
+    display: inline ? "inline-block" : "block",
   };
   if (resize) {
     const percentage = resize * 100;
@@ -54,7 +57,8 @@ const SpriteSheet = ({
           position: "relative",
           height: spriteSheet.height * resize,
           width: spriteSheet.width * resize,
-          marginLeft: `${percentage}%`,
+          marginLeft: inline ? 0 : `${percentage}%`,
+          display: inline ? "inline-block" : "block",
         }}
       >
         <div style={style} className={className} />

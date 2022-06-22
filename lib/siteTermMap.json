@@ -222,5 +222,21 @@
     "ko": null,
     "pt-BR": "Contribua ou dê feedback",
     "uk": null
+  },
+  "SortBy": {
+    "en": "Sort By",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": "Sortiere nach",
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
   }
 }
