@@ -1,5 +1,9 @@
 import { readYAMLFile } from "./lib/files.mjs";
-import { buildAssetByManifest, findManifests } from "./lib/assets.mjs";
+import {
+  buildAssetByManifest,
+  findAssetByGUID,
+  findManifests,
+} from "./lib/assets.mjs";
 import { writeJSONFile } from "./lib/out.mjs";
 
 const terms = await readYAMLFile(
@@ -42,3 +46,16 @@ const promises = manifests.map(async (manifest) => {
   }
 });
 await Promise.all(promises);
+
+const iconsMeta = await readYAMLFile(
+  `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons.png.meta`
+);
+const icons = [];
+for (const idToName of iconsMeta.textureImporter.internalIdToNameTable) {
+  const icon = await findAssetByGUID({
+    guid: iconsMeta.guid,
+    fileId: idToName.first["213"],
+  });
+  icons.push(icon);
+}
+await writeJSONFile(icons, "Icons");
