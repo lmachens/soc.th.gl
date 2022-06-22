@@ -238,5 +238,37 @@
     "ko": null,
     "pt-BR": null,
     "uk": null
+  },
+  "And": {
+    "en": "and",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": "und",
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
+  },
+  "Or": {
+    "en": "or",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": "oder",
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
   }
 }

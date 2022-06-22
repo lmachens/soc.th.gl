@@ -66,6 +66,10 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       name: getTerm(`Skills/${skill.type}`, locale),
       level: skill.level || null,
       levelRange: skill.levelRange || null,
+      requiresSkill: skill.requiresSkill || null,
+      requirementType:
+        (skill.requirementType as "RequireAny" | "RequireAll" | undefined) ||
+        null,
       requiredSkills:
         skill.requiredSkills?.map((requiredSkill) => ({
           type: requiredSkill.type,
@@ -118,6 +122,8 @@ export type WielderDTO = {
       min: number;
       max: number;
     } | null;
+    requiresSkill: boolean | null;
+    requirementType: "RequireAny" | "RequireAll" | null;
     requiredSkills:
       | {
           level: number;
