@@ -132,6 +132,9 @@ const wielders = factionsSrc
               skills.push({
                 type: type,
                 levelRange: pool.levelRange,
+                requiresSkill: skill.requiresSkill ? true : false,
+                requirementType:
+                  skill.requirementType === 0 ? "RequireAny" : "RequireAll",
                 requiredSkills: skill.requiredSkills.map((requiredSkill) => ({
                   type: skillsSrc.find(
                     (skillSrc) => skillSrc.id === requiredSkill.skill
