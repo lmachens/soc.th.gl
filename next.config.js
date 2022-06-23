@@ -18,6 +18,15 @@ const nextConfig = {
   images: {
     domains: ["purecatamphetamine.github.io"],
   },
+  async redirects() {
+    return [
+      {
+        source: "/ads.txt",
+        destination: "https://api.nitropay.com/v1/ads-1110.txt",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
