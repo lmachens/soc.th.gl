@@ -5,7 +5,6 @@ import { nitroAds } from "../../lib/nitroAds";
 const BannerAd = () => {
   useEffect(() => {
     nitroAds.createAd("nitro-banner", {
-      demo: true,
       refreshLimit: 10,
       refreshTime: 30,
       renderVisibleOnly: true,
