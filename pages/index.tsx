@@ -17,6 +17,7 @@ import BannerSrc from "../public/banner.jpg";
 import LogoSrc from "../public/soc_logo.png";
 import Image from "next/image";
 import { NextPageWithBanner } from "./_app";
+import BannerAd from "../components/Ads/BannerAd";
 
 const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
   releases,
@@ -110,6 +111,7 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
             Contribute on GitHub
           </Button>
         </Group>
+        <BannerAd />
         <Title order={2}>Changelog</Title>
         {releases.map((release) => (
           <Box
