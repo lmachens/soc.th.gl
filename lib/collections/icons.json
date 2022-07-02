@@ -1,0 +1,4538 @@
+[
+  {
+    "name": "AbilityIconInspire",
+    "spriteSheet": "Icons.png",
+    "x": 782,
+    "y": 3,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconAim",
+    "spriteSheet": "Icons.png",
+    "x": 521,
+    "y": 112,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "HUDBuildingUpgrade",
+    "spriteSheet": "Icons.png",
+    "x": 556,
+    "y": 405,
+    "width": 84,
+    "height": 84,
+    "outline": [
+      [
+        {
+          "x": -42,
+          "y": -42
+        },
+        {
+          "x": -42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": -42
+        }
+      ]
+    ]
+  },
+  {
+    "name": "StatsDefenseRendered",
+    "spriteSheet": "Icons.png",
+    "x": 1000,
+    "y": 330,
+    "width": 23,
+    "height": 28,
+    "outline": [
+      [
+        {
+          "x": -11.5,
+          "y": -14
+        },
+        {
+          "x": -11.5,
+          "y": 14
+        },
+        {
+          "x": 11.5,
+          "y": 14
+        },
+        {
+          "x": 11.5,
+          "y": -14
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconWait",
+    "spriteSheet": "Icons.png",
+    "x": 853,
+    "y": 425,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeCreationActive",
+    "spriteSheet": "Icons.png",
+    "x": 631,
+    "y": 123,
+    "width": 78,
+    "height": 78,
+    "outline": [
+      [
+        {
+          "x": -39,
+          "y": -39
+        },
+        {
+          "x": -39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": -39
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Tick",
+    "spriteSheet": "Icons.png",
+    "x": 471,
+    "y": 284,
+    "width": 21,
+    "height": 19,
+    "outline": [
+      [
+        {
+          "x": -10.499999,
+          "y": -9.5
+        },
+        {
+          "x": -10.499999,
+          "y": 9.5
+        },
+        {
+          "x": 10.500001,
+          "y": 9.5
+        },
+        {
+          "x": 10.500001,
+          "y": -9.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DropdownArrowHighlighted",
+    "spriteSheet": "Icons.png",
+    "x": 206,
+    "y": 713,
+    "width": 29,
+    "height": 17,
+    "outline": [
+      [
+        {
+          "x": -14.5,
+          "y": -8.5
+        },
+        {
+          "x": -14.5,
+          "y": 8.5
+        },
+        {
+          "x": 14.5,
+          "y": 8.5
+        },
+        {
+          "x": 14.5,
+          "y": -8.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "HUDWielderIcon",
+    "spriteSheet": "Icons.png",
+    "x": 399,
+    "y": 112,
+    "width": 42,
+    "height": 80,
+    "outline": [
+      [
+        {
+          "x": -21,
+          "y": -40
+        },
+        {
+          "x": -21,
+          "y": 40
+        },
+        {
+          "x": 21,
+          "y": 40
+        },
+        {
+          "x": 21,
+          "y": -40
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbDestructionActive",
+    "spriteSheet": "Icons.png",
+    "x": 946,
+    "y": 390,
+    "width": 42,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -21,
+          "y": -21
+        },
+        {
+          "x": -21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": -21
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ObjectiveCheckBoxTick",
+    "spriteSheet": "Icons.png",
+    "x": 767,
+    "y": 626,
+    "width": 17,
+    "height": 17,
+    "outline": [
+      [
+        {
+          "x": -8.5,
+          "y": -8.5
+        },
+        {
+          "x": -8.5,
+          "y": 8.5
+        },
+        {
+          "x": 8.5,
+          "y": 8.5
+        },
+        {
+          "x": 8.5,
+          "y": -8.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconProtectDefend",
+    "spriteSheet": "Icons.png",
+    "x": 889,
+    "y": 573,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeChaosNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 631,
+    "y": 58,
+    "width": 64,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -32,
+          "y": -32
+        },
+        {
+          "x": -32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "OpenDefence",
+    "spriteSheet": "Icons.png",
+    "x": 58,
+    "y": 1,
+    "width": 55,
+    "height": 73,
+    "outline": [
+      [
+        {
+          "x": -27.5,
+          "y": -36.5
+        },
+        {
+          "x": -27.5,
+          "y": 36.5
+        },
+        {
+          "x": 27.500002,
+          "y": 36.5
+        },
+        {
+          "x": 27.500002,
+          "y": -36.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconSmokeBomb",
+    "spriteSheet": "Icons.png",
+    "x": 900,
+    "y": 520,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeCreationNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 696,
+    "y": 56,
+    "width": 64,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -32,
+          "y": -32
+        },
+        {
+          "x": -32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryIconMercanary",
+    "spriteSheet": "Icons.png",
+    "x": 726,
+    "y": 448,
+    "width": 74,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37,
+          "y": -42.5
+        },
+        {
+          "x": -37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceIconCreation",
+    "spriteSheet": "Icons.png",
+    "x": 967,
+    "y": 190,
+    "width": 37,
+    "height": 33,
+    "outline": [
+      [
+        {
+          "x": -18.5,
+          "y": -16.5
+        },
+        {
+          "x": -18.5,
+          "y": 16.5
+        },
+        {
+          "x": 18.5,
+          "y": 16.5
+        },
+        {
+          "x": 18.5,
+          "y": -16.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceSymbolArcana",
+    "spriteSheet": "Icons.png",
+    "x": 917,
+    "y": 83,
+    "width": 21,
+    "height": 21,
+    "outline": [
+      [
+        {
+          "x": -10.5,
+          "y": -10.499999
+        },
+        {
+          "x": -10.5,
+          "y": 10.500001
+        },
+        {
+          "x": 10.5,
+          "y": 10.500001
+        },
+        {
+          "x": 10.5,
+          "y": -10.499999
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryIconTinker",
+    "spriteSheet": "Icons.png",
+    "x": 360,
+    "y": 193,
+    "width": 74,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37,
+          "y": -42.5
+        },
+        {
+          "x": -37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "GoldCoin",
+    "spriteSheet": "Icons.png",
+    "x": 926,
+    "y": 210,
+    "width": 40,
+    "height": 40,
+    "outline": [
+      [
+        {
+          "x": -20,
+          "y": -20
+        },
+        {
+          "x": -20,
+          "y": 20
+        },
+        {
+          "x": 20,
+          "y": 20
+        },
+        {
+          "x": 20,
+          "y": -20
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeDestructionActive",
+    "spriteSheet": "Icons.png",
+    "x": 710,
+    "y": 121,
+    "width": 78,
+    "height": 78,
+    "outline": [
+      [
+        {
+          "x": -39,
+          "y": -39
+        },
+        {
+          "x": -39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": -39
+        }
+      ]
+    ]
+  },
+  {
+    "name": "PageArrow",
+    "spriteSheet": "Icons.png",
+    "x": 1001,
+    "y": 523,
+    "width": 17,
+    "height": 29,
+    "outline": [
+      [
+        {
+          "x": -8.5,
+          "y": -14.5
+        },
+        {
+          "x": -8.5,
+          "y": 14.5
+        },
+        {
+          "x": 8.5,
+          "y": 14.5
+        },
+        {
+          "x": 8.5,
+          "y": -14.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryIconStackSize",
+    "spriteSheet": "Icons.png",
+    "x": 726,
+    "y": 362,
+    "width": 74,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37,
+          "y": -42.5
+        },
+        {
+          "x": -37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbDestructionNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 891,
+    "y": 76,
+    "width": 25,
+    "height": 25,
+    "outline": [
+      [
+        {
+          "x": -12.5,
+          "y": -12.5
+        },
+        {
+          "x": -12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": -12.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryRana",
+    "spriteSheet": "Icons.png",
+    "x": 435,
+    "y": 197,
+    "width": 74,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37,
+          "y": -42.5
+        },
+        {
+          "x": -37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeArcanaNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 324,
+    "y": 29,
+    "width": 64,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -32,
+          "y": -32
+        },
+        {
+          "x": -32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeOrderNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 452,
+    "y": 53,
+    "width": 64,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -32,
+          "y": -32
+        },
+        {
+          "x": -32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceIconOrder",
+    "spriteSheet": "Icons.png",
+    "x": 926,
+    "y": 251,
+    "width": 41,
+    "height": 41,
+    "outline": [
+      [
+        {
+          "x": -20.5,
+          "y": -20.5
+        },
+        {
+          "x": -20.5,
+          "y": 20.5
+        },
+        {
+          "x": 20.5,
+          "y": 20.5
+        },
+        {
+          "x": 20.5,
+          "y": -20.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconOverwatch",
+    "spriteSheet": "Icons.png",
+    "x": 776,
+    "y": 644,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeArcanaActive",
+    "spriteSheet": "Icons.png",
+    "x": 631,
+    "y": 202,
+    "width": 78,
+    "height": 78,
+    "outline": [
+      [
+        {
+          "x": -39,
+          "y": -39
+        },
+        {
+          "x": -39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": -39
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceIconArcana",
+    "spriteSheet": "Icons.png",
+    "x": 882,
+    "y": 234,
+    "width": 43,
+    "height": 44,
+    "outline": [
+      [
+        {
+          "x": -21.5,
+          "y": -22
+        },
+        {
+          "x": -21.5,
+          "y": 22
+        },
+        {
+          "x": 21.5,
+          "y": 22
+        },
+        {
+          "x": 21.5,
+          "y": -22
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceSymbolChaos",
+    "spriteSheet": "Icons.png",
+    "x": 1003,
+    "y": 677,
+    "width": 17,
+    "height": 16,
+    "outline": [
+      [
+        {
+          "x": -8.5,
+          "y": -8
+        },
+        {
+          "x": -8.5,
+          "y": 8
+        },
+        {
+          "x": 8.5,
+          "y": 8
+        },
+        {
+          "x": 8.5,
+          "y": -8
+        }
+      ]
+    ]
+  },
+  {
+    "name": "StatsViewRendered",
+    "spriteSheet": "Icons.png",
+    "x": 932,
+    "y": 131,
+    "width": 27,
+    "height": 19,
+    "outline": [
+      [
+        {
+          "x": -13.500001,
+          "y": -9.5
+        },
+        {
+          "x": -13.500001,
+          "y": 9.5
+        },
+        {
+          "x": 13.500001,
+          "y": 9.5
+        },
+        {
+          "x": 13.500001,
+          "y": -9.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconGold",
+    "spriteSheet": "Icons.png",
+    "x": 953,
+    "y": 519,
+    "width": 47,
+    "height": 44,
+    "outline": [
+      [
+        {
+          "x": -23.5,
+          "y": -22
+        },
+        {
+          "x": -23.5,
+          "y": 22
+        },
+        {
+          "x": 23.5,
+          "y": 22
+        },
+        {
+          "x": 23.5,
+          "y": -22
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DownArrow",
+    "spriteSheet": "Icons.png",
+    "x": 1000,
+    "y": 318,
+    "width": 23,
+    "height": 11,
+    "outline": [
+      [
+        {
+          "x": -11.5,
+          "y": -5.5
+        },
+        {
+          "x": -11.5,
+          "y": 5.5
+        },
+        {
+          "x": 11.5,
+          "y": 5.5
+        },
+        {
+          "x": 11.5,
+          "y": -5.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconGoldXLarge",
+    "spriteSheet": "Icons.png",
+    "x": 291,
+    "y": 380,
+    "width": 113,
+    "height": 105,
+    "outline": [
+      [
+        {
+          "x": -56.500004,
+          "y": -52.499996
+        },
+        {
+          "x": -56.500004,
+          "y": 52.500004
+        },
+        {
+          "x": 56.499996,
+          "y": 52.500004
+        },
+        {
+          "x": 56.499996,
+          "y": -52.499996
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbCreationActive",
+    "spriteSheet": "Icons.png",
+    "x": 946,
+    "y": 433,
+    "width": 42,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -21,
+          "y": -21
+        },
+        {
+          "x": -21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": -21
+        }
+      ]
+    ]
+  },
+  {
+    "name": "HUDPurchaseWielderIcon",
+    "spriteSheet": "Icons.png",
+    "x": 718,
+    "y": 534,
+    "width": 66,
+    "height": 84,
+    "outline": [
+      [
+        {
+          "x": -33,
+          "y": -42
+        },
+        {
+          "x": -33,
+          "y": 42
+        },
+        {
+          "x": 33,
+          "y": 42
+        },
+        {
+          "x": 33,
+          "y": -42
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconAmber",
+    "spriteSheet": "Icons.png",
+    "x": 954,
+    "y": 654,
+    "width": 48,
+    "height": 39,
+    "outline": [
+      [
+        {
+          "x": -24,
+          "y": -19.5
+        },
+        {
+          "x": -24,
+          "y": 19.5
+        },
+        {
+          "x": 24,
+          "y": 19.5
+        },
+        {
+          "x": 24,
+          "y": -19.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconStone",
+    "spriteSheet": "Icons.png",
+    "x": 948,
+    "y": 609,
+    "width": 48,
+    "height": 44,
+    "outline": [
+      [
+        {
+          "x": -24,
+          "y": -22
+        },
+        {
+          "x": -24,
+          "y": 22
+        },
+        {
+          "x": 24,
+          "y": 22
+        },
+        {
+          "x": 24,
+          "y": -22
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbArcanaNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 906,
+    "y": 144,
+    "width": 25,
+    "height": 25,
+    "outline": [
+      [
+        {
+          "x": -12.5,
+          "y": -12.5
+        },
+        {
+          "x": -12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": -12.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ObjectiveCheckBoxFrame",
+    "spriteSheet": "Icons.png",
+    "x": 953,
+    "y": 564,
+    "width": 43,
+    "height": 44,
+    "outline": [
+      [
+        {
+          "x": -21.5,
+          "y": -22
+        },
+        {
+          "x": -21.5,
+          "y": 22
+        },
+        {
+          "x": 21.5,
+          "y": 22
+        },
+        {
+          "x": 21.5,
+          "y": -22
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconCelestialOre",
+    "spriteSheet": "Icons.png",
+    "x": 900,
+    "y": 478,
+    "width": 46,
+    "height": 41,
+    "outline": [
+      [
+        {
+          "x": -23,
+          "y": -20.5
+        },
+        {
+          "x": -23,
+          "y": 20.5
+        },
+        {
+          "x": 23,
+          "y": 20.5
+        },
+        {
+          "x": 23,
+          "y": -20.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "SiegeActionButton",
+    "spriteSheet": "Icons.png",
+    "x": 641,
+    "y": 364,
+    "width": 84,
+    "height": 84,
+    "outline": [
+      [
+        {
+          "x": -42,
+          "y": -42
+        },
+        {
+          "x": -42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": -42
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryIconHumanTroop",
+    "spriteSheet": "Icons.png",
+    "x": 480,
+    "y": 304,
+    "width": 75,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37.5,
+          "y": -42.5
+        },
+        {
+          "x": -37.5,
+          "y": 42.5
+        },
+        {
+          "x": 37.5,
+          "y": 42.5
+        },
+        {
+          "x": 37.5,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceIconChaos",
+    "spriteSheet": "Icons.png",
+    "x": 847,
+    "y": 566,
+    "width": 41,
+    "height": 40,
+    "outline": [
+      [
+        {
+          "x": -20.5,
+          "y": -20
+        },
+        {
+          "x": -20.5,
+          "y": 20
+        },
+        {
+          "x": 20.5,
+          "y": 20
+        },
+        {
+          "x": 20.5,
+          "y": -20
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryIconBeasts",
+    "spriteSheet": "Icons.png",
+    "x": 324,
+    "y": 94,
+    "width": 74,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37,
+          "y": -42.5
+        },
+        {
+          "x": -37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryIconEconomy",
+    "spriteSheet": "Icons.png",
+    "x": 114,
+    "y": 3,
+    "width": 71,
+    "height": 66,
+    "outline": [
+      [
+        {
+          "x": -35.5,
+          "y": -33
+        },
+        {
+          "x": -35.5,
+          "y": 33
+        },
+        {
+          "x": 35.5,
+          "y": 33
+        },
+        {
+          "x": 35.5,
+          "y": -33
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconPlaceMine",
+    "spriteSheet": "Icons.png",
+    "x": 807,
+    "y": 316,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconStoneXLarge",
+    "spriteSheet": "Icons.png",
+    "x": 206,
+    "y": 597,
+    "width": 122,
+    "height": 109,
+    "outline": [
+      [
+        {
+          "x": -61,
+          "y": -54.499996
+        },
+        {
+          "x": -61,
+          "y": 54.5
+        },
+        {
+          "x": 61.000004,
+          "y": 54.5
+        },
+        {
+          "x": 61.000004,
+          "y": -54.499996
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DisbandArmyIcon",
+    "spriteSheet": "Icons.png",
+    "x": 548,
+    "y": 575,
+    "width": 84,
+    "height": 84,
+    "outline": [
+      [
+        {
+          "x": -42,
+          "y": -42
+        },
+        {
+          "x": -42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": -42
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconSpearwall",
+    "spriteSheet": "Icons.png",
+    "x": 676,
+    "y": 2,
+    "width": 52,
+    "height": 53,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26.5
+        },
+        {
+          "x": -26,
+          "y": 26.500002
+        },
+        {
+          "x": 26,
+          "y": 26.500002
+        },
+        {
+          "x": 26,
+          "y": -26.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryIconWielder",
+    "spriteSheet": "Icons.png",
+    "x": 790,
+    "y": 818,
+    "width": 82,
+    "height": 83,
+    "outline": [
+      [
+        {
+          "x": -41,
+          "y": -41.5
+        },
+        {
+          "x": -41,
+          "y": 41.5
+        },
+        {
+          "x": 41,
+          "y": 41.5
+        },
+        {
+          "x": 41,
+          "y": -41.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconWood",
+    "spriteSheet": "Icons.png",
+    "x": 384,
+    "y": 788,
+    "width": 48,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -24,
+          "y": -21
+        },
+        {
+          "x": -24,
+          "y": 21
+        },
+        {
+          "x": 24,
+          "y": 21
+        },
+        {
+          "x": 24,
+          "y": -21
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeDestructionNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 761,
+    "y": 56,
+    "width": 64,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -32,
+          "y": -32
+        },
+        {
+          "x": -32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconAmberXLarge",
+    "spriteSheet": "Icons.png",
+    "x": 173,
+    "y": 389,
+    "width": 117,
+    "height": 95,
+    "outline": [
+      [
+        {
+          "x": -58.500004,
+          "y": -47.5
+        },
+        {
+          "x": -58.500004,
+          "y": 47.5
+        },
+        {
+          "x": 58.5,
+          "y": 47.5
+        },
+        {
+          "x": 58.5,
+          "y": -47.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconFaeyFire",
+    "spriteSheet": "Icons.png",
+    "x": 399,
+    "y": 58,
+    "width": 52,
+    "height": 53,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26.5
+        },
+        {
+          "x": -26,
+          "y": 26.500002
+        },
+        {
+          "x": 26,
+          "y": 26.500002
+        },
+        {
+          "x": 26,
+          "y": -26.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconSing",
+    "spriteSheet": "Icons.png",
+    "x": 847,
+    "y": 513,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceSymbolDestruction",
+    "spriteSheet": "Icons.png",
+    "x": 891,
+    "y": 128,
+    "width": 17,
+    "height": 15,
+    "outline": [
+      [
+        {
+          "x": -8.5,
+          "y": -7.5
+        },
+        {
+          "x": -8.5,
+          "y": 7.5
+        },
+        {
+          "x": 8.5,
+          "y": 7.5
+        },
+        {
+          "x": 8.5,
+          "y": -7.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbCreationNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 891,
+    "y": 102,
+    "width": 25,
+    "height": 25,
+    "outline": [
+      [
+        {
+          "x": -12.5,
+          "y": -12.5
+        },
+        {
+          "x": -12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": -12.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "TutorialIcon",
+    "spriteSheet": "Icons.png",
+    "x": 260,
+    "y": 279,
+    "width": 113,
+    "height": 100,
+    "outline": [
+      [
+        {
+          "x": -56.5,
+          "y": -50
+        },
+        {
+          "x": -56.5,
+          "y": 50
+        },
+        {
+          "x": 56.5,
+          "y": 50
+        },
+        {
+          "x": 56.5,
+          "y": -50
+        }
+      ]
+    ]
+  },
+  {
+    "name": "HUDOpenMarketplaceMenu",
+    "spriteSheet": "Icons.png",
+    "x": 254,
+    "y": 5,
+    "width": 66,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -33,
+          "y": -32
+        },
+        {
+          "x": -33,
+          "y": 32
+        },
+        {
+          "x": 33,
+          "y": 32
+        },
+        {
+          "x": 33,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "CheckBoxTick",
+    "spriteSheet": "Icons.png",
+    "x": 436,
+    "y": 604,
+    "width": 34,
+    "height": 32,
+    "outline": [
+      [
+        {
+          "x": -17,
+          "y": -16
+        },
+        {
+          "x": -17,
+          "y": 16
+        },
+        {
+          "x": 17,
+          "y": 16
+        },
+        {
+          "x": 17,
+          "y": -16
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LothUndeadResearchCategory",
+    "spriteSheet": "Icons.png",
+    "x": 480,
+    "y": 390,
+    "width": 75,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37.5,
+          "y": -42.5
+        },
+        {
+          "x": -37.5,
+          "y": 42.5
+        },
+        {
+          "x": 37.5,
+          "y": 42.5
+        },
+        {
+          "x": 37.5,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconSacrificeBones",
+    "spriteSheet": "Icons.png",
+    "x": 853,
+    "y": 145,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbArcanaActive",
+    "spriteSheet": "Icons.png",
+    "x": 733,
+    "y": 654,
+    "width": 42,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -21,
+          "y": -21
+        },
+        {
+          "x": -21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": -21
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconChargeEssence",
+    "spriteSheet": "Icons.png",
+    "x": 574,
+    "y": 108,
+    "width": 56,
+    "height": 57,
+    "outline": [
+      [
+        {
+          "x": -28,
+          "y": -28.5
+        },
+        {
+          "x": -28,
+          "y": 28.5
+        },
+        {
+          "x": 28,
+          "y": 28.5
+        },
+        {
+          "x": 28,
+          "y": -28.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceIconDestruction",
+    "spriteSheet": "Icons.png",
+    "x": 882,
+    "y": 200,
+    "width": 37,
+    "height": 33,
+    "outline": [
+      [
+        {
+          "x": -18.5,
+          "y": -16.5
+        },
+        {
+          "x": -18.5,
+          "y": 16.5
+        },
+        {
+          "x": 18.5,
+          "y": 16.5
+        },
+        {
+          "x": 18.5,
+          "y": -16.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconPalisades",
+    "spriteSheet": "Icons.png",
+    "x": 801,
+    "y": 369,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "HUDBuildingSell",
+    "spriteSheet": "Icons.png",
+    "x": 548,
+    "y": 490,
+    "width": 84,
+    "height": 84,
+    "outline": [
+      [
+        {
+          "x": -42,
+          "y": -42
+        },
+        {
+          "x": -42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": -42
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconGlimmer",
+    "spriteSheet": "Icons.png",
+    "x": 876,
+    "y": 279,
+    "width": 48,
+    "height": 47,
+    "outline": [
+      [
+        {
+          "x": -24,
+          "y": -23.5
+        },
+        {
+          "x": -24,
+          "y": 23.5
+        },
+        {
+          "x": 24,
+          "y": 23.5
+        },
+        {
+          "x": 24,
+          "y": -23.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "StatsMovementRendered",
+    "spriteSheet": "Icons.png",
+    "x": 990,
+    "y": 359,
+    "width": 29,
+    "height": 30,
+    "outline": [
+      [
+        {
+          "x": -14.5,
+          "y": -15.000001
+        },
+        {
+          "x": -14.5,
+          "y": 15.000001
+        },
+        {
+          "x": 14.5,
+          "y": 15.000001
+        },
+        {
+          "x": 14.5,
+          "y": -15.000001
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchCategoryIconFaeyTroop",
+    "spriteSheet": "Icons.png",
+    "x": 944,
+    "y": 822,
+    "width": 74,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37,
+          "y": -42.5
+        },
+        {
+          "x": -37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": 42.5
+        },
+        {
+          "x": 37,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbChaosActive",
+    "spriteSheet": "Icons.png",
+    "x": 947,
+    "y": 476,
+    "width": 42,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -21,
+          "y": -21
+        },
+        {
+          "x": -21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": -21
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EjectWielderIcon",
+    "spriteSheet": "Icons.png",
+    "x": 633,
+    "y": 534,
+    "width": 84,
+    "height": 84,
+    "outline": [
+      [
+        {
+          "x": -42,
+          "y": -42
+        },
+        {
+          "x": -42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": -42
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LothLivingResearchCategory",
+    "spriteSheet": "Icons.png",
+    "x": 472,
+    "y": 551,
+    "width": 75,
+    "height": 85,
+    "outline": [
+      [
+        {
+          "x": -37.5,
+          "y": -42.5
+        },
+        {
+          "x": -37.5,
+          "y": 42.5
+        },
+        {
+          "x": 37.5,
+          "y": 42.5
+        },
+        {
+          "x": 37.5,
+          "y": -42.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AbilityIconEpic",
+    "spriteSheet": "Icons.png",
+    "x": 729,
+    "y": 3,
+    "width": 52,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -26,
+          "y": -26
+        },
+        {
+          "x": -26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": 26
+        },
+        {
+          "x": 26,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbChaosNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 998,
+    "y": 134,
+    "width": 25,
+    "height": 25,
+    "outline": [
+      [
+        {
+          "x": -12.5,
+          "y": -12.5
+        },
+        {
+          "x": -12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": -12.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbOrderActive",
+    "spriteSheet": "Icons.png",
+    "x": 903,
+    "y": 382,
+    "width": 42,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -21,
+          "y": -21
+        },
+        {
+          "x": -21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": 21
+        },
+        {
+          "x": 21,
+          "y": -21
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconCelestialOreXLarge",
+    "spriteSheet": "Icons.png",
+    "x": 140,
+    "y": 281,
+    "width": 119,
+    "height": 107,
+    "outline": [
+      [
+        {
+          "x": -59.5,
+          "y": -53.500004
+        },
+        {
+          "x": -59.5,
+          "y": 53.499996
+        },
+        {
+          "x": 59.5,
+          "y": 53.499996
+        },
+        {
+          "x": 59.5,
+          "y": -53.500004
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeChaosActive",
+    "spriteSheet": "Icons.png",
+    "x": 710,
+    "y": 200,
+    "width": 78,
+    "height": 78,
+    "outline": [
+      [
+        {
+          "x": -39,
+          "y": -39
+        },
+        {
+          "x": -39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": -39
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconWoodXLarge",
+    "spriteSheet": "Icons.png",
+    "x": 238,
+    "y": 707,
+    "width": 123,
+    "height": 110,
+    "outline": [
+      [
+        {
+          "x": -61.499996,
+          "y": -55
+        },
+        {
+          "x": -61.499996,
+          "y": 55
+        },
+        {
+          "x": 61.5,
+          "y": 55
+        },
+        {
+          "x": 61.5,
+          "y": -55
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceSymbolCreation",
+    "spriteSheet": "Icons.png",
+    "x": 1003,
+    "y": 661,
+    "width": 17,
+    "height": 15,
+    "outline": [
+      [
+        {
+          "x": -8.5,
+          "y": -7.5
+        },
+        {
+          "x": -8.5,
+          "y": 7.5
+        },
+        {
+          "x": 8.5,
+          "y": 7.5
+        },
+        {
+          "x": 8.5,
+          "y": -7.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "StatsOffenceRendered",
+    "spriteSheet": "Icons.png",
+    "x": 362,
+    "y": 788,
+    "width": 20,
+    "height": 29,
+    "outline": [
+      [
+        {
+          "x": -10,
+          "y": -14.5
+        },
+        {
+          "x": -10,
+          "y": 14.5
+        },
+        {
+          "x": 10,
+          "y": 14.5
+        },
+        {
+          "x": 10,
+          "y": -14.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbOrderNonActive",
+    "spriteSheet": "Icons.png",
+    "x": 917,
+    "y": 105,
+    "width": 25,
+    "height": 25,
+    "outline": [
+      [
+        {
+          "x": -12.5,
+          "y": -12.5
+        },
+        {
+          "x": -12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": 12.5
+        },
+        {
+          "x": 12.5,
+          "y": -12.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceOrbLargeOrderActive",
+    "spriteSheet": "Icons.png",
+    "x": 442,
+    "y": 118,
+    "width": 78,
+    "height": 78,
+    "outline": [
+      [
+        {
+          "x": -39,
+          "y": -39
+        },
+        {
+          "x": -39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": 39
+        },
+        {
+          "x": 39,
+          "y": -39
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceSymbolOrder",
+    "spriteSheet": "Icons.png",
+    "x": 864,
+    "y": 205,
+    "width": 17,
+    "height": 17,
+    "outline": [
+      [
+        {
+          "x": -8.5,
+          "y": -8.5
+        },
+        {
+          "x": -8.5,
+          "y": 8.5
+        },
+        {
+          "x": 8.5,
+          "y": 8.5
+        },
+        {
+          "x": 8.5,
+          "y": -8.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResourceIconGlimmerXLarge",
+    "spriteSheet": "Icons.png",
+    "x": 173,
+    "y": 485,
+    "width": 116,
+    "height": 111,
+    "outline": [
+      [
+        {
+          "x": -58,
+          "y": -55.5
+        },
+        {
+          "x": -58,
+          "y": 55.5
+        },
+        {
+          "x": 58,
+          "y": 55.5
+        },
+        {
+          "x": 58,
+          "y": -55.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "HUDOpenResearchMenu",
+    "spriteSheet": "Icons.png",
+    "x": 1,
+    "y": 1,
+    "width": 56,
+    "height": 73,
+    "outline": [
+      [
+        {
+          "x": -28,
+          "y": -36.5
+        },
+        {
+          "x": -28,
+          "y": 36.5
+        },
+        {
+          "x": 28,
+          "y": 36.5
+        },
+        {
+          "x": 28,
+          "y": -36.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "VictorySwordIcon",
+    "spriteSheet": "Icons.png",
+    "x": 1,
+    "y": 769,
+    "width": 236,
+    "height": 254,
+    "outline": [
+      [
+        {
+          "x": -118.00001,
+          "y": -127
+        },
+        {
+          "x": -118.00001,
+          "y": 127
+        },
+        {
+          "x": 118,
+          "y": 127
+        },
+        {
+          "x": 118,
+          "y": -127
+        }
+      ]
+    ]
+  },
+  {
+    "name": "XPXLarge",
+    "spriteSheet": "Icons.png",
+    "x": 140,
+    "y": 167,
+    "width": 113,
+    "height": 113,
+    "outline": [
+      [
+        {
+          "x": -56.500004,
+          "y": -56.5
+        },
+        {
+          "x": -56.500004,
+          "y": 56.5
+        },
+        {
+          "x": 56.499996,
+          "y": 56.5
+        },
+        {
+          "x": 56.499996,
+          "y": -56.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "NotificationIconPositive",
+    "spriteSheet": "Icons.png",
+    "x": 206,
+    "y": 731,
+    "width": 31,
+    "height": 37,
+    "outline": [
+      [
+        {
+          "x": -15.5,
+          "y": -18.5
+        },
+        {
+          "x": -15.5,
+          "y": 18.5
+        },
+        {
+          "x": 15.5,
+          "y": 18.5
+        },
+        {
+          "x": 15.5,
+          "y": -18.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "SiegeOccupyOverlayIcon",
+    "spriteSheet": "Icons.png",
+    "x": 384,
+    "y": 831,
+    "width": 146,
+    "height": 192,
+    "outline": [
+      [
+        {
+          "x": -73,
+          "y": -96
+        },
+        {
+          "x": -73,
+          "y": 96
+        },
+        {
+          "x": 73,
+          "y": 96
+        },
+        {
+          "x": 73,
+          "y": -96
+        }
+      ]
+    ]
+  },
+  {
+    "name": "SiegeIcon",
+    "spriteSheet": "Icons.png",
+    "x": 480,
+    "y": 476,
+    "width": 67,
+    "height": 74,
+    "outline": [
+      [
+        {
+          "x": -33.5,
+          "y": -37
+        },
+        {
+          "x": -33.5,
+          "y": 37
+        },
+        {
+          "x": 33.5,
+          "y": 37
+        },
+        {
+          "x": 33.5,
+          "y": -37
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LevelUpArrow",
+    "spriteSheet": "Icons.png",
+    "x": 909,
+    "y": 336,
+    "width": 38,
+    "height": 45,
+    "outline": [
+      [
+        {
+          "x": -19,
+          "y": -22.5
+        },
+        {
+          "x": -19,
+          "y": 22.5
+        },
+        {
+          "x": 19,
+          "y": 22.5
+        },
+        {
+          "x": 19,
+          "y": -22.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "RoundLevelIndicator",
+    "spriteSheet": "Icons.png",
+    "x": 931,
+    "y": 180,
+    "width": 29,
+    "height": 29,
+    "outline": [
+      [
+        {
+          "x": -14.5,
+          "y": -14.5
+        },
+        {
+          "x": -14.5,
+          "y": 14.5
+        },
+        {
+          "x": 14.5,
+          "y": 14.5
+        },
+        {
+          "x": 14.5,
+          "y": -14.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "HexRangeIconDoubleArrow",
+    "spriteSheet": "Icons.png",
+    "x": 130,
+    "y": 70,
+    "width": 96,
+    "height": 96,
+    "outline": [
+      [
+        {
+          "x": -48,
+          "y": -48
+        },
+        {
+          "x": -48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": -48
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DefendStateIcon",
+    "spriteSheet": "Icons.png",
+    "x": 521,
+    "y": 165,
+    "width": 43,
+    "height": 55,
+    "outline": [
+      [
+        {
+          "x": -21.5,
+          "y": -27.5
+        },
+        {
+          "x": -21.5,
+          "y": 27.500002
+        },
+        {
+          "x": 21.5,
+          "y": 27.500002
+        },
+        {
+          "x": 21.5,
+          "y": -27.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "SpellbookActivationIcon",
+    "spriteSheet": "Icons.png",
+    "x": 565,
+    "y": 239,
+    "width": 65,
+    "height": 80,
+    "outline": [
+      [
+        {
+          "x": -32.5,
+          "y": -40
+        },
+        {
+          "x": -32.5,
+          "y": 40
+        },
+        {
+          "x": 32.5,
+          "y": 40
+        },
+        {
+          "x": 32.5,
+          "y": -40
+        }
+      ]
+    ]
+  },
+  {
+    "name": "PostBattleSwords",
+    "spriteSheet": "Icons.png",
+    "x": 565,
+    "y": 166,
+    "width": 65,
+    "height": 72,
+    "outline": [
+      [
+        {
+          "x": -32.5,
+          "y": -36
+        },
+        {
+          "x": -32.5,
+          "y": 36
+        },
+        {
+          "x": 32.5,
+          "y": 36
+        },
+        {
+          "x": 32.5,
+          "y": -36
+        }
+      ]
+    ]
+  },
+  {
+    "name": "AvailableUpgradeIcon",
+    "spriteSheet": "Icons.png",
+    "x": 997,
+    "y": 590,
+    "width": 26,
+    "height": 30,
+    "outline": [
+      [
+        {
+          "x": -13,
+          "y": -15.000001
+        },
+        {
+          "x": -13,
+          "y": 15.000001
+        },
+        {
+          "x": 13,
+          "y": 15.000001
+        },
+        {
+          "x": 13,
+          "y": -15.000001
+        }
+      ]
+    ]
+  },
+  {
+    "name": "NotificationIconImportant",
+    "spriteSheet": "Icons.png",
+    "x": 873,
+    "y": 780,
+    "width": 13,
+    "height": 36,
+    "outline": [
+      [
+        {
+          "x": -6.5,
+          "y": -18
+        },
+        {
+          "x": -6.5,
+          "y": 18
+        },
+        {
+          "x": 6.5,
+          "y": 18
+        },
+        {
+          "x": 6.5,
+          "y": -18
+        }
+      ]
+    ]
+  },
+  {
+    "name": "WielderLevelUpIcon",
+    "spriteSheet": "Icons.png",
+    "x": 556,
+    "y": 320,
+    "width": 84,
+    "height": 84,
+    "outline": [
+      [
+        {
+          "x": -42,
+          "y": -42
+        },
+        {
+          "x": -42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": 42
+        },
+        {
+          "x": 42,
+          "y": -42
+        }
+      ]
+    ]
+  },
+  {
+    "name": "InventoryMisc",
+    "spriteSheet": "Icons.png",
+    "x": 844,
+    "y": 607,
+    "width": 44,
+    "height": 46,
+    "outline": [
+      [
+        {
+          "x": -22,
+          "y": -23
+        },
+        {
+          "x": -22,
+          "y": 23
+        },
+        {
+          "x": 22,
+          "y": 23
+        },
+        {
+          "x": 22,
+          "y": -23
+        }
+      ]
+    ]
+  },
+  {
+    "name": "InfoIconWhite",
+    "spriteSheet": "Icons.png",
+    "x": 785,
+    "y": 584,
+    "width": 58,
+    "height": 59,
+    "outline": [
+      [
+        {
+          "x": -29,
+          "y": -29.5
+        },
+        {
+          "x": -29,
+          "y": 29.500002
+        },
+        {
+          "x": 29,
+          "y": 29.500002
+        },
+        {
+          "x": 29,
+          "y": -29.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "KingdomOverviewBuildingsIcon",
+    "spriteSheet": "Icons.png",
+    "x": 989,
+    "y": 424,
+    "width": 31,
+    "height": 30,
+    "outline": [
+      [
+        {
+          "x": -15.5,
+          "y": -15.000001
+        },
+        {
+          "x": -15.5,
+          "y": 15.000001
+        },
+        {
+          "x": 15.5,
+          "y": 15.000001
+        },
+        {
+          "x": 15.5,
+          "y": -15.000001
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DiamondPanel",
+    "spriteSheet": "Icons.png",
+    "x": 1,
+    "y": 446,
+    "width": 171,
+    "height": 171,
+    "outline": [
+      [
+        {
+          "x": -85.5,
+          "y": -85.5
+        },
+        {
+          "x": -85.5,
+          "y": 85.5
+        },
+        {
+          "x": 85.5,
+          "y": 85.5
+        },
+        {
+          "x": 85.5,
+          "y": -85.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "PostBattleMenuChest",
+    "spriteSheet": "Icons.png",
+    "x": 254,
+    "y": 180,
+    "width": 105,
+    "height": 98,
+    "outline": [
+      [
+        {
+          "x": -52.5,
+          "y": -49
+        },
+        {
+          "x": -52.5,
+          "y": 49
+        },
+        {
+          "x": 52.499996,
+          "y": 49
+        },
+        {
+          "x": 52.499996,
+          "y": -49
+        }
+      ]
+    ]
+  },
+  {
+    "name": "PostBattleMenuXP",
+    "spriteSheet": "Icons.png",
+    "x": 329,
+    "y": 599,
+    "width": 106,
+    "height": 107,
+    "outline": [
+      [
+        {
+          "x": -52.999996,
+          "y": -53.500004
+        },
+        {
+          "x": -52.999996,
+          "y": 53.500004
+        },
+        {
+          "x": 52.999996,
+          "y": 53.500004
+        },
+        {
+          "x": 52.999996,
+          "y": -53.500004
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ChatIconBadge",
+    "spriteSheet": "Icons.png",
+    "x": 839,
+    "y": 198,
+    "width": 24,
+    "height": 24,
+    "outline": [
+      [
+        {
+          "x": -12,
+          "y": -12
+        },
+        {
+          "x": -12,
+          "y": 12
+        },
+        {
+          "x": 12,
+          "y": 12
+        },
+        {
+          "x": 12,
+          "y": -12
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchTooltipIcon",
+    "spriteSheet": "Icons.png",
+    "x": 989,
+    "y": 390,
+    "width": 25,
+    "height": 33,
+    "outline": [
+      [
+        {
+          "x": -12.5,
+          "y": -16.5
+        },
+        {
+          "x": -12.5,
+          "y": 16.5
+        },
+        {
+          "x": 12.5,
+          "y": 16.5
+        },
+        {
+          "x": 12.5,
+          "y": -16.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "NotificationIconInformative",
+    "spriteSheet": "Icons.png",
+    "x": 825,
+    "y": 778,
+    "width": 47,
+    "height": 39,
+    "outline": [
+      [
+        {
+          "x": -23.5,
+          "y": -19.5
+        },
+        {
+          "x": -23.5,
+          "y": 19.5
+        },
+        {
+          "x": 23.5,
+          "y": 19.5
+        },
+        {
+          "x": 23.5,
+          "y": -19.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "SiegePillageOverlayIcon",
+    "spriteSheet": "Icons.png",
+    "x": 531,
+    "y": 854,
+    "width": 152,
+    "height": 169,
+    "outline": [
+      [
+        {
+          "x": -76,
+          "y": -84.5
+        },
+        {
+          "x": -76,
+          "y": 84.5
+        },
+        {
+          "x": 76,
+          "y": 84.5
+        },
+        {
+          "x": 76,
+          "y": -84.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "InventoryArmor",
+    "spriteSheet": "Icons.png",
+    "x": 517,
+    "y": 56,
+    "width": 56,
+    "height": 55,
+    "outline": [
+      [
+        {
+          "x": -28,
+          "y": -27.5
+        },
+        {
+          "x": -28,
+          "y": 27.500002
+        },
+        {
+          "x": 28.000002,
+          "y": 27.500002
+        },
+        {
+          "x": 28.000002,
+          "y": -27.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "SiegeConvertOverlayIcon",
+    "spriteSheet": "Icons.png",
+    "x": 1,
+    "y": 618,
+    "width": 204,
+    "height": 150,
+    "outline": [
+      [
+        {
+          "x": -102,
+          "y": -75
+        },
+        {
+          "x": -102,
+          "y": 75
+        },
+        {
+          "x": 102,
+          "y": 75
+        },
+        {
+          "x": 102,
+          "y": -75
+        }
+      ]
+    ]
+  },
+  {
+    "name": "InventorySword",
+    "spriteSheet": "Icons.png",
+    "x": 954,
+    "y": 694,
+    "width": 61,
+    "height": 62,
+    "outline": [
+      [
+        {
+          "x": -30.5,
+          "y": -31
+        },
+        {
+          "x": -30.5,
+          "y": 31
+        },
+        {
+          "x": 30.500002,
+          "y": 31
+        },
+        {
+          "x": 30.500002,
+          "y": -31
+        }
+      ]
+    ]
+  },
+  {
+    "name": "BuildStateIcon",
+    "spriteSheet": "Icons.png",
+    "x": 389,
+    "y": 1,
+    "width": 56,
+    "height": 56,
+    "outline": [
+      [
+        {
+          "x": -28,
+          "y": -28
+        },
+        {
+          "x": -28,
+          "y": 28
+        },
+        {
+          "x": 28,
+          "y": 28
+        },
+        {
+          "x": 28,
+          "y": -28
+        }
+      ]
+    ]
+  },
+  {
+    "name": "PostBattleSkull",
+    "spriteSheet": "Icons.png",
+    "x": 911,
+    "y": 908,
+    "width": 106,
+    "height": 115,
+    "outline": [
+      [
+        {
+          "x": -52.999996,
+          "y": -57.5
+        },
+        {
+          "x": -52.999996,
+          "y": 57.5
+        },
+        {
+          "x": 52.999996,
+          "y": 57.5
+        },
+        {
+          "x": 52.999996,
+          "y": -57.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "TargetingRanged200",
+    "spriteSheet": "Icons.png",
+    "x": 442,
+    "y": 637,
+    "width": 96,
+    "height": 96,
+    "outline": [
+      [
+        {
+          "x": -48,
+          "y": -48
+        },
+        {
+          "x": -48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": -48
+        }
+      ]
+    ]
+  },
+  {
+    "name": "SiegeRazeOverlayIcon",
+    "spriteSheet": "Icons.png",
+    "x": 1,
+    "y": 75,
+    "width": 128,
+    "height": 179,
+    "outline": [
+      [
+        {
+          "x": -64,
+          "y": -89.5
+        },
+        {
+          "x": -64,
+          "y": 89.5
+        },
+        {
+          "x": 64,
+          "y": 89.5
+        },
+        {
+          "x": 64,
+          "y": -89.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "KingdomOverviewMarketplaceIcon",
+    "spriteSheet": "Icons.png",
+    "x": 807,
+    "y": 279,
+    "width": 41,
+    "height": 36,
+    "outline": [
+      [
+        {
+          "x": -20.5,
+          "y": -18
+        },
+        {
+          "x": -20.5,
+          "y": 18
+        },
+        {
+          "x": 20.5,
+          "y": 18
+        },
+        {
+          "x": 20.5,
+          "y": -18
+        }
+      ]
+    ]
+  },
+  {
+    "name": "TradeActionIcon",
+    "spriteSheet": "Icons.png",
+    "x": 724,
+    "y": 279,
+    "width": 82,
+    "height": 82,
+    "outline": [
+      [
+        {
+          "x": -41,
+          "y": -41
+        },
+        {
+          "x": -41,
+          "y": 41
+        },
+        {
+          "x": 41,
+          "y": 41
+        },
+        {
+          "x": 41,
+          "y": -41
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Half",
+    "spriteSheet": "Icons.png",
+    "x": 727,
+    "y": 619,
+    "width": 39,
+    "height": 34,
+    "outline": [
+      [
+        {
+          "x": -19.5,
+          "y": -17
+        },
+        {
+          "x": -19.5,
+          "y": 17
+        },
+        {
+          "x": 19.5,
+          "y": 17
+        },
+        {
+          "x": 19.5,
+          "y": -17
+        }
+      ]
+    ]
+  },
+  {
+    "name": "KingdomOverviewTroopIcon",
+    "spriteSheet": "Icons.png",
+    "x": 925,
+    "y": 293,
+    "width": 38,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -19,
+          "y": -21
+        },
+        {
+          "x": -19,
+          "y": 21
+        },
+        {
+          "x": 19,
+          "y": 21
+        },
+        {
+          "x": 19,
+          "y": -21
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ResearchIconCommonBg",
+    "spriteSheet": "Icons.png",
+    "x": 290,
+    "y": 486,
+    "width": 110,
+    "height": 110,
+    "outline": [
+      [
+        {
+          "x": -55,
+          "y": -55
+        },
+        {
+          "x": -55,
+          "y": 55
+        },
+        {
+          "x": 55,
+          "y": 55
+        },
+        {
+          "x": 55,
+          "y": -55
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ClaimIcon",
+    "spriteSheet": "Icons.png",
+    "x": 801,
+    "y": 478,
+    "width": 45,
+    "height": 55,
+    "outline": [
+      [
+        {
+          "x": -22.5,
+          "y": -27.5
+        },
+        {
+          "x": -22.5,
+          "y": 27.5
+        },
+        {
+          "x": 22.5,
+          "y": 27.5
+        },
+        {
+          "x": 22.5,
+          "y": -27.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DoubleEssenceIcon",
+    "spriteSheet": "Icons.png",
+    "x": 781,
+    "y": 788,
+    "width": 43,
+    "height": 29,
+    "outline": [
+      [
+        {
+          "x": -21.5,
+          "y": -14.5
+        },
+        {
+          "x": -21.5,
+          "y": 14.5
+        },
+        {
+          "x": 21.5,
+          "y": 14.5
+        },
+        {
+          "x": 21.5,
+          "y": -14.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DefendShield",
+    "spriteSheet": "Icons.png",
+    "x": 684,
+    "y": 880,
+    "width": 105,
+    "height": 143,
+    "outline": [
+      [
+        {
+          "x": -52.499996,
+          "y": -71.5
+        },
+        {
+          "x": -52.499996,
+          "y": 71.5
+        },
+        {
+          "x": 52.499996,
+          "y": 71.5
+        },
+        {
+          "x": 52.499996,
+          "y": -71.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "IconCog",
+    "spriteSheet": "Icons.png",
+    "x": 948,
+    "y": 347,
+    "width": 41,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -20.5,
+          "y": -21
+        },
+        {
+          "x": -20.5,
+          "y": 21
+        },
+        {
+          "x": 20.5,
+          "y": 21
+        },
+        {
+          "x": 20.5,
+          "y": -21
+        }
+      ]
+    ]
+  },
+  {
+    "name": "KingdomOverviewResearchIcon",
+    "spriteSheet": "Icons.png",
+    "x": 540,
+    "y": 12,
+    "width": 33,
+    "height": 43,
+    "outline": [
+      [
+        {
+          "x": -16.5,
+          "y": -21.5
+        },
+        {
+          "x": -16.5,
+          "y": 21.5
+        },
+        {
+          "x": 16.5,
+          "y": 21.5
+        },
+        {
+          "x": 16.5,
+          "y": -21.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "PostBattleHourglass",
+    "spriteSheet": "Icons.png",
+    "x": 789,
+    "y": 198,
+    "width": 49,
+    "height": 80,
+    "outline": [
+      [
+        {
+          "x": -24.5,
+          "y": -40
+        },
+        {
+          "x": -24.5,
+          "y": 40
+        },
+        {
+          "x": 24.5,
+          "y": 40
+        },
+        {
+          "x": 24.5,
+          "y": -40
+        }
+      ]
+    ]
+  },
+  {
+    "name": "VictoryCrown",
+    "spriteSheet": "Icons.png",
+    "x": 636,
+    "y": 619,
+    "width": 90,
+    "height": 71,
+    "outline": [
+      [
+        {
+          "x": -45,
+          "y": -35.5
+        },
+        {
+          "x": -45,
+          "y": 35.5
+        },
+        {
+          "x": 45,
+          "y": 35.5
+        },
+        {
+          "x": 45,
+          "y": -35.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "KillSkullIcon",
+    "spriteSheet": "Icons.png",
+    "x": 636,
+    "y": 801,
+    "width": 47,
+    "height": 52,
+    "outline": [
+      [
+        {
+          "x": -23.5,
+          "y": -26
+        },
+        {
+          "x": -23.5,
+          "y": 26
+        },
+        {
+          "x": 23.5,
+          "y": 26
+        },
+        {
+          "x": 23.5,
+          "y": -26
+        }
+      ]
+    ]
+  },
+  {
+    "name": "InventoryOffhand",
+    "spriteSheet": "Icons.png",
+    "x": 839,
+    "y": 654,
+    "width": 49,
+    "height": 57,
+    "outline": [
+      [
+        {
+          "x": -24.499998,
+          "y": -28.500002
+        },
+        {
+          "x": -24.499998,
+          "y": 28.500002
+        },
+        {
+          "x": 24.500002,
+          "y": 28.500002
+        },
+        {
+          "x": 24.500002,
+          "y": -28.500002
+        }
+      ]
+    ]
+  },
+  {
+    "name": "InventoryBoots",
+    "spriteSheet": "Icons.png",
+    "x": 574,
+    "y": 1,
+    "width": 45,
+    "height": 61,
+    "outline": [
+      [
+        {
+          "x": -22.499998,
+          "y": -30.5
+        },
+        {
+          "x": -22.499998,
+          "y": 30.5
+        },
+        {
+          "x": 22.500002,
+          "y": 30.5
+        },
+        {
+          "x": 22.500002,
+          "y": -30.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "InventoryHelmet",
+    "spriteSheet": "Icons.png",
+    "x": 839,
+    "y": 223,
+    "width": 42,
+    "height": 55,
+    "outline": [
+      [
+        {
+          "x": -21,
+          "y": -27.500002
+        },
+        {
+          "x": -21,
+          "y": 27.5
+        },
+        {
+          "x": 21,
+          "y": 27.5
+        },
+        {
+          "x": 21,
+          "y": -27.500002
+        }
+      ]
+    ]
+  },
+  {
+    "name": "NotificationIconNegative",
+    "spriteSheet": "Icons.png",
+    "x": 964,
+    "y": 305,
+    "width": 35,
+    "height": 41,
+    "outline": [
+      [
+        {
+          "x": -17.5,
+          "y": -20.5
+        },
+        {
+          "x": -17.5,
+          "y": 20.5
+        },
+        {
+          "x": 17.5,
+          "y": 20.5
+        },
+        {
+          "x": 17.5,
+          "y": -20.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "PaginationArrownormal",
+    "spriteSheet": "Icons.png",
+    "x": 961,
+    "y": 168,
+    "width": 37,
+    "height": 21,
+    "outline": [
+      [
+        {
+          "x": -18.5,
+          "y": -10.5
+        },
+        {
+          "x": -18.5,
+          "y": 10.5
+        },
+        {
+          "x": 18.5,
+          "y": 10.5
+        },
+        {
+          "x": 18.5,
+          "y": -10.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "ChatIcon",
+    "spriteSheet": "Icons.png",
+    "x": 968,
+    "y": 224,
+    "width": 38,
+    "height": 39,
+    "outline": [
+      [
+        {
+          "x": -19,
+          "y": -19.5
+        },
+        {
+          "x": -19,
+          "y": 19.5
+        },
+        {
+          "x": 19,
+          "y": 19.5
+        },
+        {
+          "x": 19,
+          "y": -19.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "InventoryGlove",
+    "spriteSheet": "Icons.png",
+    "x": 801,
+    "y": 422,
+    "width": 51,
+    "height": 55,
+    "outline": [
+      [
+        {
+          "x": -25.5,
+          "y": -27.5
+        },
+        {
+          "x": -25.5,
+          "y": 27.500002
+        },
+        {
+          "x": 25.5,
+          "y": 27.500002
+        },
+        {
+          "x": 25.5,
+          "y": -27.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DefenceTroopsPlaceholder",
+    "spriteSheet": "Icons.png",
+    "x": 238,
+    "y": 818,
+    "width": 145,
+    "height": 205,
+    "outline": [
+      [
+        {
+          "x": -72.5,
+          "y": -102.5
+        },
+        {
+          "x": -72.5,
+          "y": 102.5
+        },
+        {
+          "x": 72.5,
+          "y": 102.5
+        },
+        {
+          "x": 72.5,
+          "y": -102.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DefenceTowersPlaceholder",
+    "spriteSheet": "Icons.png",
+    "x": 1,
+    "y": 255,
+    "width": 138,
+    "height": 190,
+    "outline": [
+      [
+        {
+          "x": -69,
+          "y": -95
+        },
+        {
+          "x": -69,
+          "y": 95
+        },
+        {
+          "x": 69,
+          "y": 95
+        },
+        {
+          "x": 69,
+          "y": -95
+        }
+      ]
+    ]
+  },
+  {
+    "name": "IconBug",
+    "spriteSheet": "Icons.png",
+    "x": 620,
+    "y": 2,
+    "width": 55,
+    "height": 55,
+    "outline": [
+      [
+        {
+          "x": -27.5,
+          "y": -27.5
+        },
+        {
+          "x": -27.5,
+          "y": 27.5
+        },
+        {
+          "x": 27.5,
+          "y": 27.5
+        },
+        {
+          "x": 27.5,
+          "y": -27.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "SocialPlatformDiscord",
+    "spriteSheet": "Icons.png",
+    "x": 574,
+    "y": 63,
+    "width": 56,
+    "height": 44,
+    "outline": [
+      [
+        {
+          "x": -28,
+          "y": -22
+        },
+        {
+          "x": -28,
+          "y": 22
+        },
+        {
+          "x": 28,
+          "y": 22
+        },
+        {
+          "x": 28,
+          "y": -22
+        }
+      ]
+    ]
+  },
+  {
+    "name": "BuffIcon",
+    "spriteSheet": "Icons.png",
+    "x": 906,
+    "y": 170,
+    "width": 24,
+    "height": 29,
+    "outline": [
+      [
+        {
+          "x": -12,
+          "y": -14.5
+        },
+        {
+          "x": -12,
+          "y": 14.5
+        },
+        {
+          "x": 12,
+          "y": 14.5
+        },
+        {
+          "x": 12,
+          "y": -14.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "QuickBarBattleIcon",
+    "spriteSheet": "Icons.png",
+    "x": 860,
+    "y": 327,
+    "width": 48,
+    "height": 48,
+    "outline": [
+      [
+        {
+          "x": -24,
+          "y": -24
+        },
+        {
+          "x": -24,
+          "y": 24
+        },
+        {
+          "x": 24,
+          "y": 24
+        },
+        {
+          "x": 24,
+          "y": -24
+        }
+      ]
+    ]
+  },
+  {
+    "name": "TargetingRanged50",
+    "spriteSheet": "Icons.png",
+    "x": 539,
+    "y": 660,
+    "width": 96,
+    "height": 96,
+    "outline": [
+      [
+        {
+          "x": -48,
+          "y": -48
+        },
+        {
+          "x": -48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": -48
+        }
+      ]
+    ]
+  },
+  {
+    "name": "NerfIcon",
+    "spriteSheet": "Icons.png",
+    "x": 999,
+    "y": 160,
+    "width": 24,
+    "height": 29,
+    "outline": [
+      [
+        {
+          "x": -12,
+          "y": -14.5
+        },
+        {
+          "x": -12,
+          "y": 14.5
+        },
+        {
+          "x": 12,
+          "y": 14.5
+        },
+        {
+          "x": 12,
+          "y": -14.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "BattleAIIcon",
+    "spriteSheet": "Icons.png",
+    "x": 968,
+    "y": 264,
+    "width": 35,
+    "height": 40,
+    "outline": [
+      [
+        {
+          "x": -17.499998,
+          "y": -20
+        },
+        {
+          "x": -17.499998,
+          "y": 20
+        },
+        {
+          "x": 17.500002,
+          "y": 20
+        },
+        {
+          "x": 17.500002,
+          "y": -20
+        }
+      ]
+    ]
+  },
+  {
+    "name": "EssenceLostNotificationsicon",
+    "spriteSheet": "Icons.png",
+    "x": 490,
+    "y": 3,
+    "width": 49,
+    "height": 49,
+    "outline": [
+      [
+        {
+          "x": -24.5,
+          "y": -24.5
+        },
+        {
+          "x": -24.5,
+          "y": 24.5
+        },
+        {
+          "x": 24.5,
+          "y": 24.5
+        },
+        {
+          "x": 24.5,
+          "y": -24.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "CancelIcon",
+    "spriteSheet": "Icons.png",
+    "x": 854,
+    "y": 376,
+    "width": 48,
+    "height": 48,
+    "outline": [
+      [
+        {
+          "x": -24,
+          "y": -24
+        },
+        {
+          "x": -24,
+          "y": 24
+        },
+        {
+          "x": 24,
+          "y": 24
+        },
+        {
+          "x": 24,
+          "y": -24
+        }
+      ]
+    ]
+  },
+  {
+    "name": "Spinner",
+    "spriteSheet": "Icons.png",
+    "x": 790,
+    "y": 902,
+    "width": 120,
+    "height": 121,
+    "outline": [
+      [
+        {
+          "x": -60.000004,
+          "y": -60.500004
+        },
+        {
+          "x": -60.000004,
+          "y": 60.5
+        },
+        {
+          "x": 60.000004,
+          "y": 60.5
+        },
+        {
+          "x": 60.000004,
+          "y": -60.500004
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LobbyPlayerAIEasy",
+    "spriteSheet": "Icons.png",
+    "x": 835,
+    "y": 1,
+    "width": 64,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -32,
+          "y": -32
+        },
+        {
+          "x": -32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "PadlockWhite",
+    "spriteSheet": "Icons.png",
+    "x": 849,
+    "y": 279,
+    "width": 26,
+    "height": 36,
+    "outline": [
+      [
+        {
+          "x": -13,
+          "y": -18
+        },
+        {
+          "x": -13,
+          "y": 18
+        },
+        {
+          "x": 13,
+          "y": 18
+        },
+        {
+          "x": 13,
+          "y": -18
+        }
+      ]
+    ]
+  },
+  {
+    "name": "RandomIcon",
+    "spriteSheet": "Icons.png",
+    "x": 374,
+    "y": 283,
+    "width": 96,
+    "height": 96,
+    "outline": [
+      [
+        {
+          "x": -48,
+          "y": -48
+        },
+        {
+          "x": -48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": -48
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LobbyPlayerHuman",
+    "spriteSheet": "Icons.png",
+    "x": 997,
+    "y": 621,
+    "width": 26,
+    "height": 32,
+    "outline": [
+      [
+        {
+          "x": -13,
+          "y": -16
+        },
+        {
+          "x": -13,
+          "y": 16
+        },
+        {
+          "x": 13,
+          "y": 16
+        },
+        {
+          "x": 13,
+          "y": -16
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LobbyPlayerAIMedium",
+    "spriteSheet": "Icons.png",
+    "x": 889,
+    "y": 686,
+    "width": 64,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -32,
+          "y": -32
+        },
+        {
+          "x": -32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LobbyPlayerAIHard",
+    "spriteSheet": "Icons.png",
+    "x": 954,
+    "y": 757,
+    "width": 64,
+    "height": 64,
+    "outline": [
+      [
+        {
+          "x": -32,
+          "y": -32
+        },
+        {
+          "x": -32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": 32
+        },
+        {
+          "x": 32,
+          "y": -32
+        }
+      ]
+    ]
+  },
+  {
+    "name": "UnknownWielderIcon",
+    "spriteSheet": "Icons.png",
+    "x": 636,
+    "y": 691,
+    "width": 96,
+    "height": 96,
+    "outline": [
+      [
+        {
+          "x": -48,
+          "y": -48
+        },
+        {
+          "x": -48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": 48
+        },
+        {
+          "x": 48,
+          "y": -48
+        }
+      ]
+    ]
+  },
+  {
+    "name": "LobbyPlayerAI",
+    "spriteSheet": "Icons.png",
+    "x": 140,
+    "y": 413,
+    "width": 32,
+    "height": 32,
+    "outline": [
+      [
+        {
+          "x": -16,
+          "y": -16
+        },
+        {
+          "x": -16,
+          "y": 16
+        },
+        {
+          "x": 16,
+          "y": 16
+        },
+        {
+          "x": 16,
+          "y": -16
+        }
+      ]
+    ]
+  },
+  {
+    "name": "DropdownArrowNormal",
+    "spriteSheet": "Icons.png",
+    "x": 140,
+    "y": 395,
+    "width": 29,
+    "height": 17,
+    "outline": [
+      [
+        {
+          "x": -14.5,
+          "y": -8.5
+        },
+        {
+          "x": -14.5,
+          "y": 8.5
+        },
+        {
+          "x": 14.5,
+          "y": 8.5
+        },
+        {
+          "x": 14.5,
+          "y": -8.5
+        }
+      ]
+    ]
+  }
+]

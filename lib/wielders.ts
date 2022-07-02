@@ -6,7 +6,10 @@ import unitsCollection from "./collections/units.json";
 
 export const getWielders = (locale: string): WielderSimpleDTO[] => {
   const wielders = wieldersCollection.map((wielder) => ({
-    ...wielder,
+    type: wielder.type,
+    stats: wielder.stats,
+    portrait: wielder.portrait,
+    faction: getTerm(`Factions/${wielder.faction}/Name`, locale),
     name: getTerm(`${wielder.faction}/${wielder.type}/Name`, locale),
     description: getTerm(
       `${wielder.faction}/${wielder.type}/Description`,
@@ -25,7 +28,10 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
   }
 
   const wielder = {
-    ...wielderSrc,
+    type: wielderSrc.type,
+    faction: getTerm(`Factions/${wielderSrc.faction}/Name`, locale),
+    portrait: wielderSrc.portrait,
+    stats: wielderSrc.stats,
     name: getTerm(`${wielderSrc.faction}/${wielderSrc.type}/Name`, locale),
     description: getTerm(
       `${wielderSrc.faction}/${wielderSrc.type}/Description`,
@@ -60,6 +66,10 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       name: getTerm(`Skills/${skill.type}`, locale),
       level: skill.level || null,
       levelRange: skill.levelRange || null,
+      requiresSkill: skill.requiresSkill || null,
+      requirementType:
+        (skill.requirementType as "RequireAny" | "RequireAll" | undefined) ||
+        null,
       requiredSkills:
         skill.requiredSkills?.map((requiredSkill) => ({
           type: requiredSkill.type,
@@ -81,6 +91,13 @@ export type WielderSimpleDTO = {
   portrait: SpriteDTO;
   name: string;
   description: string;
+  stats: {
+    defense: number;
+    offense: number;
+    movement: number;
+    viewRadius: number;
+    command: number;
+  };
 };
 
 export type WielderDTO = {
@@ -105,6 +122,8 @@ export type WielderDTO = {
       min: number;
       max: number;
     } | null;
+    requiresSkill: boolean | null;
+    requirementType: "RequireAny" | "RequireAll" | null;
     requiredSkills:
       | {
           level: number;

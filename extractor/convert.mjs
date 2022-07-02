@@ -7,6 +7,7 @@ const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
 const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
 const artifactsSrc = await readJSONFile("./out/artifact.json");
 const termMapSrc = await readJSONFile("./out/termMap.json");
+const iconsSrc = await readJSONFile("./out/icons.json");
 
 await writeJSONFile(termMapSrc, "../../lib/collections/termMap");
 
@@ -131,6 +132,9 @@ const wielders = factionsSrc
               skills.push({
                 type: type,
                 levelRange: pool.levelRange,
+                requiresSkill: skill.requiresSkill ? true : false,
+                requirementType:
+                  skill.requirementType === 0 ? "RequireAny" : "RequireAll",
                 requiredSkills: skill.requiredSkills.map((requiredSkill) => ({
                   type: skillsSrc.find(
                     (skillSrc) => skillSrc.id === requiredSkill.skill
@@ -245,4 +249,9 @@ const artifacts = artifactsSrc.map((artifact) => ({
 await writeJSONFile(artifacts, "../../lib/collections/artifacts");
 for (const artifact of artifacts) {
   await copyImageFile(artifact.icon.spriteSheet, "../public/artifacts");
+}
+
+await writeJSONFile(iconsSrc, "../../lib/collections/icons");
+for (const icon of iconsSrc) {
+  await copyImageFile(icon.spriteSheet, "../public/icons");
 }

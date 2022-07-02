@@ -2,16 +2,25 @@ import { Box, Stack, Text, Title } from "@mantine/core";
 import { MilestoneIcon } from "@primer/octicons-react";
 import { ReactNode } from "react";
 import AppLink from "../AppLink/AppLink";
+import Lore from "../Lore/Lore";
 import { useTerms } from "../Terms/Terms";
 
 type Props = {
   image?: ReactNode;
   name: string;
+  subtitle?: string;
   description: string;
   href: string;
   children?: ReactNode;
 };
-const Article = ({ image, name, description, href, children }: Props) => {
+const Article = ({
+  image,
+  name,
+  subtitle,
+  description,
+  href,
+  children,
+}: Props) => {
   const terms = useTerms();
 
   return (
@@ -27,13 +36,10 @@ const Article = ({ image, name, description, href, children }: Props) => {
       })}
     >
       {image}
-      <Stack>
+      <Stack spacing="xs">
         <Title order={3}>{name}</Title>
-        <Text
-          size="sm"
-          sx={{ fontStyle: "italic" }}
-          dangerouslySetInnerHTML={{ __html: description }}
-        />
+        {subtitle && <Text size="sm">{subtitle}</Text>}
+        <Lore text={description} />
         {children}
         <AppLink href={href}>
           <MilestoneIcon /> {terms.LearnMore}

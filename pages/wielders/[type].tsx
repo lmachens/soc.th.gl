@@ -4,14 +4,19 @@ import { withStaticBase } from "../../lib/staticProps";
 import { Box, Group, Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
-import { getTerm, TermsDTO } from "../../lib/terms";
+import { getSiteTerm, getTerm, TermsDTO } from "../../lib/terms";
 import Head from "next/head";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
 import { useTerms } from "../../components/Terms/Terms";
 import Lore from "../../components/Lore/Lore";
 import WielderStats from "../../components/WielderStats/WielderStats";
+import { Fragment } from "react";
+import { getWielderStatsIcons, IconsDTO } from "../../lib/icons";
 
-const Wielder: NextPage<{ wielder: WielderDTO }> = ({ wielder }) => {
+const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
+  wielder,
+  icons,
+}) => {
   const terms = useTerms();
 
   return (
@@ -26,12 +31,13 @@ const Wielder: NextPage<{ wielder: WielderDTO }> = ({ wielder }) => {
       <Stack align="flex-start">
         <Group>
           <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
-          <Stack>
+          <Stack spacing="xs">
             <Title order={2}>{wielder.name}</Title>
+            <Text>{wielder.faction}</Text>
             <Lore text={wielder.description} />
           </Stack>
         </Group>
-        <WielderStats wielder={wielder} />
+        <WielderStats wielder={wielder} icons={icons} />
         <Title order={3}>{terms.startingTroops}</Title>
         <Group>
           {wielder.units.map((unit, index) => (
@@ -71,20 +77,19 @@ const Wielder: NextPage<{ wielder: WielderDTO }> = ({ wielder }) => {
         </Group>
         <Title order={3}>{terms.specializations}</Title>
         {wielder.specializations.map((specialization) => (
-          <Text key={`${wielder.name}-${specialization.bacteriaType}`}>
+          <Fragment key={`${wielder.name}-${specialization.bacteriaType}`}>
             {specialization.modifierData.map((modifier) => (
               <Text
                 key={modifier.type}
                 dangerouslySetInnerHTML={{ __html: modifier.description }}
-                component="span"
               />
             ))}
             {specialization.resourcesIncome.map((resourceIncome) => (
-              <Text key={resourceIncome.type} component="span">
+              <Text key={resourceIncome.type}>
                 {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
               </Text>
             ))}
-          </Text>
+          </Fragment>
         ))}
         <Title order={3}>{terms.skills}</Title>
         <Table striped>
@@ -117,22 +122,38 @@ const Wielder: NextPage<{ wielder: WielderDTO }> = ({ wielder }) => {
                   </PopoverLink>
                 </td>
                 <td>
-                  {skill.requiredSkills?.map((requiredSkill) => (
-                    <PopoverLink
-                      key={requiredSkill.type}
-                      href={`/skills/${requiredSkill.type}`}
-                      popover={
-                        <Stack>
-                          <Title order={4}>{requiredSkill.name}</Title>
-                          <Text size="sm">{requiredSkill.lore}</Text>
-                        </Stack>
-                      }
-                    >
-                      <Text component="span" mr="sm">
-                        {requiredSkill.name}
-                      </Text>
-                    </PopoverLink>
-                  ))}
+                  {skill.requiresSkill &&
+                    skill.requiredSkills?.map((requiredSkill, index) => (
+                      <Fragment key={requiredSkill.type}>
+                        {index !== 0 && (
+                          <Text
+                            component="span"
+                            mr="sm"
+                            color="dimmed"
+                            transform="uppercase"
+                            size="xs"
+                          >
+                            {skill.requirementType === "RequireAll"
+                              ? terms.and
+                              : terms.or}
+                          </Text>
+                        )}
+                        <PopoverLink
+                          href={`/skills/${requiredSkill.type}`}
+                          popover={
+                            <Stack>
+                              <Title order={4}>{requiredSkill.name}</Title>
+                              <Text size="sm">{requiredSkill.lore}</Text>
+                            </Stack>
+                          }
+                        >
+                          <Text component="span" mr="sm">
+                            {requiredSkill.name}
+                          </Text>
+                        </PopoverLink>
+                        {}
+                      </Fragment>
+                    ))}
                 </td>
                 <td>{skill.levelRange?.min || 1}</td>
               </tr>
@@ -171,12 +192,33 @@ export const getStaticProps = withStaticBase(async (context) => {
     specializations: getTerm("Commanders/Tooltip/Specializations", locale),
     production: getTerm("Common/Details/GeneratesResources", locale),
     level: getTerm("Common/Stats/Level/Header", locale),
+    defenseDescription: getTerm(
+      "Commanders/Details/CommanderStat/Description/Defense",
+      locale
+    ),
+    movementDescription: getTerm(
+      "Commanders/Details/CommanderStat/Description/Movement",
+      locale
+    ),
+    offenseDescription: getTerm(
+      "Commanders/Details/CommanderStat/Description/Offense",
+      locale
+    ),
+    viewDescription: getTerm(
+      "Commanders/Details/CommanderStat/Description/View",
+      locale
+    ),
+    commandDescription: getTerm("Skills/Command/Level3/Description", locale),
+    and: getSiteTerm("And", locale),
+    or: getSiteTerm("Or", locale),
   };
 
+  const icons = getWielderStatsIcons();
   return {
     props: {
       wielder,
       terms,
+      icons,
     },
     revalidate: false,
   };

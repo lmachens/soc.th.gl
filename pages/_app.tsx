@@ -6,6 +6,8 @@ import { ReactNode, useEffect } from "react";
 import { initPlausible } from "../lib/stats";
 import { NextPage } from "next";
 import { TermsProvider } from "../components/Terms/Terms";
+import { loadNitroAds } from "../lib/nitroAds";
+import AnchorAd from "../components/Ads/AnchorAd";
 
 export type NextPageWithBanner<T = {}> = NextPage<T> & {
   getBanner?: () => ReactNode;
@@ -18,6 +20,7 @@ type AppPropsWithBanner = AppProps & {
 const App = ({ Component, pageProps }: AppPropsWithBanner) => {
   useEffect(() => {
     initPlausible();
+    loadNitroAds();
   }, []);
 
   return (
@@ -81,6 +84,7 @@ const App = ({ Component, pageProps }: AppPropsWithBanner) => {
         >
           <Component {...pageProps} />
         </AppLayout>
+        <AnchorAd />
       </MantineProvider>
     </>
   );
