@@ -4,6 +4,7 @@ import { ReactNode, useEffect, useState } from "react";
 import { CollectionLink } from "../../lib/staticProps";
 import AppHeader from "../AppHeader/AppHeader";
 import AppNavbar from "../AppNavbar/AppNavbar";
+import AppFooter from "../AppFooter/AppFooter";
 
 import SpotlightSearchProvider from "./SpotlightSearchProvider/SpotlightSearchProvider";
 
@@ -50,6 +51,7 @@ const AppLayout = ({ collectionLinks, children, banner }: Props) => {
         <Container p="md" size="xl">
           {children}
         </Container>
+        <AppFooter />
       </AppShell>
     </SpotlightSearchProvider>
   );
