@@ -131,8 +131,11 @@ const AppFooter = () => {
         <AppLink href="/" style={{ display: "flex" }}>
           <Image src={LogoSmall} alt="SOC.GG" />
         </AppLink>
-          <Text size="xs" color="dimmed" className={classes.description}>
+          <Text size="sm" color="dimmed" className={classes.description}>
             Songs of Conquest Database
+          </Text>
+          <Text size="xs" color="dimmed" className={classes.description}>
+            Find all the information you need about factions, units, skills, wielders and more.
           </Text>
         </div>
         <div className={classes.groups}>{groups}</div>
