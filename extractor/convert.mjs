@@ -8,10 +8,22 @@ const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
 const artifactsSrc = await readJSONFile("./out/artifact.json");
 const termMapSrc = await readJSONFile("./out/termMap.json");
 const iconsSrc = await readJSONFile("./out/icons.json");
+const adventureMapEntitySrc = await readJSONFile(
+  "./out/adventureMapEntity.json"
+);
 
 await writeJSONFile(termMapSrc, "../../lib/collections/termMap");
 
+const RESOURCE_TYPES = [
+  "Gold",
+  "Wood",
+  "Stone",
+  "AncientAmber",
+  "Glimmerweave",
+  "CelestialOre",
+];
 const factions = factionsSrc.map((factionSrc) => ({
+  id: factionSrc.id,
   type: factionSrc.type,
   languageKey: factionSrc.languageKey,
   bannerSprite: factionSrc.bannerSprite,
@@ -92,7 +104,7 @@ const getBacteria = ({ bacteriaType }) => {
     modifierData: modifierData || [],
     resourcesIncome:
       bacteria.income?.resources.map((resource) => ({
-        type: resource.type,
+        type: RESOURCE_TYPES[resource.type],
         amount: resource.amount,
         allTimeAmount: resource.allTimeAmount,
       })) || [],
@@ -196,7 +208,12 @@ const getTroopAbility = (id) => {
 const getUnitType = (type) => ({
   languageKey: type.languageKey,
   sprite: type.visuals.prefab.sprite,
-  purchaseCost: type.purchaseCost,
+  purchaseCost: {
+    costEntries: type.purchaseCost.costEntries.map((costEntry) => ({
+      type: RESOURCE_TYPES[costEntry.type],
+      amount: costEntry.amount,
+    })),
+  },
   obsoleteGoldCost: type.obsoleteGoldCost,
   stats: type.stats,
   troopAbility: getTroopAbility(type.troopAbility),
@@ -254,4 +271,112 @@ for (const artifact of artifacts) {
 await writeJSONFile(iconsSrc, "../../lib/collections/icons");
 for (const icon of iconsSrc) {
   await copyImageFile(icon.spriteSheet, "../public/icons");
+}
+
+const buildSites = adventureMapEntitySrc.filter((mapEntity) =>
+  mapEntity.nameKey.startsWith("MapEntities/BuildSite")
+);
+const buildings = [];
+for (const buildSite of buildSites) {
+  for (const component of buildSite.components) {
+    if (component.actionProviders) {
+      for (const actionProvider of component.actionProviders) {
+        if (actionProvider.availableBuildings) {
+          for (const availableBuilding of actionProvider.availableBuildings) {
+            const factionId = availableBuilding.factionId;
+            for (const availableMapEntity of availableBuilding.availableMapEntities) {
+              const mapEntity = availableMapEntity.mapEntityBlueprint;
+              if (
+                buildings.some(
+                  (someBuilding) => someBuilding.id === mapEntity.id
+                )
+              ) {
+                continue;
+              }
+              const building = {
+                id: mapEntity.id,
+                factionId,
+                buildSite: buildSite.nameKey,
+                nameKey: mapEntity.nameKey,
+                descriptionKey: mapEntity.descriptionKey,
+                portraits: mapEntity.portraitSettings.map(
+                  (portraitSetting) => portraitSetting.portrait
+                ),
+                // category: mapEntity.category,
+              };
+
+              const incomeDefinitionComponent = mapEntity.components.find(
+                (component) => component.incomeDefinition?.incomePerLevel
+              );
+              if (incomeDefinitionComponent) {
+                building.incomePerLevel =
+                  incomeDefinitionComponent.incomeDefinition.incomePerLevel;
+              }
+
+              const baseViewRadiusComponent = mapEntity.components.find(
+                (component) => component.baseViewRadius
+              );
+              if (baseViewRadiusComponent) {
+                building.baseViewRadius = baseViewRadiusComponent;
+              }
+
+              const levelUpgradesComponent = mapEntity.components.find(
+                (component) => component.levelUpgrades
+              );
+              if (levelUpgradesComponent) {
+                building.levelUpgrades = {
+                  requirements: {
+                    costEntries:
+                      levelUpgradesComponent.levelUpgrades[0].requirements.cost.costEntries.map(
+                        (costEntry) => ({
+                          type: RESOURCE_TYPES[costEntry.type],
+                          amount: costEntry.amount,
+                        })
+                      ),
+                    requiredBuildings:
+                      levelUpgradesComponent.levelUpgrades[0].requirements.requiredBuildings.map(
+                        (requiredBuilding) => requiredBuilding.entity
+                      ),
+                  },
+                };
+              }
+
+              const requirementsComponent = mapEntity.components.find(
+                (component) => component.requirements
+              );
+              building.requirements = {
+                costEntries:
+                  requirementsComponent.requirements.cost.costEntries.map(
+                    (costEntry) => ({
+                      type: RESOURCE_TYPES[costEntry.type],
+                      amount: costEntry.amount,
+                    })
+                  ),
+                requiredBuildings:
+                  requirementsComponent.requirements.requiredBuildings.map(
+                    (requiredBuilding) => requiredBuilding.entity
+                  ),
+              };
+
+              const maxGarrison = mapEntity.components.find(
+                (component) => component.maxGarrison
+              );
+              if (maxGarrison) {
+                building.maxGarrison = maxGarrison;
+              }
+
+              buildings.push(building);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+await writeJSONFile(buildings, "../../lib/collections/buildings");
+for (const building of buildings) {
+  for (const portrait of building.portraits) {
+    await copyImageFile(portrait.spriteSheet, "../public/buildings");
+  }
 }

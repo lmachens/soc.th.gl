@@ -2,11 +2,13 @@ import factionsCollection from "./collections/factions.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
 import wieldersCollection from "./collections/wielders.json";
+import { BuildingSimpleDTO, getBuildings } from "./buildings";
 
 export const getFactions = (locale: string) => {
   const factions = factionsCollection
     .filter((faction) => faction.symbolSprite)
     .map<FactionSimpleDTO>((faction) => ({
+      id: faction.id,
       type: faction.type,
       name: getTerm(`Factions/${faction.languageKey}/Name`, locale),
       description: getTerm(
@@ -83,11 +85,15 @@ export const getFaction = (type: string, locale: string) => {
         ),
       },
     })),
+    buildings: getBuildings(locale).filter(
+      (building) => building.factionId === factionSrc.id
+    ),
   };
   return faction;
 };
 
 export type FactionSimpleDTO = {
+  id: number;
   type: string;
   name: string;
   description: string;
@@ -135,4 +141,5 @@ export type FactionDTO = {
       description: string;
     } | null;
   }[];
+  buildings: BuildingSimpleDTO[];
 };

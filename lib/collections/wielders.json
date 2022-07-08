@@ -11066,7 +11066,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 200,
             "allTimeAmount": 0
           }

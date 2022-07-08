@@ -76,7 +76,7 @@ export const getTerm = (
     }
   }
 
-  return value;
+  return value || term;
 };
 
 export const getPluralForm = (locale: string, count: number) => {

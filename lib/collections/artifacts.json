@@ -3175,7 +3175,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 2,
+            "type": "Stone",
             "amount": 2,
             "allTimeAmount": 0
           }
@@ -3221,7 +3221,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 1,
+            "type": "Wood",
             "amount": 2,
             "allTimeAmount": 0
           }
@@ -3267,7 +3267,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 250,
             "allTimeAmount": 0
           }
@@ -3313,7 +3313,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 4,
+            "type": "Glimmerweave",
             "amount": 1,
             "allTimeAmount": 0
           }
@@ -3359,7 +3359,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 3,
+            "type": "AncientAmber",
             "amount": 1,
             "allTimeAmount": 0
           }
@@ -3405,7 +3405,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 5,
+            "type": "CelestialOre",
             "amount": 1,
             "allTimeAmount": 0
           }
@@ -3511,7 +3511,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 100,
             "allTimeAmount": 0
           }
@@ -6623,7 +6623,7 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 500,
             "allTimeAmount": 0
           }
