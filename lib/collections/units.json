@@ -110,7 +110,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 200
           }
         ]
@@ -230,7 +230,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 360
           }
         ]
@@ -381,7 +381,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 100
           }
         ]
@@ -542,7 +542,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 150
           }
         ]
@@ -754,7 +754,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 200
           }
         ]
@@ -924,7 +924,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 300
           }
         ]
@@ -1129,7 +1129,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 140
           }
         ]
@@ -1360,7 +1360,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 250
           }
         ]
@@ -1587,7 +1587,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 200
           }
         ]
@@ -1760,7 +1760,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 320
           }
         ]
@@ -2109,7 +2109,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 700
           }
         ]
@@ -2396,11 +2396,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1000
           },
           {
-            "type": 5,
+            "type": "CelestialOre",
             "amount": 1
           }
         ]
@@ -2705,7 +2705,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 650
           }
         ]
@@ -2922,7 +2922,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1000
           }
         ]
@@ -3219,7 +3219,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 250
           }
         ]
@@ -3457,7 +3457,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 450
           }
         ]
@@ -3757,11 +3757,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1200
           },
           {
-            "type": 4,
+            "type": "Glimmerweave",
             "amount": 1
           }
         ]
@@ -4062,11 +4062,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1800
           },
           {
-            "type": 4,
+            "type": "Glimmerweave",
             "amount": 2
           }
         ]
@@ -4325,7 +4325,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 900
           }
         ]
@@ -4486,7 +4486,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 60
           }
         ]
@@ -4633,7 +4633,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 100
           }
         ]
@@ -4846,7 +4846,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 140
           }
         ]
@@ -5052,7 +5052,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 260
           }
         ]
@@ -5269,7 +5269,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 150
           }
         ]
@@ -5456,7 +5456,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 300
           }
         ]
@@ -5685,7 +5685,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 250
           }
         ]
@@ -5834,11 +5834,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 350
           },
           {
-            "type": 5,
+            "type": "CelestialOre",
             "amount": 1
           }
         ]
@@ -6059,7 +6059,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 600
           }
         ]
@@ -6259,7 +6259,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1000
           }
         ]
@@ -6621,7 +6621,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 900
           }
         ]
@@ -6976,7 +6976,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1400
           }
         ]
@@ -7244,7 +7244,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 650
           }
         ]
@@ -7449,7 +7449,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1100
           }
         ]
@@ -8004,11 +8004,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1400
           },
           {
-            "type": 3,
+            "type": "AncientAmber",
             "amount": 1
           }
         ]
@@ -8521,11 +8521,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 2000
           },
           {
-            "type": 3,
+            "type": "AncientAmber",
             "amount": 2
           }
         ]
@@ -8804,7 +8804,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 100
           }
         ]
@@ -8987,7 +8987,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 900
           }
         ]
@@ -9124,7 +9124,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 80
           }
         ]
@@ -9317,7 +9317,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 150
           }
         ]
@@ -9560,7 +9560,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 170
           }
         ]
@@ -9785,7 +9785,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 290
           }
         ]
@@ -10001,7 +10001,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 200
           }
         ]
@@ -10186,7 +10186,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 350
           }
         ]
@@ -10501,7 +10501,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 150
           }
         ]
@@ -10768,7 +10768,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 280
           }
         ]
@@ -11054,7 +11054,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 700
           }
         ]
@@ -11293,11 +11293,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1000
           },
           {
-            "type": 3,
+            "type": "AncientAmber",
             "amount": 1
           }
         ]
@@ -11534,7 +11534,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 350
           }
         ]
@@ -11725,7 +11725,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 650
           }
         ]
@@ -11921,7 +11921,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 700
           }
         ]
@@ -12095,7 +12095,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1200
           }
         ]
@@ -12362,11 +12362,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1400
           },
           {
-            "type": 5,
+            "type": "CelestialOre",
             "amount": 1
           }
         ]
@@ -12600,11 +12600,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 2000
           },
           {
-            "type": 5,
+            "type": "CelestialOre",
             "amount": 2
           }
         ]
@@ -12875,7 +12875,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 900
           }
         ]
@@ -13048,7 +13048,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 100
           }
         ]
@@ -13210,7 +13210,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 200
           }
         ]
@@ -13551,7 +13551,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 140
           }
         ]
@@ -13828,7 +13828,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 340
           }
         ]
@@ -14039,7 +14039,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 230
           }
         ]
@@ -14232,7 +14232,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 450
           }
         ]
@@ -14559,7 +14559,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 450
           }
         ]
@@ -14830,7 +14830,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 700
           }
         ]
@@ -15019,7 +15019,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 400
           }
         ]
@@ -15288,7 +15288,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 600
           }
         ]
@@ -15638,7 +15638,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 650
           }
         ]
@@ -15952,7 +15952,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 800
           }
         ]
@@ -16209,11 +16209,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1000
           },
           {
-            "type": 4,
+            "type": "Glimmerweave",
             "amount": 1
           }
         ]
@@ -16532,7 +16532,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 1000
           }
         ]
@@ -16753,11 +16753,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 2600
           },
           {
-            "type": 3,
+            "type": "AncientAmber",
             "amount": 2
           }
         ]
@@ -17081,11 +17081,11 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 3200
           },
           {
-            "type": 3,
+            "type": "AncientAmber",
             "amount": 5
           }
         ]
@@ -17400,7 +17400,7 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 900
           }
         ]

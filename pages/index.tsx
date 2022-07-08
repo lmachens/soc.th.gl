@@ -71,6 +71,11 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
             description="Improve your wielder stats with these artifacts."
             href={`/artifacts`}
           />
+          <Article
+            name="Buildings"
+            description="Find out everything you need to know about the buildings."
+            href={`/buildings`}
+          />
         </SimpleGrid>
         <Blockquote
           cite={

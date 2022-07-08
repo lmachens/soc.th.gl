@@ -58,7 +58,10 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
           </tr>
           <tr>
             <td>{terms.cost}</td>
-            <td>{unitType.purchaseCost.costEntries[0].amount}</td>
+            <td>
+              {unitType.purchaseCost.costEntries[0].amount}{" "}
+              {unitType.purchaseCost.costEntries[0].type}
+            </td>
           </tr>
           {unitType.troopAbility && (
             <tr>
@@ -96,7 +99,7 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
         <title>{unit.vanilla.name} - SoC.gg</title>
         <meta
           name="description"
-          content={`${unit.vanilla.name} unit details of Songs of Conquest`}
+          content={`${unit.vanilla.description} - ${unit.vanilla.name} (Songs of Conquest)`}
         />
       </Head>
       <Stack>

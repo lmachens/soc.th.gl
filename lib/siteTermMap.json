@@ -63,6 +63,38 @@
     "pt-BR": "Todas as Facções",
     "uk": null
   },
+  "Buildings": {
+    "en": "Buildings",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": "Gebäude",
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
+  },
+  "AllBuildings": {
+    "en": "All Buildings",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": "Alle Gebäude",
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
+  },
   "Skills": {
     "en": "Skills",
     "sv": null,

@@ -63,6 +63,12 @@ export const getUnit = (
     }
     return {
       ...type,
+      purchaseCost: {
+        costEntries: type.purchaseCost.costEntries.map((costEntry) => ({
+          type: getTerm(`Common/Resource/${costEntry.type}`, locale),
+          amount: costEntry.amount,
+        })),
+      },
       stats: {
         ...type.stats,
         statuses: type.stats.statuses
@@ -138,7 +144,7 @@ export type UnitTypeDTO = {
   description: string;
   purchaseCost: {
     costEntries: {
-      type: number;
+      type: string;
       amount: number;
     }[];
   };
