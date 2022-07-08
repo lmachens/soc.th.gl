@@ -58,7 +58,27 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
           </tr>
           <tr>
             <td>{terms.cost}</td>
-            <td>{unitType.purchaseCost.costEntries[0].amount}</td>
+            <td>{unitType.purchaseCost.costEntries.map(value => {
+              let res=value.amount.toString()
+              switch (value.type) {
+                case 0:
+                    res+=" Gold";
+                    break;
+                case 3:
+                    res+=" Ancient Ember";
+                    break;
+                case 4:
+                    res+=" Glimmerweave";
+                    break;
+                case 5:
+                    res+=" Celestial Ore";
+                    break;
+                default:
+                    res+=""
+                    break;
+              }
+              return res
+            }).join(", ")}</td>
           </tr>
           {unitType.troopAbility && (
             <tr>
