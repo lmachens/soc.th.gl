@@ -9,7 +9,7 @@ export const getWielders = (locale: string): WielderSimpleDTO[] => {
     type: wielder.type,
     stats: wielder.stats,
     portrait: wielder.portrait,
-    faction: getTerm(`Factions/${wielder.faction}/Name`, locale),
+    factionName: getTerm(`Factions/${wielder.faction}/Name`, locale),
     name: getTerm(`${wielder.faction}/${wielder.type}/Name`, locale),
     description: getTerm(
       `${wielder.faction}/${wielder.type}/Description`,
@@ -29,7 +29,8 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
 
   const wielder = {
     type: wielderSrc.type,
-    faction: getTerm(`Factions/${wielderSrc.faction}/Name`, locale),
+    faction: wielderSrc.faction,
+    factionName: getTerm(`Factions/${wielderSrc.faction}/Name`, locale),
     portrait: wielderSrc.portrait,
     stats: wielderSrc.stats,
     name: getTerm(`${wielderSrc.faction}/${wielderSrc.type}/Name`, locale),
@@ -87,7 +88,7 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
 
 export type WielderSimpleDTO = {
   type: string;
-  faction: string;
+  factionName: string;
   portrait: SpriteDTO;
   name: string;
   description: string;
@@ -103,6 +104,7 @@ export type WielderSimpleDTO = {
 export type WielderDTO = {
   type: string;
   faction: string;
+  factionName: string;
   portrait: SpriteDTO;
   name: string;
   description: string;

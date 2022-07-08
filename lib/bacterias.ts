@@ -1,14 +1,5 @@
 import { getTerm } from "./terms";
 
-export const RESOURCE_TYPES = [
-  "Gold",
-  "Wood",
-  "Stone",
-  "AncientAmber",
-  "Glimmerweave",
-  "CelestialOre",
-];
-
 export type BacteriaDTO = {
   bacteriaType: number;
   name: string;
@@ -18,7 +9,7 @@ export type BacteriaDTO = {
     description: string;
   }[];
   resourcesIncome: {
-    type: number;
+    type: string;
     name: string;
     amount: number;
     allTimeAmount: number;
@@ -39,7 +30,7 @@ type PureBacteria = {
     applicationType: number;
   }[];
   resourcesIncome: {
-    type: number;
+    type: string;
     amount: number;
     allTimeAmount: number;
   }[];
@@ -117,10 +108,7 @@ export const getLocaleBacteria = (
     })),
     resourcesIncome: bacteria.resourcesIncome.map((resourceIncome) => ({
       type: resourceIncome.type,
-      name: getTerm(
-        `Common/Resource/${RESOURCE_TYPES[resourceIncome.type]}`,
-        locale
-      ),
+      name: getTerm(`Common/Resource/${resourceIncome.type}`, locale),
       amount: resourceIncome.amount,
       allTimeAmount: resourceIncome.allTimeAmount,
     })),

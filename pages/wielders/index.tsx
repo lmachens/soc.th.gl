@@ -74,7 +74,7 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[]; icons: IconsDTO }> = ({
               />
             }
             name={wielder.name}
-            subtitle={wielder.faction}
+            subtitle={wielder.factionName}
             description={wielder.description}
             href={`/wielders/${wielder.type}`}
           >
