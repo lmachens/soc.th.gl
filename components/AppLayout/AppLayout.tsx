@@ -4,7 +4,6 @@ import { ReactNode, useEffect, useState } from "react";
 import { CollectionLink } from "../../lib/staticProps";
 import ConsentLink from "../Ads/ConsentLink";
 import AppHeader from "../AppHeader/AppHeader";
-import AppLink from "../AppLink/AppLink";
 import AppNavbar from "../AppNavbar/AppNavbar";
 import AppFooter from "../AppFooter/AppFooter";
 
