@@ -58,7 +58,6 @@ const AppLayout = ({ collectionLinks, children, banner }: Props) => {
               textAlign: "center",
             }}
           >
-            <AppLink href="/privacy">Privacy Policy</AppLink>
             <ConsentLink />
           </Box>
         </Container>

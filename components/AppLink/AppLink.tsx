@@ -6,11 +6,12 @@ type Props = {
   href: string;
   children: ReactNode;
   style?: CSSProperties;
+  className?: string;
 };
-const AppLink = ({ href, children, style }: Props) => {
+const AppLink = ({ href, children, style, className }: Props) => {
   return (
     <Link href={href} passHref prefetch={false}>
-      <Anchor color="gray" style={style}>
+      <Anchor className={className} color="gray" style={style}>
         {children}
       </Anchor>
     </Link>

@@ -1,4 +1,4 @@
-export const FooterTextLinks = [
+export const footerTextLinks = [
     {
         title: "About",
         links: [
@@ -7,7 +7,7 @@ export const FooterTextLinks = [
                 label: "Sitemap",
             },
             {
-                link: "/privacy-policy",
+                link: "/privacy",
                 label: "Privacy Policy",
             }
         ]
