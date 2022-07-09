@@ -13,7 +13,7 @@ const Buildings: NextPage<{ buildings: BuildingSimpleDTO[] }> = ({
   return (
     <>
       <Head>
-        <title>Factions - SoC.gg</title>
+        <title>Buildings - SoC.gg</title>
         <meta name="description" content="All buildings of Songs of Conquest" />
       </Head>
       <SimpleGrid

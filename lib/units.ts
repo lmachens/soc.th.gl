@@ -46,7 +46,11 @@ export const getUnit = (
   locale: string
 ): UnitDTO | null => {
   const unitSrc = unitsCollection.find(
-    (unit) => unit.faction === faction && unit.vanilla.languageKey === type
+    (unit) =>
+      unit.faction === faction &&
+      (unit.vanilla.languageKey === type ||
+        unit.upgraded?.languageKey === type ||
+        unit.superUpgraded?.languageKey === type)
   );
   if (!unitSrc) {
     return null;

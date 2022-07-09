@@ -1,6 +1,7 @@
 import buildingsCollection from "./collections/buildings.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
+import { getUnit } from "./units";
 
 export const getBuildings = (locale: string) => {
   const buildings = buildingsCollection.map<BuildingSimpleDTO>((building) => ({
@@ -25,13 +26,14 @@ export const getBuilding = (
     return null;
   }
 
-  return {
+  const building: BuildingDTO = {
     id: buildingSrc.id,
     type: buildingSrc.nameKey,
     factionId: buildingSrc.factionId,
     name: getTerm(buildingSrc.nameKey, locale),
     description: getTerm(buildingSrc.descriptionKey, locale),
     portraits: buildingSrc.portraits,
+    baseViewRadius: buildingSrc.baseViewRadius,
     requirements: {
       costEntries: buildingSrc.requirements.costEntries.map((costEntry) => ({
         type: getTerm(`Common/Resource/${costEntry.type}`, locale),
@@ -47,6 +49,55 @@ export const getBuilding = (
       ),
     },
   };
+  if (buildingSrc.levelUpgrades) {
+    building.levelUpgrades = buildingSrc.levelUpgrades.map((levelUpgrade) => ({
+      costEntries: levelUpgrade.costEntries.map((costEntry) => ({
+        type: getTerm(`Common/Resource/${costEntry.type}`, locale),
+        amount: costEntry.amount,
+      })),
+      requiredBuildings: levelUpgrade.requiredBuildings.map((buildingId) =>
+        getTerm(
+          buildingsCollection.find((building) => building.id === buildingId)!
+            .nameKey,
+          locale
+        )
+      ),
+    }));
+  }
+  if (buildingSrc.incomePerLevel) {
+    building.incomePerLevel = buildingSrc.incomePerLevel.map(
+      (incomePerLevel) => ({
+        level: incomePerLevel.level,
+        resources: incomePerLevel.resources.map((resource) => ({
+          type: getTerm(`Common/Resource/${resource.type}`, locale),
+          amount: resource.amount,
+        })),
+        troopIncomes: incomePerLevel.troopIncomes.map((troopIncome) => {
+          const unit = getUnit(
+            troopIncome.factionKey,
+            troopIncome.unitKey,
+            locale
+          )!;
+          const upgrade =
+            unit[
+              troopIncome.upgradeType as
+                | "vanilla"
+                | "upgraded"
+                | "superUpgraded"
+            ]!;
+
+          return {
+            factionKey: troopIncome.factionKey,
+            unitKey: troopIncome.unitKey,
+            name: upgrade.name,
+            description: upgrade.description,
+            size: troopIncome.size,
+          };
+        }),
+      })
+    );
+  }
+  return building;
 };
 
 export type BuildingSimpleDTO = {
@@ -72,4 +123,26 @@ export type BuildingDTO = {
     }[];
     requiredBuildings: string[];
   };
+  levelUpgrades?: {
+    costEntries: {
+      type: string;
+      amount: number;
+    }[];
+    requiredBuildings: string[];
+  }[];
+  baseViewRadius: number;
+  incomePerLevel?: {
+    level: number;
+    resources: {
+      type: string;
+      amount: number;
+    }[];
+    troopIncomes: {
+      factionKey: string;
+      unitKey: string;
+      name: string;
+      description: string;
+      size: number;
+    }[];
+  }[];
 };

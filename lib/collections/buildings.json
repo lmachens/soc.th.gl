@@ -66,48 +66,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 0,
-                "size": 3,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 4
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Militia",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 4
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 0,
-                "size": 3,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "Sapper",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Wood",
@@ -124,7 +112,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -206,48 +194,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 2,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Minstrel",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 2,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "Troubadour",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Glimmerweave",
@@ -264,7 +240,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -346,38 +322,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 0,
-              "amount": 150,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 150
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 0,
-              "amount": 300,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Wood",
@@ -390,7 +356,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -472,38 +438,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 2,
-              "amount": 1,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 2,
-              "amount": 2,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -520,7 +476,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -598,38 +554,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 1,
-              "amount": 1,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 1,
-              "amount": 2,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -646,7 +592,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -721,13 +667,9 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 15,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 15,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "CelestialOre",
@@ -736,7 +678,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -808,11 +750,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -906,48 +844,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 0,
-                "size": 5,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 6
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Rats",
+            "size": 5,
+            "requiredResearch": null,
+            "initialInstantIncome": 6
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 0,
-                "size": 5,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "PlagueRats",
+            "size": 5,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -964,7 +890,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -1046,48 +972,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 1,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Oathbound",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 1,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "OathboundLegionaire",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Wood",
@@ -1104,7 +1018,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -1190,38 +1104,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 0,
-              "amount": 150,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 150
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 0,
-              "amount": 300,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Wood",
@@ -1234,7 +1138,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -1316,38 +1220,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 2,
-              "amount": 1,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 2,
-              "amount": 2,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -1364,7 +1258,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -1442,38 +1336,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 1,
-              "amount": 1,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 1,
-              "amount": 2,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -1490,7 +1374,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -1565,13 +1449,9 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 15,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 15,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "CelestialOre",
@@ -1580,7 +1460,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -1652,11 +1532,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -1750,48 +1626,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 0,
-                "size": 3,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 4
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Piper",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 4
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 0,
-                "size": 3,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "SteamPiper",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -1808,7 +1672,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -1890,48 +1754,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 3,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Dreath",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 3,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "DireDreath",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Wood",
@@ -1948,7 +1800,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -2034,38 +1886,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 0,
-              "amount": 150,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 150
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 0,
-              "amount": 300,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Wood",
@@ -2078,7 +1920,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -2160,38 +2002,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 2,
-              "amount": 1,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 2,
-              "amount": 2,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -2208,7 +2040,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -2286,38 +2118,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 1,
-              "amount": 1,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 1,
-              "amount": 2,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -2334,7 +2156,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -2409,13 +2231,9 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 15,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 15,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Glimmerweave",
@@ -2424,7 +2242,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -2496,11 +2314,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -2594,48 +2408,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 0,
-                "size": 3,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 4
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Hunter",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 4
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 0,
-                "size": 3,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "StormGuard",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -2652,7 +2454,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -2738,48 +2540,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 1,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Shaman",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 1,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "Sage",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -2796,7 +2586,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -2882,38 +2672,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 0,
-              "amount": 150,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 150
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 0,
-              "amount": 300,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -2930,7 +2710,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -3012,38 +2792,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 2,
-              "amount": 1,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 2,
-              "amount": 2,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -3060,7 +2830,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -3138,38 +2908,28 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [
-            {
-              "type": 1,
-              "amount": 1,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [
-            {
-              "type": 1,
-              "amount": 2,
-              "allTimeAmount": 0
-            }
-          ],
-          "troopIncomes": []
-        }
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -3186,7 +2946,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -3261,13 +3021,9 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 15,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 15,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "CelestialOre",
@@ -3280,7 +3036,7 @@
         ],
         "requiredBuildings": []
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -3348,11 +3104,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -3446,68 +3198,52 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 1,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": "a4000000",
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 3,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Ranger",
+            "size": 2,
+            "requiredResearch": "a4000000",
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Footman",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 1,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": "a4000000",
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 3,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "Archer",
+            "size": 2,
+            "requiredResearch": "a4000000",
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "ShieldOfOrder",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -3526,7 +3262,7 @@
           7
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -3608,68 +3344,52 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 6,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            },
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 5,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": "a5000000",
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "FaeySpirit",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          },
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "HornedOne",
+            "size": 1,
+            "requiredResearch": "a5000000",
+            "initialInstantIncome": 0
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 6,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 5,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": "a5000000",
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "FaeyRager",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "QueensGuard",
+            "size": 1,
+            "requiredResearch": "a5000000",
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Glimmerweave",
@@ -3684,7 +3404,7 @@
           6
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -3766,48 +3486,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 4,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Knight",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 4,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "FistOfOrder",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -3822,7 +3530,7 @@
           31
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -3879,11 +3587,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -3961,48 +3665,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 3,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Embalmer",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 3,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "Doctor",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -4021,7 +3713,7 @@
           116
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -4103,68 +3795,52 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 2,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            },
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 4,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": "a6000000",
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Cultist",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          },
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Necromancer",
+            "size": 1,
+            "requiredResearch": "a6000000",
+            "initialInstantIncome": 0
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 2,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 4,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": "a6000000",
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "Zealot",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "Oathsinger",
+            "size": 1,
+            "requiredResearch": "a6000000",
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Wood",
@@ -4183,7 +3859,7 @@
           103
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -4269,68 +3945,52 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 6,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            },
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 5,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": "a7000000",
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "AurelianCleric",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          },
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "SanctifiedBones",
+            "size": 1,
+            "requiredResearch": "a7000000",
+            "initialInstantIncome": 0
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 6,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 5,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": "a7000000",
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "AurelianHighCleric",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "BlessedBones",
+            "size": 1,
+            "requiredResearch": "a7000000",
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "AncientAmber",
@@ -4345,7 +4005,7 @@
           113
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -4402,11 +4062,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -4484,68 +4140,52 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 2,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            },
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 1,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": 21010000,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Musketeer",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          },
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Pikeneer",
+            "size": 2,
+            "requiredResearch": 21010000,
+            "initialInstantIncome": 0
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 2,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 1,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": 21010000,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "MusketeerVeteran",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "PikeneerVeteran",
+            "size": 2,
+            "requiredResearch": 21010000,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -4564,7 +4204,7 @@
           98
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -4646,68 +4286,52 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 4,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            },
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 6,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": 20010000,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Brute",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          },
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Sassanid",
+            "size": 1,
+            "requiredResearch": 20010000,
+            "initialInstantIncome": 0
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 4,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 6,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": 20010000,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "ScarredBrute",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "SassanidVeteran",
+            "size": 1,
+            "requiredResearch": 20010000,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -4722,7 +4346,7 @@
           97
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -4810,48 +4434,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 5,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Tinkerer",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 5,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "Artificer",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Wood",
@@ -4870,7 +4482,7 @@
           99
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -4921,11 +4533,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -5003,68 +4611,52 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 2,
-                "size": 2,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 3
-            },
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 4,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Guard",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Crawler",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 2,
-                "size": 2,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 4,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "Protector",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "AdultCrawler",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -5083,7 +4675,7 @@
           123
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -5165,68 +4757,52 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 3,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            },
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 5,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": "1f010000",
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Ravager",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Tremor",
+            "size": 1,
+            "requiredResearch": "1f010000",
+            "initialInstantIncome": 0
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 3,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 5,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": "1f010000",
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "RiderOfTheSwamp",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Tremor",
+            "size": 1,
+            "requiredResearch": "1f010000",
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Glimmerweave",
@@ -5237,7 +4813,7 @@
           125
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -5323,48 +4899,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 6,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Chelun",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 6,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "ChelunElder",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Stone",
@@ -5383,7 +4947,7 @@
           124
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -5440,11 +5004,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -5522,48 +5082,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "FaeyNoble",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 1,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "FaeyQueen",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Glimmerweave",
@@ -5578,7 +5126,7 @@
           26
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -5629,11 +5177,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -5688,11 +5232,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -5778,48 +5318,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Legion",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 2,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "HighLegion",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "AncientAmber",
@@ -5834,7 +5362,7 @@
           106
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -5893,11 +5421,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -5952,11 +5476,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -6042,48 +5562,36 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Hellbreath",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 3,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "Hellroar",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "AncientAmber",
@@ -6102,7 +5610,7 @@
           100
         ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -6153,11 +5661,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -6212,11 +5716,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -6330,76 +5830,58 @@
     "incomePerLevel": [
       {
         "level": 1,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 0
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 1
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Dragonling",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
       },
       {
         "level": 2,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "Dragon",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       },
       {
         "level": 3,
-        "definition": {
-          "resources": [],
-          "troopIncomes": [
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 7,
-                "size": 1,
-                "upgradeType": 1
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            },
-            {
-              "reference": {
-                "factionIndex": 4,
-                "unitIndex": 7,
-                "size": 0,
-                "upgradeType": 2
-              },
-              "requiredResearch": null,
-              "initialInstantIncome": 0
-            }
-          ]
-        }
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "Dragon",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "superUpgraded",
+            "unitKey": "ElderDragon",
+            "size": 0,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
-    "levelUpgrades": {
-      "requirements": {
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
         "costEntries": [
           {
             "type": "Gold",
@@ -6417,8 +5899,23 @@
         "requiredBuildings": [
           119
         ]
+      },
+      {
+        "costEntries": [
+          {
+            "type": "Glimmerweave",
+            "amount": 20
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 30
+          }
+        ],
+        "requiredBuildings": [
+          127
+        ]
       }
-    },
+    ],
     "requirements": {
       "costEntries": [
         {
@@ -6469,11 +5966,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
@@ -6528,11 +6021,7 @@
         ]
       }
     ],
-    "baseViewRadius": {
-      "isVisibleInLevelEditor": 1,
-      "baseViewRadius": 8,
-      "viewRadiusUpgrades": null
-    },
+    "baseViewRadius": 8,
     "requirements": {
       "costEntries": [
         {
