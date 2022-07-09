@@ -1,8 +1,8 @@
-import { createStyles, Text, Container } from '@mantine/core';
+import { Text, Container } from '@mantine/core';
+import { footerTextLinks } from './FooterTextLinks'
 import AppLink from '../AppLink/AppLink';
 import Image from 'next/image';
 import LogoSmall from '../../public/logo_small.png';
-import { footerTextLinks } from './FooterTextLinks'
 import useStyles from './AppFooter.styles';
 
 const AppFooter = () => {
