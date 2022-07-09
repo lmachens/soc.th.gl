@@ -59,8 +59,9 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
           <tr>
             <td>{terms.cost}</td>
             <td>
-              {unitType.purchaseCost.costEntries[0].amount}{" "}
-              {unitType.purchaseCost.costEntries[0].type}
+              {unitType.purchaseCost.costEntries
+                .map((value) => `${value.amount} ${value.type}`)
+                .join(", ")}
             </td>
           </tr>
           {unitType.troopAbility && (
