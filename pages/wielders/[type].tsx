@@ -91,6 +91,33 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
             ))}
           </Fragment>
         ))}
+        <Title order={3}>{terms.startingSkills}</Title>
+        <Table striped>
+          <tbody>
+            {wielder.startingSkills.map((skill) => (
+              <tr key={`${wielder.name}-${skill.type}`}>
+                <td>
+                  <PopoverLink
+                    href={`/skills/${skill.type}`}
+                    popover={
+                      <Stack>
+                        <Title order={4}>{skill.name}</Title>
+                        <Text size="sm">{skill.lore}</Text>
+                      </Stack>
+                    }
+                  >
+                    {skill.name}
+                    {skill.level && (
+                      <Text>
+                        {terms.level} {skill.level}
+                      </Text>
+                    )}
+                  </PopoverLink>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </Table>
         <Title order={3}>{terms.skills}</Title>
         <Table striped>
           <thead>
@@ -114,11 +141,6 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
                     }
                   >
                     {skill.name}
-                    {skill.level && (
-                      <Text>
-                        {terms.level} {skill.level}
-                      </Text>
-                    )}
                   </PopoverLink>
                 </td>
                 <td>
@@ -151,7 +173,7 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
                             {requiredSkill.name}
                           </Text>
                         </PopoverLink>
-                        {}
+                        { }
                       </Fragment>
                     ))}
                 </td>
@@ -211,6 +233,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     commandDescription: getTerm("Skills/Command/Level3/Description", locale),
     and: getSiteTerm("And", locale),
     or: getSiteTerm("Or", locale),
+    startingSkills: getSiteTerm("StartingSkills", locale),
   };
 
   const icons = getWielderStatsIcons();

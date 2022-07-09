@@ -12,10 +12,6 @@ type Props = {
 };
 const WielderStats = ({ wielder, icons }: Props) => {
   const terms = useTerms();
-  const level = wielder.skills
-    ? wielder.skills.find((skill) => skill.type === "Command")?.level ||
-      wielder.skills.at(-1)?.level
-    : 0;
   const { classes } = useStyles();
 
   return (
@@ -84,17 +80,6 @@ const WielderStats = ({ wielder, icons }: Props) => {
             </AppTooltip>
           </td>
           <td>{wielder.stats.viewRadius}</td>
-        </tr>
-        <tr>
-          <td>
-            <AppTooltip label={terms.commandDescription}>
-              <Group spacing="xs">
-                <Box sx={{ width: 14 }} />
-                {terms.command}
-              </Group>
-            </AppTooltip>
-          </td>
-          <td>{level}</td>
         </tr>
       </tbody>
     </Table>

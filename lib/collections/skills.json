@@ -2682,7 +2682,7 @@
           {
             "type": 17,
             "modifier": "TeamAllDwellingIncrease",
-            "amountToAdd": 40,
+            "amountToAdd": 30,
             "applicationType": 1
           }
         ],
@@ -2712,7 +2712,7 @@
           {
             "type": 17,
             "modifier": "TeamAllDwellingIncrease",
-            "amountToAdd": 80,
+            "amountToAdd": 60,
             "applicationType": 1
           }
         ],
