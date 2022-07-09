@@ -22,6 +22,7 @@ const RESOURCE_TYPES = [
   "Glimmerweave",
   "CelestialOre",
 ];
+const UPGRADED_TYPES = ["vanilla", "upgraded", "superUpgraded"];
 const factions = factionsSrc.map((factionSrc) => ({
   id: factionSrc.id,
   type: factionSrc.type,
@@ -310,35 +311,62 @@ for (const buildSite of buildSites) {
               );
               if (incomeDefinitionComponent) {
                 building.incomePerLevel =
-                  incomeDefinitionComponent.incomeDefinition.incomePerLevel;
+                  incomeDefinitionComponent.incomeDefinition.incomePerLevel.map(
+                    (incomePerLevel) => ({
+                      level: incomePerLevel.level,
+                      resources: incomePerLevel.definition.resources.map(
+                        (resource) => ({
+                          type: RESOURCE_TYPES[resource.type],
+                          amount: resource.amount,
+                        })
+                      ),
+                      troopIncomes: incomePerLevel.definition.troopIncomes.map(
+                        (troopIncome) => {
+                          const faction =
+                            factionsSrc[troopIncome.reference.factionIndex];
+                          const upgradeType =
+                            UPGRADED_TYPES[troopIncome.reference.upgradeType];
+                          const unit =
+                            faction.units[troopIncome.reference.unitIndex][
+                              upgradeType
+                            ];
+                          return {
+                            factionKey: faction.languageKey,
+                            upgradeType,
+                            unitKey: unit.languageKey,
+                            size: troopIncome.reference.size,
+                            requiredResearch: troopIncome.requiredResearch,
+                            initialInstantIncome:
+                              troopIncome.initialInstantIncome,
+                          };
+                        }
+                      ),
+                    })
+                  );
               }
 
               const baseViewRadiusComponent = mapEntity.components.find(
                 (component) => component.baseViewRadius
               );
-              if (baseViewRadiusComponent) {
-                building.baseViewRadius = baseViewRadiusComponent;
-              }
+              building.baseViewRadius = baseViewRadiusComponent.baseViewRadius;
 
               const levelUpgradesComponent = mapEntity.components.find(
                 (component) => component.levelUpgrades
               );
               if (levelUpgradesComponent) {
-                building.levelUpgrades = {
-                  requirements: {
-                    costEntries:
-                      levelUpgradesComponent.levelUpgrades[0].requirements.cost.costEntries.map(
-                        (costEntry) => ({
-                          type: RESOURCE_TYPES[costEntry.type],
-                          amount: costEntry.amount,
-                        })
-                      ),
+                building.levelUpgrades =
+                  levelUpgradesComponent.levelUpgrades.map((levelUpgrade) => ({
+                    costEntries: levelUpgrade.requirements.cost.costEntries.map(
+                      (costEntry) => ({
+                        type: RESOURCE_TYPES[costEntry.type],
+                        amount: costEntry.amount,
+                      })
+                    ),
                     requiredBuildings:
-                      levelUpgradesComponent.levelUpgrades[0].requirements.requiredBuildings.map(
+                      levelUpgrade.requirements.requiredBuildings.map(
                         (requiredBuilding) => requiredBuilding.entity
                       ),
-                  },
-                };
+                  }));
               }
 
               const requirementsComponent = mapEntity.components.find(

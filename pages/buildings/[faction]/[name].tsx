@@ -21,9 +21,6 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
           content={`${building.description} - ${building.name} (Songs of Conquest)`}
         />
       </Head>
-      <Text color="red">
-        This page is under development and will display more details soon!
-      </Text>
       <Stack align="flex-start">
         <Group>
           <SpriteSheet spriteSheet={building.portraits[0]} folder="buildings" />
@@ -38,23 +35,72 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
             <tr>
               <td>{terms.cost}</td>
               <td>
-                {building.requirements.costEntries.map((costEntry) => (
-                  <Text key={costEntry.type}>
-                    {costEntry.amount} {costEntry.type}
-                  </Text>
+                {building.requirements.costEntries
+                  .map((value) => `${value.amount} ${value.type}`)
+                  .join(", ")}
+                {building.levelUpgrades?.map((levelUpgrade, index) => (
+                  <div key={index + 2}>
+                    <span>
+                      {terms.level} {index + 2}:{" "}
+                    </span>
+                    {levelUpgrade.costEntries
+                      .map((value) => `${value.amount} ${value.type}`)
+                      .join(", ")}
+                  </div>
                 ))}
               </td>
             </tr>
             <tr>
               <td>{terms.requiredBuildings}</td>
               <td>
-                {building.requirements.requiredBuildings.map(
-                  (requiredBuilding) => (
-                    <Text key={requiredBuilding}>{requiredBuilding}</Text>
-                  )
-                )}
+                {building.requirements.requiredBuildings.length === 0 && "-"}
+                {building.requirements.requiredBuildings.join(", ")}
+                {building.requiredBuildings?.map((levelUpgrade, index) => (
+                  <div key={index + 2}>
+                    <span>
+                      {terms.level} {index + 2}:{" "}
+                    </span>
+                    {levelUpgrade.requiredBuildings.join(", ")}
+                  </div>
+                ))}
               </td>
             </tr>
+            <tr>
+              <td>{terms.viewRadius}</td>
+              <td>{building.baseViewRadius}</td>
+            </tr>
+            {building.incomePerLevel && (
+              <tr>
+                <td colSpan={2}>
+                  <Text
+                    sx={(theme) => ({
+                      color: theme.colors[theme.primaryColor][5],
+                    })}
+                  >
+                    {terms.income} / {terms.troopIncome}
+                  </Text>
+                </td>
+              </tr>
+            )}
+            {building.incomePerLevel?.map((incomePerLevel) => (
+              <tr key={incomePerLevel.level}>
+                <td>
+                  {terms.level} {incomePerLevel.level}
+                </td>
+                <td>
+                  {incomePerLevel.resources.map((resource) => (
+                    <Text key={resource.type} size="sm">
+                      {resource.amount} {resource.type}
+                    </Text>
+                  ))}
+                  {incomePerLevel.troopIncomes.map((troopIncome) => (
+                    <Text key={troopIncome.name} size="sm">
+                      {troopIncome.size} {troopIncome.name}
+                    </Text>
+                  ))}
+                </td>
+              </tr>
+            ))}
           </tbody>
         </Table>
       </Stack>
@@ -79,6 +125,10 @@ export const getStaticProps = withStaticBase(async (context) => {
     requirements: getTerm("Adventure/BuildMenu/Requirements", locale),
     requiredBuildings: getTerm("Units/Tooltip/BuildingsThatProduce", locale),
     cost: getTerm("Common/Resource/Cost", locale),
+    income: getTerm("Adventure/BuildMenu/Income", locale),
+    troopIncome: getTerm("Adventure/MapEntityHUD/TroopIncome/Header", locale),
+    level: getTerm("Common/Stats/Level/Header", locale),
+    viewRadius: getTerm("Commanders/Details/CommanderStat/View", locale),
   };
 
   return {
