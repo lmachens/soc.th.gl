@@ -88,6 +88,7 @@ export const getBuilding = (
 
           return {
             factionKey: troopIncome.factionKey,
+            unitKey: troopIncome.unitKey,
             name: upgrade.name,
             description: upgrade.description,
             size: troopIncome.size,
@@ -138,6 +139,7 @@ export type BuildingDTO = {
     }[];
     troopIncomes: {
       factionKey: string;
+      unitKey: string;
       name: string;
       description: string;
       size: number;

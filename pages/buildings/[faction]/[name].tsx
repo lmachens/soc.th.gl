@@ -8,6 +8,7 @@ import { getTerm, TermsDTO } from "../../../lib/terms";
 import { BuildingDTO, getBuilding, getBuildings } from "../../../lib/buildings";
 import Lore from "../../../components/Lore/Lore";
 import { useTerms } from "../../../components/Terms/Terms";
+import AppLink from "../../../components/AppLink/AppLink";
 
 const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
   const terms = useTerms();
@@ -38,16 +39,18 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
                 {building.requirements.costEntries
                   .map((value) => `${value.amount} ${value.type}`)
                   .join(", ")}
-                {building.levelUpgrades?.map((levelUpgrade, index) => (
-                  <div key={index + 2}>
-                    <span>
-                      {terms.level} {index + 2}:{" "}
-                    </span>
-                    {levelUpgrade.costEntries
-                      .map((value) => `${value.amount} ${value.type}`)
-                      .join(", ")}
-                  </div>
-                ))}
+                {building.levelUpgrades
+                  ?.filter((levelUpgrade) => levelUpgrade.costEntries.length)
+                  .map((levelUpgrade, index) => (
+                    <div key={index + 2}>
+                      <span>
+                        {terms.level} {index + 2}:{" "}
+                      </span>
+                      {levelUpgrade.costEntries
+                        .map((value) => `${value.amount} ${value.type}`)
+                        .join(", ")}
+                    </div>
+                  ))}
               </td>
             </tr>
             <tr>
@@ -55,14 +58,18 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
               <td>
                 {building.requirements.requiredBuildings.length === 0 && "-"}
                 {building.requirements.requiredBuildings.join(", ")}
-                {building.requiredBuildings?.map((levelUpgrade, index) => (
-                  <div key={index + 2}>
-                    <span>
-                      {terms.level} {index + 2}:{" "}
-                    </span>
-                    {levelUpgrade.requiredBuildings.join(", ")}
-                  </div>
-                ))}
+                {building.levelUpgrades
+                  ?.filter(
+                    (levelUpgrade) => levelUpgrade.requiredBuildings.length
+                  )
+                  .map((levelUpgrade, index) => (
+                    <div key={index + 2}>
+                      <span>
+                        {terms.level} {index + 2}:{" "}
+                      </span>
+                      {levelUpgrade.requiredBuildings.join(", ")}
+                    </div>
+                  ))}
               </td>
             </tr>
             <tr>
@@ -94,9 +101,12 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
                     </Text>
                   ))}
                   {incomePerLevel.troopIncomes.map((troopIncome) => (
-                    <Text key={troopIncome.name} size="sm">
+                    <AppLink
+                      key={troopIncome.name}
+                      href={`/units/${troopIncome.factionKey}/${troopIncome.unitKey}`}
+                    >
                       {troopIncome.size} {troopIncome.name}
-                    </Text>
+                    </AppLink>
                   ))}
                 </td>
               </tr>
