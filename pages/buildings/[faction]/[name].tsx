@@ -95,17 +95,17 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
                   {terms.level} {incomePerLevel.level}
                 </td>
                 <td>
-                  {incomePerLevel.resources.map((resource) => (
+                  {incomePerLevel.resources.map((resource, index) => (
                     <Text key={resource.type} size="sm">
-                      {resource.amount} {resource.type}
+                      {resource.amount} {resource.type} {incomePerLevel.resources.length>index+1? ", " : ""}
                     </Text>
                   ))}
-                  {incomePerLevel.troopIncomes.map((troopIncome) => (
+                  {incomePerLevel.troopIncomes.map((troopIncome, index ) => (
                     <AppLink
                       key={troopIncome.name}
                       href={`/units/${troopIncome.factionKey}/${troopIncome.unitKey}`}
                     >
-                      {troopIncome.size} {troopIncome.name}
+                      {troopIncome.size} {troopIncome.name} {incomePerLevel.troopIncomes.length>index+1? ", " : ""}
                     </AppLink>
                   ))}
                 </td>
