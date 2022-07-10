@@ -41,42 +41,50 @@ export const getSiteTerm = (term: string, locale: string) => {
 export const getTerm = (
   term: string,
   locale: string,
-  placeholder?: number | string | string[],
+  placeholder?: number | string | string[] | { [key: string]: any },
   modifier?: string
 ) => {
-  let value: string | undefined;
+  let result: string | undefined;
   if (placeholder && typeof placeholder === "number") {
     const pluralForm = getPluralForm(locale, placeholder);
-    value = (terms[`${term}_${pluralForm}`] || terms[term])?.[locale];
+    result = (terms[`${term}_${pluralForm}`] || terms[term])?.[locale];
   } else {
-    value = terms[term]?.[locale];
+    result = terms[term]?.[locale];
   }
 
-  if (!value) {
+  if (!result) {
     console.warn(`Can not find ${term} - ${locale}`);
-    value = "";
+    result = "";
   }
 
   if (placeholder) {
     if (typeof placeholder === "number" && modifier !== undefined) {
       const isPercentageModifier =
         PERCENTAGE_BASED_MODIFIERS.includes(modifier);
-      value = value.replace(
+      result = result.replace(
         "{0}",
         `<span class="${placeholder > 0 ? "positive" : "negative"}">${
           placeholder > 0 ? "+" : "-"
         }${placeholder}${isPercentageModifier ? "%" : ""}</span>`
       );
     } else if (typeof placeholder === "string") {
-      value = value.replace("{0}", placeholder.toString());
+      result = result.replace("{0}", placeholder.toString());
     } else if (Array.isArray(placeholder)) {
       for (let i = 0; i < placeholder.length; i++) {
-        value = value.replace(`{${i.toString()}}`, placeholder[i]);
+        result = result.replace(`{${i.toString()}}`, placeholder[i]);
       }
+    } else {
+      Object.entries(placeholder).forEach(([key, value]) => {
+        result = result!.replace(`{${key}}`, value);
+      });
     }
   }
-
-  return value || term;
+  result = result
+    .replaceAll("<negative>", '<span class="negative">')
+    .replaceAll("</negative>", "</span>")
+    .replaceAll("<positive>", '<span class="positive">')
+    .replaceAll("</positive>", "</span>");
+  return result;
 };
 
 export const getPluralForm = (locale: string, count: number) => {

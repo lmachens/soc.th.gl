@@ -4,6 +4,7 @@ import { getBuildings } from "./buildings";
 
 import { getFactions } from "./factions";
 import { getSkills } from "./skills";
+import { getSpells } from "./spells";
 import { getSiteTerm, getTerm, TermsDTO } from "./terms";
 import { getUnits } from "./units";
 import { getWielders } from "./wielders";
@@ -92,6 +93,14 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       }))
       .sort(sortByLabel);
 
+    const spells = getSpells(locale);
+    const spellLinks = spells
+      .map((spell) => ({
+        to: `/spells/${spell.type}`,
+        label: spell.name,
+      }))
+      .sort(sortByLabel);
+
     const collectionLinks: CollectionLink[] = [
       {
         label: getSiteTerm("Factions", locale),
@@ -151,6 +160,16 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
             label: getSiteTerm("AllBuildings", locale),
           },
           ...buildingLinks,
+        ],
+      },
+      {
+        label: getSiteTerm("Spells", locale),
+        docs: [
+          {
+            to: "/spells",
+            label: getSiteTerm("AllSpells", locale),
+          },
+          ...spellLinks,
         ],
       },
     ];

@@ -555,16 +555,12 @@
       {
         "bacteriaType": 700,
         "type": "SpecializationChaos",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -576,7 +572,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -1111,16 +1111,12 @@
       {
         "bacteriaType": 705,
         "type": "SpecializationOrder",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1132,7 +1128,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -1671,16 +1671,12 @@
       {
         "bacteriaType": 711,
         "type": "SpecializationTroopMove",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1692,7 +1688,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2256,16 +2256,12 @@
       {
         "bacteriaType": 709,
         "type": "SpecializationSpellDamage",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2277,7 +2273,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -2855,16 +2855,12 @@
       {
         "bacteriaType": 706,
         "type": "SpecializationRangedDamage",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2876,7 +2872,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -3450,16 +3450,12 @@
       {
         "bacteriaType": 701,
         "type": "SpecializationCreation",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3471,7 +3467,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -4031,16 +4031,12 @@
       {
         "bacteriaType": 703,
         "type": "SpecializationFaeyOffense",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4058,7 +4054,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -4627,16 +4627,12 @@
       {
         "bacteriaType": 710,
         "type": "SpecializationSpellResistance",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4648,7 +4644,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -5174,16 +5174,12 @@
       {
         "bacteriaType": 704,
         "type": "SpecializationHumanDefense",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5195,7 +5191,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -5741,16 +5741,12 @@
       {
         "bacteriaType": 705,
         "type": "SpecializationOrder",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5762,7 +5758,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -6397,16 +6397,12 @@
       {
         "bacteriaType": 709,
         "type": "SpecializationSpellDamage",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6418,7 +6414,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -6961,16 +6961,12 @@
       {
         "bacteriaType": 699,
         "type": "SpecializationArcana",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6982,7 +6978,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -7613,16 +7613,12 @@
       {
         "bacteriaType": 702,
         "type": "SpecializationDestruction",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -7634,7 +7630,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -8265,16 +8265,12 @@
       {
         "bacteriaType": 708,
         "type": "SpecializationRatsHP",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -8286,7 +8282,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -8829,16 +8829,12 @@
       {
         "bacteriaType": 707,
         "type": "SpecializationRangedResistance",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -8850,7 +8846,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -9387,16 +9387,12 @@
       {
         "bacteriaType": 711,
         "type": "SpecializationTroopMove",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -9408,7 +9404,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -9956,16 +9956,12 @@
       {
         "bacteriaType": 856,
         "type": "SpecializationUndeadOffense",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -9977,7 +9973,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -10519,16 +10519,12 @@
       {
         "bacteriaType": 704,
         "type": "SpecializationHumanDefense",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -10540,7 +10536,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -11063,14 +11063,17 @@
       {
         "bacteriaType": 857,
         "type": "SpecializationIncome",
-        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Gold",
             "amount": 200,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -11572,16 +11575,12 @@
       {
         "bacteriaType": 855,
         "type": "SpecializationTroopRangedRange",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -11593,7 +11592,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -12121,16 +12124,12 @@
       {
         "bacteriaType": 705,
         "type": "SpecializationOrder",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -12142,7 +12141,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -12715,16 +12718,12 @@
       {
         "bacteriaType": 706,
         "type": "SpecializationRangedDamage",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -12736,7 +12735,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -13238,16 +13241,12 @@
       {
         "bacteriaType": 700,
         "type": "SpecializationChaos",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -13259,7 +13258,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -13761,16 +13764,12 @@
       {
         "bacteriaType": 710,
         "type": "SpecializationSpellResistance",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -13782,7 +13781,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -14365,16 +14368,12 @@
       {
         "bacteriaType": 702,
         "type": "SpecializationDestruction",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -14386,7 +14385,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -14914,16 +14917,12 @@
       {
         "bacteriaType": 704,
         "type": "SpecializationHumanDefense",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -14935,7 +14934,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -15508,16 +15511,12 @@
       {
         "bacteriaType": 712,
         "type": "SpecializationHarimaOffense",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -15529,7 +15528,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -16079,16 +16082,12 @@
       {
         "bacteriaType": 1125,
         "type": "SpecializationHunterDamage",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -16100,7 +16099,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -16671,16 +16674,12 @@
       {
         "bacteriaType": 702,
         "type": "SpecializationDestruction",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -16692,7 +16691,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -17268,16 +17271,12 @@
       {
         "bacteriaType": 709,
         "type": "SpecializationSpellDamage",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -17289,7 +17288,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -17860,16 +17863,12 @@
       {
         "bacteriaType": 710,
         "type": "SpecializationSpellResistance",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -17881,7 +17880,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -18431,16 +18434,12 @@
       {
         "bacteriaType": 1159,
         "type": "SpecializationRavagerMove",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -18452,7 +18451,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -18997,16 +19000,12 @@
       {
         "bacteriaType": 707,
         "type": "SpecializationRangedResistance",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -19018,7 +19017,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -19584,16 +19587,12 @@
       {
         "bacteriaType": 859,
         "type": "SpecializationRanaOffense",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -19611,7 +19610,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -20182,16 +20185,12 @@
       {
         "bacteriaType": 855,
         "type": "SpecializationTroopRangedRange",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -20203,7 +20202,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   },
@@ -20773,16 +20776,12 @@
       {
         "bacteriaType": 699,
         "type": "SpecializationArcana",
+        "customEffect": 0,
+        "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -20794,7 +20793,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": 3,
+          "duration": 0
+        }
       }
     ]
   }

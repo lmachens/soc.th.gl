@@ -20,7 +20,7 @@ export type BacteriaDTO = {
   duration?: string;
 };
 
-type PureBacteria = {
+export type PureBacteria = {
   bacteriaType: number;
   type: string;
   modifierData: {
@@ -41,17 +41,13 @@ type PureBacteria = {
     type: number;
     duration: number;
   };
+  customEffect?: number;
+  customEffectValue?: number;
   restriction?: string;
   auraSettings?: {
     recipients: string;
     hexRadius: number;
-    bacteriaToAdd: {
-      bacteriaType: number;
-      duration: {
-        type: number;
-        duration: number;
-      };
-    };
+    bacteriaToAdd: PureBacteria | null;
     isStackable: number;
     isPassable: number;
   };

@@ -8,6 +8,8 @@ const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
 const artifactsSrc = await readJSONFile("./out/artifact.json");
 const termMapSrc = await readJSONFile("./out/termMap.json");
 const iconsSrc = await readJSONFile("./out/icons.json");
+const spellsSrc = await readJSONFile("./out/spell.json");
+
 const adventureMapEntitySrc = await readJSONFile(
   "./out/adventureMapEntity.json"
 );
@@ -23,6 +25,49 @@ const RESOURCE_TYPES = [
   "CelestialOre",
 ];
 const UPGRADED_TYPES = ["vanilla", "upgraded", "superUpgraded"];
+const ESSENCE_TYPES = [
+  null,
+  "Order",
+  "Creation",
+  "Chaos",
+  "Arcana",
+  "Destruction",
+];
+const SPELL_TARGET_TYPES = [
+  "Empty",
+  "Friendly",
+  "Enemy",
+  "AllFriendlies",
+  "AllEnemies",
+  "RangedFriendly",
+  "RangedEnemy",
+  "AllRangedFriendlies",
+  "AllRangedEnemies",
+  "AllWithBacteriaType",
+  "FriendlyCommander",
+  "EnemyCommander",
+  "Tiles",
+  "AllTroops",
+  "TilesInCircle",
+  "Troop",
+];
+// const BACTERIA_DURATION_TYPES = [
+//   "BattleStackRound",
+//   "BattleRound",
+//   "EntireBattle",
+//   "Permanent",
+//   "Once",
+//   "AdventureRound",
+//   "AdventureChapter",
+//   "AdventureTeamRound",
+//   "AdventureNumberOfBattles",
+//   "CurrentBattleStackTurn",
+//   "OwnerAttacks",
+//   "OwnerWasAttacked",
+//   "OwnerWasDamaged",
+//   "BattleStackRoundWithTail",
+// ];
+
 const factions = factionsSrc.map((factionSrc) => ({
   id: factionSrc.id,
   type: factionSrc.type,
@@ -72,24 +117,49 @@ for (const faction of factions) {
   }
 }
 
-const getBacteria = ({ bacteriaType }) => {
+const getBacteria = ({ bacteriaType, duration }) => {
   const bacteria = bacteriasSrc.find(
     (bacteriaSrc) => bacteriaSrc.id === bacteriaType
   );
-  let modifierData;
-  if (bacteria.auraSettings?.bacteriaToAdd.bacteriaType) {
-    const bacteriaToAdd = bacteriasSrc.find(
-      (bacteriaSrc) =>
-        bacteriaSrc.id === bacteria.auraSettings.bacteriaToAdd.bacteriaType
-    );
-    modifierData = bacteriaToAdd.modifierData?.map((modifier) => ({
-      type: modifier.type,
-      modifier: modifier.modifier,
-      amountToAdd: modifier.amountToAdd,
-      applicationType: modifier.applicationType,
-    }));
+  if (!bacteria) {
+    console.warn(`Can not find bacteria ${bacteriaType}`);
+    return null;
+  }
+  const result = {
+    bacteriaType: bacteria.id,
+    type: bacteria.type,
+    restriction: bacteria.restriction,
+    customEffect: bacteria.customEffect,
+    customEffectValue: bacteria.customEffectValue,
+    auraSettings: bacteria.auraSettings,
+    modifierData: [],
+    resourcesIncome:
+      bacteria.income?.resources.map((resource) => ({
+        type: RESOURCE_TYPES[resource.type],
+        amount: resource.amount,
+        allTimeAmount: resource.allTimeAmount,
+      })) || [],
+    duration,
+  };
+
+  if (bacteria.auraSettings?.bacteriaToAdd?.bacteriaType) {
+    const bacteriaToAdd = getBacteria(bacteria.auraSettings.bacteriaToAdd);
+    if (bacteriaToAdd) {
+      result.auraSettings.bacteriaToAdd = bacteriaToAdd;
+      result.modifierData = bacteriaToAdd.modifierData?.map((modifier) => ({
+        type: modifier.type,
+        modifier: modifier.modifier,
+        amountToAdd: modifier.amountToAdd,
+        applicationType: modifier.applicationType,
+      }));
+    } else {
+      result.auraSettings.bacteriaToAdd = null;
+    }
   } else {
-    modifierData = bacteria.modifierData?.map((modifier) => ({
+    if (result.auraSettings) {
+      result.auraSettings.bacteriaToAdd = null;
+    }
+    result.modifierData = bacteria.modifierData?.map((modifier) => ({
       type: modifier.type,
       modifier: modifier.modifier,
       amountToAdd: modifier.amountToAdd,
@@ -97,25 +167,19 @@ const getBacteria = ({ bacteriaType }) => {
     }));
   }
 
-  const result = {
-    bacteriaType: bacteria.id,
-    type: bacteria.type,
-    restriction: bacteria.restriction,
-    auraSettings: bacteria.auraSettings,
-    modifierData: modifierData || [],
-    resourcesIncome:
-      bacteria.income?.resources.map((resource) => ({
-        type: RESOURCE_TYPES[resource.type],
-        amount: resource.amount,
-        allTimeAmount: resource.allTimeAmount,
-      })) || [],
-  };
   if (bacteria.settings?.bacterias) {
     result.settings = {
       bacterias: bacteria.settings.bacterias.map(getBacteria),
     };
   }
   return result;
+};
+
+const getSimpleSkill = ({ skill, level }) => {
+  return {
+    type: skillsSrc.find((skillSrc) => skillSrc.id === skill).type,
+    level: level,
+  };
 };
 const UNIT_TYPES = ["vanilla", "upgraded", "superUpgraded"];
 const getUnit = ({ factionIndex, unitIndex, upgradeType }) => {
@@ -131,10 +195,7 @@ const wielders = factionsSrc
           (skillPoolSrc) => skillPoolSrc.id === commander.skillPool
         );
 
-        const skills = commander.skills.map((skill) => ({
-          type: skillsSrc.find((skillSrc) => skillSrc.id === skill.skill).type,
-          level: skill.level,
-        }));
+        const skills = commander.skills.map(getSimpleSkill);
 
         skillPool.pools.forEach((pool) => {
           pool.skills.forEach((skill) => {
@@ -148,12 +209,7 @@ const wielders = factionsSrc
                 requiresSkill: skill.requiresSkill ? true : false,
                 requirementType:
                   skill.requirementType === 0 ? "RequireAny" : "RequireAll",
-                requiredSkills: skill.requiredSkills.map((requiredSkill) => ({
-                  type: skillsSrc.find(
-                    (skillSrc) => skillSrc.id === requiredSkill.skill
-                  ).type,
-                  level: requiredSkill.level,
-                })),
+                requiredSkills: skill.requiredSkills.map(getSimpleSkill),
               });
             }
           });
@@ -407,4 +463,27 @@ for (const building of buildings) {
   for (const portrait of building.portraits) {
     await copyImageFile(portrait.spriteSheet, "../public/buildings");
   }
+}
+
+const spells = spellsSrc.map((spell) => ({
+  id: spell.id,
+  icon: spell.icon,
+  type: spell.type,
+  nameKey: spell.nameKey,
+  descriptionKey: spell.descriptionKey,
+  costs: spell.cost.map((cost) => ({
+    type: ESSENCE_TYPES[cost.type],
+    amount: cost.amount,
+  })),
+  tiers: spell.tiers.map((tier) => ({
+    tier: tier.tier,
+    circleRadius: tier.circleRadius,
+    target: SPELL_TARGET_TYPES[tier.target],
+    requiredCommanderSkills: tier.requiredCommanderSkills.map(getSimpleSkill),
+    bacterias: tier.bacterias.map(getBacteria).filter((bacteria) => bacteria),
+  })),
+}));
+await writeJSONFile(spells, "../../lib/collections/spells");
+for (const spell of spells) {
+  await copyImageFile(spell.icon.spriteSheet, "../public/spells");
 }

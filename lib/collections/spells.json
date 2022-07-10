@@ -1,0 +1,6156 @@
+[
+  {
+    "id": 24,
+    "icon": {
+      "name": "Quicken",
+      "spriteSheet": "SpellIcons.png",
+      "x": 277,
+      "y": 381,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Advance",
+    "nameKey": "Spells/Advance",
+    "descriptionKey": "Spells/Advance/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 4
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 18,
+            "type": "SpellAdvance1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": 1,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 18,
+            "type": "SpellAdvance1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": 1,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 18,
+            "type": "SpellAdvance1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": 1,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "icon": {
+      "name": "Protection",
+      "spriteSheet": "SpellIcons.png",
+      "x": 1,
+      "y": 381,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Defend",
+    "nameKey": "Spells/Defend",
+    "descriptionKey": "Spells/Defend/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 5
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 35,
+            "type": "SpellDefend1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 35,
+            "type": "SpellDefend1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 35,
+            "type": "SpellDefend1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "icon": {
+      "name": "Invigorate",
+      "spriteSheet": "SpellIcons.png",
+      "x": 277,
+      "y": 565,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Invigorate",
+    "nameKey": "Spells/Invigorate",
+    "descriptionKey": "Spells/Invigorate/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 4
+      },
+      {
+        "type": "Creation",
+        "amount": 4
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 48,
+            "type": "SpellInvigorate1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": 1,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          },
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 117,
+            "type": "SpellInvigorate2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": 2,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 15,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          },
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 118,
+            "type": "SpellInvigorate3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": 3,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 20,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "icon": {
+      "name": "Aggression",
+      "spriteSheet": "SpellIcons.png",
+      "x": 93,
+      "y": 933,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Offense",
+    "nameKey": "Spells/Offense",
+    "descriptionKey": "Spells/Offense/Description",
+    "costs": [
+      {
+        "type": "Destruction",
+        "amount": 5
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 127,
+            "type": "SpellOffense1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 127,
+            "type": "SpellOffense1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 127,
+            "type": "SpellOffense1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "icon": {
+      "name": "Justice",
+      "spriteSheet": "SpellIcons.png",
+      "x": 369,
+      "y": 565,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Justice",
+    "nameKey": "Spells/RestoreOrder",
+    "descriptionKey": "Spells/RestoreOrder/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 4
+      },
+      {
+        "type": "Destruction",
+        "amount": 4
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 247,
+            "type": "Justice1",
+            "customEffect": 2,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          },
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 248,
+            "type": "Justice2",
+            "customEffect": 2,
+            "customEffectValue": 2,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          },
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 249,
+            "type": "Justice3",
+            "customEffect": 2,
+            "customEffectValue": 3,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "icon": {
+      "name": "Breath of the Pheonix",
+      "spriteSheet": "SpellIcons.png",
+      "x": 277,
+      "y": 841,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Phoenix",
+    "nameKey": "Spells/BreathOfThePhoenix",
+    "descriptionKey": "Spells/BreathOfThePhoenix/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 8
+      },
+      {
+        "type": "Destruction",
+        "amount": 8
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 238,
+            "type": "SpellPhoenix1",
+            "customEffect": 1,
+            "customEffectValue": 50,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 2
+          },
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 239,
+            "type": "SpellPhoenix2",
+            "customEffect": 1,
+            "customEffectValue": 90,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 3
+          },
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 240,
+            "type": "SpellPhoenix3",
+            "customEffect": 1,
+            "customEffectValue": 130,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "icon": {
+      "name": "Psychic Spear",
+      "spriteSheet": "SpellIcons.png",
+      "x": 93,
+      "y": 381,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "ArcaneBolt",
+    "nameKey": "Spells/ArcaneBolt",
+    "descriptionKey": "Spells/ArcaneBolt/Description",
+    "costs": [
+      {
+        "type": "Arcana",
+        "amount": 5
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 241,
+            "type": "SpellArcaneBolt1",
+            "customEffect": 1,
+            "customEffectValue": 15,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 242,
+            "type": "SpellArcaneBolt2",
+            "customEffect": 1,
+            "customEffectValue": 25,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 243,
+            "type": "SpellArcaneBolt3",
+            "customEffect": 1,
+            "customEffectValue": 35,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "icon": {
+      "name": "Arcane Explosion",
+      "spriteSheet": "SpellIcons.png",
+      "x": 369,
+      "y": 933,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "ArcaneExplosion",
+    "nameKey": "Spells/ArcaneExplosion",
+    "descriptionKey": "Spells/ArcaneExplosion/Description",
+    "costs": [
+      {
+        "type": "Arcana",
+        "amount": 16
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 2,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 134,
+            "type": "SpellArcaneExplosion1",
+            "customEffect": 1,
+            "customEffectValue": 30,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 2,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 146,
+            "type": "SpellArcaneExplosion2",
+            "customEffect": 1,
+            "customEffectValue": 50,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 2,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 147,
+            "type": "SpellArcaneExplosion3",
+            "customEffect": 1,
+            "customEffectValue": 70,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "icon": {
+      "name": "Ice Bolt",
+      "spriteSheet": "SpellIcons.png",
+      "x": 1,
+      "y": 565,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "IceBolt",
+    "nameKey": "Spells/IceBolt",
+    "descriptionKey": "Spells/IceBolt/Description",
+    "costs": [
+      {
+        "type": "Destruction",
+        "amount": 10
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 244,
+            "type": "SpellIceBolt1",
+            "customEffect": 1,
+            "customEffectValue": 30,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          },
+          {
+            "bacteriaType": 356,
+            "type": "SpellIceBoltStatsNerf1",
+            "customEffect": 0,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -2,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 245,
+            "type": "SpellIceBolt2",
+            "customEffect": 1,
+            "customEffectValue": 50,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          },
+          {
+            "bacteriaType": 356,
+            "type": "SpellIceBoltStatsNerf1",
+            "customEffect": 0,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -2,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 246,
+            "type": "SpellIceBolt3",
+            "customEffect": 1,
+            "customEffectValue": 75,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          },
+          {
+            "bacteriaType": 356,
+            "type": "SpellIceBoltStatsNerf1",
+            "customEffect": 0,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -2,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "icon": {
+      "name": "Fireaball",
+      "spriteSheet": "SpellIcons.png",
+      "x": 277,
+      "y": 657,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "FireBall",
+    "nameKey": "Spells/Fireball",
+    "descriptionKey": "Spells/Fireball/Description",
+    "costs": [
+      {
+        "type": "Destruction",
+        "amount": 14
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 250,
+            "type": "SpellFireBall1",
+            "customEffect": 1,
+            "customEffectValue": 30,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 251,
+            "type": "SpellFireBall2",
+            "customEffect": 1,
+            "customEffectValue": 60,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 252,
+            "type": "SpellFireBall3",
+            "customEffect": 1,
+            "customEffectValue": 90,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "icon": {
+      "name": "Arcane Door",
+      "spriteSheet": "SpellIcons.png",
+      "x": 277,
+      "y": 933,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "ArcaneDoor",
+    "nameKey": "Spells/ArcaneDoor",
+    "descriptionKey": "Spells/ArcaneDoor/Description",
+    "costs": [
+      {
+        "type": "Arcana",
+        "amount": 6
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": []
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          }
+        ],
+        "bacterias": []
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          }
+        ],
+        "bacterias": []
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "icon": {
+      "name": "Repel",
+      "spriteSheet": "SpellIcons.png",
+      "x": 1,
+      "y": 289,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "ArcanePush",
+    "nameKey": "Spells/ArcanePush",
+    "descriptionKey": "Spells/ArcanePush/Description",
+    "costs": [
+      {
+        "type": "Arcana",
+        "amount": 7
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 258,
+            "type": "SpellArcanePush1",
+            "customEffect": 9,
+            "customEffectValue": 3,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 259,
+            "type": "SpellArcanePush2",
+            "customEffect": 9,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 260,
+            "type": "SpellArcanePush3",
+            "customEffect": 9,
+            "customEffectValue": 7,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "icon": {
+      "name": "Earth Block",
+      "spriteSheet": "SpellIcons.png",
+      "x": 369,
+      "y": 749,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Barriers",
+    "nameKey": "Spells/Barriers",
+    "descriptionKey": "Spells/Barriers/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 4
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [],
+        "bacterias": []
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": []
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": []
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "icon": {
+      "name": "Insect Swarm",
+      "spriteSheet": "SpellIcons.png",
+      "x": 93,
+      "y": 565,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "BitingInsects",
+    "nameKey": "Spells/BitingInsects",
+    "descriptionKey": "Spells/BitingInsects/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 5
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 264,
+            "type": "SpellBitingInsects1",
+            "customEffect": 1,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 265,
+            "type": "SpellBitingInsects2",
+            "customEffect": 1,
+            "customEffectValue": 10,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -15,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 266,
+            "type": "SpellBitingInsects3",
+            "customEffect": 1,
+            "customEffectValue": 15,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -20,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "icon": {
+      "name": "Blind Hatred",
+      "spriteSheet": "SpellIcons.png",
+      "x": 93,
+      "y": 841,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "BlindHatred",
+    "nameKey": "Spells/BlindHatred",
+    "descriptionKey": "Spells/BlindHatred/Description",
+    "costs": [
+      {
+        "type": "Chaos",
+        "amount": 6
+      },
+      {
+        "type": "Arcana",
+        "amount": 6
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 267,
+            "type": "SpellBlindHatred1",
+            "customEffect": 6,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          },
+          {
+            "type": "Chaos",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 267,
+            "type": "SpellBlindHatred1",
+            "customEffect": 6,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          },
+          {
+            "type": "Chaos",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 267,
+            "type": "SpellBlindHatred1",
+            "customEffect": 6,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "icon": {
+      "name": "Boiling Blood",
+      "spriteSheet": "SpellIcons.png",
+      "x": 185,
+      "y": 841,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "BoilingBlood",
+    "nameKey": "Spells/BoilingBlood",
+    "descriptionKey": "Spells/BoilingBlood/Description",
+    "costs": [
+      {
+        "type": "Chaos",
+        "amount": 5
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 270,
+            "type": "SpellBoilingBlood1",
+            "customEffect": 1,
+            "customEffectValue": 10,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 552,
+            "type": "SpellBoilingBlood2",
+            "customEffect": 1,
+            "customEffectValue": 15,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 1105,
+            "type": "SpellBoilingBlood3",
+            "customEffect": 1,
+            "customEffectValue": 20,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "icon": {
+      "name": "Chain Lightning",
+      "spriteSheet": "SpellIcons.png",
+      "x": 1,
+      "y": 749,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "ChainLightning",
+    "nameKey": "Spells/ChainLightning",
+    "descriptionKey": "Spells/ChainLightning/Description",
+    "costs": [
+      {
+        "type": "Chaos",
+        "amount": 14
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 273,
+            "type": "SpellChainLightning1",
+            "customEffect": 8,
+            "customEffectValue": 35,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 274,
+            "type": "SpellChainLightning2",
+            "customEffect": 8,
+            "customEffectValue": 70,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 275,
+            "type": "SpellChainLightning3",
+            "customEffect": 8,
+            "customEffectValue": 100,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "icon": {
+      "name": "Chaos Step",
+      "spriteSheet": "SpellIcons.png",
+      "x": 93,
+      "y": 749,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "ChaosStep",
+    "nameKey": "Spells/ChaosStep",
+    "descriptionKey": "Spells/ChaosStep/Description",
+    "costs": [
+      {
+        "type": "Chaos",
+        "amount": 3
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": []
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 2
+          }
+        ],
+        "bacterias": []
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 3
+          }
+        ],
+        "bacterias": []
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "icon": {
+      "name": "Tempest",
+      "spriteSheet": "SpellIcons.png",
+      "x": 1,
+      "y": 197,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Tempest",
+    "nameKey": "Spells/Tempest",
+    "descriptionKey": "Spells/Tempest/Description",
+    "costs": [
+      {
+        "type": "Chaos",
+        "amount": 8
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllTroops",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 279,
+            "type": "SpellTempest1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": -25,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllTroops",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 280,
+            "type": "SpellTempest2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": -50,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllTroops",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 281,
+            "type": "SpellTempest3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": -75,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "icon": {
+      "name": "Aegis",
+      "spriteSheet": "SpellIcons.png",
+      "x": 1,
+      "y": 933,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Aegis",
+    "nameKey": "Spells/AegisDamage",
+    "descriptionKey": "Spells/AegisDamage/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 4
+      },
+      {
+        "type": "Arcana",
+        "amount": 4
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 282,
+            "type": "SpellAegisDamage1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 7,
+                "modifier": "TroopRangedAttackResistance",
+                "amountToAdd": 75,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          },
+          {
+            "type": "Order",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 282,
+            "type": "SpellAegisDamage1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 7,
+                "modifier": "TroopRangedAttackResistance",
+                "amountToAdd": 75,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          },
+          {
+            "type": "Order",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 282,
+            "type": "SpellAegisDamage1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 7,
+                "modifier": "TroopRangedAttackResistance",
+                "amountToAdd": 75,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 16,
+              "value": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "icon": {
+      "name": "Entagle",
+      "spriteSheet": "SpellIcons.png",
+      "x": 1,
+      "y": 657,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Entangle",
+    "nameKey": "Spells/Entangle",
+    "descriptionKey": "Spells/Entangle/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 6
+      },
+      {
+        "type": "Arcana",
+        "amount": 6
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 285,
+            "type": "SpellEntangle1Spell",
+            "customEffect": 0,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          },
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 285,
+            "type": "SpellEntangle1Spell",
+            "customEffect": 0,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          },
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 285,
+            "type": "SpellEntangle1Spell",
+            "customEffect": 0,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "icon": {
+      "name": "Burst of Strength",
+      "spriteSheet": "SpellIcons.png",
+      "x": 369,
+      "y": 841,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "BurstOfStrength",
+    "nameKey": "Spells/BurstOfStrength",
+    "descriptionKey": "Spells/BurstOfStrength/Description",
+    "costs": [
+      {
+        "type": "Chaos",
+        "amount": 3
+      },
+      {
+        "type": "Destruction",
+        "amount": 3
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 288,
+            "type": "SpellBurstOfStrength1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 2
+          },
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 289,
+            "type": "SpellBurstOfStrength2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 2,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 3
+          },
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 290,
+            "type": "SpellBurstOfStrength3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 3,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "icon": {
+      "name": "Lethargy",
+      "spriteSheet": "SpellIcons.png",
+      "x": 1,
+      "y": 473,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Lethargy",
+    "nameKey": "Spells/Lethargy",
+    "descriptionKey": "Spells/Lethargy/Description",
+    "costs": [
+      {
+        "type": "Chaos",
+        "amount": 5
+      },
+      {
+        "type": "Arcana",
+        "amount": 5
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllEnemies",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 291,
+            "type": "SpellLethargy1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -1,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllEnemies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 2
+          },
+          {
+            "type": "Arcana",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 291,
+            "type": "SpellLethargy1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -1,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllEnemies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 3
+          },
+          {
+            "type": "Arcana",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 291,
+            "type": "SpellLethargy1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -1,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": -10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "icon": {
+      "name": "Explosive Seeds",
+      "spriteSheet": "SpellIcons.png",
+      "x": 185,
+      "y": 657,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "ExplosiveSeeds",
+    "nameKey": "Spells/Mines",
+    "descriptionKey": "Spells/Mines/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 3
+      },
+      {
+        "type": "Destruction",
+        "amount": 3
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [],
+        "bacterias": []
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 2
+          },
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": []
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Tiles",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 3
+          },
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": []
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "icon": {
+      "name": "Poison Cloud",
+      "spriteSheet": "SpellIcons.png",
+      "x": 369,
+      "y": 473,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "PoisonCloud",
+    "nameKey": "Spells/PoisonCloudDamage",
+    "descriptionKey": "Spells/PoisonCloudDamage/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 12
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 297,
+            "type": "SpellPoisonCloud1",
+            "customEffect": 10,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "All",
+              "hexRadius": 0,
+              "bacteriaToAdd": {
+                "bacteriaType": 357,
+                "type": "SpellPoisonCloudDamage1",
+                "customEffect": 1,
+                "customEffectValue": 20,
+                "auraSettings": {
+                  "recipients": "All",
+                  "hexRadius": 3,
+                  "bacteriaToAdd": null,
+                  "isStackable": 0,
+                  "isPassable": 1
+                },
+                "modifierData": [],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": 2,
+                  "duration": 1
+                }
+              },
+              "isStackable": 0,
+              "isPassable": 0
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 298,
+            "type": "SpellPoisonCloud2",
+            "customEffect": 10,
+            "customEffectValue": 7,
+            "auraSettings": {
+              "recipients": "All",
+              "hexRadius": 0,
+              "bacteriaToAdd": {
+                "bacteriaType": 358,
+                "type": "SpellPoisonCloudDamage2",
+                "customEffect": 1,
+                "customEffectValue": 40,
+                "auraSettings": {
+                  "recipients": "All",
+                  "hexRadius": 3,
+                  "bacteriaToAdd": null,
+                  "isStackable": 0,
+                  "isPassable": 1
+                },
+                "modifierData": [],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": 2,
+                  "duration": 1
+                }
+              },
+              "isStackable": 0,
+              "isPassable": 0
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "TilesInCircle",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 299,
+            "type": "SpellPoisonCloud3",
+            "customEffect": 10,
+            "customEffectValue": 10,
+            "auraSettings": {
+              "recipients": "All",
+              "hexRadius": 0,
+              "bacteriaToAdd": {
+                "bacteriaType": 359,
+                "type": "SpellPoisonCloudDamage3",
+                "customEffect": 1,
+                "customEffectValue": 60,
+                "auraSettings": {
+                  "recipients": "All",
+                  "hexRadius": 3,
+                  "bacteriaToAdd": null,
+                  "isStackable": 0,
+                  "isPassable": 1
+                },
+                "modifierData": [],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": 2,
+                  "duration": 1
+                }
+              },
+              "isStackable": 0,
+              "isPassable": 0
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "icon": {
+      "name": "Onslaught",
+      "spriteSheet": "SpellIcons.png",
+      "x": 185,
+      "y": 473,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Onslaught",
+    "nameKey": "Spells/Onslaught",
+    "descriptionKey": "Spells/Onslaught/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 6
+      },
+      {
+        "type": "Chaos",
+        "amount": 6
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 300,
+            "type": "SpellOnslaught1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 0,
+                "modifier": "TroopAttacks",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          },
+          {
+            "type": "Chaos",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 300,
+            "type": "SpellOnslaught1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 0,
+                "modifier": "TroopAttacks",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          },
+          {
+            "type": "Chaos",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 300,
+            "type": "SpellOnslaught1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 0,
+                "modifier": "TroopAttacks",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "icon": {
+      "name": "Apocalypse",
+      "spriteSheet": "SpellIcons.png",
+      "x": 185,
+      "y": 933,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Apocalypse",
+    "nameKey": "Spells/RainOfFire",
+    "descriptionKey": "Spells/RainOfFire/Description",
+    "costs": [
+      {
+        "type": "Chaos",
+        "amount": 5
+      },
+      {
+        "type": "Destruction",
+        "amount": 5
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllTroops",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 303,
+            "type": "Apocalypse1",
+            "customEffect": 1,
+            "customEffectValue": 25,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllTroops",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 2
+          },
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 304,
+            "type": "Apocalypse2",
+            "customEffect": 1,
+            "customEffectValue": 50,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllTroops",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 3
+          },
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 305,
+            "type": "Apocalypse3",
+            "customEffect": 1,
+            "customEffectValue": 75,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "icon": {
+      "name": "Quick Draw",
+      "spriteSheet": "SpellIcons.png",
+      "x": 185,
+      "y": 381,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "RapidFire",
+    "nameKey": "Spells/RapidFire",
+    "descriptionKey": "Spells/RapidFire/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 8
+      },
+      {
+        "type": "Destruction",
+        "amount": 8
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllRangedFriendlies",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 51,
+            "type": "SpellRapidFire1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 0,
+                "modifier": "TroopAttacks",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllRangedFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 2
+          },
+          {
+            "type": "Order",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 121,
+            "type": "SpellRapidFire2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 0,
+                "modifier": "TroopAttacks",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllRangedFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 3
+          },
+          {
+            "type": "Order",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 122,
+            "type": "SpellRapidFire3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 0,
+                "modifier": "TroopAttacks",
+                "amountToAdd": 1,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 3
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "icon": {
+      "name": "Rejuvenation",
+      "spriteSheet": "SpellIcons.png",
+      "x": 369,
+      "y": 381,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Rejuvenation",
+    "nameKey": "Spells/Rejuvenation",
+    "descriptionKey": "Spells/Rejuvenation/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 7
+      },
+      {
+        "type": "Chaos",
+        "amount": 7
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 53,
+            "type": "SpellRejuvenation1",
+            "customEffect": 3,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 2
+          },
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 123,
+            "type": "SpellRejuvenation2",
+            "customEffect": 3,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Chaos",
+            "level": 3
+          },
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 124,
+            "type": "SpellRejuvenation3",
+            "customEffect": 3,
+            "customEffectValue": 1,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "icon": {
+      "name": "Rupture",
+      "spriteSheet": "SpellIcons.png",
+      "x": 93,
+      "y": 289,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Rupture",
+    "nameKey": "Spells/Rupture",
+    "descriptionKey": "Spells/Rupture/Description",
+    "costs": [
+      {
+        "type": "Arcana",
+        "amount": 6
+      },
+      {
+        "type": "Destruction",
+        "amount": 6
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 306,
+            "type": "SpellRupture1",
+            "customEffect": 1,
+            "customEffectValue": 50,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          },
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 307,
+            "type": "SpellRupture2",
+            "customEffect": 1,
+            "customEffectValue": 100,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          },
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 308,
+            "type": "SpellRupture3",
+            "customEffect": 1,
+            "customEffectValue": 150,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 4,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "icon": {
+      "name": "Mist",
+      "spriteSheet": "SpellIcons.png",
+      "x": 93,
+      "y": 473,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "SmokeBomb",
+    "nameKey": "Spells/SmokeBomb",
+    "descriptionKey": "Spells/SmokeBomb/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 7
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 309,
+            "type": "SpellSmokeBomb1",
+            "customEffect": 5,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 310,
+            "type": "SpellSmokeBomb2",
+            "customEffect": 5,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 311,
+            "type": "SpellSmokeBomb3",
+            "customEffect": 5,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "icon": {
+      "name": "Swap",
+      "spriteSheet": "SpellIcons.png",
+      "x": 369,
+      "y": 289,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Swap",
+    "nameKey": "Spells/Swap",
+    "descriptionKey": "Spells/Swap/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 3
+      },
+      {
+        "type": "Chaos",
+        "amount": 3
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [],
+        "bacterias": []
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 2
+          },
+          {
+            "type": "Chaos",
+            "level": 2
+          }
+        ],
+        "bacterias": []
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Troop",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 3
+          },
+          {
+            "type": "Chaos",
+            "level": 3
+          }
+        ],
+        "bacterias": []
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "icon": {
+      "name": "Sabotage",
+      "spriteSheet": "SpellIcons.png",
+      "x": 185,
+      "y": 289,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Sabotage",
+    "nameKey": "Spells/Sabotage",
+    "descriptionKey": "Spells/Sabotage/Description",
+    "costs": [
+      {
+        "type": "Destruction",
+        "amount": 8
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllEnemies",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 254,
+            "type": "SpellSabotage1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": -10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllEnemies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 1106,
+            "type": "SpellSabotage2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": -20,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllEnemies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 1107,
+            "type": "SpellSabotage3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": -30,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "icon": {
+      "name": "Inspire",
+      "spriteSheet": "SpellIcons.png",
+      "x": 185,
+      "y": 565,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "StandFast",
+    "nameKey": "Spells/StandFast",
+    "descriptionKey": "Spells/StandFast/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 12
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 440,
+            "type": "SpellStandFast1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 441,
+            "type": "SpellStandFast2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 20,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 20,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 442,
+            "type": "SpellStandFast3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 30,
+                "applicationType": 0
+              },
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 30,
+                "applicationType": 0
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 30,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 30,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "icon": {
+      "name": "Pacify",
+      "spriteSheet": "SpellIcons.png",
+      "x": 277,
+      "y": 473,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Pacify",
+    "nameKey": "Spells/Pacify",
+    "descriptionKey": "Spells/Pacify/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 8
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 480,
+            "type": "SpellPacify1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": -25,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 481,
+            "type": "SpellPacify2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": -50,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 482,
+            "type": "SpellPacify3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": -75,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "icon": {
+      "name": "EtherealScales",
+      "spriteSheet": "SpellIcons.png",
+      "x": 93,
+      "y": 657,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "EtherealScales",
+    "nameKey": "Spells/EtherealScalesSkin",
+    "descriptionKey": "Spells/EtherealScalesSkin/Description",
+    "costs": [
+      {
+        "type": "Creation",
+        "amount": 4
+      },
+      {
+        "type": "Arcana",
+        "amount": 4
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 253,
+            "type": "SpellEtherealScalesSkin1",
+            "customEffect": 0,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 4,
+                "modifier": "TroopMeleeAttackResistance",
+                "amountToAdd": 75,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 2
+          },
+          {
+            "type": "Arcana",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 253,
+            "type": "SpellEtherealScalesSkin1",
+            "customEffect": 0,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 4,
+                "modifier": "TroopMeleeAttackResistance",
+                "amountToAdd": 75,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Creation",
+            "level": 3
+          },
+          {
+            "type": "Arcana",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 253,
+            "type": "SpellEtherealScalesSkin1",
+            "customEffect": 0,
+            "customEffectValue": 5,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 4,
+                "modifier": "TroopMeleeAttackResistance",
+                "amountToAdd": 75,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "icon": {
+      "name": "Fury",
+      "spriteSheet": "SpellIcons.png",
+      "x": 369,
+      "y": 657,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "Fury",
+    "nameKey": "Spells/Fury",
+    "descriptionKey": "Spells/Fury/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 3
+      },
+      {
+        "type": "Chaos",
+        "amount": 3
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 553,
+            "type": "SpellFury1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 25,
+                "applicationType": 0
+              },
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": -25,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          },
+          {
+            "type": "Chaos",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 554,
+            "type": "SpellFury2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 50,
+                "applicationType": 0
+              },
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": -50,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "AllFriendlies",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          },
+          {
+            "type": "Chaos",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 555,
+            "type": "SpellFury3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 75,
+                "applicationType": 0
+              },
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": -75,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 1,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "icon": {
+      "name": "Strengthen Essence",
+      "spriteSheet": "SpellIcons.png",
+      "x": 277,
+      "y": 289,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "StrengthenEssence",
+    "nameKey": "Spells/StrengthenEssence",
+    "descriptionKey": "Spells/StrengthenEssence/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 3
+      },
+      {
+        "type": "Arcana",
+        "amount": 3
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 556,
+            "type": "SpellStrengthenEssence1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 23,
+                "modifier": "TroopEssenceOrder",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 24,
+                "modifier": "TroopEssenceCreation",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 25,
+                "modifier": "TroopEssenceChaos",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 26,
+                "modifier": "TroopEssenceArcana",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 27,
+                "modifier": "TroopEssenceDestruction",
+                "amountToAdd": 100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          },
+          {
+            "type": "Order",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 556,
+            "type": "SpellStrengthenEssence1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 23,
+                "modifier": "TroopEssenceOrder",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 24,
+                "modifier": "TroopEssenceCreation",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 25,
+                "modifier": "TroopEssenceChaos",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 26,
+                "modifier": "TroopEssenceArcana",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 27,
+                "modifier": "TroopEssenceDestruction",
+                "amountToAdd": 100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Friendly",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          },
+          {
+            "type": "Order",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 556,
+            "type": "SpellStrengthenEssence1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 23,
+                "modifier": "TroopEssenceOrder",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 24,
+                "modifier": "TroopEssenceCreation",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 25,
+                "modifier": "TroopEssenceChaos",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 26,
+                "modifier": "TroopEssenceArcana",
+                "amountToAdd": 100,
+                "applicationType": 1
+              },
+              {
+                "type": 27,
+                "modifier": "TroopEssenceDestruction",
+                "amountToAdd": 100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "icon": {
+      "name": "Destroy Essence",
+      "spriteSheet": "SpellIcons.png",
+      "x": 277,
+      "y": 749,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "DestroyEssence",
+    "nameKey": "Spells/DestroyEssence",
+    "descriptionKey": "Spells/DestroyEssence/Description",
+    "costs": [
+      {
+        "type": "Arcana",
+        "amount": 3
+      },
+      {
+        "type": "Destruction",
+        "amount": 3
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 559,
+            "type": "SpellDestroyEssence1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 23,
+                "modifier": "TroopEssenceOrder",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 24,
+                "modifier": "TroopEssenceCreation",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 25,
+                "modifier": "TroopEssenceChaos",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 26,
+                "modifier": "TroopEssenceArcana",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 27,
+                "modifier": "TroopEssenceDestruction",
+                "amountToAdd": -100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 2
+          },
+          {
+            "type": "Destruction",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 560,
+            "type": "SpellDestroyEssence2",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 23,
+                "modifier": "TroopEssenceOrder",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 24,
+                "modifier": "TroopEssenceCreation",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 25,
+                "modifier": "TroopEssenceChaos",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 26,
+                "modifier": "TroopEssenceArcana",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 27,
+                "modifier": "TroopEssenceDestruction",
+                "amountToAdd": -100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 2
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "Enemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Arcana",
+            "level": 3
+          },
+          {
+            "type": "Destruction",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 561,
+            "type": "SpellDestroyEssence3",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 23,
+                "modifier": "TroopEssenceOrder",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 24,
+                "modifier": "TroopEssenceCreation",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 25,
+                "modifier": "TroopEssenceChaos",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 26,
+                "modifier": "TroopEssenceArcana",
+                "amountToAdd": -100,
+                "applicationType": 1
+              },
+              {
+                "type": 27,
+                "modifier": "TroopEssenceDestruction",
+                "amountToAdd": -100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "icon": {
+      "name": "Clouded Vision",
+      "spriteSheet": "SpellIcons.png",
+      "x": 185,
+      "y": 749,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": -45
+          }
+        ]
+      ]
+    },
+    "type": "CloudedVision",
+    "nameKey": "Spells/CloudedVision",
+    "descriptionKey": "Spells/CloudedVision/Description",
+    "costs": [
+      {
+        "type": "Order",
+        "amount": 3
+      },
+      {
+        "type": "Creation",
+        "amount": 3
+      }
+    ],
+    "tiers": [
+      {
+        "tier": 1,
+        "circleRadius": 1,
+        "target": "RangedEnemy",
+        "requiredCommanderSkills": [],
+        "bacterias": [
+          {
+            "bacteriaType": 562,
+            "type": "SpellCloudedVision1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 18,
+                "modifier": "TroopRangedRange",
+                "amountToAdd": -50,
+                "applicationType": 1
+              },
+              {
+                "type": 39,
+                "modifier": "TroopDeadlyRange",
+                "amountToAdd": -50,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 2,
+        "circleRadius": 1,
+        "target": "RangedEnemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 2
+          },
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 562,
+            "type": "SpellCloudedVision1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 18,
+                "modifier": "TroopRangedRange",
+                "amountToAdd": -50,
+                "applicationType": 1
+              },
+              {
+                "type": 39,
+                "modifier": "TroopDeadlyRange",
+                "amountToAdd": -50,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      },
+      {
+        "tier": 3,
+        "circleRadius": 1,
+        "target": "RangedEnemy",
+        "requiredCommanderSkills": [
+          {
+            "type": "Order",
+            "level": 3
+          },
+          {
+            "type": "Creation",
+            "level": 3
+          }
+        ],
+        "bacterias": [
+          {
+            "bacteriaType": 562,
+            "type": "SpellCloudedVision1",
+            "customEffect": 0,
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 18,
+                "modifier": "TroopRangedRange",
+                "amountToAdd": -50,
+                "applicationType": 1
+              },
+              {
+                "type": 39,
+                "modifier": "TroopDeadlyRange",
+                "amountToAdd": -50,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": 0,
+              "value": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

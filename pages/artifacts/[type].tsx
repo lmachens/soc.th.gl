@@ -17,7 +17,7 @@ const Unit: NextPage<{ artifact: ArtifactDTO }> = ({ artifact }) => {
         <title>{artifact.name} - SoC.gg</title>
         <meta
           name="description"
-          content={`${artifact.name} unit details of Songs of Conquest`}
+          content={`${artifact.description} - ${artifact.name} (Songs of Conquest)`}
         />
       </Head>
       <Stack>
