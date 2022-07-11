@@ -6,7 +6,9 @@ The extractor is used to extract the data from Songs of Conquest to the JSON fil
 
 It's required to have Songs of Conquest installed on your computer. This guide is for the Steam version, but should work for other versions too.
 
-Next, you need to install [AssetRipper](https://github.com/AssetRipper/AssetRipper/), which is a tool to extract the game data. The latest tested version is [v0.2.0.3](https://github.com/AssetRipper/AssetRipper/releases/tag/0.2.0.3). This guide is for the GUI version of AssetRipper (`AssetRipperGUI_win64.zip`).
+Next, you need to install [AssetRipper](https://github.com/AssetRipper/AssetRipper/), which is a tool to extract the game data. The latest tested version is [v0.2.0.3](https://github.com/AssetRipper/AssetRipper/releases/tag/0.2.0.3).
+
+### GUI version of AssetRipper (`AssetRipperGUI_win64.zip`)
 
 After you extracted the ZIP file, please run `AssetRipper.exe`.
 
@@ -15,6 +17,16 @@ Now, open the game folder like `C:\Program Files (x86)\Steam\steamapps\common\So
 Even if we are interested in some of the files, we will export everything. Click on `Export all Files` and select the folder of this README.md file target (`extractor`).
 
 Exporting these files will take a while and a new folder called `SongsOfConquest` will be created.
+
+### Console version of AssetRipper (`AssetRipperConsole_win64.zip`)
+
+You can call it by running `AssetRipperConsole.exe` with the path to the game folder and output directory. The output directory should be the same as this README.md file.
+
+```bat
+AssetRipperConsole.exe "C:\Program Files (x86)\Steam\steamapps\common\SongsOfConquest\SongsOfConquest_Data" --output "__PATH_TO__\soc.gg\extractor"
+```
+
+### Start the extractor
 
 After the export is done, we can start parsing the data.
 First, install dependencies with `npm install`. Node v16 is required.
