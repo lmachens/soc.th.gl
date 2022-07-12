@@ -1,4 +1,4 @@
-import { Box, Group, Table } from "@mantine/core";
+import { Group, Table } from "@mantine/core";
 import { IconsDTO } from "../../lib/icons";
 import { WielderDTO } from "../../lib/wielders";
 import AppTooltip from "../AppTooltip/AppTooltip";
