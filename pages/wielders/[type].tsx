@@ -173,7 +173,6 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
                             {requiredSkill.name}
                           </Text>
                         </PopoverLink>
-                        { }
                       </Fragment>
                     ))}
                 </td>
@@ -205,7 +204,6 @@ export const getStaticProps = withStaticBase(async (context) => {
     defense: getTerm("Commanders/Details/CommanderStat/Defense", locale),
     movement: getTerm("Commanders/Details/CommanderStat/Movement", locale),
     viewRadius: getTerm("Commanders/Details/CommanderStat/View", locale),
-    command: getTerm("Commanders/Details/CommanderStat/Command", locale),
     startingTroops: getTerm(
       "Adventure/PurchaseWielderMenu/TroopsAtStartHeader",
       locale
