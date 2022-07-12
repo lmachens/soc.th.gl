@@ -126,44 +126,6 @@
         ]
       },
       {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Chaos",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Melee",
         "levelRange": {
           "min": 0,
@@ -173,7 +135,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -194,52 +156,6 @@
         ]
       },
       {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "HandToHand",
         "levelRange": {
           "min": 0,
@@ -249,7 +165,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -264,7 +180,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -302,7 +218,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -361,14 +277,72 @@
         ]
       },
       {
-        "type": "Diplomacy",
+        "type": "EssenceBurst",
         "levelRange": {
           "min": 5,
           "max": 9
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
+        "requirementType": "RequireAll",
+        "requiredSkills": [
+          {
+            "type": "Order",
+            "level": 1
+          },
+          {
+            "type": "Chaos",
+            "level": 2
+          },
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "type": "Channeling",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Arcana",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Destruction",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "ProduceGlimmer",
@@ -395,7 +369,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
+            "type": "ProduceGlimmer",
             "level": 1
           }
         ]
@@ -410,8 +384,8 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
-            "level": 2
+            "type": "ProduceGlimmer",
+            "level": 1
           }
         ]
       },
@@ -454,7 +428,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           },
           {
@@ -527,10 +501,10 @@
           "max": 8
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Channeling",
+            "type": "Creation",
             "level": 1
           },
           {
@@ -588,9 +562,14 @@
           "min": 10,
           "max": 99
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Cunning",
+            "level": 1
+          }
+        ]
       }
     ],
     "units": [
@@ -716,7 +695,7 @@
         "requiredSkills": []
       },
       {
-        "type": "Learning",
+        "type": "Order",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -821,7 +800,7 @@
         ]
       },
       {
-        "type": "Tutor",
+        "type": "MagicResistance",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -830,20 +809,40 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Learning",
+            "type": "Order",
             "level": 1
           }
         ]
       },
       {
-        "type": "Order",
+        "type": "ProduceStone",
         "levelRange": {
-          "min": 5,
-          "max": 9
+          "min": 0,
+          "max": 4
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "type": "ProduceWood",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
+          }
+        ]
       },
       {
         "type": "Taxes",
@@ -871,21 +870,6 @@
         ]
       },
       {
-        "type": "MagicResistance",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Channeling",
         "levelRange": {
           "min": 5,
@@ -900,37 +884,7 @@
           },
           {
             "type": "Creation",
-            "level": 3
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -950,43 +904,13 @@
         ]
       },
       {
-        "type": "ProduceWood",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Taxes",
-            "level": 2
-          }
-        ]
-      },
-      {
-        "type": "ProduceStone",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Taxes",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "ProduceCelestial",
         "levelRange": {
           "min": 5,
           "max": 9
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
             "type": "ProduceStone",
@@ -1008,7 +932,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceCelestial",
+            "type": "ProduceStone",
+            "level": 1
+          },
+          {
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -1023,8 +951,27 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceGlimmer",
+            "type": "ProduceStone",
             "level": 1
+          },
+          {
+            "type": "ProduceWood",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Tutor",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
           }
         ]
       },
@@ -1044,7 +991,7 @@
           "min": 8,
           "max": 8
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
@@ -1069,10 +1016,6 @@
           {
             "type": "Melee",
             "level": 1
-          },
-          {
-            "type": "Fast",
-            "level": 0
           }
         ]
       },
@@ -1095,7 +1038,7 @@
           },
           {
             "type": "PowerShielded",
-            "level": 0
+            "level": 1
           }
         ]
       },
@@ -1114,7 +1057,7 @@
           },
           {
             "type": "Brutal",
-            "level": 0
+            "level": 1
           }
         ]
       },
@@ -1206,21 +1149,6 @@
         "requiredSkills": [
           {
             "type": "March",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Raider",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Scouting",
             "level": 1
           }
         ]
@@ -1345,7 +1273,7 @@
         "requiredSkills": []
       },
       {
-        "type": "Learning",
+        "type": "Order",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -1450,7 +1378,7 @@
         ]
       },
       {
-        "type": "Tutor",
+        "type": "MagicResistance",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -1459,20 +1387,40 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Learning",
+            "type": "Order",
             "level": 1
           }
         ]
       },
       {
-        "type": "Order",
+        "type": "ProduceStone",
         "levelRange": {
-          "min": 5,
-          "max": 9
+          "min": 0,
+          "max": 4
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "type": "ProduceWood",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
+          }
+        ]
       },
       {
         "type": "Taxes",
@@ -1500,21 +1448,6 @@
         ]
       },
       {
-        "type": "MagicResistance",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Channeling",
         "levelRange": {
           "min": 5,
@@ -1529,37 +1462,7 @@
           },
           {
             "type": "Creation",
-            "level": 3
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -1579,43 +1482,13 @@
         ]
       },
       {
-        "type": "ProduceWood",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Taxes",
-            "level": 2
-          }
-        ]
-      },
-      {
-        "type": "ProduceStone",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Taxes",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "ProduceCelestial",
         "levelRange": {
           "min": 5,
           "max": 9
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
             "type": "ProduceStone",
@@ -1637,7 +1510,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceCelestial",
+            "type": "ProduceStone",
+            "level": 1
+          },
+          {
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -1652,8 +1529,27 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceGlimmer",
+            "type": "ProduceStone",
             "level": 1
+          },
+          {
+            "type": "ProduceWood",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Tutor",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
           }
         ]
       },
@@ -1673,7 +1569,7 @@
           "min": 8,
           "max": 8
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
@@ -1698,10 +1594,6 @@
           {
             "type": "Melee",
             "level": 1
-          },
-          {
-            "type": "Fast",
-            "level": 0
           }
         ]
       },
@@ -1724,7 +1616,7 @@
           },
           {
             "type": "PowerShielded",
-            "level": 0
+            "level": 1
           }
         ]
       },
@@ -1743,7 +1635,7 @@
           },
           {
             "type": "Brutal",
-            "level": 0
+            "level": 1
           }
         ]
       },
@@ -1835,21 +1727,6 @@
         "requiredSkills": [
           {
             "type": "March",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Raider",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Scouting",
             "level": 1
           }
         ]
@@ -2025,44 +1902,6 @@
         ]
       },
       {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Chaos",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Melee",
         "levelRange": {
           "min": 0,
@@ -2072,7 +1911,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -2093,52 +1932,6 @@
         ]
       },
       {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "HandToHand",
         "levelRange": {
           "min": 0,
@@ -2148,7 +1941,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -2163,7 +1956,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -2201,7 +1994,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -2260,14 +2053,72 @@
         ]
       },
       {
-        "type": "Diplomacy",
+        "type": "EssenceBurst",
         "levelRange": {
           "min": 5,
           "max": 9
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
+        "requirementType": "RequireAll",
+        "requiredSkills": [
+          {
+            "type": "Order",
+            "level": 1
+          },
+          {
+            "type": "Chaos",
+            "level": 2
+          },
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "type": "Channeling",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Arcana",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Destruction",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "ProduceGlimmer",
@@ -2294,7 +2145,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
+            "type": "ProduceGlimmer",
             "level": 1
           }
         ]
@@ -2309,8 +2160,8 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
-            "level": 2
+            "type": "ProduceGlimmer",
+            "level": 1
           }
         ]
       },
@@ -2353,7 +2204,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           },
           {
@@ -2426,10 +2277,10 @@
           "max": 8
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Channeling",
+            "type": "Creation",
             "level": 1
           },
           {
@@ -2487,9 +2338,14 @@
           "min": 10,
           "max": 99
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Cunning",
+            "level": 1
+          }
+        ]
       }
     ],
     "units": [
@@ -2800,9 +2656,14 @@
           "min": 5,
           "max": 9
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Learning",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "ProduceStone",
@@ -2815,10 +2676,6 @@
         "requiredSkills": [
           {
             "type": "Learning",
-            "level": 1
-          },
-          {
-            "type": "Taxes",
             "level": 1
           }
         ]
@@ -2852,7 +2709,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
+            "type": "ProduceStone",
+            "level": 1
+          },
+          {
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -2867,30 +2728,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceGlimmer",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
-            "level": 3
-          },
-          {
-            "type": "Channeling",
+            "type": "ProduceStone",
             "level": 1
           },
           {
-            "type": "MagicResistance",
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -2905,11 +2747,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Arcana",
+            "type": "Chaos",
             "level": 1
           },
           {
-            "type": "Order",
+            "type": "MagicResistance",
             "level": 1
           }
         ]
@@ -2924,34 +2766,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Arcana",
-            "level": 1
-          },
-          {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 3
-          },
-          {
-            "type": "Channeling",
-            "level": 1
-          },
-          {
-            "type": "MagicResistance",
             "level": 1
           }
         ]
@@ -2966,7 +2781,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
+            "type": "Order",
             "level": 1
           }
         ]
@@ -3139,35 +2954,17 @@
         ]
       },
       {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "EssenceBurst",
         "levelRange": {
           "min": 10,
           "max": 99
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 1
+            "type": "Channeling",
+            "level": 2
           }
         ]
       }
@@ -3480,9 +3277,14 @@
           "min": 5,
           "max": 9
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Learning",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "ProduceStone",
@@ -3495,10 +3297,6 @@
         "requiredSkills": [
           {
             "type": "Learning",
-            "level": 1
-          },
-          {
-            "type": "Taxes",
             "level": 1
           }
         ]
@@ -3532,7 +3330,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
+            "type": "ProduceStone",
+            "level": 1
+          },
+          {
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -3547,30 +3349,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceGlimmer",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
-            "level": 3
-          },
-          {
-            "type": "Channeling",
+            "type": "ProduceStone",
             "level": 1
           },
           {
-            "type": "MagicResistance",
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -3585,11 +3368,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Arcana",
+            "type": "Chaos",
             "level": 1
           },
           {
-            "type": "Order",
+            "type": "MagicResistance",
             "level": 1
           }
         ]
@@ -3604,34 +3387,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Arcana",
-            "level": 1
-          },
-          {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 3
-          },
-          {
-            "type": "Channeling",
-            "level": 1
-          },
-          {
-            "type": "MagicResistance",
             "level": 1
           }
         ]
@@ -3646,7 +3402,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
+            "type": "Order",
             "level": 1
           }
         ]
@@ -3819,35 +3575,17 @@
         ]
       },
       {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "EssenceBurst",
         "levelRange": {
           "min": 10,
           "max": 99
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 1
+            "type": "Channeling",
+            "level": 2
           }
         ]
       }
@@ -4014,44 +3752,6 @@
         ]
       },
       {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Chaos",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Melee",
         "levelRange": {
           "min": 0,
@@ -4061,7 +3761,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -4082,52 +3782,6 @@
         ]
       },
       {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAll",
-        "requiredSkills": [
-          {
-            "type": "Chaos",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "HandToHand",
         "levelRange": {
           "min": 0,
@@ -4137,7 +3791,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -4152,7 +3806,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -4190,7 +3844,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -4249,14 +3903,72 @@
         ]
       },
       {
-        "type": "Diplomacy",
+        "type": "EssenceBurst",
         "levelRange": {
           "min": 5,
           "max": 9
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
+        "requirementType": "RequireAll",
+        "requiredSkills": [
+          {
+            "type": "Order",
+            "level": 1
+          },
+          {
+            "type": "Chaos",
+            "level": 2
+          },
+          {
+            "type": "Creation",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "type": "Channeling",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Arcana",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Destruction",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "ProduceGlimmer",
@@ -4283,7 +3995,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
+            "type": "ProduceGlimmer",
             "level": 1
           }
         ]
@@ -4298,8 +4010,8 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
-            "level": 2
+            "type": "ProduceGlimmer",
+            "level": 1
           }
         ]
       },
@@ -4342,7 +4054,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "HandToHand",
             "level": 1
           },
           {
@@ -4415,10 +4127,10 @@
           "max": 8
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Channeling",
+            "type": "Creation",
             "level": 1
           },
           {
@@ -4476,9 +4188,14 @@
           "min": 10,
           "max": 99
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Cunning",
+            "level": 1
+          }
+        ]
       }
     ],
     "units": [
@@ -4791,9 +4508,14 @@
           "min": 5,
           "max": 9
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Learning",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "ProduceStone",
@@ -4806,10 +4528,6 @@
         "requiredSkills": [
           {
             "type": "Learning",
-            "level": 1
-          },
-          {
-            "type": "Taxes",
             "level": 1
           }
         ]
@@ -4843,7 +4561,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceAmber",
+            "type": "ProduceStone",
+            "level": 1
+          },
+          {
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -4858,30 +4580,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceGlimmer",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
-            "level": 3
-          },
-          {
-            "type": "Channeling",
+            "type": "ProduceStone",
             "level": 1
           },
           {
-            "type": "MagicResistance",
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -4896,11 +4599,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Arcana",
+            "type": "Chaos",
             "level": 1
           },
           {
-            "type": "Order",
+            "type": "MagicResistance",
             "level": 1
           }
         ]
@@ -4915,34 +4618,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Arcana",
-            "level": 1
-          },
-          {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 3
-          },
-          {
-            "type": "Channeling",
-            "level": 1
-          },
-          {
-            "type": "MagicResistance",
             "level": 1
           }
         ]
@@ -4957,7 +4633,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
+            "type": "Order",
             "level": 1
           }
         ]
@@ -5130,35 +4806,17 @@
         ]
       },
       {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "EssenceBurst",
         "levelRange": {
           "min": 10,
           "max": 99
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 1
+            "type": "Channeling",
+            "level": 2
           }
         ]
       }
@@ -5282,7 +4940,7 @@
         "requiredSkills": []
       },
       {
-        "type": "Learning",
+        "type": "Order",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -5387,7 +5045,7 @@
         ]
       },
       {
-        "type": "Tutor",
+        "type": "MagicResistance",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -5396,20 +5054,40 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Learning",
+            "type": "Order",
             "level": 1
           }
         ]
       },
       {
-        "type": "Order",
+        "type": "ProduceStone",
         "levelRange": {
-          "min": 5,
-          "max": 9
+          "min": 0,
+          "max": 4
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
+          }
+        ]
+      },
+      {
+        "type": "ProduceWood",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
+          }
+        ]
       },
       {
         "type": "Taxes",
@@ -5437,21 +5115,6 @@
         ]
       },
       {
-        "type": "MagicResistance",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Channeling",
         "levelRange": {
           "min": 5,
@@ -5466,37 +5129,7 @@
           },
           {
             "type": "Creation",
-            "level": 3
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -5516,43 +5149,13 @@
         ]
       },
       {
-        "type": "ProduceWood",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Taxes",
-            "level": 2
-          }
-        ]
-      },
-      {
-        "type": "ProduceStone",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Taxes",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "ProduceCelestial",
         "levelRange": {
           "min": 5,
           "max": 9
         },
         "requiresSkill": true,
-        "requirementType": "RequireAll",
+        "requirementType": "RequireAny",
         "requiredSkills": [
           {
             "type": "ProduceStone",
@@ -5574,7 +5177,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceCelestial",
+            "type": "ProduceStone",
+            "level": 1
+          },
+          {
+            "type": "ProduceWood",
             "level": 1
           }
         ]
@@ -5589,8 +5196,27 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "ProduceGlimmer",
+            "type": "ProduceStone",
             "level": 1
+          },
+          {
+            "type": "ProduceWood",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Tutor",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Taxes",
+            "level": 2
           }
         ]
       },
@@ -5610,7 +5236,7 @@
           "min": 8,
           "max": 8
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
@@ -5635,10 +5261,6 @@
           {
             "type": "Melee",
             "level": 1
-          },
-          {
-            "type": "Fast",
-            "level": 0
           }
         ]
       },
@@ -5661,7 +5283,7 @@
           },
           {
             "type": "PowerShielded",
-            "level": 0
+            "level": 1
           }
         ]
       },
@@ -5680,7 +5302,7 @@
           },
           {
             "type": "Brutal",
-            "level": 0
+            "level": 1
           }
         ]
       },
@@ -5772,21 +5394,6 @@
         "requiredSkills": [
           {
             "type": "March",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Raider",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Scouting",
             "level": 1
           }
         ]
@@ -6069,7 +5676,7 @@
         "requiredSkills": [
           {
             "type": "Taxes",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -6084,7 +5691,7 @@
         "requiredSkills": [
           {
             "type": "Taxes",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -6132,6 +5739,10 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
+            "type": "ProduceWood",
+            "level": 1
+          },
+          {
             "type": "ProduceCelestial",
             "level": 1
           }
@@ -6148,6 +5759,10 @@
         "requiredSkills": [
           {
             "type": "ProduceGlimmer",
+            "level": 1
+          },
+          {
+            "type": "ProduceStone",
             "level": 1
           }
         ]
@@ -6187,7 +5802,7 @@
         ]
       },
       {
-        "type": "Channeling",
+        "type": "EssenceLeech",
         "levelRange": {
           "min": 5,
           "max": 9
@@ -6197,51 +5812,6 @@
         "requiredSkills": [
           {
             "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
             "level": 1
           }
         ]
@@ -6409,21 +5979,6 @@
           },
           {
             "type": "Attuned",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceLeech",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
             "level": 1
           }
         ]
@@ -6595,7 +6150,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -6610,7 +6169,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -6625,7 +6188,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Archery",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -6640,7 +6203,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -6655,7 +6218,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Prepared",
+            "type": "Melee",
             "level": 1
           }
         ]
@@ -6670,7 +6233,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "HandToHand",
+            "type": "Archery",
             "level": 1
           }
         ]
@@ -6686,36 +6249,6 @@
         "requiredSkills": [
           {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Destruction",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceLeech",
             "level": 1
           }
         ]
@@ -6766,10 +6299,6 @@
           {
             "type": "Destruction",
             "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
           }
         ]
       },
@@ -6782,6 +6311,40 @@
         "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": []
+      },
+      {
+        "type": "Channeling",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "EssenceBurst",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 2
+          },
+          {
+            "type": "Channeling",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Chaos",
@@ -7445,15 +7008,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Order",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 2
-          },
-          {
-            "type": "Destruction",
+            "type": "EssenceLeech",
             "level": 2
           }
         ]
@@ -7465,41 +7020,19 @@
           "max": 9
         },
         "requiresSkill": true,
-        "requirementType": "RequireAny",
+        "requirementType": "RequireAll",
         "requiredSkills": [
           {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+            "level": 2
+          },
           {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+            "type": "Destruction",
+            "level": 2
+          },
           {
-            "type": "EssenceBurst",
-            "level": 1
+            "type": "Arcana",
+            "level": 2
           }
         ]
       },
@@ -7692,6 +7225,36 @@
             "level": 1
           }
         ]
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Chaos",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
       }
     ],
     "units": [
@@ -7856,7 +7419,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -7871,7 +7438,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -7886,7 +7457,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Archery",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -7901,7 +7472,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -7916,7 +7487,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Prepared",
+            "type": "Melee",
             "level": 1
           }
         ]
@@ -7931,7 +7502,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "HandToHand",
+            "type": "Archery",
             "level": 1
           }
         ]
@@ -7947,36 +7518,6 @@
         "requiredSkills": [
           {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Destruction",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceLeech",
             "level": 1
           }
         ]
@@ -8027,10 +7568,6 @@
           {
             "type": "Destruction",
             "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
           }
         ]
       },
@@ -8043,6 +7580,40 @@
         "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": []
+      },
+      {
+        "type": "Channeling",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "EssenceBurst",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 2
+          },
+          {
+            "type": "Channeling",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Chaos",
@@ -8522,7 +8093,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -8537,7 +8112,11 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Cunning",
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -8552,7 +8131,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Archery",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -8567,7 +8146,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -8582,7 +8161,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Prepared",
+            "type": "Melee",
             "level": 1
           }
         ]
@@ -8597,7 +8176,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "HandToHand",
+            "type": "Archery",
             "level": 1
           }
         ]
@@ -8613,36 +8192,6 @@
         "requiredSkills": [
           {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Destruction",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 0,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceLeech",
             "level": 1
           }
         ]
@@ -8693,10 +8242,6 @@
           {
             "type": "Destruction",
             "level": 1
-          },
-          {
-            "type": "Order",
-            "level": 1
           }
         ]
       },
@@ -8709,6 +8254,40 @@
         "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": []
+      },
+      {
+        "type": "Channeling",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "EssenceBurst",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceLeech",
+            "level": 2
+          },
+          {
+            "type": "Channeling",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Chaos",
@@ -9368,15 +8947,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Order",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 2
-          },
-          {
-            "type": "Destruction",
+            "type": "EssenceLeech",
             "level": 2
           }
         ]
@@ -9388,41 +8959,19 @@
           "max": 9
         },
         "requiresSkill": true,
-        "requirementType": "RequireAny",
+        "requirementType": "RequireAll",
         "requiredSkills": [
           {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+            "level": 2
+          },
           {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+            "type": "Destruction",
+            "level": 2
+          },
           {
-            "type": "EssenceBurst",
-            "level": 1
+            "type": "Arcana",
+            "level": 2
           }
         ]
       },
@@ -9612,6 +9161,36 @@
           },
           {
             "type": "Levy",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Chaos",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
             "level": 1
           }
         ]
@@ -9894,7 +9473,7 @@
         "requiredSkills": [
           {
             "type": "Taxes",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -9909,7 +9488,7 @@
         "requiredSkills": [
           {
             "type": "Taxes",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -9957,6 +9536,10 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
+            "type": "ProduceWood",
+            "level": 1
+          },
+          {
             "type": "ProduceCelestial",
             "level": 1
           }
@@ -9973,6 +9556,10 @@
         "requiredSkills": [
           {
             "type": "ProduceGlimmer",
+            "level": 1
+          },
+          {
+            "type": "ProduceStone",
             "level": 1
           }
         ]
@@ -10012,7 +9599,7 @@
         ]
       },
       {
-        "type": "Channeling",
+        "type": "EssenceLeech",
         "levelRange": {
           "min": 5,
           "max": 9
@@ -10022,51 +9609,6 @@
         "requiredSkills": [
           {
             "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
             "level": 1
           }
         ]
@@ -10234,21 +9776,6 @@
           },
           {
             "type": "Attuned",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceLeech",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
             "level": 1
           }
         ]
@@ -10596,15 +10123,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Order",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 2
-          },
-          {
-            "type": "Destruction",
+            "type": "EssenceLeech",
             "level": 2
           }
         ]
@@ -10616,41 +10135,19 @@
           "max": 9
         },
         "requiresSkill": true,
-        "requirementType": "RequireAny",
+        "requirementType": "RequireAll",
         "requiredSkills": [
           {
             "type": "Order",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+            "level": 2
+          },
           {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+            "type": "Destruction",
+            "level": 2
+          },
           {
-            "type": "EssenceBurst",
-            "level": 1
+            "type": "Arcana",
+            "level": 2
           }
         ]
       },
@@ -10840,6 +10337,36 @@
           },
           {
             "type": "Levy",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Chaos",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
             "level": 1
           }
         ]
@@ -11122,7 +10649,7 @@
         "requiredSkills": [
           {
             "type": "Taxes",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -11137,7 +10664,7 @@
         "requiredSkills": [
           {
             "type": "Taxes",
-            "level": 1
+            "level": 2
           }
         ]
       },
@@ -11185,6 +10712,10 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
+            "type": "ProduceWood",
+            "level": 1
+          },
+          {
             "type": "ProduceCelestial",
             "level": 1
           }
@@ -11201,6 +10732,10 @@
         "requiredSkills": [
           {
             "type": "ProduceGlimmer",
+            "level": 1
+          },
+          {
+            "type": "ProduceStone",
             "level": 1
           }
         ]
@@ -11240,7 +10775,7 @@
         ]
       },
       {
-        "type": "Channeling",
+        "type": "EssenceLeech",
         "levelRange": {
           "min": 5,
           "max": 9
@@ -11250,51 +10785,6 @@
         "requiredSkills": [
           {
             "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceBurst",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
             "level": 1
           }
         ]
@@ -11465,21 +10955,6 @@
             "level": 1
           }
         ]
-      },
-      {
-        "type": "EssenceLeech",
-        "levelRange": {
-          "min": 10,
-          "max": 99
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 1
-          }
-        ]
       }
     ],
     "units": [
@@ -11611,6 +11086,16 @@
         "requiredSkills": []
       },
       {
+        "type": "Order",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
         "type": "HandToHand",
         "levelRange": {
           "min": 0,
@@ -11692,16 +11177,6 @@
             "level": 1
           }
         ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
       },
       {
         "type": "Taxes",
@@ -12128,16 +11603,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Chaos",
         "levelRange": {
           "min": 1,
@@ -12223,6 +11688,21 @@
         ]
       },
       {
+        "type": "Order",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Chaos",
+            "level": 1
+          }
+        ]
+      },
+      {
         "type": "Destruction",
         "levelRange": {
           "min": 1,
@@ -12252,51 +11732,6 @@
           },
           {
             "type": "Destruction",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
             "level": 1
           }
         ]
@@ -12408,22 +11843,7 @@
         ]
       },
       {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "MagicResistance",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceLeech",
+        "type": "Channeling",
         "levelRange": {
           "min": 5,
           "max": 9
@@ -12433,6 +11853,36 @@
         "requiredSkills": [
           {
             "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Channeling",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Arcana",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Creation",
             "level": 1
           }
         ]
@@ -12738,6 +12188,16 @@
         "requiredSkills": []
       },
       {
+        "type": "Order",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
         "type": "HandToHand",
         "levelRange": {
           "min": 0,
@@ -12819,16 +12279,6 @@
             "level": 1
           }
         ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
       },
       {
         "type": "Taxes",
@@ -13550,36 +13000,6 @@
         ]
       },
       {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "ProduceWood",
         "levelRange": {
           "min": 5,
@@ -13653,11 +13073,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "EssenceBurst",
-            "level": 1
-          },
-          {
-            "type": "Channeling",
+            "type": "Chaos",
             "level": 1
           }
         ]
@@ -13919,16 +13335,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Chaos",
         "levelRange": {
           "min": 1,
@@ -14014,6 +13420,21 @@
         ]
       },
       {
+        "type": "Order",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Chaos",
+            "level": 1
+          }
+        ]
+      },
+      {
         "type": "Destruction",
         "levelRange": {
           "min": 1,
@@ -14043,51 +13464,6 @@
           },
           {
             "type": "Destruction",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
             "level": 1
           }
         ]
@@ -14199,22 +13575,7 @@
         ]
       },
       {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "MagicResistance",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceLeech",
+        "type": "Channeling",
         "levelRange": {
           "min": 5,
           "max": 9
@@ -14224,6 +13585,36 @@
         "requiredSkills": [
           {
             "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Channeling",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Arcana",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Creation",
             "level": 1
           }
         ]
@@ -14489,16 +13880,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Chaos",
         "levelRange": {
           "min": 1,
@@ -14584,6 +13965,21 @@
         ]
       },
       {
+        "type": "Order",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Chaos",
+            "level": 1
+          }
+        ]
+      },
+      {
         "type": "Destruction",
         "levelRange": {
           "min": 1,
@@ -14613,51 +14009,6 @@
           },
           {
             "type": "Destruction",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Channeling",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Creation",
             "level": 1
           }
         ]
@@ -14769,22 +14120,7 @@
         ]
       },
       {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "MagicResistance",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceLeech",
+        "type": "Channeling",
         "levelRange": {
           "min": 5,
           "max": 9
@@ -14794,6 +14130,36 @@
         "requiredSkills": [
           {
             "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Channeling",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Arcana",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Creation",
             "level": 1
           }
         ]
@@ -15336,36 +14702,6 @@
         ]
       },
       {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "ProduceWood",
         "levelRange": {
           "min": 5,
@@ -15439,11 +14775,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "EssenceBurst",
-            "level": 1
-          },
-          {
-            "type": "Channeling",
+            "type": "Chaos",
             "level": 1
           }
         ]
@@ -15749,6 +15081,16 @@
         "requiredSkills": []
       },
       {
+        "type": "Order",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
         "type": "HandToHand",
         "levelRange": {
           "min": 0,
@@ -15830,16 +15172,6 @@
             "level": 1
           }
         ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
       },
       {
         "type": "Taxes",
@@ -16561,36 +15893,6 @@
         ]
       },
       {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Arcana",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "ProduceWood",
         "levelRange": {
           "min": 5,
@@ -16664,11 +15966,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "EssenceBurst",
-            "level": 1
-          },
-          {
-            "type": "Channeling",
+            "type": "Chaos",
             "level": 1
           }
         ]
@@ -16960,16 +16258,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Guard",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Prepared",
         "levelRange": {
           "min": 1,
@@ -16988,6 +16276,31 @@
         "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": []
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Guard",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Melee",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Scouting",
@@ -17018,11 +16331,15 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Guard",
             "level": 1
           },
           {
-            "type": "HandToHand",
+            "type": "Positioning",
+            "level": 1
+          },
+          {
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -17037,11 +16354,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
-            "level": 1
-          },
-          {
-            "type": "HandToHand",
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -17056,7 +16369,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Guard",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -17088,43 +16401,6 @@
           {
             "type": "Learning",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "HandToHand",
-            "level": 3
-          },
-          {
-            "type": "Melee",
-            "level": 3
-          },
-          {
-            "type": "HandToHand",
-            "level": 3
-          },
-          {
-            "type": "Cunning",
-            "level": 3
           }
         ]
       },
@@ -17236,7 +16512,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Destruction",
+            "type": "Arcana",
             "level": 1
           }
         ]
@@ -17276,44 +16552,19 @@
         ]
       },
       {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Fast",
         "levelRange": {
           "min": 8,
           "max": 8
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Prepared",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "PowerShielded",
@@ -17331,6 +16582,14 @@
           {
             "type": "PowerRange",
             "level": 1
+          },
+          {
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Melee",
+            "level": 1
           }
         ]
       },
@@ -17340,7 +16599,7 @@
           "min": 8,
           "max": 8
         },
-        "requiresSkill": true,
+        "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
@@ -17572,16 +16831,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Arcana",
         "levelRange": {
           "min": 1,
@@ -17593,6 +16842,16 @@
       },
       {
         "type": "ProduceWood",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Scouting",
         "levelRange": {
           "min": 1,
           "max": 4
@@ -17617,6 +16876,25 @@
         ]
       },
       {
+        "type": "Destruction",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAll",
+        "requiredSkills": [
+          {
+            "type": "Creation",
+            "level": 1
+          },
+          {
+            "type": "Arcana",
+            "level": 1
+          }
+        ]
+      },
+      {
         "type": "Channeling",
         "levelRange": {
           "min": 1,
@@ -17625,14 +16903,6 @@
         "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
           {
             "type": "Destruction",
             "level": 1
@@ -17646,40 +16916,18 @@
           "max": 4
         },
         "requiresSkill": true,
-        "requirementType": "RequireAny",
+        "requirementType": "RequireAll",
         "requiredSkills": [
           {
-            "type": "Channeling",
+            "type": "Creation",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+          },
           {
-            "type": "EssenceBurst",
+            "type": "Arcana",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+          },
           {
-            "type": "EssenceBurst",
+            "type": "Destruction",
             "level": 1
           }
         ]
@@ -17759,6 +17007,51 @@
         "requiredSkills": [
           {
             "type": "Learning",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "March",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Scouting",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Chaos",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Order",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
             "level": 1
           }
         ]
@@ -17884,21 +17177,6 @@
           },
           {
             "type": "Guard",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceLeech",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
             "level": 1
           }
         ]
@@ -18057,6 +17335,21 @@
           },
           {
             "type": "Attuned",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "EssenceLeech",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Channeling",
             "level": 1
           }
         ]
@@ -18161,16 +17454,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Arcana",
         "levelRange": {
           "min": 1,
@@ -18182,6 +17465,16 @@
       },
       {
         "type": "ProduceWood",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Scouting",
         "levelRange": {
           "min": 1,
           "max": 4
@@ -18206,6 +17499,25 @@
         ]
       },
       {
+        "type": "Destruction",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAll",
+        "requiredSkills": [
+          {
+            "type": "Creation",
+            "level": 1
+          },
+          {
+            "type": "Arcana",
+            "level": 1
+          }
+        ]
+      },
+      {
         "type": "Channeling",
         "levelRange": {
           "min": 1,
@@ -18214,14 +17526,6 @@
         "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
           {
             "type": "Destruction",
             "level": 1
@@ -18235,40 +17539,18 @@
           "max": 4
         },
         "requiresSkill": true,
-        "requirementType": "RequireAny",
+        "requirementType": "RequireAll",
         "requiredSkills": [
           {
-            "type": "Channeling",
+            "type": "Creation",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+          },
           {
-            "type": "EssenceBurst",
+            "type": "Arcana",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+          },
           {
-            "type": "EssenceBurst",
+            "type": "Destruction",
             "level": 1
           }
         ]
@@ -18348,6 +17630,51 @@
         "requiredSkills": [
           {
             "type": "Learning",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "March",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Scouting",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Chaos",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Order",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
             "level": 1
           }
         ]
@@ -18473,21 +17800,6 @@
           },
           {
             "type": "Guard",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceLeech",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
             "level": 1
           }
         ]
@@ -18646,6 +17958,21 @@
           },
           {
             "type": "Attuned",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "EssenceLeech",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Channeling",
             "level": 1
           }
         ]
@@ -18746,16 +18073,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Destruction",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Arcana",
         "levelRange": {
           "min": 1,
@@ -18767,6 +18084,16 @@
       },
       {
         "type": "ProduceWood",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Scouting",
         "levelRange": {
           "min": 1,
           "max": 4
@@ -18791,6 +18118,25 @@
         ]
       },
       {
+        "type": "Destruction",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAll",
+        "requiredSkills": [
+          {
+            "type": "Creation",
+            "level": 1
+          },
+          {
+            "type": "Arcana",
+            "level": 1
+          }
+        ]
+      },
+      {
         "type": "Channeling",
         "levelRange": {
           "min": 1,
@@ -18799,14 +18145,6 @@
         "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
-          {
-            "type": "Arcana",
-            "level": 1
-          },
-          {
-            "type": "Creation",
-            "level": 1
-          },
           {
             "type": "Destruction",
             "level": 1
@@ -18820,40 +18158,18 @@
           "max": 4
         },
         "requiresSkill": true,
-        "requirementType": "RequireAny",
+        "requirementType": "RequireAll",
         "requiredSkills": [
           {
-            "type": "Channeling",
+            "type": "Creation",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+          },
           {
-            "type": "EssenceBurst",
+            "type": "Arcana",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
+          },
           {
-            "type": "EssenceBurst",
+            "type": "Destruction",
             "level": 1
           }
         ]
@@ -18933,6 +18249,51 @@
         "requiredSkills": [
           {
             "type": "Learning",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "March",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Scouting",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Chaos",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Order",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
             "level": 1
           }
         ]
@@ -19058,21 +18419,6 @@
           },
           {
             "type": "Guard",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "EssenceLeech",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "Channeling",
             "level": 1
           }
         ]
@@ -19231,6 +18577,21 @@
           },
           {
             "type": "Attuned",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "EssenceLeech",
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Channeling",
             "level": 1
           }
         ]
@@ -19355,16 +18716,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Guard",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Prepared",
         "levelRange": {
           "min": 1,
@@ -19383,6 +18734,31 @@
         "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": []
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Guard",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Melee",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Scouting",
@@ -19413,11 +18789,15 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Guard",
             "level": 1
           },
           {
-            "type": "HandToHand",
+            "type": "Positioning",
+            "level": 1
+          },
+          {
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -19432,11 +18812,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
-            "level": 1
-          },
-          {
-            "type": "HandToHand",
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -19451,7 +18827,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Guard",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -19483,43 +18859,6 @@
           {
             "type": "Learning",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "HandToHand",
-            "level": 3
-          },
-          {
-            "type": "Melee",
-            "level": 3
-          },
-          {
-            "type": "HandToHand",
-            "level": 3
-          },
-          {
-            "type": "Cunning",
-            "level": 3
           }
         ]
       },
@@ -19631,7 +18970,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Destruction",
+            "type": "Arcana",
             "level": 1
           }
         ]
@@ -19671,44 +19010,19 @@
         ]
       },
       {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Fast",
         "levelRange": {
           "min": 8,
           "max": 8
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Prepared",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "PowerShielded",
@@ -19726,6 +19040,14 @@
           {
             "type": "PowerRange",
             "level": 1
+          },
+          {
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Melee",
+            "level": 1
           }
         ]
       },
@@ -19735,7 +19057,7 @@
           "min": 8,
           "max": 8
         },
-        "requiresSkill": true,
+        "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
@@ -19987,16 +19309,6 @@
         "requiredSkills": []
       },
       {
-        "type": "Guard",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
         "type": "Prepared",
         "levelRange": {
           "min": 1,
@@ -20015,6 +19327,31 @@
         "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": []
+      },
+      {
+        "type": "Creation",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Guard",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Melee",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Scouting",
@@ -20045,11 +19382,15 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
+            "type": "Guard",
             "level": 1
           },
           {
-            "type": "HandToHand",
+            "type": "Positioning",
+            "level": 1
+          },
+          {
+            "type": "Cunning",
             "level": 1
           }
         ]
@@ -20064,11 +19405,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Melee",
-            "level": 1
-          },
-          {
-            "type": "HandToHand",
+            "type": "Prepared",
             "level": 1
           }
         ]
@@ -20083,7 +19420,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Guard",
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -20115,43 +19452,6 @@
           {
             "type": "Learning",
             "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Creation",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": false,
-        "requirementType": "RequireAny",
-        "requiredSkills": []
-      },
-      {
-        "type": "Diplomacy",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "HandToHand",
-            "level": 3
-          },
-          {
-            "type": "Melee",
-            "level": 3
-          },
-          {
-            "type": "HandToHand",
-            "level": 3
-          },
-          {
-            "type": "Cunning",
-            "level": 3
           }
         ]
       },
@@ -20263,7 +19563,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Destruction",
+            "type": "Arcana",
             "level": 1
           }
         ]
@@ -20303,44 +19603,19 @@
         ]
       },
       {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 5,
-          "max": 9
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
         "type": "Fast",
         "levelRange": {
           "min": 8,
           "max": 8
         },
-        "requiresSkill": false,
+        "requiresSkill": true,
         "requirementType": "RequireAny",
-        "requiredSkills": []
+        "requiredSkills": [
+          {
+            "type": "Prepared",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "PowerShielded",
@@ -20358,6 +19633,14 @@
           {
             "type": "PowerRange",
             "level": 1
+          },
+          {
+            "type": "HandToHand",
+            "level": 1
+          },
+          {
+            "type": "Melee",
+            "level": 1
           }
         ]
       },
@@ -20367,7 +19650,7 @@
           "min": 8,
           "max": 8
         },
-        "requiresSkill": true,
+        "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
@@ -20648,10 +19931,6 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Learning",
-            "level": 1
-          },
-          {
             "type": "Archery",
             "level": 1
           }
@@ -20666,10 +19945,6 @@
         "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
-          {
-            "type": "Learning",
-            "level": 1
-          },
           {
             "type": "Archery",
             "level": 1
@@ -20716,41 +19991,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
+            "type": "EssenceLeech",
             "level": 1
           }
         ]
@@ -21314,10 +20555,6 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Learning",
-            "level": 1
-          },
-          {
             "type": "Archery",
             "level": 1
           }
@@ -21332,10 +20569,6 @@
         "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
-          {
-            "type": "Learning",
-            "level": 1
-          },
           {
             "type": "Archery",
             "level": 1
@@ -21382,41 +20615,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
+            "type": "EssenceLeech",
             "level": 1
           }
         ]
@@ -21970,10 +21169,6 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Learning",
-            "level": 1
-          },
-          {
             "type": "Archery",
             "level": 1
           }
@@ -21988,10 +21183,6 @@
         "requiresSkill": true,
         "requirementType": "RequireAny",
         "requiredSkills": [
-          {
-            "type": "Learning",
-            "level": 1
-          },
           {
             "type": "Archery",
             "level": 1
@@ -22038,41 +21229,7 @@
         "requirementType": "RequireAny",
         "requiredSkills": [
           {
-            "type": "Creation",
-            "level": 1
-          },
-          {
-            "type": "Arcana",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Chaos",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
-            "level": 1
-          }
-        ]
-      },
-      {
-        "type": "Order",
-        "levelRange": {
-          "min": 1,
-          "max": 4
-        },
-        "requiresSkill": true,
-        "requirementType": "RequireAny",
-        "requiredSkills": [
-          {
-            "type": "EssenceBurst",
+            "type": "EssenceLeech",
             "level": 1
           }
         ]
