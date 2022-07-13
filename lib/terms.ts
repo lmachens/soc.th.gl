@@ -17,7 +17,7 @@ const terms = termMap as unknown as {
   };
 };
 
-const PERCENTAGE_BASED_MODIFIERS = [
+export const PERCENTAGE_BASED_MODIFIERS = [
   "TroopMeleeAttackResistance",
   "TroopRangedAttackResistance",
   "TroopSpellDamageResistance",
@@ -42,7 +42,7 @@ export const getTerm = (
   term: string,
   locale: string,
   placeholder?: number | string | string[] | { [key: string]: any },
-  modifier?: string
+  showPercentage?: boolean
 ) => {
   let result: string | undefined;
   if (placeholder && typeof placeholder === "number") {
@@ -58,14 +58,12 @@ export const getTerm = (
   }
 
   if (placeholder) {
-    if (typeof placeholder === "number" && modifier !== undefined) {
-      const isPercentageModifier =
-        PERCENTAGE_BASED_MODIFIERS.includes(modifier);
+    if (typeof placeholder === "number") {
       result = result.replace(
         "{0}",
         `<span class="${placeholder > 0 ? "positive" : "negative"}">${
           placeholder > 0 ? "+" : "-"
-        }${placeholder}${isPercentageModifier ? "%" : ""}</span>`
+        }${placeholder}${showPercentage ? "%" : ""}</span>`
       );
     } else if (typeof placeholder === "string") {
       result = result.replace("{0}", placeholder.toString());

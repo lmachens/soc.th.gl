@@ -167,7 +167,7 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -186,7 +186,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -440,9 +440,10 @@
         {
           "bacteriaType": 65,
           "type": "TraitReload",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -635,9 +636,10 @@
         {
           "bacteriaType": 65,
           "type": "TraitReload",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -1224,7 +1226,7 @@
           {
             "bacteriaType": 148,
             "type": "TroopAbilityFearNoFoe",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1249,7 +1251,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -1455,7 +1457,7 @@
           {
             "bacteriaType": 793,
             "type": "TroopAbilityStoutheartShallStand",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1480,7 +1482,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -1652,7 +1654,7 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -1671,7 +1673,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -1854,7 +1856,7 @@
           {
             "bacteriaType": 409,
             "type": "TroopAbilityProtect",
-            "customEffect": 10,
+            "customEffect": "Aura",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1862,7 +1864,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 410,
                 "type": "TroopAbilityProtected",
-                "customEffect": 0,
+                "customEffect": "None",
                 "customEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
@@ -1887,7 +1889,6 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 3,
                   "duration": 0
                 }
               },
@@ -1910,7 +1911,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -1920,7 +1921,7 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -1939,7 +1940,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -2205,7 +2206,7 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -2224,16 +2225,17 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 871,
           "type": "TraitCharger",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -2528,7 +2530,7 @@
           {
             "bacteriaType": 802,
             "type": "TroopAbilityInspire",
-            "customEffect": 10,
+            "customEffect": "Aura",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2536,7 +2538,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 803,
                 "type": "TroopAbilityInspired",
-                "customEffect": 0,
+                "customEffect": "None",
                 "customEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
@@ -2567,7 +2569,6 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 3,
                   "duration": 0
                 }
               },
@@ -2596,7 +2597,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -2606,7 +2607,7 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -2625,16 +2626,17 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 871,
           "type": "TraitCharger",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -2844,9 +2846,10 @@
         {
           "bacteriaType": 59,
           "type": "TraitBerserker",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -3093,7 +3096,7 @@
           {
             "bacteriaType": 408,
             "type": "TroopAbilityDefend",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3118,7 +3121,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -3128,9 +3131,10 @@
         {
           "bacteriaType": 59,
           "type": "TraitBerserker",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -3633,7 +3637,7 @@
         {
           "bacteriaType": 427,
           "type": "TraitDoubleStrike",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -3652,7 +3656,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -3906,7 +3910,7 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -3914,7 +3918,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 63,
               "type": "TraitInspired",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -3945,7 +3949,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -3974,7 +3977,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -4277,9 +4280,10 @@
           {
             "bacteriaType": 1,
             "type": "Empty",
+            "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
+              "type": "Once",
               "duration": 1
             }
           }
@@ -4289,7 +4293,7 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -4297,7 +4301,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 63,
               "type": "TraitInspired",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -4328,7 +4332,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -4357,7 +4360,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -4554,9 +4557,10 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -4709,9 +4713,10 @@
         {
           "bacteriaType": 59,
           "type": "TraitBerserker",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -4859,18 +4864,20 @@
         {
           "bacteriaType": 59,
           "type": "TraitBerserker",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 866,
           "type": "TraitVenomous",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -5315,7 +5322,7 @@
           {
             "bacteriaType": 408,
             "type": "TroopAbilityDefend",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5340,7 +5347,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -5350,7 +5357,7 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -5369,7 +5376,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -5533,7 +5540,7 @@
           {
             "bacteriaType": 149,
             "type": "TroopAbilityHerAimWasTrue",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5558,7 +5565,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -5720,7 +5727,7 @@
           {
             "bacteriaType": 792,
             "type": "TroopAbilityAureliaEternal",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5751,7 +5758,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -5919,9 +5926,10 @@
         {
           "bacteriaType": 866,
           "type": "TraitVenomous",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -6104,7 +6112,7 @@
           {
             "bacteriaType": 825,
             "type": "TroopAbilityAim",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -6129,7 +6137,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
+              "type": "BattleStackRound",
               "duration": 2
             }
           }
@@ -6139,9 +6147,10 @@
         {
           "bacteriaType": 866,
           "type": "TraitVenomous",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -6300,9 +6309,10 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -6531,7 +6541,7 @@
           {
             "bacteriaType": 867,
             "type": "TroopAbilityChargeEssence",
-            "customEffect": 11,
+            "customEffect": "GenerateEssence",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -6539,7 +6549,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 803,
                 "type": "TroopAbilityInspired",
-                "customEffect": 0,
+                "customEffect": "None",
                 "customEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
@@ -6570,7 +6580,6 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 3,
                   "duration": 0
                 }
               },
@@ -6599,7 +6608,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
+              "type": "Once",
               "duration": 1
             }
           }
@@ -6610,9 +6619,10 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -6904,7 +6914,7 @@
         {
           "bacteriaType": 798,
           "type": "TraitPersistent",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -6923,14 +6933,14 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1161,
           "type": "TraitMagicResistance",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -6949,7 +6959,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -7288,7 +7298,7 @@
           {
             "bacteriaType": 829,
             "type": "TroopAbilitySacrificeBones",
-            "customEffect": 2,
+            "customEffect": "KillAmount",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -7300,7 +7310,7 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
+              "type": "Once",
               "duration": 0
             }
           }
@@ -7310,7 +7320,7 @@
         {
           "bacteriaType": 798,
           "type": "TraitPersistent",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -7329,14 +7339,14 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1161,
           "type": "TraitMagicResistance",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -7355,7 +7365,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -7527,7 +7537,7 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -7546,7 +7556,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -7761,7 +7771,7 @@
           {
             "bacteriaType": 802,
             "type": "TroopAbilityInspire",
-            "customEffect": 10,
+            "customEffect": "Aura",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -7769,7 +7779,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 803,
                 "type": "TroopAbilityInspired",
-                "customEffect": 0,
+                "customEffect": "None",
                 "customEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
@@ -7800,7 +7810,6 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 3,
                   "duration": 0
                 }
               },
@@ -7829,7 +7838,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -7839,7 +7848,7 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -7858,7 +7867,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -8328,7 +8337,7 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
@@ -8336,7 +8345,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 796,
               "type": "TraitIntimidated",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -8361,7 +8370,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -8384,16 +8392,17 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1054,
           "type": "TraitSweepAttack",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -8908,7 +8917,7 @@
           {
             "bacteriaType": 409,
             "type": "TroopAbilityProtect",
-            "customEffect": 10,
+            "customEffect": "Aura",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -8916,7 +8925,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 410,
                 "type": "TroopAbilityProtected",
-                "customEffect": 0,
+                "customEffect": "None",
                 "customEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
@@ -8941,7 +8950,6 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 3,
                   "duration": 0
                 }
               },
@@ -8964,7 +8972,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -8974,7 +8982,7 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
@@ -8982,7 +8990,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 796,
               "type": "TraitIntimidated",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -9007,7 +9015,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -9030,23 +9037,24 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1054,
           "type": "TraitSweepAttack",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -9065,7 +9073,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -9413,9 +9421,10 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -9576,7 +9585,7 @@
           {
             "bacteriaType": 150,
             "type": "TroopAbilityJigOfJugs",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -9595,7 +9604,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -9606,9 +9615,10 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -9772,7 +9782,7 @@
           {
             "bacteriaType": 794,
             "type": "TroopAbilityTheCoinInMyHand",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -9797,7 +9807,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -9985,7 +9995,7 @@
         {
           "bacteriaType": 799,
           "type": "TraitReach",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -10004,7 +10014,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -10241,7 +10251,7 @@
         {
           "bacteriaType": 799,
           "type": "TraitReach",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -10260,7 +10270,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -10426,9 +10436,10 @@
         {
           "bacteriaType": 65,
           "type": "TraitReload",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -10643,7 +10654,7 @@
           {
             "bacteriaType": 825,
             "type": "TroopAbilityAim",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -10668,7 +10679,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
+              "type": "BattleStackRound",
               "duration": 2
             }
           }
@@ -10678,9 +10689,10 @@
         {
           "bacteriaType": 65,
           "type": "TraitReload",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -10932,9 +10944,10 @@
         {
           "bacteriaType": 795,
           "type": "TraitQuick",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -11233,16 +11246,17 @@
         {
           "bacteriaType": 795,
           "type": "TraitQuick",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 798,
           "type": "TraitPersistent",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -11261,7 +11275,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -11491,7 +11505,7 @@
         {
           "bacteriaType": 1161,
           "type": "TraitMagicResistance",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -11510,7 +11524,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -11734,7 +11748,7 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
@@ -11742,7 +11756,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 796,
               "type": "TraitIntimidated",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -11767,7 +11781,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -11790,14 +11803,14 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1161,
           "type": "TraitMagicResistance",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -11816,7 +11829,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -12224,9 +12237,10 @@
         {
           "bacteriaType": 869,
           "type": "TraitFlameAttack",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -12393,9 +12407,10 @@
           "bacteriaType": 801,
           "type": "TraitBackstabber",
           "restriction": "CantBeRetaliatedOn",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -12600,7 +12615,7 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -12619,7 +12634,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
@@ -12627,9 +12642,10 @@
           "bacteriaType": 801,
           "type": "TraitBackstabber",
           "restriction": "CantBeRetaliatedOn",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -12843,9 +12859,10 @@
         {
           "bacteriaType": 65,
           "type": "TraitReload",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
@@ -12853,18 +12870,20 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1104,
           "type": "TraitBarrageAttack",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -13121,9 +13140,10 @@
         {
           "bacteriaType": 65,
           "type": "TraitReload",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
@@ -13131,16 +13151,17 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -13148,7 +13169,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 63,
               "type": "TraitInspired",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -13179,7 +13200,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -13208,16 +13228,17 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1104,
           "type": "TraitBarrageAttack",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -13414,9 +13435,10 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -13774,7 +13796,7 @@
           {
             "bacteriaType": 408,
             "type": "TroopAbilityDefend",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -13799,7 +13821,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -13809,7 +13831,7 @@
         {
           "bacteriaType": 804,
           "type": "TraitStealthy1",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -13828,7 +13850,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -14086,9 +14108,10 @@
         {
           "bacteriaType": 866,
           "type": "TraitVenomous",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -14366,7 +14389,7 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -14374,7 +14397,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 63,
               "type": "TraitInspired",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -14405,7 +14428,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -14434,16 +14456,17 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 866,
           "type": "TraitVenomous",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -14617,7 +14640,7 @@
         {
           "bacteriaType": 66,
           "type": "TraitGuard",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -14625,7 +14648,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 67,
               "type": "TraitGuarded",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -14644,7 +14667,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -14661,7 +14683,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -14864,7 +14886,7 @@
           {
             "bacteriaType": 409,
             "type": "TroopAbilityProtect",
-            "customEffect": 10,
+            "customEffect": "Aura",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -14872,7 +14894,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 410,
                 "type": "TroopAbilityProtected",
-                "customEffect": 0,
+                "customEffect": "None",
                 "customEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
@@ -14897,7 +14919,6 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 3,
                   "duration": 0
                 }
               },
@@ -14920,7 +14941,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -14930,7 +14951,7 @@
         {
           "bacteriaType": 66,
           "type": "TraitGuard",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -14938,7 +14959,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 67,
               "type": "TraitGuarded",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -14957,7 +14978,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -14974,7 +14994,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -15218,9 +15238,10 @@
         {
           "bacteriaType": 871,
           "type": "TraitCharger",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -15524,9 +15545,10 @@
         {
           "bacteriaType": 871,
           "type": "TraitCharger",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -15684,7 +15706,7 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
@@ -15692,7 +15714,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 796,
               "type": "TraitIntimidated",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -15717,7 +15739,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -15740,14 +15761,14 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1161,
           "type": "TraitMagicResistance",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -15766,7 +15787,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -16015,7 +16036,7 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
@@ -16023,7 +16044,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 796,
               "type": "TraitIntimidated",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -16048,7 +16069,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -16071,14 +16091,14 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 1161,
           "type": "TraitMagicResistance",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -16097,7 +16117,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -16396,7 +16416,7 @@
           {
             "bacteriaType": 151,
             "type": "TroopAbilityTheDragonsRoar",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -16421,7 +16441,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 13,
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -16431,7 +16451,7 @@
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
@@ -16439,7 +16459,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 796,
               "type": "TraitIntimidated",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -16464,7 +16484,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -16487,7 +16506,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -16710,7 +16729,7 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -16729,7 +16748,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -17000,7 +17019,7 @@
           {
             "bacteriaType": 867,
             "type": "TroopAbilityChargeEssence",
-            "customEffect": 11,
+            "customEffect": "GenerateEssence",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -17008,7 +17027,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 803,
                 "type": "TroopAbilityInspired",
-                "customEffect": 0,
+                "customEffect": "None",
                 "customEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
@@ -17039,7 +17058,6 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 3,
                   "duration": 0
                 }
               },
@@ -17068,7 +17086,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
+              "type": "Once",
               "duration": 1
             }
           }
@@ -17078,7 +17096,7 @@
         {
           "bacteriaType": 800,
           "type": "TraitShielded",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -17097,7 +17115,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -17583,7 +17601,7 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -17591,7 +17609,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 63,
               "type": "TraitInspired",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -17622,7 +17640,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -17651,14 +17668,14 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 799,
           "type": "TraitReach",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -17677,23 +17694,24 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 869,
           "type": "TraitFlameAttack",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
@@ -17701,7 +17719,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 796,
               "type": "TraitIntimidated",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -17726,7 +17744,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -17749,7 +17766,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -17982,7 +17999,7 @@
         {
           "bacteriaType": 62,
           "type": "TraitInspiring",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -17990,7 +18007,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 63,
               "type": "TraitInspired",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -18021,7 +18038,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -18050,14 +18066,14 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
-          "customEffect": 10,
+          "customEffect": "Aura",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
@@ -18065,7 +18081,7 @@
             "bacteriaToAdd": {
               "bacteriaType": 796,
               "type": "TraitIntimidated",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -18090,7 +18106,6 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 2,
                 "duration": 0
               }
             },
@@ -18113,14 +18128,14 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 799,
           "type": "TraitReach",
-          "customEffect": 0,
+          "customEffect": "None",
           "customEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
@@ -18139,16 +18154,17 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         },
         {
           "bacteriaType": 869,
           "type": "TraitFlameAttack",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -18344,9 +18360,10 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
-            "type": 3,
+            "type": "Permanent",
             "duration": 0
           }
         }

@@ -51,22 +51,59 @@ const SPELL_TARGET_TYPES = [
   "TilesInCircle",
   "Troop",
 ];
-// const BACTERIA_DURATION_TYPES = [
-//   "BattleStackRound",
-//   "BattleRound",
-//   "EntireBattle",
-//   "Permanent",
-//   "Once",
-//   "AdventureRound",
-//   "AdventureChapter",
-//   "AdventureTeamRound",
-//   "AdventureNumberOfBattles",
-//   "CurrentBattleStackTurn",
-//   "OwnerAttacks",
-//   "OwnerWasAttacked",
-//   "OwnerWasDamaged",
-//   "BattleStackRoundWithTail",
-// ];
+const SPELL_EFFECT_TYPES = ["AddBacteria", "Teleport", "Summon"];
+
+const SPELL_TELEPORT_DESTINATIONS = ["Tile", "Troop", "RandomNeighbour"];
+
+const BACTERIA_DURATION_TYPES = [
+  "BattleStackRound",
+  "BattleRound",
+  "EntireBattle",
+  "Permanent",
+  "Once",
+  "AdventureRound",
+  "AdventureChapter",
+  "AdventureTeamRound",
+  "AdventureNumberOfBattles",
+  "CurrentBattleStackTurn",
+  "OwnerAttacks",
+  "OwnerWasAttacked",
+  "OwnerWasDamaged",
+  "BattleStackRoundWithTail",
+];
+const SPELL_DURATION_TYPES = [
+  "BattleStackRound",
+  "BattleRound",
+  "EntireBattle",
+  "Permanent",
+  "Once",
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  null,
+  "OwnerAttacks",
+  "OwnerWasAttacked",
+  "OwnerWasDamaged",
+  "BattleStackRoundWithTail",
+];
+const GENERIC_BACTERIA_CUSTOM_EFFECT = [
+  "None",
+  "Damage",
+  "KillAmount",
+  "Refresh",
+  "Weary",
+  "InvulnerableRestriction",
+  "TargetAdjacent",
+  null,
+  "ChainFromTarget",
+  "Push",
+  "Aura",
+  "GenerateEssence",
+];
 
 const factions = factionsSrc.map((factionSrc) => ({
   id: factionSrc.id,
@@ -129,7 +166,7 @@ const getBacteria = ({ bacteriaType, duration }) => {
     bacteriaType: bacteria.id,
     type: bacteria.type,
     restriction: bacteria.restriction,
-    customEffect: bacteria.customEffect,
+    customEffect: GENERIC_BACTERIA_CUSTOM_EFFECT[bacteria.customEffect],
     customEffectValue: bacteria.customEffectValue,
     auraSettings: bacteria.auraSettings,
     modifierData: [],
@@ -139,19 +176,28 @@ const getBacteria = ({ bacteriaType, duration }) => {
         amount: resource.amount,
         allTimeAmount: resource.allTimeAmount,
       })) || [],
-    duration,
+    duration: duration,
   };
 
   if (bacteria.auraSettings?.bacteriaToAdd?.bacteriaType) {
-    const bacteriaToAdd = getBacteria(bacteria.auraSettings.bacteriaToAdd);
+    const bacteriaToAdd = getBacteria({
+      bacteriaType: bacteria.auraSettings.bacteriaToAdd.bacteriaType,
+      duration: {
+        type: BACTERIA_DURATION_TYPES[
+          bacteria.auraSettings.bacteriaToAdd.duration.type
+        ],
+        duration: bacteria.auraSettings.bacteriaToAdd.duration.duration,
+      },
+    });
     if (bacteriaToAdd) {
       result.auraSettings.bacteriaToAdd = bacteriaToAdd;
-      result.modifierData = bacteriaToAdd.modifierData?.map((modifier) => ({
-        type: modifier.type,
-        modifier: modifier.modifier,
-        amountToAdd: modifier.amountToAdd,
-        applicationType: modifier.applicationType,
-      }));
+      result.modifierData =
+        bacteriaToAdd.modifierData?.map((modifier) => ({
+          type: modifier.type,
+          modifier: modifier.modifier,
+          amountToAdd: modifier.amountToAdd,
+          applicationType: modifier.applicationType,
+        })) || [];
     } else {
       result.auraSettings.bacteriaToAdd = null;
     }
@@ -159,17 +205,26 @@ const getBacteria = ({ bacteriaType, duration }) => {
     if (result.auraSettings) {
       result.auraSettings.bacteriaToAdd = null;
     }
-    result.modifierData = bacteria.modifierData?.map((modifier) => ({
-      type: modifier.type,
-      modifier: modifier.modifier,
-      amountToAdd: modifier.amountToAdd,
-      applicationType: modifier.applicationType,
-    }));
+    result.modifierData =
+      bacteria.modifierData?.map((modifier) => ({
+        type: modifier.type,
+        modifier: modifier.modifier,
+        amountToAdd: modifier.amountToAdd,
+        applicationType: modifier.applicationType,
+      })) || [];
   }
 
   if (bacteria.settings?.bacterias) {
     result.settings = {
-      bacterias: bacteria.settings.bacterias.map(getBacteria),
+      bacterias: bacteria.settings.bacterias.map((bacteria) =>
+        getBacteria({
+          bacteriaType: bacteria.bacteriaType,
+          duration: {
+            type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+            duration: bacteria.duration.duration,
+          },
+        })
+      ),
     };
   }
   return result;
@@ -252,7 +307,15 @@ const wielders = factionsSrc
             languageKey: getUnit(unit).languageKey,
             size: unit.size,
           })),
-          specializations: commander.specializations.map(getBacteria),
+          specializations: commander.specializations.map((bacteria) =>
+            getBacteria({
+              bacteriaType: bacteria.bacteriaType,
+              duration: {
+                type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+                duration: bacteria.duration.duration,
+              },
+            })
+          ),
         };
       })
   )
@@ -272,7 +335,15 @@ const getTroopAbility = (id) => {
   return {
     type: ability.type,
     icon: ability.icon,
-    bacterias: ability.bacterias.map(getBacteria),
+    bacterias: ability.bacterias.map((bacteria) =>
+      getBacteria({
+        bacteriaType: bacteria.bacteriaType,
+        duration: {
+          type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+          duration: bacteria.duration.duration,
+        },
+      })
+    ),
   };
 };
 
@@ -288,7 +359,15 @@ const getUnitType = (type) => ({
   obsoleteGoldCost: type.obsoleteGoldCost,
   stats: type.stats,
   troopAbility: getTroopAbility(type.troopAbility),
-  bacterias: type.bacterias.map(getBacteria),
+  bacterias: type.bacterias.map((bacteria) =>
+    getBacteria({
+      bacteriaType: bacteria.bacteriaType,
+      duration: {
+        type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+        duration: bacteria.duration.duration,
+      },
+    })
+  ),
 });
 const units = factionsSrc
   .map((factionSrc) =>
@@ -310,10 +389,13 @@ const skills = skillsSrc.map((skillSrc) => ({
   icon: skillSrc.icon,
   levels: skillSrc.levels.map((level) => {
     const levelBacteria = level.bacterias[0];
-    return {
-      ...getBacteria({ bacteriaType: levelBacteria.type }),
-      duration: levelBacteria.duration,
-    };
+    return getBacteria({
+      bacteriaType: levelBacteria.type,
+      duration: {
+        type: BACTERIA_DURATION_TYPES[levelBacteria.duration.type],
+        duration: levelBacteria.duration.duration,
+      },
+    });
   }),
 }));
 
@@ -331,7 +413,15 @@ const artifacts = artifactsSrc.map((artifact) => ({
   id: artifact.id,
   type: artifact.type,
   icon: artifact.icon,
-  bacterias: artifact.bacterias.map(getBacteria),
+  bacterias: artifact.bacterias.map((bacteria) =>
+    getBacteria({
+      bacteriaType: bacteria.bacteriaType,
+      duration: {
+        type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+        duration: bacteria.duration.duration,
+      },
+    })
+  ),
 }));
 
 await writeJSONFile(artifacts, "../../lib/collections/artifacts");
@@ -491,10 +581,21 @@ const spells = spellsSrc.map((spell) => ({
   })),
   tiers: spell.tiers.map((tier) => ({
     tier: tier.tier,
+    effectType: SPELL_EFFECT_TYPES[tier.effectType],
+    teleportDestination: SPELL_TELEPORT_DESTINATIONS[tier.teleportDestination],
+    maxTeleportRange: tier.maxTeleportRange,
     circleRadius: tier.circleRadius,
     target: SPELL_TARGET_TYPES[tier.target],
     requiredCommanderSkills: tier.requiredCommanderSkills.map(getSimpleSkill),
-    bacterias: tier.bacterias.map(getBacteria).filter((bacteria) => bacteria),
+    bacterias: tier.bacterias.map((bacteria) =>
+      getBacteria({
+        bacteriaType: bacteria.bacteriaType,
+        duration: {
+          type: SPELL_DURATION_TYPES[bacteria.duration.type],
+          duration: bacteria.duration.value,
+        },
+      })
+    ),
   })),
 }));
 await writeJSONFile(spells, "../../lib/collections/spells");

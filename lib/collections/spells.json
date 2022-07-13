@@ -41,6 +41,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -48,7 +51,7 @@
           {
             "bacteriaType": 18,
             "type": "SpellAdvance1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -73,14 +76,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -93,7 +99,7 @@
           {
             "bacteriaType": 18,
             "type": "SpellAdvance1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -118,14 +124,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -138,7 +147,7 @@
           {
             "bacteriaType": 18,
             "type": "SpellAdvance1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -163,8 +172,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
@@ -213,6 +222,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -220,7 +232,7 @@
           {
             "bacteriaType": 35,
             "type": "SpellDefend1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -245,14 +257,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 1
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -265,7 +280,7 @@
           {
             "bacteriaType": 35,
             "type": "SpellDefend1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -290,14 +305,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 1
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -310,7 +328,7 @@
           {
             "bacteriaType": 35,
             "type": "SpellDefend1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -335,8 +353,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 1
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
             }
           }
         ]
@@ -389,6 +407,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [],
@@ -396,7 +417,7 @@
           {
             "bacteriaType": 48,
             "type": "SpellInvigorate1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -421,14 +442,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
@@ -445,7 +469,7 @@
           {
             "bacteriaType": 117,
             "type": "SpellInvigorate2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -470,14 +494,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
@@ -494,7 +521,7 @@
           {
             "bacteriaType": 118,
             "type": "SpellInvigorate3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -519,8 +546,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -569,6 +596,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -576,7 +606,7 @@
           {
             "bacteriaType": 127,
             "type": "SpellOffense1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -601,14 +631,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 1
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -621,7 +654,7 @@
           {
             "bacteriaType": 127,
             "type": "SpellOffense1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -646,14 +679,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 1
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -666,7 +702,7 @@
           {
             "bacteriaType": 127,
             "type": "SpellOffense1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -691,8 +727,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 1
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
             }
           }
         ]
@@ -745,6 +781,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
@@ -752,7 +791,7 @@
           {
             "bacteriaType": 247,
             "type": "Justice1",
-            "customEffect": 2,
+            "customEffect": "KillAmount",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -764,14 +803,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 1
+              "type": "Once",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -788,7 +830,7 @@
           {
             "bacteriaType": 248,
             "type": "Justice2",
-            "customEffect": 2,
+            "customEffect": "KillAmount",
             "customEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
@@ -800,14 +842,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 1
+              "type": "Once",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -824,7 +869,7 @@
           {
             "bacteriaType": 249,
             "type": "Justice3",
-            "customEffect": 2,
+            "customEffect": "KillAmount",
             "customEffectValue": 3,
             "auraSettings": {
               "recipients": "Friends",
@@ -836,8 +881,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 1
+              "type": "Once",
+              "duration": 1
             }
           }
         ]
@@ -890,6 +935,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [],
@@ -897,7 +945,7 @@
           {
             "bacteriaType": 238,
             "type": "SpellPhoenix1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 50,
             "auraSettings": {
               "recipients": "Friends",
@@ -909,14 +957,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
@@ -933,7 +984,7 @@
           {
             "bacteriaType": 239,
             "type": "SpellPhoenix2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 90,
             "auraSettings": {
               "recipients": "Friends",
@@ -945,14 +996,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
@@ -969,7 +1023,7 @@
           {
             "bacteriaType": 240,
             "type": "SpellPhoenix3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 130,
             "auraSettings": {
               "recipients": "Friends",
@@ -981,8 +1035,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -1031,6 +1085,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
@@ -1038,7 +1095,7 @@
           {
             "bacteriaType": 241,
             "type": "SpellArcaneBolt1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 15,
             "auraSettings": {
               "recipients": "Friends",
@@ -1050,14 +1107,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -1070,7 +1130,7 @@
           {
             "bacteriaType": 242,
             "type": "SpellArcaneBolt2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 25,
             "auraSettings": {
               "recipients": "Friends",
@@ -1082,14 +1142,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -1102,7 +1165,7 @@
           {
             "bacteriaType": 243,
             "type": "SpellArcaneBolt3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 35,
             "auraSettings": {
               "recipients": "Friends",
@@ -1114,8 +1177,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -1164,6 +1227,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 2,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [],
@@ -1171,7 +1237,7 @@
           {
             "bacteriaType": 134,
             "type": "SpellArcaneExplosion1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 30,
             "auraSettings": {
               "recipients": "Friends",
@@ -1183,14 +1249,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 2,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
@@ -1203,7 +1272,7 @@
           {
             "bacteriaType": 146,
             "type": "SpellArcaneExplosion2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 50,
             "auraSettings": {
               "recipients": "Friends",
@@ -1215,14 +1284,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 2,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
@@ -1235,7 +1307,7 @@
           {
             "bacteriaType": 147,
             "type": "SpellArcaneExplosion3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 70,
             "auraSettings": {
               "recipients": "Friends",
@@ -1247,8 +1319,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -1297,6 +1369,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
@@ -1304,7 +1379,7 @@
           {
             "bacteriaType": 244,
             "type": "SpellIceBolt1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 30,
             "auraSettings": {
               "recipients": "Friends",
@@ -1316,14 +1391,14 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           },
           {
             "bacteriaType": 356,
             "type": "SpellIceBoltStatsNerf1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "Friends",
@@ -1348,14 +1423,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -1368,7 +1446,7 @@
           {
             "bacteriaType": 245,
             "type": "SpellIceBolt2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 50,
             "auraSettings": {
               "recipients": "Friends",
@@ -1380,14 +1458,14 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           },
           {
             "bacteriaType": 356,
             "type": "SpellIceBoltStatsNerf1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "Friends",
@@ -1412,14 +1490,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -1432,7 +1513,7 @@
           {
             "bacteriaType": 246,
             "type": "SpellIceBolt3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 75,
             "auraSettings": {
               "recipients": "Friends",
@@ -1444,14 +1525,14 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           },
           {
             "bacteriaType": 356,
             "type": "SpellIceBoltStatsNerf1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "Friends",
@@ -1476,8 +1557,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -1526,6 +1607,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [],
@@ -1533,7 +1617,7 @@
           {
             "bacteriaType": 250,
             "type": "SpellFireBall1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 30,
             "auraSettings": {
               "recipients": "Friends",
@@ -1545,14 +1629,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
@@ -1565,7 +1652,7 @@
           {
             "bacteriaType": 251,
             "type": "SpellFireBall2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 60,
             "auraSettings": {
               "recipients": "Friends",
@@ -1577,14 +1664,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
@@ -1597,7 +1687,7 @@
           {
             "bacteriaType": 252,
             "type": "SpellFireBall3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 90,
             "auraSettings": {
               "recipients": "Friends",
@@ -1609,8 +1699,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -1659,13 +1749,21 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "Teleport",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 2,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       },
       {
         "tier": 2,
+        "effectType": "Teleport",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 4,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -1674,10 +1772,15 @@
             "level": 2
           }
         ],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       },
       {
         "tier": 3,
+        "effectType": "Teleport",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 6,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -1686,7 +1789,9 @@
             "level": 3
           }
         ],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       }
     ]
   },
@@ -1732,6 +1837,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
@@ -1739,7 +1847,7 @@
           {
             "bacteriaType": 258,
             "type": "SpellArcanePush1",
-            "customEffect": 9,
+            "customEffect": "Push",
             "customEffectValue": 3,
             "auraSettings": {
               "recipients": "Friends",
@@ -1751,14 +1859,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -1771,7 +1882,7 @@
           {
             "bacteriaType": 259,
             "type": "SpellArcanePush2",
-            "customEffect": 9,
+            "customEffect": "Push",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "Friends",
@@ -1783,14 +1894,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -1803,7 +1917,7 @@
           {
             "bacteriaType": 260,
             "type": "SpellArcanePush3",
-            "customEffect": 9,
+            "customEffect": "Push",
             "customEffectValue": 7,
             "auraSettings": {
               "recipients": "Friends",
@@ -1815,8 +1929,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -1865,13 +1979,21 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       },
       {
         "tier": 2,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
@@ -1880,10 +2002,15 @@
             "level": 2
           }
         ],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       },
       {
         "tier": 3,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
@@ -1892,7 +2019,9 @@
             "level": 3
           }
         ],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       }
     ]
   },
@@ -1938,6 +2067,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
@@ -1945,7 +2077,7 @@
           {
             "bacteriaType": 264,
             "type": "SpellBitingInsects1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "Friends",
@@ -1964,14 +2096,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -1984,7 +2119,7 @@
           {
             "bacteriaType": 265,
             "type": "SpellBitingInsects2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 10,
             "auraSettings": {
               "recipients": "Friends",
@@ -2003,14 +2138,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -2023,7 +2161,7 @@
           {
             "bacteriaType": 266,
             "type": "SpellBitingInsects3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 15,
             "auraSettings": {
               "recipients": "Friends",
@@ -2042,8 +2180,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
@@ -2096,6 +2234,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
@@ -2103,7 +2244,7 @@
           {
             "bacteriaType": 267,
             "type": "SpellBlindHatred1",
-            "customEffect": 6,
+            "customEffect": "TargetAdjacent",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -2115,14 +2256,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -2139,7 +2283,7 @@
           {
             "bacteriaType": 267,
             "type": "SpellBlindHatred1",
-            "customEffect": 6,
+            "customEffect": "TargetAdjacent",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -2151,14 +2295,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -2175,7 +2322,7 @@
           {
             "bacteriaType": 267,
             "type": "SpellBlindHatred1",
-            "customEffect": 6,
+            "customEffect": "TargetAdjacent",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -2187,8 +2334,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -2237,6 +2384,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
@@ -2244,7 +2394,7 @@
           {
             "bacteriaType": 270,
             "type": "SpellBoilingBlood1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 10,
             "auraSettings": {
               "recipients": "Friends",
@@ -2256,14 +2406,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -2276,7 +2429,7 @@
           {
             "bacteriaType": 552,
             "type": "SpellBoilingBlood2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 15,
             "auraSettings": {
               "recipients": "Friends",
@@ -2288,14 +2441,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -2308,7 +2464,7 @@
           {
             "bacteriaType": 1105,
             "type": "SpellBoilingBlood3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 20,
             "auraSettings": {
               "recipients": "Friends",
@@ -2320,8 +2476,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
@@ -2370,6 +2526,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
@@ -2377,7 +2536,7 @@
           {
             "bacteriaType": 273,
             "type": "SpellChainLightning1",
-            "customEffect": 8,
+            "customEffect": "ChainFromTarget",
             "customEffectValue": 35,
             "auraSettings": {
               "recipients": "Friends",
@@ -2389,14 +2548,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -2409,7 +2571,7 @@
           {
             "bacteriaType": 274,
             "type": "SpellChainLightning2",
-            "customEffect": 8,
+            "customEffect": "ChainFromTarget",
             "customEffectValue": 70,
             "auraSettings": {
               "recipients": "Friends",
@@ -2421,14 +2583,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -2441,7 +2606,7 @@
           {
             "bacteriaType": 275,
             "type": "SpellChainLightning3",
-            "customEffect": 8,
+            "customEffect": "ChainFromTarget",
             "customEffectValue": 100,
             "auraSettings": {
               "recipients": "Friends",
@@ -2453,8 +2618,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -2503,13 +2668,21 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "Teleport",
+        "teleportDestination": "RandomNeighbour",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       },
       {
         "tier": 2,
+        "effectType": "Teleport",
+        "teleportDestination": "RandomNeighbour",
+        "maxTeleportRange": 2,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -2518,10 +2691,15 @@
             "level": 2
           }
         ],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       },
       {
         "tier": 3,
+        "effectType": "Teleport",
+        "teleportDestination": "RandomNeighbour",
+        "maxTeleportRange": 3,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -2530,7 +2708,9 @@
             "level": 3
           }
         ],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       }
     ]
   },
@@ -2576,6 +2756,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [],
@@ -2583,7 +2766,7 @@
           {
             "bacteriaType": 279,
             "type": "SpellTempest1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2602,14 +2785,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [
@@ -2622,7 +2808,7 @@
           {
             "bacteriaType": 280,
             "type": "SpellTempest2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2641,14 +2827,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [
@@ -2661,7 +2850,7 @@
           {
             "bacteriaType": 281,
             "type": "SpellTempest3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2680,8 +2869,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -2734,6 +2923,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -2741,7 +2933,7 @@
           {
             "bacteriaType": 282,
             "type": "SpellAegisDamage1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2760,14 +2952,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 1
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -2784,7 +2979,7 @@
           {
             "bacteriaType": 282,
             "type": "SpellAegisDamage1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2803,14 +2998,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 2
+              "type": "BattleStackRoundWithTail",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -2827,7 +3025,7 @@
           {
             "bacteriaType": 282,
             "type": "SpellAegisDamage1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2846,8 +3044,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 16,
-              "value": 3
+              "type": "BattleStackRoundWithTail",
+              "duration": 3
             }
           }
         ]
@@ -2900,6 +3098,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
@@ -2907,7 +3108,7 @@
           {
             "bacteriaType": 285,
             "type": "SpellEntangle1Spell",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -2926,14 +3127,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -2950,7 +3154,7 @@
           {
             "bacteriaType": 285,
             "type": "SpellEntangle1Spell",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -2969,14 +3173,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 2
+              "type": "BattleStackRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -2993,7 +3200,7 @@
           {
             "bacteriaType": 285,
             "type": "SpellEntangle1Spell",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -3012,8 +3219,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 3
+              "type": "BattleStackRound",
+              "duration": 3
             }
           }
         ]
@@ -3066,6 +3273,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [],
@@ -3073,7 +3283,7 @@
           {
             "bacteriaType": 288,
             "type": "SpellBurstOfStrength1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3092,14 +3302,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
@@ -3116,7 +3329,7 @@
           {
             "bacteriaType": 289,
             "type": "SpellBurstOfStrength2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3135,14 +3348,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
@@ -3159,7 +3375,7 @@
           {
             "bacteriaType": 290,
             "type": "SpellBurstOfStrength3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3178,8 +3394,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -3232,6 +3448,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [],
@@ -3239,7 +3458,7 @@
           {
             "bacteriaType": 291,
             "type": "SpellLethargy1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3264,14 +3483,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [
@@ -3288,7 +3510,7 @@
           {
             "bacteriaType": 291,
             "type": "SpellLethargy1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3313,14 +3535,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [
@@ -3337,7 +3562,7 @@
           {
             "bacteriaType": 291,
             "type": "SpellLethargy1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3362,8 +3587,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 3
+              "type": "BattleRound",
+              "duration": 3
             }
           }
         ]
@@ -3416,6 +3641,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [],
@@ -3423,6 +3651,9 @@
       },
       {
         "tier": 2,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
@@ -3439,6 +3670,9 @@
       },
       {
         "tier": 3,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
@@ -3497,6 +3731,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [],
@@ -3504,7 +3741,7 @@
           {
             "bacteriaType": 297,
             "type": "SpellPoisonCloud1",
-            "customEffect": 10,
+            "customEffect": "Aura",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "All",
@@ -3512,7 +3749,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 357,
                 "type": "SpellPoisonCloudDamage1",
-                "customEffect": 1,
+                "customEffect": "Damage",
                 "customEffectValue": 20,
                 "auraSettings": {
                   "recipients": "All",
@@ -3524,7 +3761,7 @@
                 "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 2,
+                  "type": "EntireBattle",
                   "duration": 1
                 }
               },
@@ -3534,14 +3771,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
@@ -3554,7 +3794,7 @@
           {
             "bacteriaType": 298,
             "type": "SpellPoisonCloud2",
-            "customEffect": 10,
+            "customEffect": "Aura",
             "customEffectValue": 7,
             "auraSettings": {
               "recipients": "All",
@@ -3562,7 +3802,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 358,
                 "type": "SpellPoisonCloudDamage2",
-                "customEffect": 1,
+                "customEffect": "Damage",
                 "customEffectValue": 40,
                 "auraSettings": {
                   "recipients": "All",
@@ -3574,7 +3814,7 @@
                 "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 2,
+                  "type": "EntireBattle",
                   "duration": 1
                 }
               },
@@ -3584,14 +3824,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "Summon",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
@@ -3604,7 +3847,7 @@
           {
             "bacteriaType": 299,
             "type": "SpellPoisonCloud3",
-            "customEffect": 10,
+            "customEffect": "Aura",
             "customEffectValue": 10,
             "auraSettings": {
               "recipients": "All",
@@ -3612,7 +3855,7 @@
               "bacteriaToAdd": {
                 "bacteriaType": 359,
                 "type": "SpellPoisonCloudDamage3",
-                "customEffect": 1,
+                "customEffect": "Damage",
                 "customEffectValue": 60,
                 "auraSettings": {
                   "recipients": "All",
@@ -3624,7 +3867,7 @@
                 "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": 2,
+                  "type": "EntireBattle",
                   "duration": 1
                 }
               },
@@ -3634,8 +3877,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 3
+              "type": "BattleRound",
+              "duration": 3
             }
           }
         ]
@@ -3688,6 +3931,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -3695,7 +3941,7 @@
           {
             "bacteriaType": 300,
             "type": "SpellOnslaught1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3714,14 +3960,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -3738,7 +3987,7 @@
           {
             "bacteriaType": 300,
             "type": "SpellOnslaught1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3757,14 +4006,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -3781,7 +4033,7 @@
           {
             "bacteriaType": 300,
             "type": "SpellOnslaught1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -3800,8 +4052,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
@@ -3854,6 +4106,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [],
@@ -3861,7 +4116,7 @@
           {
             "bacteriaType": 303,
             "type": "Apocalypse1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 25,
             "auraSettings": {
               "recipients": "Friends",
@@ -3873,14 +4128,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [
@@ -3897,7 +4155,7 @@
           {
             "bacteriaType": 304,
             "type": "Apocalypse2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 50,
             "auraSettings": {
               "recipients": "Friends",
@@ -3909,14 +4167,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [
@@ -3933,7 +4194,7 @@
           {
             "bacteriaType": 305,
             "type": "Apocalypse3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 75,
             "auraSettings": {
               "recipients": "Friends",
@@ -3945,8 +4206,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -3999,6 +4260,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllRangedFriendlies",
         "requiredCommanderSkills": [],
@@ -4006,7 +4270,7 @@
           {
             "bacteriaType": 51,
             "type": "SpellRapidFire1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4025,14 +4289,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllRangedFriendlies",
         "requiredCommanderSkills": [
@@ -4049,7 +4316,7 @@
           {
             "bacteriaType": 121,
             "type": "SpellRapidFire2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4068,14 +4335,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 2
+              "type": "BattleRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllRangedFriendlies",
         "requiredCommanderSkills": [
@@ -4092,7 +4362,7 @@
           {
             "bacteriaType": 122,
             "type": "SpellRapidFire3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4111,8 +4381,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 3
+              "type": "BattleRound",
+              "duration": 3
             }
           }
         ]
@@ -4165,6 +4435,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -4172,7 +4445,7 @@
           {
             "bacteriaType": 53,
             "type": "SpellRejuvenation1",
-            "customEffect": 3,
+            "customEffect": "Refresh",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -4184,14 +4457,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -4208,7 +4484,7 @@
           {
             "bacteriaType": 123,
             "type": "SpellRejuvenation2",
-            "customEffect": 3,
+            "customEffect": "Refresh",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -4220,14 +4496,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -4244,7 +4523,7 @@
           {
             "bacteriaType": 124,
             "type": "SpellRejuvenation3",
-            "customEffect": 3,
+            "customEffect": "Refresh",
             "customEffectValue": 1,
             "auraSettings": {
               "recipients": "Friends",
@@ -4256,8 +4535,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -4310,6 +4589,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
@@ -4317,7 +4599,7 @@
           {
             "bacteriaType": 306,
             "type": "SpellRupture1",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 50,
             "auraSettings": {
               "recipients": "Friends",
@@ -4329,14 +4611,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -4353,7 +4638,7 @@
           {
             "bacteriaType": 307,
             "type": "SpellRupture2",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 100,
             "auraSettings": {
               "recipients": "Friends",
@@ -4365,14 +4650,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -4389,7 +4677,7 @@
           {
             "bacteriaType": 308,
             "type": "SpellRupture3",
-            "customEffect": 1,
+            "customEffect": "Damage",
             "customEffectValue": 150,
             "auraSettings": {
               "recipients": "Friends",
@@ -4401,8 +4689,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 4,
-              "value": 0
+              "type": "Once",
+              "duration": 0
             }
           }
         ]
@@ -4451,6 +4739,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -4458,7 +4749,7 @@
           {
             "bacteriaType": 309,
             "type": "SpellSmokeBomb1",
-            "customEffect": 5,
+            "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4470,14 +4761,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -4490,7 +4784,7 @@
           {
             "bacteriaType": 310,
             "type": "SpellSmokeBomb2",
-            "customEffect": 5,
+            "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4502,14 +4796,17 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -4522,7 +4819,7 @@
           {
             "bacteriaType": 311,
             "type": "SpellSmokeBomb3",
-            "customEffect": 5,
+            "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4534,8 +4831,8 @@
             "modifierData": [],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -4588,13 +4885,21 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "Teleport",
+        "teleportDestination": "Troop",
+        "maxTeleportRange": 3,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       },
       {
         "tier": 2,
+        "effectType": "Teleport",
+        "teleportDestination": "Troop",
+        "maxTeleportRange": 4,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -4607,10 +4912,15 @@
             "level": 2
           }
         ],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       },
       {
         "tier": 3,
+        "effectType": "Teleport",
+        "teleportDestination": "Troop",
+        "maxTeleportRange": 5,
         "circleRadius": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
@@ -4623,7 +4933,9 @@
             "level": 3
           }
         ],
-        "bacterias": []
+        "bacterias": [
+          null
+        ]
       }
     ]
   },
@@ -4669,6 +4981,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [],
@@ -4676,7 +4991,7 @@
           {
             "bacteriaType": 254,
             "type": "SpellSabotage1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4695,14 +5010,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [
@@ -4715,7 +5033,7 @@
           {
             "bacteriaType": 1106,
             "type": "SpellSabotage2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4734,14 +5052,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [
@@ -4754,7 +5075,7 @@
           {
             "bacteriaType": 1107,
             "type": "SpellSabotage3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4773,8 +5094,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -4823,6 +5144,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [],
@@ -4830,7 +5154,7 @@
           {
             "bacteriaType": 440,
             "type": "SpellStandFast1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4867,14 +5191,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
@@ -4887,7 +5214,7 @@
           {
             "bacteriaType": 441,
             "type": "SpellStandFast2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4924,14 +5251,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
@@ -4944,7 +5274,7 @@
           {
             "bacteriaType": 442,
             "type": "SpellStandFast3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4981,8 +5311,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -5031,6 +5361,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
@@ -5038,7 +5371,7 @@
           {
             "bacteriaType": 480,
             "type": "SpellPacify1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5057,14 +5390,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -5077,7 +5413,7 @@
           {
             "bacteriaType": 481,
             "type": "SpellPacify2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5096,14 +5432,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -5116,7 +5455,7 @@
           {
             "bacteriaType": 482,
             "type": "SpellPacify3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5135,8 +5474,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -5189,6 +5528,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -5196,7 +5538,7 @@
           {
             "bacteriaType": 253,
             "type": "SpellEtherealScalesSkin1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "Friends",
@@ -5215,14 +5557,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -5239,7 +5584,7 @@
           {
             "bacteriaType": 253,
             "type": "SpellEtherealScalesSkin1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "Friends",
@@ -5258,14 +5603,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -5282,7 +5630,7 @@
           {
             "bacteriaType": 253,
             "type": "SpellEtherealScalesSkin1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 5,
             "auraSettings": {
               "recipients": "Friends",
@@ -5301,8 +5649,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
@@ -5355,6 +5703,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [],
@@ -5362,7 +5713,7 @@
           {
             "bacteriaType": 553,
             "type": "SpellFury1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5387,14 +5738,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
@@ -5411,7 +5765,7 @@
           {
             "bacteriaType": 554,
             "type": "SpellFury2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5436,14 +5790,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
@@ -5460,7 +5817,7 @@
           {
             "bacteriaType": 555,
             "type": "SpellFury3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5485,8 +5842,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 1,
-              "value": 1
+              "type": "BattleRound",
+              "duration": 1
             }
           }
         ]
@@ -5539,6 +5896,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
@@ -5546,7 +5906,7 @@
           {
             "bacteriaType": 556,
             "type": "SpellStrengthenEssence1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5589,14 +5949,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 2
+              "type": "BattleStackRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -5613,7 +5976,7 @@
           {
             "bacteriaType": 556,
             "type": "SpellStrengthenEssence1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5656,14 +6019,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 2
+              "type": "BattleStackRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
@@ -5680,7 +6046,7 @@
           {
             "bacteriaType": 556,
             "type": "SpellStrengthenEssence1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5723,8 +6089,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 2
+              "type": "BattleStackRound",
+              "duration": 2
             }
           }
         ]
@@ -5777,6 +6143,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
@@ -5784,7 +6153,7 @@
           {
             "bacteriaType": 559,
             "type": "SpellDestroyEssence1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5827,14 +6196,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 2
+              "type": "BattleStackRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -5851,7 +6223,7 @@
           {
             "bacteriaType": 560,
             "type": "SpellDestroyEssence2",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5894,14 +6266,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 2
+              "type": "BattleStackRound",
+              "duration": 2
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
@@ -5918,7 +6293,7 @@
           {
             "bacteriaType": 561,
             "type": "SpellDestroyEssence3",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5961,8 +6336,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 2
+              "type": "BattleStackRound",
+              "duration": 2
             }
           }
         ]
@@ -6015,6 +6390,9 @@
     "tiers": [
       {
         "tier": 1,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "RangedEnemy",
         "requiredCommanderSkills": [],
@@ -6022,7 +6400,7 @@
           {
             "bacteriaType": 562,
             "type": "SpellCloudedVision1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -6047,14 +6425,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 2,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "RangedEnemy",
         "requiredCommanderSkills": [
@@ -6071,7 +6452,7 @@
           {
             "bacteriaType": 562,
             "type": "SpellCloudedVision1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -6096,14 +6477,17 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]
       },
       {
         "tier": 3,
+        "effectType": "AddBacteria",
+        "teleportDestination": "Tile",
+        "maxTeleportRange": 1,
         "circleRadius": 1,
         "target": "RangedEnemy",
         "requiredCommanderSkills": [
@@ -6120,7 +6504,7 @@
           {
             "bacteriaType": 562,
             "type": "SpellCloudedVision1",
-            "customEffect": 0,
+            "customEffect": "None",
             "customEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -6145,8 +6529,8 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": 0,
-              "value": 1
+              "type": "BattleStackRound",
+              "duration": 1
             }
           }
         ]

@@ -49,7 +49,7 @@
       {
         "bacteriaType": 3,
         "type": "SkillArchery1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -68,14 +68,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 4,
         "type": "SkillArchery2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -94,14 +94,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 5,
         "type": "SkillArchery3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -126,7 +126,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -182,7 +182,7 @@
       {
         "bacteriaType": 6,
         "type": "SkillCunning1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -213,14 +213,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 1,
+          "type": "BattleRound",
           "duration": 2
         }
       },
       {
         "bacteriaType": 7,
         "type": "SkillCunning2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -251,14 +251,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 1,
+          "type": "BattleRound",
           "duration": 3
         }
       },
       {
         "bacteriaType": 8,
         "type": "SkillCunning3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -289,7 +289,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 1,
+          "type": "BattleRound",
           "duration": 3
         }
       }
@@ -345,7 +345,7 @@
       {
         "bacteriaType": 9,
         "type": "SkillGuard1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -364,14 +364,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 10,
         "type": "SkillGuard2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -390,14 +390,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 11,
         "type": "SkillGuard3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -416,7 +416,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -472,7 +472,7 @@
       {
         "bacteriaType": 12,
         "type": "SkillHandToHand1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -491,14 +491,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 13,
         "type": "SkillHandToHand2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -517,14 +517,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 14,
         "type": "SkillHandToHand3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -549,7 +549,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -605,7 +605,7 @@
       {
         "bacteriaType": 15,
         "type": "SkillPrepared1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -624,14 +624,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 16,
         "type": "SkillPrepared2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -650,14 +650,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 17,
         "type": "SkillPrepared3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -676,7 +676,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -732,7 +732,7 @@
       {
         "bacteriaType": 443,
         "type": "SkillArcana1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -751,14 +751,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 444,
         "type": "SkillArcana2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -777,14 +777,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 445,
         "type": "SkillArcana3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -803,7 +803,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -859,7 +859,7 @@
       {
         "bacteriaType": 447,
         "type": "SkillChaos1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -878,14 +878,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 448,
         "type": "SkillChaos2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -904,14 +904,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 449,
         "type": "SkillChaos3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -930,7 +930,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -986,7 +986,7 @@
       {
         "bacteriaType": 450,
         "type": "SkillCreation1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1005,14 +1005,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 451,
         "type": "SkillCreation2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1031,14 +1031,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 452,
         "type": "SkillCreation3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1057,7 +1057,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -1113,7 +1113,7 @@
       {
         "bacteriaType": 453,
         "type": "SkillDestruction1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1132,14 +1132,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 454,
         "type": "SkillDestruction2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1158,14 +1158,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 455,
         "type": "SkillDestruction3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1184,7 +1184,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -1240,7 +1240,7 @@
       {
         "bacteriaType": 456,
         "type": "SkillOrder1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1259,14 +1259,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 457,
         "type": "SkillOrder2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1285,14 +1285,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 458,
         "type": "SkillOrder3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1311,7 +1311,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -1367,7 +1367,7 @@
       {
         "bacteriaType": 347,
         "type": "SkillCommand1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1386,14 +1386,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 348,
         "type": "SkillCommand2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1412,14 +1412,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 349,
         "type": "SkillCommand3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1438,14 +1438,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 350,
         "type": "SkillCommand4",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1464,14 +1464,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 351,
         "type": "SkillCommand5",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1490,14 +1490,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 352,
         "type": "SkillCommand6",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1516,14 +1516,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 353,
         "type": "SkillCommand7",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1542,14 +1542,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 354,
         "type": "SkillCommand8",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1568,14 +1568,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 355,
         "type": "SkillCommand9",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1594,7 +1594,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -1650,6 +1650,7 @@
       {
         "bacteriaType": 377,
         "type": "SkillTaxes1",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Gold",
@@ -1658,13 +1659,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 378,
         "type": "SkillTaxes2",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Gold",
@@ -1673,13 +1675,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       },
       {
         "bacteriaType": 379,
         "type": "SkillTaxes3",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Gold",
@@ -1688,7 +1691,7 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       }
@@ -1744,7 +1747,7 @@
       {
         "bacteriaType": 380,
         "type": "SkillBrutal1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1763,14 +1766,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 381,
         "type": "SkillBrutal2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1789,7 +1792,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       }
@@ -1845,7 +1848,7 @@
       {
         "bacteriaType": 383,
         "type": "SkillRigor1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1864,14 +1867,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 384,
         "type": "SkillRigor2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1890,7 +1893,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       }
@@ -1946,7 +1949,7 @@
       {
         "bacteriaType": 386,
         "type": "SkillMarch1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1965,14 +1968,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 387,
         "type": "SkillMarch2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -1991,14 +1994,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 388,
         "type": "SkillMarch3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2017,7 +2020,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -2073,7 +2076,7 @@
       {
         "bacteriaType": 389,
         "type": "SkillMelee1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2092,14 +2095,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 390,
         "type": "SkillMelee2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2118,14 +2121,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 391,
         "type": "SkillMelee3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2150,7 +2153,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -2206,7 +2209,7 @@
       {
         "bacteriaType": 392,
         "type": "SkillSpeedOfWinds1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2225,14 +2228,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 393,
         "type": "SkillSpeedOfWinds2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2257,7 +2260,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       }
@@ -2313,7 +2316,7 @@
       {
         "bacteriaType": 395,
         "type": "SkillScouting1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2332,14 +2335,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 396,
         "type": "SkillScouting2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2358,14 +2361,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       },
       {
         "bacteriaType": 397,
         "type": "SkillScouting3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2390,7 +2393,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       }
@@ -2446,7 +2449,7 @@
       {
         "bacteriaType": 462,
         "type": "SkillLevy1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2465,14 +2468,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 463,
         "type": "SkillLevy2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2491,7 +2494,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       }
@@ -2547,7 +2550,7 @@
       {
         "bacteriaType": 468,
         "type": "SkillMagicResistance1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2566,14 +2569,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 469,
         "type": "SkillMagicResistance2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2592,14 +2595,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 470,
         "type": "SkillMagicResistance3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2618,7 +2621,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -2674,7 +2677,7 @@
       {
         "bacteriaType": 465,
         "type": "SkillChanneling1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2693,14 +2696,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 466,
         "type": "SkillChanneling2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2719,14 +2722,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 467,
         "type": "SkillChanneling3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2745,7 +2748,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -2801,7 +2804,7 @@
       {
         "bacteriaType": 493,
         "type": "SkillRaider1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2820,14 +2823,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 494,
         "type": "SkillRaider2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2846,14 +2849,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       },
       {
         "bacteriaType": 495,
         "type": "SkillRaider3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2872,7 +2875,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       }
@@ -2928,7 +2931,7 @@
       {
         "bacteriaType": 876,
         "type": "SkillLearning1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2947,14 +2950,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 901,
         "type": "SkillLearning2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2973,14 +2976,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 902,
         "type": "SkillLearning3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -2999,7 +3002,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3055,6 +3058,7 @@
       {
         "bacteriaType": 877,
         "type": "SkillProduceGlimmer1",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Glimmerweave",
@@ -3063,13 +3067,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 887,
         "type": "SkillProduceGlimmer2",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Glimmerweave",
@@ -3078,13 +3083,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 888,
         "type": "SkillProduceGlimmer3",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Glimmerweave",
@@ -3093,7 +3099,7 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3149,6 +3155,7 @@
       {
         "bacteriaType": 878,
         "type": "SkillProduceAmber1",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "AncientAmber",
@@ -3157,13 +3164,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 884,
         "type": "SkillProduceAmber2",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "AncientAmber",
@@ -3172,13 +3180,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 883,
         "type": "SkillProduceAmber3",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "AncientAmber",
@@ -3187,7 +3196,7 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3243,6 +3252,7 @@
       {
         "bacteriaType": 879,
         "type": "SkillProduceCelestial1",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "CelestialOre",
@@ -3251,13 +3261,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 885,
         "type": "SkillProduceCelestial2",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "CelestialOre",
@@ -3266,13 +3277,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 886,
         "type": "SkillProduceCelestial3",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "CelestialOre",
@@ -3281,7 +3293,7 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3337,7 +3349,7 @@
       {
         "bacteriaType": 880,
         "type": "SkillRange1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3356,14 +3368,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 881,
         "type": "SkillRange2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3388,7 +3400,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3444,6 +3456,7 @@
       {
         "bacteriaType": 889,
         "type": "SkillProduceStone1",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Stone",
@@ -3452,13 +3465,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 890,
         "type": "SkillProduceStone2",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Stone",
@@ -3467,13 +3481,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 891,
         "type": "SkillProduceStone3",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Stone",
@@ -3482,7 +3497,7 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3538,6 +3553,7 @@
       {
         "bacteriaType": 892,
         "type": "SkillProduceWood1",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Wood",
@@ -3546,13 +3562,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 893,
         "type": "SkillProduceWood2",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Wood",
@@ -3561,13 +3578,14 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 894,
         "type": "SkillProduceWood3",
+        "modifierData": [],
         "resourcesIncome": [
           {
             "type": "Wood",
@@ -3576,7 +3594,7 @@
           }
         ],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3632,7 +3650,7 @@
       {
         "bacteriaType": 895,
         "type": "SkillFast1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3651,14 +3669,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 1,
+          "type": "BattleRound",
           "duration": 1
         }
       },
       {
         "bacteriaType": 896,
         "type": "SkillFast2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3683,7 +3701,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 1,
+          "type": "BattleRound",
           "duration": 1
         }
       }
@@ -3739,7 +3757,7 @@
       {
         "bacteriaType": 1111,
         "type": "SkillPositioning1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3758,14 +3776,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 1112,
         "type": "SkillPositioning2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3784,14 +3802,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 1113,
         "type": "SkillPositioning3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3810,7 +3828,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3866,7 +3884,7 @@
       {
         "bacteriaType": 913,
         "type": "SkillDiplomacy1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3885,14 +3903,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 914,
         "type": "SkillDiplomacy2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3911,14 +3929,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 915,
         "type": "SkillDiplomacy3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -3937,7 +3955,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -3993,7 +4011,7 @@
       {
         "bacteriaType": 1108,
         "type": "SkillEssenceBurst1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4036,14 +4054,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 1,
+          "type": "BattleRound",
           "duration": 1
         }
       },
       {
         "bacteriaType": 1109,
         "type": "SkillEssenceBurst2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4086,14 +4104,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 1,
+          "type": "BattleRound",
           "duration": 1
         }
       },
       {
         "bacteriaType": 1110,
         "type": "SkillEssenceBurst3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4136,7 +4154,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 1,
+          "type": "BattleRound",
           "duration": 1
         }
       }
@@ -4192,9 +4210,10 @@
       {
         "bacteriaType": 1147,
         "type": "SkillPowerShielded1",
+        "modifierData": [],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 1
         },
         "settings": {
@@ -4202,7 +4221,7 @@
             {
               "bacteriaType": 898,
               "type": "SkillShields1",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -4221,7 +4240,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 10,
+                "type": "OwnerAttacks",
                 "duration": 1
               }
             }
@@ -4231,9 +4250,10 @@
       {
         "bacteriaType": 1148,
         "type": "SkillPowerShielded2",
+        "modifierData": [],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         },
         "settings": {
@@ -4241,7 +4261,7 @@
             {
               "bacteriaType": 899,
               "type": "SkillShields2",
-              "customEffect": 0,
+              "customEffect": "None",
               "customEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
@@ -4260,7 +4280,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": 10,
+                "type": "OwnerAttacks",
                 "duration": 2
               }
             }
@@ -4319,7 +4339,7 @@
       {
         "bacteriaType": 1122,
         "type": "SkillTutor1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4338,14 +4358,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 1123,
         "type": "SkillTutor2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4364,14 +4384,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 1124,
         "type": "SkillTutor3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4390,7 +4410,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }
@@ -4446,7 +4466,7 @@
       {
         "bacteriaType": 1120,
         "type": "SkillAttuned1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4489,14 +4509,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 2
         }
       },
       {
         "bacteriaType": 1121,
         "type": "SkillAttuned2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4539,7 +4559,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 3
         }
       }
@@ -4595,7 +4615,7 @@
       {
         "bacteriaType": 1139,
         "type": "SkillEssenceLeech1",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4614,14 +4634,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 1140,
         "type": "SkillEssenceLeech2",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4640,14 +4660,14 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       },
       {
         "bacteriaType": 1141,
         "type": "SkillEssenceLeech3",
-        "customEffect": 0,
+        "customEffect": "None",
         "customEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
@@ -4666,7 +4686,7 @@
         ],
         "resourcesIncome": [],
         "duration": {
-          "type": 3,
+          "type": "Permanent",
           "duration": 0
         }
       }

@@ -1,8 +1,8 @@
 import spellsCollection from "./collections/spells.json";
 
-import { getTerm } from "./terms";
+import { getTerm, PERCENTAGE_BASED_MODIFIERS } from "./terms";
 import { SpriteDTO } from "./sprites";
-import { getLocaleBacteria, PureBacteria } from "./bacterias";
+import { PureBacteria } from "./bacterias";
 
 export const getSpells = (locale: string) => {
   const spells = spellsCollection.map<SpellSimpleDTO>((spell) => ({
@@ -15,48 +15,72 @@ export const getSpells = (locale: string) => {
 };
 
 const getTargetTerm = (
-  target: string,
-  circleRadius: number,
-  bacteria: PureBacteria,
+  tier: {
+    target: string;
+    circleRadius: number;
+    effectType: string;
+    teleportDestination: string;
+    maxTeleportRange: number;
+  },
+  bacteria: PureBacteria | null,
   locale: string
 ) => {
-  switch (target) {
-    case "TilesInCircle":
-      if (bacteria.auraSettings?.bacteriaToAdd?.customEffectValue) {
-        return getTerm(
-          `Spells/Tooltip/Summon/TilesInCircle/PoisonCloud/StepOnto/Damage`,
-          locale,
-          {
-            circleRadius: circleRadius,
-            damageAmount:
-              bacteria.auraSettings?.bacteriaToAdd?.customEffectValue,
-          }
-        );
-      } else {
-        return getTerm(`Spells/Tooltip/Target/TilesInCircle/Damage`, locale, {
-          circleRadius: circleRadius,
-          damageAmount: bacteria.customEffectValue,
-        });
-      }
-    case "AllTroops":
-      return getTerm(`Spells/Tooltip/Target/${target}/Damage`, locale, {
+  console.log(tier, bacteria);
+  if (tier.effectType === "Teleport") {
+    return getTerm(
+      `Spells/Tooltip/Teleport/Target/${tier.target}/${tier.teleportDestination}`,
+      locale,
+      { maxTeleportRange: tier.maxTeleportRange }
+    );
+  }
+  if (!bacteria) {
+    return tier.target;
+  }
+  if (!bacteria.modifierData.length) {
+    if (tier.effectType === "Teleport") {
+      return getTerm(
+        `Spells/Tooltip/Teleport/Target/${tier.target}/${tier.maxTeleportRange}`,
+        locale
+      );
+    }
+    if (tier.effectType === "Summon") {
+      return getTerm(
+        `Spells/Tooltip/Summon/${tier.target}/PoisonCloud/StepOnto/Damage`,
+        locale,
+        {
+          circleRadius: tier.circleRadius,
+          damageAmount: bacteria.auraSettings?.bacteriaToAdd?.customEffectValue,
+        }
+      );
+    }
+    return getTerm(
+      `Spells/Tooltip/Target/${tier.target}/${bacteria.customEffect}`,
+      locale,
+      {
+        circleRadius: tier.circleRadius,
+        pushDistance: bacteria.customEffectValue,
         damageAmount: bacteria.customEffectValue,
-      });
+      }
+    );
   }
-  const modifier = bacteria.modifierData[0];
-  if (!modifier) {
-    return target;
-  }
-  return getTerm(
-    `Spells/Tooltip/Target/${target}/WithMultipleModifiers`,
-    locale,
-    {
-      modifiers: getTerm(
+
+  const modifierTerms = bacteria.modifierData
+    .map((modifier) =>
+      getTerm(
         `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
         locale,
         modifier.amountToAdd,
-        modifier.modifier
-      ),
+        modifier.applicationType === 1 ||
+          PERCENTAGE_BASED_MODIFIERS.includes(modifier.modifier)
+      )
+    )
+    .join("<br>");
+
+  return getTerm(
+    `Spells/Tooltip/Target/${tier.target}/WithMultipleModifiers`,
+    locale,
+    {
+      modifiers: `<br>${modifierTerms}`,
     }
   );
 };
@@ -79,12 +103,14 @@ export const getSpell = (type: string, locale: string) => {
     tiers: spellSrc.tiers.map((tier) => ({
       tier: tier.tier,
       bacterias: tier.bacterias.map((bacteria) => ({
-        description: getTargetTerm(
-          tier.target,
-          tier.circleRadius,
-          bacteria,
-          locale
-        ),
+        description: getTargetTerm(tier, bacteria, locale),
+        duration: bacteria
+          ? getTerm(
+              `Bacterias/Tooltip/Duration/${bacteria.duration.type}`,
+              locale,
+              bacteria.duration.duration.toString()
+            )
+          : "",
       })),
       requiredCommanderSkills: tier.requiredCommanderSkills.map(
         (requiredSkill) => ({
@@ -119,6 +145,7 @@ export type SpellDTO = {
     tier: number;
     bacterias: {
       description: string;
+      duration: string;
     }[];
     requiredCommanderSkills: {
       level: number;

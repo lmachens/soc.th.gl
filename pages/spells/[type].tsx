@@ -43,7 +43,7 @@ const Unit: NextPage<{ spell: SpellDTO }> = ({ spell }) => {
             <tr>
               <td>
                 {spell.costs
-                  .map((cost) => `${cost.amount} ${cost.type}`)
+                  .map((cost) => `${cost.type} x${cost.amount}`)
                   .join(", ")}
               </td>
             </tr>
@@ -68,7 +68,21 @@ const Unit: NextPage<{ spell: SpellDTO }> = ({ spell }) => {
                           __html: bacteria.description,
                         }}
                       />
-
+                      {bacteria.duration && (
+                        <>
+                          <Text
+                            sx={(theme) => ({
+                              color: theme.colors[theme.primaryColor][5],
+                            })}
+                            component="span"
+                          >
+                            {terms.duration}:
+                          </Text>
+                          <Text component="span" mx="xs">
+                            {bacteria.duration}
+                          </Text>
+                        </>
+                      )}
                       {tier.requiredCommanderSkills.length > 0 && (
                         <div>
                           <Text
@@ -131,6 +145,7 @@ export const getStaticProps = withStaticBase(async (context) => {
       "Tutorial/Codex/Spells/RequiredSkillMultiple",
       locale
     ),
+    duration: getTerm("Bacterias/Tooltip/Duration/Duration", locale),
   };
 
   return {
