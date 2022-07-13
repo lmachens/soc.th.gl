@@ -18,8 +18,10 @@ export const readYAMLFile = async (path) => {
     };
   }
 
-  // Workaround sequence mapping issue in yamljs
   const cleanFile = assetFile
+    // Replace terminate lines for linux support
+    .replaceAll("\r\n", "\n")
+    // Workaround sequence mapping issue in yamljs
     .replaceAll("m_Curve", "x_Curve")
     .replaceAll(/\s+m_\w+.+/g, "")
     .replaceAll(/_statuses: (\d+)/g, (_, statuses) => {

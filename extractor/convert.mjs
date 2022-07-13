@@ -195,8 +195,21 @@ const wielders = factionsSrc
           (skillPoolSrc) => skillPoolSrc.id === commander.skillPool
         );
 
-        const skills = commander.skills.map(getSimpleSkill);
+        const startingSkills = commander.skills.map(getSimpleSkill);
 
+        // Command is not included in the skill pools and has to be added manually
+        const skills = [
+          {
+            type: "Command",
+            levelRange: {
+              min: 1,
+              max: 99,
+            },
+            requiresSkill: false,
+            requirementType: "RequireAny",
+            requiredSkills: [],
+          },
+        ];
         skillPool.pools.forEach((pool) => {
           pool.skills.forEach((skill) => {
             const type = skillsSrc.find(
@@ -233,6 +246,7 @@ const wielders = factionsSrc
             viewRadius: commander.stats.viewRadius,
             command: commander.stats.command,
           },
+          startingSkills: startingSkills,
           skills: skills,
           units: commander.units.map((unit) => ({
             languageKey: getUnit(unit).languageKey,

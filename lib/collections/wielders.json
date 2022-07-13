@@ -17,7 +17,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Chaos",
         "level": 1
@@ -25,6 +25,41 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Chaos",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAll",
+        "requiredSkills": [
+          {
+            "type": "Arcana",
+            "level": 1
+          },
+          {
+            "type": "Creation",
+            "level": 1
+          },
+          {
+            "type": "Order",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Creation",
@@ -598,7 +633,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Guard",
         "level": 1
@@ -606,6 +641,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Melee",
@@ -619,6 +666,16 @@
       },
       {
         "type": "Archery",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Guard",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -1154,7 +1211,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Taxes",
         "level": 1
@@ -1162,6 +1219,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Melee",
@@ -1352,6 +1421,16 @@
             "level": 2
           }
         ]
+      },
+      {
+        "type": "Taxes",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Creation",
@@ -1714,7 +1793,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Channeling",
         "level": 1
@@ -1722,6 +1801,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Chaos",
@@ -1981,6 +2072,21 @@
           {
             "type": "Creation",
             "level": 2
+          }
+        ]
+      },
+      {
+        "type": "Channeling",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "EssenceBurst",
+            "level": 1
           }
         ]
       },
@@ -2299,7 +2405,7 @@
       "viewRadius": 8,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Archery",
         "level": 1
@@ -2307,9 +2413,31 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Archery",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -2898,7 +3026,7 @@
       "viewRadius": 8,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "March",
         "level": 1
@@ -2906,6 +3034,28 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "March",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Archery",
@@ -3493,7 +3643,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Melee",
         "level": 1
@@ -3501,6 +3651,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Chaos",
@@ -3585,6 +3747,21 @@
           },
           {
             "type": "Creation",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Melee",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "HandToHand",
             "level": 1
           }
         ]
@@ -4080,7 +4257,7 @@
       "viewRadius": 8,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Prepared",
         "level": 1
@@ -4088,6 +4265,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -4188,6 +4377,25 @@
           },
           {
             "type": "Positioning",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Prepared",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Positioning",
+            "level": 1
+          },
+          {
+            "type": "Archery",
             "level": 1
           }
         ]
@@ -4670,7 +4878,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Cunning",
         "level": 1
@@ -4678,6 +4886,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Melee",
@@ -4782,6 +5002,25 @@
           },
           {
             "type": "Guard",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Cunning",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Guard",
+            "level": 1
+          },
+          {
+            "type": "Positioning",
             "level": 1
           }
         ]
@@ -5217,7 +5456,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "HandToHand",
         "level": 1
@@ -5225,6 +5464,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -5248,6 +5499,16 @@
       },
       {
         "type": "Guard",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "HandToHand",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -5784,7 +6045,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Arcana",
         "level": 1
@@ -5792,6 +6053,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
@@ -5839,6 +6112,16 @@
       },
       {
         "type": "Destruction",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Arcana",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -6440,7 +6723,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Order",
         "level": 1
@@ -6448,6 +6731,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -6610,6 +6905,21 @@
         "requiredSkills": [
           {
             "type": "Destruction",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Order",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Arcana",
             "level": 1
           }
         ]
@@ -7004,7 +7314,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Destruction",
         "level": 1
@@ -7012,6 +7322,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
@@ -7056,6 +7378,16 @@
             "level": 1
           }
         ]
+      },
+      {
+        "type": "Destruction",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Arcana",
@@ -7656,7 +7988,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Cunning",
         "level": 1
@@ -7664,6 +7996,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
@@ -7683,6 +8027,16 @@
             "level": 1
           }
         ]
+      },
+      {
+        "type": "Cunning",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Order",
@@ -8308,7 +8662,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Guard",
         "level": 1
@@ -8316,6 +8670,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -8403,6 +8769,21 @@
         "requiredSkills": [
           {
             "type": "Scouting",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Guard",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Melee",
             "level": 1
           }
         ]
@@ -8872,7 +9253,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Taxes",
         "level": 1
@@ -8880,6 +9261,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -9050,6 +9443,21 @@
         "requiredSkills": [
           {
             "type": "Destruction",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Taxes",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Learning",
             "level": 1
           }
         ]
@@ -9430,7 +9838,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Melee",
         "level": 1
@@ -9438,6 +9846,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -9451,6 +9871,16 @@
       },
       {
         "type": "Diplomacy",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Melee",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -9999,7 +10429,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "March",
         "level": 1
@@ -10007,6 +10437,28 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "March",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Archery",
@@ -10562,7 +11014,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "HandToHand",
         "level": 1
@@ -10570,6 +11022,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Melee",
@@ -10630,6 +11094,21 @@
         "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": []
+      },
+      {
+        "type": "HandToHand",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Melee",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Cunning",
@@ -11095,7 +11574,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Learning",
         "level": 1
@@ -11103,6 +11582,28 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Learning",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Chaos",
@@ -11618,7 +12119,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Melee",
         "level": 1
@@ -11626,6 +12127,28 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Melee",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Archery",
@@ -12167,7 +12690,7 @@
       "viewRadius": 8,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Archery",
         "level": 1
@@ -12175,9 +12698,31 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Prepared",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Archery",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -12761,7 +13306,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Chaos",
         "level": 1
@@ -12769,9 +13314,31 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Chaos",
         "levelRange": {
           "min": 1,
           "max": 4
@@ -13284,7 +13851,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Cunning",
         "level": 1
@@ -13292,6 +13859,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
@@ -13305,6 +13884,16 @@
       },
       {
         "type": "Chaos",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Cunning",
         "levelRange": {
           "min": 1,
           "max": 4
@@ -13807,10 +14396,22 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Command",
         "level": 4
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Prepared",
@@ -14411,7 +15012,7 @@
       "viewRadius": 8,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Guard",
         "level": 1
@@ -14419,6 +15020,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Melee",
@@ -14432,6 +15045,16 @@
       },
       {
         "type": "Archery",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Guard",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -14960,7 +15583,7 @@
       "viewRadius": 8,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Scouting",
         "level": 1
@@ -14968,6 +15591,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Prepared",
@@ -15011,6 +15646,16 @@
       },
       {
         "type": "March",
+        "levelRange": {
+          "min": 0,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Scouting",
         "levelRange": {
           "min": 0,
           "max": 4
@@ -15554,7 +16199,7 @@
       "viewRadius": 8,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "HandToHand",
         "level": 1
@@ -15562,6 +16207,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -15585,6 +16242,16 @@
       },
       {
         "type": "Melee",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "HandToHand",
         "levelRange": {
           "min": 1,
           "max": 4
@@ -16125,7 +16792,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Destruction",
         "level": 1
@@ -16133,6 +16800,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
@@ -16195,6 +16874,25 @@
         "requiredSkills": [
           {
             "type": "Learning",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Destruction",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAll",
+        "requiredSkills": [
+          {
+            "type": "Creation",
+            "level": 1
+          },
+          {
+            "type": "Arcana",
             "level": 1
           }
         ]
@@ -16717,7 +17415,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Creation",
         "level": 1
@@ -16725,9 +17423,31 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Creation",
         "levelRange": {
           "min": 1,
           "max": 4
@@ -17314,7 +18034,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "MagicResistance",
         "level": 1
@@ -17322,6 +18042,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
@@ -17565,6 +18297,25 @@
         "requiredSkills": [
           {
             "type": "EssenceBurst",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "MagicResistance",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Positioning",
+            "level": 1
+          },
+          {
+            "type": "Guard",
             "level": 1
           }
         ]
@@ -17906,7 +18657,7 @@
       "viewRadius": 8,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Melee",
         "level": 1
@@ -17914,6 +18665,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -17927,6 +18690,16 @@
       },
       {
         "type": "Raider",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Melee",
         "levelRange": {
           "min": 1,
           "max": 4
@@ -18477,7 +19250,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Guard",
         "level": 1
@@ -18485,6 +19258,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "March",
@@ -18555,6 +19340,21 @@
         "requiresSkill": false,
         "requirementType": "RequireAny",
         "requiredSkills": []
+      },
+      {
+        "type": "Guard",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Melee",
+            "level": 1
+          }
+        ]
       },
       {
         "type": "Scouting",
@@ -19043,7 +19843,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "HandToHand",
         "level": 1
@@ -19051,6 +19851,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
@@ -19285,6 +20097,25 @@
           },
           {
             "type": "Positioning",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "HandToHand",
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Prepared",
+            "level": 1
+          },
+          {
+            "type": "Guard",
             "level": 1
           }
         ]
@@ -19636,7 +20467,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Learning",
         "level": 1
@@ -19644,6 +20475,28 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
+      },
+      {
+        "type": "Learning",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Archery",
@@ -20228,7 +21081,7 @@
       "viewRadius": 7,
       "command": 0
     },
-    "skills": [
+    "startingSkills": [
       {
         "type": "Arcana",
         "level": 1
@@ -20236,6 +21089,18 @@
       {
         "type": "Command",
         "level": 3
+      }
+    ],
+    "skills": [
+      {
+        "type": "Command",
+        "levelRange": {
+          "min": 1,
+          "max": 99
+        },
+        "requiresSkill": false,
+        "requirementType": "RequireAny",
+        "requiredSkills": []
       },
       {
         "type": "Learning",
@@ -20329,6 +21194,21 @@
       },
       {
         "type": "Creation",
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "requiresSkill": true,
+        "requirementType": "RequireAny",
+        "requiredSkills": [
+          {
+            "type": "Destruction",
+            "level": 1
+          }
+        ]
+      },
+      {
+        "type": "Arcana",
         "levelRange": {
           "min": 1,
           "max": 4

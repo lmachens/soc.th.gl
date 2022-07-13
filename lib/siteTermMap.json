@@ -143,6 +143,22 @@
     "pt-BR": "Habilidades",
     "uk": null
   },
+  "StartingSkills": {
+    "en": "Starting Skills",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": "Startfertigkeiten",
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
+  },
   "AllSkills": {
     "en": "All Skills",
     "sv": null,

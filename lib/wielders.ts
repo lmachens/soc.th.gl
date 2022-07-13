@@ -61,11 +61,17 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
         sprite: sprite,
       };
     }),
+    startingSkills: wielderSrc.startingSkills
+      .map((skill) => ({
+        type: skill.type,
+        lore: getTerm(`Skills/${skill.type}/Lore`, locale),
+        name: getTerm(`Skills/${skill.type}`, locale),
+        level: skill.level,
+      })),
     skills: wielderSrc.skills.map((skill) => ({
       type: skill.type,
       lore: getTerm(`Skills/${skill.type}/Lore`, locale),
       name: getTerm(`Skills/${skill.type}`, locale),
-      level: skill.level || null,
       levelRange: skill.levelRange || null,
       requiresSkill: skill.requiresSkill || null,
       requirementType:
@@ -115,11 +121,16 @@ export type WielderDTO = {
     viewRadius: number;
     command: number;
   };
+  startingSkills: {
+    type: string;
+    lore: string;
+    name: string;
+    level: number;
+  }[];
   skills: {
     type: string;
     lore: string;
     name: string;
-    level: number | null;
     levelRange: {
       min: number;
       max: number;
@@ -127,13 +138,13 @@ export type WielderDTO = {
     requiresSkill: boolean | null;
     requirementType: "RequireAny" | "RequireAll" | null;
     requiredSkills:
-      | {
-          level: number;
-          type: string;
-          lore: string;
-          name: string;
-        }[]
-      | null;
+    | {
+      level: number;
+      type: string;
+      lore: string;
+      name: string;
+    }[]
+    | null;
   }[];
   units: {
     name: string;
