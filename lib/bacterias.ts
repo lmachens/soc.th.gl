@@ -1,4 +1,4 @@
-import { getTerm } from "./terms";
+import { getTerm, PERCENTAGE_BASED_MODIFIERS } from "./terms";
 
 export type BacteriaDTO = {
   bacteriaType: number;
@@ -20,7 +20,7 @@ export type BacteriaDTO = {
   duration?: string;
 };
 
-type PureBacteria = {
+export type PureBacteria = {
   bacteriaType: number;
   type: string;
   modifierData: {
@@ -38,20 +38,17 @@ type PureBacteria = {
     bacterias: PureBacteria[];
   };
   duration?: {
-    type: number;
+    type: string;
     duration: number;
   };
+  customEffect?: string;
+  customEffectValue?: number;
+  secondaryCustomEffectValue?: number;
   restriction?: string;
   auraSettings?: {
     recipients: string;
     hexRadius: number;
-    bacteriaToAdd: {
-      bacteriaType: number;
-      duration: {
-        type: number;
-        duration: number;
-      };
-    };
+    bacteriaToAdd: PureBacteria | null;
     isStackable: number;
     isPassable: number;
   };
@@ -103,7 +100,8 @@ export const getLocaleBacteria = (
         `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
         locale,
         modifier.amountToAdd,
-        modifier.modifier
+        modifier.applicationType === 1 ||
+          PERCENTAGE_BASED_MODIFIERS.includes(modifier.modifier)
       ),
     })),
     resourcesIncome: bacteria.resourcesIncome.map((resourceIncome) => ({
