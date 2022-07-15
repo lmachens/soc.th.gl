@@ -43,6 +43,7 @@ export type PureBacteria = {
   };
   customEffect?: string;
   customEffectValue?: number;
+  secondaryCustomEffectValue?: number;
   restriction?: string;
   auraSettings?: {
     recipients: string;

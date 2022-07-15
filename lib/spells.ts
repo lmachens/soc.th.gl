@@ -18,73 +18,135 @@ const getTargetTerm = (
   tier: {
     target: string;
     circleRadius: number;
+    amountOfTargets: number;
     effectType: string;
     teleportDestination: string;
     maxTeleportRange: number;
+    numberOfTargetTiles: number | null;
+    mapEntityToSummon: {
+      nameKey: string;
+      entityHealthPoints: number | null;
+      bacterias: PureBacteria[] | null;
+    } | null;
   },
   bacteria: PureBacteria | null,
   locale: string
 ) => {
-  console.log(tier, bacteria);
+  const withMultiple =
+    tier.amountOfTargets > 1 ||
+    ((tier.target === "Tiles" && tier.numberOfTargetTiles) || 0) > 1;
+
   if (tier.effectType === "Teleport") {
     return getTerm(
       `Spells/Tooltip/Teleport/Target/${tier.target}/${tier.teleportDestination}`,
       locale,
-      { maxTeleportRange: tier.maxTeleportRange }
-    );
-  }
-  if (!bacteria) {
-    return tier.target;
-  }
-  if (!bacteria.modifierData.length) {
-    if (tier.effectType === "Teleport") {
-      return getTerm(
-        `Spells/Tooltip/Teleport/Target/${tier.target}/${tier.maxTeleportRange}`,
-        locale
-      );
-    }
-    if (tier.effectType === "Summon") {
-      return getTerm(
-        `Spells/Tooltip/Summon/${tier.target}/PoisonCloud/StepOnto/Damage`,
-        locale,
-        {
-          circleRadius: tier.circleRadius,
-          damageAmount: bacteria.auraSettings?.bacteriaToAdd?.customEffectValue,
-        }
-      );
-    }
-    return getTerm(
-      `Spells/Tooltip/Target/${tier.target}/${bacteria.customEffect}`,
-      locale,
       {
-        circleRadius: tier.circleRadius,
-        pushDistance: bacteria.customEffectValue,
-        damageAmount: bacteria.customEffectValue,
+        maxTeleportRange: tier.maxTeleportRange,
+        numberOfEntities: tier.amountOfTargets,
       }
     );
   }
 
-  const modifierTerms = bacteria.modifierData
-    .map((modifier) =>
-      getTerm(
-        `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
-        locale,
-        modifier.amountToAdd,
-        modifier.applicationType === 1 ||
-          PERCENTAGE_BASED_MODIFIERS.includes(modifier.modifier)
+  if (bacteria?.modifierData.length) {
+    const modifierTerms = bacteria.modifierData
+      .map((modifier) =>
+        getTerm(
+          `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
+          locale,
+          modifier.amountToAdd,
+          modifier.applicationType === 1 ||
+            PERCENTAGE_BASED_MODIFIERS.includes(modifier.modifier)
+        )
       )
-    )
-    .join("<br>");
+      .join("<br>");
+    let key = `Spells/Tooltip/Target/${tier.target}`;
 
-  return getTerm(
-    `Spells/Tooltip/Target/${tier.target}/WithMultipleModifiers`,
-    locale,
-    {
-      modifiers: `<br>${modifierTerms}`,
+    if (withMultiple) {
+      key += "/Multiple";
     }
-  );
+    if (bacteria.customEffect === "Damage") {
+      key += "/Damage";
+    }
+    key += "/WithMultipleModifiers";
+    return getTerm(key, locale, {
+      modifiers: `<br>${modifierTerms}`,
+      numberOfTroops: tier.amountOfTargets,
+      damageAmount: bacteria.customEffectValue,
+    });
+  }
+
+  if (tier.effectType === "Teleport") {
+    return getTerm(
+      `Spells/Tooltip/Teleport/Target/${tier.target}/${tier.maxTeleportRange}`,
+      locale
+    );
+  }
+  if (tier.effectType === "Summon") {
+    if (!tier.mapEntityToSummon) {
+      return tier.target;
+    }
+    const bacteriaToAdd = bacteria?.auraSettings?.bacteriaToAdd;
+    let key = tier.mapEntityToSummon.nameKey.split("/").at(-1)!;
+    if (withMultiple) {
+      key += "/Multiple";
+    }
+    if (bacteria?.auraSettings?.hexRadius === 0) {
+      key += "/StepOnto";
+    }
+    if (bacteriaToAdd?.customEffect === "Damage") {
+      key += "/Damage";
+    }
+    return getTerm(`Spells/Tooltip/Summon/${tier.target}/${key}`, locale, {
+      circleRadius: tier.circleRadius,
+      damageAmount: bacteriaToAdd?.customEffectValue,
+      numberOfEntities: tier.amountOfTargets,
+      entityHealthPoints: tier.mapEntityToSummon.entityHealthPoints,
+    });
+  }
+  if (!bacteria) {
+    return tier.target;
+  }
+  let key = `Spells/Tooltip/Target/${tier.target}`;
+  if (withMultiple) {
+    key += "/Multiple";
+  }
+  key += `/${bacteria.customEffect}`;
+
+  return getTerm(key, locale, {
+    circleRadius: tier.circleRadius,
+    pushDistance: bacteria.customEffectValue,
+    damageAmount: bacteria.customEffectValue,
+    spreadAmount: bacteria.secondaryCustomEffectValue,
+    numberOfTroops: tier.amountOfTargets,
+    maxHexagonDistance: 2,
+    killAmount: bacteria.customEffectValue,
+    numberOfHexagons: tier.numberOfTargetTiles,
+  });
 };
 
+const getBacteriaDuration = (
+  type: string,
+  duration: {
+    type: string;
+    duration: number;
+  },
+  locale: string
+) => {
+  if (duration.type === "Once" || duration.type === "Permanent") {
+    return "";
+  }
+  return getTerm(
+    `Bacterias/Tooltip/Duration/${duration.type}`,
+    locale,
+    type === "DestroyMapEntityEmpty"
+      ? getTerm(
+          "Bacterias/DestroyMapEntityBacteria/None",
+          locale,
+          duration.duration.toString()
+        )
+      : duration.duration.toString()
+  );
+};
 export const getSpell = (type: string, locale: string) => {
   const spellSrc = spellsCollection.find((spell) => spell.type === type);
   if (!spellSrc) {
@@ -102,16 +164,14 @@ export const getSpell = (type: string, locale: string) => {
     })),
     tiers: spellSrc.tiers.map((tier) => ({
       tier: tier.tier,
-      bacterias: tier.bacterias.map((bacteria) => ({
-        description: getTargetTerm(tier, bacteria, locale),
-        duration: bacteria
-          ? getTerm(
-              `Bacterias/Tooltip/Duration/${bacteria.duration.type}`,
-              locale,
-              bacteria.duration.duration.toString()
-            )
-          : "",
-      })),
+      bacterias: (tier.mapEntityToSummon?.bacterias || tier.bacterias).map(
+        (bacteria) => ({
+          description: getTargetTerm(tier, bacteria, locale),
+          duration: bacteria
+            ? getBacteriaDuration(bacteria.type, bacteria.duration, locale)
+            : "",
+        })
+      ),
       requiredCommanderSkills: tier.requiredCommanderSkills.map(
         (requiredSkill) => ({
           type: requiredSkill.type,

@@ -51,6 +51,7 @@
         "type": "SkillArchery1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -77,6 +78,7 @@
         "type": "SkillArchery2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -103,6 +105,7 @@
         "type": "SkillArchery3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -184,6 +187,7 @@
         "type": "SkillCunning1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -222,6 +226,7 @@
         "type": "SkillCunning2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -260,6 +265,7 @@
         "type": "SkillCunning3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -347,6 +353,7 @@
         "type": "SkillGuard1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -373,6 +380,7 @@
         "type": "SkillGuard2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -399,6 +407,7 @@
         "type": "SkillGuard3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -474,6 +483,7 @@
         "type": "SkillHandToHand1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -500,6 +510,7 @@
         "type": "SkillHandToHand2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -526,6 +537,7 @@
         "type": "SkillHandToHand3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -607,6 +619,7 @@
         "type": "SkillPrepared1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -633,6 +646,7 @@
         "type": "SkillPrepared2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -659,6 +673,7 @@
         "type": "SkillPrepared3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -734,6 +749,7 @@
         "type": "SkillArcana1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -760,6 +776,7 @@
         "type": "SkillArcana2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -786,6 +803,7 @@
         "type": "SkillArcana3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -861,6 +879,7 @@
         "type": "SkillChaos1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -887,6 +906,7 @@
         "type": "SkillChaos2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -913,6 +933,7 @@
         "type": "SkillChaos3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -988,6 +1009,7 @@
         "type": "SkillCreation1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1014,6 +1036,7 @@
         "type": "SkillCreation2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1040,6 +1063,7 @@
         "type": "SkillCreation3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1115,6 +1139,7 @@
         "type": "SkillDestruction1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1141,6 +1166,7 @@
         "type": "SkillDestruction2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1167,6 +1193,7 @@
         "type": "SkillDestruction3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1242,6 +1269,7 @@
         "type": "SkillOrder1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1268,6 +1296,7 @@
         "type": "SkillOrder2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1294,6 +1323,7 @@
         "type": "SkillOrder3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1369,6 +1399,7 @@
         "type": "SkillCommand1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1395,6 +1426,7 @@
         "type": "SkillCommand2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1421,6 +1453,7 @@
         "type": "SkillCommand3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1447,6 +1480,7 @@
         "type": "SkillCommand4",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1473,6 +1507,7 @@
         "type": "SkillCommand5",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1499,6 +1534,7 @@
         "type": "SkillCommand6",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1525,6 +1561,7 @@
         "type": "SkillCommand7",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1551,6 +1588,7 @@
         "type": "SkillCommand8",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1577,6 +1615,7 @@
         "type": "SkillCommand9",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1749,6 +1788,7 @@
         "type": "SkillBrutal1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1775,6 +1815,7 @@
         "type": "SkillBrutal2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1850,6 +1891,7 @@
         "type": "SkillRigor1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1876,6 +1918,7 @@
         "type": "SkillRigor2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1951,6 +1994,7 @@
         "type": "SkillMarch1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1977,6 +2021,7 @@
         "type": "SkillMarch2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2003,6 +2048,7 @@
         "type": "SkillMarch3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2078,6 +2124,7 @@
         "type": "SkillMelee1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2104,6 +2151,7 @@
         "type": "SkillMelee2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2130,6 +2178,7 @@
         "type": "SkillMelee3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2211,6 +2260,7 @@
         "type": "SkillSpeedOfWinds1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2237,6 +2287,7 @@
         "type": "SkillSpeedOfWinds2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2318,6 +2369,7 @@
         "type": "SkillScouting1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2344,6 +2396,7 @@
         "type": "SkillScouting2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2370,6 +2423,7 @@
         "type": "SkillScouting3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2451,6 +2505,7 @@
         "type": "SkillLevy1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2477,6 +2532,7 @@
         "type": "SkillLevy2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2552,6 +2608,7 @@
         "type": "SkillMagicResistance1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2578,6 +2635,7 @@
         "type": "SkillMagicResistance2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2604,6 +2662,7 @@
         "type": "SkillMagicResistance3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2679,6 +2738,7 @@
         "type": "SkillChanneling1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2705,6 +2765,7 @@
         "type": "SkillChanneling2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2731,6 +2792,7 @@
         "type": "SkillChanneling3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2806,6 +2868,7 @@
         "type": "SkillRaider1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2832,6 +2895,7 @@
         "type": "SkillRaider2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2858,6 +2922,7 @@
         "type": "SkillRaider3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2933,6 +2998,7 @@
         "type": "SkillLearning1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2959,6 +3025,7 @@
         "type": "SkillLearning2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2985,6 +3052,7 @@
         "type": "SkillLearning3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3351,6 +3419,7 @@
         "type": "SkillRange1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3377,6 +3446,7 @@
         "type": "SkillRange2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3652,6 +3722,7 @@
         "type": "SkillFast1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3678,6 +3749,7 @@
         "type": "SkillFast2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3759,6 +3831,7 @@
         "type": "SkillPositioning1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3785,6 +3858,7 @@
         "type": "SkillPositioning2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3811,6 +3885,7 @@
         "type": "SkillPositioning3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3886,6 +3961,7 @@
         "type": "SkillDiplomacy1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3912,6 +3988,7 @@
         "type": "SkillDiplomacy2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3938,6 +4015,7 @@
         "type": "SkillDiplomacy3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4013,6 +4091,7 @@
         "type": "SkillEssenceBurst1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4063,6 +4142,7 @@
         "type": "SkillEssenceBurst2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4113,6 +4193,7 @@
         "type": "SkillEssenceBurst3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4223,6 +4304,7 @@
               "type": "SkillShields1",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -4263,6 +4345,7 @@
               "type": "SkillShields2",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -4341,6 +4424,7 @@
         "type": "SkillTutor1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4367,6 +4451,7 @@
         "type": "SkillTutor2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4393,6 +4478,7 @@
         "type": "SkillTutor3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4468,6 +4554,7 @@
         "type": "SkillAttuned1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4518,6 +4605,7 @@
         "type": "SkillAttuned2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4617,6 +4705,7 @@
         "type": "SkillEssenceLeech1",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4643,6 +4732,7 @@
         "type": "SkillEssenceLeech2",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4669,6 +4759,7 @@
         "type": "SkillEssenceLeech3",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,

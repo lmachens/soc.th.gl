@@ -169,6 +169,7 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -1228,6 +1229,7 @@
             "type": "TroopAbilityFearNoFoe",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1459,6 +1461,7 @@
             "type": "TroopAbilityStoutheartShallStand",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1656,6 +1659,7 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -1858,6 +1862,7 @@
             "type": "TroopAbilityProtect",
             "customEffect": "Aura",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1866,6 +1871,7 @@
                 "type": "TroopAbilityProtected",
                 "customEffect": "None",
                 "customEffectValue": 0,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -1889,6 +1895,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
+                  "type": "Permanent",
                   "duration": 0
                 }
               },
@@ -1923,6 +1930,7 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -2208,6 +2216,7 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -2532,6 +2541,7 @@
             "type": "TroopAbilityInspire",
             "customEffect": "Aura",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2540,6 +2550,7 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -2569,6 +2580,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
+                  "type": "Permanent",
                   "duration": 0
                 }
               },
@@ -2609,6 +2621,7 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -3098,6 +3111,7 @@
             "type": "TroopAbilityDefend",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3639,6 +3653,7 @@
           "type": "TraitDoubleStrike",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -3912,6 +3927,7 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -3920,6 +3936,7 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -3949,6 +3966,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -4295,6 +4313,7 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -4303,6 +4322,7 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -4332,6 +4352,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -5324,6 +5345,7 @@
             "type": "TroopAbilityDefend",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5359,6 +5381,7 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -5542,6 +5565,7 @@
             "type": "TroopAbilityHerAimWasTrue",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5729,6 +5753,7 @@
             "type": "TroopAbilityAureliaEternal",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6114,6 +6139,7 @@
             "type": "TroopAbilityAim",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6543,6 +6569,7 @@
             "type": "TroopAbilityChargeEssence",
             "customEffect": "GenerateEssence",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6551,6 +6578,7 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -6580,6 +6608,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
+                  "type": "Permanent",
                   "duration": 0
                 }
               },
@@ -6916,6 +6945,7 @@
           "type": "TraitPersistent",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -6942,6 +6972,7 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7300,6 +7331,7 @@
             "type": "TroopAbilitySacrificeBones",
             "customEffect": "KillAmount",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -7322,6 +7354,7 @@
           "type": "TraitPersistent",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7348,6 +7381,7 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7539,6 +7573,7 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7773,6 +7808,7 @@
             "type": "TroopAbilityInspire",
             "customEffect": "Aura",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -7781,6 +7817,7 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -7810,6 +7847,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
+                  "type": "Permanent",
                   "duration": 0
                 }
               },
@@ -7850,6 +7888,7 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -8339,6 +8378,7 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -8347,6 +8387,7 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -8370,6 +8411,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -8919,6 +8961,7 @@
             "type": "TroopAbilityProtect",
             "customEffect": "Aura",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -8927,6 +8970,7 @@
                 "type": "TroopAbilityProtected",
                 "customEffect": "None",
                 "customEffectValue": 0,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -8950,6 +8994,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
+                  "type": "Permanent",
                   "duration": 0
                 }
               },
@@ -8984,6 +9029,7 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -8992,6 +9038,7 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -9015,6 +9062,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -9056,6 +9104,7 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -9587,6 +9636,7 @@
             "type": "TroopAbilityJigOfJugs",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -9784,6 +9834,7 @@
             "type": "TroopAbilityTheCoinInMyHand",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -9997,6 +10048,7 @@
           "type": "TraitReach",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -10253,6 +10305,7 @@
           "type": "TraitReach",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -10656,6 +10709,7 @@
             "type": "TroopAbilityAim",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -11258,6 +11312,7 @@
           "type": "TraitPersistent",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -11507,6 +11562,7 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -11750,6 +11806,7 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -11758,6 +11815,7 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -11781,6 +11839,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -11812,6 +11871,7 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -12617,6 +12677,7 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -13163,6 +13224,7 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -13171,6 +13233,7 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -13200,6 +13263,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -13798,6 +13862,7 @@
             "type": "TroopAbilityDefend",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -13833,6 +13898,7 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -14391,6 +14457,7 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -14399,6 +14466,7 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -14428,6 +14496,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -14642,6 +14711,7 @@
           "type": "TraitGuard",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -14650,6 +14720,7 @@
               "type": "TraitGuarded",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -14667,6 +14738,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -14888,6 +14960,7 @@
             "type": "TroopAbilityProtect",
             "customEffect": "Aura",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -14896,6 +14969,7 @@
                 "type": "TroopAbilityProtected",
                 "customEffect": "None",
                 "customEffectValue": 0,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -14919,6 +14993,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
+                  "type": "Permanent",
                   "duration": 0
                 }
               },
@@ -14953,6 +15028,7 @@
           "type": "TraitGuard",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -14961,6 +15037,7 @@
               "type": "TraitGuarded",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -14978,6 +15055,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -15708,6 +15786,7 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -15716,6 +15795,7 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -15739,6 +15819,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -15770,6 +15851,7 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -16038,6 +16120,7 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -16046,6 +16129,7 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -16069,6 +16153,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -16100,6 +16185,7 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -16418,6 +16504,7 @@
             "type": "TroopAbilityTheDragonsRoar",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -16453,6 +16540,7 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -16461,6 +16549,7 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -16484,6 +16573,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -16731,6 +16821,7 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17021,6 +17112,7 @@
             "type": "TroopAbilityChargeEssence",
             "customEffect": "GenerateEssence",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -17029,6 +17121,7 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -17058,6 +17151,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
+                  "type": "Permanent",
                   "duration": 0
                 }
               },
@@ -17098,6 +17192,7 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17603,6 +17698,7 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17611,6 +17707,7 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -17640,6 +17737,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -17677,6 +17775,7 @@
           "type": "TraitReach",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17713,6 +17812,7 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -17721,6 +17821,7 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -17744,6 +17845,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -18001,6 +18103,7 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -18009,6 +18112,7 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -18038,6 +18142,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -18075,6 +18180,7 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -18083,6 +18189,7 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -18106,6 +18213,7 @@
               ],
               "resourcesIncome": [],
               "duration": {
+                "type": "EntireBattle",
                 "duration": 0
               }
             },
@@ -18137,6 +18245,7 @@
           "type": "TraitReach",
           "customEffect": "None",
           "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,

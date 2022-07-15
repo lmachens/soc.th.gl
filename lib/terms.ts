@@ -69,11 +69,13 @@ export const getTerm = (
       result = result.replace("{0}", placeholder.toString());
     } else if (Array.isArray(placeholder)) {
       for (let i = 0; i < placeholder.length; i++) {
-        result = result.replace(`{${i.toString()}}`, placeholder[i]);
+        result = result.replaceAll(`{${i.toString()}}`, placeholder[i]);
       }
     } else {
       Object.entries(placeholder).forEach(([key, value]) => {
-        result = result!.replace(`{${key}}`, value);
+        result = result!
+          .replaceAll(`{${key}}`, value)
+          .replaceAll(new RegExp(`{${key}:plural[^}]*{}[^}]*}`, "g"), value);
       });
     }
   }

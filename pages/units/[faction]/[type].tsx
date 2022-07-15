@@ -1,13 +1,14 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../../lib/staticProps";
 
-import { Stack, Table, Text, Title } from "@mantine/core";
+import { Stack, Table, Title } from "@mantine/core";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { getUnit, getUnits, UnitDTO, UnitTypeDTO } from "../../../lib/units";
 import Head from "next/head";
 import { getTerm, TermsDTO } from "../../../lib/terms";
 import { BacteriaDTO } from "../../../lib/bacterias";
 import { useTerms } from "../../../components/Terms/Terms";
+import Lore from "../../../components/Lore/Lore";
 
 const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
   const terms = useTerms();
@@ -16,9 +17,7 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
       <Stack>
         <Title order={4}>{unitType.name}</Title>
         <SpriteSheet spriteSheet={unitType.sprite} />
-        <Text size="sm" sx={{ fontStyle: "italic" }}>
-          {unitType.description}
-        </Text>
+        <Lore text={unitType.description} />
       </Stack>
       <Table>
         <tbody>

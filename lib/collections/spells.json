@@ -42,17 +42,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 18,
             "type": "SpellAdvance1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -85,9 +89,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -95,12 +101,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 18,
             "type": "SpellAdvance1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -133,9 +141,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -143,12 +153,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 18,
             "type": "SpellAdvance1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -223,17 +235,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 35,
             "type": "SpellDefend1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -266,9 +282,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -276,12 +294,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 35,
             "type": "SpellDefend1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -314,9 +334,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -324,12 +346,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 35,
             "type": "SpellDefend1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -408,17 +432,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 48,
             "type": "SpellInvigorate1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -451,9 +479,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
           {
@@ -465,12 +495,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 117,
             "type": "SpellInvigorate2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -503,9 +535,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
           {
@@ -517,12 +551,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 118,
             "type": "SpellInvigorate3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -597,17 +633,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 127,
             "type": "SpellOffense1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -640,9 +680,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -650,12 +692,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 127,
             "type": "SpellOffense1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -688,9 +732,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -698,12 +744,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 127,
             "type": "SpellOffense1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -782,17 +830,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 247,
             "type": "Justice1",
             "customEffect": "KillAmount",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -812,9 +864,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -826,12 +880,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 248,
             "type": "Justice2",
             "customEffect": "KillAmount",
             "customEffectValue": 2,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -851,9 +907,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -865,12 +923,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 249,
             "type": "Justice3",
             "customEffect": "KillAmount",
             "customEffectValue": 3,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -936,17 +996,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 3,
         "target": "Tiles",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 238,
             "type": "SpellPhoenix1",
             "customEffect": "Damage",
             "customEffectValue": 50,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -966,9 +1030,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 3,
         "target": "Tiles",
         "requiredCommanderSkills": [
           {
@@ -980,12 +1046,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 239,
             "type": "SpellPhoenix2",
             "customEffect": "Damage",
             "customEffectValue": 90,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1005,9 +1073,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 3,
         "target": "Tiles",
         "requiredCommanderSkills": [
           {
@@ -1019,12 +1089,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 240,
             "type": "SpellPhoenix3",
             "customEffect": "Damage",
             "customEffectValue": 130,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1086,17 +1158,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 241,
             "type": "SpellArcaneBolt1",
             "customEffect": "Damage",
             "customEffectValue": 15,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1116,9 +1192,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -1126,12 +1204,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 242,
             "type": "SpellArcaneBolt2",
             "customEffect": "Damage",
             "customEffectValue": 25,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1151,9 +1231,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -1161,12 +1243,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 243,
             "type": "SpellArcaneBolt3",
             "customEffect": "Damage",
             "customEffectValue": 35,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1228,17 +1312,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 2,
+        "numberOfTargetTiles": 4,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 134,
             "type": "SpellArcaneExplosion1",
             "customEffect": "Damage",
             "customEffectValue": 30,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1258,9 +1346,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 2,
+        "numberOfTargetTiles": 4,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
           {
@@ -1268,12 +1358,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 146,
             "type": "SpellArcaneExplosion2",
             "customEffect": "Damage",
             "customEffectValue": 50,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1293,9 +1385,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 2,
+        "numberOfTargetTiles": 4,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
           {
@@ -1303,12 +1397,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 147,
             "type": "SpellArcaneExplosion3",
             "customEffect": "Damage",
             "customEffectValue": 70,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1370,17 +1466,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 244,
             "type": "SpellIceBolt1",
             "customEffect": "Damage",
             "customEffectValue": 30,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1400,6 +1500,7 @@
             "type": "SpellIceBoltStatsNerf1",
             "customEffect": "None",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1432,9 +1533,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -1442,12 +1545,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 245,
             "type": "SpellIceBolt2",
             "customEffect": "Damage",
             "customEffectValue": 50,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1467,6 +1572,7 @@
             "type": "SpellIceBoltStatsNerf1",
             "customEffect": "None",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1499,9 +1605,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -1509,12 +1617,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 246,
             "type": "SpellIceBolt3",
             "customEffect": "Damage",
             "customEffectValue": 75,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1534,6 +1644,7 @@
             "type": "SpellIceBoltStatsNerf1",
             "customEffect": "None",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1608,17 +1719,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 250,
             "type": "SpellFireBall1",
             "customEffect": "Damage",
             "customEffectValue": 30,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1638,9 +1753,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
           {
@@ -1648,12 +1765,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 251,
             "type": "SpellFireBall2",
             "customEffect": "Damage",
             "customEffectValue": 60,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1673,9 +1792,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
           {
@@ -1683,12 +1804,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 252,
             "type": "SpellFireBall3",
             "customEffect": "Damage",
             "customEffectValue": 90,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1750,11 +1873,14 @@
       {
         "tier": 1,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 2,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -1762,9 +1888,11 @@
       {
         "tier": 2,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 4,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -1772,6 +1900,7 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -1779,9 +1908,11 @@
       {
         "tier": 3,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 6,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -1789,6 +1920,7 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -1838,17 +1970,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 258,
             "type": "SpellArcanePush1",
             "customEffect": "Push",
             "customEffectValue": 3,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1868,9 +2004,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -1878,12 +2016,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 259,
             "type": "SpellArcanePush2",
             "customEffect": "Push",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1903,9 +2043,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -1913,12 +2055,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 260,
             "type": "SpellArcanePush3",
             "customEffect": "Push",
             "customEffectValue": 7,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1980,11 +2124,18 @@
       {
         "tier": 1,
         "effectType": "Summon",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Obstacle/Barrier",
+          "entityHealthPoints": 10,
+          "bacterias": null
+        },
         "bacterias": [
           null
         ]
@@ -1992,9 +2143,11 @@
       {
         "tier": 2,
         "effectType": "Summon",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
           {
@@ -2002,6 +2155,11 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Obstacle/Barrier",
+          "entityHealthPoints": 30,
+          "bacterias": null
+        },
         "bacterias": [
           null
         ]
@@ -2009,9 +2167,11 @@
       {
         "tier": 3,
         "effectType": "Summon",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
           {
@@ -2019,6 +2179,11 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Obstacle/Barrier",
+          "entityHealthPoints": 30,
+          "bacterias": null
+        },
         "bacterias": [
           null
         ]
@@ -2068,17 +2233,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 264,
             "type": "SpellBitingInsects1",
             "customEffect": "Damage",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2105,9 +2274,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -2115,12 +2286,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 265,
             "type": "SpellBitingInsects2",
             "customEffect": "Damage",
             "customEffectValue": 10,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2147,9 +2320,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -2157,12 +2332,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 266,
             "type": "SpellBitingInsects3",
             "customEffect": "Damage",
             "customEffectValue": 15,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2235,17 +2412,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 267,
             "type": "SpellBlindHatred1",
             "customEffect": "TargetAdjacent",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2265,9 +2446,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -2279,12 +2462,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 267,
             "type": "SpellBlindHatred1",
             "customEffect": "TargetAdjacent",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2304,9 +2489,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -2318,12 +2505,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 267,
             "type": "SpellBlindHatred1",
             "customEffect": "TargetAdjacent",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2385,17 +2574,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 270,
             "type": "SpellBoilingBlood1",
             "customEffect": "Damage",
             "customEffectValue": 10,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2415,9 +2608,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -2425,12 +2620,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 552,
             "type": "SpellBoilingBlood2",
             "customEffect": "Damage",
             "customEffectValue": 15,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2450,9 +2647,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -2460,12 +2659,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 1105,
             "type": "SpellBoilingBlood3",
             "customEffect": "Damage",
             "customEffectValue": 20,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2527,17 +2728,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 273,
             "type": "SpellChainLightning1",
             "customEffect": "ChainFromTarget",
             "customEffectValue": 35,
+            "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2557,9 +2762,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -2567,12 +2774,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 274,
             "type": "SpellChainLightning2",
             "customEffect": "ChainFromTarget",
             "customEffectValue": 70,
+            "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2592,9 +2801,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -2602,12 +2813,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 275,
             "type": "SpellChainLightning3",
             "customEffect": "ChainFromTarget",
             "customEffectValue": 100,
+            "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2669,11 +2882,14 @@
       {
         "tier": 1,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "RandomNeighbour",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -2681,9 +2897,11 @@
       {
         "tier": 2,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "RandomNeighbour",
         "maxTeleportRange": 2,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -2691,6 +2909,7 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -2698,9 +2917,11 @@
       {
         "tier": 3,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "RandomNeighbour",
         "maxTeleportRange": 3,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -2708,6 +2929,7 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -2757,17 +2979,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 279,
             "type": "SpellTempest1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2794,9 +3020,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [
           {
@@ -2804,12 +3032,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 280,
             "type": "SpellTempest2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2836,9 +3066,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [
           {
@@ -2846,12 +3078,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 281,
             "type": "SpellTempest3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2924,17 +3158,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 282,
             "type": "SpellAegisDamage1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2961,9 +3199,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -2975,12 +3215,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 282,
             "type": "SpellAegisDamage1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3007,9 +3249,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -3021,12 +3265,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 282,
             "type": "SpellAegisDamage1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3099,17 +3345,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 285,
             "type": "SpellEntangle1Spell",
             "customEffect": "None",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3136,9 +3386,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -3150,12 +3402,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 285,
             "type": "SpellEntangle1Spell",
             "customEffect": "None",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3182,9 +3436,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -3196,12 +3452,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 285,
             "type": "SpellEntangle1Spell",
             "customEffect": "None",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3274,17 +3532,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 288,
             "type": "SpellBurstOfStrength1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3311,9 +3573,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
           {
@@ -3325,12 +3589,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 289,
             "type": "SpellBurstOfStrength2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3357,9 +3623,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
           {
@@ -3371,12 +3639,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 290,
             "type": "SpellBurstOfStrength3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3449,17 +3719,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 291,
             "type": "SpellLethargy1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3492,9 +3766,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [
           {
@@ -3506,12 +3782,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 291,
             "type": "SpellLethargy1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3544,9 +3822,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [
           {
@@ -3558,12 +3838,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 291,
             "type": "SpellLethargy1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3642,19 +3924,78 @@
       {
         "tier": 1,
         "effectType": "Summon",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Trap/Mine",
+          "entityHealthPoints": null,
+          "bacterias": [
+            {
+              "bacteriaType": 294,
+              "type": "SpellMines1",
+              "customEffect": "Aura",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Enemies",
+                "hexRadius": 0,
+                "bacteriaToAdd": {
+                  "bacteriaType": 361,
+                  "type": "ExplosiveSeeds1",
+                  "customEffect": "Damage",
+                  "customEffectValue": 30,
+                  "secondaryCustomEffectValue": 0,
+                  "auraSettings": {
+                    "recipients": "Enemies",
+                    "hexRadius": 0,
+                    "bacteriaToAdd": null,
+                    "isStackable": 1,
+                    "isPassable": 1
+                  },
+                  "modifierData": [],
+                  "resourcesIncome": [],
+                  "duration": {
+                    "type": "Once",
+                    "duration": 1
+                  }
+                },
+                "isStackable": 1,
+                "isPassable": 0
+              },
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 0
+              }
+            },
+            {
+              "bacteriaType": 364,
+              "type": "DestroyMapEntityStepOnto",
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 0
+              }
+            }
+          ]
+        },
         "bacterias": []
       },
       {
         "tier": 2,
         "effectType": "Summon",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
           {
@@ -3666,14 +4007,71 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Trap/Mine",
+          "entityHealthPoints": null,
+          "bacterias": [
+            {
+              "bacteriaType": 295,
+              "type": "SpellMines2",
+              "customEffect": "Aura",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Enemies",
+                "hexRadius": 0,
+                "bacteriaToAdd": {
+                  "bacteriaType": 362,
+                  "type": "ExplosiveSeeds2",
+                  "customEffect": "Damage",
+                  "customEffectValue": 60,
+                  "secondaryCustomEffectValue": 0,
+                  "auraSettings": {
+                    "recipients": "Friends",
+                    "hexRadius": 1,
+                    "bacteriaToAdd": null,
+                    "isStackable": 1,
+                    "isPassable": 1
+                  },
+                  "modifierData": [],
+                  "resourcesIncome": [],
+                  "duration": {
+                    "type": "Once",
+                    "duration": 1
+                  }
+                },
+                "isStackable": 1,
+                "isPassable": 0
+              },
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 0
+              }
+            },
+            {
+              "bacteriaType": 364,
+              "type": "DestroyMapEntityStepOnto",
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 0
+              }
+            }
+          ]
+        },
         "bacterias": []
       },
       {
         "tier": 3,
         "effectType": "Summon",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Tiles",
         "requiredCommanderSkills": [
           {
@@ -3685,6 +4083,61 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Trap/Mine",
+          "entityHealthPoints": null,
+          "bacterias": [
+            {
+              "bacteriaType": 296,
+              "type": "SpellMines3",
+              "customEffect": "Aura",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Enemies",
+                "hexRadius": 0,
+                "bacteriaToAdd": {
+                  "bacteriaType": 363,
+                  "type": "ExplosiveSeeds3",
+                  "customEffect": "Damage",
+                  "customEffectValue": 90,
+                  "secondaryCustomEffectValue": 0,
+                  "auraSettings": {
+                    "recipients": "Friends",
+                    "hexRadius": 1,
+                    "bacteriaToAdd": null,
+                    "isStackable": 1,
+                    "isPassable": 1
+                  },
+                  "modifierData": [],
+                  "resourcesIncome": [],
+                  "duration": {
+                    "type": "Once",
+                    "duration": 1
+                  }
+                },
+                "isStackable": 1,
+                "isPassable": 0
+              },
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 1
+              }
+            },
+            {
+              "bacteriaType": 364,
+              "type": "DestroyMapEntityStepOnto",
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 0
+              }
+            }
+          ]
+        },
         "bacterias": []
       }
     ]
@@ -3732,17 +4185,75 @@
       {
         "tier": 1,
         "effectType": "Summon",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Trap/PoisonCloud",
+          "entityHealthPoints": null,
+          "bacterias": [
+            {
+              "bacteriaType": 297,
+              "type": "SpellPoisonCloud1",
+              "customEffect": "Aura",
+              "customEffectValue": 5,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "All",
+                "hexRadius": 0,
+                "bacteriaToAdd": {
+                  "bacteriaType": 357,
+                  "type": "SpellPoisonCloudDamage1",
+                  "customEffect": "Damage",
+                  "customEffectValue": 20,
+                  "secondaryCustomEffectValue": 0,
+                  "auraSettings": {
+                    "recipients": "All",
+                    "hexRadius": 3,
+                    "bacteriaToAdd": null,
+                    "isStackable": 0,
+                    "isPassable": 1
+                  },
+                  "modifierData": [],
+                  "resourcesIncome": [],
+                  "duration": {
+                    "type": "EntireBattle",
+                    "duration": 1
+                  }
+                },
+                "isStackable": 0,
+                "isPassable": 0
+              },
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 1
+              }
+            },
+            {
+              "bacteriaType": 360,
+              "type": "DestroyMapEntityEmpty",
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "BattleRound",
+                "duration": 2
+              }
+            }
+          ]
+        },
         "bacterias": [
           {
             "bacteriaType": 297,
             "type": "SpellPoisonCloud1",
             "customEffect": "Aura",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "All",
               "hexRadius": 0,
@@ -3751,6 +4262,7 @@
                 "type": "SpellPoisonCloudDamage1",
                 "customEffect": "Damage",
                 "customEffectValue": 20,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
                   "hexRadius": 3,
@@ -3780,9 +4292,11 @@
       {
         "tier": 2,
         "effectType": "Summon",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
           {
@@ -3790,12 +4304,68 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Trap/PoisonCloud",
+          "entityHealthPoints": null,
+          "bacterias": [
+            {
+              "bacteriaType": 298,
+              "type": "SpellPoisonCloud2",
+              "customEffect": "Aura",
+              "customEffectValue": 7,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "All",
+                "hexRadius": 0,
+                "bacteriaToAdd": {
+                  "bacteriaType": 358,
+                  "type": "SpellPoisonCloudDamage2",
+                  "customEffect": "Damage",
+                  "customEffectValue": 40,
+                  "secondaryCustomEffectValue": 0,
+                  "auraSettings": {
+                    "recipients": "All",
+                    "hexRadius": 3,
+                    "bacteriaToAdd": null,
+                    "isStackable": 0,
+                    "isPassable": 1
+                  },
+                  "modifierData": [],
+                  "resourcesIncome": [],
+                  "duration": {
+                    "type": "EntireBattle",
+                    "duration": 1
+                  }
+                },
+                "isStackable": 0,
+                "isPassable": 0
+              },
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 2
+              }
+            },
+            {
+              "bacteriaType": 360,
+              "type": "DestroyMapEntityEmpty",
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "BattleRound",
+                "duration": 2
+              }
+            }
+          ]
+        },
         "bacterias": [
           {
             "bacteriaType": 298,
             "type": "SpellPoisonCloud2",
             "customEffect": "Aura",
             "customEffectValue": 7,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "All",
               "hexRadius": 0,
@@ -3804,6 +4374,7 @@
                 "type": "SpellPoisonCloudDamage2",
                 "customEffect": "Damage",
                 "customEffectValue": 40,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
                   "hexRadius": 3,
@@ -3833,9 +4404,11 @@
       {
         "tier": 3,
         "effectType": "Summon",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "TilesInCircle",
         "requiredCommanderSkills": [
           {
@@ -3843,12 +4416,68 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": {
+          "nameKey": "MapEntities/Battle/Trap/PoisonCloud",
+          "entityHealthPoints": null,
+          "bacterias": [
+            {
+              "bacteriaType": 299,
+              "type": "SpellPoisonCloud3",
+              "customEffect": "Aura",
+              "customEffectValue": 10,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "All",
+                "hexRadius": 0,
+                "bacteriaToAdd": {
+                  "bacteriaType": 359,
+                  "type": "SpellPoisonCloudDamage3",
+                  "customEffect": "Damage",
+                  "customEffectValue": 60,
+                  "secondaryCustomEffectValue": 0,
+                  "auraSettings": {
+                    "recipients": "All",
+                    "hexRadius": 3,
+                    "bacteriaToAdd": null,
+                    "isStackable": 0,
+                    "isPassable": 1
+                  },
+                  "modifierData": [],
+                  "resourcesIncome": [],
+                  "duration": {
+                    "type": "EntireBattle",
+                    "duration": 1
+                  }
+                },
+                "isStackable": 0,
+                "isPassable": 0
+              },
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 3
+              }
+            },
+            {
+              "bacteriaType": 360,
+              "type": "DestroyMapEntityEmpty",
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "BattleRound",
+                "duration": 3
+              }
+            }
+          ]
+        },
         "bacterias": [
           {
             "bacteriaType": 299,
             "type": "SpellPoisonCloud3",
             "customEffect": "Aura",
             "customEffectValue": 10,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "All",
               "hexRadius": 0,
@@ -3857,6 +4486,7 @@
                 "type": "SpellPoisonCloudDamage3",
                 "customEffect": "Damage",
                 "customEffectValue": 60,
+                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
                   "hexRadius": 3,
@@ -3932,17 +4562,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 300,
             "type": "SpellOnslaught1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3969,9 +4603,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -3983,12 +4619,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 300,
             "type": "SpellOnslaught1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4015,9 +4653,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -4029,12 +4669,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 300,
             "type": "SpellOnslaught1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4107,17 +4749,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 303,
             "type": "Apocalypse1",
             "customEffect": "Damage",
             "customEffectValue": 25,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4137,9 +4783,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [
           {
@@ -4151,12 +4799,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 304,
             "type": "Apocalypse2",
             "customEffect": "Damage",
             "customEffectValue": 50,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4176,9 +4826,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllTroops",
         "requiredCommanderSkills": [
           {
@@ -4190,12 +4842,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 305,
             "type": "Apocalypse3",
             "customEffect": "Damage",
             "customEffectValue": 75,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4261,17 +4915,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllRangedFriendlies",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 51,
             "type": "SpellRapidFire1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4298,9 +4956,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": null,
         "target": "AllRangedFriendlies",
         "requiredCommanderSkills": [
           {
@@ -4312,12 +4972,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 121,
             "type": "SpellRapidFire2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4344,9 +5006,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllRangedFriendlies",
         "requiredCommanderSkills": [
           {
@@ -4358,12 +5022,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 122,
             "type": "SpellRapidFire3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4436,17 +5102,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 53,
             "type": "SpellRejuvenation1",
             "customEffect": "Refresh",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4466,9 +5136,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -4480,12 +5152,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 123,
             "type": "SpellRejuvenation2",
             "customEffect": "Refresh",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4505,9 +5179,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -4519,12 +5195,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 124,
             "type": "SpellRejuvenation3",
             "customEffect": "Refresh",
             "customEffectValue": 1,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4590,17 +5268,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 306,
             "type": "SpellRupture1",
             "customEffect": "Damage",
             "customEffectValue": 50,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4620,9 +5302,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -4634,12 +5318,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 307,
             "type": "SpellRupture2",
             "customEffect": "Damage",
             "customEffectValue": 100,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4659,9 +5345,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -4673,12 +5361,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 308,
             "type": "SpellRupture3",
             "customEffect": "Damage",
             "customEffectValue": 150,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4740,17 +5430,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 309,
             "type": "SpellSmokeBomb1",
             "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4770,9 +5464,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -4780,12 +5476,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 310,
             "type": "SpellSmokeBomb2",
             "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4805,9 +5503,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -4815,12 +5515,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 311,
             "type": "SpellSmokeBomb3",
             "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4886,11 +5588,14 @@
       {
         "tier": 1,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "Troop",
         "maxTeleportRange": 3,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -4898,9 +5603,11 @@
       {
         "tier": 2,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "Troop",
         "maxTeleportRange": 4,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -4912,6 +5619,7 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -4919,9 +5627,11 @@
       {
         "tier": 3,
         "effectType": "Teleport",
+        "amountOfTargets": 1,
         "teleportDestination": "Troop",
         "maxTeleportRange": 5,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Troop",
         "requiredCommanderSkills": [
           {
@@ -4933,6 +5643,7 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           null
         ]
@@ -4982,17 +5693,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 254,
             "type": "SpellSabotage1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5019,9 +5734,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [
           {
@@ -5029,12 +5746,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 1106,
             "type": "SpellSabotage2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5061,9 +5780,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllEnemies",
         "requiredCommanderSkills": [
           {
@@ -5071,12 +5792,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 1107,
             "type": "SpellSabotage3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5145,17 +5868,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 440,
             "type": "SpellStandFast1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5200,9 +5927,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
           {
@@ -5210,12 +5939,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 441,
             "type": "SpellStandFast2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5260,9 +5991,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
           {
@@ -5270,12 +6003,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 442,
             "type": "SpellStandFast3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5362,17 +6097,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 480,
             "type": "SpellPacify1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5399,9 +6138,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -5409,12 +6150,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 481,
             "type": "SpellPacify2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5441,9 +6184,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -5451,12 +6196,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 482,
             "type": "SpellPacify3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5529,17 +6276,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 253,
             "type": "SpellEtherealScalesSkin1",
             "customEffect": "None",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5566,9 +6317,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -5580,12 +6333,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 253,
             "type": "SpellEtherealScalesSkin1",
             "customEffect": "None",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5612,9 +6367,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -5626,12 +6383,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 253,
             "type": "SpellEtherealScalesSkin1",
             "customEffect": "None",
             "customEffectValue": 5,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5704,17 +6463,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 553,
             "type": "SpellFury1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5747,9 +6510,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
           {
@@ -5761,12 +6526,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 554,
             "type": "SpellFury2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5799,9 +6566,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "AllFriendlies",
         "requiredCommanderSkills": [
           {
@@ -5813,12 +6582,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 555,
             "type": "SpellFury3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5897,17 +6668,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 556,
             "type": "SpellStrengthenEssence1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -5958,9 +6733,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -5972,12 +6749,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 556,
             "type": "SpellStrengthenEssence1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6028,9 +6807,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Friendly",
         "requiredCommanderSkills": [
           {
@@ -6042,12 +6823,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 556,
             "type": "SpellStrengthenEssence1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6144,17 +6927,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 559,
             "type": "SpellDestroyEssence1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6205,9 +6992,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -6219,12 +7008,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 560,
             "type": "SpellDestroyEssence2",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6275,9 +7066,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "Enemy",
         "requiredCommanderSkills": [
           {
@@ -6289,12 +7082,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 561,
             "type": "SpellDestroyEssence3",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6391,17 +7186,21 @@
       {
         "tier": 1,
         "effectType": "AddBacteria",
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "RangedEnemy",
         "requiredCommanderSkills": [],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 562,
             "type": "SpellCloudedVision1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6434,9 +7233,11 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
+        "amountOfTargets": 2,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "RangedEnemy",
         "requiredCommanderSkills": [
           {
@@ -6448,12 +7249,14 @@
             "level": 2
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 562,
             "type": "SpellCloudedVision1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6486,9 +7289,11 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
+        "amountOfTargets": 3,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
+        "numberOfTargetTiles": 1,
         "target": "RangedEnemy",
         "requiredCommanderSkills": [
           {
@@ -6500,12 +7305,14 @@
             "level": 3
           }
         ],
+        "mapEntityToSummon": null,
         "bacterias": [
           {
             "bacteriaType": 562,
             "type": "SpellCloudedVision1",
             "customEffect": "None",
             "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,

@@ -60,60 +60,63 @@ const Unit: NextPage<{ spell: SpellDTO }> = ({ spell }) => {
                     </Text>
                   </td>
                 </tr>
-                {tier.bacterias.map((bacteria, index) => (
-                  <tr key={index}>
-                    <td>
-                      <div
-                        dangerouslySetInnerHTML={{
-                          __html: bacteria.description,
-                        }}
-                      />
-                      {bacteria.duration && (
-                        <>
-                          <Text
-                            sx={(theme) => ({
-                              color: theme.colors[theme.primaryColor][5],
-                            })}
-                            component="span"
-                          >
-                            {terms.duration}:
-                          </Text>
-                          <Text component="span" mx="xs">
-                            {bacteria.duration}
-                          </Text>
-                        </>
-                      )}
-                      {tier.requiredCommanderSkills.length > 0 && (
-                        <div>
-                          <Text
-                            sx={(theme) => ({
-                              color: theme.colors[theme.primaryColor][5],
-                            })}
-                            component="span"
-                          >
-                            {terms.requiredSkills}:
-                          </Text>
-                          {tier.requiredCommanderSkills.map((requiredSkill) => (
-                            <PopoverLink
-                              key={requiredSkill.type}
-                              href={`/skills/${requiredSkill.type}`}
-                              popover={
-                                <Stack>
-                                  <Title order={4}>{requiredSkill.name}</Title>
-                                  <Text size="sm">{requiredSkill.lore}</Text>
-                                </Stack>
-                              }
+                <tr>
+                  <td>
+                    {tier.bacterias.map((bacteria, index) => (
+                      <div key={index}>
+                        <div
+                          dangerouslySetInnerHTML={{
+                            __html: bacteria.description,
+                          }}
+                        />
+                        {bacteria.duration && (
+                          <>
+                            <Text
+                              sx={(theme) => ({
+                                color: theme.colors[theme.primaryColor][5],
+                              })}
+                              component="span"
                             >
-                              <Text component="span" mx="xs">
-                                {requiredSkill.name} {requiredSkill.level}
-                              </Text>
-                            </PopoverLink>
-                          ))}
-                        </div>
-                      )}
-                    </td>
-                  </tr>
-                ))}
+                              {terms.duration}:
+                            </Text>
+                            <Text component="span" mx="xs">
+                              {bacteria.duration}
+                            </Text>
+                          </>
+                        )}
+                      </div>
+                    ))}
+
+                    {tier.requiredCommanderSkills.length > 0 && (
+                      <div>
+                        <Text
+                          sx={(theme) => ({
+                            color: theme.colors[theme.primaryColor][5],
+                          })}
+                          component="span"
+                        >
+                          {terms.requiredSkills}:
+                        </Text>
+                        {tier.requiredCommanderSkills.map((requiredSkill) => (
+                          <PopoverLink
+                            key={requiredSkill.type}
+                            href={`/skills/${requiredSkill.type}`}
+                            popover={
+                              <Stack>
+                                <Title order={4}>{requiredSkill.name}</Title>
+                                <Text size="sm">{requiredSkill.lore}</Text>
+                              </Stack>
+                            }
+                          >
+                            <Text component="span" mx="xs">
+                              {requiredSkill.name} {requiredSkill.level}
+                            </Text>
+                          </PopoverLink>
+                        ))}
+                      </div>
+                    )}
+                  </td>
+                </tr>
               </Fragment>
             ))}
           </tbody>

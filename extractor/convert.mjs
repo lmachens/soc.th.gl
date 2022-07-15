@@ -9,6 +9,7 @@ const artifactsSrc = await readJSONFile("./out/artifact.json");
 const termMapSrc = await readJSONFile("./out/termMap.json");
 const iconsSrc = await readJSONFile("./out/icons.json");
 const spellsSrc = await readJSONFile("./out/spell.json");
+const battleMapEntitySrc = await readJSONFile("./out/battleMapEntity.json");
 
 const adventureMapEntitySrc = await readJSONFile(
   "./out/adventureMapEntity.json"
@@ -168,6 +169,7 @@ const getBacteria = ({ bacteriaType, duration }) => {
     restriction: bacteria.restriction,
     customEffect: GENERIC_BACTERIA_CUSTOM_EFFECT[bacteria.customEffect],
     customEffectValue: bacteria.customEffectValue,
+    secondaryCustomEffectValue: bacteria.secondaryCustomEffectValue,
     auraSettings: bacteria.auraSettings,
     modifierData: [],
     resourcesIncome:
@@ -179,13 +181,23 @@ const getBacteria = ({ bacteriaType, duration }) => {
     duration: duration,
   };
 
+  if (
+    typeof duration.duration !== "undefined" &&
+    typeof duration.type === "undefined"
+  ) {
+    console.log(bacteriaType, duration);
+  }
+
   if (bacteria.auraSettings?.bacteriaToAdd?.bacteriaType) {
     const bacteriaToAdd = getBacteria({
       bacteriaType: bacteria.auraSettings.bacteriaToAdd.bacteriaType,
       duration: {
-        type: BACTERIA_DURATION_TYPES[
-          bacteria.auraSettings.bacteriaToAdd.duration.type
-        ],
+        type:
+          typeof bacteria.auraSettings.bacteriaToAdd.duration.type === "number"
+            ? BACTERIA_DURATION_TYPES[
+                bacteria.auraSettings.bacteriaToAdd.duration.type
+              ]
+            : bacteria.auraSettings.bacteriaToAdd.duration.type,
         duration: bacteria.auraSettings.bacteriaToAdd.duration.duration,
       },
     });
@@ -569,6 +581,35 @@ for (const building of buildings) {
   }
 }
 
+const getBattleMapEntity = (id) => {
+  const battleMapEntity = battleMapEntitySrc.find(
+    (battleMapEntity) => battleMapEntity.id === id
+  );
+  if (!battleMapEntity) {
+    return null;
+  }
+  const healthComponent = battleMapEntity.components.find(
+    (component) => typeof component.health !== "undefined"
+  );
+
+  const bacterias = battleMapEntity.bacterias.length
+    ? battleMapEntity.bacterias.map((bacteria) =>
+        getBacteria({
+          bacteriaType: bacteria.bacteriaType,
+          duration: {
+            type: SPELL_DURATION_TYPES[bacteria.duration.type],
+            duration: bacteria.duration.duration,
+          },
+        })
+      )
+    : null;
+  return {
+    nameKey: battleMapEntity.nameKey,
+    entityHealthPoints: healthComponent ? healthComponent.health : null,
+    bacterias,
+  };
+};
+
 const spells = spellsSrc.map((spell) => ({
   id: spell.id,
   icon: spell.icon,
@@ -582,11 +623,16 @@ const spells = spellsSrc.map((spell) => ({
   tiers: spell.tiers.map((tier) => ({
     tier: tier.tier,
     effectType: SPELL_EFFECT_TYPES[tier.effectType],
+    amountOfTargets: tier.amountOfTargets,
     teleportDestination: SPELL_TELEPORT_DESTINATIONS[tier.teleportDestination],
     maxTeleportRange: tier.maxTeleportRange,
     circleRadius: tier.circleRadius,
+    numberOfTargetTiles: tier.relativeTargetTiles?.length || null,
     target: SPELL_TARGET_TYPES[tier.target],
     requiredCommanderSkills: tier.requiredCommanderSkills.map(getSimpleSkill),
+    mapEntityToSummon: tier.mapEntityToSummon
+      ? getBattleMapEntity(tier.mapEntityToSummon)
+      : null,
     bacterias: tier.bacterias.map((bacteria) =>
       getBacteria({
         bacteriaType: bacteria.bacteriaType,

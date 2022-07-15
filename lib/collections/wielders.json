@@ -592,6 +592,7 @@
         "type": "SpecializationChaos",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1170,6 +1171,7 @@
         "type": "SpecializationOrder",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -1752,6 +1754,7 @@
         "type": "SpecializationTroopMove",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2364,6 +2367,7 @@
         "type": "SpecializationSpellDamage",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -2985,6 +2989,7 @@
         "type": "SpecializationRangedDamage",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -3602,6 +3607,7 @@
         "type": "SpecializationCreation",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4210,6 +4216,7 @@
         "type": "SpecializationFaeyOffense",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -4837,6 +4844,7 @@
         "type": "SpecializationSpellResistance",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -5415,6 +5423,7 @@
         "type": "SpecializationHumanDefense",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -6004,6 +6013,7 @@
         "type": "SpecializationOrder",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -6682,6 +6692,7 @@
         "type": "SpecializationSpellDamage",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -7273,6 +7284,7 @@
         "type": "SpecializationArcana",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -7947,6 +7959,7 @@
         "type": "SpecializationDestruction",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -8621,6 +8634,7 @@
         "type": "SpecializationRatsHP",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -9212,6 +9226,7 @@
         "type": "SpecializationRangedResistance",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -9797,6 +9812,7 @@
         "type": "SpecializationTroopMove",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -10388,6 +10404,7 @@
         "type": "SpecializationUndeadOffense",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -10973,6 +10990,7 @@
         "type": "SpecializationHumanDefense",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -12079,6 +12097,7 @@
         "type": "SpecializationTroopRangedRange",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -12650,6 +12669,7 @@
         "type": "SpecializationOrder",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -13266,6 +13286,7 @@
         "type": "SpecializationRangedDamage",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -13811,6 +13832,7 @@
         "type": "SpecializationChaos",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -14356,6 +14378,7 @@
         "type": "SpecializationSpellResistance",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -14972,6 +14995,7 @@
         "type": "SpecializationDestruction",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -15543,6 +15567,7 @@
         "type": "SpecializationHumanDefense",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -16159,6 +16184,7 @@
         "type": "SpecializationHarimaOffense",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -16752,6 +16778,7 @@
         "type": "SpecializationHunterDamage",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -17375,6 +17402,7 @@
         "type": "SpecializationDestruction",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -17994,6 +18022,7 @@
         "type": "SpecializationSpellDamage",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -18617,6 +18646,7 @@
         "type": "SpecializationSpellResistance",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -19210,6 +19240,7 @@
         "type": "SpecializationRavagerMove",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -19803,6 +19834,7 @@
         "type": "SpecializationRangedResistance",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -20421,6 +20453,7 @@
         "type": "SpecializationRanaOffense",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -21041,6 +21074,7 @@
         "type": "SpecializationTroopRangedRange",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
@@ -21659,6 +21693,7 @@
         "type": "SpecializationArcana",
         "customEffect": "None",
         "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
