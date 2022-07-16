@@ -115,66 +115,78 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
             ))}
           </tbody>
         </Table>
-        <Title order={3}>{terms.skills}</Title>
-        <Table striped>
+        <Title order={3}>Skill pool</Title>
+        <Text size="sm" sx={{ fontStyle: "italic" }}>
+          The requirements are based on the wielder level. Some skills have
+          requirements on first levels, but not on higher levels.
+        </Text>
+        <Table>
           <thead>
             <tr>
               <th>Name</th>
-              <th>Required Skills</th>
-              <th>Minimum Level</th>
+              <th>
+                {terms.requiredSkills} ({terms.level})
+              </th>
+              <th>Level Range</th>
             </tr>
           </thead>
           <tbody>
-            {wielder.skills.map((skill) => (
-              <tr key={`${wielder.name}-${skill.type}`}>
-                <td>
-                  <PopoverLink
-                    href={`/skills/${skill.type}`}
-                    popover={
-                      <Stack>
-                        <Title order={4}>{skill.name}</Title>
-                        <Text size="sm">{skill.lore}</Text>
-                      </Stack>
-                    }
-                  >
-                    {skill.name}
-                  </PopoverLink>
-                </td>
-                <td>
-                  {skill.requiresSkill &&
-                    skill.requiredSkills?.map((requiredSkill, index) => (
-                      <Fragment key={requiredSkill.type}>
-                        {index !== 0 && (
-                          <Text
-                            component="span"
-                            mr="sm"
-                            color="dimmed"
-                            transform="uppercase"
-                            size="xs"
-                          >
-                            {skill.requirementType === "RequireAll"
-                              ? terms.and
-                              : terms.or}
-                          </Text>
-                        )}
-                        <PopoverLink
-                          href={`/skills/${requiredSkill.type}`}
-                          popover={
-                            <Stack>
-                              <Title order={4}>{requiredSkill.name}</Title>
-                              <Text size="sm">{requiredSkill.lore}</Text>
-                            </Stack>
-                          }
-                        >
-                          <Text component="span" mr="sm">
-                            {requiredSkill.name}
-                          </Text>
-                        </PopoverLink>
-                      </Fragment>
-                    ))}
-                </td>
-                <td>{skill.levelRange?.min || 1}</td>
-              </tr>
+            {wielder.skillPools.map((skillPool) => (
+              <Fragment key={skillPool.name}>
+                {skillPool.skills.map((skill) => (
+                  <tr key={`${skillPool.name}-${skill.type}`}>
+                    <td>
+                      <PopoverLink
+                        href={`/skills/${skill.type}`}
+                        popover={
+                          <Stack>
+                            <Title order={4}>{skill.name}</Title>
+                            <Text size="sm">{skill.lore}</Text>
+                          </Stack>
+                        }
+                      >
+                        {skill.name}
+                      </PopoverLink>
+                    </td>
+                    <td>
+                      {skill.requiresSkill &&
+                        skill.requiredSkills.map((requiredSkill, index) => (
+                          <Fragment key={requiredSkill.type}>
+                            {index !== 0 && (
+                              <Text
+                                component="span"
+                                mr="sm"
+                                color="dimmed"
+                                transform="uppercase"
+                                size="xs"
+                              >
+                                {skill.requirementType === "RequireAll"
+                                  ? terms.and
+                                  : terms.or}
+                              </Text>
+                            )}
+                            <PopoverLink
+                              href={`/skills/${requiredSkill.type}`}
+                              popover={
+                                <Stack>
+                                  <Title order={4}>{requiredSkill.name}</Title>
+                                  <Text size="sm">{requiredSkill.lore}</Text>
+                                </Stack>
+                              }
+                            >
+                              <Text component="span" mx="xs">
+                                {requiredSkill.name} ({requiredSkill.level})
+                              </Text>
+                            </PopoverLink>
+                          </Fragment>
+                        ))}
+                    </td>
+                    <td>
+                      {skillPool.levelRange.min}-{skillPool.levelRange.max}
+                    </td>
+                  </tr>
+                ))}
+              </Fragment>
             ))}
           </tbody>
         </Table>
@@ -205,7 +217,6 @@ export const getStaticProps = withStaticBase(async (context) => {
       "Adventure/PurchaseWielderMenu/TroopsAtStartHeader",
       locale
     ),
-    skills: getTerm("Tutorial/CodexCategory/Skills", locale),
     specializations: getTerm("Commanders/Tooltip/Specializations", locale),
     production: getTerm("Common/Details/GeneratesResources", locale),
     level: getTerm("Common/Stats/Level/Header", locale),
@@ -229,6 +240,10 @@ export const getStaticProps = withStaticBase(async (context) => {
     and: getSiteTerm("And", locale),
     or: getSiteTerm("Or", locale),
     startingSkills: getSiteTerm("StartingSkills", locale),
+    requiredSkills: getTerm(
+      "Tutorial/Codex/Spells/RequiredSkillMultiple",
+      locale
+    ),
   };
 
   const icons = getWielderStatsIcons();
