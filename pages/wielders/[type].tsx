@@ -5,13 +5,13 @@ import { Box, Group, Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
 import { getSiteTerm, getTerm, TermsDTO } from "../../lib/terms";
-import Head from "next/head";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
 import { useTerms } from "../../components/Terms/Terms";
 import Lore from "../../components/Lore/Lore";
 import WielderStats from "../../components/WielderStats/WielderStats";
 import { Fragment } from "react";
 import { getWielderStatsIcons, IconsDTO } from "../../lib/icons";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
   wielder,
@@ -21,13 +21,10 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
 
   return (
     <>
-      <Head>
-        <title>{wielder.name} - SoC.gg</title>
-        <meta
-          name="description"
-          content={`${wielder.description} - ${wielder.name} (Songs of Conquest)`}
-        />
-      </Head>
+      <PageHead
+        title={`${wielder.name} - SoC.gg`}
+        description={`${wielder.description} - ${wielder.name} (Songs of Conquest)`}
+      />
       <Stack align="flex-start">
         <Group>
           <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />

@@ -3,24 +3,21 @@ import { withStaticBase } from "../../lib/staticProps";
 
 import { Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import Head from "next/head";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { useTerms } from "../../components/Terms/Terms";
 import { getSpell, getSpells, SpellDTO } from "../../lib/spells";
 import { Fragment } from "react";
 import PopoverLink from "../../components/PopoverLink/PopoverLink";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Unit: NextPage<{ spell: SpellDTO }> = ({ spell }) => {
   const terms = useTerms();
   return (
     <>
-      <Head>
-        <title>{spell.name} - SoC.gg</title>
-        <meta
-          name="description"
-          content={`${spell.description} - ${spell.name} (Songs of Conquest)`}
-        />
-      </Head>
+      <PageHead
+        title={`${spell.name} - SoC.gg`}
+        description={`${spell.description} - ${spell.name} (Songs of Conquest)`}
+      />
       <Stack>
         <Title order={4}>{spell.name}</Title>
         <SpriteSheet spriteSheet={spell.icon} folder="spells" />

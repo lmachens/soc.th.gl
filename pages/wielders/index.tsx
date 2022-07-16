@@ -3,12 +3,12 @@ import { withStaticBase } from "../../lib/staticProps";
 import { Group, Select, SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getWielders, WielderSimpleDTO } from "../../lib/wielders";
-import Head from "next/head";
 import Article from "../../components/Article/Article";
 import { getWielderStatsIcons, IconsDTO } from "../../lib/icons";
 import { useState } from "react";
 import { getSiteTerm, getTerm } from "../../lib/terms";
 import { useTerms } from "../../components/Terms/Terms";
+import PageHead from "../../components/PageHead/PageHead";
 
 const SORT_BY = ["name", "offense", "defense", "movement", "viewRadius"];
 const sortHandle =
@@ -39,10 +39,10 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[]; icons: IconsDTO }> = ({
 
   return (
     <>
-      <Head>
-        <title>Wielders - SoC.gg</title>
-        <meta name="description" content="All wielders of Songs of Conquest" />
-      </Head>
+      <PageHead
+        title="Wielders - SoC.gg"
+        description="All wielders of Songs of Conquest"
+      />
       <Select
         label={terms.sortBy}
         value={sortBy}

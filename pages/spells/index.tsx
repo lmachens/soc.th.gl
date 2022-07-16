@@ -1,19 +1,19 @@
 import { NextPage } from "next";
-import Head from "next/head";
 import { withStaticBase } from "../../lib/staticProps";
 
 import { SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import Article from "../../components/Article/Article";
 import { getSpells, SpellSimpleDTO } from "../../lib/spells";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Spells: NextPage<{ spells: SpellSimpleDTO[] }> = ({ spells }) => {
   return (
     <>
-      <Head>
-        <title>Spells - SoC.gg</title>
-        <meta name="description" content="All spells of Songs of Conquest" />
-      </Head>
+      <PageHead
+        title="Spells - SoC.gg"
+        description="All spells of Songs of Conquest"
+      />
       <SimpleGrid
         breakpoints={[
           { minWidth: "sm", cols: 1 },

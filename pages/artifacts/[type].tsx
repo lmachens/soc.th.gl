@@ -3,23 +3,20 @@ import { withStaticBase } from "../../lib/staticProps";
 
 import { Stack, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import Head from "next/head";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { ArtifactDTO, getArtifact, getArtifacts } from "../../lib/artifacts";
 import { Fragment } from "react";
 import { useTerms } from "../../components/Terms/Terms";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Unit: NextPage<{ artifact: ArtifactDTO }> = ({ artifact }) => {
   const terms = useTerms();
   return (
     <>
-      <Head>
-        <title>{artifact.name} - SoC.gg</title>
-        <meta
-          name="description"
-          content={`${artifact.description} - ${artifact.name} (Songs of Conquest)`}
-        />
-      </Head>
+      <PageHead
+        title={`${artifact.name} - SoC.gg`}
+        description={`${artifact.description} - ${artifact.name} (Songs of Conquest)`}
+      />
       <Stack>
         <Title order={4}>{artifact.name}</Title>
         <SpriteSheet spriteSheet={artifact.icon} folder="artifacts" />
