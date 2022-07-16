@@ -1902,20 +1902,7 @@
               "isStackable": 1,
               "isPassable": 1
             },
-            "modifierData": [
-              {
-                "type": 2,
-                "modifier": "TroopDefense",
-                "amountToAdd": 25,
-                "applicationType": 0
-              },
-              {
-                "type": 34,
-                "modifier": "TroopSpellDamageResistance",
-                "amountToAdd": 25,
-                "applicationType": 0
-              }
-            ],
+            "modifierData": [],
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRoundWithTail",
@@ -2587,26 +2574,7 @@
               "isStackable": 1,
               "isPassable": 1
             },
-            "modifierData": [
-              {
-                "type": 5,
-                "modifier": "TroopMeleeOffense",
-                "amountToAdd": 20,
-                "applicationType": 0
-              },
-              {
-                "type": 8,
-                "modifier": "TroopRangedOffense",
-                "amountToAdd": 20,
-                "applicationType": 0
-              },
-              {
-                "type": 1,
-                "modifier": "TroopDamage",
-                "amountToAdd": 1,
-                "applicationType": 0
-              }
-            ],
+            "modifierData": [],
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRoundWithTail",
@@ -3973,26 +3941,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 5,
-              "modifier": "TroopMeleeOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 8,
-              "modifier": "TroopRangedOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": 5,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -4359,26 +4308,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 5,
-              "modifier": "TroopMeleeOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 8,
-              "modifier": "TroopRangedOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": 5,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -6615,26 +6545,7 @@
               "isStackable": 1,
               "isPassable": 1
             },
-            "modifierData": [
-              {
-                "type": 5,
-                "modifier": "TroopMeleeOffense",
-                "amountToAdd": 20,
-                "applicationType": 0
-              },
-              {
-                "type": 8,
-                "modifier": "TroopRangedOffense",
-                "amountToAdd": 20,
-                "applicationType": 0
-              },
-              {
-                "type": 1,
-                "modifier": "TroopDamage",
-                "amountToAdd": 1,
-                "applicationType": 0
-              }
-            ],
+            "modifierData": [],
             "resourcesIncome": [],
             "duration": {
               "type": "Once",
@@ -7854,26 +7765,7 @@
               "isStackable": 1,
               "isPassable": 1
             },
-            "modifierData": [
-              {
-                "type": 5,
-                "modifier": "TroopMeleeOffense",
-                "amountToAdd": 20,
-                "applicationType": 0
-              },
-              {
-                "type": 8,
-                "modifier": "TroopRangedOffense",
-                "amountToAdd": 20,
-                "applicationType": 0
-              },
-              {
-                "type": 1,
-                "modifier": "TroopDamage",
-                "amountToAdd": 1,
-                "applicationType": 0
-              }
-            ],
+            "modifierData": [],
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRoundWithTail",
@@ -8418,20 +8310,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": -10,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": -10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -9001,20 +8880,7 @@
               "isStackable": 1,
               "isPassable": 1
             },
-            "modifierData": [
-              {
-                "type": 2,
-                "modifier": "TroopDefense",
-                "amountToAdd": 25,
-                "applicationType": 0
-              },
-              {
-                "type": 34,
-                "modifier": "TroopSpellDamageResistance",
-                "amountToAdd": 25,
-                "applicationType": 0
-              }
-            ],
+            "modifierData": [],
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRoundWithTail",
@@ -9069,20 +8935,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": -10,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": -10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -11846,20 +11699,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": -10,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": -10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -13270,26 +13110,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 5,
-              "modifier": "TroopMeleeOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 8,
-              "modifier": "TroopRangedOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": 5,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -14503,26 +14324,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 5,
-              "modifier": "TroopMeleeOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 8,
-              "modifier": "TroopRangedOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": 5,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -14745,14 +14547,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": 10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -15000,20 +14795,7 @@
               "isStackable": 1,
               "isPassable": 1
             },
-            "modifierData": [
-              {
-                "type": 2,
-                "modifier": "TroopDefense",
-                "amountToAdd": 25,
-                "applicationType": 0
-              },
-              {
-                "type": 34,
-                "modifier": "TroopSpellDamageResistance",
-                "amountToAdd": 25,
-                "applicationType": 0
-              }
-            ],
+            "modifierData": [],
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRoundWithTail",
@@ -15062,14 +14844,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": 10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -15826,20 +15601,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": -10,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": -10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -16160,20 +15922,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": -10,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": -10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -16580,20 +16329,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": -10,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": -10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -17158,26 +16894,7 @@
               "isStackable": 1,
               "isPassable": 1
             },
-            "modifierData": [
-              {
-                "type": 5,
-                "modifier": "TroopMeleeOffense",
-                "amountToAdd": 20,
-                "applicationType": 0
-              },
-              {
-                "type": 8,
-                "modifier": "TroopRangedOffense",
-                "amountToAdd": 20,
-                "applicationType": 0
-              },
-              {
-                "type": 1,
-                "modifier": "TroopDamage",
-                "amountToAdd": 1,
-                "applicationType": 0
-              }
-            ],
+            "modifierData": [],
             "resourcesIncome": [],
             "duration": {
               "type": "Once",
@@ -17744,26 +17461,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 5,
-              "modifier": "TroopMeleeOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 8,
-              "modifier": "TroopRangedOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": 5,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -17852,20 +17550,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": -10,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": -10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -18149,26 +17834,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 5,
-              "modifier": "TroopMeleeOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 8,
-              "modifier": "TroopRangedOffense",
-              "amountToAdd": 5,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": 5,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -18220,20 +17886,7 @@
             "isStackable": 0,
             "isPassable": 1
           },
-          "modifierData": [
-            {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": -10,
-              "applicationType": 0
-            },
-            {
-              "type": 3,
-              "modifier": "TroopInitiative",
-              "amountToAdd": -10,
-              "applicationType": 0
-            }
-          ],
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",

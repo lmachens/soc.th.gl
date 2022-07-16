@@ -22,6 +22,15 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
       <Table>
         <tbody>
           <tr>
+            <td>{terms.essenceIntro}</td>
+            <td>
+              {Object.entries(unitType.stats.essenceStats)
+                .filter(([, count]) => count > 0)
+                .map(([essence, count]) => `${terms[essence]} ${count}x`)
+                .join(", ")}
+            </td>
+          </tr>
+          <tr>
             <td>{terms.maxTroopSize}</td>
             <td>{unitType.stats.maxTroopSize}</td>
           </tr>
@@ -134,6 +143,12 @@ export const getStaticProps = withStaticBase(async (context) => {
     movement: getTerm("Units/Tooltip/Movement", locale),
     initiative: getTerm("Units/Tooltip/Initiative", locale),
     status: getTerm("Units/Tooltip/Status", locale),
+    essenceIntro: getTerm("Units/Types/EssenceIntro", locale),
+    order: getTerm("Units/Types/Order", locale),
+    creation: getTerm("Units/Types/Creation", locale),
+    chaos: getTerm("Units/Types/Chaos", locale),
+    arcana: getTerm("Units/Types/Arcana", locale),
+    destruction: getTerm("Units/Types/Destruction", locale),
   };
 
   return {

@@ -203,7 +203,7 @@ const getBacteria = ({ bacteriaType, duration }) => {
     });
     if (bacteriaToAdd) {
       result.auraSettings.bacteriaToAdd = bacteriaToAdd;
-      result.modifierData =
+      bacteriaToAdd.modifierData =
         bacteriaToAdd.modifierData?.map((modifier) => ({
           type: modifier.type,
           modifier: modifier.modifier,
