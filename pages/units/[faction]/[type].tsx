@@ -4,11 +4,11 @@ import { withStaticBase } from "../../../lib/staticProps";
 import { Stack, Table, Title } from "@mantine/core";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { getUnit, getUnits, UnitDTO, UnitTypeDTO } from "../../../lib/units";
-import Head from "next/head";
 import { getTerm, TermsDTO } from "../../../lib/terms";
 import { BacteriaDTO } from "../../../lib/bacterias";
 import { useTerms } from "../../../components/Terms/Terms";
 import Lore from "../../../components/Lore/Lore";
+import PageHead from "../../../components/PageHead/PageHead";
 
 const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
   const terms = useTerms();
@@ -104,13 +104,10 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
 
   return (
     <>
-      <Head>
-        <title>{unit.vanilla.name} - SoC.gg</title>
-        <meta
-          name="description"
-          content={`${unit.vanilla.description} - ${unit.vanilla.name} (Songs of Conquest)`}
-        />
-      </Head>
+      <PageHead
+        title={`${unit.vanilla.name} - SoC.gg`}
+        description={`${unit.vanilla.description} - ${unit.vanilla.name} (Songs of Conquest)`}
+      />
       <Stack>
         {renderType(unit.vanilla)}
         {unit.upgraded && renderType(unit.upgraded)}

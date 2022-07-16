@@ -3,25 +3,22 @@ import { withStaticBase } from "../../../lib/staticProps";
 
 import { Group, Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
-import Head from "next/head";
 import { getTerm, TermsDTO } from "../../../lib/terms";
 import { BuildingDTO, getBuilding, getBuildings } from "../../../lib/buildings";
 import Lore from "../../../components/Lore/Lore";
 import { useTerms } from "../../../components/Terms/Terms";
 import AppLink from "../../../components/AppLink/AppLink";
+import PageHead from "../../../components/PageHead/PageHead";
 
 const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
   const terms = useTerms();
 
   return (
     <>
-      <Head>
-        <title>{building.name} - SoC.gg</title>
-        <meta
-          name="description"
-          content={`${building.description} - ${building.name} (Songs of Conquest)`}
-        />
-      </Head>
+      <PageHead
+        title={`${building.name} - SoC.gg`}
+        description={`${building.description} - ${building.name} (Songs of Conquest)`}
+      />
       <Stack align="flex-start">
         <Group>
           <SpriteSheet spriteSheet={building.portraits[0]} folder="buildings" />

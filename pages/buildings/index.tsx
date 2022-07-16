@@ -1,21 +1,21 @@
 import { NextPage } from "next";
-import Head from "next/head";
 import { withStaticBase } from "../../lib/staticProps";
 
 import { SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import Article from "../../components/Article/Article";
 import { BuildingSimpleDTO, getBuildings } from "../../lib/buildings";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Buildings: NextPage<{ buildings: BuildingSimpleDTO[] }> = ({
   buildings,
 }) => {
   return (
     <>
-      <Head>
-        <title>Buildings - SoC.gg</title>
-        <meta name="description" content="All buildings of Songs of Conquest" />
-      </Head>
+      <PageHead
+        title="Buildings - SoC.gg"
+        description="All buildings of Songs of Conquest"
+      />
       <SimpleGrid
         breakpoints={[
           { minWidth: "sm", cols: 1 },
