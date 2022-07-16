@@ -264,36 +264,22 @@ const wielders = factionsSrc
 
         const startingSkills = commander.skills.map(getSimpleSkill);
 
-        // Command is not included in the skill pools and has to be added manually
-        const skills = [
-          {
-            type: "Command",
-            levelRange: {
-              min: 1,
-              max: 99,
-            },
-            requiresSkill: false,
-            requirementType: "RequireAny",
-            requiredSkills: [],
-          },
-        ];
-        skillPool.pools.forEach((pool) => {
-          pool.skills.forEach((skill) => {
+        const skillPools = skillPool.pools.map((pool) => ({
+          name: pool.name,
+          levelRange: pool.levelRange,
+          skills: pool.skills.map((skill) => {
             const type = skillsSrc.find(
               (skillSrc) => skillSrc.id === skill.skill
             ).type;
-            if (!skills.some((existingSkill) => existingSkill.type === type)) {
-              skills.push({
-                type: type,
-                levelRange: pool.levelRange,
-                requiresSkill: skill.requiresSkill ? true : false,
-                requirementType:
-                  skill.requirementType === 0 ? "RequireAny" : "RequireAll",
-                requiredSkills: skill.requiredSkills.map(getSimpleSkill),
-              });
-            }
-          });
-        });
+            return {
+              type: type,
+              requiresSkill: skill.requiresSkill ? true : false,
+              requirementType:
+                skill.requirementType === 0 ? "RequireAny" : "RequireAll",
+              requiredSkills: skill.requiredSkills.map(getSimpleSkill),
+            };
+          }),
+        }));
 
         return {
           type: commander.type,
@@ -314,7 +300,7 @@ const wielders = factionsSrc
             command: commander.stats.command,
           },
           startingSkills: startingSkills,
-          skills: skills,
+          skillPools: skillPools,
           units: commander.units.map((unit) => ({
             languageKey: getUnit(unit).languageKey,
             size: unit.size,

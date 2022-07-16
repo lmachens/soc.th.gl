@@ -61,29 +61,31 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
         sprite: sprite,
       };
     }),
-    startingSkills: wielderSrc.startingSkills
-      .map((skill) => ({
-        type: skill.type,
-        lore: getTerm(`Skills/${skill.type}/Lore`, locale),
-        name: getTerm(`Skills/${skill.type}`, locale),
-        level: skill.level,
-      })),
-    skills: wielderSrc.skills.map((skill) => ({
+    startingSkills: wielderSrc.startingSkills.map((skill) => ({
       type: skill.type,
       lore: getTerm(`Skills/${skill.type}/Lore`, locale),
       name: getTerm(`Skills/${skill.type}`, locale),
-      levelRange: skill.levelRange || null,
-      requiresSkill: skill.requiresSkill || null,
-      requirementType:
-        (skill.requirementType as "RequireAny" | "RequireAll" | undefined) ||
-        null,
-      requiredSkills:
-        skill.requiredSkills?.map((requiredSkill) => ({
-          type: requiredSkill.type,
-          lore: getTerm(`Skills/${requiredSkill.type}/Lore`, locale),
-          name: getTerm(`Skills/${requiredSkill.type}`, locale),
-          level: requiredSkill.level,
-        })) || null,
+      level: skill.level,
+    })),
+    skillPools: wielderSrc.skillPools.map((skillPool) => ({
+      name: skillPool.name,
+      levelRange: skillPool.levelRange,
+      skills: skillPool.skills.map((skill) => ({
+        type: skill.type,
+        lore: getTerm(`Skills/${skill.type}/Lore`, locale),
+        name: getTerm(`Skills/${skill.type}`, locale),
+        requiresSkill: skill.requiresSkill || null,
+        requirementType:
+          (skill.requirementType as "RequireAny" | "RequireAll" | undefined) ||
+          null,
+        requiredSkills:
+          skill.requiredSkills?.map((requiredSkill) => ({
+            type: requiredSkill.type,
+            lore: getTerm(`Skills/${requiredSkill.type}/Lore`, locale),
+            name: getTerm(`Skills/${requiredSkill.type}`, locale),
+            level: requiredSkill.level,
+          })) || null,
+      })),
     })),
     specializations: wielderSrc.specializations.map((specialization) =>
       getLocaleBacteria(specialization, locale)
@@ -127,24 +129,25 @@ export type WielderDTO = {
     name: string;
     level: number;
   }[];
-  skills: {
-    type: string;
-    lore: string;
+  skillPools: {
     name: string;
     levelRange: {
       min: number;
       max: number;
-    } | null;
-    requiresSkill: boolean | null;
-    requirementType: "RequireAny" | "RequireAll" | null;
-    requiredSkills:
-    | {
-      level: number;
+    };
+    skills: {
       type: string;
       lore: string;
       name: string;
-    }[]
-    | null;
+      requiresSkill: boolean | null;
+      requirementType: "RequireAny" | "RequireAll" | null;
+      requiredSkills: {
+        level: number;
+        type: string;
+        lore: string;
+        name: string;
+      }[];
+    }[];
   }[];
   units: {
     name: string;
