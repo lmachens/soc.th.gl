@@ -62,14 +62,23 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       .map((wielder) => ({
         to: `/wielders/${wielder.type}`,
         label: wielder.name,
+        description: wielder.factionName,
       }))
       .sort(sortByLabel);
 
     const units = getUnits(locale)
       .map((unit) => {
+        let label = unit.vanilla.name;
+        if (unit.upgraded) {
+          label += ` / ${unit.upgraded.name}`;
+        }
+        if (unit.superUpgraded) {
+          label += ` / ${unit.superUpgraded.name}`;
+        }
+
         return {
           to: `/units/${unit.faction}/${unit.vanilla.languageKey}`,
-          label: unit.vanilla.name,
+          label,
           description: unit.faction,
         };
       })
@@ -80,7 +89,6 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
         return {
           to: `/artifacts/${artifact.type}`,
           label: artifact.name,
-          description: artifact.description,
         };
       })
       .sort(sortByLabel);
@@ -90,6 +98,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       .map((building) => ({
         to: `/buildings/${building.type}`,
         label: building.name,
+        description: building.factionName,
       }))
       .sort(sortByLabel);
 

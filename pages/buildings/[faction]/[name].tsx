@@ -27,9 +27,12 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
             <Lore text={building.description} />
           </Stack>
         </Group>
-        <Title order={2}>{terms.requirements}</Title>
         <Table>
           <tbody>
+            <tr>
+              <td>{terms.faction}</td>
+              <td>{building.factionName}</td>
+            </tr>
             <tr>
               <td>{terms.cost}</td>
               <td>
@@ -93,7 +96,7 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
                 </td>
                 <td>
                   {incomePerLevel.resources.map((resource) => (
-                    <Text key={resource.type} size="sm">
+                    <Text key={resource.type} size="sm" mr="xs">
                       {resource.amount} {resource.type}
                     </Text>
                   ))}
@@ -101,6 +104,7 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
                     <AppLink
                       key={troopIncome.name}
                       href={`/units/${troopIncome.factionKey}/${troopIncome.unitKey}`}
+                      mr="xs"
                     >
                       {troopIncome.size} {troopIncome.name}
                     </AppLink>
@@ -136,6 +140,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     troopIncome: getTerm("Adventure/MapEntityHUD/TroopIncome/Header", locale),
     level: getTerm("Common/Stats/Level/Header", locale),
     viewRadius: getTerm("Commanders/Details/CommanderStat/View", locale),
+    faction: getTerm("Adventure/TeamQueueHUD/Faction", locale),
   };
 
   return {

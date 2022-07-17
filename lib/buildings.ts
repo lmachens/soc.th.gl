@@ -1,13 +1,17 @@
 import buildingsCollection from "./collections/buildings.json";
+import { getFactions } from "./factions";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
 import { getUnit } from "./units";
 
 export const getBuildings = (locale: string) => {
+  const factions = getFactions(locale);
   const buildings = buildingsCollection.map<BuildingSimpleDTO>((building) => ({
     id: building.id,
     type: building.nameKey,
     factionId: building.factionId,
+    factionName: factions.find((faction) => faction.id === building.factionId)!
+      .name,
     name: getTerm(building.nameKey, locale),
     description: getTerm(building.descriptionKey, locale),
     portraits: building.portraits,
@@ -19,6 +23,8 @@ export const getBuilding = (
   type: string,
   locale: string
 ): BuildingDTO | null => {
+  const factions = getFactions(locale);
+
   const buildingSrc = buildingsCollection.find(
     (building) => building.nameKey === type
   );
@@ -30,6 +36,9 @@ export const getBuilding = (
     id: buildingSrc.id,
     type: buildingSrc.nameKey,
     factionId: buildingSrc.factionId,
+    factionName: factions.find(
+      (faction) => faction.id === buildingSrc.factionId
+    )!.name,
     name: getTerm(buildingSrc.nameKey, locale),
     description: getTerm(buildingSrc.descriptionKey, locale),
     portraits: buildingSrc.portraits,
@@ -104,6 +113,7 @@ export type BuildingSimpleDTO = {
   id: number;
   type: string;
   factionId: number;
+  factionName: string;
   name: string;
   description: string;
   portraits: SpriteDTO[];
@@ -113,6 +123,7 @@ export type BuildingDTO = {
   id: number;
   type: string;
   factionId: number;
+  factionName: string;
   name: string;
   description: string;
   portraits: SpriteDTO[];
