@@ -249,6 +249,7 @@ const getSimpleSkill = ({ skill, level }) => {
   };
 };
 const UNIT_TYPES = ["vanilla", "upgraded", "superUpgraded"];
+const SKILL_POOL_EVALUATION = ["LevelRange", "LevelInterval"];
 const getUnit = ({ factionIndex, unitIndex, upgradeType }) => {
   const unitType = UNIT_TYPES[upgradeType];
   return factions[factionIndex].units[unitIndex][unitType];
@@ -266,7 +267,10 @@ const wielders = factionsSrc
 
         const skillPools = skillPool.pools.map((pool) => ({
           name: pool.name,
+          evaluationType: SKILL_POOL_EVALUATION[pool.evaluationType],
           levelRange: pool.levelRange,
+          levelIntervalStartLevel: pool.levelIntervalStartLevel,
+          levelInterval: pool.levelInterval,
           skills: pool.skills.map((skill) => {
             const type = skillsSrc.find(
               (skillSrc) => skillSrc.id === skill.skill

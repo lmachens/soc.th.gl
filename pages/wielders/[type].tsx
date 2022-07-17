@@ -127,7 +127,7 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
               <th>
                 {terms.requiredSkills} ({terms.level})
               </th>
-              <th>Level Range</th>
+              <th>Wielder level</th>
             </tr>
           </thead>
           <tbody>
@@ -182,7 +182,16 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
                         ))}
                     </td>
                     <td>
-                      {skillPool.levelRange.min}-{skillPool.levelRange.max}
+                      {skillPool.evaluationType === "LevelRange" &&
+                        `${skillPool.levelRange.min}-${skillPool.levelRange.max}`}
+                      {skillPool.evaluationType === "LevelInterval" &&
+                        `${skillPool.levelIntervalStartLevel}, ${
+                          skillPool.levelIntervalStartLevel +
+                          skillPool.levelInterval
+                        }, ${
+                          skillPool.levelIntervalStartLevel +
+                          skillPool.levelInterval * 2
+                        }, ...`}
                     </td>
                   </tr>
                 ))}
