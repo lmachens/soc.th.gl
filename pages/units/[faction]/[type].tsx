@@ -49,6 +49,21 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
             <td>{unitType.stats.meleeAttack.offense}</td>
           </tr>
           <tr>
+            <td>{terms.rangeOffence}</td>
+            <td>{unitType.stats.rangedAttack.offense}</td>
+          </tr>
+          <tr>
+            <td>{terms.deadlyRange}</td>
+            <td>{unitType.stats.rangedAttack.deadlyRange}</td>
+          </tr>
+          <tr>
+            <td>{terms.range}</td>
+            <td>
+              {unitType.stats.rangedAttack.range.min} -{" "}
+              {unitType.stats.rangedAttack.range.max}
+            </td>
+          </tr>
+          <tr>
             <td>{terms.defense}</td>
             <td>{unitType.stats.defense}</td>
           </tr>
@@ -136,6 +151,9 @@ export const getStaticProps = withStaticBase(async (context) => {
     damage: getTerm("Units/Tooltip/Damage", locale),
     health: getTerm("Units/Tooltip/Health", locale),
     meleeOffence: getTerm("Units/Tooltip/MeleeOffense", locale),
+    rangeOffence: getTerm("Units/Tooltip/RangedOffense", locale),
+    deadlyRange: getTerm("Units/Tooltip/DeadlyRange", locale),
+    range: getTerm("Units/Tooltip/Range", locale),
     defense: getTerm("Units/Tooltip/Defense", locale),
     movement: getTerm("Units/Tooltip/Movement", locale),
     initiative: getTerm("Units/Tooltip/Initiative", locale),
