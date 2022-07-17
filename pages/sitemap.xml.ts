@@ -7,7 +7,7 @@ import { getSpells, SpellSimpleDTO } from "../lib/spells";
 import { getUnits, UnitSimpleDTO } from "../lib/units";
 import { getWielders, WielderSimpleDTO } from "../lib/wielders";
 
-const URL = "https://soc.gg";
+const URL = "https://www.soc.gg";
 function generateSiteMap(data: {
   artifacts: ArtifactSimpleDTO[];
   buildings: BuildingSimpleDTO[];
