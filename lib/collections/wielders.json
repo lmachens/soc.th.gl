@@ -30,10 +30,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -217,10 +220,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -489,10 +495,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -633,10 +642,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -988,10 +1000,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -1135,10 +1150,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -1366,10 +1384,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -1506,10 +1527,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -1819,10 +1843,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -1966,10 +1993,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -2197,10 +2227,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -2337,10 +2370,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -2654,10 +2690,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -2841,10 +2880,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -3113,10 +3155,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -3257,10 +3302,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -3608,10 +3656,13 @@
     "skillPools": [
       {
         "name": "Level1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -3792,10 +3843,13 @@
       },
       {
         "name": "Level5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -4085,10 +4139,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerRange",
@@ -4229,10 +4286,13 @@
       },
       {
         "name": "Level10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -4603,10 +4663,13 @@
     "skillPools": [
       {
         "name": "Level1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -4787,10 +4850,13 @@
       },
       {
         "name": "Level5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -5080,10 +5146,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerRange",
@@ -5224,10 +5293,13 @@
       },
       {
         "name": "Level10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -5594,10 +5666,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -5781,10 +5856,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -6053,10 +6131,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -6197,10 +6278,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -6550,10 +6634,13 @@
     "skillPools": [
       {
         "name": "Level1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -6734,10 +6821,13 @@
       },
       {
         "name": "Level5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -7027,10 +7117,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerRange",
@@ -7171,10 +7264,13 @@
       },
       {
         "name": "Level10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -7545,10 +7641,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -7692,10 +7791,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -7923,10 +8025,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -8063,10 +8168,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -8376,10 +8484,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -8550,10 +8661,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -8801,10 +8915,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -8945,10 +9062,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Taxes",
@@ -9259,10 +9379,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -9440,10 +9563,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -9738,10 +9864,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Brutal",
@@ -9895,10 +10024,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Cunning",
@@ -10261,10 +10393,13 @@
     "skillPools": [
       {
         "name": "Level1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -10416,10 +10551,13 @@
       },
       {
         "name": "Level5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "MagicResistance",
@@ -10652,10 +10790,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -10796,10 +10937,13 @@
       },
       {
         "name": "Level10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "MagicResistance",
@@ -11122,10 +11266,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -11303,10 +11450,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -11601,10 +11751,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Brutal",
@@ -11758,10 +11911,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Cunning",
@@ -12120,10 +12276,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -12301,10 +12460,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -12599,10 +12761,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Brutal",
@@ -12756,10 +12921,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Cunning",
@@ -13118,10 +13286,13 @@
     "skillPools": [
       {
         "name": "Level1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -13273,10 +13444,13 @@
       },
       {
         "name": "Level5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "MagicResistance",
@@ -13509,10 +13683,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -13653,10 +13830,13 @@
       },
       {
         "name": "Level10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "MagicResistance",
@@ -13979,10 +14159,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -14153,10 +14336,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -14404,10 +14590,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -14548,10 +14737,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Taxes",
@@ -14858,10 +15050,13 @@
     "skillPools": [
       {
         "name": "Level1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -15013,10 +15208,13 @@
       },
       {
         "name": "Level5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "MagicResistance",
@@ -15249,10 +15447,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -15393,10 +15594,13 @@
       },
       {
         "name": "Level10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "MagicResistance",
@@ -15719,10 +15923,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -15893,10 +16100,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -16144,10 +16354,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -16288,10 +16501,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Taxes",
@@ -16598,10 +16814,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -16706,10 +16925,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -16938,10 +17160,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -17086,10 +17311,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -17390,10 +17618,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -17581,10 +17812,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -17809,10 +18043,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -17957,10 +18194,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -18253,10 +18493,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -18361,10 +18604,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -18593,10 +18839,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -18741,10 +18990,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -19056,10 +19308,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -19190,10 +19445,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -19471,10 +19729,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "SpeedOfWinds",
@@ -19615,10 +19876,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -19917,10 +20181,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -20108,10 +20375,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -20336,10 +20606,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -20484,10 +20757,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -20780,10 +21056,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -20971,10 +21250,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -21199,10 +21481,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -21347,10 +21632,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Chaos",
@@ -21639,10 +21927,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -21773,10 +22064,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -22054,10 +22348,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "SpeedOfWinds",
@@ -22198,10 +22495,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -22504,10 +22804,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -22612,10 +22915,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -22844,10 +23150,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -22992,10 +23301,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Melee",
@@ -23307,10 +23619,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 0,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -23441,10 +23756,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -23722,10 +24040,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "SpeedOfWinds",
@@ -23866,10 +24187,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Prepared",
@@ -24168,10 +24492,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -24308,10 +24635,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -24559,10 +24889,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Fast",
@@ -24716,10 +25049,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -25005,10 +25341,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -25170,10 +25509,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -25436,10 +25778,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -25571,10 +25916,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Creation",
@@ -25899,10 +26247,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -26064,10 +26415,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -26330,10 +26684,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -26465,10 +26822,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Creation",
@@ -26789,10 +27149,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -26954,10 +27317,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -27220,10 +27586,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Rigor",
@@ -27355,10 +27724,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Creation",
@@ -27683,10 +28055,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -27823,10 +28198,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -28074,10 +28452,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Fast",
@@ -28231,10 +28612,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -28520,10 +28904,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -28660,10 +29047,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -28911,10 +29301,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Fast",
@@ -29068,10 +29461,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "March",
@@ -29357,10 +29753,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -29505,10 +29904,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -29786,10 +30188,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -29938,10 +30343,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Archery",
@@ -30267,10 +30675,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -30415,10 +30826,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -30696,10 +31110,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -30848,10 +31265,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Archery",
@@ -31167,10 +31587,13 @@
     "skillPools": [
       {
         "name": "Lvl1Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 1,
           "max": 4
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -31315,10 +31738,13 @@
       },
       {
         "name": "Lvl5Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 5,
           "max": 9
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Learning",
@@ -31596,10 +32022,13 @@
       },
       {
         "name": "8LevelPowerPool",
+        "evaluationType": "LevelInterval",
         "levelRange": {
           "min": 8,
           "max": 8
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "PowerShielded",
@@ -31748,10 +32177,13 @@
       },
       {
         "name": "Lvl10Pool",
+        "evaluationType": "LevelRange",
         "levelRange": {
           "min": 10,
           "max": 99
         },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
         "skills": [
           {
             "type": "Archery",

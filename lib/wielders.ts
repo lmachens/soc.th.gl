@@ -69,7 +69,10 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
     })),
     skillPools: wielderSrc.skillPools.map((skillPool) => ({
       name: skillPool.name,
+      evaluationType: skillPool.evaluationType,
       levelRange: skillPool.levelRange,
+      levelIntervalStartLevel: skillPool.levelIntervalStartLevel,
+      levelInterval: skillPool.levelInterval,
       skills: skillPool.skills.map((skill) => ({
         type: skill.type,
         lore: getTerm(`Skills/${skill.type}/Lore`, locale),
@@ -131,10 +134,13 @@ export type WielderDTO = {
   }[];
   skillPools: {
     name: string;
+    evaluationType: string;
     levelRange: {
       min: number;
       max: number;
     };
+    levelIntervalStartLevel: number;
+    levelInterval: number;
     skills: {
       type: string;
       lore: string;
