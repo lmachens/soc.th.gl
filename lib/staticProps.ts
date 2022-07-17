@@ -1,8 +1,10 @@
 import { GetStaticProps } from "next";
 import { getArtifacts } from "./artifacts";
+import { getBuildings } from "./buildings";
 
 import { getFactions } from "./factions";
 import { getSkills } from "./skills";
+import { getSpells } from "./spells";
 import { getSiteTerm, getTerm, TermsDTO } from "./terms";
 import { getUnits } from "./units";
 import { getWielders } from "./wielders";
@@ -38,15 +40,18 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
     }
 
     const locale = context.locale!;
-    const factions = getFactions(locale)
-      .filter((faction) => faction.symbolSprite)
+    const factions = getFactions(locale).filter(
+      (faction) => faction.symbolSprite
+    );
+    const factionLinks = factions
       .map((faction) => ({
         to: `/factions/${faction.type}`,
-        label: getTerm(`Factions/${faction.type}/Name`, locale),
+        label: faction.name,
       }))
       .sort(sortByLabel);
 
-    const skills = getSkills(locale)
+    const skills = getSkills(locale);
+    const skillLinks = skills
       .map((skill) => ({
         to: `/skills/${skill.type}`,
         label: getTerm(`Skills/${skill.type}`, locale),
@@ -57,14 +62,23 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       .map((wielder) => ({
         to: `/wielders/${wielder.type}`,
         label: wielder.name,
+        description: wielder.factionName,
       }))
       .sort(sortByLabel);
 
     const units = getUnits(locale)
       .map((unit) => {
+        let label = unit.vanilla.name;
+        if (unit.upgraded) {
+          label += ` / ${unit.upgraded.name}`;
+        }
+        if (unit.superUpgraded) {
+          label += ` / ${unit.superUpgraded.name}`;
+        }
+
         return {
           to: `/units/${unit.faction}/${unit.vanilla.languageKey}`,
-          label: unit.vanilla.name,
+          label,
           description: unit.faction,
         };
       })
@@ -75,9 +89,25 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
         return {
           to: `/artifacts/${artifact.type}`,
           label: artifact.name,
-          description: artifact.description,
         };
       })
+      .sort(sortByLabel);
+
+    const buildings = getBuildings(locale);
+    const buildingLinks = buildings
+      .map((building) => ({
+        to: `/buildings/${building.type}`,
+        label: building.name,
+        description: building.factionName,
+      }))
+      .sort(sortByLabel);
+
+    const spells = getSpells(locale);
+    const spellLinks = spells
+      .map((spell) => ({
+        to: `/spells/${spell.type}`,
+        label: spell.name,
+      }))
       .sort(sortByLabel);
 
     const collectionLinks: CollectionLink[] = [
@@ -88,7 +118,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
             to: "/factions",
             label: getSiteTerm("AllFactions", locale),
           },
-          ...factions,
+          ...factionLinks,
         ],
       },
       {
@@ -98,7 +128,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
             to: "/skills",
             label: getSiteTerm("AllSkills", locale),
           },
-          ...skills,
+          ...skillLinks,
         ],
       },
       {
@@ -129,6 +159,26 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
             label: getSiteTerm("AllArtifacts", locale),
           },
           ...artifacts,
+        ],
+      },
+      {
+        label: getSiteTerm("Buildings", locale),
+        docs: [
+          {
+            to: "/buildings",
+            label: getSiteTerm("AllBuildings", locale),
+          },
+          ...buildingLinks,
+        ],
+      },
+      {
+        label: getSiteTerm("Spells", locale),
+        docs: [
+          {
+            to: "/spells",
+            label: getSiteTerm("AllSpells", locale),
+          },
+          ...spellLinks,
         ],
       },
     ];

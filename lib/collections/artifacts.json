@@ -34,16 +34,13 @@
       {
         "bacteriaType": 490,
         "type": "AllSeeingEyeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -55,7 +52,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -94,16 +95,13 @@
       {
         "bacteriaType": 492,
         "type": "AncientSteampipeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -115,7 +113,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -154,16 +156,13 @@
       {
         "bacteriaType": 496,
         "type": "BucklerShieldArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -175,7 +174,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -214,16 +217,13 @@
       {
         "bacteriaType": 497,
         "type": "DragonscaleCrownArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -235,7 +235,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -274,16 +278,13 @@
       {
         "bacteriaType": 498,
         "type": "OpenFacedBacinettArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -295,7 +296,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -334,16 +339,13 @@
       {
         "bacteriaType": 499,
         "type": "PetrifiedDragonEggArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -361,7 +363,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -400,16 +406,13 @@
       {
         "bacteriaType": 500,
         "type": "SassanidVelvetShoesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -427,7 +430,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -466,16 +473,13 @@
       {
         "bacteriaType": 501,
         "type": "TalismanOfArcanaArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -487,7 +491,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -526,16 +534,13 @@
       {
         "bacteriaType": 502,
         "type": "TalismanOfChaosArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -547,7 +552,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -586,16 +595,13 @@
       {
         "bacteriaType": 503,
         "type": "TheBonesOfCorneliusArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -613,7 +619,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -652,16 +662,13 @@
       {
         "bacteriaType": 504,
         "type": "BreastplateoftheSunArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -673,7 +680,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -712,16 +723,13 @@
       {
         "bacteriaType": 505,
         "type": "SpikedGauntletArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -733,7 +741,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -772,16 +784,13 @@
       {
         "bacteriaType": 506,
         "type": "DaggerArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -793,7 +802,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -832,16 +845,13 @@
       {
         "bacteriaType": 507,
         "type": "BoneScimitarArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -853,7 +863,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -892,16 +906,13 @@
       {
         "bacteriaType": 508,
         "type": "AncientFalchionArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -913,7 +924,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -952,16 +967,13 @@
       {
         "bacteriaType": 509,
         "type": "HandgunPrototypeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -973,7 +985,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1012,16 +1028,13 @@
       {
         "bacteriaType": 510,
         "type": "GreatAxeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1033,7 +1046,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1072,16 +1089,13 @@
       {
         "bacteriaType": 511,
         "type": "BoarSpearArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1093,7 +1107,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1132,16 +1150,13 @@
       {
         "bacteriaType": 512,
         "type": "SwampSpearArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1153,7 +1168,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1192,16 +1211,13 @@
       {
         "bacteriaType": 513,
         "type": "TwoHandedSwordArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1213,7 +1229,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1252,16 +1272,13 @@
       {
         "bacteriaType": 514,
         "type": "StaffOfTheMagusArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1273,7 +1290,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1312,16 +1333,13 @@
       {
         "bacteriaType": 515,
         "type": "ArchersGambesonArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1333,7 +1351,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1372,16 +1394,13 @@
       {
         "bacteriaType": 516,
         "type": "ChainmailHauberkArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1393,7 +1412,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1432,16 +1455,13 @@
       {
         "bacteriaType": 517,
         "type": "CelestialBreastplateArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1453,7 +1473,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1492,16 +1516,13 @@
       {
         "bacteriaType": 518,
         "type": "CowlofEndlessEssenceArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1537,7 +1558,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1576,16 +1601,13 @@
       {
         "bacteriaType": 519,
         "type": "WornBootsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1603,7 +1625,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1642,16 +1668,13 @@
       {
         "bacteriaType": 520,
         "type": "RidingBootsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1669,7 +1692,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1708,16 +1735,13 @@
       {
         "bacteriaType": 521,
         "type": "MasterlyCraftedBootsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1735,7 +1759,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1774,16 +1802,13 @@
       {
         "bacteriaType": 522,
         "type": "BootsOfTheWhisperingLeafsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1801,7 +1826,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1840,16 +1869,13 @@
       {
         "bacteriaType": 523,
         "type": "WornGlovesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1861,7 +1887,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1900,16 +1930,13 @@
       {
         "bacteriaType": 525,
         "type": "GlimmerglovesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1921,7 +1948,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -1960,16 +1991,13 @@
       {
         "bacteriaType": 526,
         "type": "CelestialGauntletsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -1987,7 +2015,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2026,16 +2058,13 @@
       {
         "bacteriaType": 524,
         "type": "GlovesOfTheWildHuntArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2059,7 +2088,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2098,16 +2131,13 @@
       {
         "bacteriaType": 527,
         "type": "GauntletsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2125,7 +2155,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2164,16 +2198,13 @@
       {
         "bacteriaType": 528,
         "type": "HelmetOfTheVanirArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2185,7 +2216,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2224,16 +2259,13 @@
       {
         "bacteriaType": 529,
         "type": "VisoredBarbutaArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2251,7 +2283,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2290,16 +2326,13 @@
       {
         "bacteriaType": 530,
         "type": "MaskOfWieshArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2329,7 +2362,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2368,16 +2405,13 @@
       {
         "bacteriaType": 531,
         "type": "VanirAxeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2389,7 +2423,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2428,16 +2466,13 @@
       {
         "bacteriaType": 532,
         "type": "BladeOfTheVanirArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2449,7 +2484,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2488,16 +2527,13 @@
       {
         "bacteriaType": 533,
         "type": "CrossbowArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2509,7 +2545,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2548,16 +2588,13 @@
       {
         "bacteriaType": 534,
         "type": "FaeyHornWarbowArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2575,7 +2612,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2614,16 +2655,13 @@
       {
         "bacteriaType": 535,
         "type": "EternalLightbringerArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2647,7 +2685,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2686,16 +2728,13 @@
       {
         "bacteriaType": 536,
         "type": "RoundshieldArtifactArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2707,7 +2746,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2746,16 +2789,13 @@
       {
         "bacteriaType": 537,
         "type": "KiteShieldArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2767,7 +2807,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2806,16 +2850,13 @@
       {
         "bacteriaType": 538,
         "type": "HeaterShieldArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2827,7 +2868,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2866,16 +2911,13 @@
       {
         "bacteriaType": 539,
         "type": "EthyllesBlessingArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2887,7 +2929,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2926,16 +2972,13 @@
       {
         "bacteriaType": 540,
         "type": "TalismanOfDestructionArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -2947,7 +2990,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -2986,16 +3033,13 @@
       {
         "bacteriaType": 541,
         "type": "TalismanOfOrderArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3007,7 +3051,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3046,16 +3094,13 @@
       {
         "bacteriaType": 542,
         "type": "AureliasAshesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3067,7 +3112,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3106,16 +3155,13 @@
       {
         "bacteriaType": 543,
         "type": "TheMakersCompassArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3133,7 +3179,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3175,11 +3225,15 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 2,
+            "type": "Stone",
             "amount": 2,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3221,11 +3275,15 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 1,
+            "type": "Wood",
             "amount": 2,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3267,11 +3325,15 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 250,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3313,11 +3375,15 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 4,
+            "type": "Glimmerweave",
             "amount": 1,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3359,11 +3425,15 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 3,
+            "type": "AncientAmber",
             "amount": 1,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3405,11 +3475,15 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 5,
+            "type": "CelestialOre",
             "amount": 1,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3448,16 +3522,13 @@
       {
         "bacteriaType": 551,
         "type": "TalismanOfCreationArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3469,7 +3540,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3511,11 +3586,15 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 100,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3554,16 +3633,13 @@
       {
         "bacteriaType": 605,
         "type": "GauntletsOfTheNightArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3581,7 +3657,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3620,16 +3700,13 @@
       {
         "bacteriaType": 606,
         "type": "GlovesOfEternityArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3659,7 +3736,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3698,16 +3779,13 @@
       {
         "bacteriaType": 607,
         "type": "GlovesOfThePhoenixArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3737,7 +3815,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3776,16 +3858,13 @@
       {
         "bacteriaType": 608,
         "type": "GauntletsOfEssenceArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3803,7 +3882,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3842,16 +3925,13 @@
       {
         "bacteriaType": 609,
         "type": "IronShieldArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3869,7 +3949,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3908,16 +3992,13 @@
       {
         "bacteriaType": 610,
         "type": "ShieldOfEternalServitudeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -3941,7 +4022,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -3980,16 +4065,13 @@
       {
         "bacteriaType": 611,
         "type": "ShieldOfTheOgreArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4007,7 +4089,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4046,16 +4132,13 @@
       {
         "bacteriaType": 612,
         "type": "EtheralShieldArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4073,7 +4156,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4112,16 +4199,13 @@
       {
         "bacteriaType": 805,
         "type": "SpikedShieldArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4139,7 +4223,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4178,16 +4266,13 @@
       {
         "bacteriaType": 807,
         "type": "BoneClubArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4199,7 +4284,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4238,16 +4327,13 @@
       {
         "bacteriaType": 806,
         "type": "SpikedBootsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4271,7 +4357,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4310,16 +4400,13 @@
       {
         "bacteriaType": 808,
         "type": "DragonToothArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4337,7 +4424,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4376,16 +4467,13 @@
       {
         "bacteriaType": 809,
         "type": "AncientBladeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4397,7 +4485,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4436,16 +4528,13 @@
       {
         "bacteriaType": 810,
         "type": "DaggerOfRageArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4463,7 +4552,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4502,16 +4595,13 @@
       {
         "bacteriaType": 811,
         "type": "BewitchedBladeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4529,7 +4619,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4568,16 +4662,13 @@
       {
         "bacteriaType": 812,
         "type": "ElementalAxeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4595,7 +4686,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4634,16 +4729,13 @@
       {
         "bacteriaType": 813,
         "type": "MaceArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4655,7 +4747,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4694,16 +4790,13 @@
       {
         "bacteriaType": 814,
         "type": "MorningStarArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4715,7 +4808,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4754,16 +4851,13 @@
       {
         "bacteriaType": 815,
         "type": "TheOathkeeperArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4781,7 +4875,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4820,16 +4918,13 @@
       {
         "bacteriaType": 816,
         "type": "WarHammerArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4841,7 +4936,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4880,16 +4979,13 @@
       {
         "bacteriaType": 817,
         "type": "BeakOfTheBeastArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4907,7 +5003,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -4946,16 +5046,13 @@
       {
         "bacteriaType": 818,
         "type": "PoleaxeOfPainArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -4967,7 +5064,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5006,16 +5107,13 @@
       {
         "bacteriaType": 819,
         "type": "RodOfTheRootsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5039,7 +5137,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5078,16 +5180,13 @@
       {
         "bacteriaType": 820,
         "type": "TheEmancipatorArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5099,7 +5198,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5138,16 +5241,13 @@
       {
         "bacteriaType": 821,
         "type": "TheStingerArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5165,7 +5265,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5204,16 +5308,13 @@
       {
         "bacteriaType": 822,
         "type": "BootsOfTheHeavensArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5231,7 +5332,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5270,16 +5375,13 @@
       {
         "bacteriaType": 823,
         "type": "NimbleBootsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5291,7 +5393,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5330,16 +5436,13 @@
       {
         "bacteriaType": 824,
         "type": "ShoesOfTheWandererArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5357,7 +5460,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5396,16 +5503,13 @@
       {
         "bacteriaType": 830,
         "type": "ArchersHelmetArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5417,7 +5521,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5456,16 +5564,13 @@
       {
         "bacteriaType": 831,
         "type": "CapeOfLeavesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5477,7 +5582,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5516,16 +5625,13 @@
       {
         "bacteriaType": 832,
         "type": "CelestialHelmetArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5543,7 +5649,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5582,16 +5692,13 @@
       {
         "bacteriaType": 833,
         "type": "CloakOfTheAncientsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5615,7 +5722,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5654,16 +5765,13 @@
       {
         "bacteriaType": 834,
         "type": "GoldenLaurelWreathArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5681,7 +5789,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5720,16 +5832,13 @@
       {
         "bacteriaType": 835,
         "type": "HatOfTheMagusArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5741,7 +5850,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5780,16 +5893,13 @@
       {
         "bacteriaType": 836,
         "type": "HelmetOfTheArenaArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5813,7 +5923,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5852,16 +5966,13 @@
       {
         "bacteriaType": 837,
         "type": "OrnateBreastplateArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5873,7 +5984,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5912,16 +6027,13 @@
       {
         "bacteriaType": 838,
         "type": "TunicOfTheForestCourtArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -5945,7 +6057,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -5984,16 +6100,13 @@
       {
         "bacteriaType": 839,
         "type": "TurbanHelmetArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6005,7 +6118,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6044,16 +6161,13 @@
       {
         "bacteriaType": 840,
         "type": "WornBrigandineArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6065,7 +6179,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6104,16 +6222,13 @@
       {
         "bacteriaType": 841,
         "type": "AncientAmberSpyglassArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6131,7 +6246,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6170,16 +6289,13 @@
       {
         "bacteriaType": 842,
         "type": "ArcaneTomeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6191,7 +6307,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6230,16 +6350,13 @@
       {
         "bacteriaType": 843,
         "type": "BannerOfUnyieldingHatredArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6263,7 +6380,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6302,16 +6423,13 @@
       {
         "bacteriaType": 844,
         "type": "BaryanGlassesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6323,7 +6441,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6362,16 +6484,13 @@
       {
         "bacteriaType": 845,
         "type": "BraidOfTheHornedOnesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6395,7 +6514,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6434,16 +6557,13 @@
       {
         "bacteriaType": 846,
         "type": "DrumOfTheMarchesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6455,7 +6575,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6494,16 +6618,13 @@
       {
         "bacteriaType": 847,
         "type": "EndlessSamovarArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6521,7 +6642,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6560,16 +6685,13 @@
       {
         "bacteriaType": 848,
         "type": "MechanicalBirdArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6581,7 +6703,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6623,11 +6749,15 @@
         "modifierData": [],
         "resourcesIncome": [
           {
-            "type": 0,
+            "type": "Gold",
             "amount": 500,
             "allTimeAmount": 0
           }
-        ]
+        ],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6666,16 +6796,13 @@
       {
         "bacteriaType": 850,
         "type": "SkullOfAeonsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6693,7 +6820,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6732,16 +6863,13 @@
       {
         "bacteriaType": 851,
         "type": "TheLuteOfPinecoastArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6759,7 +6887,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },
@@ -6798,16 +6930,13 @@
       {
         "bacteriaType": 852,
         "type": "VialOfTheHeartArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
         "auraSettings": {
           "recipients": "Friends",
           "hexRadius": 1,
-          "bacteriaToAdd": {
-            "bacteriaType": 0,
-            "duration": {
-              "type": 0,
-              "duration": 0
-            }
-          },
+          "bacteriaToAdd": null,
           "isStackable": 1,
           "isPassable": 1
         },
@@ -6819,7 +6948,11 @@
             "applicationType": 0
           }
         ],
-        "resourcesIncome": []
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
       }
     ]
   },

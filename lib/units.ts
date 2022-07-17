@@ -46,7 +46,11 @@ export const getUnit = (
   locale: string
 ): UnitDTO | null => {
   const unitSrc = unitsCollection.find(
-    (unit) => unit.faction === faction && unit.vanilla.languageKey === type
+    (unit) =>
+      unit.faction === faction &&
+      (unit.vanilla.languageKey === type ||
+        unit.upgraded?.languageKey === type ||
+        unit.superUpgraded?.languageKey === type)
   );
   if (!unitSrc) {
     return null;
@@ -63,6 +67,12 @@ export const getUnit = (
     }
     return {
       ...type,
+      purchaseCost: {
+        costEntries: type.purchaseCost.costEntries.map((costEntry) => ({
+          type: getTerm(`Common/Resource/${costEntry.type}`, locale),
+          amount: costEntry.amount,
+        })),
+      },
       stats: {
         ...type.stats,
         statuses: type.stats.statuses
@@ -138,7 +148,7 @@ export type UnitTypeDTO = {
   description: string;
   purchaseCost: {
     costEntries: {
-      type: number;
+      type: string;
       amount: number;
     }[];
   };

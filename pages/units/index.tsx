@@ -4,16 +4,16 @@ import { withStaticBase } from "../../lib/staticProps";
 import { SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getUnits, UnitSimpleDTO } from "../../lib/units";
-import Head from "next/head";
 import Article from "../../components/Article/Article";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
   return (
     <>
-      <Head>
-        <title>Units - SoC.gg</title>
-        <meta name="description" content="All units of Songs of Conquest" />
-      </Head>
+      <PageHead
+        title="Units - SoC.gg"
+        description="All units of Songs of Conquest"
+      />
       <SimpleGrid
         breakpoints={[
           { minWidth: "sm", cols: 1 },

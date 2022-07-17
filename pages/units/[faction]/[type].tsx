@@ -1,13 +1,14 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../../lib/staticProps";
 
-import { Stack, Table, Text, Title } from "@mantine/core";
+import { Stack, Table, Title } from "@mantine/core";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { getUnit, getUnits, UnitDTO, UnitTypeDTO } from "../../../lib/units";
-import Head from "next/head";
 import { getTerm, TermsDTO } from "../../../lib/terms";
 import { BacteriaDTO } from "../../../lib/bacterias";
 import { useTerms } from "../../../components/Terms/Terms";
+import Lore from "../../../components/Lore/Lore";
+import PageHead from "../../../components/PageHead/PageHead";
 
 const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
   const terms = useTerms();
@@ -16,12 +17,19 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
       <Stack>
         <Title order={4}>{unitType.name}</Title>
         <SpriteSheet spriteSheet={unitType.sprite} />
-        <Text size="sm" sx={{ fontStyle: "italic" }}>
-          {unitType.description}
-        </Text>
+        <Lore text={unitType.description} />
       </Stack>
       <Table>
         <tbody>
+          <tr>
+            <td>{terms.essenceIntro}</td>
+            <td>
+              {Object.entries(unitType.stats.essenceStats)
+                .filter(([, count]) => count > 0)
+                .map(([essence, count]) => `${terms[essence]} ${count}x`)
+                .join(", ")}
+            </td>
+          </tr>
           <tr>
             <td>{terms.maxTroopSize}</td>
             <td>{unitType.stats.maxTroopSize}</td>
@@ -41,6 +49,21 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
             <td>{unitType.stats.meleeAttack.offense}</td>
           </tr>
           <tr>
+            <td>{terms.rangeOffence}</td>
+            <td>{unitType.stats.rangedAttack.offense}</td>
+          </tr>
+          <tr>
+            <td>{terms.deadlyRange}</td>
+            <td>{unitType.stats.rangedAttack.deadlyRange}</td>
+          </tr>
+          <tr>
+            <td>{terms.range}</td>
+            <td>
+              {unitType.stats.rangedAttack.range.min} -{" "}
+              {unitType.stats.rangedAttack.range.max}
+            </td>
+          </tr>
+          <tr>
             <td>{terms.defense}</td>
             <td>{unitType.stats.defense}</td>
           </tr>
@@ -58,7 +81,11 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
           </tr>
           <tr>
             <td>{terms.cost}</td>
-            <td>{unitType.purchaseCost.costEntries[0].amount}</td>
+            <td>
+              {unitType.purchaseCost.costEntries
+                .map((value) => `${value.amount} ${value.type}`)
+                .join(", ")}
+            </td>
           </tr>
           {unitType.troopAbility && (
             <tr>
@@ -92,13 +119,10 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
 
   return (
     <>
-      <Head>
-        <title>{unit.vanilla.name} - SoC.gg</title>
-        <meta
-          name="description"
-          content={`${unit.vanilla.name} unit details of Songs of Conquest`}
-        />
-      </Head>
+      <PageHead
+        title={`${unit.vanilla.name} - SoC.gg`}
+        description={`${unit.vanilla.description} - ${unit.vanilla.name} (Songs of Conquest)`}
+      />
       <Stack>
         {renderType(unit.vanilla)}
         {unit.upgraded && renderType(unit.upgraded)}
@@ -127,10 +151,19 @@ export const getStaticProps = withStaticBase(async (context) => {
     damage: getTerm("Units/Tooltip/Damage", locale),
     health: getTerm("Units/Tooltip/Health", locale),
     meleeOffence: getTerm("Units/Tooltip/MeleeOffense", locale),
+    rangeOffence: getTerm("Units/Tooltip/RangedOffense", locale),
+    deadlyRange: getTerm("Units/Tooltip/DeadlyRange", locale),
+    range: getTerm("Units/Tooltip/Range", locale),
     defense: getTerm("Units/Tooltip/Defense", locale),
     movement: getTerm("Units/Tooltip/Movement", locale),
     initiative: getTerm("Units/Tooltip/Initiative", locale),
     status: getTerm("Units/Tooltip/Status", locale),
+    essenceIntro: getTerm("Units/Types/EssenceIntro", locale),
+    order: getTerm("Units/Types/Order", locale),
+    creation: getTerm("Units/Types/Creation", locale),
+    chaos: getTerm("Units/Types/Chaos", locale),
+    arcana: getTerm("Units/Types/Arcana", locale),
+    destruction: getTerm("Units/Types/Destruction", locale),
   };
 
   return {

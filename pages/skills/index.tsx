@@ -4,16 +4,16 @@ import { withStaticBase } from "../../lib/staticProps";
 import { SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getSkills, SkillSimpleDTO } from "../../lib/skills";
-import Head from "next/head";
 import Article from "../../components/Article/Article";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
   return (
     <>
-      <Head>
-        <title>Skills - SoC.gg</title>
-        <meta name="description" content="All skills of Songs of Conquest" />
-      </Head>
+      <PageHead
+        title="Skills - SoC.gg"
+        description="All skills of Songs of Conquest"
+      />
       <SimpleGrid
         breakpoints={[
           { minWidth: "sm", cols: 1 },

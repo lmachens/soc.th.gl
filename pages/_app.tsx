@@ -1,5 +1,4 @@
 import { AppProps } from "next/app";
-import Head from "next/head";
 import { Global, MantineProvider } from "@mantine/core";
 import AppLayout from "../components/AppLayout/AppLayout";
 import { ReactNode, useEffect } from "react";
@@ -8,6 +7,7 @@ import { NextPage } from "next";
 import { TermsProvider } from "../components/Terms/Terms";
 import { loadNitroAds } from "../lib/nitroAds";
 import AnchorAd from "../components/Ads/AnchorAd";
+import PageHead from "../components/PageHead/PageHead";
 
 export type NextPageWithBanner<T = {}> = NextPage<T> & {
   getBanner?: () => ReactNode;
@@ -25,15 +25,16 @@ const App = ({ Component, pageProps }: AppPropsWithBanner) => {
 
   return (
     <>
-      <Head>
-        <title>SoC.gg</title>
-        <meta name="description" content="Songs of Conquest Fansite" />
+      <PageHead
+        title="Songs of Conquest database and wiki for building, factions, units, skills, spells and wielders - SoC.gg"
+        description="SoC.gg contains all the information about building, factions, units, skills, spells, wielders and more for the turn-based strategy game Songs of Conquest."
+      >
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-      </Head>
+      </PageHead>
       <MantineProvider
         withGlobalStyles
         withNormalizeCSS

@@ -9,7 +9,7 @@ export const getWielders = (locale: string): WielderSimpleDTO[] => {
     type: wielder.type,
     stats: wielder.stats,
     portrait: wielder.portrait,
-    faction: getTerm(`Factions/${wielder.faction}/Name`, locale),
+    factionName: getTerm(`Factions/${wielder.faction}/Name`, locale),
     name: getTerm(`${wielder.faction}/${wielder.type}/Name`, locale),
     description: getTerm(
       `${wielder.faction}/${wielder.type}/Description`,
@@ -29,7 +29,8 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
 
   const wielder = {
     type: wielderSrc.type,
-    faction: getTerm(`Factions/${wielderSrc.faction}/Name`, locale),
+    faction: wielderSrc.faction,
+    factionName: getTerm(`Factions/${wielderSrc.faction}/Name`, locale),
     portrait: wielderSrc.portrait,
     stats: wielderSrc.stats,
     name: getTerm(`${wielderSrc.faction}/${wielderSrc.type}/Name`, locale),
@@ -60,23 +61,34 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
         sprite: sprite,
       };
     }),
-    skills: wielderSrc.skills.map((skill) => ({
+    startingSkills: wielderSrc.startingSkills.map((skill) => ({
       type: skill.type,
       lore: getTerm(`Skills/${skill.type}/Lore`, locale),
       name: getTerm(`Skills/${skill.type}`, locale),
-      level: skill.level || null,
-      levelRange: skill.levelRange || null,
-      requiresSkill: skill.requiresSkill || null,
-      requirementType:
-        (skill.requirementType as "RequireAny" | "RequireAll" | undefined) ||
-        null,
-      requiredSkills:
-        skill.requiredSkills?.map((requiredSkill) => ({
-          type: requiredSkill.type,
-          lore: getTerm(`Skills/${requiredSkill.type}/Lore`, locale),
-          name: getTerm(`Skills/${requiredSkill.type}`, locale),
-          level: requiredSkill.level,
-        })) || null,
+      level: skill.level,
+    })),
+    skillPools: wielderSrc.skillPools.map((skillPool) => ({
+      name: skillPool.name,
+      evaluationType: skillPool.evaluationType,
+      levelRange: skillPool.levelRange,
+      levelIntervalStartLevel: skillPool.levelIntervalStartLevel,
+      levelInterval: skillPool.levelInterval,
+      skills: skillPool.skills.map((skill) => ({
+        type: skill.type,
+        lore: getTerm(`Skills/${skill.type}/Lore`, locale),
+        name: getTerm(`Skills/${skill.type}`, locale),
+        requiresSkill: skill.requiresSkill || null,
+        requirementType:
+          (skill.requirementType as "RequireAny" | "RequireAll" | undefined) ||
+          null,
+        requiredSkills:
+          skill.requiredSkills?.map((requiredSkill) => ({
+            type: requiredSkill.type,
+            lore: getTerm(`Skills/${requiredSkill.type}/Lore`, locale),
+            name: getTerm(`Skills/${requiredSkill.type}`, locale),
+            level: requiredSkill.level,
+          })) || null,
+      })),
     })),
     specializations: wielderSrc.specializations.map((specialization) =>
       getLocaleBacteria(specialization, locale)
@@ -87,7 +99,7 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
 
 export type WielderSimpleDTO = {
   type: string;
-  faction: string;
+  factionName: string;
   portrait: SpriteDTO;
   name: string;
   description: string;
@@ -103,6 +115,7 @@ export type WielderSimpleDTO = {
 export type WielderDTO = {
   type: string;
   faction: string;
+  factionName: string;
   portrait: SpriteDTO;
   name: string;
   description: string;
@@ -113,25 +126,34 @@ export type WielderDTO = {
     viewRadius: number;
     command: number;
   };
-  skills: {
+  startingSkills: {
     type: string;
     lore: string;
     name: string;
-    level: number | null;
+    level: number;
+  }[];
+  skillPools: {
+    name: string;
+    evaluationType: string;
     levelRange: {
       min: number;
       max: number;
-    } | null;
-    requiresSkill: boolean | null;
-    requirementType: "RequireAny" | "RequireAll" | null;
-    requiredSkills:
-      | {
-          level: number;
-          type: string;
-          lore: string;
-          name: string;
-        }[]
-      | null;
+    };
+    levelIntervalStartLevel: number;
+    levelInterval: number;
+    skills: {
+      type: string;
+      lore: string;
+      name: string;
+      requiresSkill: boolean | null;
+      requirementType: "RequireAny" | "RequireAll" | null;
+      requiredSkills: {
+        level: number;
+        type: string;
+        lore: string;
+        name: string;
+      }[];
+    }[];
   }[];
   units: {
     name: string;

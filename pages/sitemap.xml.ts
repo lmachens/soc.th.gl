@@ -1,15 +1,19 @@
 import { GetServerSideProps } from "next";
 import { ArtifactSimpleDTO, getArtifacts } from "../lib/artifacts";
+import { BuildingSimpleDTO, getBuildings } from "../lib/buildings";
 import { FactionSimpleDTO, getFactions } from "../lib/factions";
 import { getSkills, SkillSimpleDTO } from "../lib/skills";
+import { getSpells, SpellSimpleDTO } from "../lib/spells";
 import { getUnits, UnitSimpleDTO } from "../lib/units";
 import { getWielders, WielderSimpleDTO } from "../lib/wielders";
 
-const URL = "https://soc.gg";
+const URL = "https://www.soc.gg";
 function generateSiteMap(data: {
   artifacts: ArtifactSimpleDTO[];
+  buildings: BuildingSimpleDTO[];
   factions: FactionSimpleDTO[];
   skills: SkillSimpleDTO[];
+  spells: SpellSimpleDTO[];
   units: UnitSimpleDTO[];
   wielders: WielderSimpleDTO[];
 }) {
@@ -42,6 +46,15 @@ function generateSiteMap(data: {
         `;
        })
        .join("")}
+     ${data.buildings
+       .map((building) => {
+         return `
+          <url>
+              <loc>${`${URL}/buildings/${building.type}`}</loc>
+          </url>
+        `;
+       })
+       .join("")}
      ${data.factions
        .map((faction) => {
          return `
@@ -56,6 +69,15 @@ function generateSiteMap(data: {
          return `
           <url>
               <loc>${`${URL}/skills/${skill.type}`}</loc>
+          </url>
+        `;
+       })
+       .join("")}
+     ${data.spells
+       .map((spell) => {
+         return `
+          <url>
+              <loc>${`${URL}/spells/${spell.type}`}</loc>
           </url>
         `;
        })
@@ -89,15 +111,19 @@ function SiteMap() {
 export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const locale = "en";
   const artifacts = getArtifacts(locale);
+  const buildings = getBuildings(locale);
   const factions = getFactions(locale);
   const skills = getSkills(locale);
+  const spells = getSpells(locale);
   const units = getUnits(locale);
   const wielders = getWielders(locale);
 
   const sitemap = generateSiteMap({
     artifacts,
+    buildings,
     factions,
     skills,
+    spells,
     units,
     wielders,
   });
