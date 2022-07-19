@@ -1,3 +1,22 @@
+export const AI_MODES: {
+  [mode: number]: string;
+} = {
+  0: "Player", // Is "Off" in game-files,
+  5: "Easy",
+  20: "Medium",
+  30: "AutoBattle",
+};
+
+export const FACTIONS: {
+  [mode: number]: string;
+} = {
+  0: "Neutral", // Is "Off" in game-files,
+  1: "Arleon",
+  2: "Barony of Loth",
+  3: "Barya",
+  4: "Rana",
+};
+
 export const serializeSavegame = (
   savegame: SavegameDeserialized
 ): SavegameSerialized => {
@@ -613,6 +632,19 @@ export type SavegameDeserialized = {
       _statuses: [];
       _type: number;
     }[];
+    _roundData: {
+      CurrentTurnIndex: number;
+      RoundNumber: number;
+      TurnQueue: {
+        Teams: {
+          IsAlive: boolean;
+          IsCurrentlyInBattle: boolean;
+          IsReadyToEndTurn: boolean;
+          TeamId: number;
+        }[];
+      }[];
+      TurnStyle: number;
+    };
     _storyObjectives: {
       _objective: {
         canBeCompleted: boolean;
