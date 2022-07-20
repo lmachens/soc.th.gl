@@ -35,14 +35,6 @@ const options: ChartOptions<"line"> = {
   },
 };
 
-const RESOURCE_TYPES = [
-  "Gold",
-  "Wood",
-  "Stone",
-  "AncientAmber",
-  "Glimmerweave",
-  "CelestialOre",
-];
 type Props = {
   savegame: SavegameDeserialized;
 };
@@ -51,7 +43,7 @@ const SavegameProgress = ({ savegame }: Props) => {
 
   const labels = Array(savegame.Metadata.Round)
     .fill(null)
-    .map((_, index) => index + 1);
+    .map((_, index) => `Round ${index + 1}`);
 
   const data = {
     labels,
@@ -75,7 +67,44 @@ const SavegameProgress = ({ savegame }: Props) => {
           break;
         case "gold":
           data = team._statistics._roundStatistics.map(
-            (roundStatistic) => roundStatistic.Income[0]._amount
+            (roundStatistic) =>
+              roundStatistic.Income.find((income) => income.Type === 0)
+                ?._amount ?? 0
+          );
+          break;
+        case "wood":
+          data = team._statistics._roundStatistics.map(
+            (roundStatistic) =>
+              roundStatistic.Income.find((income) => income.Type === 1)
+                ?._amount ?? 0
+          );
+          break;
+        case "stone":
+          data = team._statistics._roundStatistics.map(
+            (roundStatistic) =>
+              roundStatistic.Income.find((income) => income.Type === 2)
+                ?._amount ?? 0
+          );
+          break;
+        case "ancientAmber":
+          data = team._statistics._roundStatistics.map(
+            (roundStatistic) =>
+              roundStatistic.Income.find((income) => income.Type === 3)
+                ?._amount ?? 0
+          );
+          break;
+        case "glimmerweave":
+          data = team._statistics._roundStatistics.map(
+            (roundStatistic) =>
+              roundStatistic.Income.find((income) => income.Type === 4)
+                ?._amount ?? 0
+          );
+          break;
+        case "celestialOre":
+          data = team._statistics._roundStatistics.map(
+            (roundStatistic) =>
+              roundStatistic.Income.find((income) => income.Type === 5)
+                ?._amount ?? 0
           );
           break;
       }
@@ -99,6 +128,10 @@ const SavegameProgress = ({ savegame }: Props) => {
           { value: "lostBattles", label: "Lost Battles" },
           { value: "wonBattles", label: "Won Battles" },
           { value: "gold", label: "Gold" },
+          { value: "wood", label: "Wood" },
+          { value: "stone", label: "Stone" },
+          { value: "ancientAmber", label: "Ancient Amber" },
+          { value: "celestialOre", label: "Celestial Ore" },
         ]}
       />
       <Line options={options} data={data} />

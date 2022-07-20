@@ -15,26 +15,6 @@ const Savegame = ({ savegame }: Props) => {
       <SavegameTeams savegame={savegame} />
       <SavegameProgress savegame={savegame} />
       <SavegameGraphs savegame={savegame} />
-      {savegame.File._level._exploration.map((exploration) => (
-        <div key={exploration._teamId}>
-          {exploration._exploredTiles.filter((tile) => tile).length} of{" "}
-          {exploration._exploredTiles.length} tiles explored
-          <br />
-        </div>
-      ))}
-      {savegame.File._teamsSerializable.map((team) => (
-        <div key={team._teamID}>
-          Name: {team._name}
-          <br />
-          {team._statistics._roundStatistics.map((roundStatistic) => (
-            <div key={roundStatistic.Round}>
-              Round: {roundStatistic.Round}
-              <br />
-              WonBattles: {roundStatistic.WonBattles}
-            </div>
-          ))}
-        </div>
-      ))}
     </Stack>
   );
 };

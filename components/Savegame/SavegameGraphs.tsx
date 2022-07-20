@@ -4,20 +4,13 @@ import {
   CategoryScale,
   LinearScale,
   BarElement,
-  Title,
   Tooltip,
   Legend,
 } from "chart.js";
 import { Bar } from "react-chartjs-2";
+import { Stack, Title } from "@mantine/core";
 
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  BarElement,
-  Title,
-  Tooltip,
-  Legend
-);
+ChartJS.register(CategoryScale, LinearScale, BarElement, Tooltip, Legend);
 
 const options = {
   indexAxis: "y" as const,
@@ -29,11 +22,7 @@ const options = {
   responsive: true,
   plugins: {
     legend: {
-      position: "right" as const,
-    },
-    title: {
-      display: true,
-      text: "Chart.js Horizontal Bar Chart",
+      position: "top" as const,
     },
   },
 };
@@ -80,7 +69,12 @@ const SavegameGraphs = ({ savegame }: Props) => {
     ],
   };
 
-  return <Bar options={options} data={data} />;
+  return (
+    <Stack>
+      <Title order={3}>Graphs</Title>
+      <Bar options={options} data={data} />
+    </Stack>
+  );
 };
 
 export default SavegameGraphs;

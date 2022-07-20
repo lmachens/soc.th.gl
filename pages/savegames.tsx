@@ -16,8 +16,6 @@ const Savegames = () => {
   const [savegame, setSavegame] = useState<SavegameDeserialized | null>(null);
   const clipboard = useClipboard({ timeout: 500 });
 
-  console.log(savegame);
-
   useEffect(() => {
     if (file) {
       file.text().then(deserializeSavegame).then(setSavegame);
@@ -32,7 +30,8 @@ const Savegames = () => {
     <>
       <Stack>
         <Text>
-          This tool analyze and update your Songs of Conquest savegames.
+          This tool is in development and analyzes your Songs of Conquest
+          savegames.
         </Text>
         <TextInput
           label="Windows savegames path (paste in your Windows Explorer)"
