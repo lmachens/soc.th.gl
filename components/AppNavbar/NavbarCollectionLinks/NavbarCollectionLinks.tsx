@@ -7,13 +7,9 @@ import { CollectionLink } from "../../../lib/staticProps";
 import useStyles from "./NavbarCollectionLinks.styles";
 
 function hasActiveLink(collectionLink: CollectionLink, pathname: string) {
-  if (
-    collectionLink.docs.some((collectionLink) => collectionLink.to === pathname)
-  ) {
-    return true;
-  }
-
-  return false;
+  return collectionLink.docs.some(
+    (collectionLink) => collectionLink.to === pathname
+  );
 }
 
 type Props = {
@@ -25,14 +21,21 @@ const NavbarCollectionLinks = ({ collectionLink }: Props) => {
   const [collapsed, setCollapsed] = useState(
     () => !hasActiveLink(collectionLink, asPath)
   );
-
   const docLinks = collectionLink.docs.map((doc) => (
     <Link key={doc.to} href={doc.to} passHref prefetch={false}>
       <Text
         component="a"
         className={cx(classes.link, doc.to === asPath && classes.linkActive)}
+        py={4}
       >
-        {doc.label}
+        <Text className={classes.linkInner} size="sm">
+          {doc.label}
+        </Text>
+        {doc.description && (
+          <Text color="dimmed" size="xs">
+            {doc.description}
+          </Text>
+        )}
       </Text>
     </Link>
   ));
@@ -61,7 +64,7 @@ const NavbarCollectionLinks = ({ collectionLink }: Props) => {
         <Text
           className={classes.title}
           weight={700}
-          size="xs"
+          size="sm"
           transform="uppercase"
         >
           {collectionLink.label}

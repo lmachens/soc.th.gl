@@ -6,8 +6,8 @@ import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../lib/terms";
 import { Fragment } from "react";
 import { getSkill, getSkills, SkillDTO } from "../../lib/skills";
-import Head from "next/head";
 import { useTerms } from "../../components/Terms/Terms";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Skill: NextPage<{
   skill: SkillDTO;
@@ -15,13 +15,11 @@ const Skill: NextPage<{
   const terms = useTerms();
   return (
     <>
-      <Head>
-        <title>{skill.name} - SoC.gg</title>
-        <meta
-          name="description"
-          content={`${skill.name} skill details of Songs of Conquest`}
-        />
-      </Head>
+      <PageHead
+        title={`${skill.name} - SoC.gg`}
+        description={`${skill.lore} - ${skill.name} (Songs of Conquest)`}
+      />
+
       <Stack>
         <SpriteSheet spriteSheet={skill.icon} />
 

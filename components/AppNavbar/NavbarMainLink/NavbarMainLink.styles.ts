@@ -28,7 +28,7 @@ export default createStyles((theme: MantineTheme) => ({
     color: theme.colorScheme === "dark" ? theme.white : theme.black,
     backgroundColor:
       theme.colorScheme === "dark"
-        ? theme.colors.dark[6]
+        ? theme.fn.rgba(theme.colors[theme.primaryColor][7], 0.45)
         : theme.colors.gray[0],
   },
 

@@ -1,5 +1,6 @@
 [
   {
+    "id": 0,
     "type": "Neutral",
     "languageKey": "Neutral",
     "bannerSprite": {
@@ -672,6 +673,7 @@
     ]
   },
   {
+    "id": 1,
     "type": "Arleon",
     "languageKey": "Arleon",
     "bannerSprite": {
@@ -3246,6 +3248,7 @@
     ]
   },
   {
+    "id": 2,
     "type": "Loth",
     "languageKey": "Loth",
     "bannerSprite": {
@@ -5959,6 +5962,7 @@
     ]
   },
   {
+    "id": 3,
     "type": "Barya",
     "languageKey": "Barya",
     "bannerSprite": {
@@ -8367,6 +8371,7 @@
     ]
   },
   {
+    "id": 4,
     "type": "Rana",
     "languageKey": "Rana",
     "bannerSprite": {
