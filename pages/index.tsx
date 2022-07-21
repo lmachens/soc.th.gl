@@ -9,7 +9,6 @@ import {
   Text,
   Title,
 } from "@mantine/core";
-import Head from "next/head";
 import Article from "../components/Article/Article";
 import { withStaticBase } from "../lib/staticProps";
 import Markdown from "markdown-to-jsx";
@@ -24,20 +23,10 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
 }) => {
   return (
     <>
-      <Head>
-        <title>
-          Songs of Conquest factions, units, skills, wielders - SoC.gg
-        </title>
-        <meta
-          name="description"
-          content="SoC.gg contains all the information about factions, units, skills, wielders and more for the turn-based strategy game Songs of Conquest"
-        />
-      </Head>
-
       <Stack>
         <Text size="lg">
-          Find all the information you need about factions, units, skills,
-          wielders and more.
+          Find all the information you need about building, factions, units,
+          skills, spells, wielders and more.
         </Text>
         <SimpleGrid
           breakpoints={[
@@ -70,6 +59,16 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
             name="Artifacts"
             description="Improve your wielder stats with these artifacts."
             href={`/artifacts`}
+          />
+          <Article
+            name="Buildings"
+            description="Find out everything you need to know about the buildings."
+            href={`/buildings`}
+          />
+          <Article
+            name="Spells"
+            description="Your wielder can perform several spells."
+            href={`/spells`}
           />
         </SimpleGrid>
         <Blockquote

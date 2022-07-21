@@ -98,16 +98,17 @@ export default createStyles((theme) => ({
     paddingLeft: 23,
     paddingRight: theme.spacing.md,
     marginLeft: 7,
-    height: 34,
-    lineHeight: "34px",
     borderTopRightRadius: theme.radius.sm,
     borderBottomRightRadius: theme.radius.sm,
     fontSize: theme.fontSizes.sm,
     userSelect: "none",
-    textOverflow: "ellipsis",
-    overflow: "hidden",
-    whiteSpace: "nowrap",
     maxWidth: "calc(100% - 7px)",
+  },
+
+  linkInner: {
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
   },
 
   linkActive: {

@@ -1,0 +1,6043 @@
+[
+  {
+    "id": 30,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/PeasantHut",
+    "descriptionKey": "Arleon/PeasantHut/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasPeasantsHut1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasPeasantsHut2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Militia",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "Sapper",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Wood",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 1
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1000
+        },
+        {
+          "type": "Wood",
+          "amount": 4
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 32,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/Tavern",
+    "descriptionKey": "Arleon/Tavern/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasTavern1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasTavern2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Minstrel",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "Troubadour",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Glimmerweave",
+            "amount": 3
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 3
+          },
+          {
+            "type": "Wood",
+            "amount": 3
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1400
+        },
+        {
+          "type": "Wood",
+          "amount": 4
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 6,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/Farm",
+    "descriptionKey": "Arleon/Farm/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasFarm1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasFarm2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 385,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 150
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Wood",
+            "amount": 6
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 800
+        },
+        {
+          "type": "Wood",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 31,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/Quarry",
+    "descriptionKey": "Arleon/Quarry/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasQuarry1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasQuarry2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          },
+          {
+            "type": "Wood",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 7,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/Lumbermill",
+    "descriptionKey": "Arleon/Lumbermill/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasLumberMill1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasLumberMill2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          },
+          {
+            "type": "Stone",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 27,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/GuardTower",
+    "descriptionKey": "Arleon/GuardTower/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasGuardTower1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasGuardTower2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 15,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 500
+        },
+        {
+          "type": "Stone",
+          "amount": 3
+        },
+        {
+          "type": "Wood",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    },
+    "maxGarrison": {
+      "isVisibleInLevelEditor": 1,
+      "maxGarrison": [
+        {
+          "factionIndex": 1,
+          "unitIndex": 3,
+          "size": 10,
+          "upgradeType": 0
+        },
+        {
+          "factionIndex": 1,
+          "unitIndex": 0,
+          "size": 20,
+          "upgradeType": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 29,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/RallyPoint",
+    "descriptionKey": "Arleon/RallyPoint/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasRallyPoint",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Wood",
+          "amount": 3
+        },
+        {
+          "type": "Stone",
+          "amount": 3
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 3
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 3
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 3
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 111,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/RefusePile",
+    "descriptionKey": "Loth/RefusePile/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasRefusePile1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasRefusePile2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 129,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Rats",
+            "size": 5,
+            "requiredResearch": null,
+            "initialInstantIncome": 6
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "PlagueRats",
+            "size": 5,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 4
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 2
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 1
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        },
+        {
+          "type": "Stone",
+          "amount": 4
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 110,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/OathboundCrypt",
+    "descriptionKey": "Loth/OathboundCrypt/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasOathboundCrypt1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasOathboundCrypt2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Oathbound",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "OathboundLegionaire",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Wood",
+            "amount": 2
+          },
+          {
+            "type": "Stone",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1000
+        },
+        {
+          "type": "Stone",
+          "amount": 2
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 103,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/Croft",
+    "descriptionKey": "Loth/Croft/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasCroft1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasCroft2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 385,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 150
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Wood",
+            "amount": 6
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 800
+        },
+        {
+          "type": "Wood",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 113,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/StoneMason",
+    "descriptionKey": "Loth/StoneMason/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasStoneMasons1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasStoneMasons2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          },
+          {
+            "type": "Wood",
+            "amount": 2
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 116,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/WoodCollector",
+    "descriptionKey": "Loth/WoodCollector/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasWoodCollector1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasWoodCollector2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          },
+          {
+            "type": "Stone",
+            "amount": 2
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 107,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/GuardTower",
+    "descriptionKey": "Loth/GuardTower/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasGuardTower1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasGuardTower2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 15,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 500
+        },
+        {
+          "type": "Stone",
+          "amount": 3
+        },
+        {
+          "type": "Wood",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    },
+    "maxGarrison": {
+      "isVisibleInLevelEditor": 1,
+      "maxGarrison": [
+        {
+          "factionIndex": 2,
+          "unitIndex": 2,
+          "size": 10,
+          "upgradeType": 0
+        },
+        {
+          "factionIndex": 2,
+          "unitIndex": 3,
+          "size": 10,
+          "upgradeType": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 244,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/RallyPoint",
+    "descriptionKey": "Loth/RallyPoint/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasRallyPoint",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Wood",
+          "amount": 3
+        },
+        {
+          "type": "Stone",
+          "amount": 3
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 3
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 3
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 3
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 95,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/PipersPost",
+    "descriptionKey": "Barya/PipersPost/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasPipersPost1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasPipersPost2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Piper",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "SteamPiper",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 4
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 1
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1000
+        },
+        {
+          "type": "Stone",
+          "amount": 4
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 87,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/DreathDen",
+    "descriptionKey": "Barya/DreathDen/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasDreathDen1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasDreathDen2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Dreath",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "DireDreath",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Wood",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 2000
+        },
+        {
+          "type": "Stone",
+          "amount": 4
+        },
+        {
+          "type": "Wood",
+          "amount": 1
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 98,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/Shop",
+    "descriptionKey": "Barya/Shop/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasShop1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasShop2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 150
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Wood",
+            "amount": 6
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 800
+        },
+        {
+          "type": "Wood",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 99,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/StonePit",
+    "descriptionKey": "Barya/StonePit/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasStonePit1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasStonePit2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          },
+          {
+            "type": "Wood",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 97,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/Sawmill",
+    "descriptionKey": "Barya/Sawmill/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasSawmill1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasSawmill2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          },
+          {
+            "type": "Stone",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 90,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/GuardTower",
+    "descriptionKey": "Barya/GuardTower/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasGuardTower1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasGuardTower2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 15,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Glimmerweave",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 500
+        },
+        {
+          "type": "Stone",
+          "amount": 2
+        },
+        {
+          "type": "Wood",
+          "amount": 3
+        }
+      ],
+      "requiredBuildings": []
+    },
+    "maxGarrison": {
+      "isVisibleInLevelEditor": 1,
+      "maxGarrison": [
+        {
+          "factionIndex": 3,
+          "unitIndex": 1,
+          "size": 12,
+          "upgradeType": 0
+        },
+        {
+          "factionIndex": 3,
+          "unitIndex": 2,
+          "size": 10,
+          "upgradeType": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 96,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/RallyPoint",
+    "descriptionKey": "Barya/RallyPoint/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasTeleport",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Stone",
+          "amount": 3
+        },
+        {
+          "type": "Wood",
+          "amount": 3
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 3
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 3
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 3
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 125,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/LeanTo",
+    "descriptionKey": "Rana/LeanTo/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasLeanTo1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasLeanTo2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Hunter",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 4
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "StormGuard",
+            "size": 3,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 5
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 800
+        },
+        {
+          "type": "Stone",
+          "amount": 2
+        },
+        {
+          "type": "Wood",
+          "amount": 3
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 122,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/FetishPiles",
+    "descriptionKey": "Rana/FetishPiles/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasFetishPiles1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasFetishPiles2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Shaman",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "Sage",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 5
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 5
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1000
+        },
+        {
+          "type": "Stone",
+          "amount": 4
+        },
+        {
+          "type": "Wood",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 124,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/FungusFarmer",
+    "descriptionKey": "Rana/FungusFarmer/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasFungusFarmer1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasFungusFarmer2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 150
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 3
+          },
+          {
+            "type": "Wood",
+            "amount": 3
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 800
+        },
+        {
+          "type": "Wood",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 121,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/Diggers",
+    "descriptionKey": "Rana/Diggers/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasDigger1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasDigger2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Stone",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          },
+          {
+            "type": "Wood",
+            "amount": 2
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 123,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/Gatherers",
+    "descriptionKey": "Rana/Gatherers/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasGatherers1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasGatherers2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 1
+          }
+        ],
+        "troopIncomes": []
+      },
+      {
+        "level": 2,
+        "resources": [
+          {
+            "type": "Wood",
+            "amount": 2
+          }
+        ],
+        "troopIncomes": []
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          },
+          {
+            "type": "Stone",
+            "amount": 2
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 2
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1200
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 126,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/LookoutTower",
+    "descriptionKey": "Rana/LookoutTower/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasWatchTower1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasWatchTower2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 15,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "CelestialOre",
+            "amount": 2
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 3
+          }
+        ],
+        "requiredBuildings": []
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 500
+        },
+        {
+          "type": "Wood",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    },
+    "maxGarrison": {
+      "isVisibleInLevelEditor": 1,
+      "maxGarrison": [
+        {
+          "factionIndex": 4,
+          "unitIndex": 0,
+          "size": 20,
+          "upgradeType": 0
+        },
+        {
+          "factionIndex": 4,
+          "unitIndex": 1,
+          "size": 15,
+          "upgradeType": 0
+        }
+      ]
+    }
+  },
+  {
+    "id": 255,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/SpawningPool",
+    "descriptionKey": "Rana/SpawningPool/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasSpawningPool",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Stone",
+          "amount": 3
+        },
+        {
+          "type": "Wood",
+          "amount": 3
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 3
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 3
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 3
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 21,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/Barracks",
+    "descriptionKey": "Arleon/Barracks/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasBarracks1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasBarracks2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Ranger",
+            "size": 2,
+            "requiredResearch": "a4000000",
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Footman",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "Archer",
+            "size": 2,
+            "requiredResearch": "a4000000",
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "ShieldOfOrder",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 5
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          7
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 2000
+        },
+        {
+          "type": "Stone",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 26,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/FaeyGrove",
+    "descriptionKey": "Arleon/FaeyGrove/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasFaeyGrove1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasFaeyGrove2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "FaeySpirit",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          },
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "HornedOne",
+            "size": 1,
+            "requiredResearch": "a5000000",
+            "initialInstantIncome": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "FaeyRager",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "QueensGuard",
+            "size": 1,
+            "requiredResearch": "a5000000",
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Glimmerweave",
+            "amount": 10
+          },
+          {
+            "type": "Wood",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          6
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 22,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/Castle",
+    "descriptionKey": "Arleon/Castle/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasCastle1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasCastle2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "Knight",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "FistOfOrder",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 10
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          31
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 2500
+        },
+        {
+          "type": "Stone",
+          "amount": 10
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 3
+        }
+      ],
+      "requiredBuildings": [
+        30
+      ]
+    }
+  },
+  {
+    "id": 28,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/Marketplace",
+    "descriptionKey": "Arleon/Marketplace/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasMarketplace",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1500
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 104,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/EmbalmersLab",
+    "descriptionKey": "Loth/EmbalmersLab/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasEmbalmersLab1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasEmbalmersLab2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Embalmer",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "Doctor",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 5
+          },
+          {
+            "type": "Wood",
+            "amount": 10
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          116
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 2500
+        },
+        {
+          "type": "Wood",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 106,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/ExMortisSanctum",
+    "descriptionKey": "Loth/ExMortisSanctum/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasExMortisSanctum1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasExMortisSanctum2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Cultist",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          },
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Necromancer",
+            "size": 1,
+            "requiredResearch": "a6000000",
+            "initialInstantIncome": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "Zealot",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "Oathsinger",
+            "size": 1,
+            "requiredResearch": "a6000000",
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Wood",
+            "amount": 5
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          103
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1500
+        },
+        {
+          "type": "Wood",
+          "amount": 5
+        },
+        {
+          "type": "Stone",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 102,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/AurelianMausoleum",
+    "descriptionKey": "Loth/AurelianMausoleum/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasAurelianMausoleum1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasAurelianMausoleum2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "AurelianCleric",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          },
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "SanctifiedBones",
+            "size": 1,
+            "requiredResearch": "a7000000",
+            "initialInstantIncome": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "AurelianHighCleric",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "BlessedBones",
+            "size": 1,
+            "requiredResearch": "a7000000",
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "AncientAmber",
+            "amount": 10
+          },
+          {
+            "type": "Wood",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          113
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 5
+        },
+        {
+          "type": "Wood",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": [
+        110
+      ]
+    }
+  },
+  {
+    "id": 115,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/TradingPost",
+    "descriptionKey": "Loth/TradingPost/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasTradingPost",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1500
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 93,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/MercenaryQuarters",
+    "descriptionKey": "Barya/MercenaryQuarters/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasMercenaryQuarters1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasMercenaryQuarters2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Musketeer",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          },
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Pikeneer",
+            "size": 2,
+            "requiredResearch": 21010000,
+            "initialInstantIncome": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "MusketeerVeteran",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "PikeneerVeteran",
+            "size": 2,
+            "requiredResearch": 21010000,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 4
+          },
+          {
+            "type": "Wood",
+            "amount": 4
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 4
+          }
+        ],
+        "requiredBuildings": [
+          98
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 2500
+        },
+        {
+          "type": "Wood",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 91,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/LavabornFortalice",
+    "descriptionKey": "Barya/LavabornFortalice/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasFortalice1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasFortalice2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Brute",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          },
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Sassanid",
+            "size": 1,
+            "requiredResearch": 20010000,
+            "initialInstantIncome": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "ScarredBrute",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "SassanidVeteran",
+            "size": 1,
+            "requiredResearch": 20010000,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 10
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 10
+          }
+        ],
+        "requiredBuildings": [
+          97
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "Stone",
+          "amount": 5
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": [
+        95
+      ]
+    }
+  },
+  {
+    "id": 100,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/Workshop",
+    "descriptionKey": "Barya/Workshop/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasWorkshop1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasWorkshop2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Tinkerer",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "Artificer",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Wood",
+            "amount": 10
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 3
+          }
+        ],
+        "requiredBuildings": [
+          99
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 2500
+        },
+        {
+          "type": "Stone",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 85,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/Bazaar",
+    "descriptionKey": "Barya/Bazaar/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasBazar",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1500
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 120,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/MudHuts",
+    "descriptionKey": "Rana/MudHuts/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasMudHuts1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasMudHuts2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Guard",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 3
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Crawler",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "Protector",
+            "size": 2,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "AdultCrawler",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 5
+          },
+          {
+            "type": "Wood",
+            "amount": 5
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 10
+          }
+        ],
+        "requiredBuildings": [
+          123
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "Wood",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 117,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/BeastCorral",
+    "descriptionKey": "Rana/BeastCorral/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasBeastCorral1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasBeastCorral2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Ravager",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Tremor",
+            "size": 1,
+            "requiredResearch": "1f010000",
+            "initialInstantIncome": 0
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "RiderOfTheSwamp",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Tremor",
+            "size": 1,
+            "requiredResearch": "1f010000",
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Glimmerweave",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          125
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 2000
+        },
+        {
+          "type": "Stone",
+          "amount": 10
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 119,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/ChelunsSanctuary",
+    "descriptionKey": "Rana/ChelunsSanctuary/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasChelunSanctuary1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasChelunSanctuary2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Chelun",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "ChelunElder",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Stone",
+            "amount": 5
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 3
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 3
+          }
+        ],
+        "requiredBuildings": [
+          124
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "Stone",
+          "amount": 5
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": [
+        122
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/TheExchange",
+    "descriptionKey": "Rana/TheExchange/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasTheExchange",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 384,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 1500
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 25,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/FaeyCourt",
+    "descriptionKey": "Arleon/FaeyCourt/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasFaeyCourt1",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonBuildingPortraitsAtlasFaeyCourt2",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "vanilla",
+            "unitKey": "FaeyNoble",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Arleon",
+            "upgradeType": "upgraded",
+            "unitKey": "FaeyQueen",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Glimmerweave",
+            "amount": 20
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 12
+          }
+        ],
+        "requiredBuildings": [
+          26
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 7000
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 10
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 73,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/GrandArmory",
+    "descriptionKey": "Arleon/GrandArmory/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasGrandArmory",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 5
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 71,
+    "factionId": 1,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Arleon/Academy",
+    "descriptionKey": "Arleon/Academy/Description",
+    "portraits": [
+      {
+        "name": "ArleonBuildingPortraitsAtlasAcademy",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 5
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 112,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/RitualCircle",
+    "descriptionKey": "Loth/RitualCircle/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasRitualCircle1",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "LothBuildingPortraitsAtlasRitualCircle2",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 64,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "vanilla",
+            "unitKey": "Legion",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Loth",
+            "upgradeType": "upgraded",
+            "unitKey": "HighLegion",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "AncientAmber",
+            "amount": 15
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          106
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 7000
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 2
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 8
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 2
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 114,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/TheUnseenSociety",
+    "descriptionKey": "Loth/TheUnseenSociety/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasTheUnseenSociety",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 5
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 108,
+    "factionId": 2,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Loth/LibraryOfAurelia",
+    "descriptionKey": "Loth/LibraryOfAurelia/Description",
+    "portraits": [
+      {
+        "name": "LothBuildingPortraitsAtlasLibraryofAurelia",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 448,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 5
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 88,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/Factory",
+    "descriptionKey": "Barya/Factory/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasFactory1",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "BaryaBuildingPortraitsAtlasFactory2",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 320,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "vanilla",
+            "unitKey": "Hellbreath",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Barya",
+            "upgradeType": "upgraded",
+            "unitKey": "Hellroar",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "AncientAmber",
+            "amount": 5
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 20
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 5
+          }
+        ],
+        "requiredBuildings": [
+          100
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 7000
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 15
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 89,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/Foundry",
+    "descriptionKey": "Barya/Foundry/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasFoundry",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 5
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 94,
+    "factionId": 3,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Barya/MerchantsGuild",
+    "descriptionKey": "Barya/MerchantsGuild/Description",
+    "portraits": [
+      {
+        "name": "BaryaBuildingPortraitsAtlasMerchantsGuild",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "x": 0,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 5
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 128,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/SmolderingCave",
+    "descriptionKey": "Rana/SmolderingCave/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasSmolderingCave1",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 128,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasSmolderingCave2",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 192,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RanaBuildingPortraitsAtlasSmolderingCave3",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 320,
+        "y": 192,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "incomePerLevel": [
+      {
+        "level": 1,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "vanilla",
+            "unitKey": "Dragonling",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 1
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "Dragon",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      },
+      {
+        "level": 3,
+        "resources": [],
+        "troopIncomes": [
+          {
+            "factionKey": "Rana",
+            "upgradeType": "upgraded",
+            "unitKey": "Dragon",
+            "size": 1,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          },
+          {
+            "factionKey": "Rana",
+            "upgradeType": "superUpgraded",
+            "unitKey": "ElderDragon",
+            "size": 0,
+            "requiredResearch": null,
+            "initialInstantIncome": 0
+          }
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "levelUpgrades": [
+      {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 5000
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 20
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 30
+          }
+        ],
+        "requiredBuildings": [
+          119
+        ]
+      },
+      {
+        "costEntries": [
+          {
+            "type": "Glimmerweave",
+            "amount": 20
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 30
+          }
+        ],
+        "requiredBuildings": [
+          127
+        ]
+      }
+    ],
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3500
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 8
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 127,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/DragonMonolith",
+    "descriptionKey": "Rana/DragonMonolith/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasDragonMonolith",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 448,
+        "y": 256,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 5
+        },
+        {
+          "type": "AncientAmber",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 131,
+    "factionId": 4,
+    "buildSite": "MapEntities/BuildSite/Large",
+    "nameKey": "Rana/BirthingPools",
+    "descriptionKey": "Rana/BirthingPools/Description",
+    "portraits": [
+      {
+        "name": "RanaBuildingPortraitsAtlasBirthingPools",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "x": 256,
+        "y": 384,
+        "width": 64,
+        "height": 64,
+        "outline": [
+          [
+            {
+              "x": -32,
+              "y": -32
+            },
+            {
+              "x": -32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": 32
+            },
+            {
+              "x": 32,
+              "y": -32
+            }
+          ]
+        ]
+      }
+    ],
+    "baseViewRadius": 8,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Gold",
+          "amount": 3000
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 5
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 5
+        }
+      ],
+      "requiredBuildings": []
+    }
+  }
+]

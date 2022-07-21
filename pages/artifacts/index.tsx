@@ -3,19 +3,19 @@ import { withStaticBase } from "../../lib/staticProps";
 
 import { SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import Head from "next/head";
 import Article from "../../components/Article/Article";
 import { ArtifactSimpleDTO, getArtifacts } from "../../lib/artifacts";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Skills: NextPage<{ artifacts: ArtifactSimpleDTO[] }> = ({
   artifacts,
 }) => {
   return (
     <>
-      <Head>
-        <title>Artifacts - SoC.gg</title>
-        <meta name="description" content="All artifacts of Songs of Conquest" />
-      </Head>
+      <PageHead
+        title="Artifacts - SoC.gg"
+        description="All artifacts of Songs of Conquest"
+      />
       <SimpleGrid
         breakpoints={[
           { minWidth: "sm", cols: 1 },

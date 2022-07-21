@@ -3,20 +3,20 @@ import { withStaticBase } from "../../lib/staticProps";
 
 import { Group, Image, Stack, Text, Title, SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import { getTerm, TermsDTO } from "../../lib/terms";
+import { getSiteTerm, getTerm, TermsDTO } from "../../lib/terms";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
-import Head from "next/head";
 import Article from "../../components/Article/Article";
 import { useTerms } from "../../components/Terms/Terms";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
   const terms = useTerms();
   return (
     <>
-      <Head>
-        <title>{faction.name} - SoC.gg</title>
-        <meta name="description" content={faction.description} />
-      </Head>
+      <PageHead
+        title={`${faction.name} - SoC.gg`}
+        description={`${faction.description} - ${faction.name} (Songs of Conquest)`}
+      />
       <Stack>
         <Image
           src={`/factions/${faction.type}AnimatedFactionBanner.gif`}
@@ -100,6 +100,31 @@ const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
             />
           ))}
         </SimpleGrid>
+
+        <Title order={2}>{terms.buildings}</Title>
+
+        <SimpleGrid
+          breakpoints={[
+            { minWidth: "sm", cols: 1 },
+            { minWidth: "md", cols: 2 },
+            { minWidth: "lg", cols: 3 },
+          ]}
+        >
+          {faction.buildings.map((building) => (
+            <Article
+              key={building.type}
+              image={
+                <SpriteSheet
+                  spriteSheet={building.portraits[0]}
+                  folder="buildings"
+                />
+              }
+              name={building.name}
+              description={building.description}
+              href={`/buildings/${building.type}`}
+            />
+          ))}
+        </SimpleGrid>
       </Stack>
     </>
   );
@@ -123,6 +148,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     defense: getTerm("Commanders/Details/CommanderStat/Defense", locale),
     movement: getTerm("Commanders/Details/CommanderStat/Movement", locale),
     viewRadius: getTerm("Commanders/Details/CommanderStat/View", locale),
+    buildings: getSiteTerm("Buildings", locale),
   };
 
   return {

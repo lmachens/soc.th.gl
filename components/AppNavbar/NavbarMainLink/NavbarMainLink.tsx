@@ -18,7 +18,7 @@ const NavbarMainLink = ({ href, icon, children }: Props) => {
     <Link href={href} passHref prefetch={false}>
       <Box
         component="a"
-        className={cx(classes.mainLink, asPath === "/" && classes.active)}
+        className={cx(classes.mainLink, asPath === href && classes.active)}
       >
         <ThemeIcon size={30} radius="lg" color="dark">
           {icon}

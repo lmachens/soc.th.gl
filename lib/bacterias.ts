@@ -1,13 +1,4 @@
-import { getTerm } from "./terms";
-
-export const RESOURCE_TYPES = [
-  "Gold",
-  "Wood",
-  "Stone",
-  "AncientAmber",
-  "Glimmerweave",
-  "CelestialOre",
-];
+import { getTerm, PERCENTAGE_BASED_MODIFIERS } from "./terms";
 
 export type BacteriaDTO = {
   bacteriaType: number;
@@ -18,7 +9,7 @@ export type BacteriaDTO = {
     description: string;
   }[];
   resourcesIncome: {
-    type: number;
+    type: string;
     name: string;
     amount: number;
     allTimeAmount: number;
@@ -29,7 +20,7 @@ export type BacteriaDTO = {
   duration?: string;
 };
 
-type PureBacteria = {
+export type PureBacteria = {
   bacteriaType: number;
   type: string;
   modifierData: {
@@ -39,7 +30,7 @@ type PureBacteria = {
     applicationType: number;
   }[];
   resourcesIncome: {
-    type: number;
+    type: string;
     amount: number;
     allTimeAmount: number;
   }[];
@@ -47,20 +38,17 @@ type PureBacteria = {
     bacterias: PureBacteria[];
   };
   duration?: {
-    type: number;
+    type: string;
     duration: number;
   };
+  customEffect?: string;
+  customEffectValue?: number;
+  secondaryCustomEffectValue?: number;
   restriction?: string;
   auraSettings?: {
     recipients: string;
     hexRadius: number;
-    bacteriaToAdd: {
-      bacteriaType: number;
-      duration: {
-        type: number;
-        duration: number;
-      };
-    };
+    bacteriaToAdd: PureBacteria | null;
     isStackable: number;
     isPassable: number;
   };
@@ -112,15 +100,13 @@ export const getLocaleBacteria = (
         `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
         locale,
         modifier.amountToAdd,
-        modifier.modifier
+        modifier.applicationType === 1 ||
+          PERCENTAGE_BASED_MODIFIERS.includes(modifier.modifier)
       ),
     })),
     resourcesIncome: bacteria.resourcesIncome.map((resourceIncome) => ({
       type: resourceIncome.type,
-      name: getTerm(
-        `Common/Resource/${RESOURCE_TYPES[resourceIncome.type]}`,
-        locale
-      ),
+      name: getTerm(`Common/Resource/${resourceIncome.type}`, locale),
       amount: resourceIncome.amount,
       allTimeAmount: resourceIncome.allTimeAmount,
     })),

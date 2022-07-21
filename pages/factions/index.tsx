@@ -1,5 +1,4 @@
 import { NextPage } from "next";
-import Head from "next/head";
 import { withStaticBase } from "../../lib/staticProps";
 
 import { Divider, Grid, Image, Stack, SimpleGrid, Text } from "@mantine/core";
@@ -7,14 +6,15 @@ import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { FactionSimpleDTO, getFactions } from "../../lib/factions";
 import AppLink from "../../components/AppLink/AppLink";
 import Article from "../../components/Article/Article";
+import PageHead from "../../components/PageHead/PageHead";
 
 const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
   return (
     <>
-      <Head>
-        <title>Factions - SoC.gg</title>
-        <meta name="description" content="All factions of Songs of Conquest" />
-      </Head>
+      <PageHead
+        title="Factions - SoC.gg"
+        description="All factions of Songs of Conquest"
+      />
       <Grid justify="center" mt="md">
         {factions.map((faction) => (
           <Grid.Col key={faction.type} lg={3} md={3} sm={6} xs={6} span={6}>
