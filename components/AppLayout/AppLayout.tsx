@@ -2,7 +2,6 @@ import { AppShell, Box, Container } from "@mantine/core";
 import { useRouter } from "next/router";
 import { ReactNode, useEffect, useState } from "react";
 import { CollectionLink } from "../../lib/staticProps";
-import ConsentLink from "../Ads/ConsentLink";
 import AppHeader from "../AppHeader/AppHeader";
 import AppNavbar from "../AppNavbar/AppNavbar";
 import AppFooter from "../AppFooter/AppFooter";
@@ -51,14 +50,6 @@ const AppLayout = ({ collectionLinks, children, banner }: Props) => {
         )}
         <Container p="md" size="xl">
           {children}
-          <Box
-            p="lg"
-            sx={{
-              textAlign: "center",
-            }}
-          >
-            <ConsentLink />
-          </Box>
         </Container>
         <AppFooter />
       </AppShell>
