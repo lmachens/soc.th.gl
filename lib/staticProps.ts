@@ -189,6 +189,16 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       GitHubTooltip: getSiteTerm("GitHubTooltip", locale),
       LearnMore: getSiteTerm("LearnMore", locale),
       Search: getSiteTerm("Search", locale),
+      About: getSiteTerm("About", locale),
+      Sitemap: getSiteTerm("Sitemap", locale),
+      PrivacyPolicy: getSiteTerm("PrivacyPolicy", locale),
+      OfficalLinks: getSiteTerm("OfficalLinks", locale),
+      Discord: getSiteTerm("Discord", locale),
+      SongsOfConquest: getSiteTerm("SongsOfConquest", locale),
+      BuyOn: getSiteTerm("BuyOn", locale),
+      Steam: getSiteTerm("Steam", locale),
+      GoG: getSiteTerm("GoG", locale),
+      EpicGames: getSiteTerm("EpicGames", locale),
     };
 
     const pagePropsResult = propsResult as {
