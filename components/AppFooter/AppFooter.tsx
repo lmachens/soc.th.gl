@@ -1,4 +1,4 @@
-import { Text, Container } from "@mantine/core";
+import { Text, Container, Group } from "@mantine/core";
 import { useTerms } from "../../components/Terms/Terms";
 import AppLink from "../AppLink/AppLink";
 import Image from "next/image";
@@ -32,19 +32,21 @@ const AppFooter = () => {
   });
   return (
     <footer className={classes.footer}>
-      <Container className={classes.inner}>
-        <div className={classes.logo}>
-          <AppLink href="/" style={{ display: "flex" }}>
-            <Image src={LogoSmall} alt="SoC.GG" />
-          </AppLink>
-        </div>
-        <div className={classes.groups}>{groups}</div>
-      </Container>
-      <Container className={classes.afterFooter}>
-        <Text color="dimmed" size="sm">
-          © 2022 SoC.GG. All rights reserved.
-        </Text>
-        <ConsentLink />
+      <Container>
+        <Group className={classes.inner}>
+          <div className={classes.logo}>
+            <AppLink href="/" style={{ display: "flex" }}>
+              <Image src={LogoSmall} alt="SoC.GG" />
+            </AppLink>
+          </div>
+          <div className={classes.groups}>{groups}</div>
+        </Group>
+        <Group className={classes.afterFooter}>
+          <Text color="dimmed" size="sm">
+            © 2022 SoC.GG. All rights reserved.
+          </Text>
+          <ConsentLink />
+        </Group>
       </Container>
     </footer>
   );
