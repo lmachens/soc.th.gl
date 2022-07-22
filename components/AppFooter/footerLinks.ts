@@ -3,6 +3,16 @@ const footerLinks = [
     term: "About",
     links: [
       {
+        term: "SoC.gg Discord",
+        href: "https://discord.com/invite/NTZu8Px",
+        target: "_blank",
+      },
+      {
+        term: "GitHub",
+        href: "https://github.com/lmachens/soc.gg",
+        target: "_blank",
+      },
+      {
         term: "Sitemap",
         href: "/sitemap.xml",
         target: "_blank",
@@ -17,7 +27,7 @@ const footerLinks = [
     term: "OfficalLinks",
     links: [
       {
-        term: "Discord",
+        term: "Official Discord",
         href: "http://discord.gg/soc",
         target: "_blank",
       },
@@ -29,7 +39,7 @@ const footerLinks = [
     ],
   },
   {
-    term: "Download",
+    term: "BuyOn",
     links: [
       {
         term: "Steam",

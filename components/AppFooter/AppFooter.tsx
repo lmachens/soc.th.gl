@@ -19,13 +19,13 @@ const AppFooter = () => {
         href={link.href}
         target={link.target}
       >
-        {terms[link.term]}
+        {terms[link.term] ?? link.term}
       </AppLink>
     ));
 
     return (
       <div className={classes.wrapper} key={group.term}>
-        <Text className={classes.title}>{terms[group.term]}</Text>
+        <Text className={classes.title}>{terms[group.term] ?? group.term}</Text>
         {links}
       </div>
     );

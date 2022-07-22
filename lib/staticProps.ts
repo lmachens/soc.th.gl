@@ -195,7 +195,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       OfficalLinks: getSiteTerm("OfficalLinks", locale),
       Discord: getSiteTerm("Discord", locale),
       SongsOfConquest: getSiteTerm("SongsOfConquest", locale),
-      Download: getSiteTerm("Download", locale),
+      BuyOn: getSiteTerm("BuyOn", locale),
       Steam: getSiteTerm("Steam", locale),
       GoG: getSiteTerm("GoG", locale),
       EpicGames: getSiteTerm("EpicGames", locale),

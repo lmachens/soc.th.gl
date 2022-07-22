@@ -13,7 +13,8 @@ const ConsentLink = () => {
   return (
     <Anchor
       id="ncmp-consent-link"
-      color="gray"
+      color="dimmed"
+      size="sm"
       sx={{
         button: {
           background: "none",
