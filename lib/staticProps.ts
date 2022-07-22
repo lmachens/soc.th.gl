@@ -198,7 +198,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       Download: getSiteTerm("Download", locale),
       Steam: getSiteTerm("Steam", locale),
       GoG: getSiteTerm("GoG", locale),
-      Epic: getSiteTerm("Epic", locale),
+      EpicGames: getSiteTerm("EpicGames", locale),
     };
 
     const pagePropsResult = propsResult as {
