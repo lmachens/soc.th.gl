@@ -12,6 +12,7 @@ import WielderStats from "../../components/WielderStats/WielderStats";
 import { Fragment } from "react";
 import { getWielderStatsIcons, IconsDTO } from "../../lib/icons";
 import PageHead from "../../components/PageHead/PageHead";
+import SkillPopover from "../../components/Skills/SkillPopover";
 
 const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
   wielder,
@@ -89,32 +90,21 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
           </Fragment>
         ))}
         <Title order={3}>{terms.startingSkills}</Title>
-        <Table striped>
-          <tbody>
-            {wielder.startingSkills.map((skill) => (
-              <tr key={`${wielder.name}-${skill.type}`}>
-                <td>
-                  <PopoverLink
-                    href={`/skills/${skill.type}`}
-                    popover={
-                      <Stack>
-                        <Title order={4}>{skill.name}</Title>
-                        <Text size="sm">{skill.lore}</Text>
-                      </Stack>
-                    }
-                  >
-                    {skill.name}
-                    {skill.level && (
-                      <Text>
-                        {terms.level} {skill.level}
-                      </Text>
-                    )}
-                  </PopoverLink>
-                </td>
-              </tr>
-            ))}
-          </tbody>
-        </Table>
+        <Group spacing="lg">
+          {wielder.startingSkills.map((skill) => (
+            <SkillPopover key={`${wielder.name}-${skill.type}`} skill={skill}>
+              <Group>
+                <SpriteSheet folder="skills" spriteSheet={skill.icon} />
+                <div>
+                  <Text>{skill.name}</Text>
+                  <Text>
+                    {terms.level} {skill.level}
+                  </Text>
+                </div>
+              </Group>
+            </SkillPopover>
+          ))}
+        </Group>
         <Title order={3}>Skill pool</Title>
         <Text size="sm" sx={{ fontStyle: "italic" }}>
           The requirements are based on the wielder level. Some skills have
@@ -136,50 +126,54 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
                 {skillPool.skills.map((skill) => (
                   <tr key={`${skillPool.name}-${skill.type}`}>
                     <td>
-                      <PopoverLink
-                        href={`/skills/${skill.type}`}
-                        popover={
-                          <Stack>
-                            <Title order={4}>{skill.name}</Title>
-                            <Text size="sm">{skill.lore}</Text>
-                          </Stack>
-                        }
-                      >
-                        {skill.name}
-                      </PopoverLink>
+                      <SkillPopover skill={skill}>
+                        <Group spacing={2} sx={{ minWidth: 160 }}>
+                          <SpriteSheet
+                            folder="skills"
+                            spriteSheet={skill.icon}
+                            inline
+                            resize={0.3}
+                          />
+                          {skill.name}
+                        </Group>
+                      </SkillPopover>
                     </td>
                     <td>
-                      {skill.requiresSkill &&
-                        skill.requiredSkills.map((requiredSkill, index) => (
-                          <Fragment key={requiredSkill.type}>
-                            {index !== 0 && (
-                              <Text
-                                component="span"
-                                mr="sm"
-                                color="dimmed"
-                                transform="uppercase"
-                                size="xs"
-                              >
-                                {skill.requirementType === "RequireAll"
-                                  ? terms.and
-                                  : terms.or}
-                              </Text>
-                            )}
-                            <PopoverLink
-                              href={`/skills/${requiredSkill.type}`}
-                              popover={
-                                <Stack>
-                                  <Title order={4}>{requiredSkill.name}</Title>
-                                  <Text size="sm">{requiredSkill.lore}</Text>
-                                </Stack>
-                              }
+                      <Group>
+                        {skill.requiresSkill &&
+                          skill.requiredSkills.map((requiredSkill, index) => (
+                            <Fragment
+                              key={`${skill.type}-${requiredSkill.type}`}
                             >
-                              <Text component="span" mx="xs">
-                                {requiredSkill.name} ({requiredSkill.level})
-                              </Text>
-                            </PopoverLink>
-                          </Fragment>
-                        ))}
+                              {index !== 0 && (
+                                <Text
+                                  component="span"
+                                  mr="sm"
+                                  color="dimmed"
+                                  transform="uppercase"
+                                  size="xs"
+                                >
+                                  {skill.requirementType === "RequireAll"
+                                    ? terms.and
+                                    : terms.or}
+                                </Text>
+                              )}
+                              <SkillPopover skill={requiredSkill}>
+                                <Group spacing={2}>
+                                  <SpriteSheet
+                                    folder="skills"
+                                    spriteSheet={requiredSkill.icon}
+                                    inline
+                                    resize={0.3}
+                                  />
+                                  <Text component="span" mx="xs">
+                                    {requiredSkill.name} ({requiredSkill.level})
+                                  </Text>
+                                </Group>
+                              </SkillPopover>
+                            </Fragment>
+                          ))}
+                      </Group>
                     </td>
                     <td>
                       {skillPool.evaluationType === "LevelRange" &&

@@ -21,7 +21,7 @@ const Skill: NextPage<{
       />
 
       <Stack>
-        <SpriteSheet spriteSheet={skill.icon} />
+        <SpriteSheet spriteSheet={skill.icon} folder="skills" />
 
         <Stack>
           <Title order={2}>{skill.name}</Title>
