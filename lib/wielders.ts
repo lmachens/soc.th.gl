@@ -3,6 +3,7 @@ import wieldersCollection from "./collections/wielders.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
 import unitsCollection from "./collections/units.json";
+import { getSkills, SkillSimpleDTO } from "./skills";
 
 export const getWielders = (locale: string): WielderSimpleDTO[] => {
   const wielders = wieldersCollection.map((wielder) => ({
@@ -26,6 +27,7 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
   if (!wielderSrc) {
     return null;
   }
+  const skills = getSkills(locale);
 
   const wielder = {
     type: wielderSrc.type,
@@ -62,9 +64,7 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       };
     }),
     startingSkills: wielderSrc.startingSkills.map((skill) => ({
-      type: skill.type,
-      lore: getTerm(`Skills/${skill.type}/Lore`, locale),
-      name: getTerm(`Skills/${skill.type}`, locale),
+      ...skills.find((skillSrc) => skillSrc.type === skill.type)!,
       level: skill.level,
     })),
     skillPools: wielderSrc.skillPools.map((skillPool) => ({
@@ -74,18 +74,14 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       levelIntervalStartLevel: skillPool.levelIntervalStartLevel,
       levelInterval: skillPool.levelInterval,
       skills: skillPool.skills.map((skill) => ({
-        type: skill.type,
-        lore: getTerm(`Skills/${skill.type}/Lore`, locale),
-        name: getTerm(`Skills/${skill.type}`, locale),
+        ...skills.find((skillSrc) => skillSrc.type === skill.type)!,
         requiresSkill: skill.requiresSkill || null,
         requirementType:
           (skill.requirementType as "RequireAny" | "RequireAll" | undefined) ||
           null,
         requiredSkills:
           skill.requiredSkills?.map((requiredSkill) => ({
-            type: requiredSkill.type,
-            lore: getTerm(`Skills/${requiredSkill.type}/Lore`, locale),
-            name: getTerm(`Skills/${requiredSkill.type}`, locale),
+            ...skills.find((skillSrc) => skillSrc.type === requiredSkill.type)!,
             level: requiredSkill.level,
           })) || null,
       })),
@@ -126,12 +122,7 @@ export type WielderDTO = {
     viewRadius: number;
     command: number;
   };
-  startingSkills: {
-    type: string;
-    lore: string;
-    name: string;
-    level: number;
-  }[];
+  startingSkills: (SkillSimpleDTO & { level: number })[];
   skillPools: {
     name: string;
     evaluationType: string;
@@ -141,19 +132,13 @@ export type WielderDTO = {
     };
     levelIntervalStartLevel: number;
     levelInterval: number;
-    skills: {
-      type: string;
-      lore: string;
-      name: string;
+    skills: (SkillSimpleDTO & {
       requiresSkill: boolean | null;
       requirementType: "RequireAny" | "RequireAll" | null;
-      requiredSkills: {
+      requiredSkills: (SkillSimpleDTO & {
         level: number;
-        type: string;
-        lore: string;
-        name: string;
-      }[];
-    }[];
+      })[];
+    })[];
   }[];
   units: {
     name: string;

@@ -243,8 +243,9 @@ const getBacteria = ({ bacteriaType, duration }) => {
 };
 
 const getSimpleSkill = ({ skill, level }) => {
+  const skillSrc = skillsSrc.find((skillSrc) => skillSrc.id === skill);
   return {
-    type: skillsSrc.find((skillSrc) => skillSrc.id === skill).type,
+    type: skillSrc.type,
     level: level,
   };
 };
@@ -402,6 +403,9 @@ const skills = skillsSrc.map((skillSrc) => ({
 }));
 
 await writeJSONFile(skills, "../../lib/collections/skills");
+for (const skill of skills) {
+  await copyImageFile(skill.icon.spriteSheet, "../public/skills");
+}
 
 const skillPools = skillPoolsSrc.map((skillPool) => ({
   id: skillPool.id,
