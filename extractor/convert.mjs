@@ -239,6 +239,19 @@ const getBacteria = ({ bacteriaType, duration }) => {
       ),
     };
   }
+  if (bacteria.settings?.bacteriaToAddWhenMoving) {
+    result.settings = {
+      bacteriaToAddWhenMoving: getBacteria({
+        bacteriaType: bacteria.settings.bacteriaToAddWhenMoving,
+        duration: {
+          type: BACTERIA_DURATION_TYPES[
+            bacteria.settings.durationOfBacteriaToAdd.type
+          ],
+          duration: bacteria.settings.durationOfBacteriaToAdd.duration,
+        },
+      }),
+    };
+  }
   return result;
 };
 

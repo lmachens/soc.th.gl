@@ -15,7 +15,8 @@ export type BacteriaDTO = {
     allTimeAmount: number;
   }[];
   settings?: {
-    bacterias: BacteriaDTO[];
+    bacterias?: BacteriaDTO[];
+    bacteriaToAddWhenMoving?: BacteriaDTO;
   };
   duration?: string;
 };
@@ -35,7 +36,8 @@ export type PureBacteria = {
     allTimeAmount: number;
   }[];
   settings?: {
-    bacterias: PureBacteria[];
+    bacterias?: PureBacteria[];
+    bacteriaToAddWhenMoving?: PureBacteria;
   };
   duration?: {
     type: string;
@@ -91,6 +93,13 @@ export const getLocaleBacteria = (
       }
     }
   }
+  if (bacteria.settings?.bacteriaToAddWhenMoving) {
+    description = getTerm(
+      `Bacterias/TroopMovedBacteria/Description/EachStep`,
+      locale
+    );
+    modifierData = bacteria.settings.bacteriaToAddWhenMoving.modifierData;
+  }
 
   const result: BacteriaDTO = {
     bacteriaType: bacteria.bacteriaType,
@@ -116,13 +125,14 @@ export const getLocaleBacteria = (
       allTimeAmount: resourceIncome.allTimeAmount,
     })),
   };
-  if (bacteria.settings) {
+  if (bacteria.settings?.bacterias) {
     result.settings = {
       bacterias: bacteria.settings.bacterias.map((subBacteria) =>
         getLocaleBacteria(subBacteria, locale)
       ),
     };
   }
+
   if (bacteria.duration) {
     const term =
       bacteria.duration.duration === 1

@@ -2233,6 +2233,35 @@
           "duration": {
             "type": "Permanent",
             "duration": 0
+          },
+          "settings": {
+            "bacteriaToAddWhenMoving": {
+              "bacteriaType": 870,
+              "type": "TraitCharged",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "CurrentBattleStackTurn",
+                "duration": 1
+              }
+            }
           }
         }
       ]
@@ -2619,6 +2648,35 @@
           "duration": {
             "type": "Permanent",
             "duration": 0
+          },
+          "settings": {
+            "bacteriaToAddWhenMoving": {
+              "bacteriaType": 870,
+              "type": "TraitCharged",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "CurrentBattleStackTurn",
+                "duration": 1
+              }
+            }
           }
         }
       ]
@@ -15096,6 +15154,35 @@
           "duration": {
             "type": "Permanent",
             "duration": 0
+          },
+          "settings": {
+            "bacteriaToAddWhenMoving": {
+              "bacteriaType": 870,
+              "type": "TraitCharged",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "CurrentBattleStackTurn",
+                "duration": 1
+              }
+            }
           }
         }
       ]
@@ -15403,6 +15490,35 @@
           "duration": {
             "type": "Permanent",
             "duration": 0
+          },
+          "settings": {
+            "bacteriaToAddWhenMoving": {
+              "bacteriaType": 870,
+              "type": "TraitCharged",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "CurrentBattleStackTurn",
+                "duration": 1
+              }
+            }
           }
         }
       ]
