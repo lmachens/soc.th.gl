@@ -108,6 +108,26 @@ export type WielderSimpleDTO = {
   };
 };
 
+export type SkillPoolSkillDTO = SkillSimpleDTO & {
+  requiresSkill: boolean | null;
+  requirementType: "RequireAny" | "RequireAll" | null;
+  requiredSkills: (SkillSimpleDTO & {
+    level: number;
+  })[];
+};
+
+export type SkillPoolDTO = {
+  name: string;
+  evaluationType: string;
+  levelRange: {
+    min: number;
+    max: number;
+  };
+  levelIntervalStartLevel: number;
+  levelInterval: number;
+  skills: SkillPoolSkillDTO[];
+};
+
 export type WielderDTO = {
   type: string;
   faction: string;
@@ -123,23 +143,7 @@ export type WielderDTO = {
     command: number;
   };
   startingSkills: (SkillSimpleDTO & { level: number })[];
-  skillPools: {
-    name: string;
-    evaluationType: string;
-    levelRange: {
-      min: number;
-      max: number;
-    };
-    levelIntervalStartLevel: number;
-    levelInterval: number;
-    skills: (SkillSimpleDTO & {
-      requiresSkill: boolean | null;
-      requirementType: "RequireAny" | "RequireAll" | null;
-      requiredSkills: (SkillSimpleDTO & {
-        level: number;
-      })[];
-    })[];
-  }[];
+  skillPools: SkillPoolDTO[];
   units: {
     name: string;
     description: string;
