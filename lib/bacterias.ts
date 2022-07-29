@@ -63,6 +63,8 @@ export const getLocaleBacteria = (
       .replace(/\d+/g, "")}/Description`,
     locale
   );
+  let modifierData = bacteria.modifierData;
+
   // The description of bacterias with restriction are generated from the restriction type.
   if (!description) {
     if (bacteria.restriction) {
@@ -75,7 +77,7 @@ export const getLocaleBacteria = (
         locale,
         restrictionTerm
       );
-    } else if (bacteria.auraSettings) {
+    } else if (bacteria.customEffect === "Aura" && bacteria.auraSettings) {
       const recipientsTerm = getTerm(
         `Bacterias/Recipients/Aura/${bacteria.auraSettings.recipients}`,
         locale
@@ -84,6 +86,9 @@ export const getLocaleBacteria = (
         recipientsTerm,
         bacteria.auraSettings.hexRadius.toString(),
       ]);
+      if (bacteria.auraSettings.bacteriaToAdd) {
+        modifierData = bacteria.auraSettings.bacteriaToAdd.modifierData;
+      }
     }
   }
 
@@ -94,7 +99,7 @@ export const getLocaleBacteria = (
       locale
     ),
     description,
-    modifierData: bacteria.modifierData.map((modifier) => ({
+    modifierData: modifierData.map((modifier) => ({
       type: modifier.type,
       description: getTerm(
         `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
