@@ -15,7 +15,8 @@ export type BacteriaDTO = {
     allTimeAmount: number;
   }[];
   settings?: {
-    bacterias: BacteriaDTO[];
+    bacterias?: BacteriaDTO[];
+    bacteriaToAddWhenMoving?: BacteriaDTO;
   };
   duration?: string;
 };
@@ -35,7 +36,8 @@ export type PureBacteria = {
     allTimeAmount: number;
   }[];
   settings?: {
-    bacterias: PureBacteria[];
+    bacterias?: PureBacteria[];
+    bacteriaToAddWhenMoving?: PureBacteria;
   };
   duration?: {
     type: string;
@@ -63,6 +65,8 @@ export const getLocaleBacteria = (
       .replace(/\d+/g, "")}/Description`,
     locale
   );
+  let modifierData = bacteria.modifierData;
+
   // The description of bacterias with restriction are generated from the restriction type.
   if (!description) {
     if (bacteria.restriction) {
@@ -75,7 +79,7 @@ export const getLocaleBacteria = (
         locale,
         restrictionTerm
       );
-    } else if (bacteria.auraSettings) {
+    } else if (bacteria.customEffect === "Aura" && bacteria.auraSettings) {
       const recipientsTerm = getTerm(
         `Bacterias/Recipients/Aura/${bacteria.auraSettings.recipients}`,
         locale
@@ -84,7 +88,17 @@ export const getLocaleBacteria = (
         recipientsTerm,
         bacteria.auraSettings.hexRadius.toString(),
       ]);
+      if (bacteria.auraSettings.bacteriaToAdd) {
+        modifierData = bacteria.auraSettings.bacteriaToAdd.modifierData;
+      }
     }
+  }
+  if (bacteria.settings?.bacteriaToAddWhenMoving) {
+    description = getTerm(
+      `Bacterias/TroopMovedBacteria/Description/EachStep`,
+      locale
+    );
+    modifierData = bacteria.settings.bacteriaToAddWhenMoving.modifierData;
   }
 
   const result: BacteriaDTO = {
@@ -94,7 +108,7 @@ export const getLocaleBacteria = (
       locale
     ),
     description,
-    modifierData: bacteria.modifierData.map((modifier) => ({
+    modifierData: modifierData.map((modifier) => ({
       type: modifier.type,
       description: getTerm(
         `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
@@ -111,13 +125,14 @@ export const getLocaleBacteria = (
       allTimeAmount: resourceIncome.allTimeAmount,
     })),
   };
-  if (bacteria.settings) {
+  if (bacteria.settings?.bacterias) {
     result.settings = {
       bacterias: bacteria.settings.bacterias.map((subBacteria) =>
         getLocaleBacteria(subBacteria, locale)
       ),
     };
   }
+
   if (bacteria.duration) {
     const term =
       bacteria.duration.duration === 1

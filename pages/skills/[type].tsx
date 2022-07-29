@@ -52,7 +52,7 @@ const Skill: NextPage<{
                 </Text>
               ))}
 
-              {level.settings?.bacterias.map((bacteria) => (
+              {level.settings?.bacterias?.map((bacteria) => (
                 <Fragment key={bacteria.bacteriaType}>
                   {bacteria.modifierData.map((modifier) => (
                     <Text
