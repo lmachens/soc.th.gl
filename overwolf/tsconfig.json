@@ -17,6 +17,6 @@
     "jsx": "react-jsx",
     "types": ["@overwolf/types"]
   },
-  "include": ["src", "../components", "..lib"],
+  "include": ["src", "../components", "../lib", "../public"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -1,5 +1,4 @@
 import { AppProps } from "next/app";
-import { Global, MantineProvider } from "@mantine/core";
 import AppLayout from "../components/AppLayout/AppLayout";
 import { ReactNode, useEffect } from "react";
 import { initPlausible } from "../lib/stats";
@@ -8,6 +7,7 @@ import { TermsProvider } from "../components/Terms/Terms";
 import { loadNitroAds } from "../lib/nitroAds";
 import AnchorAd from "../components/Ads/AnchorAd";
 import PageHead from "../components/PageHead/PageHead";
+import Mantine from "../components/Mantine/Mantine";
 
 export type NextPageWithBanner<T = {}> = NextPage<T> & {
   getBanner?: () => ReactNode;
@@ -35,50 +35,7 @@ const App = ({ Component, pageProps }: AppPropsWithBanner) => {
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
       </PageHead>
-      <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
-        theme={{
-          colorScheme: "dark",
-          fontFamily: '"Roboto", sans-serif',
-          colors: {
-            brand: [
-              "#fef4e7",
-              "#fbddb6",
-              "#f8c786",
-              "#f6b156",
-              "#f39a25",
-              "#da810c",
-              "#a96409",
-              "#794707",
-              "#492b04",
-              "#180e01",
-            ],
-          },
-          primaryColor: "brand",
-          headings: { fontFamily: '"Averia Serif Libre", cursive' },
-        }}
-        styles={{
-          Title: (theme) => ({
-            root: {
-              color: theme.colors[theme.primaryColor][4],
-            },
-          }),
-        }}
-      >
-        <Global
-          styles={() => ({
-            ".highlight": {
-              color: "#f28f0d",
-            },
-            ".positive": {
-              color: "#177c13",
-            },
-            ".negative": {
-              color: "#c51b1b",
-            },
-          })}
-        />
+      <Mantine>
         <AppLayout
           collectionLinks={pageProps.collectionLinks}
           banner={Component.getBanner?.()}
@@ -86,7 +43,7 @@ const App = ({ Component, pageProps }: AppPropsWithBanner) => {
           <Component {...pageProps} />
         </AppLayout>
         <AnchorAd />
-      </MantineProvider>
+      </Mantine>
     </>
   );
 };

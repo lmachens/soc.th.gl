@@ -42,6 +42,29 @@
         "mute": true,
         "keep_window_location": true,
         "disable_hardware_acceleration": true
+      },
+      "overlay": {
+        "file": "index.html",
+        "desktop_only": false,
+        "in_game_only": true,
+        "focus_game_takeover": "ReleaseOnLostFocus",
+        "focus_game_takeover_release_hotkey": "show_hide_app",
+        "resizable": true,
+        "transparent": true,
+        "override_on_update": true,
+        "size": {
+          "width": 1200,
+          "height": 800
+        },
+        "min_size": {
+          "width": 660,
+          "height": 550
+        },
+        "allow_local_file_access": true,
+        "popup_blocker": true,
+        "mute": true,
+        "keep_window_location": true,
+        "restrict_to_game_bounds": true
       }
     },
     "game_targeting": {
@@ -58,7 +81,13 @@
         "start_minimized": false
       }
     ],
-    "hotkeys": {},
+    "hotkeys": {
+      "show_hide_app": {
+        "title": "Show/Hide App",
+        "action-type": "custom",
+        "default": "Ctrl+x"
+      }
+    },
     "protocol_override_domains": {
       "googlesyndication": "http"
     },

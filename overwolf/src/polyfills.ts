@@ -1,4 +1,17 @@
 // @ts-nocheck
+if (typeof overwolf === "undefined") {
+  window.overwolf = new Proxy(
+    () => {
+      return;
+    },
+    {
+      get() {
+        return overwolf;
+      },
+    }
+  );
+}
+
 function at(n) {
   // ToInteger() abstract op
   n = Math.trunc(n) || 0;
