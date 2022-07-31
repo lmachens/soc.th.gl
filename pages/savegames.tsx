@@ -59,17 +59,14 @@ const Savegames = () => {
         <Dropzone
           onDrop={(files) => setFile(files[0])}
           onReject={() => setFile(null)}
-          accept={[".sav"]}
         >
-          {() => (
-            <Group
-              position="center"
-              spacing="xl"
-              style={{ minHeight: 220, pointerEvents: "none" }}
-            >
-              <Text size="xl">Drag savegame here or click to select file</Text>
-            </Group>
-          )}
+          <Group
+            position="center"
+            spacing="xl"
+            style={{ minHeight: 220, pointerEvents: "none" }}
+          >
+            <Text size="xl">Drag savegame here or click to select file</Text>
+          </Group>
         </Dropzone>
         {savegame && <Savegame savegame={savegame} />}
       </Stack>

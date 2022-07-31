@@ -24,7 +24,7 @@ const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
         {skills.map((skill) => (
           <Article
             key={skill.type}
-            image={<SpriteSheet spriteSheet={skill.icon} />}
+            image={<SpriteSheet spriteSheet={skill.icon} folder="skills" />}
             name={skill.name}
             description={skill.lore}
             href={`/skills/${skill.type}`}
