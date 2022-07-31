@@ -33,8 +33,12 @@ const LocaleSelector = () => {
     <Popover
       opened={opened}
       onClose={() => setOpened(false)}
-      target={
-        <ActionIcon variant="hover" onClick={() => setOpened((o) => !o)}>
+      width={260}
+      position="bottom"
+      withArrow
+    >
+      <Popover.Target>
+        <ActionIcon variant="transparent" onClick={() => setOpened((o) => !o)}>
           <Image
             alt="United States"
             src={flags[router.locale || "en"]}
@@ -42,45 +46,43 @@ const LocaleSelector = () => {
             height={17}
           />
         </ActionIcon>
-      }
-      width={260}
-      position="bottom"
-      withArrow
-    >
-      <Stack>
-        {router.locales?.map((locale) => (
-          <Link
-            key={locale}
-            href={router.asPath}
-            locale={locale}
-            passHref
-            prefetch={false}
-          >
-            <Button
-              component="a"
-              compact
-              variant="subtle"
-              uppercase
-              fullWidth
-              styles={{
-                inner: {
-                  justifyContent: "flex-start",
-                },
-              }}
-              leftIcon={
-                <Image
-                  alt="United States"
-                  src={flags[locale]}
-                  width={26}
-                  height={17}
-                />
-              }
+      </Popover.Target>
+      <Popover.Dropdown>
+        <Stack>
+          {router.locales?.map((locale) => (
+            <Link
+              key={locale}
+              href={router.asPath}
+              locale={locale}
+              passHref
+              prefetch={false}
             >
-              {locale}
-            </Button>
-          </Link>
-        ))}
-      </Stack>
+              <Button
+                component="a"
+                compact
+                variant="subtle"
+                uppercase
+                fullWidth
+                styles={{
+                  inner: {
+                    justifyContent: "flex-start",
+                  },
+                }}
+                leftIcon={
+                  <Image
+                    alt="United States"
+                    src={flags[locale]}
+                    width={26}
+                    height={17}
+                  />
+                }
+              >
+                {locale}
+              </Button>
+            </Link>
+          ))}
+        </Stack>
+      </Popover.Dropdown>
     </Popover>
   );
 };
