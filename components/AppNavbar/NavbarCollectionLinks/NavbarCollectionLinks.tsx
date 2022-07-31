@@ -45,6 +45,7 @@ const NavbarCollectionLinks = ({ collectionLink }: Props) => {
     if (activeLink && collapsed) {
       setCollapsed(false);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [asPath]);
 
   return (

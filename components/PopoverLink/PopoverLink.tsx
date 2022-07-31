@@ -1,5 +1,6 @@
 import { Box, Popover } from "@mantine/core";
-import { ReactNode, useState } from "react";
+import { useDisclosure } from "@mantine/hooks";
+import { ReactNode } from "react";
 import AppLink from "../AppLink/AppLink";
 
 type Props = {
@@ -8,32 +9,27 @@ type Props = {
   href: string;
 };
 const PopoverLink = ({ children, popover, href }: Props) => {
-  const [opened, setOpened] = useState(false);
+  const [opened, { close, open }] = useDisclosure(false);
 
   return (
     <Popover
       opened={opened}
-      onClose={() => setOpened(false)}
       position="top"
-      placement="start"
       withArrow
+      onClose={close}
       trapFocus={false}
       closeOnEscape={false}
       transition="pop-top-left"
       width={260}
-      styles={{ body: { pointerEvents: "none" } }}
-      target={
-        <AppLink href={href}>
-          <Box
-            onMouseEnter={() => setOpened(true)}
-            onMouseLeave={() => setOpened(false)}
-          >
-            {children}
-          </Box>
-        </AppLink>
-      }
     >
-      {popover}
+      <Popover.Target>
+        <Box onMouseEnter={open} onMouseLeave={close}>
+          <AppLink href={href}>{children}</AppLink>
+        </Box>
+      </Popover.Target>
+      <Popover.Dropdown sx={{ pointerEvents: "none" }}>
+        {popover}
+      </Popover.Dropdown>
     </Popover>
   );
 };

@@ -53,30 +53,26 @@ const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
               href={`/wielders/${commander.type}`}
             >
               <Group>
-                <Text color="dimmed" size="sm">
-                  {terms.offense}{" "}
-                  <Text component="span" color="gray" size="sm">
-                    {commander.stats.offense}
-                  </Text>
-                </Text>
-                <Text color="dimmed" size="sm">
-                  {terms.defense}{" "}
-                  <Text component="span" color="gray" size="sm">
-                    {commander.stats.defense}
-                  </Text>
-                </Text>
-                <Text color="dimmed" size="sm">
-                  {terms.movement}{" "}
-                  <Text component="span" color="gray" size="sm">
-                    {commander.stats.movement}
-                  </Text>
-                </Text>
-                <Text color="dimmed" size="sm">
-                  {terms.viewRadius}{" "}
-                  <Text component="span" color="gray" size="sm">
-                    {commander.stats.viewRadius}
-                  </Text>
-                </Text>
+                {["offense", "defense", "movement", "viewRadius"].map(
+                  (identifier) => (
+                    <Text key={identifier} color="dimmed" size="sm">
+                      {terms[identifier]}{" "}
+                      <Text
+                        component="span"
+                        size="sm"
+                        sx={(theme) => ({
+                          color: theme.colors.gray[3],
+                        })}
+                      >
+                        {
+                          commander.stats[
+                            identifier as keyof typeof commander["stats"]
+                          ]
+                        }
+                      </Text>
+                    </Text>
+                  )
+                )}
               </Group>
             </Article>
           ))}

@@ -28,13 +28,15 @@ const Mantine = ({ children }: Props) => {
         },
         primaryColor: "brand",
         headings: { fontFamily: '"Averia Serif Libre", cursive' },
-      }}
-      styles={{
-        Title: (theme) => ({
-          root: {
-            color: theme.colors[theme.primaryColor][4],
+        components: {
+          Title: {
+            styles: (theme) => ({
+              root: {
+                color: theme.colors[theme.primaryColor][4],
+              },
+            }),
           },
-        }),
+        },
       }}
     >
       <Global
