@@ -1,5 +1,5 @@
-import { List, ScrollArea, Text } from "@mantine/core";
-import { HubotIcon } from "@primer/octicons-react";
+import { ActionIcon, Group, List, ScrollArea, Text } from "@mantine/core";
+import { HubotIcon, SyncIcon } from "@primer/octicons-react";
 import { File } from "../../utils/io";
 import useListFolder from "../../utils/useListFolder";
 import useStyles from "./AvailableSavegames.styles";
@@ -12,13 +12,18 @@ type Props = {
 };
 const AvailableSavegames = ({ onFileClick }: Props) => {
   const { classes } = useStyles();
-  const files = useListFolder(SAVEGAMES_FOLDER_PATH);
+  const [files, refresh] = useListFolder(SAVEGAMES_FOLDER_PATH);
 
   return (
     <>
-      <Text size="lg" transform="uppercase">
-        Savegames
-      </Text>
+      <Group position="apart">
+        <Text size="lg" transform="uppercase">
+          Savegames
+        </Text>
+        <ActionIcon onClick={refresh}>
+          <SyncIcon />
+        </ActionIcon>
+      </Group>
       <ScrollArea>
         <List spacing="xs" listStyleType="none">
           {files?.map((file) => (

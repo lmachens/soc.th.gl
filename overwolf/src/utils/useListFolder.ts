@@ -1,14 +1,18 @@
 import { useEffect, useState } from "react";
 import { File, listFolder } from "./io";
 
-function useListFolder(folderPath: string): File[] | null {
+function useListFolder(folderPath: string): [File[] | null, () => void] {
   const [filesAndFolders, setFilesAndFolders] = useState<File[] | null>(null);
 
   useEffect(() => {
-    listFolder(folderPath, true, ".sav").then(setFilesAndFolders);
+    refresh();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [folderPath]);
 
-  return filesAndFolders;
+  const refresh = () => {
+    listFolder(folderPath, true, ".sav").then(setFilesAndFolders);
+  };
+  return [filesAndFolders, refresh];
 }
 
 export default useListFolder;

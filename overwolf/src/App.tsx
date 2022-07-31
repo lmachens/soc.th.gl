@@ -1,5 +1,5 @@
 import { AppShell, ScrollArea, Text } from "@mantine/core";
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import Savegame from "../../components/Savegame/Savegame";
 import { deserializeSavegame, SavegameDeserialized } from "../../lib/savegames";
 import Mantine from "../../components/Mantine/Mantine";
@@ -10,7 +10,12 @@ import Ads from "./components/Ads/Ads";
 import { readFile } from "./utils/io";
 
 function App() {
-  const [savegame, setSavegame] = useState<SavegameDeserialized | null>(null);
+  const [fileContent, setFileContent] = useState<string | null>(null);
+
+  const savegame = useMemo<SavegameDeserialized | null>(
+    () => (fileContent ? deserializeSavegame(fileContent) : null),
+    [fileContent]
+  );
 
   console.log(savegame);
 
@@ -18,11 +23,12 @@ function App() {
     <Mantine>
       <AppShell
         header={<AppHeader />}
+        fixed
         aside={
           <AppAside>
             <AvailableSavegames
               onFileClick={(file) => {
-                readFile(file.path).then(deserializeSavegame).then(setSavegame);
+                readFile(file.path).then(setFileContent);
               }}
             />
             <Ads />
@@ -37,7 +43,7 @@ function App() {
           },
           main: {
             backgroundColor: theme.colors.dark[8],
-            display: "flex",
+            display: "grid",
             overflow: "hidden",
             height:
               "calc(100vh - var(--mantine-header-height, 0px) - var(--mantine-footer-height, 0px))",

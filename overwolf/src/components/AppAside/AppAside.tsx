@@ -9,7 +9,7 @@ const AppAside = ({ children }: Props) => {
   const { classes } = useStyles();
 
   return (
-    <Aside p="xs" width={{ xs: "auto" }}>
+    <Aside p="xs" width={{ xs: 421 }}>
       <Stack className={classes.stack} justify="space-between" spacing="xs">
         {children}
       </Stack>
