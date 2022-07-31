@@ -118,7 +118,7 @@ const SavegameProgress = ({ savegame }: Props) => {
   };
 
   return (
-    <Stack>
+    <Stack sx={{ maxWidth: 1200 }}>
       <Select
         value={filter}
         onChange={(filter) => setFilter(filter!)}

@@ -1,5 +1,5 @@
-import { AppShell, ScrollArea, Text } from "@mantine/core";
-import { useMemo, useState } from "react";
+import { AppShell, LoadingOverlay, ScrollArea } from "@mantine/core";
+import { useCallback, useEffect, useState } from "react";
 import Savegame from "../../components/Savegame/Savegame";
 import { deserializeSavegame, SavegameDeserialized } from "../../lib/savegames";
 import Mantine from "../../components/Mantine/Mantine";
@@ -7,17 +7,48 @@ import AppHeader from "./components/AppHeader/AppHeader";
 import AppAside from "./components/AppAside/AppAside";
 import AvailableSavegames from "./components/AvailableSavegames/AvailableSavegames";
 import Ads from "./components/Ads/Ads";
-import { readFile } from "./utils/io";
+import { File, readFile, writeFile } from "./utils/io";
+import { showNotification } from "@mantine/notifications";
 
 function App() {
-  const [fileContent, setFileContent] = useState<string | null>(null);
+  const [file, setFile] = useState<File | null>(null);
+  const [savegame, setSavegame] = useState<SavegameDeserialized | null>(null);
 
-  const savegame = useMemo<SavegameDeserialized | null>(
-    () => (fileContent ? deserializeSavegame(fileContent) : null),
-    [fileContent]
+  useEffect(() => {
+    loadSavegame();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [file]);
+
+  const loadSavegame = useCallback(() => {
+    if (file) {
+      readFile(file.path)
+        .then((fileContent) => deserializeSavegame(fileContent))
+        .then(setSavegame);
+    }
+  }, [file]);
+
+  const saveSavegame = useCallback(
+    async (fileContent: string) => {
+      if (file) {
+        try {
+          await writeFile(file.path, fileContent);
+          showNotification({
+            title: "Saved!",
+            message: "Please reload in Songs of Conquest 🤘",
+          });
+        } catch (error) {
+          const message =
+            error instanceof Error ? error.message : "Could not save file";
+          showNotification({
+            title: "Error!",
+            message: message,
+            color: "red",
+          });
+        }
+      }
+    },
+    [file]
   );
-
-  console.log(savegame);
 
   return (
     <Mantine>
@@ -26,11 +57,7 @@ function App() {
         fixed
         aside={
           <AppAside>
-            <AvailableSavegames
-              onFileClick={(file) => {
-                readFile(file.path).then(setFileContent);
-              }}
-            />
+            <AvailableSavegames onFileClick={setFile} selectedFile={file} />
             <Ads />
           </AppAside>
         }
@@ -50,9 +77,26 @@ function App() {
           },
         })}
       >
-        <ScrollArea>
-          {savegame && <Savegame savegame={savegame} />}
-          {!savegame && <Text color="dimmed">Please select a savegame</Text>}
+        <ScrollArea
+          styles={{
+            viewport: {
+              "> div": {
+                // Override 'display: table' to fix resizing charts
+                display: "block !important",
+              },
+            },
+          }}
+          offsetScrollbars
+        >
+          {savegame ? (
+            <Savegame
+              savegame={savegame}
+              onReload={loadSavegame}
+              onSave={saveSavegame}
+            />
+          ) : (
+            <LoadingOverlay visible overlayOpacity={0} />
+          )}
         </ScrollArea>
       </AppShell>
     </Mantine>

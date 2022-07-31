@@ -70,7 +70,7 @@ const SavegameGraphs = ({ savegame }: Props) => {
   };
 
   return (
-    <Stack>
+    <Stack sx={{ maxWidth: 1200 }}>
       <Bar options={options} data={data} />
     </Stack>
   );

@@ -5,4 +5,7 @@ export default createStyles((theme) => ({
     backgroundColor: theme.colors.dark[8],
     cursor: "pointer",
   },
+  selected: {
+    backgroundColor: theme.fn.rgba(theme.colors[theme.primaryColor][7], 0.45),
+  },
 }));
