@@ -13,3 +13,5 @@ function openMainWindow() {
 }
 
 init();
+
+export {};
