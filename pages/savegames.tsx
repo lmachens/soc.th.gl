@@ -26,6 +26,15 @@ const Savegames = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [file]);
 
+  const downloadFile = (fileContent: string) => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(
+      new Blob([fileContent], { type: "text/plain" })
+    );
+    a.download = file.name;
+    a.click();
+  };
+
   return (
     <>
       <Stack>
@@ -68,7 +77,13 @@ const Savegames = () => {
             <Text size="xl">Drag savegame here or click to select file</Text>
           </Group>
         </Dropzone>
-        {savegame && <Savegame savegame={savegame} onReload={loadSavegame} />}
+        {savegame && (
+          <Savegame
+            savegame={savegame}
+            onReload={loadSavegame}
+            onSave={downloadFile}
+          />
+        )}
       </Stack>
     </>
   );
