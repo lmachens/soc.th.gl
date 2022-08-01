@@ -31,7 +31,7 @@ const Savegames = () => {
     a.href = URL.createObjectURL(
       new Blob([fileContent], { type: "text/plain" })
     );
-    a.download = file.name;
+    a.download = file!.name;
     a.click();
   };
 
