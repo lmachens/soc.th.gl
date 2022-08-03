@@ -50,6 +50,14 @@ const SavegameWielders = ({ savegame, form }: Props) => {
                 )}
               />
             </Group>
+            <Group>
+              <NumberInput
+                label="Unspent Skillpoints"
+                {...form.getInputProps(
+                  `File._commandersSerializable.${index}._unspentSkillPoints`
+                )}
+              />
+            </Group>
           </Stack>
         );
       })}
