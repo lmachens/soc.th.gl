@@ -1,4 +1,12 @@
-import { ActionIcon, Group, Stack, Text, TextInput } from "@mantine/core";
+import {
+  ActionIcon,
+  Group,
+  Stack,
+  Tabs,
+  Text,
+  TextInput,
+  Title,
+} from "@mantine/core";
 import { Dropzone } from "@mantine/dropzone";
 import { CopyIcon } from "@primer/octicons-react";
 import { useCallback, useEffect, useState } from "react";
@@ -7,6 +15,21 @@ import { withStaticBase } from "../lib/staticProps";
 import { useClipboard } from "@mantine/hooks";
 import Savegame from "../components/Savegame/Savegame";
 
+const savegamePaths = [
+  [
+    "Windows",
+    "%appdata%\\..\\LocalLow\\Lavapotion\\SongsOfConquest\\Savegames",
+  ],
+  ["MacOS", "Unknown, please tell me in Discord"],
+  [
+    "Wine",
+    "<wine_prefix>drive_c/users/<user>/AppData/LocalLow/Lavapotion/SongsOfConquest/Savegames",
+  ],
+  [
+    "Proton",
+    ".local/share/Steam/steamapps/compatdata/867210/pfx/drive_c/users/steamuser/AppData/LocalLow/Lavapotion/SongsOfConquest/Savegames",
+  ],
+];
 const Savegames = () => {
   const [file, setFile] = useState<File | null>(null);
   const [savegame, setSavegame] = useState<SavegameDeserialized | null>(null);
@@ -38,33 +61,40 @@ const Savegames = () => {
   return (
     <>
       <Stack>
-        <Text>
-          This tool is in development and analyzes your Songs of Conquest
-          savegames.
+        <Text color="dimmed">
+          This Savegame analyzer and editor is in development
         </Text>
-        <TextInput
-          label="Windows savegames path (paste in your Windows Explorer)"
-          value="%appdata%\..\LocalLow\Lavapotion\SongsOfConquest\Savegames"
-          disabled
-          styles={{
-            input: {
-              ":disabled": {
-                cursor: "text",
-              },
-            },
-          }}
-          rightSection={
-            <ActionIcon
-              onClick={() =>
-                clipboard.copy(
-                  "%appdata%\\..\\LocalLow\\Lavapotion\\SongsOfConquest\\Savegames"
-                )
-              }
-            >
-              <CopyIcon />
-            </ActionIcon>
-          }
-        />
+        <Title order={4}>Savegames paths</Title>
+        <Tabs defaultValue="windows">
+          <Tabs.List>
+            {savegamePaths.map((savegamePath) => (
+              <Tabs.Tab key={savegamePath[0]} value={savegamePath[0]}>
+                {savegamePath[0]}
+              </Tabs.Tab>
+            ))}
+          </Tabs.List>
+          {savegamePaths.map((savegamePath) => (
+            <Tabs.Panel key={savegamePath[0]} value={savegamePath[0]} pt="xs">
+              <TextInput
+                value={savegamePath[1]}
+                disabled
+                styles={{
+                  input: {
+                    ":disabled": {
+                      cursor: "text",
+                    },
+                  },
+                }}
+                rightSection={
+                  <ActionIcon onClick={() => clipboard.copy(savegamePath[1])}>
+                    <CopyIcon />
+                  </ActionIcon>
+                }
+              />
+            </Tabs.Panel>
+          ))}
+        </Tabs>
+
         <Dropzone
           onDrop={(files) => setFile(files[0])}
           onReject={() => setFile(null)}
