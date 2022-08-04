@@ -9,6 +9,7 @@ import AvailableSavegames from "./components/AvailableSavegames/AvailableSavegam
 import Ads from "./components/Ads/Ads";
 import { File, readFile, writeFile } from "./utils/io";
 import { showNotification } from "@mantine/notifications";
+import sample from "./sample.sav?raw";
 
 function App() {
   const [file, setFile] = useState<File | null>(null);
@@ -21,9 +22,13 @@ function App() {
 
   const loadSavegame = useCallback(() => {
     if (file) {
-      readFile(file.path)
-        .then((fileContent) => deserializeSavegame(fileContent))
-        .then(setSavegame);
+      if (file.name === "sample") {
+        setSavegame(deserializeSavegame(sample));
+      } else {
+        readFile(file.path)
+          .then((fileContent) => deserializeSavegame(fileContent))
+          .then(setSavegame);
+      }
     }
   }, [file]);
 

@@ -91,3 +91,43 @@ export async function togglePreferedWindow(): Promise<void> {
   await restoreWindow(newPreferedWindowName);
   await closeWindow(preferedWindowName);
 }
+
+export async function toggleWindow(windowName: string): Promise<void> {
+  const window = await obtainDeclaredWindow(windowName);
+  if (["normal", "maximized"].includes(window.stateEx)) {
+    overwolf.windows.hide(window.id);
+  } else {
+    restoreWindow(window.name);
+  }
+}
+
+export async function getPreferedWindowName(): Promise<string> {
+  const preferedWindowName = getJSONItem<string | undefined>(
+    "prefered-window-name",
+    undefined
+  );
+  if (preferedWindowName) {
+    return preferedWindowName;
+  }
+  const secondScreen = await getMonitor(false);
+  return secondScreen ? "desktop" : "overlay";
+}
+
+export async function getMonitor(
+  primaryDisplay: boolean
+): Promise<overwolf.utils.Display | undefined> {
+  const monitors = await getDisplays();
+
+  const monitor = monitors.find(
+    (display) => display.is_primary === primaryDisplay
+  );
+  return monitor;
+}
+
+export function getDisplays(): Promise<overwolf.utils.Display[]> {
+  return new Promise<overwolf.utils.Display[]>((resolve) => {
+    overwolf.utils.getMonitorsList((result) => {
+      resolve(result.displays);
+    });
+  });
+}

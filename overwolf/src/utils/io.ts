@@ -7,10 +7,10 @@ export async function listFolder(
   recursive = true,
   filterType?: string
 ) {
-  const files = await new Promise<File[]>((resolve, reject) => {
+  const files = await new Promise<File[]>((resolve) => {
     overwolf.io.dir(folderPath, async (result) => {
-      if (typeof result.data === "undefined") {
-        reject(result.error);
+      if (!result.data) {
+        resolve([]);
       } else {
         const files = result.data
           .filter(

@@ -18,7 +18,14 @@ const AvailableSavegames = ({ selectedFile, onFileClick }: Props) => {
 
   useEffect(() => {
     if (files) {
-      onFileClick(files[0]);
+      if (files.length === 0) {
+        onFileClick({
+          name: "sample",
+          path: "",
+        });
+      } else {
+        onFileClick(files[0]);
+      }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [files]);
@@ -51,6 +58,8 @@ const AvailableSavegames = ({ selectedFile, onFileClick }: Props) => {
           {files?.length === 0 && (
             <Text color="dimmed" align="center">
               No files found <HubotIcon />
+              <br />
+              Loaded sample savegame
             </Text>
           )}
         </List>
