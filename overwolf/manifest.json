@@ -6,7 +6,7 @@
     "author": "Leon Machens",
     "version": "0.0.0",
     "minimum-overwolf-version": "0.201.0",
-    "description": "Songs of Conquest Companion",
+    "description": "Songs of Conquest Savegame Editor/Analyzer",
     "dock_button_title": "SoC.gg",
     "icon": "icons/iconMouseOver.png",
     "icon_gray": "icons/iconMouseNormal.png",
@@ -69,14 +69,14 @@
     },
     "game_targeting": {
       "type": "dedicated",
-      "game_ids": [219861]
+      "game_ids": [21986]
     },
-    "game_events": [219861],
+    "game_events": [21986],
     "launch_events": [
       {
         "event": "GameLaunch",
         "event_data": {
-          "game_ids": [219861]
+          "game_ids": [21986]
         },
         "start_minimized": false
       }
@@ -85,7 +85,7 @@
       "show_hide_app": {
         "title": "Show/Hide App",
         "action-type": "custom",
-        "default": "Ctrl+x"
+        "default": "Ctrl+g"
       }
     },
     "protocol_override_domains": {

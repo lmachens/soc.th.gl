@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { SONGS_OF_CONQUEST_CLASS_ID } from "./games";
 
+export const SHOW_HIDE_HOTKEY = "show_hide_app";
 export function useHotkeyBinding(name: string): string {
   const [hotkeyBinding, setHotkeyBinding] = useState<string>("");
 
