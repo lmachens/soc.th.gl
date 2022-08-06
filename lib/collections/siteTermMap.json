@@ -2,7 +2,7 @@
   "Search": {
     "en": "Search",
     "sv": null,
-    "ru": null,
+    "ru": "Поиск",
     "cs": null,
     "fr": null,
     "de": "Suche",
@@ -18,7 +18,7 @@
   "LearnMore": {
     "en": "Learn More",
     "sv": null,
-    "ru": null,
+    "ru": "Узнать больше",
     "cs": null,
     "fr": null,
     "de": "Mehr Details",
@@ -34,7 +34,7 @@
   "Factions": {
     "en": "Factions",
     "sv": null,
-    "ru": null,
+    "ru": "Фракции",
     "cs": null,
     "fr": null,
     "de": "Fraktionen",
@@ -50,7 +50,7 @@
   "AllFactions": {
     "en": "All Factions",
     "sv": null,
-    "ru": null,
+    "ru": "Все фракции",
     "cs": null,
     "fr": null,
     "de": "Alle Fraktionen",
@@ -66,7 +66,7 @@
   "Buildings": {
     "en": "Buildings",
     "sv": null,
-    "ru": null,
+    "ru": "Здания",
     "cs": null,
     "fr": null,
     "de": "Gebäude",
@@ -82,7 +82,7 @@
   "AllBuildings": {
     "en": "All Buildings",
     "sv": null,
-    "ru": null,
+    "ru": "Все здания",
     "cs": null,
     "fr": null,
     "de": "Alle Gebäude",
@@ -98,7 +98,7 @@
   "Spells": {
     "en": "Spells",
     "sv": null,
-    "ru": null,
+    "ru": "Заклинания",
     "cs": null,
     "fr": null,
     "de": "Zauber",
@@ -114,7 +114,7 @@
   "AllSpells": {
     "en": "All Spells",
     "sv": null,
-    "ru": null,
+    "ru": "Все заклинания",
     "cs": null,
     "fr": null,
     "de": "Alle Zauber",
@@ -130,7 +130,7 @@
   "Skills": {
     "en": "Skills",
     "sv": null,
-    "ru": null,
+    "ru": "Навыки",
     "cs": null,
     "fr": null,
     "de": "Fertigkeiten",
@@ -146,7 +146,7 @@
   "StartingSkills": {
     "en": "Starting Skills",
     "sv": null,
-    "ru": null,
+    "ru": "Стартовые навыки",
     "cs": null,
     "fr": null,
     "de": "Startfertigkeiten",
@@ -162,7 +162,7 @@
   "AllSkills": {
     "en": "All Skills",
     "sv": null,
-    "ru": null,
+    "ru": "Все навыки",
     "cs": null,
     "fr": null,
     "de": "Alle Fertigkeiten",
@@ -178,7 +178,7 @@
   "Wielders": {
     "en": "Wielders",
     "sv": null,
-    "ru": null,
+    "ru": "Магистры",
     "cs": null,
     "fr": null,
     "de": "Hüter",
@@ -194,7 +194,7 @@
   "AllWielders": {
     "en": "All Wielders",
     "sv": null,
-    "ru": null,
+    "ru": "Все магистры",
     "cs": null,
     "fr": null,
     "de": "Alle Hüter",
@@ -210,7 +210,7 @@
   "Units": {
     "en": "Units",
     "sv": null,
-    "ru": null,
+    "ru": "Войска",
     "cs": null,
     "fr": null,
     "de": "Einheiten",
@@ -226,7 +226,7 @@
   "AllUnits": {
     "en": "All Units",
     "sv": null,
-    "ru": null,
+    "ru": "Все войска",
     "cs": null,
     "fr": null,
     "de": "Alle Einheiten",
@@ -242,7 +242,7 @@
   "Artifacts": {
     "en": "Artifacts",
     "sv": null,
-    "ru": null,
+    "ru": "Артефакты",
     "cs": null,
     "fr": null,
     "de": "Artefakte",
@@ -258,7 +258,7 @@
   "AllArtifacts": {
     "en": "All Artifacts",
     "sv": null,
-    "ru": null,
+    "ru": "Все артефакты",
     "cs": null,
     "fr": null,
     "de": "Alle Artefakte",
@@ -274,7 +274,7 @@
   "DiscordTooltip": {
     "en": "Join the community",
     "sv": null,
-    "ru": null,
+    "ru": "Присоединиться к сообществу",
     "cs": null,
     "fr": null,
     "de": "Community beitreten",
@@ -290,7 +290,7 @@
   "GitHubTooltip": {
     "en": "Contribute or give feedback",
     "sv": null,
-    "ru": null,
+    "ru": "Помогите проекту или оставьте отзыв",
     "cs": null,
     "fr": null,
     "de": "Beteilige dich oder gib Feedback",
@@ -306,7 +306,7 @@
   "SortBy": {
     "en": "Sort By",
     "sv": null,
-    "ru": null,
+    "ru": "Сортировать по",
     "cs": null,
     "fr": null,
     "de": "Sortiere nach",
@@ -322,7 +322,7 @@
   "And": {
     "en": "and",
     "sv": null,
-    "ru": null,
+    "ru": "и",
     "cs": null,
     "fr": null,
     "de": "und",
@@ -338,7 +338,7 @@
   "Or": {
     "en": "or",
     "sv": null,
-    "ru": null,
+    "ru": "или",
     "cs": null,
     "fr": null,
     "de": "oder",
@@ -354,7 +354,7 @@
   "About": {
     "en": "About",
     "sv": null,
-    "ru": null,
+    "ru": "О проекте",
     "cs": null,
     "fr": null,
     "de": null,
@@ -370,7 +370,7 @@
   "Sitemap": {
     "en": "Sitemap",
     "sv": null,
-    "ru": null,
+    "ru": "Карта сайта",
     "cs": null,
     "fr": null,
     "de": null,
@@ -386,7 +386,7 @@
   "PrivacyPolicy": {
     "en": "Privacy Policy",
     "sv": null,
-    "ru": null,
+    "ru": "Политика конфиденциальности",
     "cs": null,
     "fr": null,
     "de": null,
@@ -402,7 +402,7 @@
   "OfficalLinks": {
     "en": "Offical Links",
     "sv": null,
-    "ru": null,
+    "ru": "Официальные ссылки",
     "cs": null,
     "fr": null,
     "de": null,
@@ -450,7 +450,7 @@
   "BuyOn": {
     "en": "Buy on",
     "sv": null,
-    "ru": null,
+    "ru": "Купить в",
     "cs": null,
     "fr": null,
     "de": null,
@@ -514,7 +514,7 @@
   "VisualGuide": {
     "en": "Visual Guide",
     "sv": null,
-    "ru": null,
+    "ru": "Визуальное руководство",
     "cs": null,
     "fr": null,
     "de": null,
