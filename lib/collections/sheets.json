@@ -38,5 +38,41 @@
   {
     "wielderType": "Wiesh",
     "src": "/sheets/Wiesh.png"
+  },
+  {
+    "wielderType": "Aleah",
+    "src": "/sheets/Aleah.png"
+  },
+  {
+    "wielderType": "Bihgli",
+    "src": "/sheets/Bihgli.png"
+  },
+  {
+    "wielderType": "Everthink",
+    "src": "/sheets/Everthink.png"
+  },
+  {
+    "wielderType": "Mehry",
+    "src": "/sheets/Mehry.png"
+  },
+  {
+    "wielderType": "Nimander",
+    "src": "/sheets/Nimander.png"
+  },
+  {
+    "wielderType": "Rosewater",
+    "src": "/sheets/Rosewater.png"
+  },
+  {
+    "wielderType": "Sanaz",
+    "src": "/sheets/Sanaz.png"
+  },
+  {
+    "wielderType": "Silkspool",
+    "src": "/sheets/Silkspool.png"
+  },
+  {
+    "wielderType": "Soughtfor",
+    "src": "/sheets/Soughtfor.png"
   }
 ]
