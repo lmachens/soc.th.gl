@@ -74,5 +74,41 @@
   {
     "wielderType": "Soughtfor",
     "src": "/sheets/Soughtfor.png"
+  },
+  {
+    "wielderType": "BaronSilverlink",
+    "src": "/sheets/BaronSilverlink.png"
+  },
+  {
+    "wielderType": "Cecilia",
+    "src": "/sheets/Cecilia.png"
+  },
+  {
+    "wielderType": "EthylleErnaline",
+    "src": "/sheets/EthylleErnaline.png"
+  },
+  {
+    "wielderType": "GiandraStormspire",
+    "src": "/sheets/GiandraStormspire.png"
+  },
+  {
+    "wielderType": "Gnaw",
+    "src": "/sheets/Gnaw.png"
+  },
+  {
+    "wielderType": "LadyElisaHammond",
+    "src": "/sheets/LadyElisaHammond.png"
+  },
+  {
+    "wielderType": "Peradine",
+    "src": "/sheets/Peradine.png"
+  },
+  {
+    "wielderType": "Ravenfayre",
+    "src": "/sheets/Ravenfayre.png"
+  },
+  {
+    "wielderType": "ViljaOfThornecliff",
+    "src": "/sheets/ViljaOfThornecliff.png"
   }
 ]
