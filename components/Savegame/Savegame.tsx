@@ -67,7 +67,7 @@ const Savegame = ({ savegame, onReload, onSave }: Props) => {
             <SavegameWielders savegame={savegame} form={form} />
           </Tabs.Panel>
           <Tabs.Panel value="teams" pt="xs">
-            <SavegameTeams savegame={savegame} />
+            <SavegameTeams savegame={savegame} form={form} />
           </Tabs.Panel>
           <Tabs.Panel value="overview" pt="xs">
             <SavegameProgress savegame={savegame} />
