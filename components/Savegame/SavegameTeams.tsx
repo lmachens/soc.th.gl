@@ -1,10 +1,21 @@
-import { Stack, Table } from "@mantine/core";
+import { Group, NumberInput, Stack, Table, Title } from "@mantine/core";
+import { UseFormReturnType } from "@mantine/form";
 import { AI_MODES, FACTIONS, SavegameDeserialized } from "../../lib/savegames";
+
+const RESOURCE_TYPES = [
+  "Gold",
+  "Wood",
+  "Stone",
+  "AncientAmber",
+  "Glimmerweave",
+  "CelestialOre",
+];
 
 type Props = {
   savegame: SavegameDeserialized;
+  form: UseFormReturnType<SavegameDeserialized>;
 };
-const SavegameTeams = ({ savegame }: Props) => {
+const SavegameTeams = ({ savegame, form }: Props) => {
   const rows = savegame.File._teamsSerializable.map((team) => {
     const exploration = savegame.File._level._exploration.find(
       (exploration) => exploration._teamId === team._teamID
@@ -38,6 +49,22 @@ const SavegameTeams = ({ savegame }: Props) => {
         </thead>
         <tbody>{rows}</tbody>
       </Table>
+      {savegame.File._teamsSerializable.map((team, index) => (
+        <Stack key={team._teamID}>
+          <Title order={4}>{team._name}</Title>
+          <Group>
+            {team._resources._resources.map((resource, resourceIndex) => (
+              <NumberInput
+                key={resource.Type}
+                label={RESOURCE_TYPES[resource.Type]}
+                {...form.getInputProps(
+                  `File._teamsSerializable.${index}._resources._resources.${resourceIndex}._amount`
+                )}
+              />
+            ))}
+          </Group>
+        </Stack>
+      ))}
     </Stack>
   );
 };
