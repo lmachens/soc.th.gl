@@ -18,6 +18,7 @@ const AppFooter = () => {
         key={link.term}
         href={link.href}
         target={link.target}
+        title={link.title}
       >
         {terms[link.term] ?? link.term}
       </AppLink>

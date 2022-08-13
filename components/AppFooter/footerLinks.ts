@@ -1,4 +1,12 @@
-const footerLinks = [
+const footerLinks: {
+  term: string;
+  links: {
+    term: string;
+    href: string;
+    target?: string;
+    title?: string;
+  }[];
+}[] = [
   {
     term: "About",
     links: [
@@ -54,6 +62,35 @@ const footerLinks = [
       {
         term: "EpicGames",
         href: "https://www.epicgames.com/store/p/songs-of-conquest",
+        target: "_blank",
+      },
+    ],
+  },
+  {
+    term: "More projects",
+    links: [
+      {
+        term: "Aeternum Map",
+        title: "Interactive map for New World",
+        href: "https://www.aeternum-map.gg/",
+        target: "_blank",
+      },
+      {
+        term: "Arkesia.gg",
+        title: "Interactive map for Lost Ark",
+        href: "https://www.arkesia.gg/",
+        target: "_blank",
+      },
+      {
+        term: "Trophy Hunter",
+        title: "Trophies app for League of Legends",
+        href: "https://th.gl/",
+        target: "_blank",
+      },
+      {
+        term: "Skeleton",
+        title: "Simply display any website as customizable Overlay",
+        href: "https://github.com/lmachens/skeleton",
         target: "_blank",
       },
     ],

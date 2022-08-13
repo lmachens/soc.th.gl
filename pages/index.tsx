@@ -111,7 +111,7 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
           </Button>
         </Group>
         <BannerAd />
-        <Title order={2}>Changelog</Title>
+        <Title order={2}>Latest releases</Title>
         {releases.map((release) => (
           <Box
             component="article"
@@ -209,6 +209,7 @@ export const getStaticProps = withStaticBase(async () => {
   const allReleases = (await response.json()) as GitHubRelease[];
   const releases = allReleases
     .filter((release) => !release.prerelease)
+    .slice(0, 10)
     .map((release) => ({
       ...release,
       body: santizeReleaseBody(release.body),
