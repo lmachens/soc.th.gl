@@ -54,4 +54,4 @@ async function openApp() {
 
 init();
 
-initPlausible("soc.gg", "https://apps.machens.dev");
+initPlausible("soc.gg-app", "https://apps.machens.dev");
