@@ -1,3 +1,4 @@
+import { initPlausible } from "../../lib/stats";
 import { getGameIsRunning, SONGS_OF_CONQUEST_CLASS_ID } from "./utils/games";
 import { SHOW_HIDE_HOTKEY } from "./utils/hotkeys";
 import {
@@ -53,4 +54,4 @@ async function openApp() {
 
 init();
 
-export {};
+initPlausible("soc.gg", "https://apps.machens.dev");
