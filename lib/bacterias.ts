@@ -41,7 +41,7 @@ export type PureBacteria = {
   };
   duration?: {
     type: string;
-    duration: number;
+    duration?: number;
   };
   customEffect?: string;
   customEffectValue?: number;
@@ -111,7 +111,7 @@ export const getLocaleBacteria = (
     modifierData: modifierData.map((modifier) => ({
       type: modifier.type,
       description: getTerm(
-        `Modifiers/${modifier.modifier.replace("Troop", "")}/Description`,
+        `Modifiers/${modifier.modifier.replaceAll("Troop", "")}/Description`,
         locale,
         modifier.amountToAdd,
         modifier.applicationType === 1 ||

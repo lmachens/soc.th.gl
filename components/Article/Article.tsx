@@ -9,8 +9,8 @@ type Props = {
   image?: ReactNode;
   name: string;
   subtitle?: string;
-  description: string;
-  href: string;
+  description?: string;
+  href?: string;
   children?: ReactNode;
 };
 const Article = ({
@@ -39,11 +39,13 @@ const Article = ({
       <Stack spacing="xs">
         <Title order={3}>{name}</Title>
         {subtitle && <Text size="sm">{subtitle}</Text>}
-        <Lore text={description} />
+        {description && <Lore text={description} />}
         {children}
-        <AppLink href={href}>
-          <MilestoneIcon /> {terms.LearnMore}
-        </AppLink>
+        {href && (
+          <AppLink href={href}>
+            <MilestoneIcon /> {terms.LearnMore}
+          </AppLink>
+        )}
       </Stack>
     </Box>
   );
