@@ -7,9 +7,21 @@ import Article from "../../components/Article/Article";
 import { BuildingSimpleDTO, getBuildings } from "../../lib/buildings";
 import PageHead from "../../components/PageHead/PageHead";
 
+const SORT_BY = ["name"];
+const sortHandle =
+  (sortBy: string) => (a: BuildingSimpleDTO, b: BuildingSimpleDTO) => {
+    switch (sortBy) {
+      case "name":
+        return a.name.localeCompare(b.name);
+    }
+    return 0;
+  };
+
 const Buildings: NextPage<{ buildings: BuildingSimpleDTO[] }> = ({
   buildings,
 }) => {
+  const sortedBuildings = buildings.sort(sortHandle(SORT_BY[0]));
+
   return (
     <>
       <PageHead
@@ -23,7 +35,7 @@ const Buildings: NextPage<{ buildings: BuildingSimpleDTO[] }> = ({
           { minWidth: "lg", cols: 3 },
         ]}
       >
-        {buildings.map((building) => (
+        {sortedBuildings.map((building) => (
           <Article
             key={building.type}
             image={
@@ -33,6 +45,7 @@ const Buildings: NextPage<{ buildings: BuildingSimpleDTO[] }> = ({
               />
             }
             name={building.name}
+            subtitle={building.factionName}
             description={building.description}
             href={`/buildings/${building.type}`}
           />

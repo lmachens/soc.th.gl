@@ -453,138 +453,168 @@ for (const icon of iconsSrc) {
   await copyImageFile(icon.spriteSheet, "../public/icons");
 }
 
-const buildSites = adventureMapEntitySrc.filter((mapEntity) =>
-  mapEntity.nameKey.startsWith("MapEntities/BuildSite")
+const getStack = (stack) => ({
+  nameKey: stack.nameKey,
+  descriptionKey: stack.descriptionKey,
+  icon: stack.icon,
+  research: stack.research.map((research) => ({
+    id: research.id,
+    nameKey: research.nameKey,
+    descriptionKey: research.descriptionKey,
+    costEntries: research.requirements.cost.costEntries.map((costEntry) => ({
+      type: RESOURCE_TYPES[costEntry.type],
+      amount: costEntry.amount,
+    })),
+    bacterias: research.bacterias.map((bacteria) =>
+      getBacteria({
+        bacteriaType: bacteria.bacteriaType,
+        duration: {
+          type: SPELL_DURATION_TYPES[bacteria.duration.type],
+          duration: bacteria.duration.value,
+        },
+      })
+    ),
+  })),
+});
+// extractor/SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Entities/MapEntityCategory.cs
+const MAP_ENTITY_CATEGORY_BUILDING = 97;
+
+const buildSites = adventureMapEntitySrc.filter((buildSite) =>
+  [MAP_ENTITY_CATEGORY_BUILDING].includes(buildSite.category)
 );
 const buildings = [];
 for (const buildSite of buildSites) {
+  let factionId = 0;
+  if (buildSite.nameKey.startsWith("Arleon")) {
+    factionId = 1;
+  } else if (buildSite.nameKey.startsWith("Loth")) {
+    factionId = 2;
+  } else if (buildSite.nameKey.startsWith("Barya")) {
+    factionId = 3;
+  } else if (buildSite.nameKey.startsWith("Rana")) {
+    factionId = 4;
+  }
+  const building = {
+    id: buildSite.id,
+    factionId: factionId,
+    buildSite: buildSite.nameKey,
+    nameKey: buildSite.nameKey,
+    descriptionKey: buildSite.descriptionKey,
+    portraits: buildSite.portraitSettings.map(
+      (portraitSetting) => portraitSetting.portrait
+    ),
+  };
+
   for (const component of buildSite.components) {
+    if (component.baseViewRadius) {
+      building.baseViewRadius = component.baseViewRadius;
+    }
+    if (component.incomeDefinition?.incomePerLevel) {
+      building.incomePerLevel = component.incomeDefinition.incomePerLevel.map(
+        (incomePerLevel) => ({
+          level: incomePerLevel.level,
+          resources: incomePerLevel.definition.resources.map((resource) => ({
+            type: RESOURCE_TYPES[resource.type],
+            amount: resource.amount,
+          })),
+          troopIncomes: incomePerLevel.definition.troopIncomes.map(
+            (troopIncome) => {
+              const faction = factionsSrc[troopIncome.reference.factionIndex];
+              const upgradeType =
+                UPGRADED_TYPES[troopIncome.reference.upgradeType];
+              const unit =
+                faction.units[troopIncome.reference.unitIndex][upgradeType];
+              return {
+                factionKey: faction.languageKey,
+                upgradeType,
+                unitKey: unit.languageKey,
+                size: troopIncome.reference.size,
+                requiredResearch: troopIncome.requiredResearch,
+                initialInstantIncome: troopIncome.initialInstantIncome,
+              };
+            }
+          ),
+        })
+      );
+    }
+
+    if (component.levelUpgrades) {
+      building.levelUpgrades = component.levelUpgrades.map((levelUpgrade) => ({
+        costEntries: levelUpgrade.requirements.cost.costEntries.map(
+          (costEntry) => ({
+            type: RESOURCE_TYPES[costEntry.type],
+            amount: costEntry.amount,
+          })
+        ),
+        requiredBuildings: levelUpgrade.requirements.requiredBuildings.map(
+          (requiredBuilding) => requiredBuilding.entity
+        ),
+      }));
+    }
+
+    if (component.requirements) {
+      building.requirements = {
+        costEntries: component.requirements.cost.costEntries.map(
+          (costEntry) => ({
+            type: RESOURCE_TYPES[costEntry.type],
+            amount: costEntry.amount,
+          })
+        ),
+        requiredBuildings: component.requirements.requiredBuildings.map(
+          (requiredBuilding) => requiredBuilding.entity
+        ),
+      };
+    }
+
+    if (component.maxGarrison) {
+      building.maxGarrison = component.maxGarrison;
+    }
+
     if (component.actionProviders) {
       for (const actionProvider of component.actionProviders) {
         if (actionProvider.availableBuildings) {
-          for (const availableBuilding of actionProvider.availableBuildings) {
-            const factionId = availableBuilding.factionId;
-            for (const availableMapEntity of availableBuilding.availableMapEntities) {
-              const mapEntity = availableMapEntity.mapEntityBlueprint;
-              if (
-                buildings.some(
-                  (someBuilding) => someBuilding.id === mapEntity.id
-                )
-              ) {
-                continue;
+          building.availableBuildings = actionProvider.availableBuildings.map(
+            (availableBuilding) => ({
+              factionId: availableBuilding.factionId,
+              availableMapEntities: availableBuilding.availableMapEntities.map(
+                (availableMapEntity) => ({
+                  id: availableMapEntity.mapEntityBlueprint.id,
+                })
+              ),
+            })
+          );
+        }
+
+        if (actionProvider.stacks) {
+          building.stacks = actionProvider.stacks.map(getStack);
+        }
+
+        if (actionProvider.categories) {
+          for (const actionCategory of actionProvider.categories) {
+            if (actionCategory.stacks) {
+              if (!building.stacks) {
+                building.stacks = [];
               }
-              const building = {
-                id: mapEntity.id,
-                factionId,
-                buildSite: buildSite.nameKey,
-                nameKey: mapEntity.nameKey,
-                descriptionKey: mapEntity.descriptionKey,
-                portraits: mapEntity.portraitSettings.map(
-                  (portraitSetting) => portraitSetting.portrait
-                ),
-                // category: mapEntity.category,
-              };
-
-              const incomeDefinitionComponent = mapEntity.components.find(
-                (component) => component.incomeDefinition?.incomePerLevel
-              );
-              if (incomeDefinitionComponent) {
-                building.incomePerLevel =
-                  incomeDefinitionComponent.incomeDefinition.incomePerLevel.map(
-                    (incomePerLevel) => ({
-                      level: incomePerLevel.level,
-                      resources: incomePerLevel.definition.resources.map(
-                        (resource) => ({
-                          type: RESOURCE_TYPES[resource.type],
-                          amount: resource.amount,
-                        })
-                      ),
-                      troopIncomes: incomePerLevel.definition.troopIncomes.map(
-                        (troopIncome) => {
-                          const faction =
-                            factionsSrc[troopIncome.reference.factionIndex];
-                          const upgradeType =
-                            UPGRADED_TYPES[troopIncome.reference.upgradeType];
-                          const unit =
-                            faction.units[troopIncome.reference.unitIndex][
-                              upgradeType
-                            ];
-                          return {
-                            factionKey: faction.languageKey,
-                            upgradeType,
-                            unitKey: unit.languageKey,
-                            size: troopIncome.reference.size,
-                            requiredResearch: troopIncome.requiredResearch,
-                            initialInstantIncome:
-                              troopIncome.initialInstantIncome,
-                          };
-                        }
-                      ),
-                    })
-                  );
-              }
-
-              const baseViewRadiusComponent = mapEntity.components.find(
-                (component) => component.baseViewRadius
-              );
-              building.baseViewRadius = baseViewRadiusComponent.baseViewRadius;
-
-              const levelUpgradesComponent = mapEntity.components.find(
-                (component) => component.levelUpgrades
-              );
-              if (levelUpgradesComponent) {
-                building.levelUpgrades =
-                  levelUpgradesComponent.levelUpgrades.map((levelUpgrade) => ({
-                    costEntries: levelUpgrade.requirements.cost.costEntries.map(
-                      (costEntry) => ({
-                        type: RESOURCE_TYPES[costEntry.type],
-                        amount: costEntry.amount,
-                      })
-                    ),
-                    requiredBuildings:
-                      levelUpgrade.requirements.requiredBuildings.map(
-                        (requiredBuilding) => requiredBuilding.entity
-                      ),
-                  }));
-              }
-
-              const requirementsComponent = mapEntity.components.find(
-                (component) => component.requirements
-              );
-              building.requirements = {
-                costEntries:
-                  requirementsComponent.requirements.cost.costEntries.map(
-                    (costEntry) => ({
-                      type: RESOURCE_TYPES[costEntry.type],
-                      amount: costEntry.amount,
-                    })
-                  ),
-                requiredBuildings:
-                  requirementsComponent.requirements.requiredBuildings.map(
-                    (requiredBuilding) => requiredBuilding.entity
-                  ),
-              };
-
-              const maxGarrison = mapEntity.components.find(
-                (component) => component.maxGarrison
-              );
-              if (maxGarrison) {
-                building.maxGarrison = maxGarrison;
-              }
-
-              buildings.push(building);
+              building.stacks.push(...actionCategory.stacks.map(getStack));
             }
           }
         }
       }
     }
   }
+
+  buildings.push(building);
 }
 
 await writeJSONFile(buildings, "../../lib/collections/buildings");
 for (const building of buildings) {
   for (const portrait of building.portraits) {
     await copyImageFile(portrait.spriteSheet, "../public/buildings");
+  }
+  if (building.stacks) {
+    for (const stack of building.stacks) {
+      await copyImageFile(stack.icon.spriteSheet, "../public/icons");
+    }
   }
 }
 

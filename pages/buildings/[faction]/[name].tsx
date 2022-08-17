@@ -1,7 +1,7 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../../lib/staticProps";
 
-import { Group, Stack, Table, Text, Title } from "@mantine/core";
+import { Box, Group, Stack, Table, Text, Title } from "@mantine/core";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { getTerm, TermsDTO } from "../../../lib/terms";
 import { BuildingDTO, getBuilding, getBuildings } from "../../../lib/buildings";
@@ -9,6 +9,7 @@ import Lore from "../../../components/Lore/Lore";
 import { useTerms } from "../../../components/Terms/Terms";
 import AppLink from "../../../components/AppLink/AppLink";
 import PageHead from "../../../components/PageHead/PageHead";
+import Article from "../../../components/Article/Article";
 
 const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
   const terms = useTerms();
@@ -24,7 +25,7 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
           <SpriteSheet spriteSheet={building.portraits[0]} folder="buildings" />
           <Stack spacing="xs">
             <Title order={2}>{building.name}</Title>
-            <Lore text={building.description} />
+            {building.description && <Lore text={building.description} />}
           </Stack>
         </Group>
         <Table>
@@ -36,7 +37,7 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
             <tr>
               <td>{terms.cost}</td>
               <td>
-                {building.requirements.costEntries
+                {building.requirements?.costEntries
                   .map((value) => `${value.amount} ${value.type}`)
                   .join(", ")}
                 {building.levelUpgrades
@@ -114,6 +115,54 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
             ))}
           </tbody>
         </Table>
+        {building.stacks && (
+          <>
+            <Title order={3}>Research</Title>
+            {building.stacks.map((stack) => (
+              <Article
+                key={stack.name}
+                image={<SpriteSheet spriteSheet={stack.icon} folder="icons" />}
+                name={stack.name}
+                description={stack.description}
+              >
+                <Stack>
+                  {stack.research.map((research, index) => (
+                    <Box key={research.id}>
+                      <Title order={4}>Level {index + 1}</Title>
+                      <Text>
+                        {terms.cost}:{" "}
+                        <Text component="span">
+                          {research.costEntries
+                            .map((value) => `${value.amount} ${value.type}`)
+                            .join(", ")}
+                        </Text>
+                      </Text>
+                      <Text>
+                        {research.bacterias.map((bacteria) => (
+                          <Box key={bacteria.bacteriaType}>
+                            {bacteria.modifierData.map((modifier) => (
+                              <Text
+                                key={modifier.type}
+                                dangerouslySetInnerHTML={{
+                                  __html: modifier.description,
+                                }}
+                              />
+                            ))}
+                            {bacteria.resourcesIncome.map((resourceIncome) => (
+                              <Text key={resourceIncome.type}>
+                                {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
+                              </Text>
+                            ))}
+                          </Box>
+                        ))}
+                      </Text>
+                    </Box>
+                  ))}
+                </Stack>
+              </Article>
+            ))}
+          </>
+        )}
       </Stack>
     </>
   );
@@ -141,6 +190,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     level: getTerm("Common/Stats/Level/Header", locale),
     viewRadius: getTerm("Commanders/Details/CommanderStat/View", locale),
     faction: getTerm("Adventure/TeamQueueHUD/Faction", locale),
+    production: getTerm("Common/Details/GeneratesResources", locale),
   };
 
   return {

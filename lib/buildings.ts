@@ -3,19 +3,25 @@ import { getFactions } from "./factions";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
 import { getUnit } from "./units";
+import factionsCollection from "./collections/factions.json";
+import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 
 export const getBuildings = (locale: string) => {
-  const factions = getFactions(locale);
-  const buildings = buildingsCollection.map<BuildingSimpleDTO>((building) => ({
-    id: building.id,
-    type: building.nameKey,
-    factionId: building.factionId,
-    factionName: factions.find((faction) => faction.id === building.factionId)!
-      .name,
-    name: getTerm(building.nameKey, locale),
-    description: getTerm(building.descriptionKey, locale),
-    portraits: building.portraits,
-  }));
+  const buildings = buildingsCollection.map<BuildingSimpleDTO>((building) => {
+    const faction = factionsCollection.find(
+      (faction) => faction.id === building.factionId
+    )!;
+
+    return {
+      id: building.id,
+      type: building.nameKey,
+      factionId: building.factionId,
+      factionName: getTerm(`Factions/${faction.languageKey}/Name`, locale),
+      name: getTerm(building.nameKey, locale),
+      description: getTerm(building.descriptionKey, locale),
+      portraits: building.portraits,
+    };
+  });
   return buildings;
 };
 
@@ -106,6 +112,30 @@ export const getBuilding = (
       })
     );
   }
+
+  if (buildingSrc.stacks) {
+    building.stacks = buildingSrc.stacks.map((stack) => ({
+      name: getTerm(stack.nameKey, locale),
+      description: stack.descriptionKey
+        ? getTerm(stack.descriptionKey, locale)
+        : "",
+      icon: stack.icon,
+      research: stack.research.map((research) => ({
+        id: research.id,
+        name: research.nameKey ? getTerm(research.nameKey, locale) : "",
+        description: research.descriptionKey
+          ? getTerm(research.descriptionKey, locale)
+          : "",
+        costEntries: research.costEntries.map((costEntry) => ({
+          type: getTerm(`Common/Resource/${costEntry.type}`, locale),
+          amount: costEntry.amount,
+        })),
+        bacterias: research.bacterias.map((bacteria) =>
+          getLocaleBacteria(bacteria, locale)
+        ),
+      })),
+    }));
+  }
   return building;
 };
 
@@ -154,6 +184,21 @@ export type BuildingDTO = {
       name: string;
       description: string;
       size: number;
+    }[];
+  }[];
+  stacks?: {
+    name: string;
+    description: string;
+    icon: SpriteDTO;
+    research: {
+      id: number;
+      name: string;
+      description: string;
+      costEntries: {
+        type: string;
+        amount: number;
+      }[];
+      bacterias: BacteriaDTO[];
     }[];
   }[];
 };
