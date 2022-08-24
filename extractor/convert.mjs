@@ -10,6 +10,11 @@ const termMapSrc = await readJSONFile("./out/termMap.json");
 const iconsSrc = await readJSONFile("./out/icons.json");
 const spellsSrc = await readJSONFile("./out/spell.json");
 const battleMapEntitySrc = await readJSONFile("./out/battleMapEntity.json");
+const genericRandomEventsSrc = await readJSONFile("./out/genericRandomEvents.json")
+const arleonRandomEventsSrc = await readJSONFile("./out/arleonRandomEvents.json")
+const lothRandomEventsSrc = await readJSONFile("./out/lothRandomEvents.json")
+const baryaRandomEventsSrc = await readJSONFile("./out/baryaRandomEvents.json")
+const ranaRandomEventsSrc = await readJSONFile("./out/ranaRandomEvents.json")
 
 const adventureMapEntitySrc = await readJSONFile(
   "./out/adventureMapEntity.json"
@@ -685,3 +690,13 @@ await writeJSONFile(spells, "../../lib/collections/spells");
 for (const spell of spells) {
   await copyImageFile(spell.icon.spriteSheet, "../public/spells");
 }
+
+const randomEvents = [
+  {"genericRandomEvents": genericRandomEventsSrc}, 
+  {"arleonRandomEvents": arleonRandomEventsSrc}, 
+  {"lothRandomEvents": lothRandomEventsSrc}, 
+  {"baryaRandomEvents": baryaRandomEventsSrc}, 
+  {"ranaRandomEvents": ranaRandomEventsSrc}
+]
+
+await writeJSONFile(randomEvents, "../../lib/collections/randomEvents");
