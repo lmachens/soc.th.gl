@@ -691,12 +691,30 @@ for (const spell of spells) {
   await copyImageFile(spell.icon.spriteSheet, "../public/spells");
 }
 
-const randomEvents = [
-  {"genericRandomEvents": genericRandomEventsSrc}, 
-  {"arleonRandomEvents": arleonRandomEventsSrc}, 
-  {"lothRandomEvents": lothRandomEventsSrc}, 
-  {"baryaRandomEvents": baryaRandomEventsSrc}, 
-  {"ranaRandomEvents": ranaRandomEventsSrc}
-]
+// const randomEvents = [
+//   {"genericRandomEvents": genericRandomEventsSrc}, 
+//   {"arleonRandomEvents": arleonRandomEventsSrc}, 
+//   {"lothRandomEvents": lothRandomEventsSrc}, 
+//   {"baryaRandomEvents": baryaRandomEventsSrc}, 
+//   {"ranaRandomEvents": ranaRandomEventsSrc}
+// ]  // todo: make dynamic, so new factions are taken care of? 
 
-await writeJSONFile(randomEvents, "../../lib/collections/randomEvents");
+// await writeJSONFile(randomEvents, "../../lib/collections/randomEvents");
+
+const genericRandomEvents = genericRandomEventsSrc.map((genericRandomEventSrc) => {
+  let {type, uniqueName, isReocurring, chanceOfHappening, eventEvaluationTrigger, requirementEvaluationType, requirements, eventRecipient, reward, penalty} = genericRandomEventSrc.randomEventData;
+  return {
+    type:type, // map to good/neutral/bad extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventType.cs
+    name: uniqueName.split('/').pop(),
+    isReocurring: Boolean(isReocurring), // maybe don't hardcode, if there's a mapping that 0=false and 1=true?
+    chanceOfHappening: chanceOfHappening,
+    eventEvaluationTrigger: eventEvaluationTrigger, // map to extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventEvaluationTrigger.cs
+    requirementEvaluationType: requirementEvaluationType, // extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventRequirementEvaluationType.cs
+    requirements: requirements,  // map!!
+    eventRecipient: eventRecipient, // depending on this, take in more info about the recipient extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventRecipient.cs
+    reward: reward, // map!!
+    penalty: penalty // map!!
+  }
+});
+
+await writeJSONFile(genericRandomEvents, "../../lib/collections/genericRandomEvents");
