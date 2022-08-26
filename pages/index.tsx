@@ -70,6 +70,12 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
             description="Your wielder can perform several spells."
             href={`/spells`}
           />
+          <Article
+            name="Random Events"
+            description="Learn what triggers the events at the start of every turn."
+            href={`/randomEvents`}
+          />
+
         </SimpleGrid>
         <Blockquote
           cite={
