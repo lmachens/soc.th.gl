@@ -16,11 +16,12 @@ export const findManifests = async () => {
 };
 
 export const findAssetByGUID = async ({ guid, fileId }, spriteName) => {
+  const filePath = cache[guid];
+  if (!filePath) {
+    return;
+  }
+
   try {
-    const filePath = cache[guid];
-    if (!filePath) {
-      return;
-    }
     const meta = await readYAMLFile(filePath);
 
     if (meta.textureImporter) {
@@ -30,6 +31,9 @@ export const findAssetByGUID = async ({ guid, fileId }, spriteName) => {
       const texture = meta.textureImporter.internalIdToNameTable.find(
         (item) => item.first["213"] === fileId
       );
+      if (!texture) {
+        return null;
+      }
       const name = spriteName || texture.second;
       const sprite = meta.textureImporter.spriteSheet.sprites.find(
         (sprite) => sprite.name === name
@@ -42,12 +46,25 @@ export const findAssetByGUID = async ({ guid, fileId }, spriteName) => {
         width: sprite.rect.width,
         height: sprite.rect.height,
         outline: sprite.outline,
-        // physicsShape: sprite.physicsShape,
       };
     }
-    return await readYAMLFile(filePath.replace(".meta", ""));
+    const asset = await readYAMLFile(filePath.replace(".meta", ""));
+    if (asset.sprite?.rd) {
+      const textureFilePath = cache[asset.sprite.rd.texture.guid];
+
+      return {
+        name: asset.sprite.name,
+        spriteSheet: textureFilePath.replace(".meta", "").split(/[\\/]/).at(-1),
+        x: asset.sprite.rect.x,
+        y: asset.sprite.rect.y,
+        width: asset.sprite.rect.width,
+        height: asset.sprite.rect.height,
+        outline: asset.sprite.outline,
+      };
+    }
+    return asset;
   } catch (error) {
-    console.log(error.message, guid, fileId, spriteName);
+    console.log(error.message, filePath, spriteName);
     return null;
   }
 };

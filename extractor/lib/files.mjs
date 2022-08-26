@@ -23,7 +23,8 @@ export const readYAMLFile = async (path) => {
     .replaceAll("\r\n", "\n")
     // Workaround sequence mapping issue in yamljs
     .replaceAll("m_Curve", "x_Curve")
-    .replaceAll(/\s+m_\w+.+/g, "")
+    .replaceAll(/m_/g, "")
+    // .replaceAll(/\s+m_\w+.+/g, "")
     .replaceAll(/_statuses: (\d+)/g, (_, statuses) => {
       // Convert index of BacteriaOwnerStatus
       // e.g. 06000000 to ['Faey'] or 030000000400000005000000 to ['Musician', 'Rana', 'Beast']
