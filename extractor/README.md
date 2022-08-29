@@ -8,23 +8,18 @@ It's required to have Songs of Conquest installed on your computer. This guide i
 
 Next, you need to install [AssetRipper](https://github.com/AssetRipper/AssetRipper/), which is a tool to extract the game data. The latest tested version is [v0.2.0.3](https://github.com/AssetRipper/AssetRipper/releases/tag/0.2.0.3).
 
-### GUI version of AssetRipper (`AssetRipperGUI_win64.zip`)
+### GUI version of AssetRipper
 
-After you extracted the ZIP file, please run `AssetRipper.exe`.
+After you extracted the ZIP file, please run `AssetRipper.exe` and configurate it:
+
+- Image Export Format: `Webp`
+- Sprite Export Format: `Unity`
 
 Now, open the game folder like `C:\Program Files (x86)\Steam\steamapps\common\SongsOfConquest\SongsOfConquest_Data`.
 
 Even if we are interested in some of the files, we will export everything. Click on `Export all Files` and select the folder of this README.md file target (`extractor`).
 
 Exporting these files will take a while and a new folder called `SongsOfConquest` will be created.
-
-### Console version of AssetRipper (`AssetRipperConsole_win64.zip`)
-
-You can call it by running `AssetRipperConsole.exe` with the path to the game folder and output directory. The output directory should be the same as this README.md file.
-
-```bat
-AssetRipperConsole.exe "C:\Program Files (x86)\Steam\steamapps\common\SongsOfConquest\SongsOfConquest_Data" --output "__PATH_TO__\soc.gg\extractor"
-```
 
 ### Start the extractor
 

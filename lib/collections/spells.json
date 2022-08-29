@@ -3,7 +3,7 @@
     "id": 24,
     "icon": {
       "name": "Quicken",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 277,
       "y": 381,
       "width": 90,
@@ -196,7 +196,7 @@
     "id": 6,
     "icon": {
       "name": "Protection",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 1,
       "y": 381,
       "width": 90,
@@ -389,7 +389,7 @@
     "id": 13,
     "icon": {
       "name": "Invigorate",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 277,
       "y": 565,
       "width": 90,
@@ -594,7 +594,7 @@
     "id": 26,
     "icon": {
       "name": "Aggression",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 93,
       "y": 933,
       "width": 90,
@@ -787,7 +787,7 @@
     "id": 25,
     "icon": {
       "name": "Justice",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 369,
       "y": 565,
       "width": 90,
@@ -953,7 +953,7 @@
     "id": 23,
     "icon": {
       "name": "Breath of the Pheonix",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 277,
       "y": 841,
       "width": 90,
@@ -1119,7 +1119,7 @@
     "id": 28,
     "icon": {
       "name": "Psychic Spear",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 93,
       "y": 381,
       "width": 90,
@@ -1273,7 +1273,7 @@
     "id": 27,
     "icon": {
       "name": "Arcane Explosion",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 369,
       "y": 933,
       "width": 90,
@@ -1427,7 +1427,7 @@
     "id": 29,
     "icon": {
       "name": "Ice Bolt",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 1,
       "y": 565,
       "width": 90,
@@ -1680,7 +1680,7 @@
     "id": 30,
     "icon": {
       "name": "Fireaball",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 277,
       "y": 657,
       "width": 90,
@@ -1834,7 +1834,7 @@
     "id": 33,
     "icon": {
       "name": "Arcane Door",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 277,
       "y": 933,
       "width": 90,
@@ -1931,7 +1931,7 @@
     "id": 34,
     "icon": {
       "name": "Repel",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 1,
       "y": 289,
       "width": 90,
@@ -2085,7 +2085,7 @@
     "id": 35,
     "icon": {
       "name": "Earth Block",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 369,
       "y": 749,
       "width": 90,
@@ -2194,7 +2194,7 @@
     "id": 36,
     "icon": {
       "name": "Insect Swarm",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 93,
       "y": 565,
       "width": 90,
@@ -2369,7 +2369,7 @@
     "id": 37,
     "icon": {
       "name": "Blind Hatred",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 93,
       "y": 841,
       "width": 90,
@@ -2535,7 +2535,7 @@
     "id": 38,
     "icon": {
       "name": "Boiling Blood",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 185,
       "y": 841,
       "width": 90,
@@ -2689,7 +2689,7 @@
     "id": 39,
     "icon": {
       "name": "Chain Lightning",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 1,
       "y": 749,
       "width": 90,
@@ -2843,7 +2843,7 @@
     "id": 40,
     "icon": {
       "name": "Chaos Step",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 93,
       "y": 749,
       "width": 90,
@@ -2940,7 +2940,7 @@
     "id": 41,
     "icon": {
       "name": "Tempest",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 1,
       "y": 197,
       "width": 90,
@@ -3115,7 +3115,7 @@
     "id": 42,
     "icon": {
       "name": "Aegis",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 1,
       "y": 933,
       "width": 90,
@@ -3302,7 +3302,7 @@
     "id": 43,
     "icon": {
       "name": "Entagle",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 1,
       "y": 657,
       "width": 90,
@@ -3489,7 +3489,7 @@
     "id": 44,
     "icon": {
       "name": "Burst of Strength",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 369,
       "y": 841,
       "width": 90,
@@ -3676,7 +3676,7 @@
     "id": 45,
     "icon": {
       "name": "Lethargy",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 1,
       "y": 473,
       "width": 90,
@@ -3881,7 +3881,7 @@
     "id": 46,
     "icon": {
       "name": "Explosive Seeds",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 185,
       "y": 657,
       "width": 90,
@@ -4146,7 +4146,7 @@
     "id": 47,
     "icon": {
       "name": "Poison Cloud",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 369,
       "y": 473,
       "width": 90,
@@ -4519,7 +4519,7 @@
     "id": 48,
     "icon": {
       "name": "Onslaught",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 185,
       "y": 473,
       "width": 90,
@@ -4706,7 +4706,7 @@
     "id": 49,
     "icon": {
       "name": "Apocalypse",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 185,
       "y": 933,
       "width": 90,
@@ -4872,7 +4872,7 @@
     "id": 16,
     "icon": {
       "name": "Quick Draw",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 185,
       "y": 381,
       "width": 90,
@@ -5059,7 +5059,7 @@
     "id": 17,
     "icon": {
       "name": "Rejuvenation",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 369,
       "y": 381,
       "width": 90,
@@ -5225,7 +5225,7 @@
     "id": 50,
     "icon": {
       "name": "Rupture",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 93,
       "y": 289,
       "width": 90,
@@ -5391,7 +5391,7 @@
     "id": 20,
     "icon": {
       "name": "Mist",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 93,
       "y": 473,
       "width": 90,
@@ -5545,7 +5545,7 @@
     "id": 52,
     "icon": {
       "name": "Swap",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 369,
       "y": 289,
       "width": 90,
@@ -5654,7 +5654,7 @@
     "id": 32,
     "icon": {
       "name": "Sabotage",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 185,
       "y": 289,
       "width": 90,
@@ -5829,7 +5829,7 @@
     "id": 54,
     "icon": {
       "name": "Inspire",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 185,
       "y": 565,
       "width": 90,
@@ -6058,7 +6058,7 @@
     "id": 55,
     "icon": {
       "name": "Pacify",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 277,
       "y": 473,
       "width": 90,
@@ -6233,7 +6233,7 @@
     "id": 31,
     "icon": {
       "name": "EtherealScales",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 93,
       "y": 657,
       "width": 90,
@@ -6420,7 +6420,7 @@
     "id": 56,
     "icon": {
       "name": "Fury",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 369,
       "y": 657,
       "width": 90,
@@ -6625,7 +6625,7 @@
     "id": 57,
     "icon": {
       "name": "Strengthen Essence",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 277,
       "y": 289,
       "width": 90,
@@ -6884,7 +6884,7 @@
     "id": 58,
     "icon": {
       "name": "Destroy Essence",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 277,
       "y": 749,
       "width": 90,
@@ -7143,7 +7143,7 @@
     "id": 59,
     "icon": {
       "name": "Clouded Vision",
-      "spriteSheet": "SpellIcons.png",
+      "spriteSheet": "SpellIcons.webp",
       "x": 185,
       "y": 749,
       "width": 90,

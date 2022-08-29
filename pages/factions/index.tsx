@@ -43,7 +43,12 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
         {factions.map((faction) => (
           <Article
             key={faction.type}
-            image={<SpriteSheet spriteSheet={faction.symbolSprite} />}
+            image={
+              <SpriteSheet
+                spriteSheet={faction.symbolSprite}
+                folder="factions"
+              />
+            }
             name={faction.name}
             description={faction.description}
             href={`/factions/${faction.type}`}

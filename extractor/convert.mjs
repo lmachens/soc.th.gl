@@ -155,6 +155,7 @@ const factions = factionsSrc.map((factionSrc) => ({
 await writeJSONFile(factions, "../../lib/collections/factions");
 
 for (const faction of factions) {
+  await copyImageFile(faction.bannerSprite.spriteSheet, "../public/factions");
   for (const wielderFrame of faction.wielderFrames) {
     await copyImageFile(wielderFrame.spriteSheet, "../public/factions");
   }
@@ -404,6 +405,18 @@ const units = factionsSrc
   .flat();
 
 await writeJSONFile(units, "../../lib/collections/units");
+for (const unit of units) {
+  await copyImageFile(unit.vanilla.sprite.spriteSheet, "../public/units");
+  if (unit.upgraded) {
+    await copyImageFile(unit.upgraded.sprite.spriteSheet, "../public/units");
+  }
+  if (unit.superUpgraded) {
+    await copyImageFile(
+      unit.superUpgraded.sprite.spriteSheet,
+      "../public/units"
+    );
+  }
+}
 
 const skills = skillsSrc.map((skillSrc) => ({
   type: skillSrc.type,

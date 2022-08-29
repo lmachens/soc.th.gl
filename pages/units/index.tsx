@@ -24,7 +24,9 @@ const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
         {units.map((unit) => (
           <Article
             key={unit.vanilla.languageKey}
-            image={<SpriteSheet spriteSheet={unit.vanilla.sprite} />}
+            image={
+              <SpriteSheet spriteSheet={unit.vanilla.sprite} folder="units" />
+            }
             name={unit.vanilla.name}
             description={unit.vanilla.description}
             href={`/units/${unit.faction}/${unit.vanilla.languageKey}`}
