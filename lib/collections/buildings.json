@@ -8,7 +8,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasFarm1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 384,
         "width": 64,
@@ -36,7 +36,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasFarm2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 385,
         "width": 64,
@@ -124,7 +124,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasLumberMill1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 320,
         "width": 64,
@@ -152,7 +152,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasLumberMill2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 320,
         "width": 64,
@@ -240,7 +240,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasTavern1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 256,
         "width": 64,
@@ -268,7 +268,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasTavern2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 256,
         "width": 64,
@@ -368,7 +368,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasQuarry1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 256,
         "width": 64,
@@ -396,7 +396,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasQuarry2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 256,
         "width": 64,
@@ -484,7 +484,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasPeasantsHut1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 256,
         "width": 64,
@@ -512,7 +512,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasPeasantsHut2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 256,
         "width": 64,
@@ -612,7 +612,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasRallyPoint",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 256,
         "width": 64,
@@ -675,7 +675,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasMarketplace",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 256,
         "width": 64,
@@ -722,7 +722,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasFaeyGrove1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 384,
         "width": 64,
@@ -750,7 +750,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasFaeyGrove2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 384,
         "width": 64,
@@ -783,7 +783,7 @@
         "descriptionKey": "Arleon/Research/FaeyGrove/HornedOnes/Description",
         "icon": {
           "name": "ResearchHornedOneSmall",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 458,
           "y": 798,
           "width": 110,
@@ -916,7 +916,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasFaeyCourt1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 384,
         "width": 64,
@@ -944,7 +944,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasFaeyCourt2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 384,
         "width": 64,
@@ -1042,7 +1042,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasBarracks1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 448,
         "width": 64,
@@ -1070,7 +1070,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasBarracks2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 448,
         "width": 64,
@@ -1103,7 +1103,7 @@
         "descriptionKey": "Arleon/Research/Barracks/Rangers/Description",
         "icon": {
           "name": "ResearchRangerSmall",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 572,
           "y": 570,
           "width": 110,
@@ -1240,7 +1240,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasCastle1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 448,
         "width": 64,
@@ -1268,7 +1268,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasCastle2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 448,
         "width": 64,
@@ -1372,7 +1372,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasGuardTower1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 320,
         "width": 64,
@@ -1400,7 +1400,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasGuardTower2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 320,
         "width": 64,
@@ -1480,7 +1480,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasAcademy",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 448,
         "width": 64,
@@ -1513,7 +1513,7 @@
         "descriptionKey": "Arleon/Research/Academy/Economy/MultiBuild/Description",
         "icon": {
           "name": "DynamicConstruction",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 316,
           "y": 912,
           "width": 110,
@@ -1594,7 +1594,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Harvest the Glimmerweave",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 116,
           "y": 912,
           "width": 110,
@@ -1712,7 +1712,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "IncreasetheTaxes",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 772,
           "y": 912,
           "width": 110,
@@ -1854,7 +1854,7 @@
         "descriptionKey": "Arleon/Research/Academy/Wielders/Order/Description",
         "icon": {
           "name": "ResearchIconOrder",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 230,
           "y": 684,
           "width": 110,
@@ -2005,7 +2005,7 @@
         "descriptionKey": "Arleon/Research/Academy/Wielders/Creation/Description",
         "icon": {
           "name": "ResearchIconCreation",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 2,
           "y": 684,
           "width": 110,
@@ -2156,7 +2156,7 @@
         "descriptionKey": "Arleon/Research/Academy/Wielders/Chaos/Description",
         "icon": {
           "name": "ResearchIconChaos",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 800,
           "y": 798,
           "width": 110,
@@ -2307,7 +2307,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMilitiaPlus",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 686,
           "y": 684,
           "width": 110,
@@ -2458,7 +2458,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMinstrelPlus",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 2,
           "y": 570,
           "width": 110,
@@ -2609,7 +2609,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRangerPlus",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 458,
           "y": 570,
           "width": 110,
@@ -2760,7 +2760,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchFootmenPlus",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 116,
           "y": 798,
           "width": 110,
@@ -2911,7 +2911,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchKnightPlus",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 458,
           "y": 684,
           "width": 110,
@@ -3062,7 +3062,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSpiritsPlus",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 800,
           "y": 570,
           "width": 110,
@@ -3213,7 +3213,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHornedOnePlus",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 344,
           "y": 798,
           "width": 110,
@@ -3364,7 +3364,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchNoblePlus",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 230,
           "y": 570,
           "width": 110,
@@ -3539,7 +3539,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasGrandArmory",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 320,
         "width": 64,
@@ -3572,7 +3572,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "FuryoftheWild",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 430,
           "y": 912,
           "width": 110,
@@ -3753,7 +3753,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "NaturesBlessing",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 886,
           "y": 912,
           "width": 110,
@@ -3922,7 +3922,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "WindsoftheForest",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 116,
           "y": 456,
           "width": 110,
@@ -4103,7 +4103,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "HeartyMeals",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 658,
           "y": 912,
           "width": 110,
@@ -4284,7 +4284,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "CelestialArmour",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 88,
           "y": 912,
           "width": 110,
@@ -4447,7 +4447,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "CelestialWeapons",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 202,
           "y": 912,
           "width": 110,
@@ -4610,7 +4610,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "TargetPractice",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 2,
           "y": 456,
           "width": 110,
@@ -4773,7 +4773,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSpirits",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 686,
           "y": 570,
           "width": 110,
@@ -4921,7 +4921,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHornedOne",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 230,
           "y": 798,
           "width": 110,
@@ -5072,7 +5072,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchNoble",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 116,
           "y": 570,
           "width": 110,
@@ -5229,7 +5229,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMilitia",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 572,
           "y": 684,
           "width": 110,
@@ -5386,7 +5386,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMinstrel",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 800,
           "y": 684,
           "width": 110,
@@ -5537,7 +5537,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchFootmen",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 2,
           "y": 798,
           "width": 110,
@@ -5688,7 +5688,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRanger",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 344,
           "y": 570,
           "width": 110,
@@ -5845,7 +5845,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchKnight",
-          "spriteSheet": "ArleonIcons.png",
+          "spriteSheet": "ArleonIcons.webp",
           "x": 344,
           "y": 684,
           "width": 110,
@@ -6020,7 +6020,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasBazar",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 320,
         "width": 64,
@@ -6067,7 +6067,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasDreathDen1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 448,
         "width": 64,
@@ -6095,7 +6095,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasDreathDen2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 448,
         "width": 64,
@@ -6199,7 +6199,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasFactory1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 320,
         "width": 64,
@@ -6227,7 +6227,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasFactory2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 320,
         "width": 64,
@@ -6329,7 +6329,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasFoundry",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 256,
         "width": 64,
@@ -6362,7 +6362,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "EndurePunishment",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 2,
           "y": 912,
           "width": 110,
@@ -6525,7 +6525,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "StrikeHard",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 800,
           "y": 570,
           "width": 110,
@@ -6688,7 +6688,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "MoveFast",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 458,
           "y": 912,
           "width": 110,
@@ -6857,7 +6857,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "RefinedArmors",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 572,
           "y": 912,
           "width": 110,
@@ -7020,7 +7020,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Refinedequipment",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 686,
           "y": 912,
           "width": 110,
@@ -7201,7 +7201,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "RefinedWeaponry",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 800,
           "y": 912,
           "width": 110,
@@ -7364,7 +7364,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "SteelBullets",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 686,
           "y": 570,
           "width": 110,
@@ -7527,7 +7527,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMusketeer",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 116,
           "y": 684,
           "width": 110,
@@ -7684,7 +7684,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchPikeneer",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 344,
           "y": 684,
           "width": 110,
@@ -7835,7 +7835,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchTinker",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 344,
           "y": 570,
           "width": 110,
@@ -7986,7 +7986,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHellbreath",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 458,
           "y": 798,
           "width": 110,
@@ -8143,7 +8143,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchPiper",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 686,
           "y": 684,
           "width": 110,
@@ -8294,7 +8294,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchBrute",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 2,
           "y": 798,
           "width": 110,
@@ -8442,7 +8442,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSassanid",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 2,
           "y": 570,
           "width": 110,
@@ -8593,7 +8593,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchDreath",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 230,
           "y": 798,
           "width": 110,
@@ -8782,7 +8782,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasGuardTower1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 384,
         "width": 64,
@@ -8810,7 +8810,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasGuardTower2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 384,
         "width": 64,
@@ -8890,7 +8890,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasFortalice1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 256,
         "width": 64,
@@ -8918,7 +8918,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasFortalice2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 256,
         "width": 64,
@@ -8951,7 +8951,7 @@
         "descriptionKey": "Barya/Research/Fortalice/Sassanids/Description",
         "icon": {
           "name": "ResearchSassanidSmall",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 230,
           "y": 570,
           "width": 110,
@@ -9090,7 +9090,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasMercenaryQuarters1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 320,
         "width": 64,
@@ -9118,7 +9118,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasMercenaryQuarters2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 320,
         "width": 64,
@@ -9151,7 +9151,7 @@
         "descriptionKey": "Barya/Research/MercenaryQuarters/Pikeneers/Description",
         "icon": {
           "name": "ResearchPikeneerSmall",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 572,
           "y": 684,
           "width": 110,
@@ -9288,7 +9288,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasMerchantsGuild",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 384,
         "width": 64,
@@ -9321,7 +9321,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "EnlistIndebted",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 116,
           "y": 912,
           "width": 110,
@@ -9402,7 +9402,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "IncreasetheTariffs",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 344,
           "y": 912,
           "width": 110,
@@ -9544,7 +9544,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ExtracttheCelestialOre",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 230,
           "y": 912,
           "width": 110,
@@ -9662,7 +9662,7 @@
         "descriptionKey": "Barya/Research/MerchantsGuild/Wielders/Chaos/Description",
         "icon": {
           "name": "ResearchIconChaos",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 686,
           "y": 798,
           "width": 110,
@@ -9813,7 +9813,7 @@
         "descriptionKey": "Barya/Research/MerchantsGuild/Wielders/Order/Description",
         "icon": {
           "name": "ResearchIconOrder",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 2,
           "y": 684,
           "width": 110,
@@ -9964,7 +9964,7 @@
         "descriptionKey": "Barya/Research/MerchantsGuild/Wielders/Destruction/Description",
         "icon": {
           "name": "ResearchIconDestruction",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 800,
           "y": 798,
           "width": 110,
@@ -10115,7 +10115,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchPiperPlus",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 800,
           "y": 684,
           "width": 110,
@@ -10266,7 +10266,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchBrutePlus",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 116,
           "y": 798,
           "width": 110,
@@ -10417,7 +10417,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSassanidPlus",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 116,
           "y": 570,
           "width": 110,
@@ -10568,7 +10568,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchDreathPlus",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 344,
           "y": 798,
           "width": 110,
@@ -10719,7 +10719,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMusketeerPlus",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 230,
           "y": 684,
           "width": 110,
@@ -10870,7 +10870,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchPikeneerPlus",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 458,
           "y": 684,
           "width": 110,
@@ -11021,7 +11021,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchTinkerPlus",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 458,
           "y": 570,
           "width": 110,
@@ -11172,7 +11172,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHellbreathPlus",
-          "spriteSheet": "BaryaIcons.png",
+          "spriteSheet": "BaryaIcons.webp",
           "x": 572,
           "y": 798,
           "width": 110,
@@ -11347,7 +11347,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasPipersPost1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 384,
         "width": 64,
@@ -11375,7 +11375,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasPipersPost2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 384,
         "width": 64,
@@ -11475,7 +11475,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasTeleport",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 384,
         "width": 64,
@@ -11538,7 +11538,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasSawmill1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 448,
         "width": 64,
@@ -11566,7 +11566,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasSawmill2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 448,
         "width": 64,
@@ -11654,7 +11654,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasShop1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 448,
         "width": 64,
@@ -11682,7 +11682,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasShop2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 448,
         "width": 64,
@@ -11770,7 +11770,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasStonePit1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 448,
         "width": 64,
@@ -11798,7 +11798,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasStonePit2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 448,
         "width": 64,
@@ -11886,7 +11886,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasWorkshop1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 320,
         "width": 64,
@@ -11914,7 +11914,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasWorkshop2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 320,
         "width": 64,
@@ -12016,7 +12016,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasAurelianMausoleum1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 448,
         "width": 64,
@@ -12044,7 +12044,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasAurelianMausoleum2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 448,
         "width": 64,
@@ -12077,7 +12077,7 @@
         "descriptionKey": "Loth/Research/AurelianMausoleum/BlessedBones/Description",
         "icon": {
           "name": "ResearchBonesSmall",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 630,
           "y": 798,
           "width": 110,
@@ -12220,7 +12220,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasCroft1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 384,
         "width": 64,
@@ -12248,7 +12248,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasCroft2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 385,
         "width": 64,
@@ -12336,7 +12336,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasEmbalmersLab1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 384,
         "width": 64,
@@ -12364,7 +12364,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasEmbalmersLab2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 384,
         "width": 64,
@@ -12466,7 +12466,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasExMortisSanctum1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 448,
         "width": 64,
@@ -12494,7 +12494,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasExMortisSanctum2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 448,
         "width": 64,
@@ -12527,7 +12527,7 @@
         "descriptionKey": "Loth/Research/AurelianSanctum/Necromancer/Description",
         "icon": {
           "name": "ResearchScholarSmall",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 344,
           "y": 570,
           "width": 110,
@@ -12668,7 +12668,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasGuardTower1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 320,
         "width": 64,
@@ -12696,7 +12696,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasGuardTower2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 320,
         "width": 64,
@@ -12776,7 +12776,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasLibraryofAurelia",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 448,
         "width": 64,
@@ -12809,7 +12809,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ExtracttheAncientAmber",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 572,
           "y": 912,
           "width": 110,
@@ -12927,7 +12927,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "FanaticOfferings",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 686,
           "y": 912,
           "width": 110,
@@ -13069,7 +13069,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ImperialArchitecture",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 2,
           "y": 798,
           "width": 110,
@@ -13150,7 +13150,7 @@
         "descriptionKey": "Loth/Research/LibraryOfAurelia/Wielders/Arcana/Description",
         "icon": {
           "name": "ResearchIconArcana",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 2,
           "y": 684,
           "width": 110,
@@ -13301,7 +13301,7 @@
         "descriptionKey": "Loth/Research/LibraryOfAurelia/Wielders/Destruction/Description",
         "icon": {
           "name": "ResearchIconDestruction",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 116,
           "y": 684,
           "width": 110,
@@ -13452,7 +13452,7 @@
         "descriptionKey": "Loth/Research/LibraryOfAurelia/Wielders/Order/Description",
         "icon": {
           "name": "ResearchIconOrder",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 230,
           "y": 684,
           "width": 110,
@@ -13603,7 +13603,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchCultistPlus",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 858,
           "y": 798,
           "width": 110,
@@ -13754,7 +13754,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRatsPlus",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 2,
           "y": 570,
           "width": 110,
@@ -13905,7 +13905,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchToxocologistPlus",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 800,
           "y": 570,
           "width": 110,
@@ -14056,7 +14056,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchScholarPlus",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 230,
           "y": 570,
           "width": 110,
@@ -14207,7 +14207,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchOathboundPlus",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 686,
           "y": 684,
           "width": 110,
@@ -14358,7 +14358,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchBonesPlus",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 516,
           "y": 798,
           "width": 110,
@@ -14509,7 +14509,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSpectrePlus",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 572,
           "y": 570,
           "width": 110,
@@ -14660,7 +14660,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchLegionPlus",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 458,
           "y": 684,
           "width": 110,
@@ -14835,7 +14835,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasOathboundCrypt1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 256,
         "width": 64,
@@ -14863,7 +14863,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasOathboundCrypt2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 256,
         "width": 64,
@@ -14967,7 +14967,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasRefusePile1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 256,
         "width": 64,
@@ -14995,7 +14995,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasRefusePile2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 129,
         "y": 256,
         "width": 64,
@@ -15095,7 +15095,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasRitualCircle1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 384,
         "width": 64,
@@ -15123,7 +15123,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasRitualCircle2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 384,
         "width": 64,
@@ -15229,7 +15229,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasStoneMasons1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 256,
         "width": 64,
@@ -15257,7 +15257,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasStoneMasons2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 256,
         "width": 64,
@@ -15345,7 +15345,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasTheUnseenSociety",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 320,
         "width": 64,
@@ -15378,7 +15378,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "AureliasProtection",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 116,
           "y": 912,
           "width": 110,
@@ -15541,7 +15541,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "AureliasVigor",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 344,
           "y": 912,
           "width": 110,
@@ -15710,7 +15710,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "AureliasRage",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 230,
           "y": 912,
           "width": 110,
@@ -15873,7 +15873,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "AureliasGuidance",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 2,
           "y": 912,
           "width": 110,
@@ -16036,7 +16036,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "NecroticResurgence",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 288,
           "y": 798,
           "width": 110,
@@ -16205,7 +16205,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "FinalMarch",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 800,
           "y": 912,
           "width": 110,
@@ -16386,7 +16386,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ColdFury",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 458,
           "y": 912,
           "width": 110,
@@ -16549,7 +16549,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRats",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 800,
           "y": 684,
           "width": 110,
@@ -16714,7 +16714,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchCultist",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 744,
           "y": 798,
           "width": 110,
@@ -16865,7 +16865,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchToxocologist",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 686,
           "y": 570,
           "width": 110,
@@ -17022,7 +17022,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchScholar",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 116,
           "y": 570,
           "width": 110,
@@ -17173,7 +17173,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchOathbound",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 572,
           "y": 684,
           "width": 110,
@@ -17324,7 +17324,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSpectre",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 458,
           "y": 570,
           "width": 110,
@@ -17475,7 +17475,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchBones",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 402,
           "y": 798,
           "width": 110,
@@ -17640,7 +17640,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchLegion",
-          "spriteSheet": "LothIcons.png",
+          "spriteSheet": "LothIcons.webp",
           "x": 344,
           "y": 684,
           "width": 110,
@@ -17832,7 +17832,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasTradingPost",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 256,
         "width": 64,
@@ -17879,7 +17879,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasWoodCollector1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 320,
         "width": 64,
@@ -17907,7 +17907,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasWoodCollector2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 320,
         "width": 64,
@@ -17995,7 +17995,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasBeastCorral1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 384,
         "width": 64,
@@ -18023,7 +18023,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasBeastCorral2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 384,
         "width": 64,
@@ -18056,7 +18056,7 @@
         "descriptionKey": "Rana/Research/BeastCorral/Tremor/Description",
         "icon": {
           "name": "ResearchTremorSmall",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 344,
           "y": 570,
           "width": 110,
@@ -18189,7 +18189,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasChelunSanctuary1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 448,
         "width": 64,
@@ -18217,7 +18217,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasChelunSanctuary2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 448,
         "width": 64,
@@ -18325,7 +18325,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasMudHuts1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 448,
         "width": 64,
@@ -18353,7 +18353,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasMudHuts2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 448,
         "width": 64,
@@ -18386,7 +18386,7 @@
         "descriptionKey": "Rana/Research/MudHut/Crawler/Description",
         "icon": {
           "name": "ResearchCrawlerSmall",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 116,
           "y": 798,
           "width": 110,
@@ -18523,7 +18523,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasDigger1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 320,
         "width": 64,
@@ -18551,7 +18551,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasDigger2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 320,
         "width": 64,
@@ -18639,7 +18639,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasFetishPiles1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 448,
         "width": 64,
@@ -18667,7 +18667,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasFetishPiles2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 448,
         "width": 64,
@@ -18771,7 +18771,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasGatherers1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 320,
         "width": 64,
@@ -18799,7 +18799,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasGatherers2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 320,
         "width": 64,
@@ -18887,7 +18887,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasFungusFarmer1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 320,
         "width": 64,
@@ -18915,7 +18915,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasFungusFarmer2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 320,
         "width": 64,
@@ -19007,7 +19007,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasLeanTo1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 448,
         "width": 64,
@@ -19035,7 +19035,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasLeanTo2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 448,
         "width": 64,
@@ -19139,7 +19139,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasWatchTower1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 0,
         "y": 256,
         "width": 64,
@@ -19167,7 +19167,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasWatchTower2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 64,
         "y": 256,
         "width": 64,
@@ -19247,7 +19247,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasDragonMonolith",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 256,
         "width": 64,
@@ -19280,7 +19280,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Thick Hide",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 686,
           "y": 570,
           "width": 110,
@@ -19443,7 +19443,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Tough Flesh",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 2,
           "y": 456,
           "width": 110,
@@ -19624,7 +19624,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Quick Feet",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 458,
           "y": 912,
           "width": 110,
@@ -19793,7 +19793,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Sharp Teeth",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 458,
           "y": 570,
           "width": 110,
@@ -19956,7 +19956,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Hungry Beasts",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 230,
           "y": 912,
           "width": 110,
@@ -20125,7 +20125,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Tough Beasts",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 800,
           "y": 570,
           "width": 110,
@@ -20288,7 +20288,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Fierce Beasts",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 2,
           "y": 912,
           "width": 110,
@@ -20451,7 +20451,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHunter",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 2,
           "y": 684,
           "width": 110,
@@ -20602,7 +20602,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchShaman",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 800,
           "y": 684,
           "width": 110,
@@ -20759,7 +20759,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchGuard",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 686,
           "y": 798,
           "width": 110,
@@ -20924,7 +20924,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchChelun",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 572,
           "y": 912,
           "width": 110,
@@ -21075,7 +21075,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchEthdra",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 458,
           "y": 798,
           "width": 110,
@@ -21232,7 +21232,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchDragon",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 230,
           "y": 798,
           "width": 110,
@@ -21383,7 +21383,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchCrawler",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 800,
           "y": 912,
           "width": 110,
@@ -21534,7 +21534,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRavager",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 572,
           "y": 684,
           "width": 110,
@@ -21685,7 +21685,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchTremor",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 116,
           "y": 570,
           "width": 110,
@@ -21877,7 +21877,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasSmolderingCave1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 128,
         "y": 384,
         "width": 64,
@@ -21905,7 +21905,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasSmolderingCave2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 192,
         "y": 384,
         "width": 64,
@@ -21933,7 +21933,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasSmolderingCave3",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 192,
         "width": 64,
@@ -22072,7 +22072,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasTheExchange",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 384,
         "y": 320,
         "width": 64,
@@ -22119,7 +22119,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasBirthingPools",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 256,
         "y": 384,
         "width": 64,
@@ -22152,7 +22152,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Harvest the Glimmerweave",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 116,
           "y": 912,
           "width": 110,
@@ -22270,7 +22270,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Hunters and Gatherers",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 344,
           "y": 912,
           "width": 110,
@@ -22412,7 +22412,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Swift Builders",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 572,
           "y": 570,
           "width": 110,
@@ -22493,7 +22493,7 @@
         "descriptionKey": "Rana/Research/BirthingPools/Wielders/Arcana/Description",
         "icon": {
           "name": "ResearchIconArcana",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 230,
           "y": 684,
           "width": 110,
@@ -22644,7 +22644,7 @@
         "descriptionKey": "Rana/Research/BirthingPools/Wielders/Creation/Description",
         "icon": {
           "name": "ResearchIconCreation",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 344,
           "y": 684,
           "width": 110,
@@ -22795,7 +22795,7 @@
         "descriptionKey": "Rana/Research/BirthingPools/Wielders/Destruction/Description",
         "icon": {
           "name": "ResearchIconDestruction",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 458,
           "y": 684,
           "width": 110,
@@ -22946,7 +22946,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchChelunPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 686,
           "y": 912,
           "width": 110,
@@ -23097,7 +23097,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchEthdraPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 572,
           "y": 798,
           "width": 110,
@@ -23248,7 +23248,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchGuardPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 800,
           "y": 798,
           "width": 110,
@@ -23399,7 +23399,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHunterPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 116,
           "y": 684,
           "width": 110,
@@ -23550,7 +23550,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchShamanPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 2,
           "y": 570,
           "width": 110,
@@ -23701,7 +23701,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchDragonPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 344,
           "y": 798,
           "width": 110,
@@ -23852,7 +23852,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchCrawlerPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 2,
           "y": 798,
           "width": 110,
@@ -24003,7 +24003,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRavagerPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 686,
           "y": 684,
           "width": 110,
@@ -24154,7 +24154,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchTremorPlus",
-          "spriteSheet": "RanaIcons.png",
+          "spriteSheet": "RanaIcons.webp",
           "x": 230,
           "y": 570,
           "width": 110,
@@ -24329,7 +24329,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasRallyPoint",
-        "spriteSheet": "LothBuildingPortraitsAtlas.png",
+        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
         "x": 320,
         "y": 256,
         "width": 64,
@@ -24392,7 +24392,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasSpawningPool",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
         "x": 448,
         "y": 320,
         "width": 64,
