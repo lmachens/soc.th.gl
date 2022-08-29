@@ -5,7 +5,7 @@
       "languageKey": "Wolf",
       "sprite": {
         "name": "NeutralWolfDefault1Idle1",
-        "spriteSheet": "NeutralWolfAtlas.png",
+        "spriteSheet": "NeutralWolfAtlas.webp",
         "x": 327,
         "y": 42,
         "width": 67,
@@ -202,7 +202,7 @@
       "languageKey": "Bandit",
       "sprite": {
         "name": "NeutralBanditLeftAxe1Idle1",
-        "spriteSheet": "NeutralBanditAtlas.png",
+        "spriteSheet": "NeutralBanditAtlas.webp",
         "x": 145,
         "y": 134,
         "width": 1,
@@ -297,7 +297,7 @@
       "languageKey": "Militia",
       "sprite": {
         "name": "ArleonMilitiaDefault1idle1",
-        "spriteSheet": "ArleonMilitiaAtlas.png",
+        "spriteSheet": "ArleonMilitiaAtlas.webp",
         "x": 380,
         "y": 328,
         "width": 39.941795,
@@ -454,7 +454,7 @@
       "languageKey": "Sapper",
       "sprite": {
         "name": "ArleonMilitiaUpgrade1idle1",
-        "spriteSheet": "ArleonMilitiaAtlas.png",
+        "spriteSheet": "ArleonMilitiaAtlas.webp",
         "x": 59,
         "y": 218,
         "width": 43.923878,
@@ -605,7 +605,7 @@
         "type": "Palisades",
         "icon": {
           "name": "AbilityIconPalisades",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 864,
           "y": 476,
           "width": 52,
@@ -654,7 +654,7 @@
       "languageKey": "Ranger",
       "sprite": {
         "name": "ArleonRangerDefault1Idle1",
-        "spriteSheet": "ArleonRangerAtlas.png",
+        "spriteSheet": "ArleonRangerAtlas.webp",
         "x": 147.01291,
         "y": 301.0761,
         "width": 60.974174,
@@ -824,7 +824,7 @@
       "languageKey": "Archer",
       "sprite": {
         "name": "ArleonRangerUpgrade1Idle1",
-        "spriteSheet": "ArleonRangerAtlas.png",
+        "spriteSheet": "ArleonRangerAtlas.webp",
         "x": 131.01291,
         "y": 161.07613,
         "width": 60.974174,
@@ -991,7 +991,7 @@
         "type": "Overwatch",
         "icon": {
           "name": "AbilityIconOverwatch",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 922,
           "y": 861,
           "width": 52,
@@ -1029,7 +1029,7 @@
       "languageKey": "Minstrel",
       "sprite": {
         "name": "ArleonMinstrelDefault1Idle1",
-        "spriteSheet": "ArleonMinstrelAtlas.png",
+        "spriteSheet": "ArleonMinstrelAtlas.webp",
         "x": 138,
         "y": 248.07613,
         "width": 39,
@@ -1197,7 +1197,7 @@
         "type": "FearNoFoe",
         "icon": {
           "name": "AbilityIconSing",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 392,
           "width": 52,
@@ -1265,7 +1265,7 @@
       "languageKey": "Troubadour",
       "sprite": {
         "name": "ArleonMinstrelUpgrade1Idle1",
-        "spriteSheet": "ArleonMinstrelAtlas.png",
+        "spriteSheet": "ArleonMinstrelAtlas.webp",
         "x": 2.0761204,
         "y": 390.0761,
         "width": 41.923878,
@@ -1429,7 +1429,7 @@
         "type": "StoutheartShallStand",
         "icon": {
           "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 881,
           "y": 697,
           "width": 52,
@@ -1501,7 +1501,7 @@
       "languageKey": "Footman",
       "sprite": {
         "name": "ArleonFootmanDefault1Idle1",
-        "spriteSheet": "ArleonFootmanAtlas.png",
+        "spriteSheet": "ArleonFootmanAtlas.webp",
         "x": 227,
         "y": 130,
         "width": 41.923878,
@@ -1687,7 +1687,7 @@
       "languageKey": "ShieldOfOrder",
       "sprite": {
         "name": "ArleonFootmanUpgrade1Idle1",
-        "spriteSheet": "ArleonFootmanAtlas.png",
+        "spriteSheet": "ArleonFootmanAtlas.webp",
         "x": 421,
         "y": 441,
         "width": 42.923878,
@@ -1830,7 +1830,7 @@
         "type": "Protect",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 970,
           "y": 445,
           "width": 52,
@@ -1949,7 +1949,7 @@
       "languageKey": "Knight",
       "sprite": {
         "name": "ArleonKnightDefault1Idle1",
-        "spriteSheet": "ArleonKnightAtlas.png",
+        "spriteSheet": "ArleonKnightAtlas.webp",
         "x": 458,
         "y": 663,
         "width": 83,
@@ -2270,7 +2270,7 @@
       "languageKey": "FistOfOrder",
       "sprite": {
         "name": "ArleonKnightUpgrade1Idle1",
-        "spriteSheet": "ArleonKnightAtlas.png",
+        "spriteSheet": "ArleonKnightAtlas.webp",
         "x": 148,
         "y": 273,
         "width": 85,
@@ -2525,7 +2525,7 @@
         "type": "Inspire",
         "icon": {
           "name": "AbilityIconInspire",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 885,
           "y": 779,
           "width": 52,
@@ -2689,7 +2689,7 @@
       "languageKey": "HornedOne",
       "sprite": {
         "name": "ArleonHornedOneDefault1Idle1",
-        "spriteSheet": "ArleonHornedOneAtlas.png",
+        "spriteSheet": "ArleonHornedOneAtlas.webp",
         "x": 293,
         "y": 359,
         "width": 65,
@@ -2898,7 +2898,7 @@
       "languageKey": "QueensGuard",
       "sprite": {
         "name": "ArleonQueensGuardDefault1Idle1",
-        "spriteSheet": "ArleonQueensGuardAtlas.png",
+        "spriteSheet": "ArleonQueensGuardAtlas.webp",
         "x": 142,
         "y": 193,
         "width": 69,
@@ -3105,7 +3105,7 @@
         "type": "Defend",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 970,
           "y": 445,
           "width": 52,
@@ -3188,7 +3188,7 @@
       "languageKey": "FaeySpirit",
       "sprite": {
         "name": "ArleonFaeySpiritDefault1Idle1",
-        "spriteSheet": "ArleonFaeySpiritAtlas.png",
+        "spriteSheet": "ArleonFaeySpiritAtlas.webp",
         "x": 189,
         "y": 97,
         "width": 65,
@@ -3410,7 +3410,7 @@
       "languageKey": "FaeyRager",
       "sprite": {
         "name": "ArleonFaeyRagerDefault1Idle1",
-        "spriteSheet": "ArleonFaeyRagerAtlas.png",
+        "spriteSheet": "ArleonFaeyRagerAtlas.webp",
         "x": 164,
         "y": 168,
         "width": 65,
@@ -3645,7 +3645,7 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 339,
           "width": 52,
@@ -3711,7 +3711,7 @@
       "languageKey": "FaeyNoble",
       "sprite": {
         "name": "ArleonFaeyNobleDefault1Idle1",
-        "spriteSheet": "ArleonFaeyNobleAtlas.png",
+        "spriteSheet": "ArleonFaeyNobleAtlas.webp",
         "x": 337,
         "y": 272,
         "width": 79,
@@ -4012,7 +4012,7 @@
       "languageKey": "FaeyQueen",
       "sprite": {
         "name": "ArleonFaeyQueenDefault1Idle1",
-        "spriteSheet": "ArleonFaeyQueenAtlas.png",
+        "spriteSheet": "ArleonFaeyQueenAtlas.webp",
         "x": 188,
         "y": 402,
         "width": 90,
@@ -4275,7 +4275,7 @@
         "type": "FaeyFire",
         "icon": {
           "name": "AbilityIconFaeyFire",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 916,
           "y": 914,
           "width": 52,
@@ -4383,7 +4383,7 @@
       "languageKey": "Ballista",
       "sprite": {
         "name": "ArleonBalistaDefault1Idle1",
-        "spriteSheet": "ArleonBallistaAtlas.png",
+        "spriteSheet": "ArleonBallistaAtlas.webp",
         "x": 128,
         "y": 230,
         "width": 72,
@@ -4584,7 +4584,7 @@
       "languageKey": "Rats",
       "sprite": {
         "name": "LothRatsRat11Idle1",
-        "spriteSheet": "LothRatsAtlas.png",
+        "spriteSheet": "LothRatsAtlas.webp",
         "x": 191,
         "y": 0,
         "width": 37,
@@ -4735,7 +4735,7 @@
       "languageKey": "PlagueRats",
       "sprite": {
         "name": "LothPlagueRatsRat11Idle1",
-        "spriteSheet": "LothPlagueRatsAtlas.png",
+        "spriteSheet": "LothPlagueRatsAtlas.webp",
         "x": 0,
         "y": 13,
         "width": 37,
@@ -4900,7 +4900,7 @@
       "languageKey": "Oathbound",
       "sprite": {
         "name": "LothOathboundDefault1Idle1",
-        "spriteSheet": "LothOathboundAtlas.png",
+        "spriteSheet": "LothOathboundAtlas.webp",
         "x": 397,
         "y": 82,
         "width": 51,
@@ -5098,7 +5098,7 @@
       "languageKey": "OathboundLegionaire",
       "sprite": {
         "name": "LothOathboundLegionaireDefault1Idle1",
-        "spriteSheet": "LothOathboundLegionaireAtlas.png",
+        "spriteSheet": "LothOathboundLegionaireAtlas.webp",
         "x": 447,
         "y": 152,
         "width": 56,
@@ -5301,7 +5301,7 @@
         "type": "Defend",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 970,
           "y": 445,
           "width": 52,
@@ -5401,7 +5401,7 @@
       "languageKey": "Cultist",
       "sprite": {
         "name": "LothCultistDefault1Idle1",
-        "spriteSheet": "LothCultistAtlas.png",
+        "spriteSheet": "LothCultistAtlas.webp",
         "x": 417,
         "y": 88,
         "width": 33,
@@ -5521,7 +5521,7 @@
         "type": "HerAimWasTrue",
         "icon": {
           "name": "AbilityIconSing",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 392,
           "width": 52,
@@ -5589,7 +5589,7 @@
       "languageKey": "Zealot",
       "sprite": {
         "name": "LothZealotDefault1Idle1",
-        "spriteSheet": "LothZealotAtlas.png",
+        "spriteSheet": "LothZealotAtlas.webp",
         "x": 56,
         "y": 125,
         "width": 38,
@@ -5709,7 +5709,7 @@
         "type": "AureliaEternal",
         "icon": {
           "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 881,
           "y": 697,
           "width": 52,
@@ -5787,7 +5787,7 @@
       "languageKey": "Embalmer",
       "sprite": {
         "name": "LothEmbalmerDefault1Idle1",
-        "spriteSheet": "LothEmbalmerAtlas.png",
+        "spriteSheet": "LothEmbalmerAtlas.webp",
         "x": 109,
         "y": 113,
         "width": 40,
@@ -5952,7 +5952,7 @@
       "languageKey": "Doctor",
       "sprite": {
         "name": "LothDoctorDefault1Idle1",
-        "spriteSheet": "LothDoctorAtlas.png",
+        "spriteSheet": "LothDoctorAtlas.webp",
         "x": 68,
         "y": 39.076122,
         "width": 38,
@@ -6095,7 +6095,7 @@
         "type": "Aim",
         "icon": {
           "name": "AbilityIconAim",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 856,
           "y": 625,
           "width": 52,
@@ -6178,7 +6178,7 @@
       "languageKey": "Necromancer",
       "sprite": {
         "name": "LothScholarDefault1Idle1",
-        "spriteSheet": "LothScholarAtlas.png",
+        "spriteSheet": "LothScholarAtlas.webp",
         "x": 377,
         "y": 121,
         "width": 57,
@@ -6336,7 +6336,7 @@
       "languageKey": "Oathsinger",
       "sprite": {
         "name": "LothNecromancerDefault1Idle1",
-        "spriteSheet": "LothNecromancerAtlas.png",
+        "spriteSheet": "LothNecromancerAtlas.webp",
         "x": 127,
         "y": 184,
         "width": 59,
@@ -6525,7 +6525,7 @@
         "type": "ChargeEssence",
         "icon": {
           "name": "AbilityIconChargeEssence",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 807,
           "y": 473,
           "width": 56,
@@ -6634,7 +6634,7 @@
       "languageKey": "SanctifiedBones",
       "sprite": {
         "name": "LothSanctifiedBonesDefault1Idle1",
-        "spriteSheet": "LothSanctifiedBonesAtlas.png",
+        "spriteSheet": "LothSanctifiedBonesAtlas.webp",
         "x": 194,
         "y": 261,
         "width": 86,
@@ -6969,7 +6969,7 @@
       "languageKey": "BlessedBones",
       "sprite": {
         "name": "LothBlessedBonesDefault1Idle1",
-        "spriteSheet": "LothBlessedBonesAtlas.png",
+        "spriteSheet": "LothBlessedBonesAtlas.webp",
         "x": 356,
         "y": 406,
         "width": 93,
@@ -7268,7 +7268,7 @@
         "type": "SacrificeBones",
         "icon": {
           "name": "AbilityIconSacrificeBones",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 894,
           "y": 423,
           "width": 52,
@@ -7382,7 +7382,7 @@
       "languageKey": "AurelianCleric",
       "sprite": {
         "name": "LothAurelianClericDefault1Idle1",
-        "spriteSheet": "LothAurelianClericAtlas.png",
+        "spriteSheet": "LothAurelianClericAtlas.webp",
         "x": 245,
         "y": 233,
         "width": 55,
@@ -7570,7 +7570,7 @@
       "languageKey": "AurelianHighCleric",
       "sprite": {
         "name": "LothAurelianHighClericDefault1Idle1",
-        "spriteSheet": "LothAurelianHighClericAtlas.png",
+        "spriteSheet": "LothAurelianHighClericAtlas.webp",
         "x": 77,
         "y": 166.01291,
         "width": 55,
@@ -7745,7 +7745,7 @@
         "type": "Inspire",
         "icon": {
           "name": "AbilityIconInspire",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 885,
           "y": 779,
           "width": 52,
@@ -7870,7 +7870,7 @@
       "languageKey": "Legion",
       "sprite": {
         "name": "LothLegionDefault1Idle1",
-        "spriteSheet": "LothLegionAtlas.png",
+        "spriteSheet": "LothLegionAtlas.webp",
         "x": 448,
         "y": 358,
         "width": 83,
@@ -8391,7 +8391,7 @@
       "languageKey": "HighLegion",
       "sprite": {
         "name": "LothHighLegionDefault1Idle1",
-        "spriteSheet": "LothHighLegionAtlas.png",
+        "spriteSheet": "LothHighLegionAtlas.webp",
         "x": 679,
         "y": 471,
         "width": 112,
@@ -8866,7 +8866,7 @@
         "type": "Protect",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 970,
           "y": 445,
           "width": 52,
@@ -9047,7 +9047,7 @@
       "languageKey": "Zombie",
       "sprite": {
         "name": "LothZombieDefault1Idle1",
-        "spriteSheet": "LothZombieAtlas.png",
+        "spriteSheet": "LothZombieAtlas.webp",
         "x": 115,
         "y": 84,
         "width": 49,
@@ -9198,7 +9198,7 @@
       "languageKey": "Ballista",
       "sprite": {
         "name": "ArleonBalistaDefault1Idle1",
-        "spriteSheet": "ArleonBallistaAtlas.png",
+        "spriteSheet": "ArleonBallistaAtlas.webp",
         "x": 128,
         "y": 230,
         "width": 72,
@@ -9399,7 +9399,7 @@
       "languageKey": "Piper",
       "sprite": {
         "name": "BaryaPiperDefault1Idle1",
-        "spriteSheet": "BaryaPiperAtlas.png",
+        "spriteSheet": "BaryaPiperAtlas.webp",
         "x": 229,
         "y": 14,
         "width": 33,
@@ -9515,7 +9515,7 @@
         "type": "JigOfJugs",
         "icon": {
           "name": "AbilityIconSing",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 392,
           "width": 52,
@@ -9589,7 +9589,7 @@
       "languageKey": "SteamPiper",
       "sprite": {
         "name": "BaryaSteampiperDefault1Idle1",
-        "spriteSheet": "BaryaSteampiperAtlas.png",
+        "spriteSheet": "BaryaSteampiperAtlas.webp",
         "x": 167,
         "y": 69,
         "width": 35,
@@ -9713,7 +9713,7 @@
         "type": "TheCoinInMyHand",
         "icon": {
           "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 881,
           "y": 697,
           "width": 52,
@@ -9785,7 +9785,7 @@
       "languageKey": "Pikeneer",
       "sprite": {
         "name": "BaryaPikeneerDefault1Idle1",
-        "spriteSheet": "BaryaPikeneerAtlas.png",
+        "spriteSheet": "BaryaPikeneerAtlas.webp",
         "x": 429,
         "y": 74,
         "width": 75,
@@ -9987,7 +9987,7 @@
       "languageKey": "PikeneerVeteran",
       "sprite": {
         "name": "BaryaPikeneerVeteranDefault1Idle1",
-        "spriteSheet": "BaryaPikeneerVeteranAtlas.png",
+        "spriteSheet": "BaryaPikeneerVeteranAtlas.webp",
         "x": 69,
         "y": 64,
         "width": 78,
@@ -10182,7 +10182,7 @@
         "type": "Spearwall",
         "icon": {
           "name": "AbilityIconSpearwall",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 969,
           "y": 914,
           "width": 52,
@@ -10248,7 +10248,7 @@
       "languageKey": "Musketeer",
       "sprite": {
         "name": "BaryaMusketeerDefault1Idle1",
-        "spriteSheet": "BaryaMusketeerAtlas.png",
+        "spriteSheet": "BaryaMusketeerAtlas.webp",
         "x": 90,
         "y": 244,
         "width": 51,
@@ -10413,7 +10413,7 @@
       "languageKey": "MusketeerVeteran",
       "sprite": {
         "name": "BaryaMusketeerVeteranDefault1Idle1",
-        "spriteSheet": "BaryaMusketeerVeteranAtlas.png",
+        "spriteSheet": "BaryaMusketeerVeteranAtlas.webp",
         "x": 237,
         "y": 219,
         "width": 56,
@@ -10588,7 +10588,7 @@
         "type": "Aim",
         "icon": {
           "name": "AbilityIconAim",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 856,
           "y": 625,
           "width": 52,
@@ -10671,7 +10671,7 @@
       "languageKey": "Dreath",
       "sprite": {
         "name": "BaryaDreathDefault1Idle1",
-        "spriteSheet": "BaryaDreathAtlas.png",
+        "spriteSheet": "BaryaDreathAtlas.webp",
         "x": 373,
         "y": 81,
         "width": 51,
@@ -10922,7 +10922,7 @@
       "languageKey": "DireDreath",
       "sprite": {
         "name": "BaryaDireDreathDefault1Idle1",
-        "spriteSheet": "BaryaDireDreathAtlas.png",
+        "spriteSheet": "BaryaDireDreathAtlas.webp",
         "x": 266,
         "y": 85,
         "width": 59,
@@ -11179,7 +11179,7 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 339,
           "width": 52,
@@ -11255,7 +11255,7 @@
       "languageKey": "Brute",
       "sprite": {
         "name": "BaryaBruteDefault1Idle1",
-        "spriteSheet": "BaryaBruteAtlas.png",
+        "spriteSheet": "BaryaBruteAtlas.webp",
         "x": 361,
         "y": 54,
         "width": 77,
@@ -11501,7 +11501,7 @@
       "languageKey": "ScarredBrute",
       "sprite": {
         "name": "BaryaScarredBruteDefault1Idle1",
-        "spriteSheet": "BaryaScarredBruteAtlas.png",
+        "spriteSheet": "BaryaScarredBruteAtlas.webp",
         "x": 244,
         "y": 178,
         "width": 83,
@@ -11801,7 +11801,7 @@
       "languageKey": "Tinkerer",
       "sprite": {
         "name": "BaryaTinkererDefault1Idle1",
-        "spriteSheet": "BaryaTinkererAtlas.png",
+        "spriteSheet": "BaryaTinkererAtlas.webp",
         "x": 338,
         "y": 89,
         "width": 47,
@@ -11972,7 +11972,7 @@
         "type": "Palisades",
         "icon": {
           "name": "AbilityIconPalisades",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 864,
           "y": 476,
           "width": 52,
@@ -12006,7 +12006,7 @@
       "languageKey": "Artificer",
       "sprite": {
         "name": "BaryaArtificerDefault1Idle1",
-        "spriteSheet": "BaryaArtificerAtlas.png",
+        "spriteSheet": "BaryaArtificerAtlas.webp",
         "x": 458,
         "y": 186,
         "width": 47.923878,
@@ -12163,7 +12163,7 @@
         "type": "PlaceMine",
         "icon": {
           "name": "AbilityIconPlaceMine",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 917,
           "y": 476,
           "width": 52,
@@ -12212,7 +12212,7 @@
       "languageKey": "Sassanid",
       "sprite": {
         "name": "BaryaSassanidDefault1Idle1",
-        "spriteSheet": "BaryaSassanidAtlas.png",
+        "spriteSheet": "BaryaSassanidAtlas.webp",
         "x": 321,
         "y": 109,
         "width": 57,
@@ -12378,7 +12378,7 @@
       "languageKey": "SassanidVeteran",
       "sprite": {
         "name": "BaryaSassanidVeteranDefault1Idle1",
-        "spriteSheet": "BaryaSassanidVeteranAtlas.png",
+        "spriteSheet": "BaryaSassanidVeteranAtlas.webp",
         "x": 290,
         "y": 86,
         "width": 55,
@@ -12541,7 +12541,7 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 339,
           "width": 52,
@@ -12618,7 +12618,7 @@
       "languageKey": "Hellbreath",
       "sprite": {
         "name": "BaryaHellbreathDefault1Idle1",
-        "spriteSheet": "BaryaHellbreathAtlas.png",
+        "spriteSheet": "BaryaHellbreathAtlas.webp",
         "x": 916,
         "y": 145,
         "width": 99.92388,
@@ -12852,7 +12852,7 @@
       "languageKey": "Hellroar",
       "sprite": {
         "name": "BaryaHellroarDefault1Idle1",
-        "spriteSheet": "BaryaHellroarAtlas.png",
+        "spriteSheet": "BaryaHellroarAtlas.webp",
         "x": 62,
         "y": 172,
         "width": 107,
@@ -13067,7 +13067,7 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 339,
           "width": 52,
@@ -13195,7 +13195,7 @@
       "languageKey": "Ballista",
       "sprite": {
         "name": "ArleonBalistaDefault1Idle1",
-        "spriteSheet": "ArleonBallistaAtlas.png",
+        "spriteSheet": "ArleonBallistaAtlas.webp",
         "x": 128,
         "y": 230,
         "width": 72,
@@ -13396,7 +13396,7 @@
       "languageKey": "Hunter",
       "sprite": {
         "name": "RanaHunterDefault1Idle1",
-        "spriteSheet": "RanaHunterAtlas.png",
+        "spriteSheet": "RanaHunterAtlas.webp",
         "x": 118,
         "y": 88,
         "width": 70,
@@ -13550,7 +13550,7 @@
       "languageKey": "StormGuard",
       "sprite": {
         "name": "RanaStormGuardDefault1Idle1",
-        "spriteSheet": "RanaStormGuardAtlas.png",
+        "spriteSheet": "RanaStormGuardAtlas.webp",
         "x": 365,
         "y": 104,
         "width": 75,
@@ -13709,7 +13709,7 @@
         "type": "Defend",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 970,
           "y": 445,
           "width": 52,
@@ -13809,7 +13809,7 @@
       "languageKey": "Shaman",
       "sprite": {
         "name": "RanaShamanDefault1Idle1",
-        "spriteSheet": "RanaShamanAtlas.png",
+        "spriteSheet": "RanaShamanAtlas.webp",
         "x": 134,
         "y": 93,
         "width": 58,
@@ -14066,7 +14066,7 @@
       "languageKey": "Sage",
       "sprite": {
         "name": "RanaSageDefault1Idle1",
-        "spriteSheet": "RanaSageAtlas.png",
+        "spriteSheet": "RanaSageAtlas.webp",
         "x": 0.076120496,
         "y": 138,
         "width": 62.923878,
@@ -14409,7 +14409,7 @@
       "languageKey": "Guard",
       "sprite": {
         "name": "RanaGuardDefault1Idle1",
-        "spriteSheet": "RanaGuardAtlas.png",
+        "spriteSheet": "RanaGuardAtlas.webp",
         "x": 118,
         "y": 42,
         "width": 53,
@@ -14618,7 +14618,7 @@
       "languageKey": "Protector",
       "sprite": {
         "name": "RanaProtectorDefault1Idle1",
-        "spriteSheet": "RanaProtectorAtlas.png",
+        "spriteSheet": "RanaProtectorAtlas.webp",
         "x": 407,
         "y": 115,
         "width": 53,
@@ -14781,7 +14781,7 @@
         "type": "Protect",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 970,
           "y": 445,
           "width": 52,
@@ -14919,7 +14919,7 @@
       "languageKey": "Ravager",
       "sprite": {
         "name": "RanaRavagerDefault1Idle1",
-        "spriteSheet": "RanaRavagerAtlas.png",
+        "spriteSheet": "RanaRavagerAtlas.webp",
         "x": 330,
         "y": 314,
         "width": 94,
@@ -15191,7 +15191,7 @@
       "languageKey": "RiderOfTheSwamp",
       "sprite": {
         "name": "RanaRiderOfTheSwampDefault1Idle1",
-        "spriteSheet": "RanaRiderOfTheSwampAtlas.png",
+        "spriteSheet": "RanaRiderOfTheSwampAtlas.webp",
         "x": 107,
         "y": 378,
         "width": 94,
@@ -15453,7 +15453,7 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 339,
           "width": 52,
@@ -15531,7 +15531,7 @@
       "languageKey": "Crawler",
       "sprite": {
         "name": "RanaCrawlerDefault1Idle1",
-        "spriteSheet": "RanaCrawlerAtlas.png",
+        "spriteSheet": "RanaCrawlerAtlas.webp",
         "x": 416,
         "y": 18,
         "width": 51,
@@ -15757,7 +15757,7 @@
       "languageKey": "AdultCrawler",
       "sprite": {
         "name": "RanaAdultCrawlerDefault1Idle1",
-        "spriteSheet": "RanaAdultCrawlerAtlas.png",
+        "spriteSheet": "RanaAdultCrawlerAtlas.webp",
         "x": 354,
         "y": 118,
         "width": 66,
@@ -15964,7 +15964,7 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 339,
           "width": 52,
@@ -16082,7 +16082,7 @@
       "languageKey": "Tremor",
       "sprite": {
         "name": "RanaTremorDefault1Idle1",
-        "spriteSheet": "RanaTremorAtlas.png",
+        "spriteSheet": "RanaTremorAtlas.webp",
         "x": 271.0429,
         "y": 98,
         "width": 88.95709,
@@ -16337,7 +16337,7 @@
         "type": "TheDragonsRoar",
         "icon": {
           "name": "AbilityIconSing",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 392,
           "width": 52,
@@ -16463,7 +16463,7 @@
       "languageKey": "Chelun",
       "sprite": {
         "name": "RanaChelunDefault1Idle1",
-        "spriteSheet": "RanaChelunAtlas.png",
+        "spriteSheet": "RanaChelunAtlas.webp",
         "x": 423,
         "y": 250,
         "width": 87,
@@ -16701,7 +16701,7 @@
       "languageKey": "ChelunElder",
       "sprite": {
         "name": "RanaChelunElderDefault1Idle1",
-        "spriteSheet": "RanaChelunElderAtlas.png",
+        "spriteSheet": "RanaChelunElderAtlas.webp",
         "x": 351,
         "y": 256,
         "width": 96,
@@ -16932,7 +16932,7 @@
         "type": "ChargeEssence",
         "icon": {
           "name": "AbilityIconChargeEssence",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 807,
           "y": 473,
           "width": 56,
@@ -17057,7 +17057,7 @@
       "languageKey": "Dragonling",
       "sprite": {
         "name": "RanaDragonlingDefault1Idle1",
-        "spriteSheet": "RanaDragonlingAtlas.png",
+        "spriteSheet": "RanaDragonlingAtlas.webp",
         "x": 120,
         "y": 324,
         "width": 72,
@@ -17272,7 +17272,7 @@
         "type": "Overwatch",
         "icon": {
           "name": "AbilityIconOverwatch",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 922,
           "y": 861,
           "width": 52,
@@ -17306,7 +17306,7 @@
       "languageKey": "Dragon",
       "sprite": {
         "name": "RanaDragonDefault1Idle1",
-        "spriteSheet": "RanaDragonAtlas.png",
+        "spriteSheet": "RanaDragonAtlas.webp",
         "x": 0.076120496,
         "y": 200.07613,
         "width": 90.92388,
@@ -17497,7 +17497,7 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 339,
           "width": 52,
@@ -17679,7 +17679,7 @@
       "languageKey": "ElderDragon",
       "sprite": {
         "name": "RanaElderDragonDefault1Idle1",
-        "spriteSheet": "RanaElderDragonAtlas.png",
+        "spriteSheet": "RanaElderDragonAtlas.webp",
         "x": 708,
         "y": 173.07613,
         "width": 91,
@@ -17870,7 +17870,7 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
+          "spriteSheet": "Icons.webp",
           "x": 947,
           "y": 339,
           "width": 52,
@@ -18055,7 +18055,7 @@
       "languageKey": "Ballista",
       "sprite": {
         "name": "ArleonBalistaDefault1Idle1",
-        "spriteSheet": "ArleonBallistaAtlas.png",
+        "spriteSheet": "ArleonBallistaAtlas.webp",
         "x": 128,
         "y": 230,
         "width": 72,

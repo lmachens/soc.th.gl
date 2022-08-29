@@ -16,7 +16,7 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
     <>
       <Stack>
         <Title order={4}>{unitType.name}</Title>
-        <SpriteSheet spriteSheet={unitType.sprite} />
+        <SpriteSheet spriteSheet={unitType.sprite} folder="units" />
         <Lore text={unitType.description} />
       </Stack>
       <Table>

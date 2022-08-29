@@ -48,7 +48,7 @@ const promises = manifests.map(async (manifest) => {
 await Promise.all(promises);
 
 const iconsMeta = await readYAMLFile(
-  `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons.png.meta`
+  `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons.webp.meta`
 );
 const icons = [];
 for (const idToName of iconsMeta.textureImporter.internalIdToNameTable) {

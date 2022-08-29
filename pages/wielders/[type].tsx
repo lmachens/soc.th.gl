@@ -59,7 +59,7 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
                   justifyItems: "center",
                 }}
               >
-                <SpriteSheet spriteSheet={unit.sprite} />
+                <SpriteSheet spriteSheet={unit.sprite} folder="units" />
                 <Text>
                   <Text
                     sx={(theme) => ({

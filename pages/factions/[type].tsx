@@ -89,7 +89,9 @@ const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
           {faction.units.map((unit) => (
             <Article
               key={unit.vanilla.languageKey}
-              image={<SpriteSheet spriteSheet={unit.vanilla.sprite} />}
+              image={
+                <SpriteSheet spriteSheet={unit.vanilla.sprite} folder="units" />
+              }
               name={unit.vanilla.name}
               description={unit.vanilla.description}
               href={`/units/${faction.type}/${unit.vanilla.languageKey}`}
