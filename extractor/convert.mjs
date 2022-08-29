@@ -1,3 +1,4 @@
+import { readCSTypes } from "./lib/files.mjs";
 import { copyImageFile, readJSONFile, writeJSONFile } from "./lib/out.mjs";
 
 const bacteriasSrc = await readJSONFile("./out/bacteria.json");
@@ -22,94 +23,33 @@ const adventureMapEntitySrc = await readJSONFile(
 
 await writeJSONFile(termMapSrc, "../../lib/collections/termMap");
 
-const RESOURCE_TYPES = [
-  "Gold",
-  "Wood",
-  "Stone",
-  "AncientAmber",
-  "Glimmerweave",
-  "CelestialOre",
-];
-const UPGRADED_TYPES = ["vanilla", "upgraded", "superUpgraded"];
-const ESSENCE_TYPES = [
-  null,
-  "Order",
-  "Creation",
-  "Chaos",
-  "Arcana",
-  "Destruction",
-];
-const SPELL_TARGET_TYPES = [
-  "Empty",
-  "Friendly",
-  "Enemy",
-  "AllFriendlies",
-  "AllEnemies",
-  "RangedFriendly",
-  "RangedEnemy",
-  "AllRangedFriendlies",
-  "AllRangedEnemies",
-  "AllWithBacteriaType",
-  "FriendlyCommander",
-  "EnemyCommander",
-  "Tiles",
-  "AllTroops",
-  "TilesInCircle",
-  "Troop",
-];
-const SPELL_EFFECT_TYPES = ["AddBacteria", "Teleport", "Summon"];
+const resourceTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Economy/ResourceType.cs"
+);
+const UNIT_TYPES = ["vanilla", "upgraded", "superUpgraded"];
 
-const SPELL_TELEPORT_DESTINATIONS = ["Tile", "Troop", "RandomNeighbour"];
-
-const BACTERIA_DURATION_TYPES = [
-  "BattleStackRound",
-  "BattleRound",
-  "EntireBattle",
-  "Permanent",
-  "Once",
-  "AdventureRound",
-  "AdventureChapter",
-  "AdventureTeamRound",
-  "AdventureNumberOfBattles",
-  "CurrentBattleStackTurn",
-  "OwnerAttacks",
-  "OwnerWasAttacked",
-  "OwnerWasDamaged",
-  "BattleStackRoundWithTail",
-];
-const SPELL_DURATION_TYPES = [
-  "BattleStackRound",
-  "BattleRound",
-  "EntireBattle",
-  "Permanent",
-  "Once",
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  null,
-  "OwnerAttacks",
-  "OwnerWasAttacked",
-  "OwnerWasDamaged",
-  "BattleStackRoundWithTail",
-];
-const GENERIC_BACTERIA_CUSTOM_EFFECT = [
-  "None",
-  "Damage",
-  "KillAmount",
-  "Refresh",
-  "Weary",
-  "InvulnerableRestriction",
-  "TargetAdjacent",
-  null,
-  "ChainFromTarget",
-  "Push",
-  "Aura",
-  "GenerateEssence",
-];
+const essenceTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Gamestate/EssenceType.cs"
+);
+const spellTargetTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellTargetType.cs"
+);
+const spellEffectTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellEffectType.cs"
+);
+const spellTeleportDestinationsTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellTeleportDestination.cs"
+);
+const bacteriaDurationTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Bacterias/BacteriaDurationType.cs"
+);
+const spellDurationTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellDurationType.cs"
+);
+const genericBacteriaCustomEffectTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Server/Bacterias/GenericBacteriaCustomEffect.cs"
+);
+const SKILL_POOL_EVALUATION = ["LevelRange", "LevelInterval"];
 
 const factions = factionsSrc.map((factionSrc) => ({
   id: factionSrc.id,
@@ -173,14 +113,14 @@ const getBacteria = ({ bacteriaType, duration }) => {
     bacteriaType: bacteria.id,
     type: bacteria.type,
     restriction: bacteria.restriction,
-    customEffect: GENERIC_BACTERIA_CUSTOM_EFFECT[bacteria.customEffect],
+    customEffect: genericBacteriaCustomEffectTypes[bacteria.customEffect],
     customEffectValue: bacteria.customEffectValue,
     secondaryCustomEffectValue: bacteria.secondaryCustomEffectValue,
     auraSettings: bacteria.auraSettings,
     modifierData: [],
     resourcesIncome:
       bacteria.income?.resources.map((resource) => ({
-        type: RESOURCE_TYPES[resource.type],
+        type: resourceTypes[resource.type],
         amount: resource.amount,
         allTimeAmount: resource.allTimeAmount,
       })) || [],
@@ -200,7 +140,7 @@ const getBacteria = ({ bacteriaType, duration }) => {
       duration: {
         type:
           typeof bacteria.auraSettings.bacteriaToAdd.duration.type === "number"
-            ? BACTERIA_DURATION_TYPES[
+            ? bacteriaDurationTypes[
                 bacteria.auraSettings.bacteriaToAdd.duration.type
               ]
             : bacteria.auraSettings.bacteriaToAdd.duration.type,
@@ -238,7 +178,7 @@ const getBacteria = ({ bacteriaType, duration }) => {
         getBacteria({
           bacteriaType: bacteria.bacteriaType,
           duration: {
-            type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+            type: bacteriaDurationTypes[bacteria.duration.type],
             duration: bacteria.duration.duration,
           },
         })
@@ -250,7 +190,7 @@ const getBacteria = ({ bacteriaType, duration }) => {
       bacteriaToAddWhenMoving: getBacteria({
         bacteriaType: bacteria.settings.bacteriaToAddWhenMoving,
         duration: {
-          type: BACTERIA_DURATION_TYPES[
+          type: bacteriaDurationTypes[
             bacteria.settings.durationOfBacteriaToAdd.type
           ],
           duration: bacteria.settings.durationOfBacteriaToAdd.duration,
@@ -268,8 +208,7 @@ const getSimpleSkill = ({ skill, level }) => {
     level: level,
   };
 };
-const UNIT_TYPES = ["vanilla", "upgraded", "superUpgraded"];
-const SKILL_POOL_EVALUATION = ["LevelRange", "LevelInterval"];
+
 const getUnit = ({ factionIndex, unitIndex, upgradeType }) => {
   const unitType = UNIT_TYPES[upgradeType];
   return factions[factionIndex].units[unitIndex][unitType];
@@ -333,7 +272,7 @@ const wielders = factionsSrc
             getBacteria({
               bacteriaType: bacteria.bacteriaType,
               duration: {
-                type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+                type: bacteriaDurationTypes[bacteria.duration.type],
                 duration: bacteria.duration.duration,
               },
             })
@@ -361,7 +300,7 @@ const getTroopAbility = (id) => {
       getBacteria({
         bacteriaType: bacteria.bacteriaType,
         duration: {
-          type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+          type: bacteriaDurationTypes[bacteria.duration.type],
           duration: bacteria.duration.duration,
         },
       })
@@ -374,7 +313,7 @@ const getUnitType = (type) => ({
   sprite: type.visuals.prefab.sprite,
   purchaseCost: {
     costEntries: type.purchaseCost.costEntries.map((costEntry) => ({
-      type: RESOURCE_TYPES[costEntry.type],
+      type: resourceTypes[costEntry.type],
       amount: costEntry.amount,
     })),
   },
@@ -385,7 +324,7 @@ const getUnitType = (type) => ({
     getBacteria({
       bacteriaType: bacteria.bacteriaType,
       duration: {
-        type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+        type: bacteriaDurationTypes[bacteria.duration.type],
         duration: bacteria.duration.duration,
       },
     })
@@ -426,7 +365,7 @@ const skills = skillsSrc.map((skillSrc) => ({
     return getBacteria({
       bacteriaType: levelBacteria.type,
       duration: {
-        type: BACTERIA_DURATION_TYPES[levelBacteria.duration.type],
+        type: bacteriaDurationTypes[levelBacteria.duration.type],
         duration: levelBacteria.duration.duration,
       },
     });
@@ -454,7 +393,7 @@ const artifacts = artifactsSrc.map((artifact) => ({
     getBacteria({
       bacteriaType: bacteria.bacteriaType,
       duration: {
-        type: BACTERIA_DURATION_TYPES[bacteria.duration.type],
+        type: bacteriaDurationTypes[bacteria.duration.type],
         duration: bacteria.duration.duration,
       },
     })
@@ -480,14 +419,14 @@ const getStack = (stack) => ({
     nameKey: research.nameKey,
     descriptionKey: research.descriptionKey,
     costEntries: research.requirements.cost.costEntries.map((costEntry) => ({
-      type: RESOURCE_TYPES[costEntry.type],
+      type: resourceTypes[costEntry.type],
       amount: costEntry.amount,
     })),
     bacterias: research.bacterias.map((bacteria) =>
       getBacteria({
         bacteriaType: bacteria.bacteriaType,
         duration: {
-          type: SPELL_DURATION_TYPES[bacteria.duration.type],
+          type: spellDurationTypes[bacteria.duration.type],
           duration: bacteria.duration.value,
         },
       })
@@ -532,14 +471,14 @@ for (const buildSite of buildSites) {
         (incomePerLevel) => ({
           level: incomePerLevel.level,
           resources: incomePerLevel.definition.resources.map((resource) => ({
-            type: RESOURCE_TYPES[resource.type],
+            type: resourceTypes[resource.type],
             amount: resource.amount,
           })),
           troopIncomes: incomePerLevel.definition.troopIncomes.map(
             (troopIncome) => {
               const faction = factionsSrc[troopIncome.reference.factionIndex];
-              const upgradeType =
-                UPGRADED_TYPES[troopIncome.reference.upgradeType];
+              const upgradeType = UNIT_TYPES[troopIncome.reference.upgradeType];
+
               const unit =
                 faction.units[troopIncome.reference.unitIndex][upgradeType];
               return {
@@ -560,7 +499,7 @@ for (const buildSite of buildSites) {
       building.levelUpgrades = component.levelUpgrades.map((levelUpgrade) => ({
         costEntries: levelUpgrade.requirements.cost.costEntries.map(
           (costEntry) => ({
-            type: RESOURCE_TYPES[costEntry.type],
+            type: resourceTypes[costEntry.type],
             amount: costEntry.amount,
           })
         ),
@@ -574,7 +513,7 @@ for (const buildSite of buildSites) {
       building.requirements = {
         costEntries: component.requirements.cost.costEntries.map(
           (costEntry) => ({
-            type: RESOURCE_TYPES[costEntry.type],
+            type: resourceTypes[costEntry.type],
             amount: costEntry.amount,
           })
         ),
@@ -652,7 +591,7 @@ const getBattleMapEntity = (id) => {
         getBacteria({
           bacteriaType: bacteria.bacteriaType,
           duration: {
-            type: SPELL_DURATION_TYPES[bacteria.duration.type],
+            type: spellDurationTypes[bacteria.duration.type],
             duration: bacteria.duration.duration,
           },
         })
@@ -672,18 +611,19 @@ const spells = spellsSrc.map((spell) => ({
   nameKey: spell.nameKey,
   descriptionKey: spell.descriptionKey,
   costs: spell.cost.map((cost) => ({
-    type: ESSENCE_TYPES[cost.type],
+    type: essenceTypes[cost.type],
     amount: cost.amount,
   })),
   tiers: spell.tiers.map((tier) => ({
     tier: tier.tier,
-    effectType: SPELL_EFFECT_TYPES[tier.effectType],
+    effectType: spellEffectTypes[tier.effectType],
     amountOfTargets: tier.amountOfTargets,
-    teleportDestination: SPELL_TELEPORT_DESTINATIONS[tier.teleportDestination],
+    teleportDestination:
+      spellTeleportDestinationsTypes[tier.teleportDestination],
     maxTeleportRange: tier.maxTeleportRange,
     circleRadius: tier.circleRadius,
     numberOfTargetTiles: tier.relativeTargetTiles?.length || null,
-    target: SPELL_TARGET_TYPES[tier.target],
+    target: spellTargetTypes[tier.target],
     requiredCommanderSkills: tier.requiredCommanderSkills.map(getSimpleSkill),
     mapEntityToSummon: tier.mapEntityToSummon
       ? getBattleMapEntity(tier.mapEntityToSummon)
@@ -692,7 +632,7 @@ const spells = spellsSrc.map((spell) => ({
       getBacteria({
         bacteriaType: bacteria.bacteriaType,
         duration: {
-          type: SPELL_DURATION_TYPES[bacteria.duration.type],
+          type: spellDurationTypes[bacteria.duration.type],
           duration: bacteria.duration.value,
         },
       })
