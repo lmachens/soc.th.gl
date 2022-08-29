@@ -49,6 +49,21 @@ const spellDurationTypes = await readCSTypes(
 const genericBacteriaCustomEffectTypes = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Server/Bacterias/GenericBacteriaCustomEffect.cs"
 );
+const randomEventType = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventType.cs"
+)
+const randomEventEvaluationTriggerType = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventEvaluationTrigger.cs"
+)
+const randomEventRequirementEvaluationType = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRequirementEvaluationType.cs"
+)
+const randomEventRequirementType = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRequirementType.cs"
+)
+const randomEventRecipientType = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRecipient.cs"
+)
 const SKILL_POOL_EVALUATION = ["LevelRange", "LevelInterval"];
 
 const factions = factionsSrc.map((factionSrc) => ({
@@ -651,14 +666,17 @@ function analyzeRandomEvents(randomEventsSrc) {
       uniqueName: uniqueName,
       descriptionKey: descriptionKey,
       faction: uniqueName.split('/').shift(),
-      type: type, // map to good/neutral/bad extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventType.cs
+      type:  randomEventType[type],
       name: uniqueName.split('/').pop(),
       isReocurring: Boolean(isReocurring), // maybe don't hardcode, if there's a mapping that 0=false and 1=true?
       chanceOfHappening: chanceOfHappening,
-      eventEvaluationTrigger: eventEvaluationTrigger, // map to extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventEvaluationTrigger.cs
-      requirementEvaluationType: requirementEvaluationType, // extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventRequirementEvaluationType.cs
-      requirements: requirements,  // map!! extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventRequirementType.cs
-      eventRecipient: eventRecipient, // depending on this, take in more info about the recipient extractor\SongsOfConquest\ExportedProject\Assets\MonoScript\Lavapotion.SongsOfConquest.GameLogicLayer.Runtime\SongsOfConquest\Common\Adventure\RandomEventRecipient.cs
+      eventEvaluationTrigger: randomEventEvaluationTriggerType[eventEvaluationTrigger],
+      requirementEvaluationType: randomEventRequirementEvaluationType[requirementEvaluationType],
+      requirements: requirements.map(requirement => {
+        requirement.requirementType = randomEventRequirementType[requirement.requirementType];
+        return requirement;
+      }),  // simplify info about the requirement, depending on what's needed
+      eventRecipient: randomEventRecipientType[eventRecipient], // depending on this, take in more info about the recipient 
       reward: reward, // map!!
       penalty: penalty // map!!
     }
