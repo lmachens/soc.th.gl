@@ -114,7 +114,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
     const randomEvents = getRandomEvents(locale);
     const randomEventLinks = randomEvents
       .map((randomEvent) => ({
-        to: `/randomEvents/${randomEvent.uniqueName}`,
+        to: `/random-events/${randomEvent.uniqueName}`,
         label: randomEvent.name,
       }))
       .sort(sortByLabel);
@@ -194,8 +194,8 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
         label: getSiteTerm("RandomEvents", locale),
         docs: [
           {
-            to: "/randomEvents",
-            label: getSiteTerm("AllRanomEvents", locale),
+            to: "/random-events",
+            label: getSiteTerm("AllRandomEvents", locale),
           },
           ...randomEventLinks,
         ],

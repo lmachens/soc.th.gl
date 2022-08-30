@@ -73,9 +73,8 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
           <Article
             name="Random Events"
             description="Learn what triggers the events at the start of every turn."
-            href={`/randomEvents`}
+            href={`/random-events`}
           />
-
         </SimpleGrid>
         <Blockquote
           cite={
