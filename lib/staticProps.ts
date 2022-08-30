@@ -116,6 +116,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       .map((randomEvent) => ({
         to: `/random-events/${randomEvent.id}`,
         label: randomEvent.name,
+        description: randomEvent.factionName,
       }))
       .sort(sortByLabel);
 
