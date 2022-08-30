@@ -36,11 +36,11 @@ const RandomEvents: NextPage<{ randomEvents: RandomEventSimpleDTO[] }> = ({
       >
         {sortedRandomEvents.map((randomEvent) => (
           <Article
-            // key={building.type}
+            key={randomEvent.id}
             name={randomEvent.name}
-            subtitle={randomEvent.faction}
+            subtitle={randomEvent.factionName}
             description={randomEvent.description}
-            href={`/randomEvents/${randomEvent.uniqueName}`}
+            href={`/random-events/${randomEvent.id}`}
           />
         ))}
       </SimpleGrid>

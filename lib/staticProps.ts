@@ -114,7 +114,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
     const randomEvents = getRandomEvents(locale);
     const randomEventLinks = randomEvents
       .map((randomEvent) => ({
-        to: `/random-events/${randomEvent.uniqueName}`,
+        to: `/random-events/${randomEvent.id}`,
         label: randomEvent.name,
       }))
       .sort(sortByLabel);

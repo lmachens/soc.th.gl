@@ -1,28 +1,20 @@
 import randomEventsCollection from "./collections/randomEvents.json";
-import { getFactions } from "./factions";
-import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
-import { getUnit } from "./units";
-import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 
 export const getRandomEvents = (locale: string) => {
-  const randomEvents = randomEventsCollection.map<RandomEventSimpleDTO>((randomEvent) => {
-    return {
-      uniqueName: randomEvent.uniqueName,
-      faction: randomEvent.faction,
-      type: randomEvent.type,
-      name: randomEvent.name,
-      isReocurring: randomEvent.isReocurring,
-      chanceOfHappening: randomEvent.chanceOfHappening,
-      eventEvaluationTrigger: randomEvent.eventEvaluationTrigger,
-      requirementEvaluationType: randomEvent.requirementEvaluationType,
-      requirements: randomEvent.requirements,
-      eventRecipient: randomEvent.eventRecipient,
-      reward: randomEvent.reward,
-      penalty: randomEvent.penalty,
-      description: getTerm(randomEvent.descriptionKey, locale)
-    };
-  });
+  const randomEvents = randomEventsCollection.map<RandomEventSimpleDTO>(
+    (randomEvent) => {
+      return {
+        id: randomEvent.uniqueName,
+        name: getTerm(`RandomEvents/${randomEvent.uniqueName}`, locale),
+        description: getTerm(randomEvent.descriptionKey, locale),
+        factionName:
+          randomEvent.faction === "Generic"
+            ? "Generic"
+            : getTerm(`Factions/${randomEvent.faction}/Name`, locale),
+      };
+    }
+  );
   return randomEvents;
 };
 
@@ -37,7 +29,7 @@ export const getRandomEvent = (
     return null;
   }
   return null;
-}
+};
 
 //   const randomEvent: RandomEventDTO = {
 //     id: randomEventSrc.id,
@@ -142,36 +134,26 @@ export const getRandomEvent = (
 //       })),
 //     }));
 //   }
-  // return randomEvent;
+// return randomEvent;
 
 export type RandomEventSimpleDTO = {
-  uniqueName: string;
-  description: string;
-  faction: string;
-  type: number; // change after mapping
+  id: string;
   name: string;
-  isReocurring: boolean;
-  chanceOfHappening: number;
-  eventEvaluationTrigger: number;
-  requirementEvaluationType: number;
-  requirements: object;
-  eventRecipient: number;
-  reward: object;
-  penalty: object;
+  description: string;
+  factionName: string;
 };
 
 export type RandomEventDTO = {
-  uniqueName: string;
-  description: string;
-  faction: string;
-  type: number; // change after mapping
+  id: string;
   name: string;
+  description: string;
+  factionName: string;
   isReocurring: boolean;
   chanceOfHappening: number;
-  eventEvaluationTrigger: number;
-  requirementEvaluationType: number;
+  eventEvaluationTrigger: string;
+  requirementEvaluationType: string;
   requirements: object;
-  eventRecipient: number;
+  eventRecipient: string;
   reward: object;
   penalty: object;
-}; 
+};
