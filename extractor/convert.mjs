@@ -11,11 +11,15 @@ const termMapSrc = await readJSONFile("./out/termMap.json");
 const iconsSrc = await readJSONFile("./out/icons.json");
 const spellsSrc = await readJSONFile("./out/spell.json");
 const battleMapEntitySrc = await readJSONFile("./out/battleMapEntity.json");
-const genericRandomEventsSrc = await readJSONFile("./out/genericRandomEvents.json")
-const arleonRandomEventsSrc = await readJSONFile("./out/arleonRandomEvents.json")
-const lothRandomEventsSrc = await readJSONFile("./out/lothRandomEvents.json")
-const baryaRandomEventsSrc = await readJSONFile("./out/baryaRandomEvents.json")
-const ranaRandomEventsSrc = await readJSONFile("./out/ranaRandomEvents.json")
+const genericRandomEventsSrc = await readJSONFile(
+  "./out/genericRandomEvents.json"
+);
+const arleonRandomEventsSrc = await readJSONFile(
+  "./out/arleonRandomEvents.json"
+);
+const lothRandomEventsSrc = await readJSONFile("./out/lothRandomEvents.json");
+const baryaRandomEventsSrc = await readJSONFile("./out/baryaRandomEvents.json");
+const ranaRandomEventsSrc = await readJSONFile("./out/ranaRandomEvents.json");
 
 const adventureMapEntitySrc = await readJSONFile(
   "./out/adventureMapEntity.json"
@@ -51,19 +55,19 @@ const genericBacteriaCustomEffectTypes = await readCSTypes(
 );
 const randomEventType = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventType.cs"
-)
+);
 const randomEventEvaluationTriggerType = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventEvaluationTrigger.cs"
-)
+);
 const randomEventRequirementEvaluationType = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRequirementEvaluationType.cs"
-)
+);
 const randomEventRequirementType = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRequirementType.cs"
-)
+);
 const randomEventRecipientType = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRecipient.cs"
-)
+);
 const SKILL_POOL_EVALUATION = ["LevelRange", "LevelInterval"];
 
 const factions = factionsSrc.map((factionSrc) => ({
@@ -661,33 +665,50 @@ for (const spell of spells) {
 
 function analyzeRandomEvents(randomEventsSrc) {
   return randomEventsSrc.map((randomEventSrc) => {
-    let {type, descriptionKey, uniqueName, isReocurring, chanceOfHappening, eventEvaluationTrigger, requirementEvaluationType, requirements, eventRecipient, reward, penalty} = randomEventSrc.randomEventData;
+    let {
+      type,
+      descriptionKey,
+      uniqueName,
+      isReocurring,
+      chanceOfHappening,
+      eventEvaluationTrigger,
+      requirementEvaluationType,
+      requirements,
+      eventRecipient,
+      reward,
+      penalty,
+    } = randomEventSrc.randomEventData;
+    const faction = uniqueName.split("/").shift();
+    const name = uniqueName.split("/").pop();
+
     return {
+      id: `${faction}/${name}`,
       uniqueName: uniqueName,
       descriptionKey: descriptionKey,
-      faction: uniqueName.split('/').shift(),
-      type:  randomEventType[type],
-      name: uniqueName.split('/').pop(),
+      faction,
+      eventType: randomEventType[type],
+      name,
       isReocurring: Boolean(isReocurring), // maybe don't hardcode, if there's a mapping that 0=false and 1=true?
       chanceOfHappening: chanceOfHappening,
-      eventEvaluationTrigger: randomEventEvaluationTriggerType[eventEvaluationTrigger],
-      requirementEvaluationType: randomEventRequirementEvaluationType[requirementEvaluationType],
-      requirements: requirements.map(requirement => {
-        requirement.requirementType = randomEventRequirementType[requirement.requirementType];
+      eventEvaluationTrigger:
+        randomEventEvaluationTriggerType[eventEvaluationTrigger],
+      requirementEvaluationType:
+        randomEventRequirementEvaluationType[requirementEvaluationType],
+      requirements: requirements.map((requirement) => {
+        requirement.requirementType =
+          randomEventRequirementType[requirement.requirementType];
         return requirement;
-      }),  // simplify info about the requirement, depending on what's needed
-      eventRecipient: randomEventRecipientType[eventRecipient], // depending on this, take in more info about the recipient 
+      }), // simplify info about the requirement, depending on what's needed
+      eventRecipient: randomEventRecipientType[eventRecipient], // depending on this, take in more info about the recipient
       reward: reward, // map!!
-      penalty: penalty // map!!
-    }
-  })
+      penalty: penalty, // map!!
+    };
+  });
 }
 const randomEvents = analyzeRandomEvents(genericRandomEventsSrc).concat(
-  analyzeRandomEvents(arleonRandomEventsSrc), 
+  analyzeRandomEvents(arleonRandomEventsSrc),
   analyzeRandomEvents(lothRandomEventsSrc),
   analyzeRandomEvents(baryaRandomEventsSrc),
   analyzeRandomEvents(ranaRandomEventsSrc)
-)
+);
 await writeJSONFile(randomEvents, "../../lib/collections/randomEvents");
-
-

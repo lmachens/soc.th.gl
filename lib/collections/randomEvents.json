@@ -1,9 +1,10 @@
 [
   {
+    "id": "Generic/SpoilsOfWar",
     "uniqueName": "Generic/SpoilsOfWar",
     "descriptionKey": "RandomEvents/Generic/SpoilsOfWar/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SpoilsOfWar",
     "isReocurring": false,
     "chanceOfHappening": 0.5,
@@ -106,10 +107,11 @@
     }
   },
   {
+    "id": "Generic/ScarsAndVeterans",
     "uniqueName": "Generic/ScarsAndVeterans",
     "descriptionKey": "RandomEvents/Generic/ScarsAndVeterans/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ScarsAndVeterans",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -212,10 +214,11 @@
     }
   },
   {
+    "id": "Generic/WarmFires",
     "uniqueName": "Generic/WarmFires",
     "descriptionKey": "RandomEvents/Generic/WarmFires/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "WarmFires",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -330,10 +333,11 @@
     }
   },
   {
+    "id": "Generic/Interest",
     "uniqueName": "Generic/Interest",
     "descriptionKey": "RandomEvents/Generic/Interest/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Interest",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -594,10 +598,11 @@
     }
   },
   {
+    "id": "Generic/Pearl",
     "uniqueName": "Generic/Pearl",
     "descriptionKey": "RandomEvents/Generic/Pearl/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Pearl",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -700,10 +705,11 @@
     }
   },
   {
+    "id": "Generic/ADeadWielder",
     "uniqueName": "Generic/ADeadWielder",
     "descriptionKey": "RandomEvents/Generic/ADeadWielder/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ADeadWielder",
     "isReocurring": false,
     "chanceOfHappening": 0.03,
@@ -891,10 +897,11 @@
     }
   },
   {
+    "id": "Generic/ASplitTree",
     "uniqueName": "Generic/ASplitTree",
     "descriptionKey": "RandomEvents/Generic/ASplitTree/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ASplitTree",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -997,10 +1004,11 @@
     }
   },
   {
+    "id": "Generic/GoldDeposit",
     "uniqueName": "Generic/GoldDeposit",
     "descriptionKey": "RandomEvents/Generic/GoldDeposit/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "GoldDeposit",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -1103,10 +1111,11 @@
     }
   },
   {
+    "id": "Generic/GoldNugget",
     "uniqueName": "Generic/GoldNugget",
     "descriptionKey": "RandomEvents/Generic/GoldNugget/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "GoldNugget",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -1209,10 +1218,11 @@
     }
   },
   {
+    "id": "Generic/SmithsTribute",
     "uniqueName": "Generic/SmithsTribute",
     "descriptionKey": "RandomEvents/Generic/SmithsTribute/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SmithsTribute",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -1327,10 +1337,11 @@
     }
   },
   {
+    "id": "Generic/Optimism",
     "uniqueName": "Generic/Optimism",
     "descriptionKey": "RandomEvents/Generic/Optimism/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Optimism",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -1457,10 +1468,11 @@
     }
   },
   {
+    "id": "Generic/Pessimism",
     "uniqueName": "Generic/Pessimism",
     "descriptionKey": "RandomEvents/Generic/Pessimism/Description",
     "faction": "Generic",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Pessimism",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -1587,10 +1599,11 @@
     }
   },
   {
+    "id": "Generic/OldHut",
     "uniqueName": "Generic/OldHut",
     "descriptionKey": "RandomEvents/Generic/OldHut/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "OldHut",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -1839,10 +1852,11 @@
     }
   },
   {
+    "id": "Generic/AWhiteElk",
     "uniqueName": "Generic/AWhiteElk",
     "descriptionKey": "RandomEvents/Generic/AWhiteElk/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AWhiteElk",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -1945,10 +1959,11 @@
     }
   },
   {
+    "id": "Generic/TheDishonestMerchant",
     "uniqueName": "Generic/TheDishonestMerchant",
     "descriptionKey": "RandomEvents/Generic/TheDishonestMerchant/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TheDishonestMerchant",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -2197,10 +2212,11 @@
     }
   },
   {
+    "id": "Generic/AnUnusallyLargeEgg",
     "uniqueName": "Generic/AnUnusallyLargeEgg",
     "descriptionKey": "RandomEvents/Generic/AnUnusallyLargeEgg/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AnUnusallyLargeEgg",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -2303,10 +2319,11 @@
     }
   },
   {
+    "id": "Generic/Donations",
     "uniqueName": "Generic/Donations",
     "descriptionKey": "RandomEvents/Generic/Donations/Description",
     "faction": "Generic",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Donations",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -2628,10 +2645,11 @@
     }
   },
   {
+    "id": "Arleon/PrizeHen",
     "uniqueName": "Arleon/GoldenEgg/PrizeHen",
     "descriptionKey": "RandomEvents/Arleon/GoldenEgg/PrizeHen/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "PrizeHen",
     "isReocurring": false,
     "chanceOfHappening": 0.08,
@@ -2751,10 +2769,11 @@
     }
   },
   {
+    "id": "Arleon/WhisperingSkull",
     "uniqueName": "Arleon/GrandfathersChest/WhisperingSkull",
     "descriptionKey": "RandomEvents/Arleon/GrandfathersChest/WhisperingSkull/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "WhisperingSkull",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -2930,10 +2949,11 @@
     }
   },
   {
+    "id": "Arleon/PockedMan",
     "uniqueName": "Arleon/Outlaw/PockedMan",
     "descriptionKey": "RandomEvents/Arleon/Outlaw/PockedMan/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "PockedMan",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -3036,10 +3056,11 @@
     }
   },
   {
+    "id": "Arleon/DarkMagic",
     "uniqueName": "Arleon/MysteriousMist/DarkMagic",
     "descriptionKey": "RandomEvents/Arleon/MysteriousMist/Mist/DarkMagic/Description",
     "faction": "Arleon",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "DarkMagic",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -3215,10 +3236,11 @@
     }
   },
   {
+    "id": "Arleon/JewelsForAcorns",
     "uniqueName": "Arleon/Hunger/JewelsForAcorns",
     "descriptionKey": "RandomEvents/Arleon/Hunger/JewelsForAcorns/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "JewelsForAcorns",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -3333,10 +3355,11 @@
     }
   },
   {
+    "id": "Arleon/BaryanMerchant",
     "uniqueName": "Arleon/ForeignTrade/BaryanMerchant",
     "descriptionKey": "RandomEvents/Arleon/ForeignTrade/BaryanMerchant/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BaryanMerchant",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -3439,10 +3462,11 @@
     }
   },
   {
+    "id": "Arleon/WhiteEagle",
     "uniqueName": "Arleon/WhiteEagle",
     "descriptionKey": "RandomEvents/Arleon/WhiteEagle/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "WhiteEagle",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -3545,10 +3569,11 @@
     }
   },
   {
+    "id": "Arleon/RanaShaman",
     "uniqueName": "Arleon/SwampDweller/RanaShaman",
     "descriptionKey": "RandomEvents/Arleon/SwampDweller/RanaShaman/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RanaShaman",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -3651,10 +3676,11 @@
     }
   },
   {
+    "id": "Arleon/Woodcutters",
     "uniqueName": "Arleon/Woodcutters",
     "descriptionKey": "RandomEvents/Arleon/Woodcutters/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Woodcutters",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -3757,10 +3783,11 @@
     }
   },
   {
+    "id": "Arleon/ShatteredBoulder",
     "uniqueName": "Arleon/ShatteredBoulder",
     "descriptionKey": "RandomEvents/Arleon/ShatteredBoulder/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ShatteredBoulder",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -3863,10 +3890,11 @@
     }
   },
   {
+    "id": "Arleon/SlainSheep",
     "uniqueName": "Arleon/SlainSheep",
     "descriptionKey": "RandomEvents/Arleon/SlainSheep/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SlainSheep",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -3969,10 +3997,11 @@
     }
   },
   {
+    "id": "Arleon/CarvedStones",
     "uniqueName": "Arleon/CarvedStones",
     "descriptionKey": "RandomEvents/Arleon/CarvedStones/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "CarvedStones",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -4075,10 +4104,11 @@
     }
   },
   {
+    "id": "Arleon/TheForestCourt",
     "uniqueName": "Arleon/TheForestCourt",
     "descriptionKey": "RandomEvents/Arleon/TheForestCourt/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TheForestCourt",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -4181,10 +4211,11 @@
     }
   },
   {
+    "id": "Arleon/AnOldLetter",
     "uniqueName": "Arleon/Inheritance/AnOldLetter",
     "descriptionKey": "RandomEvents/Arleon/Inheritance/AnOldLetter/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AnOldLetter",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -4287,10 +4318,11 @@
     }
   },
   {
+    "id": "Arleon/TravellingEntertainers",
     "uniqueName": "Arleon/TravellingEntertainers",
     "descriptionKey": "RandomEvents/Arleon/TravellingEntertainers/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TravellingEntertainers",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -4405,10 +4437,11 @@
     }
   },
   {
+    "id": "Arleon/AGreatOak",
     "uniqueName": "Arleon/AGreatOak",
     "descriptionKey": "RandomEvents/Arleon/AGreatOak/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AGreatOak",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -4511,10 +4544,11 @@
     }
   },
   {
+    "id": "Arleon/AncientAmber",
     "uniqueName": "Arleon/AncientAmber",
     "descriptionKey": "RandomEvents/Arleon/AncientAmber/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AncientAmber",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -4617,10 +4651,11 @@
     }
   },
   {
+    "id": "Arleon/CelestialOre",
     "uniqueName": "Arleon/CelestialOre",
     "descriptionKey": "RandomEvents/Arleon/CelestialOre/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "CelestialOre",
     "isReocurring": false,
     "chanceOfHappening": 0.08,
@@ -4723,10 +4758,11 @@
     }
   },
   {
+    "id": "Arleon/CropRotation",
     "uniqueName": "Arleon/CropRotation",
     "descriptionKey": "RandomEvents/Arleon/CropRotation/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "CropRotation",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -4841,10 +4877,11 @@
     }
   },
   {
+    "id": "Arleon/Glimmerweave",
     "uniqueName": "Arleon/Glimmerweave",
     "descriptionKey": "RandomEvents/Arleon/Glimmerweave/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Glimmerweave",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -4947,10 +4984,11 @@
     }
   },
   {
+    "id": "Arleon/GoodHarvest",
     "uniqueName": "Arleon/GoodHarvest",
     "descriptionKey": "RandomEvents/Arleon/GoodHarvest/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "GoodHarvest",
     "isReocurring": false,
     "chanceOfHappening": 0.2,
@@ -5065,10 +5103,11 @@
     }
   },
   {
+    "id": "Arleon/GreatHarvest",
     "uniqueName": "Arleon/GreatHarvest",
     "descriptionKey": "RandomEvents/Arleon/GreatHarvest/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "GreatHarvest",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -5183,10 +5222,11 @@
     }
   },
   {
+    "id": "Arleon/Jousting",
     "uniqueName": "Arleon/Jousting",
     "descriptionKey": "RandomEvents/Arleon/Jousting/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Jousting",
     "isReocurring": false,
     "chanceOfHappening": 0.2,
@@ -5301,10 +5341,11 @@
     }
   },
   {
+    "id": "Arleon/MilitiaDrills",
     "uniqueName": "Arleon/MilitiaDrills",
     "descriptionKey": "RandomEvents/Arleon/MilitiaDrills/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "MilitiaDrills",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -5419,10 +5460,11 @@
     }
   },
   {
+    "id": "Arleon/MoreMilitia",
     "uniqueName": "Arleon/MoreMilitia",
     "descriptionKey": "RandomEvents/Arleon/MoreMilitia/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "MoreMilitia",
     "isReocurring": false,
     "chanceOfHappening": 0.2,
@@ -5525,10 +5567,11 @@
     }
   },
   {
+    "id": "Arleon/RangerPatrols",
     "uniqueName": "Arleon/RangerPatrols",
     "descriptionKey": "RandomEvents/Arleon/RangerPatrols/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RangerPatrols",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -5643,10 +5686,11 @@
     }
   },
   {
+    "id": "Arleon/TreasureChest",
     "uniqueName": "Arleon/TreasureChest",
     "descriptionKey": "RandomEvents/Arleon/TreasureChest/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TreasureChest",
     "isReocurring": false,
     "chanceOfHappening": 0.01,
@@ -5980,10 +6024,11 @@
     }
   },
   {
+    "id": "Arleon/Volunteers",
     "uniqueName": "Arleon/Volunteers",
     "descriptionKey": "RandomEvents/Arleon/Volunteers/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Volunteers",
     "isReocurring": false,
     "chanceOfHappening": 0.6,
@@ -6117,10 +6162,11 @@
     }
   },
   {
+    "id": "Arleon/Merchants",
     "uniqueName": "Arleon/MarketTrade/Merchants",
     "descriptionKey": "RandomEvents/Arleon/MarketTrade/Merchants/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Merchants",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -6235,10 +6281,11 @@
     }
   },
   {
+    "id": "Arleon/Commerce",
     "uniqueName": "Arleon/MarketTrade/Commerce",
     "descriptionKey": "RandomEvents/Arleon/MarketTrade/Commerce/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Commerce",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -6353,10 +6400,11 @@
     }
   },
   {
+    "id": "Arleon/ADeadCousin",
     "uniqueName": "Arleon/Inheritance/ADeadCousin",
     "descriptionKey": "RandomEvents/Arleon/Inheritance/ADeadCousin/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ADeadCousin",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -6446,10 +6494,11 @@
     }
   },
   {
+    "id": "Arleon/TheGoldenHen",
     "uniqueName": "Arleon/GoldenEgg/TheGoldenHen",
     "descriptionKey": "RandomEvents/Arleon/GoldenEgg/TheGoldenHen/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "TheGoldenHen",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -6569,10 +6618,11 @@
     }
   },
   {
+    "id": "Arleon/FarmersFeast",
     "uniqueName": "Arleon/GoldenEgg/FarmersFeast",
     "descriptionKey": "RandomEvents/Arleon/GoldenEgg/FarmersFeast/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "FarmersFeast",
     "isReocurring": false,
     "chanceOfHappening": 0.5,
@@ -6675,10 +6725,11 @@
     }
   },
   {
+    "id": "Arleon/AMerchantsDemands",
     "uniqueName": "Arleon/ForeignTrade/AMerchantsDemands",
     "descriptionKey": "RandomEvents/Arleon/ForeignTrade/AMerchantsDemands/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "AMerchantsDemands",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -6798,10 +6849,11 @@
     }
   },
   {
+    "id": "Arleon/DeadInnkeeper",
     "uniqueName": "Arleon/Outlaw/DeadInnkeeper",
     "descriptionKey": "RandomEvents/Arleon/Outlaw/DeadInnkeeper/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "DeadInnkeeper",
     "isReocurring": false,
     "chanceOfHappening": 0.2,
@@ -6945,10 +6997,11 @@
     }
   },
   {
+    "id": "Arleon/MasterThief",
     "uniqueName": "Arleon/Outlaw/MasterThief",
     "descriptionKey": "RandomEvents/Arleon/Outlaw/MasterThief/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "MasterThief",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -7092,10 +7145,11 @@
     }
   },
   {
+    "id": "Arleon/CatchingTheThief",
     "uniqueName": "Arleon/Outlaw/CatchingTheThief",
     "descriptionKey": "RandomEvents/Arleon/Outlaw/CatchingTheThief/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "CatchingTheThief",
     "isReocurring": false,
     "chanceOfHappening": 0.6,
@@ -7210,10 +7264,11 @@
     }
   },
   {
+    "id": "Arleon/RanaThreat",
     "uniqueName": "Arleon/SwampDweller/RanaThreat",
     "descriptionKey": "RandomEvents/Arleon/SwampDweller/RanaThreat/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "RanaThreat",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -7333,10 +7388,11 @@
     }
   },
   {
+    "id": "Arleon/Mist",
     "uniqueName": "Arleon/MysteriousMist/Mist",
     "descriptionKey": "RandomEvents/Arleon/MysteriousMist/Mist/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Mist",
     "isReocurring": false,
     "chanceOfHappening": 0.04,
@@ -7456,10 +7512,11 @@
     }
   },
   {
+    "id": "Arleon/Famine",
     "uniqueName": "Arleon/Hunger/Famine",
     "descriptionKey": "RandomEvents/Arleon/Hunger/Famine/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Famine",
     "isReocurring": false,
     "chanceOfHappening": 0.12,
@@ -7591,10 +7648,11 @@
     }
   },
   {
+    "id": "Arleon/SquirrelHunters",
     "uniqueName": "Arleon/Hunger/SquirrelHunters",
     "descriptionKey": "RandomEvents/Arleon/Hunger/SquirrelHunters/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SquirrelHunters",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -7709,10 +7767,11 @@
     }
   },
   {
+    "id": "Arleon/MerchantMercenaries",
     "uniqueName": "Arleon/ForeignTrade/MerchantMercenaries",
     "descriptionKey": "RandomEvents/Arleon/ForeignTrade/MerchantMercenaries/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "MerchantMercenaries",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -7832,10 +7891,11 @@
     }
   },
   {
+    "id": "Arleon/ADuelOfWits",
     "uniqueName": "Arleon/Troubadour/ADuelOfWits",
     "descriptionKey": "RandomEvents/Arleon/Troubadour/ADuelOfWits/Description",
     "faction": "Arleon",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "ADuelOfWits",
     "isReocurring": false,
     "chanceOfHappening": 0.12,
@@ -8029,10 +8089,11 @@
     }
   },
   {
+    "id": "Arleon/TheStubbornTankardWins",
     "uniqueName": "Arleon/Troubadour/TheStubbornTankardWins",
     "descriptionKey": "RandomEvents/Arleon/Troubadour/TheStubbornTankardWins/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TheStubbornTankardWins",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -8147,10 +8208,11 @@
     }
   },
   {
+    "id": "Arleon/MilksTeethWins",
     "uniqueName": "Arleon/Troubadour/MilksTeethWins",
     "descriptionKey": "RandomEvents/Arleon/Troubadour/MilksTeethWins/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "MilksTeethWins",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -8265,10 +8327,11 @@
     }
   },
   {
+    "id": "Arleon/Wildflowers",
     "uniqueName": "Arleon/FlowerMarket/Wildflowers",
     "descriptionKey": "RandomEvents/Arleon/FlowerMarket/Wildflowers/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Wildflowers",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -8371,10 +8434,11 @@
     }
   },
   {
+    "id": "Arleon/Bees",
     "uniqueName": "Arleon/FlowerMarket/Bees",
     "descriptionKey": "RandomEvents/Arleon/FlowerMarket/Bees/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Bees",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -8494,10 +8558,11 @@
     }
   },
   {
+    "id": "Arleon/Allergies",
     "uniqueName": "Arleon/FlowerMarket/Allergies",
     "descriptionKey": "RandomEvents/Arleon/FlowerMarket/Allergies/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Allergies",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -8617,10 +8682,11 @@
     }
   },
   {
+    "id": "Arleon/Remedy",
     "uniqueName": "Arleon/FlowerMarket/Remedy",
     "descriptionKey": "RandomEvents/Arleon/FlowerMarket/Remedy/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Remedy",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -8723,10 +8789,11 @@
     }
   },
   {
+    "id": "Arleon/BeeHives",
     "uniqueName": "Arleon/FlowerMarket/BeeHives",
     "descriptionKey": "RandomEvents/Arleon/FlowerMarket/BeeHives/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BeeHives",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -8829,10 +8896,11 @@
     }
   },
   {
+    "id": "Arleon/RareKnowledge",
     "uniqueName": "Arleon/TrunkOfBooks/RareKnowledge",
     "descriptionKey": "RandomEvents/Arleon/TrunkOfBooks/RareKnowledge/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RareKnowledge",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -8935,10 +9003,11 @@
     }
   },
   {
+    "id": "Arleon/General'sJournal",
     "uniqueName": "Arleon/TrunkOfBooks/General'sJournal",
     "descriptionKey": "RandomEvents/Arleon/TrunkOfBooks/General'sJournal/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "General'sJournal",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -9077,10 +9146,11 @@
     }
   },
   {
+    "id": "Arleon/TheHistoryofArleon",
     "uniqueName": "Arleon/TrunkOfBooks/TheHistoryofArleon",
     "descriptionKey": "RandomEvents/Arleon/TrunkOfBooks/TheHistoryofArleon/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TheHistoryofArleon",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -9207,10 +9277,11 @@
     }
   },
   {
+    "id": "Arleon/RomanceNovel",
     "uniqueName": "Arleon/TrunkOfBooks/RomanceNovel",
     "descriptionKey": "RandomEvents/Arleon/TrunkOfBooks/RomanceNovel/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RomanceNovel",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -9313,10 +9384,11 @@
     }
   },
   {
+    "id": "Arleon/CollectionOfPoetry",
     "uniqueName": "Arleon/TrunkofBooks/CollectionOfPoetry",
     "descriptionKey": "RandomEvents/Arleon/TrunkofBooks/CollectionOfPoetry/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "CollectionOfPoetry",
     "isReocurring": false,
     "chanceOfHappening": 0.6,
@@ -9426,10 +9498,11 @@
     }
   },
   {
+    "id": "Arleon/HowToDraw",
     "uniqueName": "Arleon/TrunkOfBooks/HowToDraw",
     "descriptionKey": "RandomEvents/Arleon/TrunkOfBooks/HowToDraw/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "HowToDraw",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -9568,10 +9641,11 @@
     }
   },
   {
+    "id": "Arleon/StrongWinds",
     "uniqueName": "Arleon/StrongWinds",
     "descriptionKey": "RandomEvents/Arleon/StrongWinds/Description",
     "faction": "Arleon",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "StrongWinds",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -9765,10 +9839,11 @@
     }
   },
   {
+    "id": "Arleon/DarkClouds",
     "uniqueName": "Arleon/OminousWeather/DarkClouds",
     "descriptionKey": "RandomEvents/Arleon/OminousWeather/DarkClouds/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "DarkClouds",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -9888,10 +9963,11 @@
     }
   },
   {
+    "id": "Arleon/SuperbTaxCollector",
     "uniqueName": "Arleon/SuperbTaxCollector",
     "descriptionKey": "RandomEvents/Arleon/SuperbTaxCollector/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SuperbTaxCollector",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -9994,10 +10070,11 @@
     }
   },
   {
+    "id": "Arleon/MarketDay",
     "uniqueName": "Arleon/MarketTrade/MarketDay",
     "descriptionKey": "RandomEvents/Arleon/MarketTrade/MarketDay/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "MarketDay",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -10100,10 +10177,11 @@
     }
   },
   {
+    "id": "Arleon/HedgeWizard",
     "uniqueName": "Arleon/HedgeWizard",
     "descriptionKey": "RandomEvents/Arleon/HedgeWizard/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "HedgeWizard",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -10498,10 +10576,11 @@
     }
   },
   {
+    "id": "Arleon/Adventurers",
     "uniqueName": "Arleon/Adventurers",
     "descriptionKey": "RandomEvents/Arleon/Adventurers/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Adventurers",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -10750,10 +10829,11 @@
     }
   },
   {
+    "id": "Arleon/Lightning",
     "uniqueName": "Arleon/OminousWeather/Lightning",
     "descriptionKey": "RandomEvents/Arleon/OminousWeather/Lightning/Description",
     "faction": "Arleon",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "Lightning",
     "isReocurring": false,
     "chanceOfHappening": 0.5,
@@ -10983,10 +11063,11 @@
     }
   },
   {
+    "id": "Arleon/Thunder",
     "uniqueName": "Arleon/OminousWeather/Thunder",
     "descriptionKey": "RandomEvents/Arleon/OminousWeather/Thunder/Description",
     "faction": "Arleon",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "Thunder",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -11192,10 +11273,11 @@
     }
   },
   {
+    "id": "Arleon/Malcontent",
     "uniqueName": "Arleon/CurseOnTheLand/Malcontent",
     "descriptionKey": "RandomEvents/Arleon/CurseOnTheLand/Malcontent/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Malcontent",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -11315,10 +11397,11 @@
     }
   },
   {
+    "id": "Arleon/Fairweather",
     "uniqueName": "Arleon/CurseOnTheLand/Fairweather",
     "descriptionKey": "RandomEvents/Arleon/CurseOnTheLand/Fairweather/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Fairweather",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -11494,10 +11577,11 @@
     }
   },
   {
+    "id": "Arleon/Pickpocket",
     "uniqueName": "Arleon/UncommonThief/Pickpocket",
     "descriptionKey": "RandomEvents/Arleon/UncommonThief/Pickpocket/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Pickpocket",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -11604,10 +11688,11 @@
     }
   },
   {
+    "id": "Arleon/ThiefInOurMidst",
     "uniqueName": "Arleon/UncommonThief/ThiefInOurMidst",
     "descriptionKey": "RandomEvents/Arleon/UncommonThief/ThiefInOurMidst/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "ThiefInOurMidst",
     "isReocurring": false,
     "chanceOfHappening": 0.2,
@@ -11727,10 +11812,11 @@
     }
   },
   {
+    "id": "Arleon/ACunningPlan",
     "uniqueName": "Arleon/UncommonThief/ACunningPlan",
     "descriptionKey": "RandomEvents/Arleon/UncommonThief/ACunningPlan/Description",
     "faction": "Arleon",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "ACunningPlan",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -11940,10 +12026,11 @@
     }
   },
   {
+    "id": "Arleon/ThievingJustice",
     "uniqueName": "Arleon/UncommonThief/ThievingJustice",
     "descriptionKey": "RandomEvents/Arleon/UncommonThief/ThievingJustice/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ThievingJustice",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -12046,10 +12133,11 @@
     }
   },
   {
+    "id": "Arleon/Heatwave",
     "uniqueName": "Arleon/CurseOnTheLand/Heatwave",
     "descriptionKey": "RandomEvents/Arleon/CurseOnTheLand/Heatwave/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Heatwave",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -12193,10 +12281,11 @@
     }
   },
   {
+    "id": "Arleon/DreamOfTheHag",
     "uniqueName": "Arleon/Curses/DreamOfTheHag",
     "descriptionKey": "RandomEvents/Arleon/Curses/DreamOfTheHag/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "DreamOfTheHag",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -12299,10 +12388,11 @@
     }
   },
   {
+    "id": "Arleon/StakedNornor",
     "uniqueName": "Arleon/Curses/StakedNornor",
     "descriptionKey": "RandomEvents/Arleon/Curses/StakedNornor/Description",
     "faction": "Arleon",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "StakedNornor",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -12624,10 +12714,11 @@
     }
   },
   {
+    "id": "Arleon/Nornor",
     "uniqueName": "Arleon/Curses/Nornor",
     "descriptionKey": "RandomEvents/Arleon/Curses/Nornor/Description",
     "faction": "Arleon",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "Nornor",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -12730,10 +12821,11 @@
     }
   },
   {
+    "id": "Arleon/NewOrchard",
     "uniqueName": "Arleon/Orchard/NewOrchard",
     "descriptionKey": "RandomEvents/Arleon/Orchard/NewOrchard/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "NewOrchard",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -12860,10 +12952,11 @@
     }
   },
   {
+    "id": "Arleon/Peaches",
     "uniqueName": "Arleon/Orchard/Peaches",
     "descriptionKey": "RandomEvents/Arleon/Orchard/Peaches/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Peaches",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -12995,10 +13088,11 @@
     }
   },
   {
+    "id": "Arleon/PeachPies",
     "uniqueName": "Arleon/Orchard/PeachPies",
     "descriptionKey": "RandomEvents/Arleon/Orchard/PeachPies/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "PeachPies",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -13193,10 +13287,11 @@
     }
   },
   {
+    "id": "Arleon/PeachWine",
     "uniqueName": "Arleon/Orchard/PeachWine",
     "descriptionKey": "RandomEvents/Arleon/Orchard/PeachWine/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "PeachWine",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -13372,10 +13467,11 @@
     }
   },
   {
+    "id": "Arleon/RelicBuyer",
     "uniqueName": "Arleon/GrandfathersChest/RelicBuyer",
     "descriptionKey": "RandomEvents/Arleon/GrandfathersChest/RelicBuyer/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RelicBuyer",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -13478,10 +13574,11 @@
     }
   },
   {
+    "id": "Arleon/BaryanTrade",
     "uniqueName": "Arleon/ForeignTrade/BaryanTrade",
     "descriptionKey": "RandomEvents/Arleon/ForeignTrade/BaryanTrade/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BaryanTrade",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -13584,10 +13681,11 @@
     }
   },
   {
+    "id": "Arleon/RanaCurse",
     "uniqueName": "Arleon/SwampDweller/RanaCurse",
     "descriptionKey": "RandomEvents/Arleon/SwampDweller/RanaCurse/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "RanaCurse",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -13690,10 +13788,11 @@
     }
   },
   {
+    "id": "Arleon/RanaReunited",
     "uniqueName": "Arleon/SwampDweller/RanaReunited",
     "descriptionKey": "RandomEvents/Arleon/SwampDweller/RanaReunited/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RanaReunited",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -13796,10 +13895,11 @@
     }
   },
   {
+    "id": "Arleon/PartingMist",
     "uniqueName": "Arleon/MysteriousMist/PartingMist",
     "descriptionKey": "RandomEvents/Arleon/MysteriousMist/PartingMist/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "PartingMist",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -13902,10 +14002,11 @@
     }
   },
   {
+    "id": "Arleon/StomachPain",
     "uniqueName": "Arleon/Curses/StomachPain",
     "descriptionKey": "RandomEvents/Arleon/Curses/StomachPain/Description",
     "faction": "Arleon",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "StomachPain",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -14008,10 +14109,11 @@
     }
   },
   {
+    "id": "Arleon/AwakentheSleeper",
     "uniqueName": "Arleon/AwakentheSleeper",
     "descriptionKey": "RandomEvents/Arleon/AwakentheSleeper/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AwakentheSleeper",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -14162,10 +14264,11 @@
     }
   },
   {
+    "id": "Arleon/Thievery",
     "uniqueName": "Arleon/Outlaw/Thievery",
     "descriptionKey": "RandomEvents/Arleon/Outlaw/Thievery/Description",
     "faction": "Arleon",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Thievery",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -14309,10 +14412,11 @@
     }
   },
   {
+    "id": "Loth/RareKnowledge",
     "uniqueName": "Loth/TrunkOfBooks/RareKnowledge",
     "descriptionKey": "RandomEvents/Loth/TrunkOfBooks/RareKnowledge/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RareKnowledge",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -14427,10 +14531,11 @@
     }
   },
   {
+    "id": "Loth/SecretOfBones",
     "uniqueName": "Loth/TrunkOfBooks/SecretOfBones",
     "descriptionKey": "RandomEvents/Loth/TrunkOfBooks/SecretOfBones/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SecretOfBones",
     "isReocurring": false,
     "chanceOfHappening": 0.5,
@@ -14637,10 +14742,11 @@
     }
   },
   {
+    "id": "Loth/Landslide",
     "uniqueName": "Loth/Landslide",
     "descriptionKey": "RandomEvents/Loth/Landslide/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Landslide",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -14816,10 +14922,11 @@
     }
   },
   {
+    "id": "Loth/AnEerieSong",
     "uniqueName": "Loth/AnEerieSong",
     "descriptionKey": "RandomEvents/Loth/AnEerieSong/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AnEerieSong",
     "isReocurring": false,
     "chanceOfHappening": 0.03,
@@ -14922,10 +15029,11 @@
     }
   },
   {
+    "id": "Loth/KeepingtheirOath",
     "uniqueName": "Loth/KeepingtheirOath",
     "descriptionKey": "RandomEvents/Loth/KeepingtheirOath/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "KeepingtheirOath",
     "isReocurring": false,
     "chanceOfHappening": 0.03,
@@ -15047,10 +15155,11 @@
     }
   },
   {
+    "id": "Loth/BrightSunnyDay",
     "uniqueName": "Loth/BrightSunnyDay",
     "descriptionKey": "RandomEvents/Loth/BrightSunnyDay/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BrightSunnyDay",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -15299,10 +15408,11 @@
     }
   },
   {
+    "id": "Loth/ClearTheLand",
     "uniqueName": "Loth/ClearTheLand",
     "descriptionKey": "RandomEvents/Loth/ClearTheLand/Description",
     "faction": "Loth",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "ClearTheLand",
     "isReocurring": false,
     "chanceOfHappening": 0.2,
@@ -15527,10 +15637,11 @@
     }
   },
   {
+    "id": "Loth/EveoftheEastWind",
     "uniqueName": "Loth/EveoftheEastWind",
     "descriptionKey": "RandomEvents/Loth/EveoftheEastWind/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "EveoftheEastWind",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -15724,10 +15835,11 @@
     }
   },
   {
+    "id": "Loth/Flood",
     "uniqueName": "Loth/Flood",
     "descriptionKey": "RandomEvents/Loth/Flood/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Flood",
     "isReocurring": false,
     "chanceOfHappening": 0.08,
@@ -15940,10 +16052,11 @@
     }
   },
   {
+    "id": "Loth/GiftsOfTheDead",
     "uniqueName": "Loth/GiftsOfTheDead",
     "descriptionKey": "RandomEvents/Loth/GiftsOfTheDead/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "GiftsOfTheDead",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -16119,10 +16232,11 @@
     }
   },
   {
+    "id": "Loth/SolarEclipse",
     "uniqueName": "Loth/SolarEclipse",
     "descriptionKey": "RandomEvents/Loth/SolarEclipse/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SolarEclipse",
     "isReocurring": false,
     "chanceOfHappening": 0.08,
@@ -16225,10 +16339,11 @@
     }
   },
   {
+    "id": "Loth/TimesofWar",
     "uniqueName": "Loth/TimesofWar",
     "descriptionKey": "RandomEvents/Loth/TimesofWar/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TimesofWar",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -16429,10 +16544,11 @@
     }
   },
   {
+    "id": "Loth/LightRain",
     "uniqueName": "Loth/LightRain",
     "descriptionKey": "RandomEvents/Loth/LightRain/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "LightRain",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -16547,10 +16663,11 @@
     }
   },
   {
+    "id": "Loth/TaxationReform",
     "uniqueName": "Loth/TrunkOfBooks/TaxationReform",
     "descriptionKey": "RandomEvents/Loth/TrunkOfBooks/TaxationReform/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TaxationReform",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -16665,10 +16782,11 @@
     }
   },
   {
+    "id": "Loth/BoneDog",
     "uniqueName": "Loth/BeastFriend/BoneDog",
     "descriptionKey": "RandomEvents/Loth/BeastFriend/BoneDog/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BoneDog",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -16844,10 +16962,11 @@
     }
   },
   {
+    "id": "Loth/CryptHunter",
     "uniqueName": "Loth/BeastFriend/CryptHunter",
     "descriptionKey": "RandomEvents/Loth/BeastFriend/CryptHunter/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "CryptHunter",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -16957,10 +17076,11 @@
     }
   },
   {
+    "id": "Loth/Fetch",
     "uniqueName": "Loth/BeastFriend/Fetch",
     "descriptionKey": "RandomEvents/Loth/BeastFriend/Fetch/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Fetch",
     "isReocurring": false,
     "chanceOfHappening": 0.45,
@@ -17111,10 +17231,11 @@
     }
   },
   {
+    "id": "Loth/LitterOfPuppies",
     "uniqueName": "Loth/BeastFriend/LitterOfPuppies",
     "descriptionKey": "RandomEvents/Loth/BeastFriend/LitterOfPuppies/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "LitterOfPuppies",
     "isReocurring": false,
     "chanceOfHappening": 0.015,
@@ -17204,10 +17325,11 @@
     }
   },
   {
+    "id": "Loth/BirthdayPresents",
     "uniqueName": "Loth/BirthdayPresents",
     "descriptionKey": "RandomEvents/Loth/BirthdayPresents/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BirthdayPresents",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -17456,10 +17578,11 @@
     }
   },
   {
+    "id": "Loth/CatchAWolf",
     "uniqueName": "Loth/Wolves/CatchAWolf",
     "descriptionKey": "RandomEvents/Loth/Wolves/CatchAWolf/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "CatchAWolf",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -17569,10 +17692,11 @@
     }
   },
   {
+    "id": "Loth/Howling",
     "uniqueName": "Loth/Wolves/Howling",
     "descriptionKey": "RandomEvents/Loth/Wolves/Howling/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Howling",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -17723,10 +17847,11 @@
     }
   },
   {
+    "id": "Loth/HuntingLore",
     "uniqueName": "Loth/Wolves/HuntingLore",
     "descriptionKey": "RandomEvents/Loth/Wolves/HuntingLore/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "HuntingLore",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -17846,10 +17971,11 @@
     }
   },
   {
+    "id": "Loth/TrackingAWolf",
     "uniqueName": "Loth/Wolves/TrackingAWolf",
     "descriptionKey": "RandomEvents/Loth/Wolves/TrackingAWolf/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TrackingAWolf",
     "isReocurring": false,
     "chanceOfHappening": 0.75,
@@ -17959,10 +18085,11 @@
     }
   },
   {
+    "id": "Loth/PumpkinHarvest",
     "uniqueName": "Loth/Autumn/PumpkinHarvest",
     "descriptionKey": "RandomEvents/Loth/Autumn/PumpkinHarvest/Description",
     "faction": "Loth",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "PumpkinHarvest",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -18175,10 +18302,11 @@
     }
   },
   {
+    "id": "Loth/CornMaze",
     "uniqueName": "Loth/Autumn/CornMaze",
     "descriptionKey": "RandomEvents/Loth/Autumn/CornMaze/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "CornMaze",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -18293,10 +18421,11 @@
     }
   },
   {
+    "id": "Loth/Fireworks",
     "uniqueName": "Loth/Autumn/Fireworks",
     "descriptionKey": "RandomEvents/Loth/Autumn/Fireworks/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Fireworks",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -18416,10 +18545,11 @@
     }
   },
   {
+    "id": "Loth/HarvestFestival",
     "uniqueName": "Loth/Autumn/HarvestFestival",
     "descriptionKey": "RandomEvents/Loth/Autumn/HarvestFestival/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "HarvestFestival",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -18522,10 +18652,11 @@
     }
   },
   {
+    "id": "Loth/Sabotage",
     "uniqueName": "Loth/Autumn/Sabotage",
     "descriptionKey": "RandomEvents/Loth/Autumn/Sabotage/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Sabotage",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -18628,10 +18759,11 @@
     }
   },
   {
+    "id": "Loth/Scarecrows",
     "uniqueName": "Loth/Autumn/Scarecrows",
     "descriptionKey": "RandomEvents/Loth/Autumn/Scarecrows/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Scarecrows",
     "isReocurring": false,
     "chanceOfHappening": 0.45,
@@ -18831,10 +18963,11 @@
     }
   },
   {
+    "id": "Loth/Rockfall",
     "uniqueName": "Loth/Rockfall",
     "descriptionKey": "RandomEvents/Loth/Rockfall/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Rockfall",
     "isReocurring": false,
     "chanceOfHappening": 0.12,
@@ -18944,10 +19077,11 @@
     }
   },
   {
+    "id": "Loth/AGreatHemlock",
     "uniqueName": "Loth/AGreatHemlock",
     "descriptionKey": "RandomEvents/Loth/AGreatHemlock/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AGreatHemlock",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -19050,10 +19184,11 @@
     }
   },
   {
+    "id": "Loth/Comet",
     "uniqueName": "Loth/CelestialEvent/Comet",
     "descriptionKey": "RandomEvents/Loth/CelestialEvent/Comet/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Comet",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -19192,10 +19327,11 @@
     }
   },
   {
+    "id": "Loth/Crater",
     "uniqueName": "Loth/CelestialEvent/Crater",
     "descriptionKey": "RandomEvents/Loth/CelestialEvent/Crater/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Crater",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -19298,10 +19434,11 @@
     }
   },
   {
+    "id": "Loth/Prediction",
     "uniqueName": "Loth/CelestialEvent/Prediction",
     "descriptionKey": "RandomEvents/Loth/CelestialEvent/Prediction/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Prediction",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -19404,10 +19541,11 @@
     }
   },
   {
+    "id": "Loth/FaeyFable",
     "uniqueName": "Loth/FaeyWarning/FaeyFable",
     "descriptionKey": "RandomEvents/Loth/FaeyWarning/FaeyFable/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "FaeyFable",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -19527,10 +19665,11 @@
     }
   },
   {
+    "id": "Loth/FaeyFeast",
     "uniqueName": "Loth/FaeyWarning/FaeyFeast",
     "descriptionKey": "RandomEvents/Loth/FaeyWarning/FaeyFeast/Description",
     "faction": "Loth",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "FaeyFeast",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -19838,10 +19977,11 @@
     }
   },
   {
+    "id": "Loth/FaeyMusic",
     "uniqueName": "Loth/FaeyWarning/FaeyMusic",
     "descriptionKey": "RandomEvents/Loth/FaeyWarning/FaeyMusic/Description",
     "faction": "Loth",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "FaeyMusic",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -20198,10 +20338,11 @@
     }
   },
   {
+    "id": "Loth/FaeyTricks",
     "uniqueName": "Loth/FaeyWarning/FaeyTricks",
     "descriptionKey": "RandomEvents/Loth/FaeyWarning/FaeyTricks/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "FaeyTricks",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -20395,10 +20536,11 @@
     }
   },
   {
+    "id": "Loth/HorrorofElmshire",
     "uniqueName": "Loth/FaeyWarning/HorrorofElmshire",
     "descriptionKey": "RandomEvents/Loth/FaeyWarning/HorrorofElmshire/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "HorrorofElmshire",
     "isReocurring": false,
     "chanceOfHappening": 0.5,
@@ -20647,10 +20789,11 @@
     }
   },
   {
+    "id": "Loth/PeaceAtLast",
     "uniqueName": "Loth/PeaceAtLast",
     "descriptionKey": "RandomEvents/Loth/PeaceAtLast/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "PeaceAtLast",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -20777,10 +20920,11 @@
     }
   },
   {
+    "id": "Loth/AnUnjustCause",
     "uniqueName": "Loth/Reputation/AnUnjustCause",
     "descriptionKey": "RandomEvents/Loth/Reputation/AnUnjustCause/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "AnUnjustCause",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -20919,10 +21063,11 @@
     }
   },
   {
+    "id": "Loth/StrongArmor",
     "uniqueName": "Loth/Reputation/StrongArmor",
     "descriptionKey": "RandomEvents/Loth/Reputation/StrongArmor/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "StrongArmor",
     "isReocurring": false,
     "chanceOfHappening": 0.6,
@@ -21098,10 +21243,11 @@
     }
   },
   {
+    "id": "Loth/Debate",
     "uniqueName": "Loth/SignsOfAurelia/Debate",
     "descriptionKey": "RandomEvents/Loth/SignsOfAurelia/Debate/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Debate",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -21211,10 +21357,11 @@
     }
   },
   {
+    "id": "Loth/DoubleRainbow",
     "uniqueName": "Loth/SignsOfAurelia/DoubleRainbow",
     "descriptionKey": "RandomEvents/Loth/SignsOfAurelia/DoubleRainbow/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "DoubleRainbow",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -21334,10 +21481,11 @@
     }
   },
   {
+    "id": "Loth/Pamphlet",
     "uniqueName": "Loth/SignsOfAurelia/Pamphlet",
     "descriptionKey": "RandomEvents/Loth/SignsOfAurelia/Pamphlet/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Pamphlet",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -21440,10 +21588,11 @@
     }
   },
   {
+    "id": "Loth/PuppetMaster",
     "uniqueName": "Loth/TravellingShow/PuppetMaster",
     "descriptionKey": "RandomEvents/Loth/TravellingShow/PuppetMaster/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "PuppetMaster",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -21565,10 +21714,11 @@
     }
   },
   {
+    "id": "Loth/Puppets",
     "uniqueName": "Loth/TravellingShow/Puppets",
     "descriptionKey": "RandomEvents/Loth/TravellingShow/Puppets/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Puppets",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -21707,10 +21857,11 @@
     }
   },
   {
+    "id": "Loth/PuppetShow",
     "uniqueName": "Loth/TravellingShow/PuppetShow",
     "descriptionKey": "RandomEvents/Loth/TravellingShow/PuppetShow/Description",
     "faction": "Loth",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "PuppetShow",
     "isReocurring": false,
     "chanceOfHappening": 0.04,
@@ -21854,10 +22005,11 @@
     }
   },
   {
+    "id": "Loth/Volunteers",
     "uniqueName": "Loth/Volunteers",
     "descriptionKey": "RandomEvents/Loth/Volunteers/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Volunteers",
     "isReocurring": false,
     "chanceOfHappening": 0.6,
@@ -21991,10 +22143,11 @@
     }
   },
   {
+    "id": "Loth/WhisperingSkull",
     "uniqueName": "Loth/WhisperingSkull",
     "descriptionKey": "RandomEvents/Loth/WhisperingSkull/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "WhisperingSkull",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -22097,10 +22250,11 @@
     }
   },
   {
+    "id": "Loth/AwakentheSleeper",
     "uniqueName": "Loth/AwakentheSleeper",
     "descriptionKey": "RandomEvents/Loth/AwakentheSleeper/Description",
     "faction": "Loth",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AwakentheSleeper",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -22251,10 +22405,11 @@
     }
   },
   {
+    "id": "Barya/TrunkOfBooks",
     "uniqueName": "Barya/Explorers/TrunkOfBooks",
     "descriptionKey": "RandomEvents/Barya/Explorers/TrunkOfBooks/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TrunkOfBooks",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -22357,10 +22512,11 @@
     }
   },
   {
+    "id": "Barya/TheApprenticeMapMaker",
     "uniqueName": "Barya/Explorers/TheApprenticeMapMaker",
     "descriptionKey": "RandomEvents/Barya/Explorers/TheApprenticeMapMaker/Description",
     "faction": "Barya",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "TheApprenticeMapMaker",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -22566,10 +22722,11 @@
     }
   },
   {
+    "id": "Barya/BirthdayPresents",
     "uniqueName": "Barya/BirthdayPresents",
     "descriptionKey": "RandomEvents/Barya/BirthdayPresents/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BirthdayPresents",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -22672,10 +22829,11 @@
     }
   },
   {
+    "id": "Barya/BrightSunnyDay",
     "uniqueName": "Barya/BrightSunnyDay",
     "descriptionKey": "RandomEvents/Barya/BrightSunnyDay/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BrightSunnyDay",
     "isReocurring": false,
     "chanceOfHappening": 0.08,
@@ -22863,10 +23021,11 @@
     }
   },
   {
+    "id": "Barya/DustDevil",
     "uniqueName": "Barya/DesertWind/DustDevil",
     "descriptionKey": "RandomEvents/Barya/DesertWind/DustDevil/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "DustDevil",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -22986,10 +23145,11 @@
     }
   },
   {
+    "id": "Barya/MovingSands",
     "uniqueName": "Barya/DesertWind/MovingSands",
     "descriptionKey": "RandomEvents/Barya/DesertWind/MovingSands/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "MovingSands",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -23092,10 +23252,11 @@
     }
   },
   {
+    "id": "Barya/FlyAKite",
     "uniqueName": "Barya/FlyAKite",
     "descriptionKey": "RandomEvents/Barya/FlyAKite/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "FlyAKite",
     "isReocurring": false,
     "chanceOfHappening": 0.12,
@@ -23198,10 +23359,11 @@
     }
   },
   {
+    "id": "Barya/LightRain",
     "uniqueName": "Barya/GoodOmens/LightRain",
     "descriptionKey": "RandomEvents/Barya/GoodOmens/LightRain/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "LightRain",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -23304,10 +23466,11 @@
     }
   },
   {
+    "id": "Barya/Rainbows",
     "uniqueName": "Barya/GoodOmens/Rainbows",
     "descriptionKey": "RandomEvents/Barya/GoodOmens/Rainbows/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Rainbows",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -23427,10 +23590,11 @@
     }
   },
   {
+    "id": "Barya/Description",
     "uniqueName": "Barya/GoodOmens/Windfall/Description",
     "descriptionKey": "RandomEvents/Barya/GoodOmens/Windfall/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Description",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -23533,10 +23697,11 @@
     }
   },
   {
+    "id": "Barya/FlashFlood",
     "uniqueName": "Barya/Rain/FlashFlood",
     "descriptionKey": "RandomEvents/Barya/Rain/FlashFlood/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "FlashFlood",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -23639,10 +23804,11 @@
     }
   },
   {
+    "id": "Barya/RecedingWaters",
     "uniqueName": "Barya/Rain/RecedingWaters",
     "descriptionKey": "RandomEvents/Barya/Rain/RecedingWaters/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RecedingWaters",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -23964,10 +24130,11 @@
     }
   },
   {
+    "id": "Barya/TinkeringWithTheOre",
     "uniqueName": "Barya/TinkeringWithTheOre",
     "descriptionKey": "RandomEvents/Barya/TinkeringWithTheOre/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TinkeringWithTheOre",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -24167,10 +24334,11 @@
     }
   },
   {
+    "id": "Barya/Wreckage",
     "uniqueName": "Barya/NewGunPowder/Wreckage",
     "descriptionKey": "RandomEvents/Barya/NewGunPowder/Wreckage/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Wreckage",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -24273,10 +24441,11 @@
     }
   },
   {
+    "id": "Barya/Dowsing",
     "uniqueName": "Barya/Dowsing",
     "descriptionKey": "RandomEvents/Barya/Dowsing/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Dowsing",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -24379,10 +24548,11 @@
     }
   },
   {
+    "id": "Barya/EarlyRiser",
     "uniqueName": "Barya/MechanicalBird/EarlyRiser",
     "descriptionKey": "RandomEvents/Barya/MechanicalBird/EarlyRiser/Description",
     "faction": "Barya",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "EarlyRiser",
     "isReocurring": false,
     "chanceOfHappening": 0.5,
@@ -24497,10 +24667,11 @@
     }
   },
   {
+    "id": "Barya/Gifts",
     "uniqueName": "Barya/MechanicalBird/Gifts",
     "descriptionKey": "RandomEvents/Barya/MechanicalBird/Gifts/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Gifts",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -24628,10 +24799,11 @@
     }
   },
   {
+    "id": "Barya/Training",
     "uniqueName": "Barya/MechanicalBird/Training",
     "descriptionKey": "RandomEvents/Barya/MechanicalBird/Training/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Training",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -24746,10 +24918,11 @@
     }
   },
   {
+    "id": "Barya/NewFormula",
     "uniqueName": "Barya/NewGunPowder/NewFormula",
     "descriptionKey": "RandomEvents/Barya/NewGunPowder/NewFormula/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "NewFormula",
     "isReocurring": false,
     "chanceOfHappening": 0.75,
@@ -24859,10 +25032,11 @@
     }
   },
   {
+    "id": "Barya/Rifle",
     "uniqueName": "Barya/NewGunPowder/Rifle",
     "descriptionKey": "RandomEvents/Barya/NewGunPowder/Rifle/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Rifle",
     "isReocurring": false,
     "chanceOfHappening": 0.6,
@@ -24989,10 +25163,11 @@
     }
   },
   {
+    "id": "Barya/Workshop",
     "uniqueName": "Barya/NewGunPowder/Workshop",
     "descriptionKey": "RandomEvents/Barya/NewGunPowder/Workshop/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Workshop",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -25095,10 +25270,11 @@
     }
   },
   {
+    "id": "Barya/NotHandledWithCare",
     "uniqueName": "Barya/NewGunPowder/NotHandledWithCare",
     "descriptionKey": "RandomEvents/Barya/NewGunPowder/NotHandledWithCare/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "NotHandledWithCare",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -25230,10 +25406,11 @@
     }
   },
   {
+    "id": "Barya/AGiftOfSight",
     "uniqueName": "Barya/Sight/AGiftOfSight",
     "descriptionKey": "RandomEvents/Barya/Sight/AGiftOfSight/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AGiftOfSight",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -25482,10 +25659,11 @@
     }
   },
   {
+    "id": "Barya/PlagueOfLocusts",
     "uniqueName": "Barya/Sight/PlagueOfLocusts",
     "descriptionKey": "RandomEvents/Barya/Sight/PlagueOfLocusts/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "PlagueOfLocusts",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -25605,10 +25783,11 @@
     }
   },
   {
+    "id": "Barya/Seeress",
     "uniqueName": "Barya/Sight/Seeress",
     "descriptionKey": "RandomEvents/Barya/Sight/Seeress/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Seeress",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -25711,10 +25890,11 @@
     }
   },
   {
+    "id": "Barya/Talent",
     "uniqueName": "Barya/Sight/Talent",
     "descriptionKey": "RandomEvents/Barya/Sight/Talent/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Talent",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -25834,10 +26014,11 @@
     }
   },
   {
+    "id": "Barya/Cubs",
     "uniqueName": "Barya/Dreath/Cubs",
     "descriptionKey": "RandomEvents/Barya/Dreath/Cubs/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Cubs",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -25947,10 +26128,11 @@
     }
   },
   {
+    "id": "Barya/Disease",
     "uniqueName": "Barya/Dreath/Disease",
     "descriptionKey": "RandomEvents/Barya/Dreath/Disease/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Disease",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -26077,10 +26259,11 @@
     }
   },
   {
+    "id": "Barya/Expedition",
     "uniqueName": "Barya/Dreath/Expedition",
     "descriptionKey": "RandomEvents/Barya/Dreath/Expedition/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Expedition",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -26212,10 +26395,11 @@
     }
   },
   {
+    "id": "Barya/MerchantCouncil",
     "uniqueName": "Barya/Freedom/MerchantCouncil",
     "descriptionKey": "RandomEvents/Barya/Freedom/MerchantCouncil/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "MerchantCouncil",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -26330,10 +26514,11 @@
     }
   },
   {
+    "id": "Barya/Alliance",
     "uniqueName": "Barya/Freedom/Alliance",
     "descriptionKey": "RandomEvents/Barya/Freedom/Alliance/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Alliance",
     "isReocurring": false,
     "chanceOfHappening": 0.5,
@@ -26669,10 +26854,11 @@
     }
   },
   {
+    "id": "Barya/Festival",
     "uniqueName": "Barya/Freedom/Festival",
     "descriptionKey": "RandomEvents/Barya/Freedom/Festival/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Festival",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -26775,10 +26961,11 @@
     }
   },
   {
+    "id": "Barya/Mergers",
     "uniqueName": "Barya/Freedom/Mergers",
     "descriptionKey": "RandomEvents/Barya/Freedom/Mergers/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Mergers",
     "isReocurring": false,
     "chanceOfHappening": 0.25,
@@ -26893,10 +27080,11 @@
     }
   },
   {
+    "id": "Barya/GoldenEagle",
     "uniqueName": "Barya/GoldenEagle",
     "descriptionKey": "RandomEvents/Barya/GoldenEagle/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "GoldenEagle",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -26999,10 +27187,11 @@
     }
   },
   {
+    "id": "Barya/BirdSign",
     "uniqueName": "Barya/HarimaFolklore/BirdSign",
     "descriptionKey": "RandomEvents/Barya/HarimaFolklore/BirdSign/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BirdSign",
     "isReocurring": false,
     "chanceOfHappening": 0.08,
@@ -27142,10 +27331,11 @@
     }
   },
   {
+    "id": "Barya/GreatHornedOwl",
     "uniqueName": "Barya/HarimaFolklore/GreatHornedOwl",
     "descriptionKey": "RandomEvents/Barya/HarimaFolklore/GreatHornedOwl/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "GreatHornedOwl",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -27386,10 +27576,11 @@
     }
   },
   {
+    "id": "Barya/Reprieve",
     "uniqueName": "Barya/HarimaFolklore/Reprieve",
     "descriptionKey": "RandomEvents/Barya/HarimaFolklore/Reprieve/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Reprieve",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -27492,10 +27683,11 @@
     }
   },
   {
+    "id": "Barya/ADeadMerchant",
     "uniqueName": "Barya/LastWilll/ADeadMerchant",
     "descriptionKey": "RandomEvents/Barya/LastWilll/ADeadMerchant/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ADeadMerchant",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -27671,10 +27863,11 @@
     }
   },
   {
+    "id": "Barya/ArleonCousin",
     "uniqueName": "Barya/LastWill/ArleonCousin",
     "descriptionKey": "RandomEvents/Barya/LastWill/ArleonCousin/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ArleonCousin",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -27790,10 +27983,11 @@
     }
   },
   {
+    "id": "Barya/PaidMourners",
     "uniqueName": "Barya/LastWill/PaidMourners",
     "descriptionKey": "RandomEvents/Barya/LastWill/PaidMourners/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "PaidMourners",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -27913,10 +28107,11 @@
     }
   },
   {
+    "id": "Barya/Opal",
     "uniqueName": "Barya/Opal",
     "descriptionKey": "RandomEvents/Barya/Opal/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Opal",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -28019,10 +28214,11 @@
     }
   },
   {
+    "id": "Barya/BiddingWar",
     "uniqueName": "Barya/Parade/BiddingWar",
     "descriptionKey": "RandomEvents/Barya/Parade/BiddingWar/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "BiddingWar",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -28142,10 +28338,11 @@
     }
   },
   {
+    "id": "Barya/Recruitment",
     "uniqueName": "Barya/Parade/Recruitment",
     "descriptionKey": "RandomEvents/Barya/Parade/Recruitment/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Recruitment",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -28255,10 +28452,11 @@
     }
   },
   {
+    "id": "Barya/Precision",
     "uniqueName": "Barya/Parade/Precision",
     "descriptionKey": "RandomEvents/Barya/Parade/Precision/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Precision",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -28434,10 +28632,11 @@
     }
   },
   {
+    "id": "Barya/Composition",
     "uniqueName": "Barya/PipeMusic/Composition",
     "descriptionKey": "RandomEvents/Barya/PipeMusic/Composition/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Composition",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -28552,10 +28751,11 @@
     }
   },
   {
+    "id": "Barya/Drafting",
     "uniqueName": "Barya/PipeMusic/Drafting",
     "descriptionKey": "RandomEvents/Barya/PipeMusic/Drafting/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Drafting",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -28682,10 +28882,11 @@
     }
   },
   {
+    "id": "Barya/TuningFork",
     "uniqueName": "Barya/PipeMusic/TuningFork",
     "descriptionKey": "RandomEvents/Barya/PipeMusic/TuningFork/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TuningFork",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -28795,10 +28996,11 @@
     }
   },
   {
+    "id": "Barya/SuperbTaxCollector",
     "uniqueName": "Barya/SuperbTaxCollector",
     "descriptionKey": "RandomEvents/Barya/SuperbTaxCollector/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SuperbTaxCollector",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -28901,10 +29103,11 @@
     }
   },
   {
+    "id": "Barya/RanaShaman",
     "uniqueName": "Barya/SwampSpawn/RanaShaman",
     "descriptionKey": "RandomEvents/Barya/SwampSpawn/RanaShaman/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RanaShaman",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -29007,10 +29210,11 @@
     }
   },
   {
+    "id": "Barya/SavageRana",
     "uniqueName": "Barya/SwampSpawn/SavageRana",
     "descriptionKey": "RandomEvents/Barya/SavageRana/SwampSpawn/Description",
     "faction": "Barya",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "SavageRana",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -29130,10 +29334,11 @@
     }
   },
   {
+    "id": "Barya/Volunteers",
     "uniqueName": "Barya/Volunteers",
     "descriptionKey": "RandomEvents/Barya/Volunteers/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Volunteers",
     "isReocurring": false,
     "chanceOfHappening": 0.6,
@@ -29267,10 +29472,11 @@
     }
   },
   {
+    "id": "Barya/AwakentheSleeper",
     "uniqueName": "Barya/AwakentheSleeper",
     "descriptionKey": "RandomEvents/Barya/AwakentheSleeper/Description",
     "faction": "Barya",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AwakentheSleeper",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
@@ -29421,10 +29627,11 @@
     }
   },
   {
+    "id": "Rana/Mushrooms",
     "uniqueName": "Rana/Fungi/Mushrooms",
     "descriptionKey": "RandomEvents/Rana/Fungi/Mushrooms/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Mushrooms",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -29527,10 +29734,11 @@
     }
   },
   {
+    "id": "Rana/Foraging",
     "uniqueName": "Rana/Fungi/Foraging",
     "descriptionKey": "RandomEvents/Rana/Fungi/Foraging/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Foraging",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -29633,10 +29841,11 @@
     }
   },
   {
+    "id": "Rana/PoisonMushroom",
     "uniqueName": "Rana/Fungi/PoisonMushroom",
     "descriptionKey": "RandomEvents/Rana/Fungi/PoisonMushroom/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "PoisonMushroom",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -29739,10 +29948,11 @@
     }
   },
   {
+    "id": "Rana/DeathCaps",
     "uniqueName": "Rana/Fungi/DeathCaps",
     "descriptionKey": "RandomEvents/Rana/Fungi/DeathCaps/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "DeathCaps",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -29845,10 +30055,11 @@
     }
   },
   {
+    "id": "Rana/Nightmares",
     "uniqueName": "Rana/Dreams/Nightmares",
     "descriptionKey": "RandomEvents/Rana/Dreams/Nightmares/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Nightmares",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -29951,10 +30162,11 @@
     }
   },
   {
+    "id": "Rana/DragonDreams",
     "uniqueName": "Rana/DragonDreams",
     "descriptionKey": "RandomEvents/Rana/DragonDreams/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "DragonDreams",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -30057,10 +30269,11 @@
     }
   },
   {
+    "id": "Rana/Comet",
     "uniqueName": "Rana/Comet",
     "descriptionKey": "RandomEvents/Rana/Comet/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Comet",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -30170,10 +30383,11 @@
     }
   },
   {
+    "id": "Rana/Flood",
     "uniqueName": "Rana/Flood",
     "descriptionKey": "RandomEvents/Rana/Flood/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Flood",
     "isReocurring": false,
     "chanceOfHappening": 0.03,
@@ -30422,10 +30636,11 @@
     }
   },
   {
+    "id": "Rana/RelicsOfOld",
     "uniqueName": "Rana/RelicsOfOld",
     "descriptionKey": "RandomEvents/Rana/RelicsOfOld/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RelicsOfOld",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -30613,10 +30828,11 @@
     }
   },
   {
+    "id": "Rana/BrightSunnyDay",
     "uniqueName": "Rana/BrightSunnyDay",
     "descriptionKey": "RandomEvents/Rana/BrightSunnyDay/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BrightSunnyDay",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -30719,10 +30935,11 @@
     }
   },
   {
+    "id": "Rana/Driftwood",
     "uniqueName": "Rana/LifeInTheMarsh/Driftwood",
     "descriptionKey": "RandomEvents/Rana/LifeInTheMarsh/Driftwood/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Driftwood",
     "isReocurring": false,
     "chanceOfHappening": 0.55,
@@ -30849,10 +31066,11 @@
     }
   },
   {
+    "id": "Rana/PitFlood",
     "uniqueName": "Rana/LifeInTheMarsh/PitFlood",
     "descriptionKey": "RandomEvents/Rana/LifeInTheMarsh/PitFlood/Description",
     "faction": "Rana",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "PitFlood",
     "isReocurring": false,
     "chanceOfHappening": 0.55,
@@ -31070,10 +31288,11 @@
     }
   },
   {
+    "id": "Rana/Rainbows",
     "uniqueName": "Rana/LifeInTheMarsh/Rainbows",
     "descriptionKey": "RandomEvents/Rana/LifeInTheMarsh/Rainbows/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Rainbows",
     "isReocurring": false,
     "chanceOfHappening": 0.2,
@@ -31261,10 +31480,11 @@
     }
   },
   {
+    "id": "Rana/TreasureFromTheBog",
     "uniqueName": "Rana/TrunkOfBooks/TreasureFromTheBog",
     "descriptionKey": "RandomEvents/Rana/TrunkOfBooks/TreasureFromTheBog/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TreasureFromTheBog",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -31367,10 +31587,11 @@
     }
   },
   {
+    "id": "Rana/Runes",
     "uniqueName": "Rana/TrunkOfBooks/Runes",
     "descriptionKey": "RandomEvents/Rana/TrunkOfBooks/Runes/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Runes",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -31473,10 +31694,11 @@
     }
   },
   {
+    "id": "Rana/StudyYourEnemy",
     "uniqueName": "Rana/TrunkOfBooks/StudyYourEnemy",
     "descriptionKey": "RandomEvents/Rana/TrunkOfBooks/StudyYourEnemy/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "StudyYourEnemy",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -31579,10 +31801,11 @@
     }
   },
   {
+    "id": "Rana/LightRain",
     "uniqueName": "Rana/LifeInTheMarsh/LightRain",
     "descriptionKey": "RandomEvents/Rana/LifeInTheMarsh/LightRain/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "LightRain",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -31697,10 +31920,11 @@
     }
   },
   {
+    "id": "Rana/Chicken",
     "uniqueName": "Rana/Feathers/Chicken",
     "descriptionKey": "RandomEvents/Rana/Feathers/Chicken/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Chicken",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -31815,10 +32039,11 @@
     }
   },
   {
+    "id": "Rana/Eggs",
     "uniqueName": "Rana/Feathers/Eggs",
     "descriptionKey": "RandomEvents/Rana/Feathers/Eggs/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Eggs",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -31921,10 +32146,11 @@
     }
   },
   {
+    "id": "Rana/VillageFeud",
     "uniqueName": "Rana/Feathers/VillageFeud",
     "descriptionKey": "RandomEvents/Rana/Feathers/VillageFeud/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "VillageFeud",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -32063,10 +32289,11 @@
     }
   },
   {
+    "id": "Rana/ChickenThief",
     "uniqueName": "Rana/Feathers/ChickenThief",
     "descriptionKey": "RandomEvents/Rana/Feathers/ChickenThief/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ChickenThief",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -32388,10 +32615,11 @@
     }
   },
   {
+    "id": "Rana/ChickenCoop",
     "uniqueName": "Rana/Feathers/ChickenCoop",
     "descriptionKey": "RandomEvents/Rana/Feathers/ChickenCoop/Description",
     "faction": "Rana",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "ChickenCoop",
     "isReocurring": false,
     "chanceOfHappening": 0.15,
@@ -32609,10 +32837,11 @@
     }
   },
   {
+    "id": "Rana/BirdFlu",
     "uniqueName": "Rana/Feathers/BirdFlu",
     "descriptionKey": "RandomEvents/Rana/Feathers/BirdFlu/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "BirdFlu",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -32715,10 +32944,11 @@
     }
   },
   {
+    "id": "Rana/BirdStorm",
     "uniqueName": "Rana/Feathers/BirdStorm",
     "descriptionKey": "RandomEvents/Rana/Feathers/BirdStorm/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "BirdStorm",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -32838,10 +33068,11 @@
     }
   },
   {
+    "id": "Rana/FeatheredNest",
     "uniqueName": "Rana/Feathers/FeatheredNest",
     "descriptionKey": "RandomEvents/Rana/Feathers/FeatheredNest/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "FeatheredNest",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -32944,10 +33175,11 @@
     }
   },
   {
+    "id": "Rana/MarshMap",
     "uniqueName": "Rana/TrunkOfBooks/MarshMap",
     "descriptionKey": "RandomEvents/Rana/TrunkOfBooks/MarshMap/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "MarshMap",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -33050,10 +33282,11 @@
     }
   },
   {
+    "id": "Rana/BirthdayPresents",
     "uniqueName": "Rana/BirthdayPresents",
     "descriptionKey": "RandomEvents/Rana/BirthdayPresents/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BirthdayPresents",
     "isReocurring": false,
     "chanceOfHappening": 0.02,
@@ -33375,10 +33608,11 @@
     }
   },
   {
+    "id": "Rana/Trader",
     "uniqueName": "Rana/FairTrade/Trader",
     "descriptionKey": "RandomEvents/Rana/FairTrade/Trader/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Trader",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -33627,10 +33861,11 @@
     }
   },
   {
+    "id": "Rana/Disease",
     "uniqueName": "Rana/FairTrade/Disease",
     "descriptionKey": "RandomEvents/Rana/FairTrade/Disease/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Disease",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -33733,10 +33968,11 @@
     }
   },
   {
+    "id": "Rana/TradersWagon",
     "uniqueName": "Rana/FairTrade/TradersWagon",
     "descriptionKey": "RandomEvents/Rana/FairTrade/TradersWagon/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "TradersWagon",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -33985,10 +34221,11 @@
     }
   },
   {
+    "id": "Rana/MarshLily",
     "uniqueName": "Rana/MarshLily",
     "descriptionKey": "RandomEvents/Rana/MarshLily/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "MarshLily",
     "isReocurring": false,
     "chanceOfHappening": 0.04,
@@ -34091,10 +34328,11 @@
     }
   },
   {
+    "id": "Rana/BogRejects",
     "uniqueName": "Rana/BogRejects",
     "descriptionKey": "RandomEvents/Rana/BogRejects/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "BogRejects",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -34197,10 +34435,11 @@
     }
   },
   {
+    "id": "Rana/AncientRuins",
     "uniqueName": "Rana/AncientHistory/AncientRuins",
     "descriptionKey": "RandomEvents/Rana/AncientHistory/AncientRuins/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AncientRuins",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -34315,10 +34554,11 @@
     }
   },
   {
+    "id": "Rana/AncientMessages",
     "uniqueName": "Rana/AncientHistory/AncientMessages",
     "descriptionKey": "RandomEvents/Rana/AncientHistory/AncientMessages/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AncientMessages",
     "isReocurring": false,
     "chanceOfHappening": 0.55,
@@ -34440,10 +34680,11 @@
     }
   },
   {
+    "id": "Rana/AncientMonument",
     "uniqueName": "Rana/AncientHistory/AncientMonument",
     "descriptionKey": "RandomEvents/Rana/AncientHistory/AncientMonument/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "AncientMonument",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -34546,10 +34787,11 @@
     }
   },
   {
+    "id": "Rana/GiftsFromThePast",
     "uniqueName": "Rana/AncientHistory/GiftsFromThePast",
     "descriptionKey": "RandomEvents/Rana/AncientHistory/GiftsFromThePast/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "GiftsFromThePast",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -34871,10 +35113,11 @@
     }
   },
   {
+    "id": "Rana/NestEgg",
     "uniqueName": "Rana/Ravager/NestEgg",
     "descriptionKey": "RandomEvents/Rana/Ravager/NestEgg/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "NestEgg",
     "isReocurring": false,
     "chanceOfHappening": 0.07,
@@ -34989,10 +35232,11 @@
     }
   },
   {
+    "id": "Rana/Surrogate",
     "uniqueName": "Rana/Ravager/Surrogate",
     "descriptionKey": "RandomEvents/Rana/Ravager/Surrogate/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Surrogate",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -35112,10 +35356,11 @@
     }
   },
   {
+    "id": "Rana/Fury",
     "uniqueName": "Rana/Ravager/Fury",
     "descriptionKey": "RandomEvents/Rana/Ravager/Fury/Description",
     "faction": "Rana",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "Fury",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -35352,10 +35597,11 @@
     }
   },
   {
+    "id": "Rana/ChangingTides",
     "uniqueName": "Rana/SeventhMoon/ChangingTides",
     "descriptionKey": "RandomEvents/Rana/SeventhMoon/ChangingTides/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "ChangingTides",
     "isReocurring": false,
     "chanceOfHappening": 0.05,
@@ -35458,10 +35704,11 @@
     }
   },
   {
+    "id": "Rana/HeavyRains",
     "uniqueName": "Rana/SeventhMoon/HeavyRains",
     "descriptionKey": "RandomEvents/Rana/SeventhMoon/HeavyRains/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "HeavyRains",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -35637,10 +35884,11 @@
     }
   },
   {
+    "id": "Rana/RecedingWaters",
     "uniqueName": "Rana/SeventhMoon/RecedingWaters",
     "descriptionKey": "RandomEvents/Rana/SeventhMoon/RecedingWaters/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "RecedingWaters",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -35743,10 +35991,11 @@
     }
   },
   {
+    "id": "Rana/SaltLick",
     "uniqueName": "Rana/SeventhMoon/SaltLick",
     "descriptionKey": "RandomEvents/Rana/SeventhMoon/SaltLick/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "SaltLick",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -36046,10 +36295,11 @@
     }
   },
   {
+    "id": "Rana/SaltPonds",
     "uniqueName": "Rana/SeventhMoon/SaltPonds",
     "descriptionKey": "RandomEvents/Rana/SeventhMoon/SaltPonds/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SaltPonds",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -36152,10 +36402,11 @@
     }
   },
   {
+    "id": "Rana/Cunning",
     "uniqueName": "Rana/MarshWarfare/Cunning",
     "descriptionKey": "RandomEvents/Rana/MarshWarfare/Cunning/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Cunning",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -36416,10 +36667,11 @@
     }
   },
   {
+    "id": "Rana/Raiders",
     "uniqueName": "Rana/MarshWarfare/Raiders",
     "descriptionKey": "RandomEvents/Rana/MarshWarfare/Raiders/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Raiders",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -36727,10 +36979,11 @@
     }
   },
   {
+    "id": "Rana/Rescue",
     "uniqueName": "Rana/MarshWarfare/Rescue",
     "descriptionKey": "RandomEvents/Rana/MarshWarfare/Rescue/Description",
     "faction": "Rana",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "Rescue",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -36919,10 +37172,11 @@
     }
   },
   {
+    "id": "Rana/Revenge",
     "uniqueName": "Rana/MarshWarfare/Revenge",
     "descriptionKey": "RandomEvents/Rana/MarshWarfare/Revenge/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Revenge",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -37037,10 +37291,11 @@
     }
   },
   {
+    "id": "Rana/Slavers",
     "uniqueName": "Rana/MarshWarfare/Slavers",
     "descriptionKey": "RandomEvents/Rana/MarshWarfare/Slavers/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "Slavers",
     "isReocurring": false,
     "chanceOfHappening": 0.4,
@@ -37179,10 +37434,11 @@
     }
   },
   {
+    "id": "Rana/Herbology",
     "uniqueName": "Rana/Herbology",
     "descriptionKey": "RandomEvents/Rana/Herbology/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Herbology",
     "isReocurring": false,
     "chanceOfHappening": 0.06,
@@ -37285,10 +37541,11 @@
     }
   },
   {
+    "id": "Rana/ASignForTraders",
     "uniqueName": "Rana/FairTrade/ASignForTraders",
     "descriptionKey": "RandomEvents/Rana/FairTrade/ASignForTraders/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "ASignForTraders",
     "isReocurring": false,
     "chanceOfHappening": 0.3,
@@ -37537,10 +37794,11 @@
     }
   },
   {
+    "id": "Rana/ForeignGoods",
     "uniqueName": "Rana/FairTrade/ForeignGoods",
     "descriptionKey": "RandomEvents/Rana/FairTrade/ForeignGoods/Description",
     "faction": "Rana",
-    "type": "Bad",
+    "eventType": "Bad",
     "name": "ForeignGoods",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -37691,10 +37949,11 @@
     }
   },
   {
+    "id": "Rana/HigherFences",
     "uniqueName": "Rana/Ravager/HigherFences",
     "descriptionKey": "RandomEvents/Rana/Ravager/HigherFences/Description",
     "faction": "Rana",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "HigherFences",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -37931,10 +38190,11 @@
     }
   },
   {
+    "id": "Rana/Hunger",
     "uniqueName": "Rana/Ravager/Hunger",
     "descriptionKey": "RandomEvents/Rana/Ravager/Hunger/Description",
     "faction": "Rana",
-    "type": "Neutral",
+    "eventType": "Neutral",
     "name": "Hunger",
     "isReocurring": false,
     "chanceOfHappening": 0.35,
@@ -38171,10 +38431,11 @@
     }
   },
   {
+    "id": "Rana/Retribution",
     "uniqueName": "Rana/MarshWarfare/Retribution",
     "descriptionKey": "RandomEvents/Rana/MarshWarfare/Retribution/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "Retribution",
     "isReocurring": false,
     "chanceOfHappening": 0.75,
@@ -38362,10 +38623,11 @@
     }
   },
   {
+    "id": "Rana/SeersWisdom",
     "uniqueName": "Rana/Dreams/SeersWisdom",
     "descriptionKey": "RandomEvents/Rana/Dreams/SeersWisdom/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "SeersWisdom",
     "isReocurring": false,
     "chanceOfHappening": 0.2,
@@ -38541,10 +38803,11 @@
     }
   },
   {
+    "id": "Rana/AwakenTheSleeper",
     "uniqueName": "Rana/AwakenTheSleeper",
     "descriptionKey": "RandomEvents/Rana/AwakenTheSleeper/Description",
     "faction": "Rana",
-    "type": "Good",
+    "eventType": "Good",
     "name": "AwakenTheSleeper",
     "isReocurring": false,
     "chanceOfHappening": 0.1,
