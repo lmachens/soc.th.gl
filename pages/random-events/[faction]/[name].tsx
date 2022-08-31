@@ -85,7 +85,9 @@ export const getStaticProps = withStaticBase(async (context) => {
     chanceOfHappening: getTerm(
       "Adventure/RandomEventsMenu/Details/ChanceOfHappening",
       locale
-    ),
+    )
+      .replace(": {0}%", "")
+      .replace(": {0} %", ""),
     evaluationAND: getTerm(
       "Adventure/RandomEventsMenu/Details/EvaluationType/AND",
       locale
