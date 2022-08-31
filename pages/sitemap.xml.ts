@@ -2,6 +2,7 @@ import { GetServerSideProps } from "next";
 import { ArtifactSimpleDTO, getArtifacts } from "../lib/artifacts";
 import { BuildingSimpleDTO, getBuildings } from "../lib/buildings";
 import { FactionSimpleDTO, getFactions } from "../lib/factions";
+import { getRandomEvents, RandomEventSimpleDTO } from "../lib/randomEvents";
 import { getSkills, SkillSimpleDTO } from "../lib/skills";
 import { getSpells, SpellSimpleDTO } from "../lib/spells";
 import { getUnits, UnitSimpleDTO } from "../lib/units";
@@ -12,6 +13,7 @@ function generateSiteMap(data: {
   artifacts: ArtifactSimpleDTO[];
   buildings: BuildingSimpleDTO[];
   factions: FactionSimpleDTO[];
+  randomEvents: RandomEventSimpleDTO[];
   skills: SkillSimpleDTO[];
   spells: SpellSimpleDTO[];
   units: UnitSimpleDTO[];
@@ -26,10 +28,19 @@ function generateSiteMap(data: {
        <loc>${URL}/artifacts</loc>
      </url>
      <url>
+       <loc>${URL}/buildings</loc>
+     </url>
+     <url>
        <loc>${URL}/factions</loc>
      </url>
      <url>
+       <loc>${URL}/random-events</loc>
+     </url>
+     <url>
        <loc>${URL}/skills</loc>
+     </url>
+     <url>
+       <loc>${URL}/spells</loc>
      </url>
      <url>
        <loc>${URL}/units</loc>
@@ -60,6 +71,15 @@ function generateSiteMap(data: {
          return `
           <url>
               <loc>${`${URL}/factions/${faction.type}`}</loc>
+          </url>
+        `;
+       })
+       .join("")}
+     ${data.randomEvents
+       .map((randomEvent) => {
+         return `
+          <url>
+              <loc>${`${URL}/random-events/${randomEvent.id}`}</loc>
           </url>
         `;
        })
@@ -113,6 +133,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const artifacts = getArtifacts(locale);
   const buildings = getBuildings(locale);
   const factions = getFactions(locale);
+  const randomEvents = getRandomEvents(locale);
   const skills = getSkills(locale);
   const spells = getSpells(locale);
   const units = getUnits(locale);
@@ -122,6 +143,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     artifacts,
     buildings,
     factions,
+    randomEvents,
     skills,
     spells,
     units,
