@@ -1,6 +1,6 @@
 import { GetStaticPaths, NextPage } from "next";
 
-import { Group, Stack, Title } from "@mantine/core";
+import { Group, Stack, Table, Text, Title } from "@mantine/core";
 import {
   getRandomEvent,
   getRandomEvents,
@@ -26,11 +26,38 @@ const RandomEvent: NextPage<{ randomEvent: RandomEventDTO }> = ({
       <Stack align="flex-start">
         <Group>
           <Stack spacing="xs">
-            {terms.faction}: {randomEvent.factionName}
             <Title order={2}>{randomEvent.name}</Title>
-            {randomEvent.description && <Lore text={randomEvent.description} />}
+            <Text>{randomEvent.factionName}</Text>
+            <Lore text={randomEvent.description} />
           </Stack>
         </Group>
+        <Table>
+          <tbody>
+            <tr>
+              <td>{terms.chanceOfHappening}</td>
+              <td>{randomEvent.chanceOfHappening * 100}%</td>
+            </tr>
+            <tr>
+              <td>Event Chain Name</td>
+              <td>{randomEvent.eventChainName}</td>
+            </tr>
+            <tr>
+              <td>Requirements</td>
+              <td>
+                <Text color="dimmed">
+                  {randomEvent.requirementEvaluationType === "AND"
+                    ? terms.evaluationAND
+                    : terms.evaluationOR}
+                </Text>
+                {randomEvent.requirements.map((requirement) => (
+                  <Text key={requirement.requirementType}>
+                    {requirement.requirementType}
+                  </Text>
+                ))}
+              </td>
+            </tr>
+          </tbody>
+        </Table>
       </Stack>
     </>
   );
@@ -51,6 +78,18 @@ export const getStaticProps = withStaticBase(async (context) => {
   }
 
   const terms: TermsDTO = {
+    chanceOfHappening: getTerm(
+      "Adventure/RandomEventsMenu/Details/ChanceOfHappening",
+      locale
+    ),
+    evaluationAND: getTerm(
+      "Adventure/RandomEventsMenu/Details/EvaluationType/AND",
+      locale
+    ),
+    evaluationOR: getTerm(
+      "Adventure/RandomEventsMenu/Details/EvaluationType/OR",
+      locale
+    ),
     faction: getTerm("Adventure/TeamQueueHUD/Faction", locale),
   };
 
