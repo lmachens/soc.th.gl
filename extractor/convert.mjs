@@ -721,6 +721,8 @@ function analyzeRandomEvents(randomEventsSrc) {
         return {
           eventReference: requirement.eventReference,
           value: requirement.value,
+          factionIndex: requirement.factionIndex,
+          unitIndex: requirement.unitIndex,
           resourceType: resourceTypes[requirement.resourceType],
           artifactType: artifactTypes[requirement.artifactType],
           entityType: adventureMapEntity && {

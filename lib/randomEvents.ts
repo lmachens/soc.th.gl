@@ -166,6 +166,7 @@ export const getRandomEvent = (
         case "RecipientEquippedArtifact":
           requirementPlaceholder.push(
             randomEventSrc.eventRecipient,
+            // @ts-ignore (No event like this exists yet)
             requirement.artifactType
           );
           break;

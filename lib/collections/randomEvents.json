@@ -21,6 +21,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -132,6 +134,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -243,6 +247,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -255,6 +261,8 @@
           "uniqueName": null
         },
         "value": 20,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Wood",
         "artifactType": "Crossbow",
         "entityType": {
@@ -367,6 +375,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -379,6 +389,8 @@
           "uniqueName": null
         },
         "value": 20000,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -636,6 +648,8 @@
           "uniqueName": null
         },
         "value": 1500,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -746,6 +760,8 @@
           "uniqueName": null
         },
         "value": 30,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -757,6 +773,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -940,6 +958,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -1050,6 +1070,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "MapEntities/ResourceGenerator/Gold"
@@ -1161,6 +1183,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "MapEntities/ResourceGenerator/Gold"
@@ -1271,6 +1295,8 @@
           "uniqueName": null
         },
         "value": 30,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -1282,6 +1308,8 @@
           "uniqueName": null
         },
         "value": 45,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -1392,6 +1420,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -1403,6 +1433,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -1415,6 +1447,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -1526,6 +1560,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Tavern"
@@ -1537,6 +1573,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -1548,6 +1586,8 @@
           "uniqueName": null
         },
         "value": 15,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -1658,6 +1698,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -1914,6 +1956,8 @@
           "uniqueName": null
         },
         "value": 8,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -2025,6 +2069,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -2283,6 +2329,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -2394,6 +2442,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -2723,6 +2773,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -2850,6 +2902,8 @@
           "uniqueName": null
         },
         "value": 4,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -3033,6 +3087,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -3143,6 +3199,8 @@
           "uniqueName": "Arleon/MysteriousMist/Mist"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -3326,6 +3384,8 @@
           "uniqueName": "Arleon/Hunger/SquirrelHunters"
         },
         "value": 4,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -3337,6 +3397,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -3448,6 +3510,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -3559,6 +3623,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -3669,6 +3735,8 @@
           "uniqueName": null
         },
         "value": 15,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -3779,6 +3847,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -3889,6 +3959,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -3999,6 +4071,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -4109,6 +4183,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -4219,6 +4295,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/FaeyGrove"
@@ -4330,6 +4408,8 @@
           "uniqueName": "Arleon/Inheritance/ADeadCousin"
         },
         "value": 5,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -4441,6 +4521,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -4452,6 +4534,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Tavern"
@@ -4562,6 +4646,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Lumbermill"
@@ -4672,6 +4758,8 @@
           "uniqueName": null
         },
         "value": 20,
+        "factionIndex": 1,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -4782,6 +4870,8 @@
           "uniqueName": null
         },
         "value": 40,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -4892,6 +4982,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -4903,6 +4995,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5013,6 +5107,8 @@
           "uniqueName": null
         },
         "value": 30,
+        "factionIndex": 1,
+        "unitIndex": 6,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5123,6 +5219,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5134,6 +5232,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5244,6 +5344,8 @@
           "uniqueName": null
         },
         "value": 25,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5255,6 +5357,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5365,6 +5469,8 @@
           "uniqueName": null
         },
         "value": 20,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5376,6 +5482,8 @@
           "uniqueName": null
         },
         "value": 20,
+        "factionIndex": 1,
+        "unitIndex": 4,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5486,6 +5594,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5497,6 +5607,8 @@
           "uniqueName": null
         },
         "value": 50,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5607,6 +5719,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5717,6 +5831,8 @@
           "uniqueName": null
         },
         "value": 20,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5728,6 +5844,8 @@
           "uniqueName": null
         },
         "value": 50,
+        "factionIndex": 1,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -5839,6 +5957,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -5851,6 +5971,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -6181,6 +6303,8 @@
           "uniqueName": null
         },
         "value": 7,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -6192,6 +6316,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -6321,6 +6447,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Marketplace"
@@ -6332,6 +6460,8 @@
           "uniqueName": "Arleon/MarketTrade/MarketDay"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -6442,6 +6572,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Marketplace"
@@ -6453,6 +6585,8 @@
           "uniqueName": "Arleon/MarketTrade/Merchants"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -6662,6 +6796,8 @@
           "uniqueName": "Arleon/GoldenEgg/PrizeHen"
         },
         "value": 3,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -6791,6 +6927,8 @@
           "uniqueName": "Arleon/GoldenEgg/TheGoldenHen"
         },
         "value": 3,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -6902,6 +7040,8 @@
           "uniqueName": "Arleon/ForeignTrade/BaryanMerchant"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7029,6 +7169,8 @@
           "uniqueName": "Arleon/Outlaw/PockedMan"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7040,6 +7182,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Tavern"
@@ -7051,6 +7195,8 @@
           "uniqueName": "Arleon/Outlaw/CatchingTheThief"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7178,6 +7324,8 @@
           "uniqueName": "Arleon/Outlaw/Thievery"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7189,6 +7337,8 @@
           "uniqueName": null
         },
         "value": 20000,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7200,6 +7350,8 @@
           "uniqueName": "Arleon/Outlaw/CatchingTheThief"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7327,6 +7479,8 @@
           "uniqueName": "Arleon/Outlaw/DeadInnkeeper"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7338,6 +7492,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/GuardTower"
@@ -7448,6 +7604,8 @@
           "uniqueName": "Arleon/SwampDweller/RanaCurse"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7575,6 +7733,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7702,6 +7862,8 @@
           "uniqueName": null
         },
         "value": 8,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7713,6 +7875,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7840,6 +8004,8 @@
           "uniqueName": "Arleon/Hunger/Famine"
         },
         "value": 8,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7851,6 +8017,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -7961,6 +8129,8 @@
           "uniqueName": "Arleon/ForeignTrade/AMerchantsDemands"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -8088,6 +8258,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Tavern"
@@ -8289,6 +8461,8 @@
           "uniqueName": "Arleon/Troubadour/ADuelOfWits"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -8300,6 +8474,8 @@
           "uniqueName": "Arleon/Troubadour/MilksTeethWins"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -8410,6 +8586,8 @@
           "uniqueName": "Arleon/Troubadour/ADuelOfWits"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -8421,6 +8599,8 @@
           "uniqueName": "Arleon/Troubadour/TheStubbornTankardWins"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -8531,6 +8711,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -8642,6 +8824,8 @@
           "uniqueName": "Arleon/FlowerMarket/Wildflowers"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -8771,6 +8955,8 @@
           "uniqueName": "Arleon/FlowerMarket/BeeHives"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -8900,6 +9086,8 @@
           "uniqueName": "Arleon/FlowerMarket/Allergies"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9012,6 +9200,8 @@
           "uniqueName": "Arleon/FlowerMarket/Bees"
         },
         "value": 0,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9123,6 +9313,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9234,6 +9426,8 @@
           "uniqueName": null
         },
         "value": 4,
+        "factionIndex": 1,
+        "unitIndex": 4,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9246,6 +9440,8 @@
           "uniqueName": "Arleon/TrunkofBooks/CollectionOfPoetry"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9258,6 +9454,8 @@
           "uniqueName": "Arleon/TrunkOfBooks/HowToDraw"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9270,6 +9468,8 @@
           "uniqueName": "Arleon/TrunkOfBooks/TheHistoryofArleon"
         },
         "value": 0,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9381,6 +9581,8 @@
           "uniqueName": "Arleon/TrunkofBooks/CollectionOfPoetry"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9393,6 +9595,8 @@
           "uniqueName": "Arleon/TrunkOfBooks/HowToDraw"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9405,6 +9609,8 @@
           "uniqueName": "Arleon/TrunkOfBooks/General'sJournal"
         },
         "value": 0,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9516,6 +9722,8 @@
           "uniqueName": "Arleon/TrunkOfBooks/RareKnowledge"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9627,6 +9835,8 @@
           "uniqueName": "Arleon/TrunkOfBooks/RomanceNovel"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9745,6 +9955,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 1,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9757,6 +9969,8 @@
           "uniqueName": "Arleon/TrunkofBooks/CollectionOfPoetry"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9769,6 +9983,8 @@
           "uniqueName": "Arleon/TrunkOfBooks/General'sJournal"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9781,6 +9997,8 @@
           "uniqueName": "Arleon/TrunkOfBooks/TheHistoryofArleon"
         },
         "value": 0,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -9892,6 +10110,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -10094,6 +10314,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -10222,6 +10444,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -10332,6 +10556,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Marketplace"
@@ -10442,6 +10668,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -10844,6 +11072,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -11100,6 +11330,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Stone",
         "artifactType": "Crossbow",
         "entityType": {
@@ -11112,6 +11344,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -11124,6 +11358,8 @@
           "uniqueName": "Arleon/OminousWeather/DarkClouds"
         },
         "value": 56,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -11136,6 +11372,8 @@
           "uniqueName": "Arleon/OminousWeather/Thunder"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -11338,6 +11576,8 @@
           "uniqueName": "Arleon/OminousWeather/DarkClouds"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -11350,6 +11590,8 @@
           "uniqueName": "Arleon/OminousWeather/Lightning"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -11552,6 +11794,8 @@
           "uniqueName": "Arleon/CurseOnTheLand/Heatwave"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -11680,6 +11924,8 @@
           "uniqueName": "Arleon/CurseOnTheLand/Malcontent"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -11979,6 +12225,8 @@
           "uniqueName": "Arleon/UncommonThief/Pickpocket"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -12107,6 +12355,8 @@
           "uniqueName": "Arleon/UncommonThief/ThiefInOurMidst"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -12325,6 +12575,8 @@
           "uniqueName": "Arleon/UncommonThief/ACunningPlan"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -12436,6 +12688,8 @@
           "uniqueName": null
         },
         "value": 4,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -12448,6 +12702,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -12460,6 +12716,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -12588,6 +12846,8 @@
           "uniqueName": "Arleon/Curses/Nornor"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -12698,6 +12958,8 @@
           "uniqueName": "Arleon/Curses/StomachPain"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -13027,6 +13289,8 @@
           "uniqueName": null
         },
         "value": 8,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -13137,6 +13401,8 @@
           "uniqueName": "Arleon/ThiefInOurMidst"
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13149,6 +13415,8 @@
           "uniqueName": "Arleon/ThiefInOurMidst"
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13161,6 +13429,8 @@
           "uniqueName": "Arleon/ThiefInOurMidst"
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13272,6 +13542,8 @@
           "uniqueName": "Arleon/ThiefInOurMidst"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13284,6 +13556,8 @@
           "uniqueName": "Arleon/Orchard/NewOrchard"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13412,6 +13686,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13424,6 +13700,8 @@
           "uniqueName": "Arleon/Orchard/Peaches"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13615,6 +13893,8 @@
           "uniqueName": "Arleon/Orchard/PeachPies"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13799,6 +14079,8 @@
           "uniqueName": "Arleon/GrandfathersChest/WhisperingSkull"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -13910,6 +14192,8 @@
           "uniqueName": "Arleon/ForeignTrade/MerchantMercenaries"
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Tavern"
@@ -14020,6 +14304,8 @@
           "uniqueName": "Arleon/SwampDweller/RanaShaman"
         },
         "value": 15,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -14130,6 +14416,8 @@
           "uniqueName": "Arleon/SwampDweller/RanaThreat"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -14240,6 +14528,8 @@
           "uniqueName": "Arleon/MysteriousMist/DarkMagic"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -14350,6 +14640,8 @@
           "uniqueName": "Arleon/Curses/DreamOfTheHag"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -14460,6 +14752,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -14472,6 +14766,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -14484,6 +14780,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -14496,6 +14794,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -14508,6 +14808,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -14619,6 +14921,8 @@
           "uniqueName": null
         },
         "value": 10000,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -14630,6 +14934,8 @@
           "uniqueName": "Arleon/Outlaw/DeadInnkeeper"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -14641,6 +14947,8 @@
           "uniqueName": "Arleon/Outlaw/CatchingTheThief"
         },
         "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -14768,6 +15076,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -14780,6 +15090,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 2,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -14891,6 +15203,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -14903,6 +15217,8 @@
           "uniqueName": "Loth/TrunkOfBooks/RareKnowledge"
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -14914,6 +15230,8 @@
           "uniqueName": "Loth/TrunkOfBooks/TaxationReform"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -15105,6 +15423,8 @@
           "uniqueName": null
         },
         "value": 20,
+        "factionIndex": 2,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -15289,6 +15609,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -15399,6 +15721,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -15410,6 +15734,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -15528,6 +15854,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Loth/OathboundCrypt"
@@ -15784,6 +16112,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Loth/Excavation"
@@ -15795,6 +16125,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -15807,6 +16139,8 @@
           "uniqueName": null
         },
         "value": 4,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -16016,6 +16350,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -16217,6 +16553,8 @@
           "uniqueName": null
         },
         "value": 25,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -16228,6 +16566,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -16437,6 +16777,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 4,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -16620,6 +16962,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 2,
+        "unitIndex": 4,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -16730,6 +17074,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -16938,6 +17284,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -16950,6 +17298,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 2,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -17061,6 +17411,8 @@
           "uniqueName": "Loth/TrunkOfBooks/RareKnowledge"
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -17072,6 +17424,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -17183,6 +17537,8 @@
           "uniqueName": "Loth/BeastFriend/LitterOfPuppies"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -17367,6 +17723,8 @@
           "uniqueName": "Loth/BeastFriend/BoneDog"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -17485,6 +17843,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 4,
+        "factionIndex": 2,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -17497,6 +17857,8 @@
           "uniqueName": "Loth/BeastFriend/LitterOfPuppies"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -17509,6 +17871,8 @@
           "uniqueName": "Loth/BeastFriend/CryptHunter"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -17742,6 +18106,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 7,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -17999,6 +18365,8 @@
           "uniqueName": "Loth/Wolves/HuntingLore"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18117,6 +18485,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18129,6 +18499,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 4,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18141,6 +18513,8 @@
           "uniqueName": null
         },
         "value": 4,
+        "factionIndex": 2,
+        "unitIndex": 2,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18276,6 +18650,8 @@
           "uniqueName": "Loth/Wolves/TrackingAWolf"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18404,6 +18780,8 @@
           "uniqueName": "Loth/Wolves/Howling"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18522,6 +18900,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18534,6 +18914,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18743,6 +19125,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 20,
+        "factionIndex": 2,
+        "unitIndex": 2,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18755,6 +19139,8 @@
           "uniqueName": "Loth/Autumn/PumpkinHarvest"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18866,6 +19252,8 @@
           "uniqueName": "Loth/Autumn/HarvestFestival "
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -18994,6 +19382,8 @@
           "uniqueName": "Loth/Autumn/CornMaze"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19105,6 +19495,8 @@
           "uniqueName": "Loth/Autumn/Fireworks"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19216,6 +19608,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19228,6 +19622,8 @@
           "uniqueName": "Loth/Autumn/PumpkinHarvest"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19240,6 +19636,8 @@
           "uniqueName": "Loth/Autumn/HarvestFestival "
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19424,6 +19822,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 50,
+        "factionIndex": 2,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19542,6 +19942,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19653,6 +20055,8 @@
           "uniqueName": "Loth/CelestialEvent/Prediction"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19665,6 +20069,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 4,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19800,6 +20206,8 @@
           "uniqueName": "Loth/CelestialEvent/Comet"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -19911,6 +20319,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 10,
+        "factionIndex": 2,
+        "unitIndex": 4,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -20022,6 +20432,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Glimmerweave",
         "artifactType": "Crossbow",
         "entityType": {
@@ -20150,6 +20562,8 @@
           "uniqueName": null
         },
         "value": 1500,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -20162,6 +20576,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Glimmerweave",
         "artifactType": "Crossbow",
         "entityType": {
@@ -20174,6 +20590,8 @@
           "uniqueName": "Loth/FaeyWarning/FaeyMusic"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -20466,6 +20884,8 @@
           "uniqueName": "Loth/FaeyWarning/FaeyFable"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -20831,6 +21251,8 @@
           "uniqueName": "Loth/FaeyWarning/FaeyFeast"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21033,6 +21455,8 @@
           "uniqueName": "Loth/FaeyWarning/FaeyTricks"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21290,6 +21714,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 20,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21302,6 +21728,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21314,6 +21742,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21425,6 +21855,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21437,6 +21869,8 @@
           "uniqueName": null
         },
         "value": 6,
+        "factionIndex": 2,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21572,6 +22006,8 @@
           "uniqueName": "Loth/Reputation/AnUnjustCause"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21756,6 +22192,8 @@
           "uniqueName": "Loth/SignsOfAurelia/DoubleRainbow"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -21874,6 +22312,8 @@
           "uniqueName": "Loth/SignsOfAurelia/Pamphlet"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22002,6 +22442,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 20,
+        "factionIndex": 2,
+        "unitIndex": 2,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22113,6 +22555,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22125,6 +22569,8 @@
           "uniqueName": "Loth/TravellingShow/Puppets"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22243,6 +22689,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22255,6 +22703,8 @@
           "uniqueName": "Loth/TravellingShow/PuppetShow"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22390,6 +22840,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22402,6 +22854,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22414,6 +22868,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22542,6 +22998,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22554,6 +23012,8 @@
           "uniqueName": null
         },
         "value": 7,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22684,6 +23144,8 @@
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
         "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 4,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22795,6 +23257,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22807,6 +23271,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22819,6 +23285,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22831,6 +23299,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22843,6 +23313,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -22954,6 +23426,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -23064,6 +23538,8 @@
           "uniqueName": "Barya/Explorers/TrunkOfBooks"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -23075,6 +23551,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -23277,6 +23755,8 @@
           "uniqueName": null
         },
         "value": 7,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -23387,6 +23867,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Barya/LavabornFortalice"
@@ -23398,6 +23880,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -23582,6 +24066,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -23710,6 +24196,8 @@
           "uniqueName": "Barya/DesertWind/DustDevil"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -23820,6 +24308,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 3,
+        "unitIndex": 5,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -23930,6 +24420,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Barya/Shop"
@@ -24040,6 +24532,8 @@
           "uniqueName": "Barya/GoodOmens/LightRain"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -24167,6 +24661,8 @@
           "uniqueName": "Barya/GoodOmens/Rainbows"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -24277,6 +24773,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -24387,6 +24885,8 @@
           "uniqueName": "Barya/Rain/FlashFlood"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -24716,6 +25216,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Barya/Workshop"
@@ -24727,6 +25229,8 @@
           "uniqueName": null
         },
         "value": 30,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -24739,6 +25243,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "CelestialOre",
         "artifactType": "Crossbow",
         "entityType": {
@@ -24923,6 +25429,8 @@
           "uniqueName": "Barya/NewGunPowder/NewFormula"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25034,6 +25542,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25145,6 +25655,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25157,6 +25669,8 @@
           "uniqueName": "Barya/MechanicalBird/Gifts"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25268,6 +25782,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25280,6 +25796,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25404,6 +25922,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25416,6 +25936,8 @@
           "uniqueName": "Barya/MechanicalBird/EarlyRiser"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25527,6 +26049,8 @@
           "uniqueName": "Barya/NewGunPowder/NotHandledWithCare"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25645,6 +26169,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 2,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25657,6 +26183,8 @@
           "uniqueName": "Barya/NewGunPowder/Workshop"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25669,6 +26197,8 @@
           "uniqueName": "Barya/NewGunPowder/NotHandledWithCare"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25780,6 +26310,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25891,6 +26423,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -25903,6 +26437,8 @@
           "uniqueName": "Barya/NewGunPowder/Workshop"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -26031,6 +26567,8 @@
           "uniqueName": "Barya/Sight/Talent"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -26288,6 +26826,8 @@
           "uniqueName": "Barya/Sight/Seeress"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -26416,6 +26956,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -26527,6 +27069,8 @@
           "uniqueName": "Barya/Sight/PlagueOfLocusts"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -26655,6 +27199,8 @@
           "uniqueName": "Barya/Dreath/Expedition"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -26773,6 +27319,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 3,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -26908,6 +27456,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -26920,6 +27470,8 @@
           "uniqueName": "Barya/Dreath/Disease"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27048,6 +27600,8 @@
           "uniqueName": "Barya/Freedom/Festival"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27060,6 +27614,8 @@
           "uniqueName": "Barya/Freedom/Mergers"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27171,6 +27727,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Stone",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27183,6 +27741,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Wood",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27195,6 +27755,8 @@
           "uniqueName": "Barya/Freedom/Festival"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27207,6 +27769,8 @@
           "uniqueName": "Barya/Freedom/Mergers"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27515,6 +28079,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27626,6 +28192,8 @@
           "uniqueName": "Barya/Freedom/MerchantCouncil"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27638,6 +28206,8 @@
           "uniqueName": "Barya/Freedom/Alliance"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27749,6 +28319,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27860,6 +28432,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27872,6 +28446,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -27884,6 +28460,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 3,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28008,6 +28586,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28020,6 +28600,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 3,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28032,6 +28614,8 @@
           "uniqueName": "Barya/HarimaFolklore/BirdSign"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28257,6 +28841,8 @@
           "uniqueName": "Barya/HarimaFolklore/GreatHornedOwl"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28368,6 +28954,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28552,6 +29140,8 @@
           "uniqueName": "Barya/LastWill/PaidMourners"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28676,6 +29266,8 @@
           "uniqueName": "Barya/LastWilll/ADeadMerchant"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28804,6 +29396,8 @@
           "uniqueName": null
         },
         "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -28915,6 +29509,8 @@
           "uniqueName": "Barya/Parade/Precision"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29043,6 +29639,8 @@
           "uniqueName": "Barya/Parade/BiddingWar"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29161,6 +29759,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29345,6 +29945,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29357,6 +29959,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29468,6 +30072,8 @@
           "uniqueName": "Barya/PipeMusic/Composition"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29603,6 +30209,8 @@
           "uniqueName": "Barya/PipeMusic/Drafting"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29721,6 +30329,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29832,6 +30442,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -29943,6 +30555,8 @@
           "uniqueName": "Barya/SwampSpawn/RanaShaman"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30071,6 +30685,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30083,6 +30699,8 @@
           "uniqueName": null
         },
         "value": 7,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30213,6 +30831,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30225,6 +30845,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30237,6 +30859,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30249,6 +30873,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30261,6 +30887,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30372,6 +31000,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -30482,6 +31112,8 @@
           "uniqueName": "Rana/Fungi/Mushrooms"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -30592,6 +31224,8 @@
           "uniqueName": "Rana/Fungi/Foraging"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -30702,6 +31336,8 @@
           "uniqueName": "Rana/Fungi/PoisonMushroom"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -30812,6 +31448,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -30923,6 +31561,8 @@
           "uniqueName": "Rana/Foraging"
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -31033,6 +31673,8 @@
           "uniqueName": "Rana/Foraging"
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -31150,6 +31792,8 @@
           "uniqueName": "Rana/Foraging"
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -31406,6 +32050,8 @@
           "uniqueName": "Rana/Foraging"
         },
         "value": 20,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "entityType": {
           "nameKey": "Arleon/Farm"
@@ -31417,6 +32063,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 4,
+        "unitIndex": 6,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -31601,6 +32249,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -31712,6 +32362,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -31724,6 +32376,8 @@
           "uniqueName": "Rana/LifeInTheMarsh/LightRain"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -31736,6 +32390,8 @@
           "uniqueName": "Rana/LifeInTheMarsh/Rainbows"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -31847,6 +32503,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -31859,6 +32517,8 @@
           "uniqueName": "Rana/LifeInTheMarsh"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -31871,6 +32531,8 @@
           "uniqueName": "Rana/LifeInTheMarsh/Rainbows"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32073,6 +32735,8 @@
           "uniqueName": "Rana/LifeInTheMarsh/Driftwood"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32085,6 +32749,8 @@
           "uniqueName": "Rana/LifeInTheMarsh/PitFlood"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32269,6 +32935,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32380,6 +33048,8 @@
           "uniqueName": "Rana/TrunkOfBooks/TreasureFromTheBog"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32491,6 +33161,8 @@
           "uniqueName": "Rana/TrunkOfBooks/MarshMap"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32602,6 +33274,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32614,6 +33288,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32725,6 +33401,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32737,6 +33415,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32848,6 +33528,8 @@
           "uniqueName": "Rana/Feathers/Chicken"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32959,6 +33641,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -32971,6 +33655,8 @@
           "uniqueName": "Rana/Feathers/Eggs"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -33106,6 +33792,8 @@
           "uniqueName": "Rana/Feathers/VillageFeud"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -33436,6 +34124,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Wood",
         "artifactType": "Crossbow",
         "entityType": {
@@ -33448,6 +34138,8 @@
           "uniqueName": "Rana/Feathers/Eggs"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -33460,6 +34152,8 @@
           "uniqueName": "Rana/Feathers/FeatheredNest"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -33662,6 +34356,8 @@
           "uniqueName": "Rana/Feathers/ChickenThief"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -33773,6 +34469,8 @@
           "uniqueName": "Rana/Feathers/BirdFlu"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -33901,6 +34599,8 @@
           "uniqueName": "Rana/Feathers/BirdStorm"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -34012,6 +34712,8 @@
           "uniqueName": "Rana/TrunkOfBooks/Runes"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -34123,6 +34825,8 @@
           "uniqueName": null
         },
         "value": 7,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -34453,6 +35157,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -34710,6 +35416,8 @@
           "uniqueName": "Rana/FairTrade/Trader"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -34821,6 +35529,8 @@
           "uniqueName": "Rana/FairTrade/ForeignGoods"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35078,6 +35788,8 @@
           "uniqueName": null
         },
         "value": 4,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35189,6 +35901,8 @@
           "uniqueName": null
         },
         "value": 8,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35300,6 +36014,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35312,6 +36028,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35423,6 +36141,8 @@
           "uniqueName": "Rana/AncientHistory/AncientRuins"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35435,6 +36155,8 @@
           "uniqueName": "Rana/AncientHistory/GiftsFromThePast"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35553,6 +36275,8 @@
           "uniqueName": "Rana/AncientHistory/AncientRuins"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35664,6 +36388,8 @@
           "uniqueName": "Rana/AncientHistory/AncientMonument"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -35994,6 +36720,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36006,6 +36734,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36117,6 +36847,8 @@
           "uniqueName": "Rana/Ravager/NestEgg"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36245,6 +36977,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36257,6 +36991,8 @@
           "uniqueName": "Rana/Ravager/Surrogate"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36269,6 +37005,8 @@
           "uniqueName": "Rana/Ravager/HigherFences"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36281,6 +37019,8 @@
           "uniqueName": "Rana/Ravager/Hunger"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36490,6 +37230,8 @@
           "uniqueName": null
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36601,6 +37343,8 @@
           "uniqueName": "Rana/SeventhMoon/SaltLick"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36785,6 +37529,8 @@
           "uniqueName": "Rana/SeventhMoon/ChangingTides"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -36896,6 +37642,8 @@
           "uniqueName": "Rana/SeventhMoon/SaltPonds"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -37204,6 +37952,8 @@
           "uniqueName": "Rana/SeventhMoon/RecedingWaters"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -37315,6 +38065,8 @@
           "uniqueName": "Rana/MarshWarfare/Revenge"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -37327,6 +38079,8 @@
           "uniqueName": "Rana/MarshWarfare/Retribution"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -37584,6 +38338,8 @@
           "uniqueName": null
         },
         "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Wood",
         "artifactType": "Crossbow",
         "entityType": {
@@ -37596,6 +38352,8 @@
           "uniqueName": null
         },
         "value": 4,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Wood",
         "artifactType": "Crossbow",
         "entityType": {
@@ -37608,6 +38366,8 @@
           "uniqueName": null
         },
         "value": 8,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -37900,6 +38660,8 @@
           "uniqueName": "Rana/MarshWarfare/Slavers"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38097,6 +38859,8 @@
           "uniqueName": "Rana/MarshWarfare/Rescue"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38109,6 +38873,8 @@
           "uniqueName": "Rana/MarshWarfare/Retribution"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38220,6 +38986,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38232,6 +39000,8 @@
           "uniqueName": "Rana/MarshWarfare/Raiders"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38367,6 +39137,8 @@
           "uniqueName": null
         },
         "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38478,6 +39250,8 @@
           "uniqueName": "Rana/FairTrade/TradersWagon"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38735,6 +39509,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38747,6 +39523,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38759,6 +39537,8 @@
           "uniqueName": "Rana/FairTrade/Disease"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38894,6 +39674,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38906,6 +39688,8 @@
           "uniqueName": "Rana/Ravager/Surrogate"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38918,6 +39702,8 @@
           "uniqueName": "Rana/Ravager/Fury"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -38930,6 +39716,8 @@
           "uniqueName": "Rana/Ravager/Hunger"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39139,6 +39927,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39151,6 +39941,8 @@
           "uniqueName": "Rana/Ravager/Surrogate"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39163,6 +39955,8 @@
           "uniqueName": "Rana/Ravager/HigherFences"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39175,6 +39969,8 @@
           "uniqueName": "Rana/Ravager/Fury"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39384,6 +40180,8 @@
           "uniqueName": "Rana/MarshWarfare/Rescue"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39396,6 +40194,8 @@
           "uniqueName": "Rana/MarshWarfare/Cunning"
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39580,6 +40380,8 @@
           "uniqueName": "Rana/Dreams/Nightmares"
         },
         "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39764,6 +40566,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39776,6 +40580,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39788,6 +40594,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39800,6 +40608,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
@@ -39812,6 +40622,8 @@
           "uniqueName": null
         },
         "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
