@@ -35,7 +35,7 @@ const RandomEvent: NextPage<{ randomEvent: RandomEventDTO }> = ({
           <tbody>
             <tr>
               <td>{terms.chanceOfHappening}</td>
-              <td>{randomEvent.chanceOfHappening * 100}%</td>
+              <td>{Math.floor(randomEvent.chanceOfHappening * 100)}%</td>
             </tr>
             <tr>
               <td>Event Chain Name</td>

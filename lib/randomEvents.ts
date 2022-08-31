@@ -60,11 +60,14 @@ export const getRandomEvent = (
       break;
     case "CommanderWithSpecificTroop":
       {
-        const unit = unitsCollection[randomEventSrc.recipientUnitIndex];
+        const faction = factionsCollection.find(
+          (faction) => faction.id === randomEventSrc.recipientFactionIndex
+        )!;
+        const unit = faction.units[randomEventSrc.recipientUnitIndex];
         eventRecipientPlaceholder.push(
           recipientName,
           getTerm(
-            `${unit.faction}/${
+            `${faction.languageKey}/${
               // @ts-ignore
               unit[randomEventSrc.recipientTroopUpgradeType].languageKey
             }/Name`,
@@ -75,11 +78,14 @@ export const getRandomEvent = (
       break;
     case "CommanderWithSpecificTroopOfAtLeastSize":
       {
-        const unit = unitsCollection[randomEventSrc.recipientUnitIndex];
+        const faction = factionsCollection.find(
+          (faction) => faction.id === randomEventSrc.recipientFactionIndex
+        )!;
+        const unit = faction.units[randomEventSrc.recipientUnitIndex];
         eventRecipientPlaceholder.push(
           recipientName,
           getTerm(
-            `${unit.faction}/${
+            `${faction.languageKey}/${
               // @ts-ignore
               unit[randomEventSrc.recipientTroopUpgradeType].languageKey
             }/Name`,
