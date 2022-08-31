@@ -42,6 +42,10 @@ const RandomEvent: NextPage<{ randomEvent: RandomEventDTO }> = ({
               <td>{randomEvent.eventChainName}</td>
             </tr>
             <tr>
+              <td>Event Recipient</td>
+              <td>{randomEvent.eventRecipient}</td>
+            </tr>
+            <tr>
               <td>Requirements</td>
               <td>
                 <Text color="dimmed">

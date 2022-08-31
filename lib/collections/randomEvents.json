@@ -10,6 +10,11 @@
     "chanceOfHappening": 0.5,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -117,6 +122,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -223,6 +232,11 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -342,6 +356,11 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -607,6 +626,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -713,6 +736,10 @@
     "chanceOfHappening": 0.03,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -903,6 +930,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -1009,6 +1040,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -1115,6 +1150,11 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -1221,6 +1261,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -1338,6 +1382,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -1468,6 +1516,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -1596,6 +1648,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -1848,6 +1904,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -1954,6 +2014,11 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -2207,6 +2272,11 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -2314,6 +2384,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -2639,6 +2713,10 @@
     "chanceOfHappening": 0.08,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -2762,6 +2840,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -2941,6 +3023,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3047,6 +3133,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3226,6 +3316,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3344,6 +3438,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3451,6 +3549,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3557,6 +3659,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3663,6 +3769,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3769,6 +3879,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3875,6 +3989,10 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -3981,6 +4099,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4087,6 +4209,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4193,6 +4319,11 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4300,6 +4431,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4417,6 +4552,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4523,6 +4662,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4629,6 +4772,10 @@
     "chanceOfHappening": 0.08,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4735,6 +4882,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4852,6 +5003,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -4958,6 +5113,10 @@
     "chanceOfHappening": 0.2,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -5075,6 +5234,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -5192,6 +5355,10 @@
     "chanceOfHappening": 0.2,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -5309,6 +5476,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -5426,6 +5597,10 @@
     "chanceOfHappening": 0.2,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -5532,6 +5707,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -5649,6 +5828,11 @@
     "chanceOfHappening": 0.01,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -5987,6 +6171,10 @@
     "chanceOfHappening": 0.6,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -6123,6 +6311,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -6240,6 +6432,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -6357,6 +6553,10 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [],
     "eventRecipient": "CommanderWithMostArmyValue",
     "reward": {
@@ -6451,6 +6651,11 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -6575,6 +6780,11 @@
     "chanceOfHappening": 0.5,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -6682,6 +6892,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -6805,6 +7019,10 @@
     "chanceOfHappening": 0.2,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -6950,6 +7168,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -7095,6 +7317,10 @@
     "chanceOfHappening": 0.6,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -7212,6 +7438,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -7335,6 +7565,10 @@
     "chanceOfHappening": 0.04,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -7458,6 +7692,10 @@
     "chanceOfHappening": 0.12,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -7592,6 +7830,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -7709,6 +7951,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -7832,6 +8078,10 @@
     "chanceOfHappening": 0.12,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8029,6 +8279,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8146,6 +8400,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8263,6 +8521,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8370,6 +8632,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8494,6 +8760,11 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8618,6 +8889,11 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8725,6 +9001,11 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8832,6 +9113,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -8939,6 +9224,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -9082,6 +9371,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -9213,6 +9506,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -9320,6 +9617,10 @@
     "chanceOfHappening": 0.6,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -9434,6 +9735,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "upgraded",
     "requirements": [
       {
         "eventReference": {
@@ -9577,6 +9882,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -9775,6 +10084,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -9899,6 +10212,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -10005,6 +10322,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -10111,6 +10432,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -10509,6 +10834,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -10761,6 +11090,10 @@
     "chanceOfHappening": 0.5,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -10995,6 +11328,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -11205,6 +11542,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -11329,6 +11670,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -11509,6 +11854,10 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [],
     "eventRecipient": "Team",
     "reward": {
@@ -11620,6 +11969,10 @@
     "chanceOfHappening": 0.2,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -11744,6 +12097,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -11958,6 +12315,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -12065,6 +12426,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -12213,6 +12578,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -12319,6 +12688,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -12644,6 +13017,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -12750,6 +13127,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -12881,6 +13262,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -13017,6 +13402,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 0,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -13216,6 +13605,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -13396,6 +13789,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -13503,6 +13900,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -13609,6 +14010,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -13715,6 +14120,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -13821,6 +14230,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -13927,6 +14340,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -14033,6 +14450,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -14188,6 +14609,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -14333,6 +14758,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -14452,6 +14881,10 @@
     "chanceOfHappening": 0.5,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -14662,6 +15095,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -14842,6 +15279,10 @@
     "chanceOfHappening": 0.03,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -14948,6 +15389,10 @@
     "chanceOfHappening": 0.03,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -15073,6 +15518,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -15325,6 +15774,10 @@
     "chanceOfHappening": 0.2,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -15553,6 +16006,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -15750,6 +16207,10 @@
     "chanceOfHappening": 0.08,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -15966,6 +16427,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -16145,6 +16610,10 @@
     "chanceOfHappening": 0.08,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -16251,6 +16720,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -16455,6 +16928,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -16574,6 +17051,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -16692,6 +17173,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -16872,6 +17357,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 2,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "upgraded",
     "requirements": [
       {
         "eventReference": {
@@ -16986,6 +17475,10 @@
     "chanceOfHappening": 0.45,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -17141,6 +17634,10 @@
     "chanceOfHappening": 0.015,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 1,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "upgraded",
     "requirements": [],
     "eventRecipient": "CommanderWithSpecificTroopOfAtLeastSize",
     "reward": {
@@ -17235,6 +17732,10 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -17488,6 +17989,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -17602,6 +18107,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -17757,6 +18266,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -17881,6 +18394,10 @@
     "chanceOfHappening": 0.75,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -17995,6 +18512,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -18212,6 +18733,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -18331,6 +18856,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -18455,6 +18984,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -18562,6 +19095,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -18669,6 +19206,10 @@
     "chanceOfHappening": 0.45,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -18873,6 +19414,10 @@
     "chanceOfHappening": 0.12,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -18987,6 +19532,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -19094,6 +19643,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -19237,6 +19790,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -19344,6 +19901,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -19451,6 +20012,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -19575,6 +20140,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -19887,6 +20456,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -20248,6 +20821,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -20446,6 +21023,10 @@
     "chanceOfHappening": 0.5,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -20699,6 +21280,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -20830,6 +21415,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -20973,6 +21562,10 @@
     "chanceOfHappening": 0.6,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -21153,6 +21746,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -21267,6 +21864,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -21391,6 +21992,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -21498,6 +22103,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 2,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -21624,6 +22233,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -21767,6 +22380,10 @@
     "chanceOfHappening": 0.04,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -21915,6 +22532,10 @@
     "chanceOfHappening": 0.6,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -22053,6 +22674,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -22160,6 +22785,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -22315,6 +22944,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -22421,6 +23054,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -22630,6 +23267,10 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -22736,6 +23377,10 @@
     "chanceOfHappening": 0.08,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -22927,6 +23572,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -23051,6 +23700,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -23157,6 +23810,10 @@
     "chanceOfHappening": 0.12,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -23263,6 +23920,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -23369,6 +24030,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -23492,6 +24157,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -23598,6 +24267,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -23704,6 +24377,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -24029,6 +24706,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -24232,6 +24913,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -24339,6 +25024,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -24446,6 +25135,10 @@
     "chanceOfHappening": 0.5,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -24565,6 +25258,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 3,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -24697,6 +25394,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -24816,6 +25517,10 @@
     "chanceOfHappening": 0.75,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -24930,6 +25635,10 @@
     "chanceOfHappening": 0.6,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 3,
+    "recipientUnitIndex": 2,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -25061,6 +25770,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -25168,6 +25881,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -25304,6 +26021,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -25557,6 +26278,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -25681,6 +26406,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -25788,6 +26517,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -25912,6 +26645,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -26026,6 +26763,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -26157,6 +26898,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -26293,6 +27038,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -26412,6 +27161,10 @@
     "chanceOfHappening": 0.5,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -26752,6 +27505,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -26859,6 +27616,10 @@
     "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -26978,6 +27739,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -27085,6 +27850,10 @@
     "chanceOfHappening": 0.08,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -27229,6 +27998,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -27474,6 +28247,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -27581,6 +28358,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -27761,6 +28542,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -27881,6 +28666,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -28005,6 +28794,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -28112,6 +28905,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -28236,6 +29033,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 3,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -28350,6 +29151,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -28530,6 +29335,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 3,
+    "recipientUnitIndex": 0,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -28649,6 +29458,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -28780,6 +29593,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -28894,6 +29711,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -29001,6 +29822,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -29108,6 +29933,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -29232,6 +30061,10 @@
     "chanceOfHappening": 0.6,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -29370,6 +30203,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -29525,6 +30362,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -29631,6 +30472,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -29737,6 +30582,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -29843,6 +30692,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "upgraded",
     "requirements": [
       {
         "eventReference": {
@@ -29949,6 +30802,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -30056,6 +30913,10 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 0,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -30162,6 +31023,10 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -30275,6 +31140,10 @@
     "chanceOfHappening": 0.03,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -30527,6 +31396,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -30718,6 +31591,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -30825,6 +31702,10 @@
     "chanceOfHappening": 0.55,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -30956,6 +31837,10 @@
     "chanceOfHappening": 0.55,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -31178,6 +32063,10 @@
     "chanceOfHappening": 0.2,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -31370,6 +32259,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -31477,6 +32370,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 350,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -31584,6 +32481,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -31691,6 +32592,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -31810,6 +32715,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -31929,6 +32838,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -32036,6 +32949,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -32179,6 +33096,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -32505,6 +33426,10 @@
     "chanceOfHappening": 0.15,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -32727,6 +33652,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -32834,6 +33763,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -32958,6 +33891,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -33065,6 +34002,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -33172,6 +34113,10 @@
     "chanceOfHappening": 0.02,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -33498,6 +34443,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -33751,6 +34700,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -33858,6 +34811,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -34111,6 +35068,10 @@
     "chanceOfHappening": 0.04,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -34218,6 +35179,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -34325,6 +35290,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -34444,6 +35413,10 @@
     "chanceOfHappening": 0.55,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "upgraded",
     "requirements": [
       {
         "eventReference": {
@@ -34570,6 +35543,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -34677,6 +35654,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -35003,6 +35984,10 @@
     "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -35122,6 +36107,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -35246,6 +36235,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -35487,6 +36480,10 @@
     "chanceOfHappening": 0.05,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -35594,6 +36591,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -35774,6 +36775,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -35881,6 +36886,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -36185,6 +37194,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -36292,6 +37305,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -36557,6 +37574,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -36869,6 +37890,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -37062,6 +38087,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -37181,6 +38210,10 @@
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -37324,6 +38357,10 @@
     "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "upgraded",
     "requirements": [
       {
         "eventReference": {
@@ -37431,6 +38468,10 @@
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -37684,6 +38725,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -37839,6 +38884,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -38080,6 +39129,10 @@
     "chanceOfHappening": 0.35,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -38321,6 +39374,10 @@
     "chanceOfHappening": 0.75,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 30,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 0,
+    "recipientTroopUpgradeType": "upgraded",
     "requirements": [
       {
         "eventReference": {
@@ -38513,6 +39570,10 @@
     "chanceOfHappening": 0.2,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {
@@ -38693,6 +39754,10 @@
     "chanceOfHappening": 0.1,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
     "requirements": [
       {
         "eventReference": {

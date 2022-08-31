@@ -2,6 +2,7 @@ import randomEventsCollection from "./collections/randomEvents.json";
 import factionsCollection from "./collections/factions.json";
 import unitsCollection from "./collections/units.json";
 import { getTerm } from "./terms";
+import startCase from "lodash.startcase";
 
 export const getRandomEvents = (locale: string) => {
   const randomEvents = randomEventsCollection.map<RandomEventSimpleDTO>(
@@ -30,6 +31,77 @@ export const getRandomEvent = (
   if (!randomEventSrc) {
     return null;
   }
+
+  const eventRecipientPlaceholder: string[] = [];
+  const recipientName = startCase(randomEventSrc.eventRecipient).replace(
+    "Commander",
+    "Wielder"
+  );
+  // See extractor/SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.UILayer.Runtime/SongsOfConquest/Client/Adventure/RandomEventMenu.cs
+  switch (randomEventSrc.eventRecipient) {
+    case "CommanderWithSpecificOwnedArtifact":
+    case "CommanderWithSpecificEquippedArtifact":
+      eventRecipientPlaceholder.push(
+        recipientName,
+        getTerm(
+          `Artifacts/${randomEventSrc.recipientArtifactType}/Name`,
+          locale
+        )
+      );
+      break;
+    case "CommanderClosestToTotalTroopSize":
+    case "CommanderClosestToLevel":
+    case "CommanderClosestToArmyValue":
+    case "CommanderClosestToExperience":
+      eventRecipientPlaceholder.push(
+        recipientName,
+        randomEventSrc.recipientValue.toString()
+      );
+      break;
+    case "CommanderWithSpecificTroop":
+      {
+        const unit = unitsCollection[randomEventSrc.recipientUnitIndex];
+        eventRecipientPlaceholder.push(
+          recipientName,
+          getTerm(
+            `${unit.faction}/${
+              // @ts-ignore
+              unit[randomEventSrc.recipientTroopUpgradeType].languageKey
+            }/Name`,
+            locale
+          )
+        );
+      }
+      break;
+    case "CommanderWithSpecificTroopOfAtLeastSize":
+      {
+        const unit = unitsCollection[randomEventSrc.recipientUnitIndex];
+        eventRecipientPlaceholder.push(
+          recipientName,
+          getTerm(
+            `${unit.faction}/${
+              // @ts-ignore
+              unit[randomEventSrc.recipientTroopUpgradeType].languageKey
+            }/Name`,
+            locale
+          ),
+          randomEventSrc.recipientValue.toString()
+        );
+      }
+      break;
+    case "CommanderWithLeastArmyValue":
+    case "CommanderWithMostArmyValue":
+    case "CommanderWithLowestLevel":
+    case "CommanderWithHighestLevel":
+    case "CommanderWithLowestExperienceAmount":
+    case "CommanderWithHighestExperienceAmount":
+    case "CommanderWithMostOwnedArtifacts":
+    case "CommanderWithLeastOwnedArtifacts":
+    case "CommanderWithMostEquippedArtifacts":
+    case "CommanderWithLeastEquippedArtifacts":
+      eventRecipientPlaceholder.push(recipientName);
+      break;
+  }
   return {
     id: randomEventSrc.id,
     name: getTerm(`RandomEvents/${randomEventSrc.uniqueName}`, locale),
@@ -42,9 +114,14 @@ export const getRandomEvent = (
     eventChainName: randomEventSrc.eventChainNameKey
       ? getTerm(randomEventSrc.eventChainNameKey, locale)
       : null,
+    eventRecipient: getTerm(
+      `Adventure/RandomEventsMenu/Recipient/${randomEventSrc.eventType}/${randomEventSrc.eventRecipient}`,
+      locale,
+      eventRecipientPlaceholder
+    ),
     requirementEvaluationType: randomEventSrc.requirementEvaluationType,
     requirements: randomEventSrc.requirements.map((requirement) => {
-      const placeholder: string[] = [];
+      const requirementPlaceholder: string[] = [];
       // See extractor/SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.UILayer.Runtime/SongsOfConquest/Client/Adventure/RandomEventExplanationDetails.cs
       switch (requirement.requirementType) {
         case "GreaterThanOrEqualRound":
@@ -52,13 +129,13 @@ export const getRandomEvent = (
         case "GreaterThanOrEqualBattlesWon":
         case "GreaterThanOrEqualBattlesLost":
         case "GreaterThanOrEqualBattlesFought":
-          placeholder.push(requirement.value.toString());
+          requirementPlaceholder.push(requirement.value.toString());
           break;
 
         case "GreaterThanOrEqualToResourceIncome":
         case "GreaterThanOrEqualToResourceOwned":
           {
-            placeholder.push(
+            requirementPlaceholder.push(
               `${requirement.value.toString()} ${getTerm(
                 `Common/Resource/${requirement.resourceType}`,
                 locale
@@ -69,7 +146,7 @@ export const getRandomEvent = (
 
         case "PriorEventDidHappen":
         case "PriorEventDidNotHappen":
-          placeholder.push(
+          requirementPlaceholder.push(
             getTerm(
               `RandomEvents/${requirement.eventReference.uniqueName}`,
               locale
@@ -79,7 +156,7 @@ export const getRandomEvent = (
 
         case "GreaterThanOrEqualEntitiesOwned":
         case "LessThanEntitiesOwned":
-          placeholder.push(
+          requirementPlaceholder.push(
             requirement.value.toString(),
             getTerm(requirement.entityType.nameKey, locale)
           );
@@ -87,7 +164,7 @@ export const getRandomEvent = (
 
         case "RecipientOwnsArtifact":
         case "RecipientEquippedArtifact":
-          placeholder.push(
+          requirementPlaceholder.push(
             randomEventSrc.eventRecipient,
             requirement.artifactType
           );
@@ -100,7 +177,7 @@ export const getRandomEvent = (
           {
             const faction = factionsCollection[requirement.factionIndex];
             const unit = unitsCollection[requirement.unitIndex];
-            placeholder.push(
+            requirementPlaceholder.push(
               randomEventSrc.eventRecipient,
               requirement.value.toString(),
               getTerm(`Factions/${faction.languageKey}/Name`, locale),
@@ -117,7 +194,7 @@ export const getRandomEvent = (
         requirementType: getTerm(
           `Adventure/RandomEventsMenu/Details/Requirement/${requirement.requirementType}`,
           locale,
-          placeholder
+          requirementPlaceholder
         ),
       };
     }),
@@ -139,6 +216,7 @@ export type RandomEventDTO = {
   eventChainName: string | null;
   chanceOfHappening: number;
   requirementEvaluationType: string;
+  eventRecipient: string;
   requirements: {
     requirementType: string;
   }[];

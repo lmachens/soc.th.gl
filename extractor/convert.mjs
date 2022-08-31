@@ -678,8 +678,13 @@ function analyzeRandomEvents(randomEventsSrc) {
       eventChainNameKey,
       chanceOfHappening,
       eventEvaluationTrigger,
+      recipientArtifactType,
+      recipientValue,
       requirementEvaluationType,
       requirements,
+      recipientFactionIndex,
+      recipientUnitIndex,
+      recipientTroopUpgradeType,
       eventRecipient,
       reward,
       penalty,
@@ -700,6 +705,11 @@ function analyzeRandomEvents(randomEventsSrc) {
         randomEventEvaluationTriggerTypes[eventEvaluationTrigger],
       requirementEvaluationType:
         randomEventRequirementEvaluationTypes[requirementEvaluationType],
+      recipientArtifactType: artifactTypes[recipientArtifactType],
+      recipientValue,
+      recipientFactionIndex,
+      recipientUnitIndex,
+      recipientTroopUpgradeType: UNIT_TYPES[recipientTroopUpgradeType],
       requirements: requirements.map((requirement) => {
         const adventureMapEntity =
           requirement.entityType &&
