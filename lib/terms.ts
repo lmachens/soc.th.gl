@@ -1,21 +1,32 @@
 import siteTermMap from "./collections/siteTermMap.json";
 import termMap from "./collections/termMap.json";
 
+const toLowerKeys = (obj: { [key: string]: any }) => {
+  return Object.keys(obj).reduce<typeof obj>((accumulator, key) => {
+    accumulator[key.toLowerCase()] = obj[key];
+    return accumulator;
+  }, {});
+};
+
 export type TermsDTO = {
   [key: string]: string;
 };
 
-const siteTerms = siteTermMap as unknown as {
-  [term: string]: {
-    [locale: string]: string;
-  };
-};
+const siteTerms = toLowerKeys(
+  siteTermMap as unknown as {
+    [term: string]: {
+      [locale: string]: string;
+    };
+  }
+);
 
-const terms = termMap as unknown as {
-  [term: string]: {
-    [locale: string]: string;
-  };
-};
+const terms = toLowerKeys(
+  termMap as unknown as {
+    [term: string]: {
+      [locale: string]: string;
+    };
+  }
+);
 
 export const PERCENTAGE_BASED_MODIFIERS = [
   "TroopMeleeAttackResistance",
@@ -30,7 +41,9 @@ export const PERCENTAGE_BASED_MODIFIERS = [
 ];
 
 export const getSiteTerm = (term: string, locale: string) => {
-  let value = siteTerms[term]?.[locale] || siteTerms[term]?.en;
+  const lowerCaseTerm = term.toLowerCase();
+  let value =
+    siteTerms[lowerCaseTerm]?.[locale] || siteTerms[lowerCaseTerm]?.en;
   if (!value) {
     console.warn(`Can not find ${term} - ${locale}`);
     value = "";
@@ -44,12 +57,14 @@ export const getTerm = (
   placeholder?: number | string | string[] | { [key: string]: any },
   showPercentage?: boolean
 ) => {
+  const lowerCaseTerm = term.toLowerCase();
   let result: string | undefined;
   if (placeholder && typeof placeholder === "number") {
     const pluralForm = getPluralForm(locale, placeholder);
-    result = (terms[`${term}_${pluralForm}`] || terms[term])?.[locale];
+    result = (terms[`${lowerCaseTerm}_${pluralForm}`] ||
+      terms[lowerCaseTerm])?.[locale];
   } else {
-    result = terms[term]?.[locale];
+    result = terms[lowerCaseTerm]?.[locale];
   }
 
   if (!result) {

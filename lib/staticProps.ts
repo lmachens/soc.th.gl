@@ -8,6 +8,7 @@ import { getSpells } from "./spells";
 import { getSiteTerm, getTerm, TermsDTO } from "./terms";
 import { getUnits } from "./units";
 import { getWielders } from "./wielders";
+import { getRandomEvents } from "./randomEvents";
 
 export type CollectionLink = {
   label: string;
@@ -110,6 +111,15 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       }))
       .sort(sortByLabel);
 
+    const randomEvents = getRandomEvents(locale);
+    const randomEventLinks = randomEvents
+      .map((randomEvent) => ({
+        to: `/random-events/${randomEvent.id}`,
+        label: randomEvent.name,
+        description: randomEvent.factionName,
+      }))
+      .sort(sortByLabel);
+
     const collectionLinks: CollectionLink[] = [
       {
         label: getSiteTerm("Factions", locale),
@@ -179,6 +189,16 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
             label: getSiteTerm("AllSpells", locale),
           },
           ...spellLinks,
+        ],
+      },
+      {
+        label: getSiteTerm("RandomEvents", locale),
+        docs: [
+          {
+            to: "/random-events",
+            label: getSiteTerm("AllRandomEvents", locale),
+          },
+          ...randomEventLinks,
         ],
       },
     ];

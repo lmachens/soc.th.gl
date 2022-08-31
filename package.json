@@ -23,6 +23,7 @@
     "@primer/octicons-react": "^17.4.1",
     "chart.js": "^3.9.1",
     "color-hash": "^2.0.1",
+    "lodash.startcase": "^4.4.0",
     "markdown-to-jsx": "^7.1.7",
     "next": "^12.2.5",
     "plausible-tracker": "^0.3.8",
@@ -32,6 +33,7 @@
   },
   "devDependencies": {
     "@types/color-hash": "^1.0.2",
+    "@types/lodash.startcase": "^4.4.7",
     "@types/node": "^18.7.6",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",

@@ -526,5 +526,37 @@
     "ko": null,
     "pt-BR": null,
     "uk": null
+  },
+  "RandomEvents": {
+    "en": "Random Events",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": null,
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
+  },
+  "AllRandomEvents": {
+    "en": "All Random Events",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": null,
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
   }
 }
