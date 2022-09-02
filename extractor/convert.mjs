@@ -752,18 +752,12 @@ function analyzeRandomEvents(randomEventsSrc) {
             amountMinMax: reward.resourceReward.amountMinMax
           },
           randomTroopInFactionReward: reward.randomTroopInFactionReward,
-          bacteriaReward: {
-            type: reward.bacteriaReward.type,  // map
-            duration: {
-              type: bacteriaDurationTypes[reward.bacteriaReward.duration.type],
-              duration: reward.bacteriaReward.duration.duration,
-            }
-          },
+          bacteriaReward: getBacteria(reward.bacteriaReward.type, reward.bacteriaReward.duration),  // check, not working
           artifactReward: reward.artifactReward ? artifactTypes[reward.artifactReward] : reward.artifactReward,
           randomArtifact: reward.randomArtifact,
           levelReward: reward.levelReward,
           storyObjective: reward.storyObjective,  // what does this do?
-          skill: reward.skill,  // map (not used currently I think?)
+          skill: reward.skill.skill ? getSimpleSkill(reward.skill.skill, reward.skill.level) : reward.skill,  // not tested (no randomEvents that give skills)
           randomSkill: reward.randomSkill,
           randomExoticResourceReward: reward.randomExoticResourceReward,
         };
