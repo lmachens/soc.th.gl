@@ -779,12 +779,12 @@ function analyzeRandomEvents(randomEventsSrc) {
             buildingToDestroy: penalty.destroyOwnedBuilding.buildingToDestroy ? adventureMapEntitiesTypes[penalty.destroyOwnedBuilding.buildingToDestroy]: penalty.destroyOwnedBuilding.buildingToDestroy,
             destroyAll: penalty.destroyOwnedBuilding.destroyAll,
             amount: penalty.destroyOwnedBuilding.amount,
-          },  // map
+          }, 
           createHostile: penalty.createHostile,  // map maybe?
           createRandomHostile: penalty.createRandomHostile,
           reduceRecruitmentPool: penalty.reduceRecruitmentPool,  // map troops maybe?
         };
-      }), // map!!
+      }),
     };
   });
 }
