@@ -758,7 +758,6 @@ function analyzeRandomEvents(randomEventsSrc) {
             type: resourceTypes[reward.resourceReward.type],
             amountMinMax: reward.resourceReward.amountMinMax,
           },
-          randomTroopInFactionReward: reward.randomTroopInFactionReward,
           bacteriaReward: getBacteria({
             bacteriaType: reward.bacteriaReward.type,
             duration: {
