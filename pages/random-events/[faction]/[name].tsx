@@ -61,8 +61,12 @@ const RandomEvent: NextPage<{ randomEvent: RandomEventDTO }> = ({
               </td>
             </tr>
             <tr>
+              <td>Rewards</td>
+              <td>{randomEvent.rewards.join(", ")}</td>
+            </tr>
+            <tr>
               <td>Penalties</td>
-              <td>{randomEvent.penalties}</td>
+              <td>{randomEvent.penalties.join(", ")}</td>
             </tr>
           </tbody>
         </Table>

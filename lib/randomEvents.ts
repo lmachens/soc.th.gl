@@ -3,6 +3,7 @@ import factionsCollection from "./collections/factions.json";
 import unitsCollection from "./collections/units.json";
 import { getTerm } from "./terms";
 import startCase from "lodash.startcase";
+import { getLocaleBacteria } from "./bacterias";
 
 export const getRandomEvents = (locale: string) => {
   const randomEvents = randomEventsCollection.map<RandomEventSimpleDTO>(
@@ -205,6 +206,69 @@ export const getRandomEvent = (
         ),
       };
     }),
+    rewards: randomEventSrc.rewards.map((reward) => {
+      let text = "";
+      // extractor/SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Rewards/RuntimeRewardExtensions.cs
+      switch (reward.rewardType) {
+        case "Troops":
+          text = reward.troopRewards
+            .map(
+              (troop) =>
+                `${troop.size} ${getTerm(
+                  `${troop.faction}/${troop.name}/Name`,
+                  locale
+                )}`
+            )
+            .join(", ");
+
+          break;
+        case "Resource":
+        case "RandomExoticResource":
+          text = `You get ${reward.resourceReward.amountMinMax.min}-${
+            reward.resourceReward.amountMinMax.max
+          } ${getTerm(
+            `Common/Resource/${reward.resourceReward.type}`,
+            locale
+          )}`;
+          break;
+        case "RandomTroopInFaction":
+          // There is no RandomTroopInFaction type right now
+          break;
+        case "Bacteria":
+          text = getLocaleBacteria(reward.bacteriaReward!, locale).name;
+          break;
+        case "Experience":
+          text = getTerm(`MapEntities/Generic/Reward/Experience`, locale, [
+            "",
+            reward.experience,
+          ]);
+          break;
+        case "Artifact":
+          text = getTerm(`Artifacts/${reward.artifactReward}/Name`, locale);
+          break;
+        case "RandomArtifact":
+          // There is no RandomArtifact right now
+          text = `Get's a random artifact`;
+          break;
+        case "Level":
+          text = getTerm(
+            `MapEntities/Generic/Reward/Level`,
+            locale,
+            reward.levelReward
+          );
+          break;
+        case "StoryObjective":
+          break;
+        case "Skill":
+          // There is no Skill right now
+          break;
+        case "RandomSkill":
+          // There is no RandomSkill right now
+          break;
+      }
+
+      return text;
+    }),
     penalties: randomEventSrc.penalties.map((penalty) => {
       // extractor/SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyExtensions.cs
       let text = "";
@@ -280,5 +344,6 @@ export type RandomEventDTO = {
   requirements: {
     requirementType: string;
   }[];
+  rewards: string[];
   penalties: string[];
 };

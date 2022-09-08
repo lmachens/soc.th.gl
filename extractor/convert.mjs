@@ -140,7 +140,6 @@ const getBacteria = ({ bacteriaType, duration }) => {
     (bacteriaSrc) => bacteriaSrc.id === bacteriaType
   );
   if (!bacteria) {
-    console.warn(`Can not find bacteria ${bacteriaType}`);
     return null;
   }
   const result = {
@@ -749,19 +748,28 @@ function analyzeRandomEvents(randomEventsSrc) {
           rewardType: runtimeRewardTypes[reward.rewardType],
           experience: reward.experience,
           troop: reward.troop, // what does this do?
-          troopReward: reward.troopReward, // map maybe?
+          troopRewards: reward.troopReward.troops.map((troop) => ({
+            faction: factions[troop.factionIndex].languageKey,
+            name: factions[troop.factionIndex].units[troop.unitIndex][
+              UNIT_TYPES[troop.upgradeType]
+            ]?.languageKey,
+            size: troop.size,
+          })),
           resourceReward: {
             type: resourceTypes[reward.resourceReward.type],
             amountMinMax: reward.resourceReward.amountMinMax,
           },
           randomTroopInFactionReward: reward.randomTroopInFactionReward,
-          bacteriaReward: getBacteria(
-            reward.bacteriaReward.type,
-            reward.bacteriaReward.duration
-          ), // check, not working
+          bacteriaReward: getBacteria({
+            bacteriaType: reward.bacteriaReward.type,
+            duration: {
+              type: bacteriaDurationTypes[reward.bacteriaReward.duration.type],
+              duration: reward.bacteriaReward.duration.duration,
+            },
+          }),
           artifactReward: reward.artifactReward
             ? artifactTypes[reward.artifactReward]
-            : reward.artifactReward,
+            : null,
           randomArtifact: reward.randomArtifact,
           levelReward: reward.levelReward,
           storyObjective: reward.storyObjective, // what does this do?
