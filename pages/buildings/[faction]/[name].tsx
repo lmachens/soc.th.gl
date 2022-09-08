@@ -10,6 +10,7 @@ import { useTerms } from "../../../components/Terms/Terms";
 import AppLink from "../../../components/AppLink/AppLink";
 import PageHead from "../../../components/PageHead/PageHead";
 import Article from "../../../components/Article/Article";
+import { Fragment } from "react";
 
 const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
   const terms = useTerms();
@@ -152,6 +153,31 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
                               <Text key={resourceIncome.type}>
                                 {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
                               </Text>
+                            ))}
+                            {bacteria.settings?.bacterias?.map((bacteria) => (
+                              <Fragment key={bacteria.bacteriaType}>
+                                <Text component="span">{bacteria.name}</Text> (
+                                {bacteria.modifierData.map((modifier) => (
+                                  <Text
+                                    key={modifier.type}
+                                    component="span"
+                                    dangerouslySetInnerHTML={{
+                                      __html: modifier.description,
+                                    }}
+                                  />
+                                ))}
+                                {bacteria.resourcesIncome.map(
+                                  (resourceIncome) => (
+                                    <Text
+                                      key={resourceIncome.type}
+                                      component="span"
+                                    >
+                                      {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
+                                    </Text>
+                                  )
+                                )}
+                                )
+                              </Fragment>
                             ))}
                           </Box>
                         ))}
