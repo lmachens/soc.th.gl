@@ -747,7 +747,6 @@ function analyzeRandomEvents(randomEventsSrc) {
         return {
           rewardType: runtimeRewardTypes[reward.rewardType],
           experience: reward.experience,
-          troop: reward.troop, // what does this do?
           troopRewards: reward.troopReward.troops.map((troop) => ({
             faction: factions[troop.factionIndex].languageKey,
             name: factions[troop.factionIndex].units[troop.unitIndex][
@@ -772,12 +771,6 @@ function analyzeRandomEvents(randomEventsSrc) {
             : null,
           randomArtifact: reward.randomArtifact,
           levelReward: reward.levelReward,
-          storyObjective: reward.storyObjective, // what does this do?
-          skill: reward.skill.skill
-            ? getSimpleSkill(reward.skill.skill, reward.skill.level)
-            : reward.skill, // not tested (no randomEvents that give skills)
-          randomSkill: reward.randomSkill,
-          randomExoticResourceReward: reward.randomExoticResourceReward,
         };
       }),
       penalties: penalties.penaltyDataList.map((penalty) => {
