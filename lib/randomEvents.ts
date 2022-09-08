@@ -205,6 +205,59 @@ export const getRandomEvent = (
         ),
       };
     }),
+    penalties: randomEventSrc.penalties.map((penalty) => {
+      // extractor/SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyExtensions.cs
+      let text = "";
+
+      switch (penalty.penaltyType) {
+        case "LoseResource":
+          text = `You lose ${penalty.resourcePenalty.amountMinMax.min}-${
+            penalty.resourcePenalty.amountMinMax.max
+          } ${getTerm(
+            `Common/Resource/${penalty.resourcePenalty.type}`,
+            locale
+          )}`;
+          break;
+        case "DestroyOwnedBuilding":
+          text = getTerm(
+            `MapEntities/Generic/Penalty/DestroyOwnedBuilding${
+              penalty.destroyOwnedBuilding.destroyAll ? "/All" : ""
+            }`,
+            locale,
+            [
+              penalty.destroyOwnedBuilding.amount,
+              getTerm(penalty.destroyOwnedBuilding.buildingToDestroy, locale),
+            ]
+          );
+          break;
+        case "CreateHostile":
+          // There is no CreateHostile penalty type right now
+          break;
+        case "CreateRandomHostile":
+          text = getTerm(
+            `MapEntities/Generic/Penalty/CreateRandomHostile/${penalty.createRandomHostile.spawnLocation}`,
+            locale,
+            [penalty.createRandomHostile.amountOfHostiles]
+          );
+          break;
+        case "ReduceRecruitmentPool":
+          text = getTerm(
+            `MapEntities/Generic/Penalty/ReduceRecruitmentPool`,
+            locale,
+            {
+              reducePercent: penalty.reduceRecruitmentPool.percentage * 100,
+              commaSeparatedTroopNames:
+                penalty.reduceRecruitmentPool.troopsToReduce
+                  .map((troop) =>
+                    getTerm(`${troop.faction}/${troop.name}`, locale)
+                  )
+                  .join(", "),
+            }
+          );
+          break;
+      }
+      return text;
+    }),
   };
 };
 
@@ -227,4 +280,5 @@ export type RandomEventDTO = {
   requirements: {
     requirementType: string;
   }[];
+  penalties: string[];
 };

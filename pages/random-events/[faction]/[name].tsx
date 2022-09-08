@@ -60,6 +60,10 @@ const RandomEvent: NextPage<{ randomEvent: RandomEventDTO }> = ({
                 ))}
               </td>
             </tr>
+            <tr>
+              <td>Penalties</td>
+              <td>{randomEvent.penalties}</td>
+            </tr>
           </tbody>
         </Table>
       </Stack>

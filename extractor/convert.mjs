@@ -80,6 +80,9 @@ const runtimeRewardTypes = await readCSTypes(
 const runtimePenaltyTypes = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyType.cs"
 );
+const runtimePenaltyHostileSpawnLocationTypes = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyHostileSpawnLocation.cs"
+);
 const SKILL_POOL_EVALUATION = ["LevelRange", "LevelInterval"];
 
 const factions = factionsSrc.map((factionSrc) => ({
@@ -741,42 +744,70 @@ function analyzeRandomEvents(randomEventsSrc) {
         };
       }),
       eventRecipient: randomEventRecipientTypes[eventRecipient],
-      reward: rewards.rewardDataList.map((reward) => {
+      rewards: rewards.rewardDataList.map((reward) => {
         return {
           rewardType: runtimeRewardTypes[reward.rewardType],
           experience: reward.experience,
-          troop: reward.troop,  // what does this do?
+          troop: reward.troop, // what does this do?
           troopReward: reward.troopReward, // map maybe?
           resourceReward: {
-            type: resourceTypes[reward.resourceReward.type], 
-            amountMinMax: reward.resourceReward.amountMinMax
+            type: resourceTypes[reward.resourceReward.type],
+            amountMinMax: reward.resourceReward.amountMinMax,
           },
           randomTroopInFactionReward: reward.randomTroopInFactionReward,
-          bacteriaReward: getBacteria(reward.bacteriaReward.type, reward.bacteriaReward.duration),  // check, not working
-          artifactReward: reward.artifactReward ? artifactTypes[reward.artifactReward] : reward.artifactReward,
+          bacteriaReward: getBacteria(
+            reward.bacteriaReward.type,
+            reward.bacteriaReward.duration
+          ), // check, not working
+          artifactReward: reward.artifactReward
+            ? artifactTypes[reward.artifactReward]
+            : reward.artifactReward,
           randomArtifact: reward.randomArtifact,
           levelReward: reward.levelReward,
-          storyObjective: reward.storyObjective,  // what does this do?
-          skill: reward.skill.skill ? getSimpleSkill(reward.skill.skill, reward.skill.level) : reward.skill,  // not tested (no randomEvents that give skills)
+          storyObjective: reward.storyObjective, // what does this do?
+          skill: reward.skill.skill
+            ? getSimpleSkill(reward.skill.skill, reward.skill.level)
+            : reward.skill, // not tested (no randomEvents that give skills)
           randomSkill: reward.randomSkill,
           randomExoticResourceReward: reward.randomExoticResourceReward,
         };
       }),
-      penalty: penalties.penaltyDataList.map((penalty) => {
+      penalties: penalties.penaltyDataList.map((penalty) => {
         return {
           penaltyType: runtimePenaltyTypes[penalty.penaltyType],
-          resoucePenalty: {
-            type: resourceTypes[penalty.resourcePenalty.type], 
-            amountMinMax: penalty.resourcePenalty.amountMinMax
+          resourcePenalty: {
+            type: resourceTypes[penalty.resourcePenalty.type],
+            amountMinMax: penalty.resourcePenalty.amountMinMax,
           },
           destroyOwnedBuilding: {
-            buildingToDestroy: penalty.destroyOwnedBuilding.buildingToDestroy ? adventureMapEntitiesTypes[penalty.destroyOwnedBuilding.buildingToDestroy]: penalty.destroyOwnedBuilding.buildingToDestroy,
+            buildingToDestroy:
+              buildings.find(
+                (building) =>
+                  building.id === penalty.destroyOwnedBuilding.buildingToDestroy
+              )?.nameKey ?? "",
             destroyAll: penalty.destroyOwnedBuilding.destroyAll,
             amount: penalty.destroyOwnedBuilding.amount,
-          }, 
-          createHostile: penalty.createHostile,  // map maybe?
-          createRandomHostile: penalty.createRandomHostile,
-          reduceRecruitmentPool: penalty.reduceRecruitmentPool,  // map troops maybe?
+          },
+          // There is no CreateHostile penalty type right now
+          // createHostile: penalty.createHostile,
+          createRandomHostile: {
+            spawnLocation:
+              runtimePenaltyHostileSpawnLocationTypes[
+                penalty.createRandomHostile.spawnLocation
+              ],
+            amountOfHostiles: penalty.createRandomHostile.amountOfHostiles,
+          },
+          reduceRecruitmentPool: {
+            troopsToReduce: penalty.reduceRecruitmentPool.troopsToReduce.map(
+              (troop) => ({
+                faction: factions[troop.factionIndex].languageKey,
+                name: factions[troop.factionIndex].units[troop.unitIndex][
+                  UNIT_TYPES[troop.upgradeType]
+                ]?.languageKey,
+              })
+            ),
+            percentage: penalty.reduceRecruitmentPool.percentage,
+          },
         };
       }),
     };
