@@ -1679,7 +1679,7 @@
           },
           {
             "id": 433,
-            "nameKey": "Arleon/Research/Academy/Economy/Glimmerweave1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2336,7 +2336,7 @@
         "research": [
           {
             "id": 135,
-            "nameKey": "Arleon/Research/Academy/Human/MilitiaStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2375,7 +2375,7 @@
           },
           {
             "id": 188,
-            "nameKey": "Arleon/Research/Academy/Human/MilitiaStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2414,7 +2414,7 @@
           },
           {
             "id": 189,
-            "nameKey": "Arleon/Research/Academy/Human/MilitiaStackSize3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2487,7 +2487,7 @@
         "research": [
           {
             "id": 136,
-            "nameKey": "Arleon/Research/Academy/Human/TroubadourStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2526,7 +2526,7 @@
           },
           {
             "id": 196,
-            "nameKey": "Arleon/Research/Academy/Human/TroubadourStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2565,7 +2565,7 @@
           },
           {
             "id": 197,
-            "nameKey": "Arleon/Research/Academy/Human/TroubadourStackSize3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2638,7 +2638,7 @@
         "research": [
           {
             "id": 139,
-            "nameKey": "Arleon/Research/Academy/Human/RangerStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2677,7 +2677,7 @@
           },
           {
             "id": 192,
-            "nameKey": "Arleon/Research/Academy/Human/RangerStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2716,7 +2716,7 @@
           },
           {
             "id": 193,
-            "nameKey": "Arleon/Research/Academy/Human/RangerStackSize3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2789,7 +2789,7 @@
         "research": [
           {
             "id": 137,
-            "nameKey": "Arleon/Research/Academy/Human/FootmanStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2828,7 +2828,7 @@
           },
           {
             "id": 168,
-            "nameKey": "Arleon/Research/Academy/Human/FootmanStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2867,7 +2867,7 @@
           },
           {
             "id": 169,
-            "nameKey": "Arleon/Research/Academy/Human/FootmanStackSize3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2940,7 +2940,7 @@
         "research": [
           {
             "id": 138,
-            "nameKey": "Arleon/Research/Academy/Human/KnightStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -2979,7 +2979,7 @@
           },
           {
             "id": 184,
-            "nameKey": "Arleon/Research/Academy/Human/KnightStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -3091,7 +3091,7 @@
         "research": [
           {
             "id": 141,
-            "nameKey": "Arleon/Research/Academy/Faey/FaeySpiritStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -3242,7 +3242,7 @@
         "research": [
           {
             "id": 142,
-            "nameKey": "Arleon/Research/Academy/Faey/HornedOneStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -3432,7 +3432,7 @@
           },
           {
             "id": 172,
-            "nameKey": "Arleon/Research/Academy/Faey/FaeyNobleStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -3601,7 +3601,7 @@
         "research": [
           {
             "id": 161,
-            "nameKey": "Arleon/Research/GrandArmory/Faey/TroopOffense1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -3699,7 +3699,7 @@
           },
           {
             "id": 163,
-            "nameKey": "Arleon/Research/GrandArmory/Faey/TroopOffense3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -4313,7 +4313,7 @@
         "research": [
           {
             "id": 146,
-            "nameKey": "Arleon/Research/GrandArmory/Human/TroopDefense1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -4399,7 +4399,7 @@
           },
           {
             "id": 148,
-            "nameKey": "Arleon/Research/GrandArmory/Human/TroopDefense3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -6161,11 +6161,11 @@
             "amount": 2
           },
           {
-            "type": "AncientAmber",
+            "type": "Glimmerweave",
             "amount": 2
           },
           {
-            "type": "Glimmerweave",
+            "type": "AncientAmber",
             "amount": 2
           }
         ],
@@ -6289,16 +6289,16 @@
       {
         "costEntries": [
           {
+            "type": "Glimmerweave",
+            "amount": 5
+          },
+          {
             "type": "AncientAmber",
             "amount": 5
           },
           {
             "type": "CelestialOre",
             "amount": 20
-          },
-          {
-            "type": "Glimmerweave",
-            "amount": 5
           }
         ],
         "requiredBuildings": [
@@ -6434,7 +6434,7 @@
           },
           {
             "id": 565,
-            "nameKey": "Barya/Research/Foundry/TroopDefense2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -6477,7 +6477,7 @@
           },
           {
             "id": 566,
-            "nameKey": "Barya/Research/Foundry/TroopDefense3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -6929,7 +6929,7 @@
           },
           {
             "id": 354,
-            "nameKey": "Barya/Research/Foundry/TroopDefense2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -6972,7 +6972,7 @@
           },
           {
             "id": 355,
-            "nameKey": "Barya/Research/Foundry/TroopDefense3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -7393,7 +7393,7 @@
         "research": [
           {
             "id": 341,
-            "nameKey": "Barya/Research/Foundry/TroopRangedOffense1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -7479,7 +7479,7 @@
           },
           {
             "id": 343,
-            "nameKey": "Barya/Research/Foundry/TroopRangedOffense3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10144,7 +10144,7 @@
         "research": [
           {
             "id": 310,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/PiperStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10183,7 +10183,7 @@
           },
           {
             "id": 311,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/PiperStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10222,7 +10222,7 @@
           },
           {
             "id": 312,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/PiperStackSize3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10295,7 +10295,7 @@
         "research": [
           {
             "id": 295,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/BruteStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10334,7 +10334,7 @@
           },
           {
             "id": 296,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/BruteStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10446,7 +10446,7 @@
         "research": [
           {
             "id": 315,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/SassanidStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10485,7 +10485,7 @@
           },
           {
             "id": 316,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/SassanidStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10597,7 +10597,7 @@
         "research": [
           {
             "id": 320,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/DreathStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10636,7 +10636,7 @@
           },
           {
             "id": 321,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/DreathStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10675,7 +10675,7 @@
           },
           {
             "id": 322,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/DreathStackSize3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10748,7 +10748,7 @@
         "research": [
           {
             "id": 300,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/MusketeerStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10787,7 +10787,7 @@
           },
           {
             "id": 301,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/MusketeerStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10826,7 +10826,7 @@
           },
           {
             "id": 302,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/MusketeerStackSize3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10899,7 +10899,7 @@
         "research": [
           {
             "id": 305,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/PikeneerStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10938,7 +10938,7 @@
           },
           {
             "id": 306,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/PikeneerStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -10977,7 +10977,7 @@
           },
           {
             "id": 307,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/PikeneerStackSize3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -11050,7 +11050,7 @@
         "research": [
           {
             "id": 330,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/TinkererStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -11089,7 +11089,7 @@
           },
           {
             "id": 331,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/TinkererStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -11240,7 +11240,7 @@
           },
           {
             "id": 326,
-            "nameKey": "Barya/Research/MerchantsGuild/MercenaryTraining/HellBreathStackSize2",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -11514,11 +11514,11 @@
           "amount": 3
         },
         {
-          "type": "AncientAmber",
+          "type": "Glimmerweave",
           "amount": 3
         },
         {
-          "type": "Glimmerweave",
+          "type": "AncientAmber",
           "amount": 3
         },
         {
@@ -13973,7 +13973,7 @@
           },
           {
             "id": 211,
-            "nameKey": "Loth/Research/LibraryOfAurelia/Living/ToxicologistStackSize1",
+            "nameKey": "Loth/Research/LibraryOfAurelia/Living/ToxicologistStackSize2",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -14012,7 +14012,7 @@
           },
           {
             "id": 212,
-            "nameKey": "Loth/Research/LibraryOfAurelia/Living/ToxicologistStackSize1",
+            "nameKey": "Loth/Research/LibraryOfAurelia/Living/ToxicologistStackSize3",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -14387,7 +14387,7 @@
         "research": [
           {
             "id": 225,
-            "nameKey": "Loth/Research/LibraryOfAurelia/Undead/BonesStackSize1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16415,7 +16415,7 @@
         "research": [
           {
             "id": 281,
-            "nameKey": "Loth/Research/TheUnseenSociety/Undead/TroopOffense1",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16501,7 +16501,7 @@
           },
           {
             "id": 283,
-            "nameKey": "Loth/Research/TheUnseenSociety/Undead/TroopOffense3",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16578,7 +16578,7 @@
         "research": [
           {
             "id": 485,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Rats",
+            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Rats1",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16617,7 +16617,7 @@
           },
           {
             "id": 486,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Rats",
+            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Rats2",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16656,7 +16656,7 @@
           },
           {
             "id": 487,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Rats",
+            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Rats3",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16743,7 +16743,7 @@
         "research": [
           {
             "id": 476,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Cultist",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16782,7 +16782,7 @@
           },
           {
             "id": 477,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Cultist",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16821,7 +16821,7 @@
           },
           {
             "id": 478,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Cultist",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16894,7 +16894,7 @@
         "research": [
           {
             "id": 494,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Toxicologist",
+            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Toxicologist1",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16933,7 +16933,7 @@
           },
           {
             "id": 495,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Toxicologist",
+            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Toxicologist2",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -16972,7 +16972,7 @@
           },
           {
             "id": 496,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Toxicologist",
+            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Toxicologist3",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17051,7 +17051,7 @@
         "research": [
           {
             "id": 488,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Scholar",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17090,7 +17090,7 @@
           },
           {
             "id": 489,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Scholar",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17129,7 +17129,7 @@
           },
           {
             "id": 490,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Scholar",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17202,7 +17202,7 @@
         "research": [
           {
             "id": 482,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Oathbound",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17241,7 +17241,7 @@
           },
           {
             "id": 483,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Oathbound",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17280,7 +17280,7 @@
           },
           {
             "id": 484,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Oathbound",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17353,7 +17353,7 @@
         "research": [
           {
             "id": 491,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Spectre",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17392,7 +17392,7 @@
           },
           {
             "id": 492,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Spectre",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17431,7 +17431,7 @@
           },
           {
             "id": 493,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Spectre",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17504,7 +17504,7 @@
         "research": [
           {
             "id": 473,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Bones",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17543,7 +17543,7 @@
           },
           {
             "id": 474,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Bones",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17582,7 +17582,7 @@
           },
           {
             "id": 475,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Bones",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17669,7 +17669,7 @@
         "research": [
           {
             "id": 479,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Legion",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17708,7 +17708,7 @@
           },
           {
             "id": 480,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Legion",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -17747,7 +17747,7 @@
           },
           {
             "id": 481,
-            "nameKey": "Loth/Research/TheUnseenSociety/Troops/Legion",
+            "nameKey": null,
             "descriptionKey": null,
             "costEntries": [
               {
@@ -22209,7 +22209,7 @@
           },
           {
             "id": 375,
-            "nameKey": null,
+            "nameKey": "Rana/Research/BirthingPools/Economy/Glimmerweave2",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -22237,7 +22237,7 @@
           },
           {
             "id": 497,
-            "nameKey": "Rana/Research/BirthingPools/Economy/Glimmerweave1",
+            "nameKey": "Rana/Research/BirthingPools/Economy/Glimmerweave3",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -22561,7 +22561,7 @@
           },
           {
             "id": 499,
-            "nameKey": "Rana/Research/BirthingPools/Wielders/Arcana1",
+            "nameKey": "Rana/Research/BirthingPools/Wielders/Arcana2",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -22600,7 +22600,7 @@
           },
           {
             "id": 500,
-            "nameKey": "Rana/Research/BirthingPools/Wielders/Arcana1",
+            "nameKey": "Rana/Research/BirthingPools/Wielders/Arcana3",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -22712,7 +22712,7 @@
           },
           {
             "id": 501,
-            "nameKey": "Rana/Research/BirthingPools/Wielders/Creation1",
+            "nameKey": "Rana/Research/BirthingPools/Wielders/Creation2",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -22751,7 +22751,7 @@
           },
           {
             "id": 502,
-            "nameKey": "Rana/Research/BirthingPools/Wielders/Creation1",
+            "nameKey": "Rana/Research/BirthingPools/Wielders/Creation3",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -22863,7 +22863,7 @@
           },
           {
             "id": 503,
-            "nameKey": "Rana/Research/BirthingPools/Wielders/Destruction1",
+            "nameKey": "Rana/Research/BirthingPools/Wielders/Destruction2",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -22902,7 +22902,7 @@
           },
           {
             "id": 504,
-            "nameKey": "Rana/Research/BirthingPools/Wielders/Destruction1",
+            "nameKey": "Rana/Research/BirthingPools/Wielders/Destruction3",
             "descriptionKey": null,
             "costEntries": [
               {

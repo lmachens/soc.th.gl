@@ -3255,7 +3255,7 @@
       "name": "BannerColorable",
       "spriteSheet": "LothUI.webp",
       "x": 1436,
-      "y": 1680,
+      "y": 1677,
       "width": 96,
       "height": 149,
       "outline": [
@@ -3283,7 +3283,7 @@
       "name": "TopCircleSymbol",
       "spriteSheet": "LothUI.webp",
       "x": 1569,
-      "y": 1833,
+      "y": 1830,
       "width": 82,
       "height": 91,
       "outline": [
