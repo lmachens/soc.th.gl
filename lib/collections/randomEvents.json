@@ -1470,32 +1470,29 @@
       }
     ],
     "eventRecipient": "Team",
-    "rewards": [],
-    "penalties": [
+    "rewards": [
       {
-        "penaltyType": "LoseResource",
-        "resourcePenalty": {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
           "type": "Gold",
           "amountMinMax": {
             "min": 500,
             "max": 800
           }
         },
-        "destroyOwnedBuilding": {
-          "buildingToDestroy": "",
-          "destroyAll": 0,
-          "amount": 1
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
         },
-        "createRandomHostile": {
-          "spawnLocation": "AroundWielders",
-          "amountOfHostiles": 1
-        },
-        "reduceRecruitmentPool": {
-          "troopsToReduce": [],
-          "percentage": 0
-        }
+        "levelReward": 1
       }
-    ]
+    ],
+    "penalties": []
   },
   {
     "id": "Arleon/WhisperingSkull",
