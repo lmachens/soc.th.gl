@@ -28,60 +28,60 @@ const adventureMapEntitySrc = await readJSONFile(
 await writeJSONFile(termMapSrc, "../../lib/collections/termMap");
 
 const resourceTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Economy/ResourceType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Economy/ResourceType.cs"
 );
 const UNIT_TYPES = ["vanilla", "upgraded", "superUpgraded"];
 
 const essenceTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Gamestate/EssenceType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Gamestate/EssenceType.cs"
 );
 const spellTargetTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellTargetType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellTargetType.cs"
 );
 const spellEffectTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellEffectType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellEffectType.cs"
 );
 const spellTeleportDestinationsTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellTeleportDestination.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellTeleportDestination.cs"
 );
 const bacteriaDurationTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Bacterias/BacteriaDurationType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Bacterias/BacteriaDurationType.cs"
 );
 const spellDurationTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellDurationType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Spells/SpellDurationType.cs"
 );
 const genericBacteriaCustomEffectTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Server/Bacterias/GenericBacteriaCustomEffect.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Server/Bacterias/GenericBacteriaCustomEffect.cs"
 );
 const randomEventTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventType.cs"
 );
 const randomEventEvaluationTriggerTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventEvaluationTrigger.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventEvaluationTrigger.cs"
 );
 const randomEventRequirementEvaluationTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRequirementEvaluationType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRequirementEvaluationType.cs"
 );
 const randomEventRequirementTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRequirementType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRequirementType.cs"
 );
 const randomEventRecipientTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRecipient.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Adventure/RandomEventRecipient.cs"
 );
 const adventureMapEntitiesTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/AutoGeneratedDef/SongsOfConquest/AdventureMapEntities.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/AutoGeneratedDef/SongsOfConquest/AdventureMapEntities.cs"
 );
 const artifactTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/AutoGeneratedDef/SongsOfConquest/ArtifactTypes.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/AutoGeneratedDef/SongsOfConquest/ArtifactTypes.cs"
 );
 const runtimeRewardTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Rewards/RuntimeRewardType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Rewards/RuntimeRewardType.cs"
 );
 const runtimePenaltyTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyType.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyType.cs"
 );
 const runtimePenaltyHostileSpawnLocationTypes = await readCSTypes(
-  "./SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyHostileSpawnLocation.cs"
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyHostileSpawnLocation.cs"
 );
 const SKILL_POOL_EVALUATION = ["LevelRange", "LevelInterval"];
 
@@ -466,7 +466,7 @@ const getStack = (stack) => ({
     ),
   })),
 });
-// extractor/SongsOfConquest/ExportedProject/Assets/MonoScript/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Entities/MapEntityCategory.cs
+// extractor/SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Entities/MapEntityCategory.cs
 const MAP_ENTITY_CATEGORY_BUILDING = 97;
 
 const buildSites = adventureMapEntitySrc.filter((buildSite) =>

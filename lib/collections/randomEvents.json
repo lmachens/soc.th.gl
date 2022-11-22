@@ -502,7 +502,7 @@
           "type": "AncientAmber",
           "amountMinMax": {
             "min": 3,
-            "max": 7
+            "max": 5
           }
         },
         "bacteriaReward": null,
@@ -1553,8 +1553,8 @@
         "resourceReward": {
           "type": "Glimmerweave",
           "amountMinMax": {
-            "min": 2,
-            "max": 3
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -1688,8 +1688,8 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 872,
-          "type": "RandomEventHesitation",
+          "bacteriaType": 916,
+          "type": "RandomEventDread",
           "customEffect": "None",
           "customEffectValue": 0,
           "secondaryCustomEffectValue": 0,
@@ -1704,19 +1704,19 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": -5,
+              "amountToAdd": -10,
               "applicationType": 0
             },
             {
               "type": 8,
               "modifier": "TroopRangedOffense",
-              "amountToAdd": -5,
+              "amountToAdd": -10,
               "applicationType": 0
             },
             {
               "type": 5,
               "modifier": "TroopMeleeOffense",
-              "amountToAdd": -5,
+              "amountToAdd": -10,
               "applicationType": 0
             }
           ],
@@ -2536,8 +2536,8 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 4,
-            "max": 7
+            "min": 3,
+            "max": 5
           }
         },
         "bacteriaReward": null,
@@ -2591,8 +2591,8 @@
         "resourceReward": {
           "type": "CelestialOre",
           "amountMinMax": {
-            "min": 5,
-            "max": 10
+            "min": 4,
+            "max": 7
           }
         },
         "bacteriaReward": null,
@@ -2714,8 +2714,8 @@
         "resourceReward": {
           "type": "Glimmerweave",
           "amountMinMax": {
-            "min": 4,
-            "max": 8
+            "min": 3,
+            "max": 5
           }
         },
         "bacteriaReward": null,
@@ -3227,7 +3227,7 @@
           "type": "Glimmerweave",
           "amountMinMax": {
             "min": 1,
-            "max": 10
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -3247,7 +3247,7 @@
           "type": "AncientAmber",
           "amountMinMax": {
             "min": 1,
-            "max": 10
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -3267,7 +3267,7 @@
           "type": "CelestialOre",
           "amountMinMax": {
             "min": 1,
-            "max": 10
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -3315,7 +3315,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 5,
+        "value": 10,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -4114,15 +4114,74 @@
       }
     ],
     "eventRecipient": "Team",
-    "rewards": [],
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1146,
+          "type": "RandomEventHunger",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": -1,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
     "penalties": [
       {
         "penaltyType": "LoseResource",
         "resourcePenalty": {
           "type": "Gold",
           "amountMinMax": {
-            "min": 700,
-            "max": 1200
+            "min": 100,
+            "max": 200
           }
         },
         "destroyOwnedBuilding": {
@@ -5869,36 +5928,16 @@
           }
         },
         "bacteriaReward": null,
-        "artifactReward": "SpikedGauntlet",
-        "randomArtifact": {
-          "category": 0,
-          "tier": 10,
-          "randomSeed": 0
-        },
-        "levelReward": 1
-      },
-      {
-        "rewardType": "Artifact",
-        "experience": 0,
-        "troopRewards": [],
-        "resourceReward": {
-          "type": "Gold",
-          "amountMinMax": {
-            "min": 0,
-            "max": 0
-          }
-        },
-        "bacteriaReward": null,
         "artifactReward": "Dagger",
         "randomArtifact": {
-          "category": 0,
-          "tier": 10,
+          "category": 1,
+          "tier": 0,
           "randomSeed": 0
         },
         "levelReward": 1
       },
       {
-        "rewardType": "Artifact",
+        "rewardType": "RandomArtifact",
         "experience": 0,
         "troopRewards": [],
         "resourceReward": {
@@ -5909,10 +5948,30 @@
           }
         },
         "bacteriaReward": null,
-        "artifactReward": "WornGloves",
+        "artifactReward": "SpikedGauntlet",
         "randomArtifact": {
-          "category": 0,
-          "tier": 10,
+          "category": 1,
+          "tier": 0,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "RandomArtifact",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": "SpikedGauntlet",
+        "randomArtifact": {
+          "category": 2,
+          "tier": 0,
           "randomSeed": 0
         },
         "levelReward": 1
@@ -6002,8 +6061,8 @@
         "resourceReward": {
           "type": "CelestialOre",
           "amountMinMax": {
-            "min": 10,
-            "max": 15
+            "min": 7,
+            "max": 9
           }
         },
         "bacteriaReward": null,
@@ -6096,8 +6155,8 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 5,
-            "max": 7
+            "min": 3,
+            "max": 5
           }
         },
         "bacteriaReward": null,
@@ -6731,8 +6790,8 @@
         "resourceReward": {
           "type": "Gold",
           "amountMinMax": {
-            "min": 1000,
-            "max": 1500
+            "min": 500,
+            "max": 1000
           }
         },
         "bacteriaReward": null,
@@ -7069,20 +7128,6 @@
     "requirements": [
       {
         "eventReference": {
-          "uniqueName": null
-        },
-        "value": 1,
-        "factionIndex": 1,
-        "unitIndex": 0,
-        "resourceType": "Gold",
-        "artifactType": "Crossbow",
-        "entityType": {
-          "nameKey": "Arleon/Farm"
-        },
-        "requirementType": "RecipientOwnsGreaterThanOrEqualTroop"
-      },
-      {
-        "eventReference": {
           "uniqueName": "Arleon/Orchard/Peaches"
         },
         "value": 1,
@@ -7096,7 +7141,7 @@
         "requirementType": "PriorEventDidHappen"
       }
     ],
-    "eventRecipient": "CommanderWithSpecificTroop",
+    "eventRecipient": "CommanderWithHighestLevel",
     "rewards": [
       {
         "rewardType": "Bacteria",
@@ -7216,7 +7261,7 @@
         "requirementType": "PriorEventDidHappen"
       }
     ],
-    "eventRecipient": "Team",
+    "eventRecipient": "CommanderWithHighestLevel",
     "rewards": [
       {
         "rewardType": "Resource",
@@ -7250,8 +7295,8 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 237,
-          "type": "RandomEventGoodSpirits",
+          "bacteriaType": 917,
+          "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
           "secondaryCustomEffectValue": 0,
@@ -7266,26 +7311,32 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 10,
               "applicationType": 0
             },
             {
               "type": 5,
               "modifier": "TroopMeleeOffense",
-              "amountToAdd": 5,
+              "amountToAdd": 10,
               "applicationType": 0
             },
             {
               "type": 8,
               "modifier": "TroopRangedOffense",
-              "amountToAdd": 5,
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": 1,
               "applicationType": 0
             }
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": "AdventureTeamRound",
-            "duration": 2
+            "type": "AdventureNumberOfBattles",
+            "duration": 1
           }
         },
         "artifactReward": null,
@@ -7388,7 +7439,7 @@
     "eventRecipient": "Team",
     "rewards": [
       {
-        "rewardType": "Resource",
+        "rewardType": "Bacteria",
         "experience": 0,
         "troopRewards": [],
         "resourceReward": {
@@ -7398,7 +7449,22 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 1143,
+          "type": "RandomEventBetterEarnings",
+          "modifierData": [],
+          "resourcesIncome": [
+            {
+              "type": "Gold",
+              "amount": 100,
+              "allTimeAmount": 0
+            }
+          ],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8721,8 +8787,8 @@
         "troopRewards": [
           {
             "faction": "Loth",
-            "name": "Oathbound",
-            "size": 20
+            "name": "OathboundLegionaire",
+            "size": 10
           }
         ],
         "resourceReward": {
@@ -8828,7 +8894,7 @@
           "type": "AncientAmber",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -9226,8 +9292,8 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 2,
-            "max": 3
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -10608,8 +10674,8 @@
         "resourceReward": {
           "type": "CelestialOre",
           "amountMinMax": {
-            "min": 7,
-            "max": 10
+            "min": 4,
+            "max": 7
           }
         },
         "bacteriaReward": null,
@@ -10910,8 +10976,8 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 3,
-            "max": 3
+            "min": 2,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -10930,8 +10996,8 @@
         "resourceReward": {
           "type": "CelestialOre",
           "amountMinMax": {
-            "min": 2,
-            "max": 2
+            "min": 1,
+            "max": 1
           }
         },
         "bacteriaReward": null,
@@ -11177,8 +11243,8 @@
         "resourceReward": {
           "type": "Glimmerweave",
           "amountMinMax": {
-            "min": 4,
-            "max": 4
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -11197,7 +11263,7 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 2,
+            "min": 1,
             "max": 2
           }
         },
@@ -11927,7 +11993,7 @@
         "eventReference": {
           "uniqueName": "Loth/TrunkOfBooks/SecretOfBones"
         },
-        "value": 5,
+        "value": 10,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -12160,6 +12226,494 @@
       }
     ],
     "penalties": []
+  },
+  {
+    "id": "Loth/FaeyFires",
+    "uniqueName": "Loth/Toxins/FaeyFires",
+    "descriptionKey": "RandomEvents/Loth/Toxins/FaeyFires/Description",
+    "faction": "Loth",
+    "eventChainNameKey": "RandomEvents/Loth/Toxins",
+    "eventType": "Neutral",
+    "name": "FaeyFires",
+    "chanceOfHappening": 0.06,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 1,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Loth/ExMortisSanctum"
+        },
+        "requirementType": "TroopIncomeGreaterThanOrEqual"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 4,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Loth/ExMortisSanctum"
+        },
+        "requirementType": "TroopIncomeGreaterThanOrEqual"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Stone",
+          "amountMinMax": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1146,
+          "type": "RandomEventHunger",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": -1,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Wood",
+          "amountMinMax": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1146,
+          "type": "RandomEventHunger",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": -1,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1146,
+          "type": "RandomEventHunger",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": -1,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Loth/InfertileLands",
+    "uniqueName": "Loth/Toxins/InfertileLands",
+    "descriptionKey": "RandomEvents/Loth/Toxins/InfertileLands/Description",
+    "faction": "Loth",
+    "eventChainNameKey": "RandomEvents/Loth/Toxins",
+    "eventType": "Bad",
+    "name": "InfertileLands",
+    "chanceOfHappening": 0.5,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Loth/Toxins/StrangeLand"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Loth/Croft"
+        },
+        "requirementType": "LessThanEntitiesOwned"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Loth/Toxins/ReclaimedBones"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidNotHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "LoseResource",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 500,
+            "max": 1000
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "Loth/ReclaimedBones",
+    "uniqueName": "Loth/Toxins/ReclaimedBones",
+    "descriptionKey": "RandomEvents/Loth/Toxins/ReclaimedBones/Description",
+    "faction": "Loth",
+    "eventChainNameKey": "RandomEvents/Loth/Toxins",
+    "eventType": "Good",
+    "name": "ReclaimedBones",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Loth/Toxins/Recluse"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Troops",
+        "experience": 0,
+        "troopRewards": [
+          {
+            "faction": "Loth",
+            "name": "Oathbound",
+            "size": 5
+          }
+        ],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Loth/Recluse",
+    "uniqueName": "Loth/Toxins/Recluse",
+    "descriptionKey": "RandomEvents/Loth/Toxins/Recluse/Description",
+    "faction": "Loth",
+    "eventChainNameKey": "RandomEvents/Loth/Toxins",
+    "eventType": "Good",
+    "name": "Recluse",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Loth/Toxins/InfertileLands"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Experience",
+        "experience": 400,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Loth/StrangeLand",
+    "uniqueName": "Loth/Toxins/StrangeLand",
+    "descriptionKey": "RandomEvents/Loth/Toxins/StrangeLand/Description",
+    "faction": "Loth",
+    "eventChainNameKey": "RandomEvents/Loth/Toxins",
+    "eventType": "Bad",
+    "name": "StrangeLand",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Loth/Toxins/FaeyFires"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "LoseResource",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 400,
+            "max": 600
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      }
+    ]
   },
   {
     "id": "Barya/TrunkOfBooks",
@@ -12920,8 +13474,8 @@
         "resourceReward": {
           "type": "CelestialOre",
           "amountMinMax": {
-            "min": 4,
-            "max": 6
+            "min": 2,
+            "max": 4
           }
         },
         "bacteriaReward": null,
@@ -13077,7 +13631,7 @@
           "type": "AncientAmber",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -13097,7 +13651,7 @@
           "type": "Glimmerweave",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -13117,7 +13671,7 @@
           "type": "CelestialOre",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -13219,8 +13773,8 @@
         "resourceReward": {
           "type": "CelestialOre",
           "amountMinMax": {
-            "min": 7,
-            "max": 10
+            "min": 4,
+            "max": 6
           }
         },
         "bacteriaReward": null,
@@ -13243,7 +13797,7 @@
     "eventChainNameKey": "RandomEvents/Barya/NewGunPowder",
     "eventType": "Good",
     "name": "Wreckage",
-    "chanceOfHappening": 0.35,
+    "chanceOfHappening": 0.8,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -13253,7 +13807,7 @@
     "requirements": [
       {
         "eventReference": {
-          "uniqueName": "Barya/NewGunPowder/NewFormula"
+          "uniqueName": "Barya/NewGunPowder/NotHandledWithCare"
         },
         "value": 5,
         "factionIndex": 0,
@@ -13269,14 +13823,34 @@
     "eventRecipient": "Team",
     "rewards": [
       {
-        "rewardType": "RandomExoticResource",
+        "rewardType": "Resource",
         "experience": 0,
         "troopRewards": [],
         "resourceReward": {
-          "type": "Gold",
+          "type": "AncientAmber",
           "amountMinMax": {
-            "min": 0,
-            "max": 0
+            "min": 2,
+            "max": 3
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "CelestialOre",
+          "amountMinMax": {
+            "min": 3,
+            "max": 4
           }
         },
         "bacteriaReward": null,
@@ -13640,7 +14214,7 @@
     "eventChainNameKey": "RandomEvents/Barya/NewGunPowder",
     "eventType": "Good",
     "name": "NewFormula",
-    "chanceOfHappening": 0.75,
+    "chanceOfHappening": 0.8,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -13833,6 +14407,20 @@
           "nameKey": "Barya/Workshop"
         },
         "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
       }
     ],
     "eventRecipient": "Team",
@@ -13973,8 +14561,8 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 2,
-            "max": 4
+            "min": 1,
+            "max": 3
           }
         },
         "bacteriaReward": null,
@@ -13993,8 +14581,8 @@
         "resourceReward": {
           "type": "Glimmerweave",
           "amountMinMax": {
-            "min": 2,
-            "max": 4
+            "min": 1,
+            "max": 3
           }
         },
         "bacteriaReward": null,
@@ -14013,8 +14601,8 @@
         "resourceReward": {
           "type": "CelestialOre",
           "amountMinMax": {
-            "min": 2,
-            "max": 4
+            "min": 1,
+            "max": 3
           }
         },
         "bacteriaReward": null,
@@ -15265,8 +15853,8 @@
         "resourceReward": {
           "type": "Glimmerweave",
           "amountMinMax": {
-            "min": 2,
-            "max": 4
+            "min": 1,
+            "max": 3
           }
         },
         "bacteriaReward": null,
@@ -16129,7 +16717,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 5,
+        "value": 10,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -16817,7 +17405,7 @@
           "type": "AncientAmber",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -16837,7 +17425,7 @@
           "type": "Glimmerweave",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -16925,8 +17513,8 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 2,
-            "max": 3
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -17243,8 +17831,8 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 3,
-            "max": 5
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -17263,8 +17851,8 @@
         "resourceReward": {
           "type": "Glimmerweave",
           "amountMinMax": {
-            "min": 2,
-            "max": 3
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -17819,8 +18407,8 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 2,
-            "max": 3
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -17839,8 +18427,8 @@
         "resourceReward": {
           "type": "Glimmerweave",
           "amountMinMax": {
-            "min": 2,
-            "max": 3
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -17859,8 +18447,8 @@
         "resourceReward": {
           "type": "CelestialOre",
           "amountMinMax": {
-            "min": 2,
-            "max": 3
+            "min": 1,
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -18381,7 +18969,7 @@
           "type": "AncientAmber",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -18401,7 +18989,7 @@
           "type": "Glimmerweave",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -18421,7 +19009,7 @@
           "type": "CelestialOre",
           "amountMinMax": {
             "min": 1,
-            "max": 3
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -18497,7 +19085,7 @@
           "type": "Glimmerweave",
           "amountMinMax": {
             "min": 1,
-            "max": 2
+            "max": 1
           }
         },
         "bacteriaReward": null,
@@ -18695,7 +19283,7 @@
           "type": "CelestialOre",
           "amountMinMax": {
             "min": 1,
-            "max": 2
+            "max": 1
           }
         },
         "bacteriaReward": null,
@@ -19205,7 +19793,7 @@
           "type": "AncientAmber",
           "amountMinMax": {
             "min": 1,
-            "max": 2
+            "max": 1
           }
         },
         "bacteriaReward": null,
@@ -19225,7 +19813,7 @@
           "type": "Glimmerweave",
           "amountMinMax": {
             "min": 1,
-            "max": 2
+            "max": 1
           }
         },
         "bacteriaReward": null,
@@ -19245,7 +19833,7 @@
           "type": "CelestialOre",
           "amountMinMax": {
             "min": 1,
-            "max": 2
+            "max": 1
           }
         },
         "bacteriaReward": null,
@@ -19967,7 +20555,7 @@
           "type": "CelestialOre",
           "amountMinMax": {
             "min": 1,
-            "max": 2
+            "max": 1
           }
         },
         "bacteriaReward": null,
@@ -20235,8 +20823,8 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 872,
-          "type": "RandomEventHesitation",
+          "bacteriaType": 916,
+          "type": "RandomEventDread",
           "customEffect": "None",
           "customEffectValue": 0,
           "secondaryCustomEffectValue": 0,
@@ -20251,19 +20839,19 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": -5,
+              "amountToAdd": -10,
               "applicationType": 0
             },
             {
               "type": 8,
               "modifier": "TroopRangedOffense",
-              "amountToAdd": -5,
+              "amountToAdd": -10,
               "applicationType": 0
             },
             {
               "type": 5,
               "modifier": "TroopMeleeOffense",
-              "amountToAdd": -5,
+              "amountToAdd": -10,
               "applicationType": 0
             }
           ],

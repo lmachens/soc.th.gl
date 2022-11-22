@@ -4594,12 +4594,12 @@
     ],
     "units": [
       {
-        "languageKey": "Minstrel",
+        "languageKey": "Ranger",
         "size": 7
       },
       {
-        "languageKey": "Ranger",
-        "size": 5
+        "languageKey": "Minstrel",
+        "size": 4
       }
     ],
     "specializations": [
@@ -8415,12 +8415,12 @@
     ],
     "units": [
       {
-        "languageKey": "Militia",
-        "size": 10
+        "languageKey": "Knight",
+        "size": 2
       },
       {
         "languageKey": "Militia",
-        "size": 10
+        "size": 6
       }
     ],
     "specializations": [
@@ -9306,16 +9306,12 @@
     ],
     "units": [
       {
-        "languageKey": "Embalmer",
-        "size": 3
+        "languageKey": "Oathbound",
+        "size": 7
       },
       {
         "languageKey": "Cultist",
-        "size": 5
-      },
-      {
-        "languageKey": "Rats",
-        "size": 5
+        "size": 7
       }
     ],
     "specializations": [
@@ -10328,8 +10324,8 @@
         "size": 1
       },
       {
-        "languageKey": "Oathbound",
-        "size": 5
+        "languageKey": "Embalmer",
+        "size": 4
       }
     ],
     "specializations": [
@@ -11201,8 +11197,8 @@
         "size": 2
       },
       {
-        "languageKey": "Rats",
-        "size": 10
+        "languageKey": "Cultist",
+        "size": 5
       }
     ],
     "specializations": [
@@ -12208,11 +12204,11 @@
     "units": [
       {
         "languageKey": "Cultist",
-        "size": 4
+        "size": 5
       },
       {
         "languageKey": "Rats",
-        "size": 16
+        "size": 20
       }
     ],
     "specializations": [
@@ -13218,11 +13214,11 @@
     "units": [
       {
         "languageKey": "Rats",
-        "size": 14
+        "size": 16
       },
       {
         "languageKey": "Rats",
-        "size": 14
+        "size": 16
       }
     ],
     "specializations": [
@@ -14116,7 +14112,7 @@
           {
             "type": 7,
             "modifier": "TroopRangedAttackResistance",
-            "amountToAdd": 15,
+            "amountToAdd": 20,
             "applicationType": 0
           }
         ],
@@ -14981,12 +14977,12 @@
     ],
     "units": [
       {
-        "languageKey": "Rats",
-        "size": 14
+        "languageKey": "Cultist",
+        "size": 10
       },
       {
         "languageKey": "Embalmer",
-        "size": 4
+        "size": 2
       }
     ],
     "specializations": [
@@ -16745,12 +16741,12 @@
     ],
     "units": [
       {
-        "languageKey": "Oathbound",
-        "size": 8
+        "languageKey": "Cultist",
+        "size": 7
       },
       {
         "languageKey": "Cultist",
-        "size": 5
+        "size": 7
       }
     ],
     "specializations": [
@@ -16803,7 +16799,7 @@
     },
     "startingSkills": [
       {
-        "type": "HandToHand",
+        "type": "Melee",
         "level": 1
       },
       {
@@ -17269,6 +17265,10 @@
               {
                 "type": "Levy",
                 "level": 1
+              },
+              {
+                "type": "Order",
+                "level": 1
               }
             ]
           },
@@ -17560,26 +17560,37 @@
     ],
     "units": [
       {
-        "languageKey": "Piper",
+        "languageKey": "Dreath",
         "size": 10
       },
       {
-        "languageKey": "Pikeneer",
+        "languageKey": "Piper",
         "size": 6
       }
     ],
     "specializations": [
       {
-        "bacteriaType": 857,
-        "type": "SpecializationIncome",
-        "modifierData": [],
-        "resourcesIncome": [
+        "bacteriaType": 1167,
+        "type": "SpecializationDreathDamage",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1
+        },
+        "modifierData": [
           {
-            "type": "Gold",
-            "amount": 200,
-            "allTimeAmount": 0
+            "type": 1,
+            "modifier": "TroopDamage",
+            "amountToAdd": 2,
+            "applicationType": 0
           }
         ],
+        "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
           "duration": 0
@@ -18146,7 +18157,7 @@
                 "level": 1
               },
               {
-                "type": "Learning",
+                "type": "Destruction",
                 "level": 1
               },
               {
@@ -18186,6 +18197,10 @@
               },
               {
                 "type": "Attuned",
+                "level": 1
+              },
+              {
+                "type": "Learning",
                 "level": 1
               }
             ]
@@ -18425,11 +18440,11 @@
     "units": [
       {
         "languageKey": "Musketeer",
-        "size": 5
+        "size": 6
       },
       {
         "languageKey": "Tinkerer",
-        "size": 3
+        "size": 2
       }
     ],
     "specializations": [
@@ -18482,7 +18497,7 @@
     },
     "startingSkills": [
       {
-        "type": "Melee",
+        "type": "Order",
         "level": 1
       },
       {
@@ -18947,6 +18962,10 @@
               },
               {
                 "type": "Levy",
+                "level": 1
+              },
+              {
+                "type": "Order",
                 "level": 1
               }
             ]
@@ -19784,6 +19803,10 @@
               },
               {
                 "type": "Fast",
+                "level": 1
+              },
+              {
+                "type": "HandToHand",
                 "level": 1
               }
             ]
@@ -20709,7 +20732,7 @@
                 "level": 1
               },
               {
-                "type": "Learning",
+                "type": "Destruction",
                 "level": 1
               },
               {
@@ -20749,6 +20772,10 @@
               },
               {
                 "type": "Attuned",
+                "level": 1
+              },
+              {
+                "type": "Learning",
                 "level": 1
               }
             ]
@@ -20988,10 +21015,10 @@
     "units": [
       {
         "languageKey": "Tinkerer",
-        "size": 4
+        "size": 3
       },
       {
-        "languageKey": "Pikeneer",
+        "languageKey": "Dreath",
         "size": 5
       }
     ],
@@ -21045,7 +21072,7 @@
     },
     "startingSkills": [
       {
-        "type": "Cunning",
+        "type": "Destruction",
         "level": 1
       },
       {
@@ -21584,7 +21611,7 @@
                 "level": 1
               },
               {
-                "type": "Learning",
+                "type": "Destruction",
                 "level": 1
               },
               {
@@ -21624,6 +21651,10 @@
               },
               {
                 "type": "Attuned",
+                "level": 1
+              },
+              {
+                "type": "Learning",
                 "level": 1
               }
             ]
@@ -21863,11 +21894,11 @@
     "units": [
       {
         "languageKey": "Brute",
-        "size": 2
+        "size": 1
       },
       {
         "languageKey": "Tinkerer",
-        "size": 2
+        "size": 3
       }
     ],
     "specializations": [
@@ -21921,7 +21952,11 @@
     "startingSkills": [
       {
         "type": "Command",
-        "level": 4
+        "level": 3
+      },
+      {
+        "type": "HandToHand",
+        "level": 1
       }
     ],
     "skillPools": [
@@ -22404,6 +22439,10 @@
               {
                 "type": "Fast",
                 "level": 1
+              },
+              {
+                "type": "HandToHand",
+                "level": 1
               }
             ]
           },
@@ -22731,22 +22770,18 @@
     ],
     "units": [
       {
-        "languageKey": "Sassanid",
+        "languageKey": "Brute",
         "size": 2
       },
       {
-        "languageKey": "Brute",
-        "size": 1
-      },
-      {
         "languageKey": "Piper",
-        "size": 1
+        "size": 8
       }
     ],
     "specializations": [
       {
-        "bacteriaType": 702,
-        "type": "SpecializationDestruction",
+        "bacteriaType": 712,
+        "type": "SpecializationHarimaOffense",
         "customEffect": "None",
         "customEffectValue": 0,
         "secondaryCustomEffectValue": 0,
@@ -22759,9 +22794,9 @@
         },
         "modifierData": [
           {
-            "type": 32,
-            "modifier": "CommanderEssenceDestruction",
-            "amountToAdd": 1,
+            "type": 5,
+            "modifier": "TroopMeleeOffense",
+            "amountToAdd": 20,
             "applicationType": 0
           }
         ],
@@ -23259,6 +23294,10 @@
               {
                 "type": "Levy",
                 "level": 1
+              },
+              {
+                "type": "Order",
+                "level": 1
               }
             ]
           },
@@ -23555,7 +23594,7 @@
       },
       {
         "languageKey": "Musketeer",
-        "size": 6
+        "size": 5
       }
     ],
     "specializations": [
@@ -24096,6 +24135,10 @@
               {
                 "type": "Fast",
                 "level": 1
+              },
+              {
+                "type": "HandToHand",
+                "level": 1
               }
             ]
           },
@@ -24424,17 +24467,17 @@
     "units": [
       {
         "languageKey": "Brute",
-        "size": 2
+        "size": 1
       },
       {
-        "languageKey": "Piper",
-        "size": 6
+        "languageKey": "SassanidVeteran",
+        "size": 1
       }
     ],
     "specializations": [
       {
-        "bacteriaType": 712,
-        "type": "SpecializationHarimaOffense",
+        "bacteriaType": 702,
+        "type": "SpecializationDestruction",
         "customEffect": "None",
         "customEffectValue": 0,
         "secondaryCustomEffectValue": 0,
@@ -24447,9 +24490,9 @@
         },
         "modifierData": [
           {
-            "type": 5,
-            "modifier": "TroopMeleeOffense",
-            "amountToAdd": 20,
+            "type": 32,
+            "modifier": "CommanderEssenceDestruction",
+            "amountToAdd": 1,
             "applicationType": 0
           }
         ],
@@ -29685,10 +29728,10 @@
     "units": [
       {
         "languageKey": "Guard",
-        "size": 7
+        "size": 4
       },
       {
-        "languageKey": "Hunter",
+        "languageKey": "Guard",
         "size": 4
       }
     ],
@@ -29710,7 +29753,7 @@
           {
             "type": 7,
             "modifier": "TroopRangedAttackResistance",
-            "amountToAdd": 15,
+            "amountToAdd": 20,
             "applicationType": 0
           }
         ],

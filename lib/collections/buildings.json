@@ -349,11 +349,15 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1400
+          "amount": 1200
+        },
+        {
+          "type": "Stone",
+          "amount": 1
         },
         {
           "type": "Wood",
-          "amount": 4
+          "amount": 2
         }
       ],
       "requiredBuildings": []
@@ -579,11 +583,11 @@
           },
           {
             "type": "AncientAmber",
-            "amount": 2
+            "amount": 3
           },
           {
             "type": "CelestialOre",
-            "amount": 1
+            "amount": 2
           }
         ],
         "requiredBuildings": []
@@ -593,7 +597,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1000
+          "amount": 1200
         },
         {
           "type": "Wood",
@@ -1007,11 +1011,11 @@
         "costEntries": [
           {
             "type": "Glimmerweave",
-            "amount": 20
+            "amount": 10
           },
           {
             "type": "AncientAmber",
-            "amount": 12
+            "amount": 5
           }
         ],
         "requiredBuildings": [
@@ -1023,7 +1027,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 7000
+          "amount": 5000
         },
         {
           "type": "Glimmerweave",
@@ -2362,7 +2366,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 15,
+                    "amountToAdd": 10,
                     "applicationType": 0
                   }
                 ],
@@ -2401,7 +2405,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 15,
+                    "amountToAdd": 10,
                     "applicationType": 0
                   }
                 ],
@@ -2440,7 +2444,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 20,
+                    "amountToAdd": 10,
                     "applicationType": 0
                   }
                 ],
@@ -3659,7 +3663,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -3708,7 +3712,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 15
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -3787,11 +3791,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -3830,11 +3834,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -3873,11 +3877,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -3959,8 +3963,8 @@
                 "amount": 5000
               },
               {
-                "type": "CelestialOre",
-                "amount": 10
+                "type": "Glimmerweave",
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
@@ -4006,8 +4010,8 @@
                 "amount": 5000
               },
               {
-                "type": "CelestialOre",
-                "amount": 10
+                "type": "Glimmerweave",
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
@@ -4053,8 +4057,8 @@
                 "amount": 5000
               },
               {
-                "type": "CelestialOre",
-                "amount": 10
+                "type": "Glimmerweave",
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
@@ -4141,11 +4145,11 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -4188,11 +4192,11 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -4235,11 +4239,11 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -4365,7 +4369,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -4408,7 +4412,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 15
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -6162,11 +6166,11 @@
           },
           {
             "type": "Glimmerweave",
-            "amount": 2
+            "amount": 3
           },
           {
             "type": "AncientAmber",
-            "amount": 2
+            "amount": 3
           }
         ],
         "requiredBuildings": []
@@ -6176,11 +6180,11 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 2000
+          "amount": 1500
         },
         {
           "type": "Stone",
-          "amount": 4
+          "amount": 3
         },
         {
           "type": "Wood",
@@ -6293,12 +6297,8 @@
             "amount": 5
           },
           {
-            "type": "AncientAmber",
-            "amount": 5
-          },
-          {
             "type": "CelestialOre",
-            "amount": 20
+            "amount": 10
           }
         ],
         "requiredBuildings": [
@@ -6314,7 +6314,7 @@
         },
         {
           "type": "CelestialOre",
-          "amount": 15
+          "amount": 10
         }
       ],
       "requiredBuildings": []
@@ -6443,7 +6443,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -6486,7 +6486,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 15
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -6722,7 +6722,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 3500
+                "amount": 5000
+              },
+              {
+                "type": "AncientAmber",
+                "amount": 5
               },
               {
                 "type": "Glimmerweave",
@@ -6765,7 +6769,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 3500
+                "amount": 5000
+              },
+              {
+                "type": "AncientAmber",
+                "amount": 5
               },
               {
                 "type": "Glimmerweave",
@@ -6808,7 +6816,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 3500
+                "amount": 5000
+              },
+              {
+                "type": "AncientAmber",
+                "amount": 5
               },
               {
                 "type": "Glimmerweave",
@@ -6938,7 +6950,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -6981,7 +6993,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 15
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -7058,11 +7070,11 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -7105,11 +7117,11 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -7152,11 +7164,11 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -8985,7 +8997,7 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 2500
+                "amount": 3000
               },
               {
                 "type": "Glimmerweave",
@@ -9049,7 +9061,11 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 10
+            "amount": 5
+          },
+          {
+            "type": "Wood",
+            "amount": 5
           },
           {
             "type": "CelestialOre",
@@ -9057,7 +9073,7 @@
           }
         ],
         "requiredBuildings": [
-          97
+          99
         ]
       }
     ],
@@ -9065,7 +9081,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 3000
+          "amount": 2500
         },
         {
           "type": "Stone",
@@ -9249,15 +9265,19 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 4
+            "amount": 5
           },
           {
             "type": "Wood",
-            "amount": 4
+            "amount": 5
           },
           {
             "type": "Glimmerweave",
-            "amount": 4
+            "amount": 5
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
           }
         ],
         "requiredBuildings": [
@@ -9269,7 +9289,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 2500
+          "amount": 2000
         },
         {
           "type": "Wood",
@@ -10472,7 +10492,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 5,
+                    "amountToAdd": 3,
                     "applicationType": 0
                   }
                 ],
@@ -10511,7 +10531,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 5,
+                    "amountToAdd": 3,
                     "applicationType": 0
                   }
                 ],
@@ -10550,7 +10570,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 5,
+                    "amountToAdd": 4,
                     "applicationType": 0
                   }
                 ],
@@ -11154,7 +11174,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 10,
+                    "amountToAdd": 5,
                     "applicationType": 0
                   }
                 ],
@@ -11446,7 +11466,7 @@
           },
           {
             "type": "AncientAmber",
-            "amount": 1
+            "amount": 2
           }
         ],
         "requiredBuildings": []
@@ -11976,12 +11996,16 @@
       {
         "costEntries": [
           {
+            "type": "Stone",
+            "amount": 5
+          },
+          {
             "type": "Wood",
             "amount": 10
           },
           {
             "type": "AncientAmber",
-            "amount": 2
+            "amount": 3
           },
           {
             "type": "CelestialOre",
@@ -11989,7 +12013,7 @@
           }
         ],
         "requiredBuildings": [
-          99
+          97
         ]
       }
     ],
@@ -11997,11 +12021,15 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 2500
+          "amount": 3000
         },
         {
           "type": "Stone",
-          "amount": 5
+          "amount": 10
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 3
         }
       ],
       "requiredBuildings": []
@@ -12111,14 +12139,10 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 3500
+                "amount": 2500
               },
               {
                 "type": "AncientAmber",
-                "amount": 5
-              },
-              {
-                "type": "Glimmerweave",
                 "amount": 5
               }
             ],
@@ -12178,11 +12202,15 @@
       {
         "costEntries": [
           {
-            "type": "AncientAmber",
-            "amount": 10
+            "type": "Wood",
+            "amount": 5
           },
           {
-            "type": "Wood",
+            "type": "AncientAmber",
+            "amount": 5
+          },
+          {
+            "type": "Glimmerweave",
             "amount": 5
           }
         ],
@@ -12195,14 +12223,18 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 3000
+          "amount": 2500
         },
         {
-          "type": "AncientAmber",
+          "type": "Stone",
           "amount": 5
         },
         {
           "type": "Wood",
+          "amount": 5
+        },
+        {
+          "type": "AncientAmber",
           "amount": 5
         }
       ],
@@ -12431,11 +12463,15 @@
           },
           {
             "type": "Wood",
-            "amount": 10
+            "amount": 15
           },
           {
             "type": "CelestialOre",
-            "amount": 5
+            "amount": 2
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 4
           }
         ],
         "requiredBuildings": [
@@ -12629,11 +12665,11 @@
           },
           {
             "type": "CelestialOre",
-            "amount": 5
+            "amount": 4
           },
           {
             "type": "Glimmerweave",
-            "amount": 5
+            "amount": 3
           }
         ],
         "requiredBuildings": [
@@ -13335,7 +13371,7 @@
             "costEntries": [
               {
                 "type": "CelestialOre",
-                "amount": 15
+                "amount": 10
               }
             ],
             "bacterias": [
@@ -13486,7 +13522,7 @@
             "costEntries": [
               {
                 "type": "AncientAmber",
-                "amount": 15
+                "amount": 10
               }
             ],
             "bacterias": [
@@ -13809,7 +13845,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 30,
+                    "amountToAdd": 20,
                     "applicationType": 0
                   }
                 ],
@@ -13848,7 +13884,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 30,
+                    "amountToAdd": 20,
                     "applicationType": 0
                   }
                 ],
@@ -13887,7 +13923,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 40,
+                    "amountToAdd": 20,
                     "applicationType": 0
                   }
                 ],
@@ -14925,16 +14961,12 @@
       {
         "costEntries": [
           {
-            "type": "Wood",
-            "amount": 2
-          },
-          {
             "type": "Stone",
-            "amount": 2
+            "amount": 4
           },
           {
             "type": "AncientAmber",
-            "amount": 5
+            "amount": 4
           }
         ],
         "requiredBuildings": []
@@ -15031,7 +15063,7 @@
             "factionKey": "Loth",
             "upgradeType": "vanilla",
             "unitKey": "Rats",
-            "size": 5,
+            "size": 4,
             "requiredResearch": null,
             "initialInstantIncome": 6
           }
@@ -15045,7 +15077,7 @@
             "factionKey": "Loth",
             "upgradeType": "upgraded",
             "unitKey": "PlagueRats",
-            "size": 5,
+            "size": 4,
             "requiredResearch": null,
             "initialInstantIncome": 0
           }
@@ -15062,11 +15094,7 @@
           },
           {
             "type": "Glimmerweave",
-            "amount": 2
-          },
-          {
-            "type": "CelestialOre",
-            "amount": 1
+            "amount": 4
           }
         ],
         "requiredBuildings": []
@@ -15186,7 +15214,7 @@
         "costEntries": [
           {
             "type": "AncientAmber",
-            "amount": 15
+            "amount": 10
           },
           {
             "type": "Glimmerweave",
@@ -15202,19 +15230,11 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 7000
-        },
-        {
-          "type": "Glimmerweave",
-          "amount": 2
+          "amount": 6000
         },
         {
           "type": "AncientAmber",
-          "amount": 8
-        },
-        {
-          "type": "CelestialOre",
-          "amount": 2
+          "amount": 10
         }
       ],
       "requiredBuildings": []
@@ -15459,7 +15479,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -15502,7 +15522,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 15
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -15579,7 +15599,11 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
+              },
+              {
+                "type": "AncientAmber",
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -15622,7 +15646,11 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
+              },
+              {
+                "type": "AncientAmber",
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -15665,7 +15693,11 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
+              },
+              {
+                "type": "AncientAmber",
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -16070,11 +16102,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -16113,11 +16145,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -16156,11 +16188,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -16243,7 +16275,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
@@ -16290,7 +16322,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
@@ -16337,7 +16369,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "AncientAmber",
@@ -16467,7 +16499,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -16510,7 +16542,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 15
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -18089,12 +18121,16 @@
             "descriptionKey": "Rana/Research/BeastCorral/Tremor/Description",
             "costEntries": [
               {
+                "type": "Gold",
+                "amount": 500
+              },
+              {
                 "type": "AncientAmber",
-                "amount": 2
+                "amount": 3
               },
               {
                 "type": "Glimmerweave",
-                "amount": 2
+                "amount": 3
               }
             ],
             "bacterias": []
@@ -18153,8 +18189,12 @@
       {
         "costEntries": [
           {
+            "type": "CelestialOre",
+            "amount": 2
+          },
+          {
             "type": "Glimmerweave",
-            "amount": 5
+            "amount": 3
           }
         ],
         "requiredBuildings": [
@@ -18166,7 +18206,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 2000
+          "amount": 1500
         },
         {
           "type": "Stone",
@@ -18174,7 +18214,7 @@
         },
         {
           "type": "Glimmerweave",
-          "amount": 5
+          "amount": 4
         }
       ],
       "requiredBuildings": []
@@ -18283,11 +18323,15 @@
             "amount": 5
           },
           {
+            "type": "Wood",
+            "amount": 5
+          },
+          {
             "type": "AncientAmber",
             "amount": 3
           },
           {
-            "type": "CelestialOre",
+            "type": "Glimmerweave",
             "amount": 3
           }
         ],
@@ -18300,10 +18344,14 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 3000
+          "amount": 2000
         },
         {
           "type": "Stone",
+          "amount": 5
+        },
+        {
+          "type": "Wood",
           "amount": 5
         },
         {
@@ -18420,7 +18468,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 1500
+                "amount": 2000
+              },
+              {
+                "type": "Wood",
+                "amount": 5
               },
               {
                 "type": "Glimmerweave",
@@ -18484,15 +18536,15 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 5
+            "amount": 10
           },
           {
-            "type": "Wood",
-            "amount": 5
+            "type": "CelestialOre",
+            "amount": 2
           },
           {
             "type": "Glimmerweave",
-            "amount": 10
+            "amount": 3
           }
         ],
         "requiredBuildings": [
@@ -18504,7 +18556,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 3000
+          "amount": 2500
         },
         {
           "type": "Wood",
@@ -19098,15 +19150,15 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 5
+            "amount": 4
           },
           {
             "type": "CelestialOre",
-            "amount": 5
+            "amount": 4
           },
           {
             "type": "Glimmerweave",
-            "amount": 5
+            "amount": 4
           }
         ],
         "requiredBuildings": []
@@ -19116,15 +19168,11 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 800
-        },
-        {
-          "type": "Stone",
-          "amount": 2
+          "amount": 1200
         },
         {
           "type": "Wood",
-          "amount": 3
+          "amount": 4
         }
       ],
       "requiredBuildings": []
@@ -19352,7 +19400,7 @@
           },
           {
             "id": 420,
-            "nameKey": null,
+            "nameKey": "Rana/Research/DragonMonolith/TroopDefense2",
             "descriptionKey": null,
             "costEntries": [
               {
@@ -19361,7 +19409,7 @@
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -19404,7 +19452,7 @@
               },
               {
                 "type": "AncientAmber",
-                "amount": 15
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -19481,11 +19529,11 @@
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -19528,11 +19576,11 @@
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -19575,11 +19623,11 @@
               },
               {
                 "type": "AncientAmber",
-                "amount": 10
+                "amount": 5
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -19990,11 +20038,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -20033,11 +20081,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -20076,11 +20124,11 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 5000
+                "amount": 3500
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -20163,7 +20211,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -20206,7 +20254,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -20249,7 +20297,7 @@
               },
               {
                 "type": "CelestialOre",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -20326,7 +20374,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -20369,7 +20417,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -20412,7 +20460,7 @@
               },
               {
                 "type": "Glimmerweave",
-                "amount": 10
+                "amount": 5
               }
             ],
             "bacterias": [
@@ -22017,16 +22065,16 @@
       {
         "costEntries": [
           {
-            "type": "Gold",
-            "amount": 5000
-          },
-          {
-            "type": "Glimmerweave",
-            "amount": 20
+            "type": "Stone",
+            "amount": 10
           },
           {
             "type": "AncientAmber",
-            "amount": 30
+            "amount": 20
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 10
           }
         ],
         "requiredBuildings": [
@@ -22036,12 +22084,12 @@
       {
         "costEntries": [
           {
-            "type": "Glimmerweave",
+            "type": "AncientAmber",
             "amount": 20
           },
           {
-            "type": "AncientAmber",
-            "amount": 30
+            "type": "Glimmerweave",
+            "amount": 10
           }
         ],
         "requiredBuildings": [
@@ -23454,7 +23502,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 15,
+                    "amountToAdd": 10,
                     "applicationType": 0
                   }
                 ],
@@ -23493,7 +23541,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 15,
+                    "amountToAdd": 10,
                     "applicationType": 0
                   }
                 ],
@@ -23532,7 +23580,7 @@
                   {
                     "type": 36,
                     "modifier": "TroopMaxTroopSize",
-                    "amountToAdd": 20,
+                    "amountToAdd": 10,
                     "applicationType": 0
                   }
                 ],
