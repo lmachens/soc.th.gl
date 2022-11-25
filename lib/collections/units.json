@@ -14559,7 +14559,7 @@
         "movement": 2,
         "initiative": 15,
         "health": 30,
-        "maxTroopSize": 20,
+        "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
