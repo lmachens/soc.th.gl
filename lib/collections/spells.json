@@ -35,7 +35,7 @@
     "costs": [
       {
         "type": "Order",
-        "amount": 4
+        "amount": 5
       }
     ],
     "tiers": [
@@ -228,7 +228,7 @@
     "costs": [
       {
         "type": "Order",
-        "amount": 5
+        "amount": 4
       }
     ],
     "tiers": [
@@ -421,11 +421,11 @@
     "costs": [
       {
         "type": "Order",
-        "amount": 4
+        "amount": 5
       },
       {
         "type": "Creation",
-        "amount": 4
+        "amount": 5
       }
     ],
     "tiers": [
@@ -464,7 +464,7 @@
               {
                 "type": 3,
                 "modifier": "TroopInitiative",
-                "amountToAdd": 10,
+                "amountToAdd": 5,
                 "applicationType": 0
               }
             ],
@@ -520,7 +520,7 @@
               {
                 "type": 3,
                 "modifier": "TroopInitiative",
-                "amountToAdd": 15,
+                "amountToAdd": 10,
                 "applicationType": 0
               }
             ],
@@ -576,7 +576,7 @@
               {
                 "type": 3,
                 "modifier": "TroopInitiative",
-                "amountToAdd": 20,
+                "amountToAdd": 15,
                 "applicationType": 0
               }
             ],
@@ -626,7 +626,7 @@
     "costs": [
       {
         "type": "Destruction",
-        "amount": 5
+        "amount": 4
       }
     ],
     "tiers": [
@@ -819,11 +819,11 @@
     "costs": [
       {
         "type": "Order",
-        "amount": 4
+        "amount": 5
       },
       {
         "type": "Destruction",
-        "amount": 4
+        "amount": 5
       }
     ],
     "tiers": [
@@ -1732,7 +1732,7 @@
             "bacteriaType": 250,
             "type": "SpellFireBall1",
             "customEffect": "Damage",
-            "customEffectValue": 30,
+            "customEffectValue": 35,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1771,7 +1771,7 @@
             "bacteriaType": 251,
             "type": "SpellFireBall2",
             "customEffect": "Damage",
-            "customEffectValue": 60,
+            "customEffectValue": 70,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1810,7 +1810,7 @@
             "bacteriaType": 252,
             "type": "SpellFireBall3",
             "customEffect": "Damage",
-            "customEffectValue": 90,
+            "customEffectValue": 100,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4551,11 +4551,11 @@
     "costs": [
       {
         "type": "Order",
-        "amount": 6
+        "amount": 7
       },
       {
         "type": "Chaos",
-        "amount": 6
+        "amount": 7
       }
     ],
     "tiers": [
@@ -4904,11 +4904,11 @@
     "costs": [
       {
         "type": "Order",
-        "amount": 8
+        "amount": 9
       },
       {
         "type": "Destruction",
-        "amount": 8
+        "amount": 9
       }
     ],
     "tiers": [
@@ -5091,11 +5091,11 @@
     "costs": [
       {
         "type": "Creation",
-        "amount": 7
+        "amount": 8
       },
       {
         "type": "Chaos",
-        "amount": 7
+        "amount": 8
       }
     ],
     "tiers": [
