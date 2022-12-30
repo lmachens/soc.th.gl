@@ -33,6 +33,7 @@ console.log(`Writing TermMap`);
 await writeJSONFile(termMap, "TermMap");
 
 const manifests = await findManifests();
+let finished = 0;
 const promises = manifests.map(async (manifest) => {
   const filename = manifest.split(/[\\/]/).at(-1);
   const name = filename.replace("Manifest.asset", "").trim();
@@ -40,13 +41,16 @@ const promises = manifests.map(async (manifest) => {
   const assets = await buildAssetByManifest(manifest);
   if (assets) {
     await writeJSONFile(assets, name);
-    console.log(`Replaced ${assets.length} docs`);
-  } else {
-    console.log(`Nothing to do here`);
   }
+  console.log(
+    `Replaced ${assets?.length || 0} ${name} (${++finished} / ${
+      manifests.length
+    })`
+  );
 });
 await Promise.all(promises);
 
+console.log(`Copying icons`);
 const iconsMeta = await readYAMLFile(
   `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons.webp.meta`
 );
