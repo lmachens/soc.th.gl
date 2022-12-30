@@ -50,36 +50,32 @@ const LocaleSelector = () => {
       <Popover.Dropdown>
         <Stack>
           {router.locales?.map((locale) => (
-            <Link
+            <Button
               key={locale}
+              component={Link}
               href={router.asPath}
               locale={locale}
-              passHref
               prefetch={false}
+              compact
+              variant="subtle"
+              uppercase
+              fullWidth
+              styles={{
+                inner: {
+                  justifyContent: "flex-start",
+                },
+              }}
+              leftIcon={
+                <Image
+                  alt="United States"
+                  src={flags[locale]}
+                  width={26}
+                  height={17}
+                />
+              }
             >
-              <Button
-                component="a"
-                compact
-                variant="subtle"
-                uppercase
-                fullWidth
-                styles={{
-                  inner: {
-                    justifyContent: "flex-start",
-                  },
-                }}
-                leftIcon={
-                  <Image
-                    alt="United States"
-                    src={flags[locale]}
-                    width={26}
-                    height={17}
-                  />
-                }
-              >
-                {locale}
-              </Button>
-            </Link>
+              {locale}
+            </Button>
           ))}
         </Stack>
       </Popover.Dropdown>
