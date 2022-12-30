@@ -15,17 +15,17 @@ const NavbarMainLink = ({ href, icon, children }: Props) => {
   const { classes, cx } = useStyles();
 
   return (
-    <Link href={href} passHref prefetch={false}>
-      <Box
-        component="a"
-        className={cx(classes.mainLink, asPath === href && classes.active)}
-      >
-        <ThemeIcon size={30} radius="lg" color="dark">
-          {icon}
-        </ThemeIcon>
-        <div className={classes.body}>{children}</div>
-      </Box>
-    </Link>
+    <Box
+      component={Link}
+      href={href}
+      prefetch={false}
+      className={cx(classes.mainLink, asPath === href && classes.active)}
+    >
+      <ThemeIcon size={30} radius="lg" color="dark">
+        {icon}
+      </ThemeIcon>
+      <div className={classes.body}>{children}</div>
+    </Box>
   );
 };
 

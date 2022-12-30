@@ -22,22 +22,23 @@ const NavbarCollectionLinks = ({ collectionLink }: Props) => {
     () => !hasActiveLink(collectionLink, asPath)
   );
   const docLinks = collectionLink.docs.map((doc) => (
-    <Link key={doc.to} href={doc.to} passHref prefetch={false}>
-      <Text
-        component="a"
-        className={cx(classes.link, doc.to === asPath && classes.linkActive)}
-        py={4}
-      >
-        <Text className={classes.linkInner} size="sm">
-          {doc.label}
-        </Text>
-        {doc.description && (
-          <Text color="dimmed" size="xs">
-            {doc.description}
-          </Text>
-        )}
+    <Text
+      component={Link}
+      key={doc.to}
+      href={doc.to}
+      prefetch={false}
+      className={cx(classes.link, doc.to === asPath && classes.linkActive)}
+      py={4}
+    >
+      <Text className={classes.linkInner} size="sm">
+        {doc.label}
       </Text>
-    </Link>
+      {doc.description && (
+        <Text color="dimmed" size="xs">
+          {doc.description}
+        </Text>
+      )}
+    </Text>
   ));
 
   useEffect(() => {
