@@ -16,11 +16,11 @@ export const findManifests = async () => {
 };
 
 export const findAssetByGUID = async ({ guid, fileId }, spriteName) => {
+  const filePath = cache[guid];
+  if (!filePath) {
+    return;
+  }
   try {
-    const filePath = cache[guid];
-    if (!filePath) {
-      return;
-    }
     const meta = await readYAMLFile(filePath);
 
     if (meta.textureImporter) {
@@ -30,10 +30,17 @@ export const findAssetByGUID = async ({ guid, fileId }, spriteName) => {
       const texture = meta.textureImporter.internalIdToNameTable.find(
         (item) => item.first["213"] === fileId
       );
-      const name = spriteName || texture.second;
+      const name = spriteName || texture?.second;
+      if (!name) {
+        return null;
+      }
       const sprite = meta.textureImporter.spriteSheet.sprites.find(
         (sprite) => sprite.name === name
       );
+      if (!sprite) {
+        console.warn(`Could not find ${name} in sprite sheet of ${filePath}`);
+        return null;
+      }
       return {
         name: sprite.name,
         spriteSheet: filePath.replace(".meta", "").split(/[\\/]/).at(-1),
@@ -45,9 +52,10 @@ export const findAssetByGUID = async ({ guid, fileId }, spriteName) => {
         // physicsShape: sprite.physicsShape,
       };
     }
-    return await readYAMLFile(filePath.replace(".meta", ""));
+    const assetFilePath = filePath.replace(".meta", "");
+    return await readYAMLFile(assetFilePath);
   } catch (error) {
-    console.log(error.message, guid, fileId, spriteName);
+    console.log(error.message, filePath || guid, fileId, spriteName);
     return null;
   }
 };

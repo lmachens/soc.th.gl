@@ -4815,7 +4815,66 @@
       }
     ],
     "eventRecipient": "Team",
-    "rewards": [],
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1155,
+          "type": "RandomEventIrritation",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
     "penalties": [
       {
         "penaltyType": "LoseResource",
@@ -4823,7 +4882,7 @@
           "type": "Gold",
           "amountMinMax": {
             "min": 250,
-            "max": 500
+            "max": 250
           }
         },
         "destroyOwnedBuilding": {
@@ -5609,18 +5668,32 @@
           "nameKey": "Arleon/Farm"
         },
         "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 1,
+        "unitIndex": 3,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "TroopIncomeGreaterThanOrEqual"
       }
     ],
     "eventRecipient": "Team",
     "rewards": [],
     "penalties": [
       {
-        "penaltyType": "LoseResource",
+        "penaltyType": "ReduceRecruitmentPool",
         "resourcePenalty": {
           "type": "Gold",
           "amountMinMax": {
-            "min": 300,
-            "max": 300
+            "min": 0,
+            "max": 0
           }
         },
         "destroyOwnedBuilding": {
@@ -5633,8 +5706,13 @@
           "amountOfHostiles": 1
         },
         "reduceRecruitmentPool": {
-          "troopsToReduce": [],
-          "percentage": 0
+          "troopsToReduce": [
+            {
+              "faction": "Arleon",
+              "name": "Footman"
+            }
+          ],
+          "percentage": 0.2
         }
       }
     ]
@@ -7065,7 +7143,7 @@
         "entityType": {
           "nameKey": "Arleon/Farm"
         },
-        "requirementType": "RecipientOwnsGreaterThanOrEqualTroop"
+        "requirementType": "TroopIncomeGreaterThanOrEqual"
       },
       {
         "eventReference": {
@@ -7086,12 +7164,12 @@
     "rewards": [],
     "penalties": [
       {
-        "penaltyType": "LoseResource",
+        "penaltyType": "ReduceRecruitmentPool",
         "resourcePenalty": {
           "type": "Gold",
           "amountMinMax": {
-            "min": 800,
-            "max": 1200
+            "min": 0,
+            "max": 0
           }
         },
         "destroyOwnedBuilding": {
@@ -7104,8 +7182,13 @@
           "amountOfHostiles": 1
         },
         "reduceRecruitmentPool": {
-          "troopsToReduce": [],
-          "percentage": 0
+          "troopsToReduce": [
+            {
+              "faction": "Arleon",
+              "name": "Militia"
+            }
+          ],
+          "percentage": 0.2
         }
       }
     ]
@@ -10823,34 +10906,6 @@
     "requirements": [
       {
         "eventReference": {
-          "uniqueName": null
-        },
-        "value": 1500,
-        "factionIndex": 0,
-        "unitIndex": 0,
-        "resourceType": "Gold",
-        "artifactType": "Crossbow",
-        "entityType": {
-          "nameKey": "Arleon/Farm"
-        },
-        "requirementType": "GreaterThanOrEqualToResourceOwned"
-      },
-      {
-        "eventReference": {
-          "uniqueName": null
-        },
-        "value": 3,
-        "factionIndex": 0,
-        "unitIndex": 0,
-        "resourceType": "Glimmerweave",
-        "artifactType": "Crossbow",
-        "entityType": {
-          "nameKey": "Arleon/Farm"
-        },
-        "requirementType": "GreaterThanOrEqualToResourceOwned"
-      },
-      {
-        "eventReference": {
           "uniqueName": "Loth/FaeyWarning/FaeyMusic"
         },
         "value": 5,
@@ -10916,8 +10971,8 @@
         "resourcePenalty": {
           "type": "Glimmerweave",
           "amountMinMax": {
-            "min": 3,
-            "max": 5
+            "min": 2,
+            "max": 3
           }
         },
         "destroyOwnedBuilding": {
@@ -12714,6 +12769,341 @@
         }
       }
     ]
+  },
+  {
+    "id": "Loth/RanaShaman",
+    "uniqueName": "Loth/Commandments/RanaShaman",
+    "descriptionKey": "RandomEvents/Loth/Commandments/RanaShaman/Description",
+    "faction": "Loth",
+    "eventChainNameKey": "RandomEvents/Loth/Commandments",
+    "eventType": "Good",
+    "name": "RanaShaman",
+    "chanceOfHappening": 0.05,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 5,
+        "factionIndex": 2,
+        "unitIndex": 1,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "RecipientOwnsGreaterThanOrEqualTroop"
+      }
+    ],
+    "eventRecipient": "CommanderWithLeastOwnedArtifacts",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 150,
+            "max": 150
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Artifact",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 150,
+            "max": 150
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": "SwampSpear",
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Loth/RanaTrespassers",
+    "uniqueName": "Loth/Commandments/RanaTrespassers",
+    "descriptionKey": "RandomEvents/Loth/Commandments/RanaTrespassers/Description",
+    "faction": "Loth",
+    "eventChainNameKey": "RandomEvents/Loth/Commandments",
+    "eventType": "Good",
+    "name": "RanaTrespassers",
+    "chanceOfHappening": 0.45,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Loth/Commandments/SavageRana"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 2,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "RecipientOwnsGreaterThanOrEqualTroop"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 300,
+            "max": 300
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Glimmerweave",
+          "amountMinMax": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "AncientAmber",
+          "amountMinMax": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Loth/SavageRana",
+    "uniqueName": "Loth/Commandments/SavageRana",
+    "descriptionKey": "RandomEvents/Loth/Commandments/SavageRana/Description",
+    "faction": "Loth",
+    "eventChainNameKey": "RandomEvents/Loth/Commandments",
+    "eventType": "Bad",
+    "name": "SavageRana",
+    "chanceOfHappening": 0.35,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Loth/Commandments/RanaShaman"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "CreateRandomHostile",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "Loth/Excavation",
+    "uniqueName": "Loth/Excavation",
+    "descriptionKey": "RandomEvents/Loth/Excavation/Description",
+    "faction": "Loth",
+    "eventChainNameKey": null,
+    "eventType": "Good",
+    "name": "Excavation",
+    "chanceOfHappening": 0.25,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 3,
+    "recipientFactionIndex": 2,
+    "recipientUnitIndex": 4,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Loth/Excavation"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Loth/ExMortisSanctum"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "CommanderWithLeastOwnedArtifacts",
+    "rewards": [
+      {
+        "rewardType": "RandomArtifact",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 10,
+          "tier": 1,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "RandomArtifact",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 2,
+          "tier": 0,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
   },
   {
     "id": "Barya/TrunkOfBooks",
@@ -14531,7 +14921,7 @@
     "name": "AGiftOfSight",
     "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
-    "requirementEvaluationType": "AND",
+    "requirementEvaluationType": "OR",
     "recipientValue": 500,
     "recipientFactionIndex": 1,
     "recipientUnitIndex": 1,
@@ -14539,7 +14929,21 @@
     "requirements": [
       {
         "eventReference": {
-          "uniqueName": "Barya/Sight/Talent"
+          "uniqueName": "Barya/Sight/TalentA"
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Barya/Sight/TalentB"
         },
         "value": 5,
         "factionIndex": 0,
@@ -14625,7 +15029,7 @@
     "eventChainNameKey": "RandomEvents/Barya/Sight",
     "eventType": "Bad",
     "name": "PlagueOfLocusts",
-    "chanceOfHappening": 0.25,
+    "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -14731,65 +15135,6 @@
       }
     ],
     "penalties": []
-  },
-  {
-    "id": "Barya/Talent",
-    "uniqueName": "Barya/Sight/Talent",
-    "descriptionKey": "RandomEvents/Barya/Sight/Talent/Description",
-    "faction": "Barya",
-    "eventChainNameKey": "RandomEvents/Barya/Sight",
-    "eventType": "Good",
-    "name": "Talent",
-    "chanceOfHappening": 0.35,
-    "eventEvaluationTrigger": "YourTurn",
-    "requirementEvaluationType": "AND",
-    "recipientValue": 500,
-    "recipientFactionIndex": 1,
-    "recipientUnitIndex": 1,
-    "recipientTroopUpgradeType": "vanilla",
-    "requirements": [
-      {
-        "eventReference": {
-          "uniqueName": "Barya/Sight/PlagueOfLocusts"
-        },
-        "value": 5,
-        "factionIndex": 0,
-        "unitIndex": 0,
-        "resourceType": "Gold",
-        "artifactType": "Crossbow",
-        "entityType": {
-          "nameKey": "Arleon/Farm"
-        },
-        "requirementType": "PriorEventDidHappen"
-      }
-    ],
-    "eventRecipient": "Team",
-    "rewards": [],
-    "penalties": [
-      {
-        "penaltyType": "LoseResource",
-        "resourcePenalty": {
-          "type": "Gold",
-          "amountMinMax": {
-            "min": 500,
-            "max": 500
-          }
-        },
-        "destroyOwnedBuilding": {
-          "buildingToDestroy": "",
-          "destroyAll": 0,
-          "amount": 1
-        },
-        "createRandomHostile": {
-          "spawnLocation": "AroundWielders",
-          "amountOfHostiles": 1
-        },
-        "reduceRecruitmentPool": {
-          "troopsToReduce": [],
-          "percentage": 0
-        }
-      }
-    ]
   },
   {
     "id": "Barya/Cubs",
@@ -15330,9 +15675,9 @@
     "eventChainNameKey": "RandomEvents/Barya/Freedom",
     "eventType": "Good",
     "name": "Mergers",
-    "chanceOfHappening": 0.25,
+    "chanceOfHappening": 0.4,
     "eventEvaluationTrigger": "YourTurn",
-    "requirementEvaluationType": "AND",
+    "requirementEvaluationType": "OR",
     "recipientValue": 500,
     "recipientFactionIndex": 1,
     "recipientUnitIndex": 1,
@@ -16876,6 +17221,770 @@
         "rewardType": "Experience",
         "experience": 350,
         "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Barya/TalentA",
+    "uniqueName": "Barya/Sight/TalentA",
+    "descriptionKey": "RandomEvents/Barya/Sight/Talent/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/Sight",
+    "eventType": "Bad",
+    "name": "TalentA",
+    "chanceOfHappening": 0.5,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Barya/Sight/PlagueOfLocusts"
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Barya/Sight/TalentB"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidNotHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "TroopIncomeGreaterThanOrEqual"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "ReduceRecruitmentPool",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [
+            {
+              "faction": "Barya",
+              "name": "Piper"
+            }
+          ],
+          "percentage": 0.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "Barya/TalentB",
+    "uniqueName": "Barya/Sight/TalentB",
+    "descriptionKey": "RandomEvents/Barya/Sight/Talent/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/Sight",
+    "eventType": "Bad",
+    "name": "TalentB",
+    "chanceOfHappening": 0.5,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Barya/Sight/PlagueOfLocusts"
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Barya/Sight/TalentA"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidNotHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 3,
+        "unitIndex": 2,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "TroopIncomeGreaterThanOrEqual"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "ReduceRecruitmentPool",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [
+            {
+              "faction": "Barya",
+              "name": "Musketeer"
+            }
+          ],
+          "percentage": 0.25
+        }
+      }
+    ]
+  },
+  {
+    "id": "Barya/AnnualCoins",
+    "uniqueName": "Barya/CouncilofMerchants/AnnualCoins",
+    "descriptionKey": "RandomEvents/Barya/CouncilofMerchants/AnnualCoins/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/CouncilofMerchants",
+    "eventType": "Bad",
+    "name": "AnnualCoins",
+    "chanceOfHappening": 0.09,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 3,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Barya/Bazaar"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "LoseResource",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 700,
+            "max": 900
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "Barya/CoinCelebration",
+    "uniqueName": "Barya/CouncilofMerchants/CoinCelebration",
+    "descriptionKey": "RandomEvents/Barya/CouncilofMerchants/CoinCelebration/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/CouncilofMerchants",
+    "eventType": "Neutral",
+    "name": "CoinCelebration",
+    "chanceOfHappening": 0.35,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Barya/CouncilofMerchants/NewCoins"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 917,
+          "type": "RandomEventGreatSpirits",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": [
+      {
+        "penaltyType": "LoseResource",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 1100,
+            "max": 1500
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "Barya/CounterfeitCoins",
+    "uniqueName": "Barya/CouncilofMerchants/CounterfeitCoins",
+    "descriptionKey": "RandomEvents/Barya/CouncilofMerchants/CounterfeitCoins/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/CouncilofMerchants",
+    "eventType": "Good",
+    "name": "CounterfeitCoins",
+    "chanceOfHappening": 0.35,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Barya/CouncilofMerchants/CoinCelebration "
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 500,
+            "max": 500
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Stone",
+          "amountMinMax": {
+            "min": 5,
+            "max": 5
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Wood",
+          "amountMinMax": {
+            "min": 5,
+            "max": 5
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Barya/NewCoins",
+    "uniqueName": "Barya/CouncilofMerchants/NewCoins",
+    "descriptionKey": "RandomEvents/Barya/CouncilofMerchants/NewCoins/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/CouncilofMerchants",
+    "eventType": "Good",
+    "name": "NewCoins",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Barya/CouncilofMerchants/AnnualCoins"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1158,
+          "type": "RandomEventHighLoyalty",
+          "modifierData": [],
+          "resourcesIncome": [
+            {
+              "type": "Gold",
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
+              "allTimeAmount": 0
+            }
+          ],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 5
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Barya/FiresInTheDesert",
+    "uniqueName": "Barya/HarimaSecrets/FiresInTheDesert",
+    "descriptionKey": "RandomEvents/Barya/HarimaSecrets/FiresInTheDesert/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/HarimaSecrets",
+    "eventType": "Bad",
+    "name": "FiresInTheDesert",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Barya/HarimaSecrets/HarimaMarch"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 872,
+          "type": "RandomEventAnxiousMinds",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Barya/HarimaMarch",
+    "uniqueName": "Barya/HarimaSecrets/HarimaMarch",
+    "descriptionKey": "RandomEvents/Barya/HarimaSecrets/HarimaMarch/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/HarimaSecrets",
+    "eventType": "Bad",
+    "name": "HarimaMarch",
+    "chanceOfHappening": 0.07,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Barya/LavabornFortalice"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "ReduceRecruitmentPool",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [
+            {
+              "faction": "Barya",
+              "name": "Brute"
+            }
+          ],
+          "percentage": 0.2
+        }
+      }
+    ]
+  },
+  {
+    "id": "Barya/HarimaReturn",
+    "uniqueName": "Barya/HarimaSecrets/HarimaReturn",
+    "descriptionKey": "RandomEvents/Barya/HarimaSecrets/HarimaReturn/Description",
+    "faction": "Barya",
+    "eventChainNameKey": "RandomEvents/Barya/HarimaSecrets",
+    "eventType": "Good",
+    "name": "HarimaReturn",
+    "chanceOfHappening": 0.45,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Barya/HarimaSecrets/FiresInTheDesert"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithHighestLevel",
+    "rewards": [
+      {
+        "rewardType": "Troops",
+        "experience": 0,
+        "troopRewards": [
+          {
+            "faction": "Barya",
+            "name": "ScarredBrute",
+            "size": 3
+          }
+        ],
         "resourceReward": {
           "type": "Gold",
           "amountMinMax": {
