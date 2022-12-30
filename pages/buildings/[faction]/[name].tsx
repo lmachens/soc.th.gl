@@ -156,7 +156,10 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
                             ))}
                             {bacteria.settings?.bacterias?.map((bacteria) => (
                               <Fragment key={bacteria.bacteriaType}>
-                                <Text component="span">{bacteria.name}</Text> (
+                                <Text component="span">{bacteria.name}</Text>:{" "}
+                                <Text component="span">
+                                  {bacteria.description}
+                                </Text>
                                 {bacteria.modifierData.map((modifier) => (
                                   <Text
                                     key={modifier.type}
@@ -176,7 +179,6 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
                                     </Text>
                                   )
                                 )}
-                                )
                               </Fragment>
                             ))}
                           </Box>
