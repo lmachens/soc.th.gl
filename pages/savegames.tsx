@@ -8,19 +8,22 @@ import {
   Title,
 } from "@mantine/core";
 import { Dropzone } from "@mantine/dropzone";
+import { useClipboard } from "@mantine/hooks";
 import { CopyIcon } from "@primer/octicons-react";
 import { useCallback, useEffect, useState } from "react";
+import Savegame from "../components/Savegame/Savegame";
 import { deserializeSavegame, SavegameDeserialized } from "../lib/savegames";
 import { withStaticBase } from "../lib/staticProps";
-import { useClipboard } from "@mantine/hooks";
-import Savegame from "../components/Savegame/Savegame";
 
 const savegamePaths = [
   [
     "Windows",
     "%appdata%\\..\\LocalLow\\Lavapotion\\SongsOfConquest\\Savegames",
   ],
-  ["MacOS", "Unknown, please tell me in Discord"],
+  [
+    "MacOS",
+    "/Users/user_name/Library/Application Support/Lavapotion/SongsOfConquest/Savegames",
+  ],
   [
     "Wine",
     "<wine_prefix>drive_c/users/<user>/AppData/LocalLow/Lavapotion/SongsOfConquest/Savegames",
