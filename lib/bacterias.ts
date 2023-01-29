@@ -138,7 +138,11 @@ export const getLocaleBacteria = (
       bacteria.duration.duration === 1
         ? "Bacterias/Tooltip/Duration/OwnerAttacks0"
         : "Bacterias/Tooltip/Duration/OwnerAttacks1";
-    const attacksText = getTerm(term, locale, bacteria.duration.duration);
+    const attacksText = getTerm(
+      term,
+      locale,
+      bacteria.duration.duration?.toString()
+    );
 
     result.duration = getTerm(
       "Bacterias/Tooltip/Duration",
