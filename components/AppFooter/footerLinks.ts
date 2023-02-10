@@ -70,9 +70,15 @@ const footerLinks: {
     term: "More projects",
     links: [
       {
+        term: "Hogwarts.gg",
+        title: "Hogwarts Legacy Fansite",
+        href: "https://www.hogwarts.gg/",
+        target: "_blank",
+      },
+      {
         term: "Aeternum Map",
         title: "Interactive map for New World",
-        href: "https://www.aeternum-map.gg/",
+        href: "https://aeternum-map.gg/",
         target: "_blank",
       },
       {
