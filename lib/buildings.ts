@@ -1,10 +1,10 @@
+import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 import buildingsCollection from "./collections/buildings.json";
+import factionsCollection from "./collections/factions.json";
 import { getFactions } from "./factions";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
 import { getUnit } from "./units";
-import factionsCollection from "./collections/factions.json";
-import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 
 export const getBuildings = (locale: string) => {
   const buildings = buildingsCollection.map<BuildingSimpleDTO>((building) => {

@@ -5,19 +5,14 @@ import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
 
 export const getFactions = (locale: string) => {
-  const factions = factionsCollection
-    .filter((faction) => faction.symbolSprite)
-    .map<FactionSimpleDTO>((faction) => ({
-      id: faction.id,
-      type: faction.type,
-      name: getTerm(`Factions/${faction.languageKey}/Name`, locale),
-      description: getTerm(
-        `Factions/${faction.languageKey}/Description`,
-        locale
-      ),
-      bannerSprite: faction.bannerSprite!,
-      symbolSprite: faction.symbolSprite!,
-    }));
+  const factions = factionsCollection.map<FactionSimpleDTO>((faction) => ({
+    id: faction.id,
+    type: faction.type,
+    name: getTerm(`Factions/${faction.languageKey}/Name`, locale),
+    description: getTerm(`Factions/${faction.languageKey}/Description`, locale),
+    bannerSprite: faction.bannerSprite!,
+    symbolSprite: faction.symbolSprite!,
+  }));
   return factions;
 };
 

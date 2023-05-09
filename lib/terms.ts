@@ -45,7 +45,9 @@ export const getSiteTerm = (term: string, locale: string) => {
   let value =
     siteTerms[lowerCaseTerm]?.[locale] || siteTerms[lowerCaseTerm]?.en;
   if (!value) {
-    console.warn(`Can not find ${term} - ${locale}`);
+    if (process.env.NODE_ENV === "development") {
+      console.warn(`Can not find ${term} - ${locale}`);
+    }
     value = "";
   }
   return value;

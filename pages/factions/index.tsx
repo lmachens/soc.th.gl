@@ -1,12 +1,12 @@
 import { NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Divider, Grid, Image, Stack, SimpleGrid, Text } from "@mantine/core";
-import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import { FactionSimpleDTO, getFactions } from "../../lib/factions";
+import { Divider, Grid, Image, SimpleGrid, Stack, Text } from "@mantine/core";
 import AppLink from "../../components/AppLink/AppLink";
 import Article from "../../components/Article/Article";
 import PageHead from "../../components/PageHead/PageHead";
+import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
+import { FactionSimpleDTO, getFactions } from "../../lib/factions";
 
 const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
   return (
@@ -62,7 +62,9 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
 export default Factions;
 
 export const getStaticProps = withStaticBase(async (context) => {
-  const factions = getFactions(context.locale!);
+  const factions = getFactions(context.locale!).filter(
+    (faction) => faction.symbolSprite
+  );
 
   return {
     props: {

@@ -2,11 +2,11 @@ import { GetServerSideProps } from "next";
 import { ArtifactSimpleDTO, getArtifacts } from "../lib/artifacts";
 import { BuildingSimpleDTO, getBuildings } from "../lib/buildings";
 import { FactionSimpleDTO, getFactions } from "../lib/factions";
-import { getRandomEvents, RandomEventSimpleDTO } from "../lib/randomEvents";
-import { getSkills, SkillSimpleDTO } from "../lib/skills";
-import { getSpells, SpellSimpleDTO } from "../lib/spells";
-import { getUnits, UnitSimpleDTO } from "../lib/units";
-import { getWielders, WielderSimpleDTO } from "../lib/wielders";
+import { RandomEventSimpleDTO, getRandomEvents } from "../lib/randomEvents";
+import { SkillSimpleDTO, getSkills } from "../lib/skills";
+import { SpellSimpleDTO, getSpells } from "../lib/spells";
+import { UnitSimpleDTO, getUnits } from "../lib/units";
+import { WielderSimpleDTO, getWielders } from "../lib/wielders";
 
 const URL = "https://www.soc.gg";
 function generateSiteMap(data: {
@@ -132,7 +132,9 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const locale = "en";
   const artifacts = getArtifacts(locale);
   const buildings = getBuildings(locale);
-  const factions = getFactions(locale);
+  const factions = getFactions(locale).filter(
+    (faction) => faction.symbolSprite
+  );
   const randomEvents = getRandomEvents(locale);
   const skills = getSkills(locale);
   const spells = getSpells(locale);
