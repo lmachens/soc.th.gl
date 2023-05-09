@@ -494,8 +494,8 @@
           "adventureSprite": {
             "name": "NeutralHostilesDefault1Wolf1",
             "spriteSheet": "NeutralHostilesAtlas.webp",
-            "x": 122,
-            "y": 47,
+            "x": 110,
+            "y": 76,
             "width": 43,
             "height": 27,
             "outline": [
@@ -581,8 +581,8 @@
           "adventureSprite": {
             "name": "NeutralHostilesDefault7Bandit1",
             "spriteSheet": "NeutralHostilesAtlas.webp",
-            "x": 32,
-            "y": 35,
+            "x": 203,
+            "y": 156,
             "width": 46.923878,
             "height": 48,
             "outline": [
@@ -662,6 +662,240 @@
                 {
                   "x": -23.461939,
                   "y": 0
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "CutThroat",
+          "sprite": {
+            "name": "NeutralCutThroatDefault13Hit1",
+            "spriteSheet": "NeutralCutThroatAtlas.webp",
+            "x": 41,
+            "y": 87,
+            "width": 60,
+            "height": 69,
+            "outline": [
+              [
+                {
+                  "x": 3,
+                  "y": 26.5
+                },
+                {
+                  "x": 5,
+                  "y": 33.5
+                },
+                {
+                  "x": 12,
+                  "y": 34.5
+                },
+                {
+                  "x": 30,
+                  "y": 3.5
+                },
+                {
+                  "x": 28,
+                  "y": -3.5
+                },
+                {
+                  "x": 21,
+                  "y": -13.5
+                },
+                {
+                  "x": 19,
+                  "y": -11.5
+                },
+                {
+                  "x": 21,
+                  "y": -1.5
+                },
+                {
+                  "x": 17,
+                  "y": 8.5
+                },
+                {
+                  "x": 13,
+                  "y": 9.5
+                },
+                {
+                  "x": 10,
+                  "y": -0.5
+                },
+                {
+                  "x": 10,
+                  "y": -33.5
+                },
+                {
+                  "x": 2,
+                  "y": -34.5
+                },
+                {
+                  "x": 4,
+                  "y": -25.5
+                },
+                {
+                  "x": -2,
+                  "y": -5.5
+                },
+                {
+                  "x": -11,
+                  "y": -31.5
+                },
+                {
+                  "x": -18,
+                  "y": -30.5
+                },
+                {
+                  "x": -23,
+                  "y": -25.5
+                },
+                {
+                  "x": -15,
+                  "y": -24.5
+                },
+                {
+                  "x": -15,
+                  "y": -12.5
+                },
+                {
+                  "x": -9,
+                  "y": 6.5
+                },
+                {
+                  "x": -30,
+                  "y": 6.5
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "NeutralHostilesDefault13CutThroat1",
+            "spriteSheet": "NeutralHostilesAtlas.webp",
+            "x": 2.0761204,
+            "y": 57,
+            "width": 29.872562,
+            "height": 48.923878,
+            "outline": [
+              [
+                {
+                  "x": -10.012402,
+                  "y": -0.46193886
+                },
+                {
+                  "x": -17.012402,
+                  "y": 6.538061
+                },
+                {
+                  "x": -4.0124016,
+                  "y": 24.538061
+                },
+                {
+                  "x": 1.9875984,
+                  "y": 23.538061
+                },
+                {
+                  "x": 8.987598,
+                  "y": 16.538061
+                },
+                {
+                  "x": 15.987598,
+                  "y": 4.538061
+                },
+                {
+                  "x": 10.987598,
+                  "y": -4.461939
+                },
+                {
+                  "x": 12.987598,
+                  "y": -16.461939
+                },
+                {
+                  "x": 12.987598,
+                  "y": -24.461939
+                },
+                {
+                  "x": 6.9875984,
+                  "y": -24.461939
+                },
+                {
+                  "x": 0.9875984,
+                  "y": -9.461939
+                },
+                {
+                  "x": -3.0124016,
+                  "y": -24.461939
+                },
+                {
+                  "x": -11.012402,
+                  "y": -23.461939
+                },
+                {
+                  "x": -14.012402,
+                  "y": -7.461939
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "DireWolf",
+          "adventureSprite": {
+            "name": "NeutralHostilesDefault1Wolf1",
+            "spriteSheet": "NeutralHostilesAtlas.webp",
+            "x": 110,
+            "y": 76,
+            "width": 43,
+            "height": 27,
+            "outline": [
+              [
+                {
+                  "x": -21.5,
+                  "y": 10.5
+                },
+                {
+                  "x": -5.5,
+                  "y": 13.5
+                },
+                {
+                  "x": 10.5,
+                  "y": 5.5
+                },
+                {
+                  "x": 21.5,
+                  "y": 5.5
+                },
+                {
+                  "x": 17.5,
+                  "y": -2.5
+                },
+                {
+                  "x": 13.5,
+                  "y": -5.5
+                },
+                {
+                  "x": 13.5,
+                  "y": -13.5
+                },
+                {
+                  "x": -15.5,
+                  "y": -13.5
+                },
+                {
+                  "x": -13.5,
+                  "y": -5.5
+                },
+                {
+                  "x": -20.5,
+                  "y": -5.5
                 }
               ]
             ]

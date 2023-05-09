@@ -24,7 +24,7 @@ const getClipPath = (spriteSheet: SpriteDTO) => {
 type SpriteSheetProps = {
   className?: string;
   folder?: string;
-  spriteSheet: SpriteDTO;
+  spriteSheet?: SpriteDTO;
   resize?: number;
   inline?: boolean;
 };
@@ -35,6 +35,9 @@ const SpriteSheet = ({
   resize,
   inline,
 }: SpriteSheetProps) => {
+  if (!spriteSheet) {
+    return <div />;
+  }
   const style: CSSProperties = {
     backgroundImage: `url(/${folder ? `${folder}/` : ""}${
       spriteSheet.spriteSheet

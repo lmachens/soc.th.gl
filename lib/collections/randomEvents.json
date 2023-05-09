@@ -782,12 +782,6 @@
           },
           "modifierData": [
             {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": 8,
-              "applicationType": 0
-            },
-            {
               "type": 3,
               "modifier": "TroopInitiative",
               "amountToAdd": 10,
@@ -909,7 +903,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": -13,
+              "amountToAdd": -10,
               "applicationType": 0
             }
           ],
@@ -4386,7 +4380,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -6413,7 +6407,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -7924,10 +7918,10 @@
         "requirementType": "GreaterThanOrEqualEntitiesOwned"
       }
     ],
-    "eventRecipient": "CommanderWithLowestLevel",
+    "eventRecipient": "CommanderWithLeastArmyValue",
     "rewards": [
       {
-        "rewardType": "Experience",
+        "rewardType": "Bacteria",
         "experience": 350,
         "troopRewards": [],
         "resourceReward": {
@@ -7937,7 +7931,57 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 1183,
+          "type": "RandomEventEssenceSurge",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 28,
+              "modifier": "CommanderEssenceOrder",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 30,
+              "modifier": "CommanderEssenceChaos",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 29,
+              "modifier": "CommanderEssenceCreation",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 32,
+              "modifier": "CommanderEssenceDestruction",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 31,
+              "modifier": "CommanderEssenceArcana",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureNumberOfBattles",
+            "duration": 1
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7955,7 +7999,7 @@
     "descriptionKey": "RandomEvents/Arleon/Outlaw/Thievery/Description",
     "faction": "Arleon",
     "eventChainNameKey": "RandomEvents/Arleon/Outlaw",
-    "eventType": "Good",
+    "eventType": "Bad",
     "name": "Thievery",
     "chanceOfHappening": 0.3,
     "eventEvaluationTrigger": "YourTurn",
@@ -8556,7 +8600,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -9591,7 +9635,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -10488,7 +10532,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -12257,10 +12301,10 @@
         "requirementType": "GreaterThanOrEqualEntitiesOwned"
       }
     ],
-    "eventRecipient": "CommanderWithLowestLevel",
+    "eventRecipient": "CommanderWithLeastArmyValue",
     "rewards": [
       {
-        "rewardType": "Experience",
+        "rewardType": "Bacteria",
         "experience": 350,
         "troopRewards": [],
         "resourceReward": {
@@ -12270,7 +12314,57 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 1183,
+          "type": "RandomEventEssenceSurge",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 28,
+              "modifier": "CommanderEssenceOrder",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 30,
+              "modifier": "CommanderEssenceChaos",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 29,
+              "modifier": "CommanderEssenceCreation",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 32,
+              "modifier": "CommanderEssenceDestruction",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 31,
+              "modifier": "CommanderEssenceArcana",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureNumberOfBattles",
+            "duration": 1
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13204,7 +13298,7 @@
         "requirementType": "GreaterThanOrEqualSettlementsOwned"
       }
     ],
-    "eventRecipient": "Team",
+    "eventRecipient": "CommanderWithHighestLevel",
     "rewards": [
       {
         "rewardType": "Bacteria",
@@ -13218,8 +13312,8 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 874,
-          "type": "RandomEventSteadyMarch",
+          "bacteriaType": 1184,
+          "type": "RandomEventRevealedRoutes",
           "customEffect": "None",
           "customEffectValue": 0,
           "secondaryCustomEffectValue": 0,
@@ -13232,15 +13326,15 @@
           },
           "modifierData": [
             {
-              "type": 12,
-              "modifier": "CommanderMovement",
+              "type": 21,
+              "modifier": "CommanderViewRadius",
               "amountToAdd": 2,
               "applicationType": 0
             }
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": "AdventureTeamRound",
+            "type": "Permanent",
             "duration": 2
           }
         },
@@ -13472,7 +13566,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -13734,7 +13828,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -16598,7 +16692,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -17215,10 +17309,10 @@
         "requirementType": "GreaterThanOrEqualEntitiesOwned"
       }
     ],
-    "eventRecipient": "CommanderWithLowestLevel",
+    "eventRecipient": "CommanderWithLeastArmyValue",
     "rewards": [
       {
-        "rewardType": "Experience",
+        "rewardType": "Bacteria",
         "experience": 350,
         "troopRewards": [],
         "resourceReward": {
@@ -17228,7 +17322,57 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 1183,
+          "type": "RandomEventEssenceSurge",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 28,
+              "modifier": "CommanderEssenceOrder",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 30,
+              "modifier": "CommanderEssenceChaos",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 29,
+              "modifier": "CommanderEssenceCreation",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 32,
+              "modifier": "CommanderEssenceDestruction",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 31,
+              "modifier": "CommanderEssenceArcana",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureNumberOfBattles",
+            "duration": 1
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -20468,7 +20612,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -20632,7 +20776,7 @@
             {
               "type": 3,
               "modifier": "TroopInitiative",
-              "amountToAdd": 7,
+              "amountToAdd": 5,
               "applicationType": 0
             },
             {
@@ -22188,12 +22332,6 @@
           },
           "modifierData": [
             {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": 8,
-              "applicationType": 0
-            },
-            {
               "type": 3,
               "modifier": "TroopInitiative",
               "amountToAdd": 10,
@@ -22760,12 +22898,6 @@
           },
           "modifierData": [
             {
-              "type": 2,
-              "modifier": "TroopDefense",
-              "amountToAdd": 8,
-              "applicationType": 0
-            },
-            {
               "type": 3,
               "modifier": "TroopInitiative",
               "amountToAdd": 10,
@@ -22990,11 +23122,835 @@
         "requirementType": "GreaterThanOrEqualEntitiesOwned"
       }
     ],
-    "eventRecipient": "CommanderWithLowestLevel",
+    "eventRecipient": "CommanderWithLeastArmyValue",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 350,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1183,
+          "type": "RandomEventEssenceSurge",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 28,
+              "modifier": "CommanderEssenceOrder",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 30,
+              "modifier": "CommanderEssenceChaos",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 29,
+              "modifier": "CommanderEssenceCreation",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 32,
+              "modifier": "CommanderEssenceDestruction",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 31,
+              "modifier": "CommanderEssenceArcana",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureNumberOfBattles",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/WhiteEagle",
+    "uniqueName": "Rana/WhiteEagle",
+    "descriptionKey": "RandomEvents/Rana/WhiteEagle/Description",
+    "faction": "Rana",
+    "eventChainNameKey": null,
+    "eventType": "Good",
+    "name": "WhiteEagle",
+    "chanceOfHappening": 0.05,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 50,
+            "max": 100
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 237,
+          "type": "RandomEventGoodSpirits",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/AGreatWillow",
+    "uniqueName": "Rana/AGreatWillow",
+    "descriptionKey": "RandomEvents/Rana/AGreatWillow/Description",
+    "faction": "Rana",
+    "eventChainNameKey": null,
+    "eventType": "Good",
+    "name": "AGreatWillow",
+    "chanceOfHappening": 0.06,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "MapEntities/ResourceGenerator/Wood"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Wood",
+          "amountMinMax": {
+            "min": 5,
+            "max": 8
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Expedition",
+    "uniqueName": "Rana/RareBird/Expedition",
+    "descriptionKey": "RandomEvents/Rana/RareBird/Expedition/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RareBird",
+    "eventType": "Good",
+    "name": "Expedition",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RareBird/StrangeSounds"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 905,
+          "type": "RandomEventGrowingPopulation",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 14,
+              "modifier": "TeamSmallDwellingIncrease",
+              "amountToAdd": 40,
+              "applicationType": 1
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/StrangeSounds",
+    "uniqueName": "Rana/RareBird/StrangeSounds",
+    "descriptionKey": "RandomEvents/Rana/RareBird/StrangeSounds/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RareBird",
+    "eventType": "Bad",
+    "name": "StrangeSounds",
+    "chanceOfHappening": 0.06,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 3,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Rana/LeanTo"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 872,
+          "type": "RandomEventAnxiousMinds",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureNumberOfBattles",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Craftperson",
+    "uniqueName": "Rana/Metallurgy/Craftperson",
+    "descriptionKey": "RandomEvents/Rana/Metallurgy/Craftperson/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/Metallurgy",
+    "eventType": "Good",
+    "name": "Craftperson",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/Metallurgy/MetalSupply"
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithLeastOwnedArtifacts",
+    "rewards": [
+      {
+        "rewardType": "RandomArtifact",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 1,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Artifact",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": "MorningStar",
+        "randomArtifact": {
+          "category": 1,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/MetalSupply",
+    "uniqueName": "Rana/Metallurgy/MetalSupply",
+    "descriptionKey": "RandomEvents/Rana/Metallurgy/MetalSupply/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/Metallurgy",
+    "eventType": "Good",
+    "name": "MetalSupply",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/Metallurgy/MineralShortage"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 917,
+          "type": "RandomEventGreatSpirits",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/MineralShortage",
+    "uniqueName": "Rana/Metallurgy/MineralShortage",
+    "descriptionKey": "RandomEvents/Rana/Metallurgy/MineralShortage/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/Metallurgy",
+    "eventType": "Good",
+    "name": "MineralShortage",
+    "chanceOfHappening": 0.06,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "MapEntities/ResourceGenerator/CelestialOre"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "MapEntities/ResourceGenerator/Stone"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Wood",
+          "amountMinMax": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Stone",
+          "amountMinMax": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "CelestialOre",
+          "amountMinMax": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Disappearance",
+    "uniqueName": "Rana/DawnStarRiver/Disappearance",
+    "descriptionKey": "RandomEvents/Rana/DawnStarRiver/Disappearance/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DawnStarRiver",
+    "eventType": "Bad",
+    "name": "Disappearance",
+    "chanceOfHappening": 0.05,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Rana/LeanTo"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Rana/MudHuts"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "ReduceRecruitmentPool",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [
+            {
+              "faction": "Rana",
+              "name": "Guard"
+            }
+          ],
+          "percentage": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "Rana/Investigation",
+    "uniqueName": "Rana/DawnStarRiver/Investigation",
+    "descriptionKey": "RandomEvents/Rana/DawnStarRiver/Investigation/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DawnStarRiver",
+    "eventType": "Good",
+    "name": "Investigation",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DawnStarRiver/Disappearance"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithLowestExperienceAmount",
     "rewards": [
       {
         "rewardType": "Experience",
-        "experience": 350,
+        "experience": 400,
         "troopRewards": [],
         "resourceReward": {
           "type": "Gold",
@@ -23014,5 +23970,3379 @@
       }
     ],
     "penalties": []
+  },
+  {
+    "id": "Rana/Monster",
+    "uniqueName": "Rana/DawnStarRiver/Monster",
+    "descriptionKey": "RandomEvents/Rana/DawnStarRiver/Monster/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DawnStarRiver",
+    "eventType": "Good",
+    "name": "Monster",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "OR",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DawnStarRiver/MysteryA"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DawnStarRiver/MysteryB"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "AncientAmber",
+          "amountMinMax": {
+            "min": 3,
+            "max": 3
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Troops",
+        "experience": 0,
+        "troopRewards": [
+          {
+            "faction": "Rana",
+            "name": "Guard",
+            "size": 5
+          }
+        ],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/MysteryA",
+    "uniqueName": "Rana/DawnStarRiver/MysteryA",
+    "descriptionKey": "RandomEvents/Rana/DawnStarRiver/Mystery/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DawnStarRiver",
+    "eventType": "Bad",
+    "name": "MysteryA",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 0,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DawnStarRiver/Investigation"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DawnStarRiver/MysteryB"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidNotHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 872,
+          "type": "RandomEventAnxiousMinds",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 3
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/MysteryB",
+    "uniqueName": "Rana/DawnStarRiver/MysteryB",
+    "descriptionKey": "RandomEvents/Rana/DawnStarRiver/Mystery/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DawnStarRiver",
+    "eventType": "Bad",
+    "name": "MysteryB",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 2,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DawnStarRiver/Investigation"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DawnStarRiver/MysteryA"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidNotHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 872,
+          "type": "RandomEventAnxiousMinds",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 3
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/SolarEclipse",
+    "uniqueName": "Rana/SolarEclipse",
+    "descriptionKey": "RandomEvents/Rana/SolarEclipse/Description",
+    "faction": "Rana",
+    "eventChainNameKey": null,
+    "eventType": "Good",
+    "name": "SolarEclipse",
+    "chanceOfHappening": 0.05,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 237,
+          "type": "RandomEventGoodSpirits",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/BrokenCanoe",
+    "uniqueName": "Rana/GreenstoneFalls/BrokenCanoe",
+    "descriptionKey": "RandomEvents/Rana/GreenstoneFalls/BrokenCanoe/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/GreenstoneFalls",
+    "eventType": "Bad",
+    "name": "BrokenCanoe",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/GreenstoneFalls/Explorers"
+        },
+        "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "MapEntities/ResourceGenerator/Wood"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1126,
+          "type": "RandomEventLowSpirit",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -3,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": -3,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -3,
+              "applicationType": 0
+            },
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": -1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Explorers",
+    "uniqueName": "Rana/GreenstoneFalls/Explorers",
+    "descriptionKey": "RandomEvents/Rana/GreenstoneFalls/Explorers/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/GreenstoneFalls",
+    "eventType": "Bad",
+    "name": "Explorers",
+    "chanceOfHappening": 0.05,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Wood",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "MapEntities/ResourceGenerator/Wood"
+        },
+        "requirementType": "GreaterThanOrEqualToResourceIncome"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "LoseResource",
+        "resourcePenalty": {
+          "type": "Wood",
+          "amountMinMax": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      },
+      {
+        "penaltyType": "LoseResource",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 200,
+            "max": 300
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "Rana/ExplorersMap",
+    "uniqueName": "Rana/GreenstoneFalls/ExplorersMap",
+    "descriptionKey": "RandomEvents/Rana/GreenstoneFalls/ExplorersMap/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/GreenstoneFalls",
+    "eventType": "Good",
+    "name": "ExplorersMap",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/GreenstoneFalls/Rescued"
+        },
+        "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "MapEntities/ResourceGenerator/Wood"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithHighestLevel",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1184,
+          "type": "RandomEventRevealedRoutes",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 21,
+              "modifier": "CommanderViewRadius",
+              "amountToAdd": 2,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Rescued",
+    "uniqueName": "Rana/GreenstoneFalls/Rescued",
+    "descriptionKey": "RandomEvents/Rana/GreenstoneFalls/Rescued/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/GreenstoneFalls",
+    "eventType": "Good",
+    "name": "Rescued",
+    "chanceOfHappening": 0.3,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/GreenstoneFalls/BrokenCanoe"
+        },
+        "value": 2,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "MapEntities/ResourceGenerator/Wood"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithLeastArmyValue",
+    "rewards": [
+      {
+        "rewardType": "Troops",
+        "experience": 0,
+        "troopRewards": [
+          {
+            "faction": "Rana",
+            "name": "Hunter",
+            "size": 5
+          }
+        ],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/AncientChelun",
+    "uniqueName": "Rana/ChelunCycle/AncientChelun",
+    "descriptionKey": "RandomEvents/Rana/ChelunCycle/AncientChelun/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/ChelunCycle",
+    "eventType": "Good",
+    "name": "AncientChelun",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/ChelunCycle/MatureChelun"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 236,
+          "type": "RandomEventTravellingEntertainers",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/MatureChelun",
+    "uniqueName": "Rana/ChelunCycle/MatureChelun",
+    "descriptionKey": "RandomEvents/Rana/ChelunCycle/MatureChelun/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/ChelunCycle",
+    "eventType": "Good",
+    "name": "MatureChelun",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/ChelunCycle/YoungChelun"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 430,
+          "type": "RandomEventOptimism",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 6,
+              "modifier": "TroopMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/YoungChelun",
+    "uniqueName": "Rana/ChelunCycle/YoungChelun",
+    "descriptionKey": "RandomEvents/Rana/ChelunCycle/YoungChelun/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/ChelunCycle",
+    "eventType": "Good",
+    "name": "YoungChelun",
+    "chanceOfHappening": 0.07,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Rana/ChelunsSanctuary"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1144,
+          "type": "RandomEventWellFed",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 13,
+              "modifier": "TroopHealth",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Community",
+    "uniqueName": "Rana/DangerousTimes/Community",
+    "descriptionKey": "RandomEvents/Rana/DangerousTimes/Community/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DangerousTimes",
+    "eventType": "Good",
+    "name": "Community",
+    "chanceOfHappening": 0.25,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DangerousTimes/Hunger"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 237,
+          "type": "RandomEventGoodSpirits",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 3
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Hunger",
+    "uniqueName": "Rana/DangerousTimes/Hunger",
+    "descriptionKey": "RandomEvents/Rana/DangerousTimes/Hunger/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DangerousTimes",
+    "eventType": "Bad",
+    "name": "Hunger",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DangerousTimes/Refugees"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1146,
+          "type": "RandomEventHunger",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": -1,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/RanaLore",
+    "uniqueName": "Rana/DangerousTimes/RanaLore",
+    "descriptionKey": "RandomEvents/Rana/DangerousTimes/RanaLore/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DangerousTimes",
+    "eventType": "Bad",
+    "name": "RanaLore",
+    "chanceOfHappening": 0.07,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Rana/FetishPiles"
+        },
+        "requirementType": "LessThanEntitiesOwned"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 4,
+        "unitIndex": 1,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "RecipientOwnsLessThanTroop"
+      }
+    ],
+    "eventRecipient": "CommanderWithMostArmyValue",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 916,
+          "type": "RandomEventDread",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -10,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Refugees",
+    "uniqueName": "Rana/DangerousTimes/Refugees",
+    "descriptionKey": "RandomEvents/Rana/DangerousTimes/Refugees/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/DangerousTimes",
+    "eventType": "Good",
+    "name": "Refugees",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/DangerousTimes/RanaLore"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 905,
+          "type": "RandomEventGrowingPopulation",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 14,
+              "modifier": "TeamSmallDwellingIncrease",
+              "amountToAdd": 40,
+              "applicationType": 1
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/HumanLore",
+    "uniqueName": "Rana/HumanRemains/HumanLore",
+    "descriptionKey": "RandomEvents/Rana/HumanRemains/HumanLore/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/HumanRemains",
+    "eventType": "Good",
+    "name": "HumanLore",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/HumanRemains/HumanStatues"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Experience",
+        "experience": 500,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/HumanStatues",
+    "uniqueName": "Rana/HumanRemains/HumanStatues",
+    "descriptionKey": "RandomEvents/Rana/HumanRemains/HumanStatues/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/HumanRemains",
+    "eventType": "Good",
+    "name": "HumanStatues",
+    "chanceOfHappening": 0.06,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 7,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 4,
+        "unitIndex": 1,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "RecipientOwnsGreaterThanOrEqualTroop"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Stone",
+          "amountMinMax": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 864,
+          "type": "RandomEventRangedTactics",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/OneDrum",
+    "uniqueName": "Rana/RanaDrums/OneDrum",
+    "descriptionKey": "RandomEvents/Rana/RanaDrums/OneDrum/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaDrums",
+    "eventType": "Good",
+    "name": "OneDrum",
+    "chanceOfHappening": 0.07,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 2,
+        "factionIndex": 4,
+        "unitIndex": 5,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "TroopIncomeGreaterThanOrEqual"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1144,
+          "type": "RandomEventWellFed",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 13,
+              "modifier": "TroopHealth",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/SilentDrums",
+    "uniqueName": "Rana/RanaDrums/SilentDrums",
+    "descriptionKey": "RandomEvents/Rana/RanaDrums/SilentDrums/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaDrums",
+    "eventType": "Good",
+    "name": "SilentDrums",
+    "chanceOfHappening": 0.35,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaDrums/ThreeDrums"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1169,
+          "type": "RandomEventPeaceOfMind",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 34,
+              "modifier": "TroopSpellDamageResistance",
+              "amountToAdd": 10,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 3
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/ThreeDrums",
+    "uniqueName": "Rana/RanaDrums/ThreeDrums",
+    "descriptionKey": "RandomEvents/Rana/RanaDrums/ThreeDrums/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaDrums",
+    "eventType": "Good",
+    "name": "ThreeDrums",
+    "chanceOfHappening": 0.35,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaDrums/TwoDrums"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1181,
+          "type": "RandomEventPreparedness",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 10,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/TwoDrums",
+    "uniqueName": "Rana/RanaDrums/TwoDrums",
+    "descriptionKey": "RandomEvents/Rana/RanaDrums/TwoDrums/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaDrums",
+    "eventType": "Bad",
+    "name": "TwoDrums",
+    "chanceOfHappening": 0.4,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaDrums/OneDrum"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 872,
+          "type": "RandomEventAnxiousMinds",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": -5,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/SeasonOfAwakening",
+    "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening",
+    "descriptionKey": "RandomEvents/Rana/RanaSeasons/SeasonOfAwakening/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
+    "eventType": "Neutral",
+    "name": "SeasonOfAwakening",
+    "chanceOfHappening": 0.07,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Stone",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualToResourceIncome"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 18,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1158,
+          "type": "RandomEventHighLoyalty",
+          "modifierData": [],
+          "resourcesIncome": [
+            {
+              "type": "Gold",
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
+              "allTimeAmount": 0
+            }
+          ],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": [
+      {
+        "penaltyType": "LoseResource",
+        "resourcePenalty": {
+          "type": "Stone",
+          "amountMinMax": {
+            "min": 2,
+            "max": 3
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": "Rana/SeasonOfDreaming",
+    "uniqueName": "Rana/RanaSeasons/SeasonOfDreaming",
+    "descriptionKey": "RandomEvents/Rana/RanaSeasons/SeasonOfDreaming/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
+    "eventType": "Neutral",
+    "name": "SeasonOfDreaming",
+    "chanceOfHappening": 0.2,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 75,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 433,
+          "type": "RandomEventStrongFaith",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 6,
+              "modifier": "TroopMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/SeasonOfHope",
+    "uniqueName": "Rana/RanaSeasons/SeasonOfHope",
+    "descriptionKey": "RandomEvents/Rana/RanaSeasons/SeasonOfHope/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
+    "eventType": "Good",
+    "name": "SeasonOfHope",
+    "chanceOfHappening": 0.2,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 32,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 38,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 430,
+          "type": "RandomEventOptimism",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 6,
+              "modifier": "TroopMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/SeasonOfListening",
+    "uniqueName": "Rana/RanaSeasons/SeasonOfListening",
+    "descriptionKey": "RandomEvents/Rana/RanaSeasons/SeasonOfListening/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
+    "eventType": "Good",
+    "name": "SeasonOfListening",
+    "chanceOfHappening": 0.2,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 42,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 48,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 905,
+          "type": "RandomEventGrowingPopulation",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 14,
+              "modifier": "TeamSmallDwellingIncrease",
+              "amountToAdd": 40,
+              "applicationType": 1
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/SeasonOfPreparation",
+    "uniqueName": "Rana/RanaSeasons/SeasonOfPreparation",
+    "descriptionKey": "RandomEvents/Rana/RanaSeasons/SeasonOfPreparation/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
+    "eventType": "Good",
+    "name": "SeasonOfPreparation",
+    "chanceOfHappening": 0.2,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 52,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 58,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 1000,
+            "max": 2000
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Wood",
+          "amountMinMax": {
+            "min": 5,
+            "max": 10
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/SeasonOfReflection",
+    "uniqueName": "Rana/RanaSeasons/SeasonOfReflection",
+    "descriptionKey": "RandomEvents/Rana/RanaSeasons/SeasonOfReflection/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
+    "eventType": "Neutral",
+    "name": "SeasonOfReflection",
+    "chanceOfHappening": 0.2,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 62,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 68,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1169,
+          "type": "RandomEventPeaceOfMind",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 34,
+              "modifier": "TroopSpellDamageResistance",
+              "amountToAdd": 10,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 4
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/SeasonOfWatchfulness",
+    "uniqueName": "Rana/RanaSeasons/SeasonOfWatchfulness",
+    "descriptionKey": "RandomEvents/Rana/RanaSeasons/SeasonOfWatchfulness/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
+    "eventType": "Bad",
+    "name": "SeasonOfWatchfulness",
+    "chanceOfHappening": 0.2,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 22,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
+        },
+        "value": 28,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 4,
+        "unitIndex": 2,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "TroopIncomeGreaterThanOrEqual"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [],
+    "penalties": [
+      {
+        "penaltyType": "ReduceRecruitmentPool",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [
+            {
+              "faction": "Rana",
+              "name": "Guard"
+            }
+          ],
+          "percentage": 0.3
+        }
+      }
+    ]
+  },
+  {
+    "id": "Rana/Remembrance",
+    "uniqueName": "Rana/Remembrance",
+    "descriptionKey": "RandomEvents/Rana/Remembrance/Description",
+    "faction": "Rana",
+    "eventChainNameKey": null,
+    "eventType": "Good",
+    "name": "Remembrance",
+    "chanceOfHappening": 0.05,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 433,
+          "type": "RandomEventStrongFaith",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 2,
+              "modifier": "TroopDefense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 5,
+              "applicationType": 0
+            },
+            {
+              "type": 6,
+              "modifier": "TroopMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureNumberOfBattles",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Crawlers",
+    "uniqueName": "Rana/ShamanLore/Crawlers",
+    "descriptionKey": "RandomEvents/Rana/ShamanLore/Crawlers/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/ShamanLore",
+    "eventType": "Good",
+    "name": "Crawlers",
+    "chanceOfHappening": 0.08,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 5,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Rana/FetishPiles"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      }
+    ],
+    "eventRecipient": "CommanderWithHighestLevel",
+    "rewards": [
+      {
+        "rewardType": "Troops",
+        "experience": 0,
+        "troopRewards": [
+          {
+            "faction": "Rana",
+            "name": "Crawler",
+            "size": 3
+          }
+        ],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/DayOfGratitude",
+    "uniqueName": "Rana/ShamanLore/DayOfGratitude",
+    "descriptionKey": "RandomEvents/Rana/ShamanLore/DayOfGratitude/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/ShamanLore",
+    "eventType": "Good",
+    "name": "DayOfGratitude",
+    "chanceOfHappening": 0.35,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/ShamanLore/Tremors"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 917,
+          "type": "RandomEventGreatSpirits",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 3,
+              "modifier": "TroopInitiative",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 5,
+              "modifier": "TroopMeleeOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 8,
+              "modifier": "TroopRangedOffense",
+              "amountToAdd": 10,
+              "applicationType": 0
+            },
+            {
+              "type": 12,
+              "modifier": "CommanderMovement",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 2
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Ravagers",
+    "uniqueName": "Rana/ShamanLore/Ravagers",
+    "descriptionKey": "RandomEvents/Rana/ShamanLore/Ravagers/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/ShamanLore",
+    "eventType": "Good",
+    "name": "Ravagers",
+    "chanceOfHappening": 0.35,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/ShamanLore/Crawlers"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithMostArmyValue",
+    "rewards": [
+      {
+        "rewardType": "Troops",
+        "experience": 0,
+        "troopRewards": [
+          {
+            "faction": "Rana",
+            "name": "Ravager",
+            "size": 3
+          }
+        ],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Tremors",
+    "uniqueName": "Rana/ShamanLore/Tremors",
+    "descriptionKey": "RandomEvents/Rana/ShamanLore/Tremors/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/ShamanLore",
+    "eventType": "Good",
+    "name": "Tremors",
+    "chanceOfHappening": 0.35,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 4,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/ShamanLore/Ravagers"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      }
+    ],
+    "eventRecipient": "CommanderWithSpecificTroop",
+    "rewards": [
+      {
+        "rewardType": "Troops",
+        "experience": 0,
+        "troopRewards": [
+          {
+            "faction": "Rana",
+            "name": "Tremor",
+            "size": 2
+          }
+        ],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/Volunteers",
+    "uniqueName": "Rana/Volunteers",
+    "descriptionKey": "RandomEvents/Rana/Volunteers/Description",
+    "faction": "Rana",
+    "eventChainNameKey": null,
+    "eventType": "Good",
+    "name": "Volunteers",
+    "chanceOfHappening": 0.6,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 7,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualBattlesWon"
+      }
+    ],
+    "eventRecipient": "CommanderWithHighestLevel",
+    "rewards": [
+      {
+        "rewardType": "Troops",
+        "experience": 0,
+        "troopRewards": [
+          {
+            "faction": "Rana",
+            "name": "Hunter",
+            "size": 10
+          },
+          {
+            "faction": "Rana",
+            "name": "Shaman",
+            "size": 15
+          },
+          {
+            "faction": "Rana",
+            "name": "Guard",
+            "size": 10
+          }
+        ],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/PeaceAtLast",
+    "uniqueName": "Rana/WarAndPeace/PeaceAtLast",
+    "descriptionKey": "RandomEvents/Rana/WarAndPeace/PeaceAtLast/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/WarAndPeace",
+    "eventType": "Good",
+    "name": "PeaceAtLast",
+    "chanceOfHappening": 0.5,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": "Rana/WarAndPeace/TimesofWar"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidHappen"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 25,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualBattlesWon"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 1158,
+          "type": "RandomEventHighLoyalty",
+          "modifierData": [],
+          "resourcesIncome": [
+            {
+              "type": "Gold",
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
+              "allTimeAmount": 0
+            }
+          ],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 5
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Rana/TimesofWar",
+    "uniqueName": "Rana/WarAndPeace/TimesofWar",
+    "descriptionKey": "RandomEvents/Rana/WarAndPeace/TimesofWar/Description",
+    "faction": "Rana",
+    "eventChainNameKey": "RandomEvents/Rana/WarAndPeace",
+    "eventType": "Bad",
+    "name": "TimesofWar",
+    "chanceOfHappening": 0.25,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientValue": 500,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 15,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 15,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualBattlesFought"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Bacteria",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 0,
+            "max": 0
+          }
+        },
+        "bacteriaReward": {
+          "bacteriaType": 904,
+          "type": "RandomEventLackofRecruits",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 14,
+              "modifier": "TeamSmallDwellingIncrease",
+              "amountToAdd": -35,
+              "applicationType": 1
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "AdventureTeamRound",
+            "duration": 1
+          }
+        },
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": [
+      {
+        "penaltyType": "LoseResource",
+        "resourcePenalty": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 300,
+            "max": 500
+          }
+        },
+        "destroyOwnedBuilding": {
+          "buildingToDestroy": "",
+          "destroyAll": 0,
+          "amount": 1
+        },
+        "createRandomHostile": {
+          "spawnLocation": "AroundWielders",
+          "amountOfHostiles": 1
+        },
+        "reduceRecruitmentPool": {
+          "troopsToReduce": [],
+          "percentage": 0
+        }
+      }
+    ]
   }
 ]
