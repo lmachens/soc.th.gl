@@ -2,19 +2,19 @@ import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
 import { Box, Group, Stack, Text, Title } from "@mantine/core";
-import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
-import { getWielder, getWielders, WielderDTO } from "../../lib/wielders";
-import { getSiteTerm, getTerm, TermsDTO } from "../../lib/terms";
-import PopoverLink from "../../components/PopoverLink/PopoverLink";
-import { useTerms } from "../../components/Terms/Terms";
-import Lore from "../../components/Lore/Lore";
-import WielderStats from "../../components/WielderStats/WielderStats";
-import { Fragment } from "react";
-import { getWielderStatsIcons, IconsDTO } from "../../lib/icons";
-import PageHead from "../../components/PageHead/PageHead";
-import SkillPopover from "../../components/Skills/SkillPopover";
-import SkillPoolsTable from "../../components/Skills/SkillPoolsTable";
 import Image from "next/image";
+import { Fragment } from "react";
+import Lore from "../../components/Lore/Lore";
+import PageHead from "../../components/PageHead/PageHead";
+import PopoverLink from "../../components/PopoverLink/PopoverLink";
+import SkillPoolsTable from "../../components/Skills/SkillPoolsTable";
+import SkillPopover from "../../components/Skills/SkillPopover";
+import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
+import { useTerms } from "../../components/Terms/Terms";
+import WielderStats from "../../components/WielderStats/WielderStats";
+import { IconsDTO, getWielderStatsIcons } from "../../lib/icons";
+import { TermsDTO, getSiteTerm, getTerm } from "../../lib/terms";
+import { WielderDTO, getWielder, getWielders } from "../../lib/wielders";
 
 const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
   wielder,
@@ -94,7 +94,7 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
 
         {wielder.sheetSrc && (
           <>
-            <Title order={3}>{terms.visualGuide}</Title>
+            <Title order={3}>{terms.visualGuide} (might be outdated)</Title>
             <Image
               src={wielder.sheetSrc}
               width={640}
