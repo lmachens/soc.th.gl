@@ -1,10 +1,10 @@
 import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
+import sheets from "./collections/sheets.json";
+import unitsCollection from "./collections/units.json";
 import wieldersCollection from "./collections/wielders.json";
+import { SkillSimpleDTO, getSkills } from "./skills";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
-import unitsCollection from "./collections/units.json";
-import { getSkills, SkillSimpleDTO } from "./skills";
-import sheets from "./collections/sheets.json";
 
 export const getWielders = (locale: string): WielderSimpleDTO[] => {
   const wielders = wieldersCollection.map((wielder) => ({
@@ -155,7 +155,7 @@ export type WielderDTO = {
     description: string;
     languageKey: string;
     size: number;
-    sprite: SpriteDTO;
+    sprite?: SpriteDTO;
   }[];
   specializations: BacteriaDTO[];
   sheetSrc?: string;

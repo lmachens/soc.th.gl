@@ -123,19 +123,19 @@ export type UnitSimpleDTO = {
   faction: string;
   vanilla: {
     languageKey: string;
-    sprite: SpriteDTO;
+    sprite?: SpriteDTO;
     name: string;
     description: string;
   };
   upgraded: {
     languageKey: string;
-    sprite: SpriteDTO;
+    sprite?: SpriteDTO;
     name: string;
     description: string;
   } | null;
   superUpgraded: {
     languageKey: string;
-    sprite: SpriteDTO;
+    sprite?: SpriteDTO;
     name: string;
     description: string;
   } | null;
@@ -143,7 +143,7 @@ export type UnitSimpleDTO = {
 
 export type UnitTypeDTO = {
   languageKey: string;
-  sprite: SpriteDTO;
+  sprite?: SpriteDTO;
   name: string;
   description: string;
   purchaseCost: {
