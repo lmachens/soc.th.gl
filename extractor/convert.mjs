@@ -378,6 +378,10 @@ const units = factionsSrc
 
 await writeJSONFile(units, "../../lib/collections/units");
 for (const unit of units) {
+  if (!unit.vanilla.sprite) {
+    console.log(`Missing sprite for ${unit.vanilla.languageKey}`);
+    continue;
+  }
   await copyImageFile(unit.vanilla.sprite.spriteSheet, "../public/units");
   if (unit.upgraded) {
     await copyImageFile(unit.upgraded.sprite.spriteSheet, "../public/units");

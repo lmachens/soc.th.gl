@@ -294,6 +294,279 @@
     "superUpgraded": null
   },
   {
+    "faction": "Neutral",
+    "vanilla": {
+      "languageKey": "CutThroat",
+      "sprite": {
+        "name": "NeutralCutThroatDefault13Hit1",
+        "spriteSheet": "NeutralCutThroatAtlas.webp",
+        "x": 41,
+        "y": 87,
+        "width": 60,
+        "height": 69,
+        "outline": [
+          [
+            {
+              "x": 3,
+              "y": 26.5
+            },
+            {
+              "x": 5,
+              "y": 33.5
+            },
+            {
+              "x": 12,
+              "y": 34.5
+            },
+            {
+              "x": 30,
+              "y": 3.5
+            },
+            {
+              "x": 28,
+              "y": -3.5
+            },
+            {
+              "x": 21,
+              "y": -13.5
+            },
+            {
+              "x": 19,
+              "y": -11.5
+            },
+            {
+              "x": 21,
+              "y": -1.5
+            },
+            {
+              "x": 17,
+              "y": 8.5
+            },
+            {
+              "x": 13,
+              "y": 9.5
+            },
+            {
+              "x": 10,
+              "y": -0.5
+            },
+            {
+              "x": 10,
+              "y": -33.5
+            },
+            {
+              "x": 2,
+              "y": -34.5
+            },
+            {
+              "x": 4,
+              "y": -25.5
+            },
+            {
+              "x": -2,
+              "y": -5.5
+            },
+            {
+              "x": -11,
+              "y": -31.5
+            },
+            {
+              "x": -18,
+              "y": -30.5
+            },
+            {
+              "x": -23,
+              "y": -25.5
+            },
+            {
+              "x": -15,
+              "y": -24.5
+            },
+            {
+              "x": -15,
+              "y": -12.5
+            },
+            {
+              "x": -9,
+              "y": 6.5
+            },
+            {
+              "x": -30,
+              "y": 6.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 380
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 3,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 20,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 12,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 8,
+          "max": 11
+        },
+        "movement": 4,
+        "initiative": 19,
+        "health": 20,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          "Human"
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 427,
+          "type": "TraitDoubleStrike",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 0,
+              "modifier": "TroopAttacks",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": null,
+    "superUpgraded": null
+  },
+  {
+    "faction": "Neutral",
+    "vanilla": {
+      "languageKey": "DireWolf",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 420
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 2,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 20,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 10,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 6,
+          "max": 8
+        },
+        "movement": 5,
+        "initiative": 29,
+        "health": 20,
+        "maxTroopSize": 40,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": null,
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 59,
+          "type": "TraitBerserker",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": null,
+    "superUpgraded": null
+  },
+  {
     "faction": "Arleon",
     "vanilla": {
       "languageKey": "Militia",
@@ -610,8 +883,8 @@
         "icon": {
           "name": "AbilityIconPalisades",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 812,
+          "x": 665,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -998,8 +1271,8 @@
         "icon": {
           "name": "AbilityIconOverwatch",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 865,
+          "x": 612,
+          "y": 102,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1205,8 +1478,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 380,
+          "x": 656,
+          "y": 49,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1438,8 +1711,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 971,
+          "x": 725,
+          "y": 208,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1841,8 +2114,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 849,
-          "y": 255,
+          "x": 718,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1905,7 +2178,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent",
+                  "type": "EntireBattle",
                   "duration": 0
                 }
               },
@@ -2538,8 +2811,8 @@
         "icon": {
           "name": "AbilityIconInspire",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 918,
+          "x": 612,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2608,7 +2881,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent",
+                  "type": "EntireBattle",
                   "duration": 0
                 }
               },
@@ -3120,8 +3393,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 849,
-          "y": 255,
+          "x": 718,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -3662,8 +3935,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 274,
+          "x": 771,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -4013,7 +4286,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -4294,8 +4567,8 @@
         "icon": {
           "name": "AbilityIconFaeyFire",
           "spriteSheet": "Icons.webp",
-          "x": 279,
-          "y": 201,
+          "x": 361,
+          "y": 764,
           "width": 52,
           "height": 53,
           "outline": [
@@ -4381,7 +4654,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -5325,8 +5598,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 849,
-          "y": 255,
+          "x": 718,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -5546,8 +5819,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 380,
+          "x": 656,
+          "y": 49,
           "width": 52,
           "height": 52,
           "outline": [
@@ -5735,8 +6008,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 971,
+          "x": 725,
+          "y": 208,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6119,8 +6392,8 @@
         "icon": {
           "name": "AbilityIconAim",
           "spriteSheet": "Icons.webp",
-          "x": 385,
-          "y": 202,
+          "x": 471,
+          "y": 718,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6555,8 +6828,8 @@
         "icon": {
           "name": "AbilityIconChargeEssence",
           "spriteSheet": "Icons.webp",
-          "x": 834,
-          "y": 450,
+          "x": 931,
+          "y": 339,
           "width": 56,
           "height": 57,
           "outline": [
@@ -7300,8 +7573,8 @@
         "icon": {
           "name": "AbilityIconSacrificeBones",
           "spriteSheet": "Icons.webp",
-          "x": 864,
-          "y": 341,
+          "x": 718,
+          "y": 102,
           "width": 52,
           "height": 52,
           "outline": [
@@ -7779,8 +8052,8 @@
         "icon": {
           "name": "AbilityIconInspire",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 918,
+          "x": 612,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -7849,7 +8122,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent",
+                  "type": "EntireBattle",
                   "duration": 0
                 }
               },
@@ -8399,7 +8672,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -8902,8 +9175,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 849,
-          "y": 255,
+          "x": 718,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -8966,7 +9239,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent",
+                  "type": "EntireBattle",
                   "duration": 0
                 }
               },
@@ -9025,7 +9298,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -9554,8 +9827,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 380,
+          "x": 656,
+          "y": 49,
           "width": 52,
           "height": 52,
           "outline": [
@@ -9753,8 +10026,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 971,
+          "x": 725,
+          "y": 208,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10230,8 +10503,8 @@
         "icon": {
           "name": "AbilityIconSpearwall",
           "spriteSheet": "Icons.webp",
-          "x": 332,
-          "y": 201,
+          "x": 672,
+          "y": 261,
           "width": 52,
           "height": 53,
           "outline": [
@@ -10638,8 +10911,8 @@
         "icon": {
           "name": "AbilityIconAim",
           "spriteSheet": "Icons.webp",
-          "x": 385,
-          "y": 202,
+          "x": 471,
+          "y": 718,
           "width": 52,
           "height": 52,
           "outline": [
@@ -11231,8 +11504,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 274,
+          "x": 771,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -11803,7 +12076,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -12023,8 +12296,8 @@
         "icon": {
           "name": "AbilityIconPalisades",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 812,
+          "x": 665,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -12215,8 +12488,8 @@
         "icon": {
           "name": "AbilityIconPlaceMine",
           "spriteSheet": "Icons.webp",
-          "x": 811,
-          "y": 308,
+          "x": 665,
+          "y": 102,
           "width": 52,
           "height": 52,
           "outline": [
@@ -12599,8 +12872,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 274,
+          "x": 771,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13127,8 +13400,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 274,
+          "x": 771,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13224,7 +13497,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -13772,8 +14045,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 849,
-          "y": 255,
+          "x": 718,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -14443,7 +14716,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -14667,7 +14940,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -14848,8 +15121,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 849,
-          "y": 255,
+          "x": 718,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -14912,7 +15185,7 @@
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent",
+                  "type": "EntireBattle",
                   "duration": 0
                 }
               },
@@ -14965,7 +15238,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -15522,8 +15795,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 274,
+          "x": 771,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -15783,7 +16056,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -15827,8 +16100,8 @@
       "sprite": {
         "name": "RanaAdultCrawlerDefault1Idle1",
         "spriteSheet": "RanaAdultCrawlerAtlas.webp",
-        "x": 354,
-        "y": 118,
+        "x": 101,
+        "y": 154,
         "width": 66,
         "height": 83,
         "outline": [
@@ -16035,8 +16308,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 274,
+          "x": 771,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -16105,7 +16378,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -16409,8 +16682,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 380,
+          "x": 656,
+          "y": 49,
           "width": 52,
           "height": 52,
           "outline": [
@@ -16513,7 +16786,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -17006,8 +17279,8 @@
         "icon": {
           "name": "AbilityIconChargeEssence",
           "spriteSheet": "Icons.webp",
-          "x": 834,
-          "y": 450,
+          "x": 931,
+          "y": 339,
           "width": 56,
           "height": 57,
           "outline": [
@@ -17347,8 +17620,8 @@
         "icon": {
           "name": "AbilityIconOverwatch",
           "spriteSheet": "Icons.webp",
-          "x": 663,
-          "y": 865,
+          "x": 612,
+          "y": 102,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17573,8 +17846,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 274,
+          "x": 771,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17649,7 +17922,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -17738,7 +18011,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -17947,8 +18220,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 925,
-          "y": 274,
+          "x": 771,
+          "y": 155,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18023,7 +18296,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],
@@ -18075,7 +18348,7 @@
                 "duration": 0
               }
             },
-            "isStackable": 0,
+            "isStackable": 1,
             "isPassable": 1
           },
           "modifierData": [],

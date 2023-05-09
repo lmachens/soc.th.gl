@@ -1009,7 +1009,7 @@
             "bacteriaType": 238,
             "type": "SpellPhoenix1",
             "customEffect": "Damage",
-            "customEffectValue": 50,
+            "customEffectValue": 65,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1052,7 +1052,7 @@
             "bacteriaType": 239,
             "type": "SpellPhoenix2",
             "customEffect": "Damage",
-            "customEffectValue": 90,
+            "customEffectValue": 130,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1095,7 +1095,7 @@
             "bacteriaType": 240,
             "type": "SpellPhoenix3",
             "customEffect": "Damage",
-            "customEffectValue": 130,
+            "customEffectValue": 200,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1210,7 +1210,7 @@
             "bacteriaType": 242,
             "type": "SpellArcaneBolt2",
             "customEffect": "Damage",
-            "customEffectValue": 25,
+            "customEffectValue": 30,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1249,7 +1249,7 @@
             "bacteriaType": 243,
             "type": "SpellArcaneBolt3",
             "customEffect": "Damage",
-            "customEffectValue": 35,
+            "customEffectValue": 45,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1325,7 +1325,7 @@
             "bacteriaType": 134,
             "type": "SpellArcaneExplosion1",
             "customEffect": "Damage",
-            "customEffectValue": 30,
+            "customEffectValue": 35,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1364,7 +1364,7 @@
             "bacteriaType": 146,
             "type": "SpellArcaneExplosion2",
             "customEffect": "Damage",
-            "customEffectValue": 50,
+            "customEffectValue": 60,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1403,7 +1403,7 @@
             "bacteriaType": 147,
             "type": "SpellArcaneExplosion3",
             "customEffect": "Damage",
-            "customEffectValue": 70,
+            "customEffectValue": 80,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1479,7 +1479,7 @@
             "bacteriaType": 244,
             "type": "SpellIceBolt1",
             "customEffect": "Damage",
-            "customEffectValue": 30,
+            "customEffectValue": 40,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1524,7 +1524,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleRound",
+              "type": "BattleStackRound",
               "duration": 1
             }
           }
@@ -1551,7 +1551,7 @@
             "bacteriaType": 245,
             "type": "SpellIceBolt2",
             "customEffect": "Damage",
-            "customEffectValue": 50,
+            "customEffectValue": 70,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1596,7 +1596,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleRound",
+              "type": "BattleStackRound",
               "duration": 1
             }
           }
@@ -1623,7 +1623,7 @@
             "bacteriaType": 246,
             "type": "SpellIceBolt3",
             "customEffect": "Damage",
-            "customEffectValue": 75,
+            "customEffectValue": 100,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1668,7 +1668,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleRound",
+              "type": "BattleStackRound",
               "duration": 1
             }
           }
@@ -1732,7 +1732,7 @@
             "bacteriaType": 250,
             "type": "SpellFireBall1",
             "customEffect": "Damage",
-            "customEffectValue": 35,
+            "customEffectValue": 50,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1771,7 +1771,7 @@
             "bacteriaType": 251,
             "type": "SpellFireBall2",
             "customEffect": "Damage",
-            "customEffectValue": 70,
+            "customEffectValue": 100,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1810,7 +1810,7 @@
             "bacteriaType": 252,
             "type": "SpellFireBall3",
             "customEffect": "Damage",
-            "customEffectValue": 100,
+            "customEffectValue": 150,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1963,7 +1963,7 @@
     "costs": [
       {
         "type": "Arcana",
-        "amount": 7
+        "amount": 8
       }
     ],
     "tiers": [
@@ -2117,7 +2117,7 @@
     "costs": [
       {
         "type": "Creation",
-        "amount": 4
+        "amount": 5
       }
     ],
     "tiers": [
@@ -2226,7 +2226,7 @@
     "costs": [
       {
         "type": "Creation",
-        "amount": 5
+        "amount": 4
       }
     ],
     "tiers": [
@@ -2741,7 +2741,7 @@
             "bacteriaType": 273,
             "type": "SpellChainLightning1",
             "customEffect": "ChainFromTarget",
-            "customEffectValue": 35,
+            "customEffectValue": 40,
             "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
@@ -2780,7 +2780,7 @@
             "bacteriaType": 274,
             "type": "SpellChainLightning2",
             "customEffect": "ChainFromTarget",
-            "customEffectValue": 70,
+            "customEffectValue": 80,
             "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
@@ -2819,7 +2819,7 @@
             "bacteriaType": 275,
             "type": "SpellChainLightning3",
             "customEffect": "ChainFromTarget",
-            "customEffectValue": 100,
+            "customEffectValue": 120,
             "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
@@ -4209,7 +4209,7 @@
                   "bacteriaType": 357,
                   "type": "SpellPoisonCloudDamage1",
                   "customEffect": "Damage",
-                  "customEffectValue": 20,
+                  "customEffectValue": 25,
                   "secondaryCustomEffectValue": 0,
                   "auraSettings": {
                     "recipients": "All",
@@ -4261,7 +4261,7 @@
                 "bacteriaType": 357,
                 "type": "SpellPoisonCloudDamage1",
                 "customEffect": "Damage",
-                "customEffectValue": 20,
+                "customEffectValue": 25,
                 "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
@@ -4321,7 +4321,7 @@
                   "bacteriaType": 358,
                   "type": "SpellPoisonCloudDamage2",
                   "customEffect": "Damage",
-                  "customEffectValue": 40,
+                  "customEffectValue": 50,
                   "secondaryCustomEffectValue": 0,
                   "auraSettings": {
                     "recipients": "All",
@@ -4373,7 +4373,7 @@
                 "bacteriaType": 358,
                 "type": "SpellPoisonCloudDamage2",
                 "customEffect": "Damage",
-                "customEffectValue": 40,
+                "customEffectValue": 50,
                 "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
@@ -4433,7 +4433,7 @@
                   "bacteriaType": 359,
                   "type": "SpellPoisonCloudDamage3",
                   "customEffect": "Damage",
-                  "customEffectValue": 60,
+                  "customEffectValue": 75,
                   "secondaryCustomEffectValue": 0,
                   "auraSettings": {
                     "recipients": "All",
@@ -4485,7 +4485,7 @@
                 "bacteriaType": 359,
                 "type": "SpellPoisonCloudDamage3",
                 "customEffect": "Damage",
-                "customEffectValue": 60,
+                "customEffectValue": 75,
                 "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
@@ -4762,7 +4762,7 @@
             "bacteriaType": 303,
             "type": "Apocalypse1",
             "customEffect": "Damage",
-            "customEffectValue": 25,
+            "customEffectValue": 35,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4805,7 +4805,7 @@
             "bacteriaType": 304,
             "type": "Apocalypse2",
             "customEffect": "Damage",
-            "customEffectValue": 50,
+            "customEffectValue": 70,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -4848,7 +4848,7 @@
             "bacteriaType": 305,
             "type": "Apocalypse3",
             "customEffect": "Damage",
-            "customEffectValue": 75,
+            "customEffectValue": 100,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5281,7 +5281,7 @@
             "bacteriaType": 306,
             "type": "SpellRupture1",
             "customEffect": "Damage",
-            "customEffectValue": 50,
+            "customEffectValue": 60,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5324,7 +5324,7 @@
             "bacteriaType": 307,
             "type": "SpellRupture2",
             "customEffect": "Damage",
-            "customEffectValue": 100,
+            "customEffectValue": 120,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5367,7 +5367,7 @@
             "bacteriaType": 308,
             "type": "SpellRupture3",
             "customEffect": "Damage",
-            "customEffectValue": 150,
+            "customEffectValue": 200,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -6129,7 +6129,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleRound",
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -6175,7 +6175,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleRound",
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -6221,7 +6221,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleRound",
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -6308,7 +6308,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleStackRound",
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -6358,7 +6358,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleStackRound",
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -6408,7 +6408,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleStackRound",
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }

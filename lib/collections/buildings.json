@@ -11461,11 +11461,11 @@
             "amount": 4
           },
           {
-            "type": "CelestialOre",
+            "type": "AncientAmber",
             "amount": 2
           },
           {
-            "type": "AncientAmber",
+            "type": "CelestialOre",
             "amount": 2
           }
         ],
@@ -24484,6 +24484,40 @@
         },
         {
           "type": "Glimmerweave",
+          "amount": 3
+        },
+        {
+          "type": "CelestialOre",
+          "amount": 3
+        }
+      ],
+      "requiredBuildings": []
+    }
+  },
+  {
+    "id": 322,
+    "factionId": 0,
+    "buildSite": "Neutral/TownPortalBuilding",
+    "nameKey": "Neutral/TownPortalBuilding",
+    "descriptionKey": "Neutral/TownPortalBuilding/Description",
+    "portraits": [],
+    "baseViewRadius": 2,
+    "requirements": {
+      "costEntries": [
+        {
+          "type": "Stone",
+          "amount": 3
+        },
+        {
+          "type": "Wood",
+          "amount": 3
+        },
+        {
+          "type": "Glimmerweave",
+          "amount": 3
+        },
+        {
+          "type": "AncientAmber",
           "amount": 3
         },
         {
