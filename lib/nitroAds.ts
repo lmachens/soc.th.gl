@@ -27,7 +27,7 @@ if (typeof window !== "undefined") {
 
 export const loadNitroAds = () => {
   const script = document.createElement("script");
-  script.src = "https://s.nitropay.com/ads-1110.js";
+  script.src = "https://s.nitropay.com/ads-1487.js";
   script.setAttribute("data-cfasync", "false");
   script.async = true;
 

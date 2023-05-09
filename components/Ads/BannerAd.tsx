@@ -4,7 +4,7 @@ import { nitroAds } from "../../lib/nitroAds";
 
 const BannerAd = () => {
   useEffect(() => {
-    nitroAds.createAd("nitro-banner", {
+    nitroAds.createAd("soc-banner", {
       refreshLimit: 10,
       refreshTime: 30,
       renderVisibleOnly: true,
@@ -16,7 +16,7 @@ const BannerAd = () => {
     });
   }, []);
 
-  return <Box id="nitro-banner" sx={{ height: 90 }} />;
+  return <Box id="soc-banner" sx={{ height: 90 }} />;
 };
 
 export default BannerAd;

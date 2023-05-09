@@ -4,7 +4,7 @@ import { nitroAds } from "../../lib/nitroAds";
 
 const AnchorAd = () => {
   useEffect(() => {
-    nitroAds.createAd("nitro-anchor", {
+    nitroAds.createAd("soc-anchor", {
       refreshLimit: 10,
       refreshTime: 30,
       format: "anchor",
