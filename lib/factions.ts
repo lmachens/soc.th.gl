@@ -1,8 +1,8 @@
+import { BuildingSimpleDTO, getBuildings } from "./buildings";
 import factionsCollection from "./collections/factions.json";
+import wieldersCollection from "./collections/wielders.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
-import wieldersCollection from "./collections/wielders.json";
-import { BuildingSimpleDTO, getBuildings } from "./buildings";
 
 export const getFactions = (locale: string) => {
   const factions = factionsCollection
@@ -124,19 +124,19 @@ export type FactionDTO = {
   units: {
     vanilla: {
       languageKey: string;
-      sprite: SpriteDTO;
+      sprite?: SpriteDTO;
       name: string;
       description: string;
     };
     upgraded: {
       languageKey: string;
-      sprite: SpriteDTO;
+      sprite?: SpriteDTO;
       name: string;
       description: string;
     } | null;
     superUpgraded: {
       languageKey: string;
-      sprite: SpriteDTO;
+      sprite?: SpriteDTO;
       name: string;
       description: string;
     } | null;
