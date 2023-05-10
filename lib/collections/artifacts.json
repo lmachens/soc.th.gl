@@ -5,8 +5,8 @@
     "icon": {
       "name": "AllSeeingEyeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 237,
-      "y": 287,
+      "x": 305,
+      "y": 288,
       "width": 28,
       "height": 28,
       "outline": [
@@ -66,8 +66,8 @@
     "icon": {
       "name": "AncientSteampipeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 155,
-      "y": 226,
+      "x": 212,
+      "y": 227,
       "width": 31,
       "height": 30,
       "outline": [
@@ -127,8 +127,8 @@
     "icon": {
       "name": "BucklerShieldDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 65,
-      "y": 288,
+      "x": 133,
+      "y": 289,
       "width": 31,
       "height": 27,
       "outline": [
@@ -188,8 +188,8 @@
     "icon": {
       "name": "DragonscaleCrownDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 271,
-      "y": 316,
+      "x": 325,
+      "y": 317,
       "width": 31,
       "height": 26,
       "outline": [
@@ -249,8 +249,8 @@
     "icon": {
       "name": "OpenFacedBacinettDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 120,
-      "y": 91,
+      "x": 175,
+      "y": 92,
       "width": 28,
       "height": 34,
       "outline": [
@@ -310,8 +310,8 @@
     "icon": {
       "name": "PetrifiedDragonEggDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 348,
-      "y": 257,
+      "x": 420,
+      "y": 258,
       "width": 27,
       "height": 29,
       "outline": [
@@ -377,8 +377,8 @@
     "icon": {
       "name": "SassanidVelvetShoesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 189,
-      "y": 288,
+      "x": 257,
+      "y": 289,
       "width": 30,
       "height": 27,
       "outline": [
@@ -444,8 +444,8 @@
     "icon": {
       "name": "TalismanOfArcanaDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 420,
-      "y": 194,
+      "x": 479,
+      "y": 195,
       "width": 26,
       "height": 31,
       "outline": [
@@ -505,8 +505,8 @@
     "icon": {
       "name": "TalismanOfChaosDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 447,
-      "y": 194,
+      "x": 0,
+      "y": 163,
       "width": 27,
       "height": 31,
       "outline": [
@@ -566,8 +566,8 @@
     "icon": {
       "name": "TheBonesOfCorneliusDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 163,
-      "y": 317,
+      "x": 217,
+      "y": 318,
       "width": 31,
       "height": 25,
       "outline": [
@@ -633,8 +633,8 @@
     "icon": {
       "name": "BreastplateOfTheSunDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 75,
-      "y": 161,
+      "x": 131,
+      "y": 162,
       "width": 27,
       "height": 32,
       "outline": [
@@ -694,26 +694,26 @@
     "icon": {
       "name": "SpikedGauntletDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 0,
-      "y": 128,
+      "x": 56,
+      "y": 129,
       "width": 29,
       "height": 32,
       "outline": [
         [
           {
-            "x": -14.5,
+            "x": -14.500001,
             "y": -16
           },
           {
-            "x": -14.5,
+            "x": -14.500001,
             "y": 16
           },
           {
-            "x": 14.5,
+            "x": 14.499999,
             "y": 16
           },
           {
-            "x": 14.5,
+            "x": 14.499999,
             "y": -16
           }
         ]
@@ -755,7 +755,7 @@
     "icon": {
       "name": "DaggerDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 174,
+      "x": 231,
       "y": 348,
       "width": 34,
       "height": 20,
@@ -816,8 +816,8 @@
     "icon": {
       "name": "BoneScimitarDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 260,
-      "y": 90,
+      "x": 315,
+      "y": 91,
       "width": 29,
       "height": 35,
       "outline": [
@@ -877,8 +877,8 @@
     "icon": {
       "name": "AncientFalchionDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 416,
-      "y": 126,
+      "x": 472,
+      "y": 127,
       "width": 32,
       "height": 34,
       "outline": [
@@ -938,7 +938,7 @@
     "icon": {
       "name": "HandgunPrototypeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 47,
+      "x": 104,
       "y": 353,
       "width": 36,
       "height": 15,
@@ -999,8 +999,8 @@
     "icon": {
       "name": "GreatAxeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 476,
-      "y": 51,
+      "x": 64,
+      "y": 13,
       "width": 27,
       "height": 38,
       "outline": [
@@ -1060,8 +1060,8 @@
     "icon": {
       "name": "BoarSpearDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 315,
-      "y": 51,
+      "x": 386,
+      "y": 52,
       "width": 37,
       "height": 38,
       "outline": [
@@ -1121,8 +1121,8 @@
     "icon": {
       "name": "SwampSpearDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 55,
-      "y": 12,
+      "x": 147,
+      "y": 13,
       "width": 32,
       "height": 38,
       "outline": [
@@ -1182,8 +1182,8 @@
     "icon": {
       "name": "TwoHandedSwordDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 361,
-      "y": 2,
+      "x": 453,
+      "y": 3,
       "width": 26,
       "height": 48,
       "outline": [
@@ -1243,8 +1243,8 @@
     "icon": {
       "name": "StaffOfTheMagusDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 30,
-      "y": 128,
+      "x": 86,
+      "y": 129,
       "width": 32,
       "height": 32,
       "outline": [
@@ -1304,8 +1304,8 @@
     "icon": {
       "name": "ArchersGambesonDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 256,
-      "y": 51,
+      "x": 327,
+      "y": 52,
       "width": 32,
       "height": 38,
       "outline": [
@@ -1365,8 +1365,8 @@
     "icon": {
       "name": "ChainmailHauberkDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 384,
-      "y": 51,
+      "x": 455,
+      "y": 52,
       "width": 27,
       "height": 38,
       "outline": [
@@ -1426,8 +1426,8 @@
     "icon": {
       "name": "CelestialBreastplateDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 136,
-      "y": 161,
+      "x": 192,
+      "y": 162,
       "width": 29,
       "height": 32,
       "outline": [
@@ -1487,8 +1487,8 @@
     "icon": {
       "name": "CowlOfEndlessEssenceDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 91,
-      "y": 194,
+      "x": 150,
+      "y": 195,
       "width": 30,
       "height": 31,
       "outline": [
@@ -1572,8 +1572,8 @@
     "icon": {
       "name": "WornBootsLayer 11",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 212,
-      "y": 317,
+      "x": 266,
+      "y": 318,
       "width": 28,
       "height": 25,
       "outline": [
@@ -1639,8 +1639,8 @@
     "icon": {
       "name": "RidingBootsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 373,
-      "y": 194,
+      "x": 432,
+      "y": 195,
       "width": 22,
       "height": 31,
       "outline": [
@@ -1706,8 +1706,8 @@
     "icon": {
       "name": "MasterlyCraftedBootsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 351,
-      "y": 161,
+      "x": 407,
+      "y": 162,
       "width": 31,
       "height": 32,
       "outline": [
@@ -1773,8 +1773,8 @@
     "icon": {
       "name": "BootsOfTheWhisperingLeavesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 0,
-      "y": 53,
+      "x": 71,
+      "y": 54,
       "width": 32,
       "height": 36,
       "outline": [
@@ -1840,7 +1840,7 @@
     "icon": {
       "name": "WornLeatherGlovesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 223,
+      "x": 280,
       "y": 348,
       "width": 29,
       "height": 20,
@@ -1901,8 +1901,8 @@
     "icon": {
       "name": "GlimmerglovesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 266,
-      "y": 287,
+      "x": 334,
+      "y": 288,
       "width": 30,
       "height": 28,
       "outline": [
@@ -1962,8 +1962,8 @@
     "icon": {
       "name": "CelestialGauntletsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 224,
-      "y": 226,
+      "x": 281,
+      "y": 227,
       "width": 30,
       "height": 30,
       "outline": [
@@ -2029,7 +2029,7 @@
     "icon": {
       "name": "GlovesOfTheWildHuntDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 284,
+      "x": 341,
       "y": 347,
       "width": 30,
       "height": 21,
@@ -2102,8 +2102,8 @@
     "icon": {
       "name": "GauntletsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 260,
-      "y": 257,
+      "x": 332,
+      "y": 258,
       "width": 31,
       "height": 29,
       "outline": [
@@ -2169,8 +2169,8 @@
     "icon": {
       "name": "HelmetOfTheVanirDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 210,
-      "y": 194,
+      "x": 269,
+      "y": 195,
       "width": 25,
       "height": 31,
       "outline": [
@@ -2230,8 +2230,8 @@
     "icon": {
       "name": "VisoredBarbutaDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 177,
-      "y": 91,
+      "x": 232,
+      "y": 92,
       "width": 25,
       "height": 34,
       "outline": [
@@ -2297,8 +2297,8 @@
     "icon": {
       "name": "MaskOfWieshDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 321,
-      "y": 226,
+      "x": 378,
+      "y": 227,
       "width": 28,
       "height": 30,
       "outline": [
@@ -2376,8 +2376,8 @@
     "icon": {
       "name": "VanirAxeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 475,
-      "y": 90,
+      "x": 41,
+      "y": 55,
       "width": 29,
       "height": 35,
       "outline": [
@@ -2437,8 +2437,8 @@
     "icon": {
       "name": "BladeOfTheVanirDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 170,
-      "y": 11,
+      "x": 262,
+      "y": 12,
       "width": 22,
       "height": 39,
       "outline": [
@@ -2498,8 +2498,8 @@
     "icon": {
       "name": "CrossbowDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 97,
-      "y": 288,
+      "x": 165,
+      "y": 289,
       "width": 31,
       "height": 27,
       "outline": [
@@ -2559,8 +2559,8 @@
     "icon": {
       "name": "FaeyHornWarbowDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 226,
-      "y": 9,
+      "x": 318,
+      "y": 10,
       "width": 31,
       "height": 41,
       "outline": [
@@ -2626,8 +2626,8 @@
     "icon": {
       "name": "EternalLightbringerDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 194,
-      "y": 161,
+      "x": 250,
+      "y": 162,
       "width": 32,
       "height": 32,
       "outline": [
@@ -2699,8 +2699,8 @@
     "icon": {
       "name": "RoundShieldDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 403,
-      "y": 257,
+      "x": 475,
+      "y": 258,
       "width": 27,
       "height": 29,
       "outline": [
@@ -2760,8 +2760,8 @@
     "icon": {
       "name": "KiteShieldDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 65,
-      "y": 53,
+      "x": 136,
+      "y": 54,
       "width": 29,
       "height": 36,
       "outline": [
@@ -2821,8 +2821,8 @@
     "icon": {
       "name": "HeaterShieldDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 33,
-      "y": 53,
+      "x": 104,
+      "y": 54,
       "width": 31,
       "height": 36,
       "outline": [
@@ -2882,8 +2882,8 @@
     "icon": {
       "name": "EthyllesBlessingDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 347,
-      "y": 90,
+      "x": 402,
+      "y": 91,
       "width": 31,
       "height": 35,
       "outline": [
@@ -2943,8 +2943,8 @@
     "icon": {
       "name": "TalismanOfDestructionDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 0,
-      "y": 227,
+      "x": 57,
+      "y": 228,
       "width": 25,
       "height": 29,
       "outline": [
@@ -3004,8 +3004,8 @@
     "icon": {
       "name": "TalismanOfOrderDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 380,
-      "y": 287,
+      "x": 448,
+      "y": 288,
       "width": 28,
       "height": 28,
       "outline": [
@@ -3065,8 +3065,8 @@
     "icon": {
       "name": "AureliasAshesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 289,
-      "y": 51,
+      "x": 360,
+      "y": 52,
       "width": 25,
       "height": 38,
       "outline": [
@@ -3126,8 +3126,8 @@
     "icon": {
       "name": "TheMakersCompassDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 295,
-      "y": 127,
+      "x": 351,
+      "y": 128,
       "width": 27,
       "height": 33,
       "outline": [
@@ -3193,8 +3193,8 @@
     "icon": {
       "name": "ToolsOfTheMasterMasonDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 98,
-      "y": 227,
+      "x": 155,
+      "y": 228,
       "width": 28,
       "height": 29,
       "outline": [
@@ -3243,8 +3243,8 @@
     "icon": {
       "name": "EnchantedBagOfAcornsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 57,
-      "y": 317,
+      "x": 111,
+      "y": 318,
       "width": 23,
       "height": 25,
       "outline": [
@@ -3293,8 +3293,8 @@
     "icon": {
       "name": "TheGoldenGooseDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 379,
-      "y": 90,
+      "x": 434,
+      "y": 91,
       "width": 23,
       "height": 35,
       "outline": [
@@ -3343,8 +3343,8 @@
     "icon": {
       "name": "GlimmerweaveSpinningWheelDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 0,
-      "y": 91,
+      "x": 55,
+      "y": 92,
       "width": 32,
       "height": 34,
       "outline": [
@@ -3393,8 +3393,8 @@
     "icon": {
       "name": "EverflowingBranchOfSapDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 445,
-      "y": 51,
+      "x": 33,
+      "y": 13,
       "width": 30,
       "height": 38,
       "outline": [
@@ -3443,8 +3443,8 @@
     "icon": {
       "name": "CelestialCompassDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 30,
-      "y": 194,
+      "x": 89,
+      "y": 195,
       "width": 32,
       "height": 31,
       "outline": [
@@ -3493,8 +3493,8 @@
     "icon": {
       "name": "TalismanOfCreationDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 431,
-      "y": 226,
+      "x": 0,
+      "y": 196,
       "width": 29,
       "height": 30,
       "outline": [
@@ -3554,7 +3554,7 @@
     "icon": {
       "name": "EnchantedSilkGlovesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 253,
+      "x": 310,
       "y": 347,
       "width": 30,
       "height": 21,
@@ -3604,8 +3604,8 @@
     "icon": {
       "name": "GauntletsOfTheNightDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 255,
-      "y": 226,
+      "x": 312,
+      "y": 227,
       "width": 31,
       "height": 30,
       "outline": [
@@ -3671,8 +3671,8 @@
     "icon": {
       "name": "GlovesOfEternityDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 297,
-      "y": 287,
+      "x": 365,
+      "y": 288,
       "width": 28,
       "height": 28,
       "outline": [
@@ -3750,8 +3750,8 @@
     "icon": {
       "name": "GlovesOfThePhoenixDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 287,
-      "y": 226,
+      "x": 344,
+      "y": 227,
       "width": 33,
       "height": 30,
       "outline": [
@@ -3829,8 +3829,8 @@
     "icon": {
       "name": "GauntletsOfEssenceDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 129,
-      "y": 288,
+      "x": 197,
+      "y": 289,
       "width": 28,
       "height": 27,
       "outline": [
@@ -3896,8 +3896,8 @@
     "icon": {
       "name": "IronShieldDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 265,
-      "y": 194,
+      "x": 324,
+      "y": 195,
       "width": 29,
       "height": 31,
       "outline": [
@@ -3963,8 +3963,8 @@
     "icon": {
       "name": "ShieldOEternalServitudeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 396,
-      "y": 194,
+      "x": 455,
+      "y": 195,
       "width": 23,
       "height": 31,
       "outline": [
@@ -4036,8 +4036,8 @@
     "icon": {
       "name": "ShieldOfTheOgreDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 329,
-      "y": 8,
+      "x": 421,
+      "y": 9,
       "width": 31,
       "height": 42,
       "outline": [
@@ -4103,8 +4103,8 @@
     "icon": {
       "name": "EtheralShieldDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 206,
-      "y": 257,
+      "x": 278,
+      "y": 258,
       "width": 26,
       "height": 29,
       "outline": [
@@ -4170,8 +4170,8 @@
     "icon": {
       "name": "SpikedShieldDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 403,
-      "y": 90,
+      "x": 458,
+      "y": 91,
       "width": 30,
       "height": 35,
       "outline": [
@@ -4237,8 +4237,8 @@
     "icon": {
       "name": "BoneClubDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 231,
-      "y": 90,
+      "x": 286,
+      "y": 91,
       "width": 28,
       "height": 35,
       "outline": [
@@ -4298,8 +4298,8 @@
     "icon": {
       "name": "SpikedBootsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 441,
-      "y": 316,
+      "x": 0,
+      "y": 290,
       "width": 32,
       "height": 26,
       "outline": [
@@ -4371,8 +4371,8 @@
     "icon": {
       "name": "DragonToothDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 150,
-      "y": 194,
+      "x": 209,
+      "y": 195,
       "width": 26,
       "height": 31,
       "outline": [
@@ -4438,8 +4438,8 @@
     "icon": {
       "name": "AncientBladeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 117,
-      "y": 127,
+      "x": 173,
+      "y": 128,
       "width": 31,
       "height": 33,
       "outline": [
@@ -4499,8 +4499,8 @@
     "icon": {
       "name": "DaggerOfRageDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 290,
-      "y": 90,
+      "x": 345,
+      "y": 91,
       "width": 27,
       "height": 35,
       "outline": [
@@ -4566,8 +4566,8 @@
     "icon": {
       "name": "BewitchedBladeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 0,
-      "y": 194,
+      "x": 59,
+      "y": 195,
       "width": 29,
       "height": 31,
       "outline": [
@@ -4633,8 +4633,8 @@
     "icon": {
       "name": "ElementalAxeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 177,
-      "y": 194,
+      "x": 236,
+      "y": 195,
       "width": 32,
       "height": 31,
       "outline": [
@@ -4700,8 +4700,8 @@
     "icon": {
       "name": "MaceDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 318,
-      "y": 161,
+      "x": 374,
+      "y": 162,
       "width": 32,
       "height": 32,
       "outline": [
@@ -4761,8 +4761,8 @@
     "icon": {
       "name": "MorningStarDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 320,
-      "y": 194,
+      "x": 379,
+      "y": 195,
       "width": 31,
       "height": 31,
       "outline": [
@@ -4822,8 +4822,8 @@
     "icon": {
       "name": "TheOathkeeperDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 189,
-      "y": 52,
+      "x": 260,
+      "y": 53,
       "width": 29,
       "height": 37,
       "outline": [
@@ -4889,8 +4889,8 @@
     "icon": {
       "name": "WarhammerDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 144,
-      "y": 12,
+      "x": 236,
+      "y": 13,
       "width": 25,
       "height": 38,
       "outline": [
@@ -4950,8 +4950,8 @@
     "icon": {
       "name": "BeakOfTheBeastDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 193,
-      "y": 10,
+      "x": 285,
+      "y": 11,
       "width": 32,
       "height": 40,
       "outline": [
@@ -5017,8 +5017,8 @@
     "icon": {
       "name": "PoleaxeOfPainDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 388,
-      "y": 1,
+      "x": 480,
+      "y": 2,
       "width": 31,
       "height": 49,
       "outline": [
@@ -5078,8 +5078,8 @@
     "icon": {
       "name": "RodOfTheRootsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 296,
-      "y": 8,
+      "x": 388,
+      "y": 9,
       "width": 32,
       "height": 42,
       "outline": [
@@ -5151,8 +5151,8 @@
     "icon": {
       "name": "TheEmancipatorDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 434,
-      "y": 90,
+      "x": 0,
+      "y": 55,
       "width": 40,
       "height": 35,
       "outline": [
@@ -5212,8 +5212,8 @@
     "icon": {
       "name": "TheStingerDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 219,
-      "y": 52,
+      "x": 290,
+      "y": 53,
       "width": 36,
       "height": 37,
       "outline": [
@@ -5279,8 +5279,8 @@
     "icon": {
       "name": "BootsOfTheHeavensDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 187,
-      "y": 226,
+      "x": 244,
+      "y": 227,
       "width": 36,
       "height": 30,
       "outline": [
@@ -5346,8 +5346,8 @@
     "icon": {
       "name": "NimbleBootsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 416,
-      "y": 316,
+      "x": 470,
+      "y": 317,
       "width": 24,
       "height": 26,
       "outline": [
@@ -5407,8 +5407,8 @@
     "icon": {
       "name": "ShoesOfTheWandererDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 431,
-      "y": 257,
+      "x": 0,
+      "y": 228,
       "width": 27,
       "height": 29,
       "outline": [
@@ -5474,8 +5474,8 @@
     "icon": {
       "name": "ArchersHelmetDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 0,
-      "y": 317,
+      "x": 54,
+      "y": 318,
       "width": 31,
       "height": 25,
       "outline": [
@@ -5535,8 +5535,8 @@
     "icon": {
       "name": "CapeOfLeavesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 353,
-      "y": 51,
+      "x": 424,
+      "y": 52,
       "width": 30,
       "height": 38,
       "outline": [
@@ -5596,8 +5596,8 @@
     "icon": {
       "name": "CelestialHelmetDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 166,
-      "y": 161,
+      "x": 222,
+      "y": 162,
       "width": 27,
       "height": 32,
       "outline": [
@@ -5663,8 +5663,8 @@
     "icon": {
       "name": "CloakOfTheAncientsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 63,
-      "y": 194,
+      "x": 122,
+      "y": 195,
       "width": 27,
       "height": 31,
       "outline": [
@@ -5736,7 +5736,7 @@
     "icon": {
       "name": "GoldenLaurelWreathDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 405,
+      "x": 462,
       "y": 344,
       "width": 30,
       "height": 24,
@@ -5803,8 +5803,8 @@
     "icon": {
       "name": "HatOfTheMagusDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 158,
-      "y": 288,
+      "x": 226,
+      "y": 289,
       "width": 30,
       "height": 27,
       "outline": [
@@ -5864,8 +5864,8 @@
     "icon": {
       "name": "HelmetOfTheArenaDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 260,
-      "y": 161,
+      "x": 316,
+      "y": 162,
       "width": 26,
       "height": 32,
       "outline": [
@@ -5937,8 +5937,8 @@
     "icon": {
       "name": "OrnateBreastplateDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 269,
-      "y": 127,
+      "x": 325,
+      "y": 128,
       "width": 25,
       "height": 33,
       "outline": [
@@ -5998,8 +5998,8 @@
     "icon": {
       "name": "TunicOfTheForestCourtDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 90,
-      "y": 128,
+      "x": 146,
+      "y": 129,
       "width": 26,
       "height": 32,
       "outline": [
@@ -6071,8 +6071,8 @@
     "icon": {
       "name": "TurbanHelmetDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 461,
-      "y": 226,
+      "x": 30,
+      "y": 196,
       "width": 28,
       "height": 30,
       "outline": [
@@ -6132,8 +6132,8 @@
     "icon": {
       "name": "WornBrigandineDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 203,
-      "y": 91,
+      "x": 258,
+      "y": 92,
       "width": 27,
       "height": 34,
       "outline": [
@@ -6193,8 +6193,8 @@
     "icon": {
       "name": "AncientAmberSpyglassDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 32,
-      "y": 288,
+      "x": 100,
+      "y": 289,
       "width": 32,
       "height": 27,
       "outline": [
@@ -6260,8 +6260,8 @@
     "icon": {
       "name": "ArcaneTomeDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 457,
-      "y": 343,
+      "x": 21,
+      "y": 318,
       "width": 32,
       "height": 25,
       "outline": [
@@ -6321,8 +6321,8 @@
     "icon": {
       "name": "BannerOfUnyieldingHatredDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 95,
-      "y": 52,
+      "x": 166,
+      "y": 53,
       "width": 31,
       "height": 37,
       "outline": [
@@ -6394,8 +6394,8 @@
     "icon": {
       "name": "BaryanGlassesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 241,
-      "y": 316,
+      "x": 295,
+      "y": 317,
       "width": 29,
       "height": 26,
       "outline": [
@@ -6455,8 +6455,8 @@
     "icon": {
       "name": "BraidOfTheHornedOnesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 127,
-      "y": 52,
+      "x": 198,
+      "y": 53,
       "width": 26,
       "height": 37,
       "outline": [
@@ -6528,8 +6528,8 @@
     "icon": {
       "name": "DrumOfTheMarchesDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 303,
-      "y": 316,
+      "x": 357,
+      "y": 317,
       "width": 27,
       "height": 26,
       "outline": [
@@ -6589,8 +6589,8 @@
     "icon": {
       "name": "EndlessSamovarDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 479,
-      "y": 126,
+      "x": 30,
+      "y": 92,
       "width": 24,
       "height": 34,
       "outline": [
@@ -6656,8 +6656,8 @@
     "icon": {
       "name": "MechanicalBirdDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 295,
-      "y": 194,
+      "x": 354,
+      "y": 195,
       "width": 24,
       "height": 31,
       "outline": [
@@ -6717,8 +6717,8 @@
     "icon": {
       "name": "NeverendingChestOfGoldDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 321,
-      "y": 257,
+      "x": 393,
+      "y": 258,
       "width": 26,
       "height": 29,
       "outline": [
@@ -6767,8 +6767,8 @@
     "icon": {
       "name": "SkullOfAeonsDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 460,
-      "y": 161,
+      "x": 28,
+      "y": 129,
       "width": 27,
       "height": 32,
       "outline": [
@@ -6834,8 +6834,8 @@
     "icon": {
       "name": "LuteOfPinecoastDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 0,
-      "y": 12,
+      "x": 92,
+      "y": 13,
       "width": 29,
       "height": 38,
       "outline": [
@@ -6901,8 +6901,8 @@
     "icon": {
       "name": "VialOfTheHeartDefault1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 436,
-      "y": 344,
+      "x": 0,
+      "y": 319,
       "width": 20,
       "height": 24,
       "outline": [
@@ -6962,7 +6962,7 @@
     "icon": {
       "name": "TownPortalScrollFlattened1",
       "spriteSheet": "ArtifactAtlas.webp",
-      "x": 315,
+      "x": 372,
       "y": 345,
       "width": 30,
       "height": 23,

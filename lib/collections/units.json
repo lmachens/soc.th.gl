@@ -298,101 +298,101 @@
     "vanilla": {
       "languageKey": "CutThroat",
       "sprite": {
-        "name": "NeutralCutThroatDefault13Hit1",
+        "name": "NeutralCutThroatDefault1Idle1",
         "spriteSheet": "NeutralCutThroatAtlas.webp",
-        "x": 41,
-        "y": 87,
-        "width": 60,
-        "height": 69,
+        "x": 351,
+        "y": 31,
+        "width": 37,
+        "height": 63,
         "outline": [
           [
             {
-              "x": 3,
-              "y": 26.5
+              "x": -4.5,
+              "y": 31.5
             },
             {
-              "x": 5,
-              "y": 33.5
+              "x": 2.5,
+              "y": 31.5
             },
             {
-              "x": 12,
-              "y": 34.5
+              "x": 6.5,
+              "y": 22.5
             },
             {
-              "x": 30,
-              "y": 3.5
+              "x": 12.5,
+              "y": 19.5
             },
             {
-              "x": 28,
-              "y": -3.5
+              "x": 18.5,
+              "y": 6.5
             },
             {
-              "x": 21,
-              "y": -13.5
+              "x": 14.5,
+              "y": 2.5
             },
             {
-              "x": 19,
-              "y": -11.5
+              "x": 8.5,
+              "y": 5.5
             },
             {
-              "x": 21,
-              "y": -1.5
+              "x": 16.5,
+              "y": -20.5
             },
             {
-              "x": 17,
-              "y": 8.5
-            },
-            {
-              "x": 13,
-              "y": 9.5
-            },
-            {
-              "x": 10,
-              "y": -0.5
-            },
-            {
-              "x": 10,
-              "y": -33.5
-            },
-            {
-              "x": 2,
-              "y": -34.5
-            },
-            {
-              "x": 4,
-              "y": -25.5
-            },
-            {
-              "x": -2,
-              "y": -5.5
-            },
-            {
-              "x": -11,
-              "y": -31.5
-            },
-            {
-              "x": -18,
+              "x": 16.5,
               "y": -30.5
             },
             {
-              "x": -23,
-              "y": -25.5
+              "x": 10.5,
+              "y": -31.5
             },
             {
-              "x": -15,
-              "y": -24.5
+              "x": 4.5,
+              "y": -13.5
             },
             {
-              "x": -15,
+              "x": -2.5,
+              "y": -8.5
+            },
+            {
+              "x": -4.5,
               "y": -12.5
             },
             {
-              "x": -9,
-              "y": 6.5
+              "x": -4.5,
+              "y": -26.5
             },
             {
-              "x": -30,
-              "y": 6.5
+              "x": -13.5,
+              "y": -30.5
+            },
+            {
+              "x": -15.5,
+              "y": -25.5
+            },
+            {
+              "x": -12.5,
+              "y": -22.5
+            },
+            {
+              "x": -18.5,
+              "y": -10.5
+            },
+            {
+              "x": -8.5,
+              "y": 0.5
+            },
+            {
+              "x": -9.5,
+              "y": 5.5
+            },
+            {
+              "x": -18.5,
+              "y": 5.5
+            },
+            {
+              "x": -18.5,
+              "y": 10.5
             }
           ]
         ]
@@ -401,7 +401,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 380
+            "amount": 400
           }
         ]
       },
@@ -480,7 +480,7 @@
           ],
           "resourcesIncome": [],
           "duration": {
-            "type": "BattleStackRound",
+            "type": "Permanent",
             "duration": 0
           }
         }
@@ -493,6 +493,114 @@
     "faction": "Neutral",
     "vanilla": {
       "languageKey": "DireWolf",
+      "sprite": {
+        "name": "NeutralDireWolfDefault1Idle1",
+        "spriteSheet": "NeutralDireWolfAtlas.webp",
+        "x": 226,
+        "y": 81,
+        "width": 71,
+        "height": 47,
+        "outline": [
+          [
+            {
+              "x": -23.5,
+              "y": 20.5
+            },
+            {
+              "x": -13.5,
+              "y": 23.5
+            },
+            {
+              "x": 0.5,
+              "y": 18.5
+            },
+            {
+              "x": 11.5,
+              "y": 9.5
+            },
+            {
+              "x": 18.5,
+              "y": 7.5
+            },
+            {
+              "x": 35.5,
+              "y": 18.5
+            },
+            {
+              "x": 35.5,
+              "y": 11.5
+            },
+            {
+              "x": 31.5,
+              "y": -4.5
+            },
+            {
+              "x": 24.5,
+              "y": -4.5
+            },
+            {
+              "x": 24.5,
+              "y": -21.5
+            },
+            {
+              "x": 16.5,
+              "y": -21.5
+            },
+            {
+              "x": 15.5,
+              "y": -13.5
+            },
+            {
+              "x": 7.5,
+              "y": -12.5
+            },
+            {
+              "x": 3.5,
+              "y": -18.5
+            },
+            {
+              "x": -3.5,
+              "y": -19.5
+            },
+            {
+              "x": -4.5,
+              "y": -23.5
+            },
+            {
+              "x": -11.5,
+              "y": -23.5
+            },
+            {
+              "x": -7.5,
+              "y": -11.5
+            },
+            {
+              "x": -11.5,
+              "y": -9.5
+            },
+            {
+              "x": -18.5,
+              "y": -21.5
+            },
+            {
+              "x": -22.5,
+              "y": -12.5
+            },
+            {
+              "x": -27.5,
+              "y": -12.5
+            },
+            {
+              "x": -35.5,
+              "y": -2.5
+            },
+            {
+              "x": -32.5,
+              "y": 11.5
+            }
+          ]
+        ]
+      },
       "purchaseCost": {
         "costEntries": [
           {
@@ -562,6 +670,552 @@
           }
         }
       ]
+    },
+    "upgraded": null,
+    "superUpgraded": null
+  },
+  {
+    "faction": "Neutral",
+    "vanilla": {
+      "languageKey": "BanditLeader",
+      "sprite": {
+        "name": "NeutralBanditLeaderDefault1Idle1",
+        "spriteSheet": "NeutralBanditLeaderAtlas.webp",
+        "x": 466,
+        "y": 38,
+        "width": 46,
+        "height": 75,
+        "outline": [
+          [
+            {
+              "x": -23,
+              "y": 37.5
+            },
+            {
+              "x": -8,
+              "y": 37.5
+            },
+            {
+              "x": -8,
+              "y": 31.5
+            },
+            {
+              "x": -14,
+              "y": 23.5
+            },
+            {
+              "x": -10,
+              "y": 10.5
+            },
+            {
+              "x": -5,
+              "y": 8.5
+            },
+            {
+              "x": -5,
+              "y": 20.5
+            },
+            {
+              "x": 2,
+              "y": 30.5
+            },
+            {
+              "x": 9,
+              "y": 29.5
+            },
+            {
+              "x": 20,
+              "y": 21.5
+            },
+            {
+              "x": 23,
+              "y": -7.5
+            },
+            {
+              "x": 23,
+              "y": -30.5
+            },
+            {
+              "x": 18,
+              "y": -20.5
+            },
+            {
+              "x": 17,
+              "y": -33.5
+            },
+            {
+              "x": 14,
+              "y": -37.5
+            },
+            {
+              "x": 11,
+              "y": -34.5
+            },
+            {
+              "x": 11,
+              "y": -26.5
+            },
+            {
+              "x": 6,
+              "y": -20.5
+            },
+            {
+              "x": 3,
+              "y": -30.5
+            },
+            {
+              "x": -7,
+              "y": -33.5
+            },
+            {
+              "x": -13,
+              "y": 4.5
+            },
+            {
+              "x": -14,
+              "y": 5.5
+            },
+            {
+              "x": -16,
+              "y": 16.5
+            },
+            {
+              "x": -23,
+              "y": 16.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 6,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 10,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "defense": 10,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 5,
+          "max": 7
+        },
+        "movement": 4,
+        "initiative": 29,
+        "health": 20,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          "Human"
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Inspire",
+        "icon": {
+          "name": "AbilityIconInspire",
+          "spriteSheet": "Icons.webp",
+          "x": 633,
+          "y": 258,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 802,
+            "type": "TroopAbilityInspire",
+            "customEffect": "Aura",
+            "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 803,
+                "type": "TroopAbilityInspired",
+                "customEffect": "None",
+                "customEffectValue": 0,
+                "secondaryCustomEffectValue": 0,
+                "auraSettings": {
+                  "recipients": "Friends",
+                  "hexRadius": 1,
+                  "bacteriaToAdd": null,
+                  "isStackable": 1,
+                  "isPassable": 1
+                },
+                "modifierData": [
+                  {
+                    "type": 5,
+                    "modifier": "TroopMeleeOffense",
+                    "amountToAdd": 20,
+                    "applicationType": 0
+                  },
+                  {
+                    "type": 8,
+                    "modifier": "TroopRangedOffense",
+                    "amountToAdd": 20,
+                    "applicationType": 0
+                  },
+                  {
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 1,
+                    "applicationType": 0
+                  }
+                ],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": "EntireBattle",
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "type": "TraitInspired",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                },
+                {
+                  "type": 8,
+                  "modifier": "TroopRangedOffense",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                },
+                {
+                  "type": 3,
+                  "modifier": "TroopInitiative",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": null,
+    "superUpgraded": null
+  },
+  {
+    "faction": "Neutral",
+    "vanilla": {
+      "languageKey": "BanditArcher",
+      "sprite": {
+        "name": "NeutralBanditArcherDefault1Idle1",
+        "spriteSheet": "NeutralBanditArcherAtlas.webp",
+        "x": 408,
+        "y": 90,
+        "width": 49,
+        "height": 67,
+        "outline": [
+          [
+            {
+              "x": 11.5,
+              "y": 15.5
+            },
+            {
+              "x": 11.5,
+              "y": 5.5
+            },
+            {
+              "x": 22.5,
+              "y": 5.5
+            },
+            {
+              "x": 24.5,
+              "y": 0.5
+            },
+            {
+              "x": 13.5,
+              "y": -12.5
+            },
+            {
+              "x": 17.5,
+              "y": -33.5
+            },
+            {
+              "x": 7.5,
+              "y": -33.5
+            },
+            {
+              "x": 9.5,
+              "y": -26.5
+            },
+            {
+              "x": 4.5,
+              "y": -19.5
+            },
+            {
+              "x": -5.5,
+              "y": -17.5
+            },
+            {
+              "x": -6.5,
+              "y": -28.5
+            },
+            {
+              "x": -19.5,
+              "y": -31.5
+            },
+            {
+              "x": -13.5,
+              "y": -22.5
+            },
+            {
+              "x": -17.5,
+              "y": -10.5
+            },
+            {
+              "x": -16.5,
+              "y": -3.5
+            },
+            {
+              "x": -24.5,
+              "y": 4.5
+            },
+            {
+              "x": -15.5,
+              "y": 6.5
+            },
+            {
+              "x": -13.5,
+              "y": 25.5
+            },
+            {
+              "x": -6.5,
+              "y": 33.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 260
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 13,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 2,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 19,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 3,
+          "resistancePercent": 0
+        },
+        "defense": 10,
+        "attacks": 1,
+        "retaliations": 1,
+        "damage": {
+          "min": 3,
+          "max": 4
+        },
+        "movement": 3,
+        "initiative": 14,
+        "health": 14,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          "Human"
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Aim",
+        "icon": {
+          "name": "AbilityIconAim",
+          "spriteSheet": "Icons.webp",
+          "x": 697,
+          "y": 281,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 825,
+            "type": "TroopAbilityAim",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 18,
+                "modifier": "TroopRangedRange",
+                "amountToAdd": 3,
+                "applicationType": 0
+              },
+              {
+                "type": 1,
+                "modifier": "TroopDamage",
+                "amountToAdd": 3,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRound",
+              "duration": 2
+            }
+          }
+        ]
+      },
+      "bacterias": []
     },
     "upgraded": null,
     "superUpgraded": null
@@ -883,8 +1537,8 @@
         "icon": {
           "name": "AbilityIconPalisades",
           "spriteSheet": "Icons.webp",
-          "x": 665,
-          "y": 155,
+          "x": 633,
+          "y": 205,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1271,8 +1925,8 @@
         "icon": {
           "name": "AbilityIconOverwatch",
           "spriteSheet": "Icons.webp",
-          "x": 612,
-          "y": 102,
+          "x": 571,
+          "y": 180,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1478,8 +2132,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 656,
-          "y": 49,
+          "x": 624,
+          "y": 152,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1711,8 +2365,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 725,
-          "y": 208,
+          "x": 580,
+          "y": 233,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2114,8 +2768,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 718,
-          "y": 155,
+          "x": 518,
+          "y": 144,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2811,8 +3465,8 @@
         "icon": {
           "name": "AbilityIconInspire",
           "spriteSheet": "Icons.webp",
-          "x": 612,
-          "y": 155,
+          "x": 633,
+          "y": 258,
           "width": 52,
           "height": 52,
           "outline": [
@@ -3393,8 +4047,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 718,
-          "y": 155,
+          "x": 518,
+          "y": 144,
           "width": 52,
           "height": 52,
           "outline": [
@@ -3935,8 +4589,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 771,
-          "y": 155,
+          "x": 686,
+          "y": 175,
           "width": 52,
           "height": 52,
           "outline": [
@@ -4567,8 +5221,8 @@
         "icon": {
           "name": "AbilityIconFaeyFire",
           "spriteSheet": "Icons.webp",
-          "x": 361,
-          "y": 764,
+          "x": 806,
+          "y": 337,
           "width": 52,
           "height": 53,
           "outline": [
@@ -5598,8 +6252,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 718,
-          "y": 155,
+          "x": 518,
+          "y": 144,
           "width": 52,
           "height": 52,
           "outline": [
@@ -5819,8 +6473,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 656,
-          "y": 49,
+          "x": 624,
+          "y": 152,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6008,8 +6662,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 725,
-          "y": 208,
+          "x": 580,
+          "y": 233,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6392,8 +7046,8 @@
         "icon": {
           "name": "AbilityIconAim",
           "spriteSheet": "Icons.webp",
-          "x": 471,
-          "y": 718,
+          "x": 697,
+          "y": 281,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6828,8 +7482,8 @@
         "icon": {
           "name": "AbilityIconChargeEssence",
           "spriteSheet": "Icons.webp",
-          "x": 931,
-          "y": 339,
+          "x": 195,
+          "y": 140,
           "width": 56,
           "height": 57,
           "outline": [
@@ -7573,8 +8227,8 @@
         "icon": {
           "name": "AbilityIconSacrificeBones",
           "spriteSheet": "Icons.webp",
-          "x": 718,
-          "y": 102,
+          "x": 571,
+          "y": 127,
           "width": 52,
           "height": 52,
           "outline": [
@@ -8052,8 +8706,8 @@
         "icon": {
           "name": "AbilityIconInspire",
           "spriteSheet": "Icons.webp",
-          "x": 612,
-          "y": 155,
+          "x": 633,
+          "y": 258,
           "width": 52,
           "height": 52,
           "outline": [
@@ -9175,8 +9829,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 718,
-          "y": 155,
+          "x": 518,
+          "y": 144,
           "width": 52,
           "height": 52,
           "outline": [
@@ -9827,8 +10481,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 656,
-          "y": 49,
+          "x": 624,
+          "y": 152,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10026,8 +10680,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 725,
-          "y": 208,
+          "x": 580,
+          "y": 233,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10503,8 +11157,8 @@
         "icon": {
           "name": "AbilityIconSpearwall",
           "spriteSheet": "Icons.webp",
-          "x": 672,
-          "y": 261,
+          "x": 518,
+          "y": 197,
           "width": 52,
           "height": 53,
           "outline": [
@@ -10911,8 +11565,8 @@
         "icon": {
           "name": "AbilityIconAim",
           "spriteSheet": "Icons.webp",
-          "x": 471,
-          "y": 718,
+          "x": 697,
+          "y": 281,
           "width": 52,
           "height": 52,
           "outline": [
@@ -11504,8 +12158,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 771,
-          "y": 155,
+          "x": 686,
+          "y": 175,
           "width": 52,
           "height": 52,
           "outline": [
@@ -12296,8 +12950,8 @@
         "icon": {
           "name": "AbilityIconPalisades",
           "spriteSheet": "Icons.webp",
-          "x": 665,
-          "y": 155,
+          "x": 633,
+          "y": 205,
           "width": 52,
           "height": 52,
           "outline": [
@@ -12488,8 +13142,8 @@
         "icon": {
           "name": "AbilityIconPlaceMine",
           "spriteSheet": "Icons.webp",
-          "x": 665,
-          "y": 102,
+          "x": 686,
+          "y": 228,
           "width": 52,
           "height": 52,
           "outline": [
@@ -12872,8 +13526,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 771,
-          "y": 155,
+          "x": 686,
+          "y": 175,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13400,8 +14054,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 771,
-          "y": 155,
+          "x": 686,
+          "y": 175,
           "width": 52,
           "height": 52,
           "outline": [
@@ -14045,8 +14699,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 718,
-          "y": 155,
+          "x": 518,
+          "y": 144,
           "width": 52,
           "height": 52,
           "outline": [
@@ -15121,8 +15775,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 718,
-          "y": 155,
+          "x": 518,
+          "y": 144,
           "width": 52,
           "height": 52,
           "outline": [
@@ -15795,8 +16449,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 771,
-          "y": 155,
+          "x": 686,
+          "y": 175,
           "width": 52,
           "height": 52,
           "outline": [
@@ -16308,8 +16962,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 771,
-          "y": 155,
+          "x": 686,
+          "y": 175,
           "width": 52,
           "height": 52,
           "outline": [
@@ -16682,8 +17336,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 656,
-          "y": 49,
+          "x": 624,
+          "y": 152,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17279,8 +17933,8 @@
         "icon": {
           "name": "AbilityIconChargeEssence",
           "spriteSheet": "Icons.webp",
-          "x": 931,
-          "y": 339,
+          "x": 195,
+          "y": 140,
           "width": 56,
           "height": 57,
           "outline": [
@@ -17620,8 +18274,8 @@
         "icon": {
           "name": "AbilityIconOverwatch",
           "spriteSheet": "Icons.webp",
-          "x": 612,
-          "y": 102,
+          "x": 571,
+          "y": 180,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17846,8 +18500,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 771,
-          "y": 155,
+          "x": 686,
+          "y": 175,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18220,8 +18874,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 771,
-          "y": 155,
+          "x": 686,
+          "y": 175,
           "width": 52,
           "height": 52,
           "outline": [
