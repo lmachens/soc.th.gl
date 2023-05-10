@@ -46,7 +46,9 @@ export const getSiteTerm = (term: string, locale: string) => {
     siteTerms[lowerCaseTerm]?.[locale] || siteTerms[lowerCaseTerm]?.en;
   if (!value) {
     if (process.env.NODE_ENV === "development") {
-      console.warn(`Can not find ${term} - ${locale}`);
+      console.warn(
+        `[getSiteTerm] Can not find ${term} (${lowerCaseTerm}) - ${locale}`
+      );
     }
     value = "";
   }
@@ -59,7 +61,10 @@ export const getTerm = (
   placeholder?: number | string | string[] | { [key: string]: any },
   showPercentage?: boolean
 ) => {
-  const lowerCaseTerm = term.toLowerCase();
+  let lowerCaseTerm = term.toLowerCase();
+  if (term.endsWith("A") || term.endsWith("B")) {
+    lowerCaseTerm = lowerCaseTerm.slice(0, -1);
+  }
   let result: string | undefined;
   if (placeholder && typeof placeholder === "number") {
     const pluralForm = getPluralForm(locale, placeholder);
@@ -70,7 +75,11 @@ export const getTerm = (
   }
 
   if (!result) {
-    console.warn(`Can not find ${term} - ${locale}`);
+    if (process.env.NODE_ENV === "development") {
+      console.warn(
+        `[getTerm] Can not find ${term} (${lowerCaseTerm}) - ${locale}`
+      );
+    }
     result = "";
   }
 

@@ -1,16 +1,16 @@
 import { GetStaticPaths, NextPage } from "next";
 
 import { Group, Stack, Table, Text, Title } from "@mantine/core";
+import Lore from "../../../components/Lore/Lore";
+import PageHead from "../../../components/PageHead/PageHead";
+import { useTerms } from "../../../components/Terms/Terms";
 import {
+  RandomEventDTO,
   getRandomEvent,
   getRandomEvents,
-  RandomEventDTO,
 } from "../../../lib/randomEvents";
-import { useTerms } from "../../../components/Terms/Terms";
-import PageHead from "../../../components/PageHead/PageHead";
-import Lore from "../../../components/Lore/Lore";
 import { withStaticBase } from "../../../lib/staticProps";
-import { getTerm, TermsDTO } from "../../../lib/terms";
+import { TermsDTO, getTerm } from "../../../lib/terms";
 
 const RandomEvent: NextPage<{ randomEvent: RandomEventDTO }> = ({
   randomEvent,
@@ -62,7 +62,31 @@ const RandomEvent: NextPage<{ randomEvent: RandomEventDTO }> = ({
             </tr>
             <tr>
               <td>Rewards</td>
-              <td>{randomEvent.rewards.join(", ")}</td>
+              <td>
+                {randomEvent.rewards.map((reward, index) => {
+                  if (typeof reward === "string") {
+                    return <Text key={index}>{reward}</Text>;
+                  }
+                  return (
+                    <div key={index}>
+                      <Text>{reward.name}</Text>
+                      {reward.modifierData.map((modifier) => (
+                        <Text
+                          key={modifier.type}
+                          dangerouslySetInnerHTML={{
+                            __html: modifier.description,
+                          }}
+                        />
+                      ))}
+                      {reward.resourcesIncome.map((resourceIncome) => (
+                        <Text key={resourceIncome.type}>
+                          {`${terms.production} +${resourceIncome.amount} ${resourceIncome.name}`}
+                        </Text>
+                      ))}
+                    </div>
+                  );
+                })}
+              </td>
             </tr>
             <tr>
               <td>Penalties</td>
