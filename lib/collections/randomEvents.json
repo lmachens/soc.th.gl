@@ -25428,13 +25428,27 @@
         },
         "value": 1,
         "factionIndex": 4,
-        "unitIndex": 1,
+        "unitIndex": 7,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
           "nameKey": "Arleon/Farm"
         },
         "requirementType": "RecipientOwnsGreaterThanOrEqualTroop"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 1,
+        "factionIndex": 4,
+        "unitIndex": 7,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Rana/FetishPiles"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
       },
       {
         "eventReference": {
@@ -25934,7 +25948,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 18,
+        "value": 19,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26027,7 +26041,7 @@
     "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
     "eventType": "Neutral",
     "name": "SeasonOfDreaming",
-    "chanceOfHappening": 0.2,
+    "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -26135,7 +26149,7 @@
     "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
     "eventType": "Good",
     "name": "SeasonOfHope",
-    "chanceOfHappening": 0.2,
+    "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -26161,7 +26175,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 32,
+        "value": 31,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26175,7 +26189,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 38,
+        "value": 39,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26251,7 +26265,7 @@
     "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
     "eventType": "Good",
     "name": "SeasonOfListening",
-    "chanceOfHappening": 0.2,
+    "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -26277,7 +26291,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 42,
+        "value": 41,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26291,7 +26305,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 48,
+        "value": 49,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26361,7 +26375,7 @@
     "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
     "eventType": "Good",
     "name": "SeasonOfPreparation",
-    "chanceOfHappening": 0.2,
+    "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -26387,7 +26401,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 52,
+        "value": 51,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26401,7 +26415,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 58,
+        "value": 59,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26465,7 +26479,7 @@
     "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
     "eventType": "Neutral",
     "name": "SeasonOfReflection",
-    "chanceOfHappening": 0.2,
+    "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -26491,7 +26505,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 62,
+        "value": 61,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26505,7 +26519,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 68,
+        "value": 69,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26581,7 +26595,7 @@
     "eventChainNameKey": "RandomEvents/Rana/RanaSeasons",
     "eventType": "Bad",
     "name": "SeasonOfWatchfulness",
-    "chanceOfHappening": 0.2,
+    "chanceOfHappening": 0.25,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -26607,7 +26621,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 22,
+        "value": 21,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -26621,7 +26635,7 @@
         "eventReference": {
           "uniqueName": "Rana/RanaSeasons/SeasonOfAwakening"
         },
-        "value": 28,
+        "value": 29,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",

@@ -12207,8 +12207,8 @@
         "size": 5
       },
       {
-        "languageKey": "Rats",
-        "size": 20
+        "languageKey": "Embalmer",
+        "size": 5
       }
     ],
     "specializations": [
@@ -13271,7 +13271,7 @@
     },
     "startingSkills": [
       {
-        "type": "Guard",
+        "type": "March",
         "level": 1
       },
       {
@@ -15908,7 +15908,7 @@
     },
     "startingSkills": [
       {
-        "type": "March",
+        "type": "Guard",
         "level": 1
       },
       {
