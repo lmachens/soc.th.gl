@@ -1,5 +1,4 @@
 import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
-import sheets from "./collections/sheets.json";
 import unitsCollection from "./collections/units.json";
 import wieldersCollection from "./collections/wielders.json";
 import { SkillSimpleDTO, getSkills } from "./skills";
@@ -92,10 +91,6 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
     ),
   };
 
-  const sheet = sheets.find((sheet) => sheet.wielderType === wielderSrc.type);
-  if (sheet) {
-    wielder.sheetSrc = sheet.src;
-  }
   return wielder;
 };
 
@@ -158,5 +153,4 @@ export type WielderDTO = {
     sprite?: SpriteDTO;
   }[];
   specializations: BacteriaDTO[];
-  sheetSrc?: string;
 };

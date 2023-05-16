@@ -2,7 +2,6 @@ import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
 import { Box, Group, Stack, Text, Title } from "@mantine/core";
-import Image from "next/image";
 import { Fragment } from "react";
 import Lore from "../../components/Lore/Lore";
 import PageHead from "../../components/PageHead/PageHead";
@@ -91,19 +90,6 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
             ))}
           </Fragment>
         ))}
-
-        {wielder.sheetSrc && (
-          <>
-            <Title order={3}>{terms.visualGuide} (might be outdated)</Title>
-            <Image
-              src={wielder.sheetSrc}
-              width={640}
-              height={960}
-              alt="Wielder sheet by MindGames"
-              title="Wielder sheet by MindGames"
-            />
-          </>
-        )}
 
         <Title order={3}>{terms.startingSkills}</Title>
         <Group spacing="lg">
