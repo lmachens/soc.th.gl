@@ -835,7 +835,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [],
         "mapEntityToSummon": null,
         "bacterias": [
@@ -869,7 +869,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [
           {
             "type": "Order",
@@ -912,7 +912,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [
           {
             "type": "Order",
@@ -1163,7 +1163,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [],
         "mapEntityToSummon": null,
         "bacterias": [
@@ -1197,7 +1197,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [
           {
             "type": "Arcana",
@@ -1236,7 +1236,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [
           {
             "type": "Arcana",
@@ -5273,7 +5273,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [],
         "mapEntityToSummon": null,
         "bacterias": [
@@ -5307,7 +5307,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [
           {
             "type": "Arcana",
@@ -5350,7 +5350,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "Enemy",
+        "target": "Troop",
         "requiredCommanderSkills": [
           {
             "type": "Arcana",
@@ -5721,6 +5721,12 @@
                 "modifier": "TroopDefense",
                 "amountToAdd": -10,
                 "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": -10,
+                "applicationType": 0
               }
             ],
             "resourcesIncome": [],
@@ -5767,6 +5773,12 @@
                 "modifier": "TroopDefense",
                 "amountToAdd": -20,
                 "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": -20,
+                "applicationType": 0
               }
             ],
             "resourcesIncome": [],
@@ -5811,6 +5823,12 @@
               {
                 "type": 2,
                 "modifier": "TroopDefense",
+                "amountToAdd": -30,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
                 "amountToAdd": -30,
                 "applicationType": 0
               }

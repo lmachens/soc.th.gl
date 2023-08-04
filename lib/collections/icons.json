@@ -1,56 +1,28 @@
 [
   {
-    "name": "IconBug",
+    "name": "Spinner",
     "spriteSheet": "Icons.webp",
-    "x": 599,
-    "y": 339,
-    "width": 55,
-    "height": 55,
+    "x": 1,
+    "y": 69,
+    "width": 120,
+    "height": 121,
     "outline": [
       [
         {
-          "x": -27.5,
-          "y": -27.5
+          "x": -60.000004,
+          "y": -60.500004
         },
         {
-          "x": -27.5,
-          "y": 27.5
+          "x": -60.000004,
+          "y": 60.5
         },
         {
-          "x": 27.5,
-          "y": 27.5
+          "x": 60.000004,
+          "y": 60.5
         },
         {
-          "x": 27.5,
-          "y": -27.5
-        }
-      ]
-    ]
-  },
-  {
-    "name": "SocialPlatformDiscord",
-    "spriteSheet": "Icons.webp",
-    "x": 542,
-    "y": 358,
-    "width": 56,
-    "height": 44,
-    "outline": [
-      [
-        {
-          "x": -28,
-          "y": -22
-        },
-        {
-          "x": -28,
-          "y": 22
-        },
-        {
-          "x": 28,
-          "y": 22
-        },
-        {
-          "x": 28,
-          "y": -22
+          "x": 60.000004,
+          "y": -60.500004
         }
       ]
     ]
@@ -863,6 +835,34 @@
         {
           "x": 20.5,
           "y": -20.5
+        }
+      ]
+    ]
+  },
+  {
+    "name": "IconBug",
+    "spriteSheet": "Icons.webp",
+    "x": 599,
+    "y": 339,
+    "width": 55,
+    "height": 55,
+    "outline": [
+      [
+        {
+          "x": -27.5,
+          "y": -27.5
+        },
+        {
+          "x": -27.5,
+          "y": 27.5
+        },
+        {
+          "x": 27.5,
+          "y": 27.5
+        },
+        {
+          "x": 27.5,
+          "y": -27.5
         }
       ]
     ]
@@ -2744,6 +2744,34 @@
     ]
   },
   {
+    "name": "SocialPlatformDiscord",
+    "spriteSheet": "Icons.webp",
+    "x": 542,
+    "y": 358,
+    "width": 56,
+    "height": 44,
+    "outline": [
+      [
+        {
+          "x": -28,
+          "y": -22
+        },
+        {
+          "x": -28,
+          "y": 22
+        },
+        {
+          "x": 28,
+          "y": 22
+        },
+        {
+          "x": 28,
+          "y": -22
+        }
+      ]
+    ]
+  },
+  {
     "name": "ResourceIconGlimmerXLarge",
     "spriteSheet": "Icons.webp",
     "x": 173,
@@ -4088,34 +4116,6 @@
     ]
   },
   {
-    "name": "IconCog",
-    "spriteSheet": "Icons.webp",
-    "x": 655,
-    "y": 352,
-    "width": 41,
-    "height": 42,
-    "outline": [
-      [
-        {
-          "x": -20.5,
-          "y": -21
-        },
-        {
-          "x": -20.5,
-          "y": 21
-        },
-        {
-          "x": 20.5,
-          "y": 21
-        },
-        {
-          "x": 20.5,
-          "y": -21
-        }
-      ]
-    ]
-  },
-  {
     "name": "PostBattleHourglass",
     "spriteSheet": "Icons.webp",
     "x": 762,
@@ -4480,34 +4480,6 @@
     ]
   },
   {
-    "name": "Spinner",
-    "spriteSheet": "Icons.webp",
-    "x": 1,
-    "y": 69,
-    "width": 120,
-    "height": 121,
-    "outline": [
-      [
-        {
-          "x": -60.000004,
-          "y": -60.500004
-        },
-        {
-          "x": -60.000004,
-          "y": 60.5
-        },
-        {
-          "x": 60.000004,
-          "y": 60.5
-        },
-        {
-          "x": 60.000004,
-          "y": -60.500004
-        }
-      ]
-    ]
-  },
-  {
     "name": "SiegeOccupyOverlayIcon",
     "spriteSheet": "Icons.webp",
     "x": 384,
@@ -4788,6 +4760,34 @@
     ]
   },
   {
+    "name": "IconFilter",
+    "spriteSheet": "Icons.webp",
+    "x": 819,
+    "y": 1,
+    "width": 40,
+    "height": 38,
+    "outline": [
+      [
+        {
+          "x": -20,
+          "y": -19
+        },
+        {
+          "x": -20,
+          "y": 19
+        },
+        {
+          "x": 20,
+          "y": 19
+        },
+        {
+          "x": 20,
+          "y": -19
+        }
+      ]
+    ]
+  },
+  {
     "name": "WinConditionBeacons",
     "spriteSheet": "Icons.webp",
     "x": 487,
@@ -4951,6 +4951,34 @@
         {
           "x": 28,
           "y": -30.000002
+        }
+      ]
+    ]
+  },
+  {
+    "name": "IconCog",
+    "spriteSheet": "Icons.webp",
+    "x": 655,
+    "y": 352,
+    "width": 41,
+    "height": 42,
+    "outline": [
+      [
+        {
+          "x": -20.5,
+          "y": -21
+        },
+        {
+          "x": -20.5,
+          "y": 21
+        },
+        {
+          "x": 20.5,
+          "y": 21
+        },
+        {
+          "x": 20.5,
+          "y": -21
         }
       ]
     ]

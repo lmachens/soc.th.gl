@@ -132,6 +132,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -141,11 +142,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 15,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 3,
           "max": 5
@@ -254,6 +257,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -263,11 +267,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 10,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 5,
           "max": 7
@@ -422,6 +428,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -431,11 +438,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 12,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 8,
           "max": 11
@@ -626,6 +635,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -635,11 +645,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 10,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 6,
           "max": 8
@@ -811,6 +823,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -820,11 +833,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 10,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 5,
           "max": 7
@@ -1116,6 +1131,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -1125,11 +1141,13 @@
             "max": 6
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 10,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 3,
           "max": 4
@@ -1333,6 +1351,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -1342,11 +1361,13 @@
             "max": 5
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 3,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 1,
           "max": 3
@@ -1499,6 +1520,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -1508,11 +1530,13 @@
             "max": 6
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 9,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 3
@@ -1716,6 +1740,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -1725,11 +1750,13 @@
             "max": 7
           },
           "deadlyRange": 4,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 4,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 3
@@ -1887,6 +1914,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -1896,11 +1924,13 @@
             "max": 8
           },
           "deadlyRange": 5,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 10,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 3,
           "max": 4
@@ -2093,6 +2123,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -2102,18 +2133,20 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 6,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 4
         },
         "movement": 3,
         "initiative": 28,
-        "health": 9,
+        "health": 10,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -2326,6 +2359,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -2335,14 +2369,16 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 9,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 3,
-          "max": 5
+          "max": 6
         },
         "movement": 3,
         "initiative": 33,
@@ -2555,6 +2591,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -2564,11 +2601,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 16,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 5
@@ -2709,7 +2748,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 320
+            "amount": 360
           }
         ]
       },
@@ -2730,6 +2769,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -2739,11 +2779,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 24,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 4,
           "max": 7
@@ -3101,6 +3143,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -3110,11 +3153,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 22,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 13,
           "max": 16
@@ -3427,6 +3472,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -3436,11 +3482,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 33,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 20,
           "max": 25
@@ -3787,6 +3835,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -3796,11 +3845,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 12,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 13,
           "max": 16
@@ -4009,6 +4060,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -4018,11 +4070,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 23,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 18,
           "max": 22
@@ -4112,6 +4166,16 @@
         {
           "bacteriaType": 59,
           "type": "TraitBerserker",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1177,
+          "type": "TraitEssenceFighter",
           "modifierData": [],
           "resourcesIncome": [],
           "duration": {
@@ -4312,6 +4376,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -4321,11 +4386,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 12,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 8,
           "max": 12
@@ -4551,6 +4618,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -4560,11 +4628,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 13,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 8,
           "max": 12
@@ -4585,36 +4655,57 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "Wait",
+        "type": "MagicImmunity",
         "icon": {
-          "name": "AbilityIconWait",
+          "name": "AbilityIconMagicImmunitye",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 175,
+          "x": 527,
+          "y": 304,
           "width": 52,
-          "height": 52,
+          "height": 53,
           "outline": [
             [
               {
                 "x": -26,
-                "y": -26
+                "y": -26.5
               },
               {
                 "x": -26,
-                "y": 26
+                "y": 26.500002
               },
               {
                 "x": 26,
-                "y": 26
+                "y": 26.500002
               },
               {
                 "x": 26,
-                "y": -26
+                "y": -26.5
               }
             ]
           ]
         },
-        "bacterias": []
+        "bacterias": [
+          {
+            "bacteriaType": 1174,
+            "type": "TroopAbilityMagicImmunity",
+            "customEffect": "MagicImmunityRestriction",
+            "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
       },
       "bacterias": [
         {
@@ -4638,6 +4729,76 @@
               "applicationType": 0
             }
           ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1175,
+          "type": "TraitDisruptEssence",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1176,
+              "type": "TraitEssenceDisrupted",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1
+              },
+              "modifierData": [
+                {
+                  "type": 23,
+                  "modifier": "TroopEssenceOrder",
+                  "amountToAdd": -100,
+                  "applicationType": 1
+                },
+                {
+                  "type": 24,
+                  "modifier": "TroopEssenceCreation",
+                  "amountToAdd": -100,
+                  "applicationType": 1
+                },
+                {
+                  "type": 25,
+                  "modifier": "TroopEssenceChaos",
+                  "amountToAdd": -100,
+                  "applicationType": 1
+                },
+                {
+                  "type": 26,
+                  "modifier": "TroopEssenceArcana",
+                  "amountToAdd": -100,
+                  "applicationType": 1
+                },
+                {
+                  "type": 27,
+                  "modifier": "TroopEssenceDestruction",
+                  "amountToAdd": -100,
+                  "applicationType": 1
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1
+          },
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -4832,7 +4993,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 1200
+            "amount": 1000
           },
           {
             "type": "Glimmerweave",
@@ -4857,6 +5018,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -4866,18 +5028,20 @@
             "max": 6
           },
           "deadlyRange": 4,
+          "lobbing": 1,
           "resistancePercent": 0
         },
         "defense": 20,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 14,
-          "max": 18
+          "min": 13,
+          "max": 16
         },
         "movement": 3,
         "initiative": 25,
-        "health": 85,
+        "health": 70,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -5183,6 +5347,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -5192,18 +5357,20 @@
             "max": 7
           },
           "deadlyRange": 5,
+          "lobbing": 1,
           "resistancePercent": 0
         },
         "defense": 29,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 25,
           "max": 30
         },
         "movement": 4,
         "initiative": 30,
-        "health": 120,
+        "health": 100,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -5445,12 +5612,12 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": "Gold",
-            "amount": 900
+            "type": "CelestialOre",
+            "amount": 5
           }
         ]
       },
-      "obsoleteGoldCost": 900,
+      "obsoleteGoldCost": 1750,
       "stats": {
         "tier": 0,
         "essenceStats": {
@@ -5467,6 +5634,7 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -5476,18 +5644,20 @@
             "max": 15
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 20,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 25,
-          "max": 35
+          "min": 40,
+          "max": 60
         },
         "movement": 0,
         "initiative": 50,
-        "health": 40,
+        "health": 50,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -5633,6 +5803,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -5642,11 +5813,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 3,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 1,
           "max": 2
@@ -5785,6 +5958,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -5794,11 +5968,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 5,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 3
@@ -5986,7 +6162,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 140
+            "amount": 150
           }
         ]
       },
@@ -6007,6 +6183,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -6016,18 +6193,20 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 8,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 3
         },
         "movement": 3,
         "initiative": 22,
-        "health": 14,
+        "health": 15,
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -6041,7 +6220,54 @@
         "restrictions": []
       },
       "troopAbility": null,
-      "bacterias": []
+      "bacterias": [
+        {
+          "bacteriaType": 66,
+          "type": "TraitGuard",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 67,
+              "type": "TraitGuarded",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1
+              },
+              "modifierData": [
+                {
+                  "type": 2,
+                  "modifier": "TroopDefense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
     },
     "upgraded": {
       "languageKey": "OathboundLegionaire",
@@ -6193,7 +6419,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 260
+            "amount": 270
           }
         ]
       },
@@ -6214,6 +6440,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -6223,11 +6450,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 15,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 4,
           "max": 6
@@ -6340,6 +6569,52 @@
             "type": "Permanent",
             "duration": 0
           }
+        },
+        {
+          "bacteriaType": 66,
+          "type": "TraitGuard",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 67,
+              "type": "TraitGuarded",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "secondaryCustomEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1
+              },
+              "modifierData": [
+                {
+                  "type": 2,
+                  "modifier": "TroopDefense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
         }
       ]
     },
@@ -6434,6 +6709,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -6443,18 +6719,20 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 6,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 4
         },
         "movement": 4,
         "initiative": 33,
-        "health": 11,
+        "health": 14,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -6514,21 +6792,15 @@
             },
             "modifierData": [
               {
-                "type": 5,
-                "modifier": "TroopMeleeOffense",
-                "amountToAdd": 5,
-                "applicationType": 0
-              },
-              {
-                "type": 8,
-                "modifier": "TroopRangedOffense",
-                "amountToAdd": 5,
+                "type": 35,
+                "modifier": "CommanderSpellDamagePower",
+                "amountToAdd": 10,
                 "applicationType": 0
               }
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleStackRoundWithTail",
+              "type": "BattleRound",
               "duration": 1
             }
           }
@@ -6623,6 +6895,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -6632,18 +6905,20 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 12,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 4,
           "max": 7
         },
         "movement": 4,
         "initiative": 39,
-        "health": 22,
+        "health": 25,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -6703,27 +6978,15 @@
             },
             "modifierData": [
               {
-                "type": 5,
-                "modifier": "TroopMeleeOffense",
-                "amountToAdd": 5,
-                "applicationType": 0
-              },
-              {
-                "type": 8,
-                "modifier": "TroopRangedOffense",
-                "amountToAdd": 5,
-                "applicationType": 0
-              },
-              {
-                "type": 2,
-                "modifier": "TroopDefense",
-                "amountToAdd": 5,
+                "type": 35,
+                "modifier": "CommanderSpellDamagePower",
+                "amountToAdd": 20,
                 "applicationType": 0
               }
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleStackRoundWithTail",
+              "type": "BattleRound",
               "duration": 1
             }
           }
@@ -6854,6 +7117,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -6863,18 +7127,20 @@
             "max": 5
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 5,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
-          "max": 4
+          "max": 3
         },
         "movement": 3,
         "initiative": 16,
-        "health": 12,
+        "health": 15,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -6892,6 +7158,16 @@
         {
           "bacteriaType": 866,
           "type": "TraitVenomous",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1170,
+          "type": "TraitMobile",
           "modifierData": [],
           "resourcesIncome": [],
           "duration": {
@@ -7008,6 +7284,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -7017,18 +7294,20 @@
             "max": 5
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 12,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 4,
-          "max": 8
+          "min": 3,
+          "max": 6
         },
         "movement": 4,
         "initiative": 18,
-        "health": 20,
+        "health": 25,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -7041,77 +7320,49 @@
         "blessed": 0,
         "restrictions": []
       },
-      "troopAbility": {
-        "type": "Aim",
-        "icon": {
-          "name": "AbilityIconAim",
-          "spriteSheet": "Icons.webp",
-          "x": 697,
-          "y": 281,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
-        "bacterias": [
-          {
-            "bacteriaType": 825,
-            "type": "TroopAbilityAim",
-            "customEffect": "None",
-            "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
-            "auraSettings": {
-              "recipients": "Friends",
-              "hexRadius": 1,
-              "bacteriaToAdd": null,
-              "isStackable": 1,
-              "isPassable": 1
-            },
-            "modifierData": [
-              {
-                "type": 18,
-                "modifier": "TroopRangedRange",
-                "amountToAdd": 3,
-                "applicationType": 0
-              },
-              {
-                "type": 1,
-                "modifier": "TroopDamage",
-                "amountToAdd": 3,
-                "applicationType": 0
-              }
-            ],
-            "resourcesIncome": [],
-            "duration": {
-              "type": "BattleStackRound",
-              "duration": 2
-            }
-          }
-        ]
-      },
+      "troopAbility": null,
       "bacterias": [
         {
           "bacteriaType": 866,
           "type": "TraitVenomous",
           "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1170,
+          "type": "TraitMobile",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 804,
+          "type": "TraitStealthy1",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 42,
+              "modifier": "TroopIgnoreZoneOfControl",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -7235,6 +7486,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -7244,11 +7496,13 @@
             "max": 7
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 10,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 4,
           "max": 7
@@ -7444,6 +7698,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -7453,18 +7708,20 @@
             "max": 7
           },
           "deadlyRange": 4,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 15,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 6,
-          "max": 12
+          "max": 14
         },
         "movement": 3,
         "initiative": 11,
-        "health": 60,
+        "health": 50,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -7831,6 +8088,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -7840,11 +8098,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 26,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 14,
           "max": 16
@@ -8189,6 +8449,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -8198,11 +8459,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 30,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 18,
           "max": 20
@@ -8461,6 +8724,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -8470,11 +8734,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 19,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 13,
           "max": 15
@@ -8668,6 +8934,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -8677,11 +8944,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 30,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 18,
           "max": 22
@@ -8702,12 +8971,12 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "Inspire",
+        "type": "DrainEssence",
         "icon": {
-          "name": "AbilityIconInspire",
+          "name": "AbilityIconDrainEssence",
           "spriteSheet": "Icons.webp",
-          "x": 633,
-          "y": 258,
+          "x": 527,
+          "y": 251,
           "width": 52,
           "height": 52,
           "outline": [
@@ -8731,66 +9000,7 @@
             ]
           ]
         },
-        "bacterias": [
-          {
-            "bacteriaType": 802,
-            "type": "TroopAbilityInspire",
-            "customEffect": "Aura",
-            "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
-            "auraSettings": {
-              "recipients": "Friends",
-              "hexRadius": 1,
-              "bacteriaToAdd": {
-                "bacteriaType": 803,
-                "type": "TroopAbilityInspired",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1
-                },
-                "modifierData": [
-                  {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 20,
-                    "applicationType": 0
-                  },
-                  {
-                    "type": 8,
-                    "modifier": "TroopRangedOffense",
-                    "amountToAdd": 20,
-                    "applicationType": 0
-                  },
-                  {
-                    "type": 1,
-                    "modifier": "TroopDamage",
-                    "amountToAdd": 1,
-                    "applicationType": 0
-                  }
-                ],
-                "resourcesIncome": [],
-                "duration": {
-                  "type": "EntireBattle",
-                  "duration": 0
-                }
-              },
-              "isStackable": 1,
-              "isPassable": 1
-            },
-            "modifierData": [],
-            "resourcesIncome": [],
-            "duration": {
-              "type": "BattleStackRoundWithTail",
-              "duration": 1
-            }
-          }
-        ]
+        "bacterias": []
       },
       "bacterias": [
         {
@@ -9249,6 +9459,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -9258,11 +9469,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 35,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 30,
           "max": 35
@@ -9284,6 +9497,33 @@
       },
       "troopAbility": null,
       "bacterias": [
+        {
+          "bacteriaType": 800,
+          "type": "TraitShielded",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 7,
+              "modifier": "TroopRangedAttackResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
@@ -9791,6 +10031,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -9800,11 +10041,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 44,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 40,
           "max": 50
@@ -10116,6 +10359,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -10125,11 +10369,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 4,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 1,
           "max": 2
@@ -10278,12 +10524,12 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": "Gold",
-            "amount": 900
+            "type": "CelestialOre",
+            "amount": 5
           }
         ]
       },
-      "obsoleteGoldCost": 900,
+      "obsoleteGoldCost": 1750,
       "stats": {
         "tier": 0,
         "essenceStats": {
@@ -10300,6 +10546,7 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -10309,18 +10556,20 @@
             "max": 15
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 20,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 25,
-          "max": 35
+          "min": 40,
+          "max": 60
         },
         "movement": 0,
         "initiative": 50,
-        "health": 40,
+        "health": 50,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -10442,6 +10691,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -10451,11 +10701,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 7,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 1,
           "max": 2
@@ -10641,6 +10893,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -10650,11 +10903,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 13,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 3
@@ -10892,6 +11147,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -10901,11 +11157,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 7,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 3,
           "max": 5
@@ -11119,6 +11377,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -11128,11 +11387,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 13,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 5,
           "max": 7
@@ -11337,6 +11598,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -11346,11 +11608,13 @@
             "max": 6
           },
           "deadlyRange": 4,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 5,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 3,
           "max": 5
@@ -11527,6 +11791,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -11536,11 +11801,13 @@
             "max": 6
           },
           "deadlyRange": 4,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 7,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 5,
           "max": 8
@@ -11848,6 +12115,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -11857,11 +12125,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 4,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 5
@@ -12120,6 +12390,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -12129,11 +12400,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 13,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 4,
           "max": 7
@@ -12154,36 +12427,76 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "Wait",
+        "type": "Hype",
         "icon": {
-          "name": "AbilityIconWait",
+          "name": "AbilityIconHype",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 175,
+          "x": 859,
+          "y": 337,
           "width": 52,
-          "height": 52,
+          "height": 53,
           "outline": [
             [
               {
                 "x": -26,
-                "y": -26
+                "y": -26.5
               },
               {
                 "x": -26,
-                "y": 26
+                "y": 26.500002
               },
               {
                 "x": 26,
-                "y": 26
+                "y": 26.500002
               },
               {
                 "x": 26,
-                "y": -26
+                "y": -26.5
               }
             ]
           ]
         },
-        "bacterias": []
+        "bacterias": [
+          {
+            "bacteriaType": 1171,
+            "type": "TroopAbilityHype",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 5,
+                "applicationType": 0
+              },
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 5,
+                "applicationType": 0
+              },
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "EntireBattle",
+              "duration": 1
+            }
+          }
+        ]
       },
       "bacterias": [
         {
@@ -12412,6 +12725,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -12421,11 +12735,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 17,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 12,
           "max": 14
@@ -12653,6 +12969,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -12662,17 +12979,19 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 25,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 20,
           "max": 24
         },
         "movement": 4,
-        "initiative": 32,
+        "initiative": 31,
         "health": 90,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
@@ -12688,58 +13007,6 @@
       },
       "troopAbility": null,
       "bacterias": [
-        {
-          "bacteriaType": 797,
-          "type": "TraitIntimidating",
-          "customEffect": "Aura",
-          "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
-          "auraSettings": {
-            "recipients": "Enemies",
-            "hexRadius": 1,
-            "bacteriaToAdd": {
-              "bacteriaType": 796,
-              "type": "TraitIntimidated",
-              "customEffect": "None",
-              "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
-              "auraSettings": {
-                "recipients": "Friends",
-                "hexRadius": 1,
-                "bacteriaToAdd": null,
-                "isStackable": 1,
-                "isPassable": 1
-              },
-              "modifierData": [
-                {
-                  "type": 2,
-                  "modifier": "TroopDefense",
-                  "amountToAdd": -10,
-                  "applicationType": 0
-                },
-                {
-                  "type": 3,
-                  "modifier": "TroopInitiative",
-                  "amountToAdd": -10,
-                  "applicationType": 0
-                }
-              ],
-              "resourcesIncome": [],
-              "duration": {
-                "type": "EntireBattle",
-                "duration": 0
-              }
-            },
-            "isStackable": 1,
-            "isPassable": 1
-          },
-          "modifierData": [],
-          "resourcesIncome": [],
-          "duration": {
-            "type": "Permanent",
-            "duration": 0
-          }
-        },
         {
           "bacteriaType": 1161,
           "type": "TraitMagicResistance",
@@ -12761,6 +13028,16 @@
               "applicationType": 0
             }
           ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1179,
+          "type": "TraitFrontLineFighter",
+          "modifierData": [],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -12912,6 +13189,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -12921,13 +13199,15 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 14,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 6,
+          "min": 7,
           "max": 9
         },
         "movement": 4,
@@ -13089,7 +13369,7 @@
       },
       "obsoleteGoldCost": 0,
       "stats": {
-        "tier": 5,
+        "tier": 15,
         "essenceStats": {
           "order": 0,
           "creation": 0,
@@ -13104,6 +13384,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -13113,13 +13394,15 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 21,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 9,
+          "min": 10,
           "max": 12
         },
         "movement": 4,
@@ -13290,7 +13573,7 @@
       },
       "obsoleteGoldCost": 0,
       "stats": {
-        "tier": 8,
+        "tier": 7,
         "essenceStats": {
           "order": 1,
           "creation": 0,
@@ -13305,6 +13588,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -13314,11 +13598,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 15,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 15,
           "max": 20
@@ -13488,6 +13774,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -13497,11 +13784,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 21,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 25,
           "max": 30
@@ -13740,7 +14029,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 1600
+            "amount": 1300
           },
           {
             "type": "CelestialOre",
@@ -13765,6 +14054,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -13774,18 +14064,20 @@
             "max": 8
           },
           "deadlyRange": 5,
+          "lobbing": 1,
           "resistancePercent": 0
         },
         "defense": 16,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 25,
-          "max": 35
+          "min": 20,
+          "max": 30
         },
         "movement": 1,
-        "initiative": 35,
-        "health": 100,
+        "initiative": 25,
+        "health": 80,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -13991,7 +14283,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 2200
+            "amount": 2000
           },
           {
             "type": "CelestialOre",
@@ -14007,7 +14299,7 @@
           "creation": 0,
           "chaos": 0,
           "arcana": 0,
-          "destruction": 1
+          "destruction": 2
         },
         "meleeAttack": {
           "offense": 6,
@@ -14016,6 +14308,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -14025,18 +14318,20 @@
             "max": 9
           },
           "deadlyRange": 6,
+          "lobbing": 1,
           "resistancePercent": 0
         },
         "defense": 25,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 40,
+          "min": 30,
           "max": 50
         },
         "movement": 1,
-        "initiative": 42,
-        "health": 120,
+        "initiative": 32,
+        "health": 100,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -14050,31 +14345,31 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "Wait",
+        "type": "Bombard",
         "icon": {
-          "name": "AbilityIconWait",
+          "name": "AbilityIconBombard",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 175,
-          "width": 52,
-          "height": 52,
+          "x": 697,
+          "y": 334,
+          "width": 54,
+          "height": 56,
           "outline": [
             [
               {
-                "x": -26,
-                "y": -26
+                "x": -27.000002,
+                "y": -28
               },
               {
-                "x": -26,
-                "y": 26
+                "x": -27.000002,
+                "y": 28.000002
               },
               {
-                "x": 26,
-                "y": 26
+                "x": 27.000002,
+                "y": 28.000002
               },
               {
-                "x": 26,
-                "y": -26
+                "x": 27.000002,
+                "y": -28
               }
             ]
           ]
@@ -14096,64 +14391,6 @@
           "bacteriaType": 61,
           "type": "TraitHelpless",
           "restriction": "CantRetaliate",
-          "modifierData": [],
-          "resourcesIncome": [],
-          "duration": {
-            "type": "Permanent",
-            "duration": 0
-          }
-        },
-        {
-          "bacteriaType": 62,
-          "type": "TraitInspiring",
-          "customEffect": "Aura",
-          "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
-          "auraSettings": {
-            "recipients": "Friends",
-            "hexRadius": 1,
-            "bacteriaToAdd": {
-              "bacteriaType": 63,
-              "type": "TraitInspired",
-              "customEffect": "None",
-              "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
-              "auraSettings": {
-                "recipients": "Friends",
-                "hexRadius": 1,
-                "bacteriaToAdd": null,
-                "isStackable": 1,
-                "isPassable": 1
-              },
-              "modifierData": [
-                {
-                  "type": 5,
-                  "modifier": "TroopMeleeOffense",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                },
-                {
-                  "type": 8,
-                  "modifier": "TroopRangedOffense",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                },
-                {
-                  "type": 3,
-                  "modifier": "TroopInitiative",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                }
-              ],
-              "resourcesIncome": [],
-              "duration": {
-                "type": "EntireBattle",
-                "duration": 0
-              }
-            },
-            "isStackable": 1,
-            "isPassable": 1
-          },
           "modifierData": [],
           "resourcesIncome": [],
           "duration": {
@@ -14298,12 +14535,12 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": "Gold",
-            "amount": 900
+            "type": "CelestialOre",
+            "amount": 5
           }
         ]
       },
-      "obsoleteGoldCost": 900,
+      "obsoleteGoldCost": 1750,
       "stats": {
         "tier": 0,
         "essenceStats": {
@@ -14320,6 +14557,7 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -14329,18 +14567,20 @@
             "max": 15
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 20,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 25,
-          "max": 35
+          "min": 40,
+          "max": 60
         },
         "movement": 0,
         "initiative": 50,
-        "health": 40,
+        "health": 50,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -14498,6 +14738,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -14507,11 +14748,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 2,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 3
@@ -14661,6 +14904,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -14670,11 +14914,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 13,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 3,
           "max": 5
@@ -14984,7 +15230,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 140
+            "amount": 150
           }
         ]
       },
@@ -15005,6 +15251,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -15014,14 +15261,16 @@
             "max": 5
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 1,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 1,
-          "max": 2
+          "max": 3
         },
         "movement": 3,
         "initiative": 21,
@@ -15266,11 +15515,11 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 340
+            "amount": 300
           }
         ]
       },
-      "obsoleteGoldCost": 200,
+      "obsoleteGoldCost": 300,
       "stats": {
         "tier": 12,
         "essenceStats": {
@@ -15287,6 +15536,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -15296,11 +15546,13 @@
             "max": 6
           },
           "deadlyRange": 4,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 8,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 3,
           "max": 5
@@ -15523,6 +15775,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -15532,11 +15785,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 16,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 2,
           "max": 5
@@ -15716,7 +15971,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 450
+            "amount": 500
           }
         ]
       },
@@ -15737,6 +15992,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -15746,14 +16002,16 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 31,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 5,
-          "max": 8
+          "max": 7
         },
         "movement": 2,
         "initiative": 17,
@@ -15771,12 +16029,12 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "Protect",
+        "type": "BullRush",
         "icon": {
-          "name": "AbilityIconProtectDefend",
+          "name": "AbilityIconBullRush",
           "spriteSheet": "Icons.webp",
-          "x": 518,
-          "y": 144,
+          "x": 465,
+          "y": 191,
           "width": 52,
           "height": 52,
           "outline": [
@@ -15800,60 +16058,7 @@
             ]
           ]
         },
-        "bacterias": [
-          {
-            "bacteriaType": 409,
-            "type": "TroopAbilityProtect",
-            "customEffect": "Aura",
-            "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
-            "auraSettings": {
-              "recipients": "Friends",
-              "hexRadius": 1,
-              "bacteriaToAdd": {
-                "bacteriaType": 410,
-                "type": "TroopAbilityProtected",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1
-                },
-                "modifierData": [
-                  {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 25,
-                    "applicationType": 0
-                  },
-                  {
-                    "type": 34,
-                    "modifier": "TroopSpellDamageResistance",
-                    "amountToAdd": 25,
-                    "applicationType": 0
-                  }
-                ],
-                "resourcesIncome": [],
-                "duration": {
-                  "type": "EntireBattle",
-                  "duration": 0
-                }
-              },
-              "isStackable": 1,
-              "isPassable": 1
-            },
-            "modifierData": [],
-            "resourcesIncome": [],
-            "duration": {
-              "type": "BattleStackRoundWithTail",
-              "duration": 1
-            }
-          }
-        ]
+        "bacterias": []
       },
       "bacterias": [
         {
@@ -16105,6 +16310,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -16114,11 +16320,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 13,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 7,
           "max": 9
@@ -16410,6 +16618,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -16419,11 +16628,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 21,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 9,
           "max": 12
@@ -16633,6 +16844,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -16642,11 +16854,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 26,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 8,
           "max": 10
@@ -16924,6 +17138,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -16933,14 +17148,16 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 30,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 12,
-          "max": 16
+          "max": 15
         },
         "movement": 3,
         "initiative": 25,
@@ -16958,12 +17175,12 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "Wait",
+        "type": "Burrow",
         "icon": {
-          "name": "AbilityIconWait",
+          "name": "AbilityIconBurrow",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 175,
+          "x": 580,
+          "y": 286,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17296,6 +17513,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -17305,11 +17523,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 15,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 12,
           "max": 15
@@ -17632,6 +17852,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -17641,11 +17862,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 29,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 12,
           "max": 14
@@ -17895,6 +18118,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -17904,11 +18128,13 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 35,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 16,
           "max": 20
@@ -18236,6 +18462,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -18245,14 +18472,16 @@
             "max": 6
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 20,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 8,
-          "max": 10
+          "max": 12
         },
         "movement": 5,
         "initiative": 28,
@@ -18452,8 +18681,8 @@
           "order": 0,
           "creation": 0,
           "chaos": 0,
-          "arcana": 2,
-          "destruction": 0
+          "arcana": 1,
+          "destruction": 1
         },
         "meleeAttack": {
           "offense": 72,
@@ -18462,6 +18691,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -18471,18 +18701,20 @@
             "max": 5
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 54,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 40,
           "max": 50
         },
         "movement": 6,
-        "initiative": 47,
-        "health": 180,
+        "initiative": 38,
+        "health": 160,
         "maxTroopSize": 3,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -18496,12 +18728,12 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "Wait",
+        "type": "TangleShout",
         "icon": {
-          "name": "AbilityIconWait",
+          "name": "AbilityIconTangleShout",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 175,
+          "x": 624,
+          "y": 46,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18528,64 +18760,6 @@
         "bacterias": []
       },
       "bacterias": [
-        {
-          "bacteriaType": 62,
-          "type": "TraitInspiring",
-          "customEffect": "Aura",
-          "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
-          "auraSettings": {
-            "recipients": "Friends",
-            "hexRadius": 1,
-            "bacteriaToAdd": {
-              "bacteriaType": 63,
-              "type": "TraitInspired",
-              "customEffect": "None",
-              "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
-              "auraSettings": {
-                "recipients": "Friends",
-                "hexRadius": 1,
-                "bacteriaToAdd": null,
-                "isStackable": 1,
-                "isPassable": 1
-              },
-              "modifierData": [
-                {
-                  "type": 5,
-                  "modifier": "TroopMeleeOffense",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                },
-                {
-                  "type": 8,
-                  "modifier": "TroopRangedOffense",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                },
-                {
-                  "type": 3,
-                  "modifier": "TroopInitiative",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                }
-              ],
-              "resourcesIncome": [],
-              "duration": {
-                "type": "EntireBattle",
-                "duration": 0
-              }
-            },
-            "isStackable": 1,
-            "isPassable": 1
-          },
-          "modifierData": [],
-          "resourcesIncome": [],
-          "duration": {
-            "type": "Permanent",
-            "duration": 0
-          }
-        },
         {
           "bacteriaType": 799,
           "type": "TraitReach",
@@ -18826,8 +19000,8 @@
           "order": 0,
           "creation": 0,
           "chaos": 0,
-          "arcana": 2,
-          "destruction": 1
+          "arcana": 1,
+          "destruction": 2
         },
         "meleeAttack": {
           "offense": 80,
@@ -18836,6 +19010,7 @@
             "max": 1
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -18845,18 +19020,20 @@
             "max": 5
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 64,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
           "min": 50,
           "max": 70
         },
         "movement": 7,
-        "initiative": 48,
-        "health": 240,
+        "initiative": 39,
+        "health": 200,
         "maxTroopSize": 3,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -18870,12 +19047,12 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "Wait",
+        "type": "TangleShout",
         "icon": {
-          "name": "AbilityIconWait",
+          "name": "AbilityIconTangleShout",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 175,
+          "x": 624,
+          "y": 46,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18902,64 +19079,6 @@
         "bacterias": []
       },
       "bacterias": [
-        {
-          "bacteriaType": 62,
-          "type": "TraitInspiring",
-          "customEffect": "Aura",
-          "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
-          "auraSettings": {
-            "recipients": "Friends",
-            "hexRadius": 1,
-            "bacteriaToAdd": {
-              "bacteriaType": 63,
-              "type": "TraitInspired",
-              "customEffect": "None",
-              "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
-              "auraSettings": {
-                "recipients": "Friends",
-                "hexRadius": 1,
-                "bacteriaToAdd": null,
-                "isStackable": 1,
-                "isPassable": 1
-              },
-              "modifierData": [
-                {
-                  "type": 5,
-                  "modifier": "TroopMeleeOffense",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                },
-                {
-                  "type": 8,
-                  "modifier": "TroopRangedOffense",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                },
-                {
-                  "type": 3,
-                  "modifier": "TroopInitiative",
-                  "amountToAdd": 5,
-                  "applicationType": 0
-                }
-              ],
-              "resourcesIncome": [],
-              "duration": {
-                "type": "EntireBattle",
-                "duration": 0
-              }
-            },
-            "isStackable": 1,
-            "isPassable": 1
-          },
-          "modifierData": [],
-          "resourcesIncome": [],
-          "duration": {
-            "type": "Permanent",
-            "duration": 0
-          }
-        },
         {
           "bacteriaType": 797,
           "type": "TraitIntimidating",
@@ -19175,12 +19294,12 @@
       "purchaseCost": {
         "costEntries": [
           {
-            "type": "Gold",
-            "amount": 900
+            "type": "CelestialOre",
+            "amount": 5
           }
         ]
       },
-      "obsoleteGoldCost": 900,
+      "obsoleteGoldCost": 1750,
       "stats": {
         "tier": 0,
         "essenceStats": {
@@ -19197,6 +19316,7 @@
             "max": 0
           },
           "deadlyRange": 0,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "rangedAttack": {
@@ -19206,18 +19326,20 @@
             "max": 15
           },
           "deadlyRange": 3,
+          "lobbing": 0,
           "resistancePercent": 0
         },
         "defense": 20,
         "attacks": 1,
         "retaliations": 1,
+        "attacksOfOpportunity": 1,
         "damage": {
-          "min": 25,
-          "max": 35
+          "min": 40,
+          "max": 60
         },
         "movement": 0,
         "initiative": 50,
-        "health": 40,
+        "health": 50,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,

@@ -330,15 +330,19 @@
       {
         "costEntries": [
           {
-            "type": "Glimmerweave",
-            "amount": 3
-          },
-          {
-            "type": "AncientAmber",
-            "amount": 3
+            "type": "Stone",
+            "amount": 2
           },
           {
             "type": "Wood",
+            "amount": 3
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 2
+          },
+          {
+            "type": "AncientAmber",
             "amount": 3
           }
         ],
@@ -349,11 +353,11 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1200
+          "amount": 1000
         },
         {
           "type": "Stone",
-          "amount": 1
+          "amount": 2
         },
         {
           "type": "Wood",
@@ -579,7 +583,7 @@
         "costEntries": [
           {
             "type": "Wood",
-            "amount": 2
+            "amount": 3
           },
           {
             "type": "AncientAmber",
@@ -597,11 +601,11 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1200
+          "amount": 1000
         },
         {
           "type": "Wood",
-          "amount": 4
+          "amount": 5
         }
       ],
       "requiredBuildings": []
@@ -884,12 +888,12 @@
       {
         "costEntries": [
           {
-            "type": "Glimmerweave",
-            "amount": 10
-          },
-          {
             "type": "Wood",
             "amount": 5
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 10
           }
         ],
         "requiredBuildings": [
@@ -901,7 +905,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 3000
+          "amount": 2000
         },
         {
           "type": "Glimmerweave",
@@ -1011,7 +1015,7 @@
         "costEntries": [
           {
             "type": "Glimmerweave",
-            "amount": 10
+            "amount": 15
           },
           {
             "type": "AncientAmber",
@@ -1141,7 +1145,7 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 1500
+                "amount": 1000
               },
               {
                 "type": "Wood",
@@ -1351,7 +1355,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 2500
+          "amount": 2000
         },
         {
           "type": "Stone",
@@ -1429,20 +1433,6 @@
             }
           ]
         ]
-      }
-    ],
-    "maxGarrison": [
-      {
-        "factionIndex": 1,
-        "unitIndex": 3,
-        "size": 10,
-        "upgradeType": 0
-      },
-      {
-        "factionIndex": 1,
-        "unitIndex": 0,
-        "size": 20,
-        "upgradeType": 0
       }
     ],
     "baseViewRadius": 15,
@@ -4034,15 +4024,15 @@
                 },
                 "modifierData": [
                   {
-                    "type": 3,
-                    "modifier": "TroopInitiative",
-                    "amountToAdd": 5,
+                    "type": 6,
+                    "modifier": "TroopMovement",
+                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent"
+                  "type": "BattleRound"
                 }
               }
             ]
@@ -4084,12 +4074,6 @@
                     "type": 3,
                     "modifier": "TroopInitiative",
                     "amountToAdd": 5,
-                    "applicationType": 0
-                  },
-                  {
-                    "type": 6,
-                    "modifier": "TroopMovement",
-                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
@@ -6161,12 +6145,16 @@
       {
         "costEntries": [
           {
+            "type": "Stone",
+            "amount": 4
+          },
+          {
             "type": "Wood",
-            "amount": 2
+            "amount": 4
           },
           {
             "type": "Glimmerweave",
-            "amount": 3
+            "amount": 2
           },
           {
             "type": "AncientAmber",
@@ -6184,11 +6172,11 @@
         },
         {
           "type": "Stone",
-          "amount": 3
+          "amount": 2
         },
         {
           "type": "Wood",
-          "amount": 1
+          "amount": 2
         }
       ],
       "requiredBuildings": []
@@ -6297,8 +6285,12 @@
             "amount": 5
           },
           {
+            "type": "AncientAmber",
+            "amount": 5
+          },
+          {
             "type": "CelestialOre",
-            "amount": 10
+            "amount": 15
           }
         ],
         "requiredBuildings": [
@@ -6310,7 +6302,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 7000
+          "amount": 6000
         },
         {
           "type": "CelestialOre",
@@ -6796,15 +6788,15 @@
                 },
                 "modifierData": [
                   {
-                    "type": 3,
-                    "modifier": "TroopInitiative",
-                    "amountToAdd": 5,
+                    "type": 6,
+                    "modifier": "TroopMovement",
+                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent"
+                  "type": "BattleRound"
                 }
               }
             ]
@@ -6846,12 +6838,6 @@
                     "type": 3,
                     "modifier": "TroopInitiative",
                     "amountToAdd": 5,
-                    "applicationType": 0
-                  },
-                  {
-                    "type": 6,
-                    "modifier": "TroopMovement",
-                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
@@ -8247,9 +8233,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 23,
+                    "modifier": "TroopEssenceOrder",
+                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
@@ -8849,20 +8835,6 @@
         ]
       }
     ],
-    "maxGarrison": [
-      {
-        "factionIndex": 3,
-        "unitIndex": 1,
-        "size": 12,
-        "upgradeType": 0
-      },
-      {
-        "factionIndex": 3,
-        "unitIndex": 2,
-        "size": 10,
-        "upgradeType": 0
-      }
-    ],
     "baseViewRadius": 15,
     "levelUpgrades": [
       {
@@ -8997,7 +8969,7 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 3000
+                "amount": 2000
               },
               {
                 "type": "Glimmerweave",
@@ -9061,11 +9033,7 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 5
-          },
-          {
-            "type": "Wood",
-            "amount": 5
+            "amount": 10
           },
           {
             "type": "CelestialOre",
@@ -9274,10 +9242,6 @@
           {
             "type": "Glimmerweave",
             "amount": 5
-          },
-          {
-            "type": "AncientAmber",
-            "amount": 2
           }
         ],
         "requiredBuildings": [
@@ -11461,6 +11425,10 @@
             "amount": 4
           },
           {
+            "type": "Wood",
+            "amount": 2
+          },
+          {
             "type": "AncientAmber",
             "amount": 2
           },
@@ -11476,7 +11444,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1000
+          "amount": 800
         },
         {
           "type": "Stone",
@@ -12005,7 +11973,7 @@
           },
           {
             "type": "AncientAmber",
-            "amount": 3
+            "amount": 2
           },
           {
             "type": "CelestialOre",
@@ -12021,11 +11989,11 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 3000
+          "amount": 2500
         },
         {
           "type": "Stone",
-          "amount": 10
+          "amount": 5
         },
         {
           "type": "CelestialOre",
@@ -12139,7 +12107,7 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 2500
+                "amount": 2000
               },
               {
                 "type": "AncientAmber",
@@ -12207,11 +12175,7 @@
           },
           {
             "type": "AncientAmber",
-            "amount": 5
-          },
-          {
-            "type": "Glimmerweave",
-            "amount": 5
+            "amount": 10
           }
         ],
         "requiredBuildings": [
@@ -12223,7 +12187,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 2500
+          "amount": 2000
         },
         {
           "type": "Stone",
@@ -12466,12 +12430,12 @@
             "amount": 15
           },
           {
-            "type": "CelestialOre",
-            "amount": 2
+            "type": "Glimmerweave",
+            "amount": 3
           },
           {
-            "type": "Glimmerweave",
-            "amount": 4
+            "type": "CelestialOre",
+            "amount": 2
           }
         ],
         "requiredBuildings": [
@@ -12483,7 +12447,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 2500
+          "amount": 2000
         },
         {
           "type": "Wood",
@@ -12664,12 +12628,12 @@
             "amount": 5
           },
           {
-            "type": "CelestialOre",
-            "amount": 4
-          },
-          {
             "type": "Glimmerweave",
             "amount": 3
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 5
           }
         ],
         "requiredBuildings": [
@@ -12681,7 +12645,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1500
+          "amount": 1000
         },
         {
           "type": "Wood",
@@ -12757,20 +12721,6 @@
             }
           ]
         ]
-      }
-    ],
-    "maxGarrison": [
-      {
-        "factionIndex": 2,
-        "unitIndex": 2,
-        "size": 10,
-        "upgradeType": 0
-      },
-      {
-        "factionIndex": 2,
-        "unitIndex": 3,
-        "size": 10,
-        "upgradeType": 0
       }
     ],
     "baseViewRadius": 15,
@@ -14962,11 +14912,15 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 4
+            "amount": 3
+          },
+          {
+            "type": "Wood",
+            "amount": 3
           },
           {
             "type": "AncientAmber",
-            "amount": 4
+            "amount": 5
           }
         ],
         "requiredBuildings": []
@@ -14976,14 +14930,14 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1000
+          "amount": 1200
         },
         {
           "type": "Stone",
           "amount": 2
         },
         {
-          "type": "AncientAmber",
+          "type": "Wood",
           "amount": 2
         }
       ],
@@ -15090,11 +15044,15 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 4
+            "amount": 2
           },
           {
             "type": "Glimmerweave",
-            "amount": 4
+            "amount": 2
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 3
           }
         ],
         "requiredBuildings": []
@@ -15104,11 +15062,11 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1200
+          "amount": 800
         },
         {
           "type": "Stone",
-          "amount": 4
+          "amount": 5
         }
       ],
       "requiredBuildings": []
@@ -15213,11 +15171,15 @@
       {
         "costEntries": [
           {
-            "type": "AncientAmber",
-            "amount": 10
+            "type": "Glimmerweave",
+            "amount": 5
           },
           {
-            "type": "Glimmerweave",
+            "type": "AncientAmber",
+            "amount": 15
+          },
+          {
+            "type": "CelestialOre",
             "amount": 5
           }
         ],
@@ -16345,15 +16307,15 @@
                 },
                 "modifierData": [
                   {
-                    "type": 3,
-                    "modifier": "TroopInitiative",
-                    "amountToAdd": 5,
+                    "type": 6,
+                    "modifier": "TroopMovement",
+                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent"
+                  "type": "BattleRound"
                 }
               }
             ]
@@ -16395,12 +16357,6 @@
                     "type": 3,
                     "modifier": "TroopInitiative",
                     "amountToAdd": 5,
-                    "applicationType": 0
-                  },
-                  {
-                    "type": 6,
-                    "modifier": "TroopMovement",
-                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
@@ -17336,8 +17292,8 @@
                 },
                 "modifierData": [
                   {
-                    "type": 1,
-                    "modifier": "TroopDamage",
+                    "type": 6,
+                    "modifier": "TroopMovement",
                     "amountToAdd": 1,
                     "applicationType": 0
                   }
@@ -18121,16 +18077,12 @@
             "descriptionKey": "Rana/Research/BeastCorral/Tremor/Description",
             "costEntries": [
               {
-                "type": "Gold",
-                "amount": 500
-              },
-              {
                 "type": "AncientAmber",
-                "amount": 3
+                "amount": 2
               },
               {
                 "type": "Glimmerweave",
-                "amount": 3
+                "amount": 2
               }
             ],
             "bacterias": []
@@ -18189,12 +18141,12 @@
       {
         "costEntries": [
           {
-            "type": "CelestialOre",
-            "amount": 2
+            "type": "Stone",
+            "amount": 5
           },
           {
             "type": "Glimmerweave",
-            "amount": 3
+            "amount": 5
           }
         ],
         "requiredBuildings": [
@@ -18214,7 +18166,7 @@
         },
         {
           "type": "Glimmerweave",
-          "amount": 4
+          "amount": 5
         }
       ],
       "requiredBuildings": []
@@ -18320,18 +18272,14 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 5
-          },
-          {
-            "type": "Wood",
-            "amount": 5
+            "amount": 10
           },
           {
             "type": "AncientAmber",
             "amount": 3
           },
           {
-            "type": "Glimmerweave",
+            "type": "CelestialOre",
             "amount": 3
           }
         ],
@@ -18468,7 +18416,7 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 2000
+                "amount": 1500
               },
               {
                 "type": "Wood",
@@ -18536,15 +18484,19 @@
         "costEntries": [
           {
             "type": "Stone",
+            "amount": 5
+          },
+          {
+            "type": "Wood",
+            "amount": 5
+          },
+          {
+            "type": "Glimmerweave",
             "amount": 10
           },
           {
             "type": "CelestialOre",
-            "amount": 2
-          },
-          {
-            "type": "Glimmerweave",
-            "amount": 3
+            "amount": 5
           }
         ],
         "requiredBuildings": [
@@ -18782,15 +18734,15 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 5
+            "amount": 3
           },
           {
             "type": "Glimmerweave",
-            "amount": 5
+            "amount": 3
           },
           {
             "type": "AncientAmber",
-            "amount": 5
+            "amount": 3
           }
         ],
         "requiredBuildings": []
@@ -18800,11 +18752,11 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1000
+          "amount": 800
         },
         {
           "type": "Stone",
-          "amount": 4
+          "amount": 2
         },
         {
           "type": "Wood",
@@ -19150,15 +19102,15 @@
         "costEntries": [
           {
             "type": "Stone",
-            "amount": 4
+            "amount": 3
           },
           {
             "type": "CelestialOre",
-            "amount": 4
+            "amount": 3
           },
           {
             "type": "Glimmerweave",
-            "amount": 4
+            "amount": 3
           }
         ],
         "requiredBuildings": []
@@ -19168,7 +19120,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 1200
+          "amount": 800
         },
         {
           "type": "Wood",
@@ -19240,20 +19192,6 @@
             }
           ]
         ]
-      }
-    ],
-    "maxGarrison": [
-      {
-        "factionIndex": 4,
-        "unitIndex": 0,
-        "size": 20,
-        "upgradeType": 0
-      },
-      {
-        "factionIndex": 4,
-        "unitIndex": 1,
-        "size": 15,
-        "upgradeType": 0
       }
     ],
     "baseViewRadius": 15,
@@ -19772,15 +19710,15 @@
                 },
                 "modifierData": [
                   {
-                    "type": 3,
-                    "modifier": "TroopInitiative",
-                    "amountToAdd": 5,
+                    "type": 6,
+                    "modifier": "TroopMovement",
+                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
                 "resourcesIncome": [],
                 "duration": {
-                  "type": "Permanent"
+                  "type": "BattleRound"
                 }
               }
             ]
@@ -19818,12 +19756,6 @@
                     "type": 3,
                     "modifier": "TroopInitiative",
                     "amountToAdd": 5,
-                    "applicationType": 0
-                  },
-                  {
-                    "type": 6,
-                    "modifier": "TroopMovement",
-                    "amountToAdd": 1,
                     "applicationType": 0
                   }
                 ],
@@ -21484,9 +21416,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 6,
-                    "modifier": "TroopMovement",
-                    "amountToAdd": 1,
+                    "type": 3,
+                    "modifier": "TroopInitiative",
+                    "amountToAdd": 10,
                     "applicationType": 0
                   }
                 ],
@@ -21635,8 +21567,8 @@
                 },
                 "modifierData": [
                   {
-                    "type": 3,
-                    "modifier": "TroopInitiative",
+                    "type": 5,
+                    "modifier": "TroopMeleeOffense",
                     "amountToAdd": 10,
                     "applicationType": 0
                   }
@@ -22065,16 +21997,24 @@
       {
         "costEntries": [
           {
+            "type": "Gold",
+            "amount": 5000
+          },
+          {
             "type": "Stone",
             "amount": 10
           },
           {
-            "type": "AncientAmber",
-            "amount": 20
+            "type": "Wood",
+            "amount": 10
           },
           {
             "type": "Glimmerweave",
-            "amount": 10
+            "amount": 15
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 15
           }
         ],
         "requiredBuildings": [
@@ -22084,12 +22024,12 @@
       {
         "costEntries": [
           {
-            "type": "AncientAmber",
-            "amount": 20
-          },
-          {
             "type": "Glimmerweave",
             "amount": 10
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 20
           }
         ],
         "requiredBuildings": [

@@ -2305,7 +2305,7 @@
           {
             "type": 3,
             "modifier": "TroopInitiative",
-            "amountToAdd": 20,
+            "amountToAdd": 10,
             "applicationType": 0
           }
         ],
@@ -2880,7 +2880,7 @@
           {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 200,
+            "amountToAdd": 250,
             "applicationType": 0
           }
         ],
@@ -2907,7 +2907,7 @@
           {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 400,
+            "amountToAdd": 500,
             "applicationType": 0
           }
         ],
@@ -2934,7 +2934,7 @@
           {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 400,
+            "amountToAdd": 500,
             "applicationType": 0
           },
           {
@@ -3779,7 +3779,7 @@
           {
             "type": 3,
             "modifier": "TroopInitiative",
-            "amountToAdd": 30,
+            "amountToAdd": 15,
             "applicationType": 0
           }
         ],
@@ -4012,7 +4012,7 @@
           {
             "type": 45,
             "modifier": "CommanderDiplomacyBonus",
-            "amountToAdd": 15,
+            "amountToAdd": 20,
             "applicationType": 0
           }
         ],
@@ -4039,7 +4039,7 @@
           {
             "type": 45,
             "modifier": "CommanderDiplomacyBonus",
-            "amountToAdd": 20,
+            "amountToAdd": 30,
             "applicationType": 0
           }
         ],

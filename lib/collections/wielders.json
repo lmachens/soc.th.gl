@@ -9307,7 +9307,7 @@
     "units": [
       {
         "languageKey": "Oathbound",
-        "size": 7
+        "size": 6
       },
       {
         "languageKey": "Cultist",
@@ -14086,12 +14086,12 @@
     ],
     "units": [
       {
-        "languageKey": "Cultist",
-        "size": 5
+        "languageKey": "Necromancer",
+        "size": 1
       },
       {
         "languageKey": "Oathbound",
-        "size": 8
+        "size": 10
       }
     ],
     "specializations": [
@@ -16741,12 +16741,12 @@
     ],
     "units": [
       {
-        "languageKey": "Cultist",
-        "size": 7
+        "languageKey": "Embalmer",
+        "size": 4
       },
       {
-        "languageKey": "Cultist",
-        "size": 7
+        "languageKey": "Embalmer",
+        "size": 4
       }
     ],
     "specializations": [
@@ -21899,6 +21899,10 @@
       {
         "languageKey": "Tinkerer",
         "size": 3
+      },
+      {
+        "languageKey": "Piper",
+        "size": 1
       }
     ],
     "specializations": [
@@ -26222,11 +26226,11 @@
     "units": [
       {
         "languageKey": "Shaman",
-        "size": 7
+        "size": 4
       },
       {
-        "languageKey": "Guard",
-        "size": 4
+        "languageKey": "Crawler",
+        "size": 3
       }
     ],
     "specializations": [

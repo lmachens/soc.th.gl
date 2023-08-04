@@ -109,7 +109,7 @@
           {
             "type": 3,
             "modifier": "TroopInitiative",
-            "amountToAdd": 15,
+            "amountToAdd": 10,
             "applicationType": 0
           }
         ],
@@ -1755,7 +1755,7 @@
           {
             "type": 3,
             "modifier": "TroopInitiative",
-            "amountToAdd": 5,
+            "amountToAdd": 3,
             "applicationType": 0
           }
         ],
@@ -3108,7 +3108,7 @@
           {
             "type": 3,
             "modifier": "TroopInitiative",
-            "amountToAdd": 20,
+            "amountToAdd": 15,
             "applicationType": 0
           }
         ],
@@ -5322,13 +5322,13 @@
           {
             "type": 12,
             "modifier": "CommanderMovement",
-            "amountToAdd": 2,
+            "amountToAdd": 3,
             "applicationType": 0
           },
           {
             "type": 6,
             "modifier": "TroopMovement",
-            "amountToAdd": 2,
+            "amountToAdd": 1,
             "applicationType": 0
           }
         ],
@@ -5645,7 +5645,7 @@
           {
             "type": 3,
             "modifier": "TroopInitiative",
-            "amountToAdd": 6,
+            "amountToAdd": 5,
             "applicationType": 0
           }
         ],
@@ -5785,7 +5785,7 @@
           {
             "type": 3,
             "modifier": "TroopInitiative",
-            "amountToAdd": 10,
+            "amountToAdd": 5,
             "applicationType": 0
           }
         ],
@@ -6041,13 +6041,7 @@
           {
             "type": 11,
             "modifier": "CommanderDefense",
-            "amountToAdd": 5,
-            "applicationType": 0
-          },
-          {
-            "type": 6,
-            "modifier": "TroopMovement",
-            "amountToAdd": 1,
+            "amountToAdd": 10,
             "applicationType": 0
           },
           {
@@ -6370,12 +6364,6 @@
           {
             "type": 3,
             "modifier": "TroopInitiative",
-            "amountToAdd": 5,
-            "applicationType": 0
-          },
-          {
-            "type": 5,
-            "modifier": "TroopMeleeOffense",
             "amountToAdd": 5,
             "applicationType": 0
           }
