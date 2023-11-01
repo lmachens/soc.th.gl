@@ -15,8 +15,4 @@ export default createStyles((theme) => ({
     zIndex: 1,
     inset: 0,
   },
-  text: {
-    position: "absolute",
-    zIndex: 0,
-  },
 }));

@@ -1,13 +1,15 @@
-import { AppProps } from "next/app";
-import AppLayout from "../components/AppLayout/AppLayout";
-import { ReactNode, useEffect } from "react";
-import { initPlausible } from "../lib/stats";
+import Cookies from "js-cookie";
 import { NextPage } from "next";
+import { AppProps } from "next/app";
+import { ReactNode, useEffect } from "react";
+import AnchorAd from "../components/Ads/AnchorAd";
+import AppLayout from "../components/AppLayout/AppLayout";
+import Mantine from "../components/Mantine/Mantine";
+import PageHead from "../components/PageHead/PageHead";
 import { TermsProvider } from "../components/Terms/Terms";
 import { loadNitroAds } from "../lib/nitroAds";
-import AnchorAd from "../components/Ads/AnchorAd";
-import PageHead from "../components/PageHead/PageHead";
-import Mantine from "../components/Mantine/Mantine";
+import { initPlausible } from "../lib/stats";
+import { useAccountStore } from "../lib/store/account";
 
 export type NextPageWithBanner<T = {}> = NextPage<T> & {
   getBanner?: () => ReactNode;
@@ -18,6 +20,55 @@ type AppPropsWithBanner = AppProps & {
 };
 
 const App = ({ Component, pageProps }: AppPropsWithBanner) => {
+  const accountStore = useAccountStore();
+
+  useEffect(() => {
+    let userId = Cookies.get("userId");
+    const refreshState = async () => {
+      if (!userId) {
+        const state = useAccountStore.getState();
+        if (state.isPatron) {
+          accountStore.setIsPatron(false);
+        }
+        return;
+      }
+
+      const response = await fetch(
+        `https://www.th.gl/api/patreon?appId=jjeemjmkdjlmookbecggoebemjieoihjhhkfmmbl`,
+        { credentials: "include" }
+      );
+      try {
+        const body = await response.json();
+        if (!response.ok) {
+          console.warn(body);
+          accountStore.setIsPatron(false);
+        } else {
+          console.log(`Patreon successfully activated`);
+          accountStore.setIsPatron(true, userId);
+        }
+      } catch (err) {
+        console.error(err);
+        accountStore.setIsPatron(false);
+      }
+    };
+    refreshState();
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        const newUserId = Cookies.get("userId");
+        if (newUserId !== userId) {
+          userId = newUserId;
+          refreshState();
+        }
+      }
+    };
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    };
+  }, []);
+
   useEffect(() => {
     if (
       typeof process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN === "string" &&
@@ -28,7 +79,9 @@ const App = ({ Component, pageProps }: AppPropsWithBanner) => {
         process.env.NEXT_PUBLIC_PLAUSIBLE_HOST
       );
     }
-    loadNitroAds();
+    if (!accountStore.isPatron) {
+      loadNitroAds();
+    }
   }, []);
 
   return (

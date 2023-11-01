@@ -1,11 +1,11 @@
-import { Text, Container, Group } from "@mantine/core";
-import { useTerms } from "../../components/Terms/Terms";
-import AppLink from "../AppLink/AppLink";
+import { Container, Group, Text } from "@mantine/core";
 import Image from "next/image";
+import { useTerms } from "../../components/Terms/Terms";
 import LogoSmall from "../../public/logo_small.png";
+import ConsentLink from "../Ads/ConsentLink";
+import AppLink from "../AppLink/AppLink";
 import useStyles from "./AppFooter.styles";
 import footerLinks from "./footerLinks";
-import ConsentLink from "../Ads/ConsentLink";
 
 const AppFooter = () => {
   const { classes } = useStyles();
@@ -44,7 +44,7 @@ const AppFooter = () => {
         </Group>
         <Group className={classes.afterFooter}>
           <Text color="dimmed" size="sm">
-            © 2022 SoC.GG. All rights reserved.
+            © 2023 SoC.GG. All rights reserved.
           </Text>
           <ConsentLink />
         </Group>

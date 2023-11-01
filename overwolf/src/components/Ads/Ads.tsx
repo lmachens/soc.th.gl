@@ -1,9 +1,9 @@
+import { Anchor, Box } from "@mantine/core";
 import type { OwAd } from "@overwolf/types/owads";
 import { useEffect, useRef, useState } from "react";
-import { Box, Text } from "@mantine/core";
-import useStyles from "./Ads.styles";
-import { HeartFillIcon } from "@primer/octicons-react";
+import { useAccountStore } from "../../utils/store/account";
 import useWindowIsVisible from "../../utils/useWindowIsVisible";
+import useStyles from "./Ads.styles";
 
 declare global {
   // eslint-disable-next-line no-unused-vars
@@ -18,8 +18,12 @@ function Ads() {
   const isDisplayedFirstTime = useRef(true);
   const windowIsVisible = useWindowIsVisible();
   const { classes } = useStyles();
+  const accountState = useAccountStore();
 
   useEffect(() => {
+    if (accountState.isPatron) {
+      return;
+    }
     function onOwAdReady() {
       if (typeof window.OwAd === "undefined" || containerRef.current === null) {
         return;
@@ -41,10 +45,10 @@ function Ads() {
     return () => {
       document.body.removeChild(script);
     };
-  }, []);
+  }, [accountState.isPatron]);
 
   useEffect(() => {
-    if (!owAd) {
+    if (!owAd || accountState.isPatron) {
       return;
     }
     if (isDisplayedFirstTime.current) {
@@ -56,15 +60,25 @@ function Ads() {
     } else {
       owAd.removeAd();
     }
-  }, [owAd, windowIsVisible]);
+  }, [owAd, windowIsVisible, accountState.isPatron]);
+
+  if (accountState.isPatron) {
+    return <></>;
+  }
 
   return (
-    <Box className={classes.container}>
-      <Box ref={containerRef} className={classes.ads} />
-      <Text color="dimmed" className={classes.text}>
-        <HeartFillIcon /> Ads are supporting me
-      </Text>
-    </Box>
+    <>
+      <Anchor
+        href="https://www.th.gl/support-me"
+        target="_blank"
+        align="center"
+      >
+        Get rid of ads and support me on Patreon
+      </Anchor>
+      <Box className={classes.container}>
+        <Box ref={containerRef} className={classes.ads} />
+      </Box>
+    </>
   );
 }
 

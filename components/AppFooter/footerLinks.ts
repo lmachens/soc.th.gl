@@ -71,14 +71,14 @@ const footerLinks: {
     links: [
       {
         term: "The Hidden Gaming Lair",
-        title: "Aaming apps and tools",
+        title: "Gaming apps and tools",
         href: "https://www.th.gl/",
         target: "_blank",
       },
       {
         term: "New World Map",
         title: "Interactive map for New World",
-        href: "https://aeternum-map.gg/",
+        href: "https://aeternum-map.th.gl/",
         target: "_blank",
       },
       {

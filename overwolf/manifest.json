@@ -13,7 +13,11 @@
     "launcher_icon": "icons/launcherIcon.ico",
     "window_icon": "icons/taskbarIcon.png"
   },
-  "permissions": ["Hotkeys", "GameInfo", "FileSystem"],
+  "permissions": [
+    "Hotkeys",
+    "GameInfo",
+    "FileSystem"
+  ],
   "data": {
     "start_window": "background",
     "windows": {
@@ -69,14 +73,20 @@
     },
     "game_targeting": {
       "type": "dedicated",
-      "game_ids": [21986]
+      "game_ids": [
+        21986
+      ]
     },
-    "game_events": [21986],
+    "game_events": [
+      21986
+    ],
     "launch_events": [
       {
         "event": "GameLaunch",
         "event_data": {
-          "game_ids": [21986]
+          "game_ids": [
+            21986
+          ]
         },
         "start_minimized": false
       }
@@ -87,6 +97,9 @@
         "action-type": "custom",
         "default": "Ctrl+g"
       }
+    },
+    "url_protocol": {
+      "scheme": "thgl-soc"
     },
     "protocol_override_domains": {
       "googlesyndication": "http"

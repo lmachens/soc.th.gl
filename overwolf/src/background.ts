@@ -1,6 +1,7 @@
 import { initPlausible } from "../../lib/stats";
 import { getGameIsRunning, SONGS_OF_CONQUEST_CLASS_ID } from "./utils/games";
 import { SHOW_HIDE_HOTKEY } from "./utils/hotkeys";
+import { useAccountStore } from "./utils/store/account";
 import {
   closeMainWindow,
   closeWindow,
@@ -42,7 +43,44 @@ async function init() {
   openApp();
 }
 
-async function openApp() {
+async function openApp(event?: overwolf.extensions.AppLaunchTriggeredEvent) {
+  let userId = useAccountStore.getState().userId;
+  if (event?.origin === "urlscheme") {
+    const matchedUserId = decodeURIComponent(event.parameter).match(
+      "userId=([^&]*)"
+    );
+    const newUserId = matchedUserId ? matchedUserId[1] : null;
+    if (newUserId) {
+      userId = newUserId;
+    }
+  }
+  if (userId) {
+    const accountStore = useAccountStore.getState();
+    const response = await fetch(`https://www.th.gl/api/patreon/overwolf`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        appId: "jjeemjmkdjlmookbecggoebemjieoihjhhkfmmbl",
+        userId,
+      }),
+    });
+    try {
+      const body = await response.json();
+      if (!response.ok) {
+        console.warn(body);
+        accountStore.setIsPatron(false);
+      } else {
+        console.log(`Patreon successfully activated`);
+        accountStore.setIsPatron(true, userId);
+      }
+    } catch (err) {
+      console.error(err);
+      accountStore.setIsPatron(false);
+    }
+  }
+
   const isGameRunning = await getGameIsRunning(SONGS_OF_CONQUEST_CLASS_ID);
   if (isGameRunning) {
     const preferedWindowName = await getPreferedWindowName();

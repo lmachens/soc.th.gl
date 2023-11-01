@@ -3,8 +3,8 @@
   "version": "1.8.0",
   "private": true,
   "engines": {
-    "node": ">= 16.0.0",
-    "npm": ">= 8.0.0"
+    "node": ">= 18.0.0",
+    "npm": ">= 9.0.0"
   },
   "scripts": {
     "dev": "next dev",
@@ -23,16 +23,19 @@
     "@primer/octicons-react": "17.10.0",
     "chart.js": "4.1.1",
     "color-hash": "2.0.2",
+    "js-cookie": "3.0.5",
     "lodash.startcase": "4.4.0",
     "markdown-to-jsx": "7.1.8",
     "next": "13.1.1",
     "plausible-tracker": "0.3.8",
     "react": "18.2.0",
     "react-chartjs-2": "5.1.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "zustand": "4.4.5"
   },
   "devDependencies": {
     "@types/color-hash": "1.0.2",
+    "@types/js-cookie": "3.0.5",
     "@types/lodash.startcase": "4.4.7",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
