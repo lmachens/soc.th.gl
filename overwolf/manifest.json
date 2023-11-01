@@ -4,7 +4,7 @@
   "meta": {
     "name": "SoC.gg",
     "author": "Leon Machens",
-    "version": "0.3.1",
+    "version": "0.4.0",
     "minimum-overwolf-version": "0.201.0",
     "description": "Songs of Conquest Savegame Editor/Analyzer",
     "dock_button_title": "SoC.gg",
