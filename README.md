@@ -2,7 +2,7 @@
 
 # SoC.gg - A Songs of Conquest fansite
 
-- [Website](https://soc.gg)
+- [Website](https://soc.th.gl)
 - [Discord](https://discord.com/invite/NTZu8Px)
 - [Songs of Conquest](https://www.songsofconquest.com)
 - [Analytics](https://apps.machens.dev/soc.gg)
