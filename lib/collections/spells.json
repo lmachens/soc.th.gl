@@ -30,8 +30,8 @@
       ]
     },
     "type": "Advance",
-    "nameKey": "Spells/Advance",
-    "descriptionKey": "Spells/Advance/Description",
+    "nameKey": "Spells/Quicken",
+    "descriptionKey": "Spells/Quicken/Description",
     "costs": [
       {
         "type": "Order",
@@ -53,7 +53,7 @@
         "bacterias": [
           {
             "bacteriaType": 18,
-            "type": "SpellAdvance1",
+            "type": "SpellQuicken1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -105,7 +105,7 @@
         "bacterias": [
           {
             "bacteriaType": 18,
-            "type": "SpellAdvance1",
+            "type": "SpellQuicken1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -157,7 +157,7 @@
         "bacterias": [
           {
             "bacteriaType": 18,
-            "type": "SpellAdvance1",
+            "type": "SpellQuicken1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -223,8 +223,8 @@
       ]
     },
     "type": "Defend",
-    "nameKey": "Spells/Defend",
-    "descriptionKey": "Spells/Defend/Description",
+    "nameKey": "Spells/Protection",
+    "descriptionKey": "Spells/Protection/Description",
     "costs": [
       {
         "type": "Order",
@@ -246,7 +246,7 @@
         "bacterias": [
           {
             "bacteriaType": 35,
-            "type": "SpellDefend1",
+            "type": "SpellProtection1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -298,7 +298,7 @@
         "bacterias": [
           {
             "bacteriaType": 35,
-            "type": "SpellDefend1",
+            "type": "SpellProtection1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -350,7 +350,7 @@
         "bacterias": [
           {
             "bacteriaType": 35,
-            "type": "SpellDefend1",
+            "type": "SpellProtection1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -621,8 +621,8 @@
       ]
     },
     "type": "Offense",
-    "nameKey": "Spells/Offense",
-    "descriptionKey": "Spells/Offense/Description",
+    "nameKey": "Spells/Aggression",
+    "descriptionKey": "Spells/Aggression/Description",
     "costs": [
       {
         "type": "Destruction",
@@ -644,7 +644,7 @@
         "bacterias": [
           {
             "bacteriaType": 127,
-            "type": "SpellOffense1",
+            "type": "SpellAggression1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -696,7 +696,7 @@
         "bacterias": [
           {
             "bacteriaType": 127,
-            "type": "SpellOffense1",
+            "type": "SpellAggression1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -748,7 +748,7 @@
         "bacterias": [
           {
             "bacteriaType": 127,
-            "type": "SpellOffense1",
+            "type": "SpellAggression1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -814,8 +814,8 @@
       ]
     },
     "type": "Justice",
-    "nameKey": "Spells/RestoreOrder",
-    "descriptionKey": "Spells/RestoreOrder/Description",
+    "nameKey": "Spells/Justice",
+    "descriptionKey": "Spells/Justice/Description",
     "costs": [
       {
         "type": "Order",
@@ -985,11 +985,11 @@
     "costs": [
       {
         "type": "Creation",
-        "amount": 8
+        "amount": 7
       },
       {
         "type": "Destruction",
-        "amount": 8
+        "amount": 7
       }
     ],
     "tiers": [
@@ -1009,7 +1009,7 @@
             "bacteriaType": 238,
             "type": "SpellPhoenix1",
             "customEffect": "Damage",
-            "customEffectValue": 65,
+            "customEffectValue": 60,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1052,7 +1052,7 @@
             "bacteriaType": 239,
             "type": "SpellPhoenix2",
             "customEffect": "Damage",
-            "customEffectValue": 130,
+            "customEffectValue": 120,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1146,8 +1146,8 @@
       ]
     },
     "type": "ArcaneBolt",
-    "nameKey": "Spells/ArcaneBolt",
-    "descriptionKey": "Spells/ArcaneBolt/Description",
+    "nameKey": "Spells/PsychicSpear",
+    "descriptionKey": "Spells/PsychicSpear/Description",
     "costs": [
       {
         "type": "Arcana",
@@ -1169,7 +1169,7 @@
         "bacterias": [
           {
             "bacteriaType": 241,
-            "type": "SpellArcaneBolt1",
+            "type": "SpellPsychicSpear1",
             "customEffect": "Damage",
             "customEffectValue": 15,
             "secondaryCustomEffectValue": 0,
@@ -1208,7 +1208,7 @@
         "bacterias": [
           {
             "bacteriaType": 242,
-            "type": "SpellArcaneBolt2",
+            "type": "SpellPsychicSpear2",
             "customEffect": "Damage",
             "customEffectValue": 30,
             "secondaryCustomEffectValue": 0,
@@ -1247,7 +1247,7 @@
         "bacterias": [
           {
             "bacteriaType": 243,
-            "type": "SpellArcaneBolt3",
+            "type": "SpellPsychicSpear3",
             "customEffect": "Damage",
             "customEffectValue": 45,
             "secondaryCustomEffectValue": 0,
@@ -1300,12 +1300,12 @@
       ]
     },
     "type": "ArcaneExplosion",
-    "nameKey": "Spells/ArcaneExplosion",
-    "descriptionKey": "Spells/ArcaneExplosion/Description",
+    "nameKey": "Spells/ArcaneStorm",
+    "descriptionKey": "Spells/ArcaneStorm/Description",
     "costs": [
       {
         "type": "Arcana",
-        "amount": 16
+        "amount": 14
       }
     ],
     "tiers": [
@@ -1323,9 +1323,9 @@
         "bacterias": [
           {
             "bacteriaType": 134,
-            "type": "SpellArcaneExplosion1",
+            "type": "SpellArcaneStorm1",
             "customEffect": "Damage",
-            "customEffectValue": 35,
+            "customEffectValue": 30,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1362,7 +1362,7 @@
         "bacterias": [
           {
             "bacteriaType": 146,
-            "type": "SpellArcaneExplosion2",
+            "type": "SpellArcaneStorm2",
             "customEffect": "Damage",
             "customEffectValue": 60,
             "secondaryCustomEffectValue": 0,
@@ -1401,9 +1401,9 @@
         "bacterias": [
           {
             "bacteriaType": 147,
-            "type": "SpellArcaneExplosion3",
+            "type": "SpellArcaneStorm3",
             "customEffect": "Damage",
-            "customEffectValue": 80,
+            "customEffectValue": 90,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -1861,8 +1861,8 @@
       ]
     },
     "type": "ArcaneDoor",
-    "nameKey": "Spells/ArcaneDoor",
-    "descriptionKey": "Spells/ArcaneDoor/Description",
+    "nameKey": "Spells/DimensionalDoor",
+    "descriptionKey": "Spells/DimensionalDoor/Description",
     "costs": [
       {
         "type": "Arcana",
@@ -1958,12 +1958,12 @@
       ]
     },
     "type": "ArcanePush",
-    "nameKey": "Spells/ArcanePush",
-    "descriptionKey": "Spells/ArcanePush/Description",
+    "nameKey": "Spells/Repel",
+    "descriptionKey": "Spells/Repel/Description",
     "costs": [
       {
         "type": "Arcana",
-        "amount": 8
+        "amount": 7
       }
     ],
     "tiers": [
@@ -1981,9 +1981,9 @@
         "bacterias": [
           {
             "bacteriaType": 258,
-            "type": "SpellArcanePush1",
+            "type": "SpellRepel1",
             "customEffect": "Push",
-            "customEffectValue": 3,
+            "customEffectValue": 2,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2020,9 +2020,9 @@
         "bacterias": [
           {
             "bacteriaType": 259,
-            "type": "SpellArcanePush2",
+            "type": "SpellRepel2",
             "customEffect": "Push",
-            "customEffectValue": 5,
+            "customEffectValue": 4,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2059,9 +2059,9 @@
         "bacterias": [
           {
             "bacteriaType": 260,
-            "type": "SpellArcanePush3",
+            "type": "SpellRepel3",
             "customEffect": "Push",
-            "customEffectValue": 7,
+            "customEffectValue": 6,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -2112,8 +2112,8 @@
       ]
     },
     "type": "Barriers",
-    "nameKey": "Spells/Barriers",
-    "descriptionKey": "Spells/Barriers/Description",
+    "nameKey": "Spells/EarthBlock",
+    "descriptionKey": "Spells/EarthBlock/Description",
     "costs": [
       {
         "type": "Creation",
@@ -2157,7 +2157,7 @@
         ],
         "mapEntityToSummon": {
           "nameKey": "MapEntities/Battle/Obstacle/Barrier",
-          "entityHealthPoints": 30,
+          "entityHealthPoints": 100,
           "bacterias": null
         },
         "bacterias": [
@@ -2167,7 +2167,7 @@
       {
         "tier": 3,
         "effectType": "Summon",
-        "amountOfTargets": 2,
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
@@ -2181,7 +2181,7 @@
         ],
         "mapEntityToSummon": {
           "nameKey": "MapEntities/Battle/Obstacle/Barrier",
-          "entityHealthPoints": 30,
+          "entityHealthPoints": 100,
           "bacterias": null
         },
         "bacterias": [
@@ -2221,8 +2221,8 @@
       ]
     },
     "type": "BitingInsects",
-    "nameKey": "Spells/BitingInsects",
-    "descriptionKey": "Spells/BitingInsects/Description",
+    "nameKey": "Spells/InsectSwarm",
+    "descriptionKey": "Spells/InsectSwarm/Description",
     "costs": [
       {
         "type": "Creation",
@@ -2244,7 +2244,7 @@
         "bacterias": [
           {
             "bacteriaType": 264,
-            "type": "SpellBitingInsects1",
+            "type": "SpellInsectSwarm1",
             "customEffect": "Damage",
             "customEffectValue": 5,
             "secondaryCustomEffectValue": 0,
@@ -2290,7 +2290,7 @@
         "bacterias": [
           {
             "bacteriaType": 265,
-            "type": "SpellBitingInsects2",
+            "type": "SpellInsectSwarm2",
             "customEffect": "Damage",
             "customEffectValue": 10,
             "secondaryCustomEffectValue": 0,
@@ -2336,7 +2336,7 @@
         "bacterias": [
           {
             "bacteriaType": 266,
-            "type": "SpellBitingInsects3",
+            "type": "SpellInsectSwarm3",
             "customEffect": "Damage",
             "customEffectValue": 15,
             "secondaryCustomEffectValue": 0,
@@ -2875,7 +2875,7 @@
     "costs": [
       {
         "type": "Chaos",
-        "amount": 3
+        "amount": 4
       }
     ],
     "tiers": [
@@ -3142,8 +3142,8 @@
       ]
     },
     "type": "Aegis",
-    "nameKey": "Spells/AegisDamage",
-    "descriptionKey": "Spells/AegisDamage/Description",
+    "nameKey": "Spells/Aegis",
+    "descriptionKey": "Spells/Aegis/Description",
     "costs": [
       {
         "type": "Order",
@@ -3169,7 +3169,7 @@
         "bacterias": [
           {
             "bacteriaType": 282,
-            "type": "SpellAegisDamage1",
+            "type": "SpellAegis1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -3184,7 +3184,7 @@
               {
                 "type": 7,
                 "modifier": "TroopRangedAttackResistance",
-                "amountToAdd": 75,
+                "amountToAdd": 50,
                 "applicationType": 0
               }
             ],
@@ -3219,7 +3219,7 @@
         "bacterias": [
           {
             "bacteriaType": 282,
-            "type": "SpellAegisDamage1",
+            "type": "SpellAegis1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -3234,7 +3234,7 @@
               {
                 "type": 7,
                 "modifier": "TroopRangedAttackResistance",
-                "amountToAdd": 75,
+                "amountToAdd": 50,
                 "applicationType": 0
               }
             ],
@@ -3269,7 +3269,7 @@
         "bacterias": [
           {
             "bacteriaType": 282,
-            "type": "SpellAegisDamage1",
+            "type": "SpellAegis1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -3284,7 +3284,7 @@
               {
                 "type": 7,
                 "modifier": "TroopRangedAttackResistance",
-                "amountToAdd": 75,
+                "amountToAdd": 50,
                 "applicationType": 0
               }
             ],
@@ -3521,11 +3521,11 @@
     "costs": [
       {
         "type": "Chaos",
-        "amount": 3
+        "amount": 4
       },
       {
         "type": "Destruction",
-        "amount": 3
+        "amount": 4
       }
     ],
     "tiers": [
@@ -3908,8 +3908,8 @@
       ]
     },
     "type": "ExplosiveSeeds",
-    "nameKey": "Spells/Mines",
-    "descriptionKey": "Spells/Mines/Description",
+    "nameKey": "Spells/ExplosiveFungi",
+    "descriptionKey": "Spells/ExplosiveFungi/Description",
     "costs": [
       {
         "type": "Creation",
@@ -4173,8 +4173,8 @@
       ]
     },
     "type": "PoisonCloud",
-    "nameKey": "Spells/PoisonCloudDamage",
-    "descriptionKey": "Spells/PoisonCloudDamage/Description",
+    "nameKey": "Spells/AcidCloud",
+    "descriptionKey": "Spells/AcidCloud/Description",
     "costs": [
       {
         "type": "Creation",
@@ -4551,11 +4551,11 @@
     "costs": [
       {
         "type": "Order",
-        "amount": 7
+        "amount": 6
       },
       {
         "type": "Chaos",
-        "amount": 7
+        "amount": 6
       }
     ],
     "tiers": [
@@ -4603,7 +4603,7 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
-        "amountOfTargets": 2,
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
@@ -4645,7 +4645,7 @@
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRound",
-              "duration": 1
+              "duration": 2
             }
           }
         ]
@@ -4653,7 +4653,7 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
-        "amountOfTargets": 3,
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
@@ -4695,7 +4695,7 @@
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRound",
-              "duration": 1
+              "duration": 3
             }
           }
         ]
@@ -4733,8 +4733,8 @@
       ]
     },
     "type": "Apocalypse",
-    "nameKey": "Spells/RainOfFire",
-    "descriptionKey": "Spells/RainOfFire/Description",
+    "nameKey": "Spells/Apocalypse",
+    "descriptionKey": "Spells/Apocalypse/Description",
     "costs": [
       {
         "type": "Chaos",
@@ -4754,7 +4754,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "AllTroops",
+        "target": "EveryTile",
         "requiredCommanderSkills": [],
         "mapEntityToSummon": null,
         "bacterias": [
@@ -4788,7 +4788,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "AllTroops",
+        "target": "EveryTile",
         "requiredCommanderSkills": [
           {
             "type": "Chaos",
@@ -4831,7 +4831,7 @@
         "maxTeleportRange": 1,
         "circleRadius": 1,
         "numberOfTargetTiles": 1,
-        "target": "AllTroops",
+        "target": "EveryTile",
         "requiredCommanderSkills": [
           {
             "type": "Chaos",
@@ -4848,7 +4848,7 @@
             "bacteriaType": 305,
             "type": "Apocalypse3",
             "customEffect": "Damage",
-            "customEffectValue": 100,
+            "customEffectValue": 120,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5324,7 +5324,7 @@
             "bacteriaType": 307,
             "type": "SpellRupture2",
             "customEffect": "Damage",
-            "customEffectValue": 120,
+            "customEffectValue": 140,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5367,7 +5367,7 @@
             "bacteriaType": 308,
             "type": "SpellRupture3",
             "customEffect": "Damage",
-            "customEffectValue": 200,
+            "customEffectValue": 250,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
@@ -5418,8 +5418,8 @@
       ]
     },
     "type": "SmokeBomb",
-    "nameKey": "Spells/SmokeBomb",
-    "descriptionKey": "Spells/SmokeBomb/Description",
+    "nameKey": "Spells/Mist",
+    "descriptionKey": "Spells/Mist/Description",
     "costs": [
       {
         "type": "Creation",
@@ -5441,7 +5441,7 @@
         "bacterias": [
           {
             "bacteriaType": 309,
-            "type": "SpellSmokeBomb1",
+            "type": "SpellMist1",
             "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -5480,7 +5480,7 @@
         "bacterias": [
           {
             "bacteriaType": 310,
-            "type": "SpellSmokeBomb2",
+            "type": "SpellMist2",
             "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -5519,7 +5519,7 @@
         "bacterias": [
           {
             "bacteriaType": 311,
-            "type": "SpellSmokeBomb3",
+            "type": "SpellMist3",
             "customEffect": "InvulnerableRestriction",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -5577,11 +5577,11 @@
     "costs": [
       {
         "type": "Creation",
-        "amount": 3
+        "amount": 4
       },
       {
         "type": "Chaos",
-        "amount": 3
+        "amount": 4
       }
     ],
     "tiers": [
@@ -5874,8 +5874,8 @@
       ]
     },
     "type": "StandFast",
-    "nameKey": "Spells/StandFast",
-    "descriptionKey": "Spells/StandFast/Description",
+    "nameKey": "Spells/Rally",
+    "descriptionKey": "Spells/Rally/Description",
     "costs": [
       {
         "type": "Order",
@@ -5897,7 +5897,7 @@
         "bacterias": [
           {
             "bacteriaType": 440,
-            "type": "SpellStandFast1",
+            "type": "SpellRally1",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -5961,7 +5961,7 @@
         "bacterias": [
           {
             "bacteriaType": 441,
-            "type": "SpellStandFast2",
+            "type": "SpellRally2",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -6025,7 +6025,7 @@
         "bacterias": [
           {
             "bacteriaType": 442,
-            "type": "SpellStandFast3",
+            "type": "SpellRally3",
             "customEffect": "None",
             "customEffectValue": 0,
             "secondaryCustomEffectValue": 0,
@@ -6278,8 +6278,8 @@
       ]
     },
     "type": "EtherealScales",
-    "nameKey": "Spells/EtherealScalesSkin",
-    "descriptionKey": "Spells/EtherealScalesSkin/Description",
+    "nameKey": "Spells/EtherealScales",
+    "descriptionKey": "Spells/EtherealScales/Description",
     "costs": [
       {
         "type": "Creation",
@@ -6305,7 +6305,7 @@
         "bacterias": [
           {
             "bacteriaType": 253,
-            "type": "SpellEtherealScalesSkin1",
+            "type": "SpellEtherealScales1",
             "customEffect": "None",
             "customEffectValue": 5,
             "secondaryCustomEffectValue": 0,
@@ -6320,7 +6320,7 @@
               {
                 "type": 4,
                 "modifier": "TroopMeleeAttackResistance",
-                "amountToAdd": 75,
+                "amountToAdd": 50,
                 "applicationType": 0
               }
             ],
@@ -6355,7 +6355,7 @@
         "bacterias": [
           {
             "bacteriaType": 253,
-            "type": "SpellEtherealScalesSkin1",
+            "type": "SpellEtherealScales1",
             "customEffect": "None",
             "customEffectValue": 5,
             "secondaryCustomEffectValue": 0,
@@ -6370,7 +6370,7 @@
               {
                 "type": 4,
                 "modifier": "TroopMeleeAttackResistance",
-                "amountToAdd": 75,
+                "amountToAdd": 50,
                 "applicationType": 0
               }
             ],
@@ -6405,7 +6405,7 @@
         "bacterias": [
           {
             "bacteriaType": 253,
-            "type": "SpellEtherealScalesSkin1",
+            "type": "SpellEtherealScales1",
             "customEffect": "None",
             "customEffectValue": 5,
             "secondaryCustomEffectValue": 0,
@@ -6420,7 +6420,7 @@
               {
                 "type": 4,
                 "modifier": "TroopMeleeAttackResistance",
-                "amountToAdd": 75,
+                "amountToAdd": 50,
                 "applicationType": 0
               }
             ],
@@ -6751,7 +6751,7 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
-        "amountOfTargets": 2,
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
@@ -6817,7 +6817,7 @@
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRound",
-              "duration": 2
+              "duration": 3
             }
           }
         ]
@@ -6825,7 +6825,7 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
-        "amountOfTargets": 3,
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
@@ -6891,7 +6891,7 @@
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRound",
-              "duration": 2
+              "duration": 4
             }
           }
         ]
@@ -7010,7 +7010,7 @@
       {
         "tier": 2,
         "effectType": "AddBacteria",
-        "amountOfTargets": 2,
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
@@ -7076,7 +7076,7 @@
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRound",
-              "duration": 2
+              "duration": 3
             }
           }
         ]
@@ -7084,7 +7084,7 @@
       {
         "tier": 3,
         "effectType": "AddBacteria",
-        "amountOfTargets": 3,
+        "amountOfTargets": 1,
         "teleportDestination": "Tile",
         "maxTeleportRange": 1,
         "circleRadius": 1,
@@ -7150,7 +7150,7 @@
             "resourcesIncome": [],
             "duration": {
               "type": "BattleStackRound",
-              "duration": 2
+              "duration": 4
             }
           }
         ]

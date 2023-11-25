@@ -203,7 +203,7 @@
   {
     "faction": "Neutral",
     "vanilla": {
-      "languageKey": "Bandit",
+      "languageKey": "Brigand",
       "sprite": {
         "name": "NeutralBanditLeftAxe1Idle1",
         "spriteSheet": "NeutralBanditAtlas.webp",
@@ -236,7 +236,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 360
+            "amount": 350
           }
         ]
       },
@@ -501,7 +501,7 @@
   {
     "faction": "Neutral",
     "vanilla": {
-      "languageKey": "DireWolf",
+      "languageKey": "Silvermane",
       "sprite": {
         "name": "NeutralDireWolfDefault1Idle1",
         "spriteSheet": "NeutralDireWolfAtlas.webp",
@@ -614,7 +614,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 420
+            "amount": 400
           }
         ]
       },
@@ -672,9 +672,26 @@
       "troopAbility": null,
       "bacterias": [
         {
-          "bacteriaType": 59,
-          "type": "TraitBerserker",
-          "modifierData": [],
+          "bacteriaType": 804,
+          "type": "TraitStealthy1",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "secondaryCustomEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1
+          },
+          "modifierData": [
+            {
+              "type": 42,
+              "modifier": "TroopIgnoreZoneOfControl",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
           "resourcesIncome": [],
           "duration": {
             "type": "Permanent",
@@ -689,7 +706,7 @@
   {
     "faction": "Neutral",
     "vanilla": {
-      "languageKey": "BanditLeader",
+      "languageKey": "Outlaw",
       "sprite": {
         "name": "NeutralBanditLeaderDefault1Idle1",
         "spriteSheet": "NeutralBanditLeaderAtlas.webp",
@@ -864,8 +881,8 @@
         "icon": {
           "name": "AbilityIconInspire",
           "spriteSheet": "Icons.webp",
-          "x": 633,
-          "y": 258,
+          "x": 1026,
+          "y": 356,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1017,7 +1034,7 @@
   {
     "faction": "Neutral",
     "vanilla": {
-      "languageKey": "BanditArcher",
+      "languageKey": "Poacher",
       "sprite": {
         "name": "NeutralBanditArcherDefault1Idle1",
         "spriteSheet": "NeutralBanditArcherAtlas.webp",
@@ -1110,7 +1127,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 260
+            "amount": 250
           }
         ]
       },
@@ -1172,8 +1189,8 @@
         "icon": {
           "name": "AbilityIconAim",
           "spriteSheet": "Icons.webp",
-          "x": 697,
-          "y": 281,
+          "x": 442,
+          "y": 314,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1561,8 +1578,8 @@
         "icon": {
           "name": "AbilityIconPalisades",
           "spriteSheet": "Icons.webp",
-          "x": 633,
-          "y": 205,
+          "x": 735,
+          "y": 202,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1727,8 +1744,8 @@
       "stats": {
         "tier": 3,
         "essenceStats": {
-          "order": 1,
-          "creation": 0,
+          "order": 0,
+          "creation": 1,
           "chaos": 0,
           "arcana": 0,
           "destruction": 0
@@ -1902,7 +1919,7 @@
         "tier": 13,
         "essenceStats": {
           "order": 1,
-          "creation": 0,
+          "creation": 1,
           "chaos": 0,
           "arcana": 0,
           "destruction": 0
@@ -1955,8 +1972,8 @@
         "icon": {
           "name": "AbilityIconOverwatch",
           "spriteSheet": "Icons.webp",
-          "x": 571,
-          "y": 180,
+          "x": 1026,
+          "y": 303,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2165,8 +2182,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 624,
-          "y": 152,
+          "x": 756,
+          "y": 96,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2401,8 +2418,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 580,
-          "y": 233,
+          "x": 1036,
+          "y": 409,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2810,8 +2827,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 518,
-          "y": 144,
+          "x": 777,
+          "y": 149,
           "width": 52,
           "height": 52,
           "outline": [
@@ -3513,8 +3530,8 @@
         "icon": {
           "name": "AbilityIconInspire",
           "spriteSheet": "Icons.webp",
-          "x": 633,
-          "y": 258,
+          "x": 1026,
+          "y": 356,
           "width": 52,
           "height": 52,
           "outline": [
@@ -4101,8 +4118,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 518,
-          "y": 144,
+          "x": 777,
+          "y": 149,
           "width": 52,
           "height": 52,
           "outline": [
@@ -4659,8 +4676,8 @@
         "icon": {
           "name": "AbilityIconMagicImmunitye",
           "spriteSheet": "Icons.webp",
-          "x": 527,
-          "y": 304,
+          "x": 601,
+          "y": 315,
           "width": 52,
           "height": 53,
           "outline": [
@@ -5388,8 +5405,8 @@
         "icon": {
           "name": "AbilityIconFaeyFire",
           "spriteSheet": "Icons.webp",
-          "x": 806,
-          "y": 337,
+          "x": 495,
+          "y": 315,
           "width": 52,
           "height": 53,
           "outline": [
@@ -5661,7 +5678,7 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": null,
+        "statuses": [],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -6270,7 +6287,7 @@
       ]
     },
     "upgraded": {
-      "languageKey": "OathboundLegionaire",
+      "languageKey": "Legionnaire",
       "sprite": {
         "name": "LothOathboundLegionaireDefault1Idle1",
         "spriteSheet": "LothOathboundLegionaireAtlas.webp",
@@ -6481,8 +6498,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 518,
-          "y": 144,
+          "x": 777,
+          "y": 149,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6751,8 +6768,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 624,
-          "y": 152,
+          "x": 756,
+          "y": 96,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6809,7 +6826,7 @@
       "bacterias": []
     },
     "upgraded": {
-      "languageKey": "Zealot",
+      "languageKey": "Oathsinger",
       "sprite": {
         "name": "LothZealotDefault1Idle1",
         "spriteSheet": "LothZealotAtlas.webp",
@@ -6937,8 +6954,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 580,
-          "y": 233,
+          "x": 1036,
+          "y": 409,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6999,7 +7016,7 @@
   {
     "faction": "Loth",
     "vanilla": {
-      "languageKey": "Embalmer",
+      "languageKey": "Toxicologist",
       "sprite": {
         "name": "LothEmbalmerDefault1Idle1",
         "spriteSheet": "LothEmbalmerAtlas.webp",
@@ -7178,7 +7195,7 @@
       ]
     },
     "upgraded": {
-      "languageKey": "Doctor",
+      "languageKey": "Bane",
       "sprite": {
         "name": "LothDoctorDefault1Idle1",
         "spriteSheet": "LothDoctorAtlas.webp",
@@ -7376,7 +7393,7 @@
   {
     "faction": "Loth",
     "vanilla": {
-      "languageKey": "Necromancer",
+      "languageKey": "AurelianScholar",
       "sprite": {
         "name": "LothScholarDefault1Idle1",
         "spriteSheet": "LothScholarAtlas.webp",
@@ -7538,7 +7555,7 @@
       ]
     },
     "upgraded": {
-      "languageKey": "Oathsinger",
+      "languageKey": "Necromancer",
       "sprite": {
         "name": "LothNecromancerDefault1Idle1",
         "spriteSheet": "LothNecromancerAtlas.webp",
@@ -7739,8 +7756,8 @@
         "icon": {
           "name": "AbilityIconChargeEssence",
           "spriteSheet": "Icons.webp",
-          "x": 195,
-          "y": 140,
+          "x": 436,
+          "y": 1,
           "width": 56,
           "height": 57,
           "outline": [
@@ -7844,7 +7861,7 @@
   {
     "faction": "Loth",
     "vanilla": {
-      "languageKey": "SanctifiedBones",
+      "languageKey": "ScavengedBones",
       "sprite": {
         "name": "LothSanctifiedBonesDefault1Idle1",
         "spriteSheet": "LothSanctifiedBonesAtlas.webp",
@@ -8079,7 +8096,7 @@
           "creation": 0,
           "chaos": 0,
           "arcana": 0,
-          "destruction": 1
+          "destruction": 2
         },
         "meleeAttack": {
           "offense": 21,
@@ -8111,7 +8128,7 @@
         },
         "movement": 4,
         "initiative": 17,
-        "health": 75,
+        "health": 65,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -8440,7 +8457,7 @@
           "creation": 0,
           "chaos": 0,
           "arcana": 0,
-          "destruction": 1
+          "destruction": 2
         },
         "meleeAttack": {
           "offense": 29,
@@ -8472,7 +8489,7 @@
         },
         "movement": 4,
         "initiative": 23,
-        "health": 100,
+        "health": 90,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -8490,8 +8507,8 @@
         "icon": {
           "name": "AbilityIconSacrificeBones",
           "spriteSheet": "Icons.webp",
-          "x": 571,
-          "y": 127,
+          "x": 891,
+          "y": 213,
           "width": 52,
           "height": 52,
           "outline": [
@@ -8600,7 +8617,7 @@
   {
     "faction": "Loth",
     "vanilla": {
-      "languageKey": "AurelianCleric",
+      "languageKey": "Spectre",
       "sprite": {
         "name": "LothAurelianClericDefault1Idle1",
         "spriteSheet": "LothAurelianClericAtlas.webp",
@@ -8747,7 +8764,7 @@
         },
         "movement": 5,
         "initiative": 32,
-        "health": 35,
+        "health": 40,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -8792,7 +8809,7 @@
       ]
     },
     "upgraded": {
-      "languageKey": "AurelianHighCleric",
+      "languageKey": "Seneschal",
       "sprite": {
         "name": "LothAurelianHighClericDefault1Idle1",
         "spriteSheet": "LothAurelianHighClericAtlas.webp",
@@ -8921,10 +8938,10 @@
       "stats": {
         "tier": 17,
         "essenceStats": {
-          "order": 1,
+          "order": 0,
           "creation": 0,
           "chaos": 0,
-          "arcana": 1,
+          "arcana": 2,
           "destruction": 1
         },
         "meleeAttack": {
@@ -8975,8 +8992,8 @@
         "icon": {
           "name": "AbilityIconDrainEssence",
           "spriteSheet": "Icons.webp",
-          "x": 527,
-          "y": 251,
+          "x": 926,
+          "y": 420,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10022,7 +10039,7 @@
           "creation": 0,
           "chaos": 0,
           "arcana": 0,
-          "destruction": 1
+          "destruction": 2
         },
         "meleeAttack": {
           "offense": 55,
@@ -10072,8 +10089,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 518,
-          "y": 144,
+          "x": 777,
+          "y": 149,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10249,7 +10266,7 @@
   {
     "faction": "Loth",
     "vanilla": {
-      "languageKey": "Zombie",
+      "languageKey": "Risen",
       "sprite": {
         "name": "LothZombieDefault1Idle1",
         "spriteSheet": "LothZombieAtlas.webp",
@@ -10338,7 +10355,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 100
+            "amount": 120
           }
         ]
       },
@@ -10378,11 +10395,11 @@
         "attacksOfOpportunity": 1,
         "damage": {
           "min": 1,
-          "max": 2
+          "max": 3
         },
         "movement": 2,
         "initiative": 3,
-        "health": 12,
+        "health": 15,
         "maxTroopSize": 200,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -10573,7 +10590,7 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": null,
+        "statuses": [],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -10678,11 +10695,11 @@
       "stats": {
         "tier": 1,
         "essenceStats": {
-          "order": 2,
+          "order": 1,
           "creation": 0,
           "chaos": 0,
           "arcana": 0,
-          "destruction": 0
+          "destruction": 1
         },
         "meleeAttack": {
           "offense": 5,
@@ -10733,8 +10750,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 624,
-          "y": 152,
+          "x": 756,
+          "y": 96,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10880,11 +10897,11 @@
       "stats": {
         "tier": 11,
         "essenceStats": {
-          "order": 2,
+          "order": 1,
           "creation": 0,
           "chaos": 0,
           "arcana": 0,
-          "destruction": 1
+          "destruction": 2
         },
         "meleeAttack": {
           "offense": 9,
@@ -10935,8 +10952,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.webp",
-          "x": 580,
-          "y": 233,
+          "x": 1036,
+          "y": 409,
           "width": 52,
           "height": 52,
           "outline": [
@@ -11215,7 +11232,7 @@
       ]
     },
     "upgraded": {
-      "languageKey": "PikeneerVeteran",
+      "languageKey": "VeteranPikeneer",
       "sprite": {
         "name": "BaryaPikeneerVeteranDefault1Idle1",
         "spriteSheet": "BaryaPikeneerVeteranAtlas.webp",
@@ -11418,8 +11435,8 @@
         "icon": {
           "name": "AbilityIconSpearwall",
           "spriteSheet": "Icons.webp",
-          "x": 518,
-          "y": 197,
+          "x": 654,
+          "y": 316,
           "width": 52,
           "height": 53,
           "outline": [
@@ -11649,7 +11666,7 @@
       ]
     },
     "upgraded": {
-      "languageKey": "MusketeerVeteran",
+      "languageKey": "VeteranMusketeer",
       "sprite": {
         "name": "BaryaMusketeerVeteranDefault1Idle1",
         "spriteSheet": "BaryaMusketeerVeteranAtlas.webp",
@@ -11832,8 +11849,8 @@
         "icon": {
           "name": "AbilityIconAim",
           "spriteSheet": "Icons.webp",
-          "x": 697,
-          "y": 281,
+          "x": 442,
+          "y": 314,
           "width": 52,
           "height": 52,
           "outline": [
@@ -12138,7 +12155,7 @@
         },
         "movement": 5,
         "initiative": 15,
-        "health": 12,
+        "health": 10,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -12369,7 +12386,7 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 280
+            "amount": 250
           }
         ]
       },
@@ -12379,7 +12396,7 @@
         "essenceStats": {
           "order": 0,
           "creation": 0,
-          "chaos": 2,
+          "chaos": 1,
           "arcana": 0,
           "destruction": 0
         },
@@ -12409,11 +12426,11 @@
         "attacksOfOpportunity": 1,
         "damage": {
           "min": 4,
-          "max": 7
+          "max": 6
         },
         "movement": 5,
         "initiative": 18,
-        "health": 20,
+        "health": 18,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -12431,8 +12448,8 @@
         "icon": {
           "name": "AbilityIconHype",
           "spriteSheet": "Icons.webp",
-          "x": 859,
-          "y": 337,
+          "x": 548,
+          "y": 315,
           "width": 52,
           "height": 53,
           "outline": [
@@ -13230,8 +13247,8 @@
         "icon": {
           "name": "AbilityIconPalisades",
           "spriteSheet": "Icons.webp",
-          "x": 633,
-          "y": 205,
+          "x": 735,
+          "y": 202,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13425,8 +13442,8 @@
         "icon": {
           "name": "AbilityIconPlaceMine",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 228,
+          "x": 788,
+          "y": 202,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13640,7 +13657,7 @@
       ]
     },
     "upgraded": {
-      "languageKey": "SassanidVeteran",
+      "languageKey": "Shadow",
       "sprite": {
         "name": "BaryaSassanidVeteranDefault1Idle1",
         "spriteSheet": "BaryaSassanidVeteranAtlas.webp",
@@ -13815,8 +13832,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 175,
+          "x": 770,
+          "y": 43,
           "width": 52,
           "height": 52,
           "outline": [
@@ -14076,7 +14093,7 @@
           "max": 30
         },
         "movement": 1,
-        "initiative": 25,
+        "initiative": 26,
         "health": 80,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
@@ -14330,7 +14347,7 @@
           "max": 50
         },
         "movement": 1,
-        "initiative": 32,
+        "initiative": 28,
         "health": 100,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
@@ -14349,8 +14366,8 @@
         "icon": {
           "name": "AbilityIconBombard",
           "spriteSheet": "Icons.webp",
-          "x": 697,
-          "y": 334,
+          "x": 879,
+          "y": 647,
           "width": 54,
           "height": 56,
           "outline": [
@@ -14584,7 +14601,7 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": null,
+        "statuses": [],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -14945,8 +14962,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.webp",
-          "x": 518,
-          "y": 144,
+          "x": 777,
+          "y": 149,
           "width": 52,
           "height": 52,
           "outline": [
@@ -15515,11 +15532,11 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 300
+            "amount": 250
           }
         ]
       },
-      "obsoleteGoldCost": 300,
+      "obsoleteGoldCost": 250,
       "stats": {
         "tier": 12,
         "essenceStats": {
@@ -15554,12 +15571,12 @@
         "retaliations": 1,
         "attacksOfOpportunity": 1,
         "damage": {
-          "min": 3,
-          "max": 5
+          "min": 2,
+          "max": 4
         },
         "movement": 3,
         "initiative": 23,
-        "health": 16,
+        "health": 15,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -16033,8 +16050,8 @@
         "icon": {
           "name": "AbilityIconBullRush",
           "spriteSheet": "Icons.webp",
-          "x": 465,
-          "y": 191,
+          "x": 699,
+          "y": 429,
           "width": 52,
           "height": 52,
           "outline": [
@@ -16289,11 +16306,11 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 450
+            "amount": 500
           }
         ]
       },
-      "obsoleteGoldCost": 450,
+      "obsoleteGoldCost": 500,
       "stats": {
         "tier": 4,
         "essenceStats": {
@@ -16301,7 +16318,7 @@
           "creation": 0,
           "chaos": 0,
           "arcana": 0,
-          "destruction": 1
+          "destruction": 2
         },
         "meleeAttack": {
           "offense": 19,
@@ -16329,7 +16346,7 @@
         "attacksOfOpportunity": 1,
         "damage": {
           "min": 7,
-          "max": 9
+          "max": 10
         },
         "movement": 5,
         "initiative": 19,
@@ -16597,16 +16614,16 @@
         "costEntries": [
           {
             "type": "Gold",
-            "amount": 700
+            "amount": 750
           }
         ]
       },
-      "obsoleteGoldCost": 700,
+      "obsoleteGoldCost": 750,
       "stats": {
         "tier": 14,
         "essenceStats": {
           "order": 0,
-          "creation": 0,
+          "creation": 1,
           "chaos": 0,
           "arcana": 0,
           "destruction": 2
@@ -16636,8 +16653,8 @@
         "retaliations": 1,
         "attacksOfOpportunity": 1,
         "damage": {
-          "min": 9,
-          "max": 12
+          "min": 10,
+          "max": 15
         },
         "movement": 5,
         "initiative": 22,
@@ -16660,8 +16677,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.webp",
-          "x": 686,
-          "y": 175,
+          "x": 770,
+          "y": 43,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17179,8 +17196,8 @@
         "icon": {
           "name": "AbilityIconBurrow",
           "spriteSheet": "Icons.webp",
-          "x": 580,
-          "y": 286,
+          "x": 884,
+          "y": 266,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17503,7 +17520,7 @@
           "order": 0,
           "creation": 1,
           "chaos": 0,
-          "arcana": 0,
+          "arcana": 1,
           "destruction": 1
         },
         "meleeAttack": {
@@ -17532,7 +17549,7 @@
         "attacksOfOpportunity": 1,
         "damage": {
           "min": 12,
-          "max": 15
+          "max": 16
         },
         "movement": 4,
         "initiative": 26,
@@ -17556,8 +17573,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.webp",
-          "x": 624,
-          "y": 152,
+          "x": 756,
+          "y": 96,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18159,8 +18176,8 @@
         "icon": {
           "name": "AbilityIconChargeEssence",
           "spriteSheet": "Icons.webp",
-          "x": 195,
-          "y": 140,
+          "x": 436,
+          "y": 1,
           "width": 56,
           "height": 57,
           "outline": [
@@ -18280,7 +18297,7 @@
   {
     "faction": "Rana",
     "vanilla": {
-      "languageKey": "Dragonling",
+      "languageKey": "Ethdra",
       "sprite": {
         "name": "RanaDragonlingDefault1Idle1",
         "spriteSheet": "RanaDragonlingAtlas.webp",
@@ -18503,8 +18520,8 @@
         "icon": {
           "name": "AbilityIconOverwatch",
           "spriteSheet": "Icons.webp",
-          "x": 571,
-          "y": 180,
+          "x": 1026,
+          "y": 303,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18732,8 +18749,8 @@
         "icon": {
           "name": "AbilityIconTangleShout",
           "spriteSheet": "Icons.webp",
-          "x": 624,
-          "y": 46,
+          "x": 830,
+          "y": 149,
           "width": 52,
           "height": 52,
           "outline": [
@@ -19051,8 +19068,8 @@
         "icon": {
           "name": "AbilityIconTangleShout",
           "spriteSheet": "Icons.webp",
-          "x": 624,
-          "y": 46,
+          "x": 830,
+          "y": 149,
           "width": 52,
           "height": 52,
           "outline": [
@@ -19343,7 +19360,7 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": null,
+        "statuses": [],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,

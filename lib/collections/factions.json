@@ -73,8 +73,12 @@
             "y": 122.461945
           },
           {
+            "x": 93.5,
+            "y": 124.461945
+          },
+          {
             "x": 91.5,
-            "y": 120.46194
+            "y": 116.46194
           },
           {
             "x": 91.5,
@@ -197,186 +201,186 @@
         "name": "HostileHUDFrame",
         "spriteSheet": "NeutralUIDecoration.webp",
         "x": 707,
-        "y": 698,
+        "y": 699,
         "width": 306,
-        "height": 326,
+        "height": 325,
         "outline": [
           [
             {
-              "x": -56,
-              "y": 148
-            },
-            {
-              "x": -39,
-              "y": 153.99998
-            },
-            {
-              "x": -7,
-              "y": 160
-            },
-            {
               "x": -4,
-              "y": 163
+              "y": 162.5
             },
             {
               "x": 4,
-              "y": 161
+              "y": 162.5
             },
             {
               "x": 4,
-              "y": 158
+              "y": 158.5
             },
             {
               "x": 26,
-              "y": 156
+              "y": 156.5
             },
             {
               "x": 47,
-              "y": 151
+              "y": 151.5
             },
             {
               "x": 69,
-              "y": 141.99998
+              "y": 142.49998
             },
             {
               "x": 87,
-              "y": 131
+              "y": 131.5
             },
             {
               "x": 104.99999,
-              "y": 115.99999
+              "y": 116.49999
             },
             {
               "x": 128,
-              "y": 90
+              "y": 90.5
             },
             {
               "x": 139,
-              "y": 67.99999
+              "y": 68.49999
             },
             {
               "x": 146.99998,
-              "y": 47.999996
+              "y": 48.499996
             },
             {
               "x": 151,
-              "y": 23
+              "y": 23.5
             },
             {
               "x": 151,
-              "y": 11
+              "y": 11.5
             },
             {
               "x": 153,
-              "y": 11
+              "y": 11.5
             },
             {
               "x": 153,
-              "y": -20
+              "y": -19.5
             },
             {
               "x": 145,
-              "y": -60
+              "y": -59.5
             },
             {
               "x": 133,
-              "y": -81
+              "y": -80.5
             },
             {
               "x": 98.99999,
-              "y": -117
+              "y": -116.5
             },
             {
               "x": 76,
-              "y": -137
+              "y": -136.5
             },
             {
               "x": 42.999996,
-              "y": -153
+              "y": -152.5
             },
             {
               "x": 19.999998,
-              "y": -156
+              "y": -155.5
             },
             {
               "x": 19.999998,
-              "y": -161
+              "y": -160.5
             },
             {
               "x": 2,
-              "y": -159
+              "y": -158.5
             },
             {
               "x": -4,
-              "y": -163
+              "y": -162.5
             },
             {
               "x": -26,
-              "y": -155
+              "y": -154.5
             },
             {
               "x": -35,
-              "y": -153
+              "y": -152.5
             },
             {
               "x": -42.999996,
-              "y": -149
+              "y": -148.5
             },
             {
               "x": -59.999996,
-              "y": -145
+              "y": -144.5
             },
             {
               "x": -74,
-              "y": -136
+              "y": -135.5
             },
             {
               "x": -91.99999,
-              "y": -122.99999
+              "y": -122.49999
             },
             {
               "x": -112,
-              "y": -110.99999
+              "y": -110.49999
             },
             {
               "x": -132,
-              "y": -84.99999
+              "y": -84.49999
             },
             {
               "x": -145.99998,
-              "y": -49
+              "y": -48.5
             },
             {
               "x": -152,
-              "y": -19
+              "y": -18.5
             },
             {
               "x": -153,
-              "y": 28
+              "y": 28.5
             },
             {
               "x": -145.99998,
-              "y": 54.999996
+              "y": 55.499996
             },
             {
               "x": -130,
-              "y": 90
+              "y": 90.5
             },
             {
               "x": -123,
-              "y": 96
+              "y": 96.5
             },
             {
               "x": -115,
-              "y": 106
+              "y": 106.5
             },
             {
               "x": -97.99999,
-              "y": 123
+              "y": 123.5
             },
             {
               "x": -79.99999,
-              "y": 137
+              "y": 137.5
+            },
+            {
+              "x": -56,
+              "y": 148.5
+            },
+            {
+              "x": -39,
+              "y": 154.49998
+            },
+            {
+              "x": -7,
+              "y": 160.5
             }
           ]
         ]
@@ -494,8 +498,8 @@
           "adventureSprite": {
             "name": "NeutralHostilesDefault1Wolf1",
             "spriteSheet": "NeutralHostilesAtlas.webp",
-            "x": 167,
-            "y": 51,
+            "x": 179,
+            "y": 54,
             "width": 43,
             "height": 27,
             "outline": [
@@ -549,7 +553,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "Bandit",
+          "languageKey": "Brigand",
           "sprite": {
             "name": "NeutralBanditLeftAxe1Idle1",
             "spriteSheet": "NeutralBanditAtlas.webp",
@@ -581,8 +585,8 @@
           "adventureSprite": {
             "name": "NeutralHostilesDefault7Bandit1",
             "spriteSheet": "NeutralHostilesAtlas.webp",
-            "x": 0,
-            "y": 145,
+            "x": 58,
+            "y": 282,
             "width": 46.923878,
             "height": 48,
             "outline": [
@@ -776,67 +780,67 @@
           "adventureSprite": {
             "name": "NeutralHostilesDefault13CutThroat1",
             "spriteSheet": "NeutralHostilesAtlas.webp",
-            "x": 133,
-            "y": 49,
-            "width": 31.948683,
-            "height": 49,
+            "x": 74.07612,
+            "y": 65,
+            "width": 29.872562,
+            "height": 48.923878,
             "outline": [
               [
                 {
-                  "x": -8.974341,
-                  "y": -0.5
+                  "x": -10.0124,
+                  "y": -0.46193886
                 },
                 {
-                  "x": -15.974341,
-                  "y": 6.5
+                  "x": -17.0124,
+                  "y": 6.538061
                 },
                 {
-                  "x": -2.9743414,
-                  "y": 24.5
+                  "x": -4.0123997,
+                  "y": 24.538061
                 },
                 {
-                  "x": 3.0256586,
-                  "y": 23.5
+                  "x": 1.9876003,
+                  "y": 23.538061
                 },
                 {
-                  "x": 10.025659,
-                  "y": 16.5
+                  "x": 8.9876,
+                  "y": 16.538061
                 },
                 {
-                  "x": 17.025658,
-                  "y": 4.5
+                  "x": 15.9876,
+                  "y": 4.538061
                 },
                 {
-                  "x": 12.025659,
-                  "y": -4.5
+                  "x": 10.9876,
+                  "y": -4.461939
                 },
                 {
-                  "x": 14.025659,
-                  "y": -16.5
+                  "x": 12.9876,
+                  "y": -16.461939
                 },
                 {
-                  "x": 14.025659,
-                  "y": -24.5
+                  "x": 12.9876,
+                  "y": -24.461939
                 },
                 {
-                  "x": 8.025659,
-                  "y": -24.5
+                  "x": 6.9876003,
+                  "y": -24.461939
                 },
                 {
-                  "x": 2.0256586,
-                  "y": -9.5
+                  "x": 0.9876003,
+                  "y": -9.461939
                 },
                 {
-                  "x": -1.9743414,
-                  "y": -24.5
+                  "x": -3.0123997,
+                  "y": -24.461939
                 },
                 {
-                  "x": -9.974341,
-                  "y": -23.5
+                  "x": -11.0124,
+                  "y": -23.461939
                 },
                 {
-                  "x": -12.974341,
-                  "y": -7.5
+                  "x": -14.0124,
+                  "y": -7.461939
                 }
               ]
             ]
@@ -847,7 +851,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "DireWolf",
+          "languageKey": "Silvermane",
           "sprite": {
             "name": "NeutralDireWolfDefault1Idle1",
             "spriteSheet": "NeutralDireWolfAtlas.webp",
@@ -959,8 +963,8 @@
           "adventureSprite": {
             "name": "NeutralHostilesDefault1Wolf1",
             "spriteSheet": "NeutralHostilesAtlas.webp",
-            "x": 167,
-            "y": 51,
+            "x": 179,
+            "y": 54,
             "width": 43,
             "height": 27,
             "outline": [
@@ -1014,7 +1018,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "BanditLeader",
+          "languageKey": "Outlaw",
           "sprite": {
             "name": "NeutralBanditLeaderDefault1Idle1",
             "spriteSheet": "NeutralBanditLeaderAtlas.webp",
@@ -1126,8 +1130,8 @@
           "adventureSprite": {
             "name": "NeutralHostilesDefault25BanditLeader1",
             "spriteSheet": "NeutralHostilesAtlas.webp",
-            "x": 46,
-            "y": 236,
+            "x": 98,
+            "y": 291,
             "width": 37.987087,
             "height": 56,
             "outline": [
@@ -1189,7 +1193,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "BanditArcher",
+          "languageKey": "Poacher",
           "sprite": {
             "name": "NeutralBanditArcherDefault1Idle1",
             "spriteSheet": "NeutralBanditArcherAtlas.webp",
@@ -1282,7 +1286,7 @@
             "name": "NeutralHostilesDefault31BanditArcher1",
             "spriteSheet": "NeutralHostilesAtlas.webp",
             "x": 1.026751,
-            "y": 94.07612,
+            "y": 105.07612,
             "width": 31.897127,
             "height": 48.847755,
             "outline": [
@@ -1360,7 +1364,7 @@
       "name": "BannerColorable",
       "spriteSheet": "ArleonUI.webp",
       "x": 1436,
-      "y": 1682,
+      "y": 1712,
       "width": 96,
       "height": 147,
       "outline": [
@@ -1387,8 +1391,8 @@
     "symbolSprite": {
       "name": "TopCircleSymbol",
       "spriteSheet": "ArleonUI.webp",
-      "x": 1569,
-      "y": 1833,
+      "x": 1894,
+      "y": 1863,
       "width": 82,
       "height": 91,
       "outline": [
@@ -3935,7 +3939,7 @@
       "name": "BannerColorable",
       "spriteSheet": "LothUI.webp",
       "x": 1436,
-      "y": 1677,
+      "y": 1703,
       "width": 96,
       "height": 149,
       "outline": [
@@ -3962,8 +3966,8 @@
     "symbolSprite": {
       "name": "TopCircleSymbol",
       "spriteSheet": "LothUI.webp",
-      "x": 1569,
-      "y": 1830,
+      "x": 1894,
+      "y": 1856,
       "width": 82,
       "height": 91,
       "outline": [
@@ -4533,7 +4537,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "OathboundLegionaire",
+          "languageKey": "Legionnaire",
           "sprite": {
             "name": "LothHostilesArtwork19OathboundLegionaire1",
             "spriteSheet": "LothHostilesAtlas.webp",
@@ -4710,7 +4714,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "Zealot",
+          "languageKey": "Oathsinger",
           "sprite": {
             "name": "LothHostilesArtwork31Zealot1",
             "spriteSheet": "LothHostilesAtlas.webp",
@@ -4756,7 +4760,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "Embalmer",
+          "languageKey": "Toxicologist",
           "sprite": {
             "name": "LothEmbalmerDefault1Idle1",
             "spriteSheet": "LothEmbalmerAtlas.webp",
@@ -4891,7 +4895,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "Doctor",
+          "languageKey": "Bane",
           "sprite": {
             "name": "LothHostilesArtwork43Doctor1",
             "spriteSheet": "LothHostilesAtlas.webp",
@@ -4941,7 +4945,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "Necromancer",
+          "languageKey": "AurelianScholar",
           "sprite": {
             "name": "LothScholarDefault1Idle1",
             "spriteSheet": "LothScholarAtlas.webp",
@@ -5072,7 +5076,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "Oathsinger",
+          "languageKey": "Necromancer",
           "sprite": {
             "name": "LothHostilesArtwork55Oathsinger1",
             "spriteSheet": "LothHostilesAtlas.webp",
@@ -5140,7 +5144,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "SanctifiedBones",
+          "languageKey": "ScavengedBones",
           "sprite": {
             "name": "LothSanctifiedBonesDefault1Idle1",
             "spriteSheet": "LothSanctifiedBonesAtlas.webp",
@@ -5539,7 +5543,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "AurelianCleric",
+          "languageKey": "Spectre",
           "sprite": {
             "name": "LothAurelianClericDefault1Idle1",
             "spriteSheet": "LothAurelianClericAtlas.webp",
@@ -5680,7 +5684,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "AurelianHighCleric",
+          "languageKey": "Seneschal",
           "sprite": {
             "name": "LothHostilesArtwork67AurelianHighCleric1",
             "spriteSheet": "LothHostilesAtlas.webp",
@@ -6363,7 +6367,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "Zombie",
+          "languageKey": "Risen",
           "sprite": {
             "name": "LothZombieDefault1Idle1",
             "spriteSheet": "LothZombieAtlas.webp",
@@ -6648,8 +6652,8 @@
     "bannerSprite": {
       "name": "BannerColorable",
       "spriteSheet": "BaryaUI.webp",
-      "x": 958,
-      "y": 1751,
+      "x": 480,
+      "y": 1689,
       "width": 96,
       "height": 129,
       "outline": [
@@ -6676,8 +6680,8 @@
     "symbolSprite": {
       "name": "TopCircleSymbol",
       "spriteSheet": "BaryaUI.webp",
-      "x": 1330,
-      "y": 1903,
+      "x": 796,
+      "y": 1841,
       "width": 82,
       "height": 91,
       "outline": [
@@ -7211,7 +7215,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "PikeneerVeteran",
+          "languageKey": "VeteranPikeneer",
           "sprite": {
             "name": "BaryaHostilesIdle31PikeneerVeteran1",
             "spriteSheet": "BaryaHostilesAtlas.webp",
@@ -7428,7 +7432,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "MusketeerVeteran",
+          "languageKey": "VeteranMusketeer",
           "sprite": {
             "name": "BaryaHostilesIdle43MusketeerVeteran1",
             "spriteSheet": "BaryaHostilesAtlas.webp",
@@ -8536,7 +8540,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "SassanidVeteran",
+          "languageKey": "Shadow",
           "sprite": {
             "name": "BaryaHostilesIdle79SassanidVeteran1",
             "spriteSheet": "BaryaHostilesAtlas.webp",
@@ -9057,8 +9061,8 @@
     "bannerSprite": {
       "name": "BannerColorable",
       "spriteSheet": "RanaUI.webp",
-      "x": 958,
-      "y": 1794,
+      "x": 891,
+      "y": 1908,
       "width": 96,
       "height": 138,
       "outline": [
@@ -9085,7 +9089,7 @@
     "symbolSprite": {
       "name": "TopCircleSymbol",
       "spriteSheet": "RanaUI.webp",
-      "x": 1254,
+      "x": 212,
       "y": 1964,
       "width": 82,
       "height": 82,
@@ -11287,7 +11291,7 @@
       },
       {
         "vanilla": {
-          "languageKey": "Dragonling",
+          "languageKey": "Ethdra",
           "sprite": {
             "name": "RanaDragonlingDefault1Idle1",
             "spriteSheet": "RanaDragonlingAtlas.webp",
