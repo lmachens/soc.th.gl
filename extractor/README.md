@@ -6,7 +6,7 @@ The extractor is used to extract the data from Songs of Conquest to the JSON fil
 
 It's required to have Songs of Conquest installed on your computer. This guide is for the Steam version, but should work for other versions too.
 
-Next, you need to install [AssetRipper](https://github.com/AssetRipper/AssetRipper/), which is a tool to extract the game data. The latest tested version is [v0.3.0.1](https://github.com/AssetRipper/AssetRipper/releases/tag/0.3.0.1).
+Next, you need to install [AssetRipper](https://github.com/AssetRipper/AssetRipper/), which is a tool to extract the game data. The latest tested version is [v0.3.2.1](https://github.com/AssetRipper/AssetRipper/releases/tag/0.3.2.1).
 
 ### GUI version of AssetRipper
 
