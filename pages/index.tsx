@@ -7,20 +7,15 @@ import {
   SimpleGrid,
   Stack,
   Text,
-  Title,
 } from "@mantine/core";
 import Article from "../components/Article/Article";
-import { withStaticBase } from "../lib/staticProps";
-import Markdown from "markdown-to-jsx";
 import BannerSrc from "../public/banner.jpg";
 import LogoSrc from "../public/soc_logo.png";
 import Image from "next/image";
 import { NextPageWithBanner } from "./_app";
 import BannerAd from "../components/Ads/BannerAd";
 
-const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
-  releases,
-}) => {
+const Home: NextPageWithBanner = () => {
   return (
     <>
       <Stack>
@@ -107,36 +102,6 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
           </Button>
         </Group>
         <BannerAd />
-        <Title order={2}>Latest releases</Title>
-        {releases.map((release) => (
-          <Box
-            component="article"
-            key={release.id}
-            sx={(theme) => ({
-              a: {
-                color: theme.colors.brand[5],
-              },
-            })}
-          >
-            <Title order={4}>{release.name}</Title>
-            <aside>{new Date(release.published_at).toLocaleDateString()}</aside>
-            <Text>
-              <Markdown
-                options={{
-                  overrides: {
-                    a: {
-                      props: {
-                        target: "_blank",
-                      },
-                    },
-                  },
-                }}
-              >
-                {release.body}
-              </Markdown>
-            </Text>
-          </Box>
-        ))}
       </Stack>
     </>
   );
@@ -175,47 +140,3 @@ Home.getBanner = () => (
 );
 
 export default Home;
-
-const santizeReleaseBody = (body: string) =>
-  body
-    .replace(
-      /https:\/\/github.com\/lmachens\/soc.gg\/pull\/(\d+)/g,
-      (url, id) => `[#${id}](${url})`
-    )
-    .replace(
-      /https:\/\/github.com\/lmachens\/soc.gg\/compare\/(v\d+.\d+.\d+\.\.\.v\d+.\d+.\d+)/g,
-      (url, versions) => `[${versions}](${url})`
-    )
-    .replace(
-      /https:\/\/github.com\/lmachens\/soc.gg\/commits\/(v\d+.\d+.\d+)/g,
-      (url, version) => `[${version}](${url})`
-    );
-
-type GitHubRelease = {
-  id: number;
-  name: string;
-  body: string;
-  published_at: string;
-  prerelease: boolean;
-};
-export const getStaticProps = withStaticBase(async () => {
-  const response = await fetch(
-    "https://api.github.com/repos/lmachens/soc.gg/releases"
-  );
-  const allReleases = (await response.json()) as GitHubRelease[];
-  const releases = allReleases
-    .filter((release) => !release.prerelease)
-    .slice(0, 10)
-    .map((release) => ({
-      ...release,
-      body: santizeReleaseBody(release.body),
-    }));
-
-  return {
-    props: {
-      releases,
-      terms: {},
-    },
-    revalidate: false,
-  };
-});
