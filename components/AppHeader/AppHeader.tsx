@@ -47,18 +47,11 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
       <Group spacing="xs">
         <LocaleSelector />
         <HeaderControl
-          link="https://discord.com/invite/NTZu8Px"
+          link="https://th.gl/discord"
           tooltip={terms.DiscordTooltip}
           variant="discord"
         >
           <DiscordIcon size={20} />
-        </HeaderControl>
-
-        <HeaderControl
-          link="https://github.com/lmachens/soc.gg"
-          tooltip={terms.GitHubTooltip}
-        >
-          <MarkGithubIcon size={20} />
         </HeaderControl>
       </Group>
     </Header>

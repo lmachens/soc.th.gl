@@ -12,7 +12,7 @@ const footerLinks: {
     links: [
       {
         term: "SoC.gg Discord",
-        href: "https://discord.com/invite/NTZu8Px",
+        href: "https://th.gl/discord",
         target: "_blank",
       },
       {

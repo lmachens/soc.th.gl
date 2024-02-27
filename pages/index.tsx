@@ -101,18 +101,9 @@ const Home: NextPageWithBanner<{ releases: GitHubRelease[] }> = ({
             color="gray"
             component="a"
             target="blank"
-            href="https://discord.com/invite/NTZu8Px"
+            href="https://th.gl/discord"
           >
             Join Discord
-          </Button>
-          <Button
-            size="md"
-            color="gray"
-            component="a"
-            target="blank"
-            href="https://github.com/lmachens/soc.gg"
-          >
-            Contribute on GitHub
           </Button>
         </Group>
         <BannerAd />

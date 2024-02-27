@@ -206,7 +206,6 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
     // Terms loaded for every page
     const terms: TermsDTO = {
       DiscordTooltip: getSiteTerm("DiscordTooltip", locale),
-      GitHubTooltip: getSiteTerm("GitHubTooltip", locale),
       LearnMore: getSiteTerm("LearnMore", locale),
       Search: getSiteTerm("Search", locale),
       About: getSiteTerm("About", locale),

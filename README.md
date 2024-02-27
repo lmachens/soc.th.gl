@@ -3,7 +3,7 @@
 # SoC.gg - A Songs of Conquest fansite
 
 - [Website](https://soc.th.gl)
-- [Discord](https://discord.com/invite/NTZu8Px)
+- [Discord](https://th.gl/discord)
 - [Songs of Conquest](https://www.songsofconquest.com)
 - [Analytics](https://apps.machens.dev/soc.gg)
 
@@ -20,7 +20,7 @@ We have the approval and support of the game studio (Lavapotion) to use the game
 This app is Open Source. Contributors are highly welcome!
 You can find open tasks and issues on [GitHub](https://github.com/lmachens/soc.gg/issues).
 
-Join us on [Discord](https://discord.com/invite/NTZu8Px) if you like to contribute.
+Join us on [Discord](https://th.gl/discord) if you like to contribute.
 
 ## Development
 
