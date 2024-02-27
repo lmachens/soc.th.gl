@@ -52,8 +52,8 @@ function AppHeader() {
         <Badge>
           <Anchor
             size="xs"
-            href="https://www.soc.gg"
-            title="Open https://www.soc.gg database"
+            href="https://soc.th.gl"
+            title="Open https://soc.th.gl database"
             target="_blank"
             color="dimmed"
           >

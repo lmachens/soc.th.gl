@@ -20,10 +20,10 @@ export default function PrivacyPolicy() {
     <Container>
       <Title order={2}>Details</Title>
       <Text>
-        At SoC.gg, accessible from https://soc.gg, one of our main priorities is
-        the privacy of our visitors. This Privacy Policy document contains types
-        of information that is collected and recorded by SoC.gg and how we use
-        it.
+        At SoC.gg, accessible from https://soc.th.gl, one of our main priorities
+        is the privacy of our visitors. This Privacy Policy document contains
+        types of information that is collected and recorded by SoC.gg and how we
+        use it.
       </Text>
 
       <Text>

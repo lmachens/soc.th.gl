@@ -11,6 +11,7 @@
   "devDependencies": {
     "@overwolf/types": "^3.21.0",
     "@vitejs/plugin-react": "^2.0.1",
+    "typescript": "^5.3.3",
     "vite": "^3.0.8"
   }
 }
