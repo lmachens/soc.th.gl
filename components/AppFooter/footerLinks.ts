@@ -16,11 +16,6 @@ const footerLinks: {
         target: "_blank",
       },
       {
-        term: "GitHub",
-        href: "https://github.com/lmachens/soc.gg",
-        target: "_blank",
-      },
-      {
         term: "Sitemap",
         href: "/sitemap.xml",
         target: "_blank",

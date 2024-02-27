@@ -14,6 +14,7 @@ import LogoSrc from "../public/soc_logo.png";
 import Image from "next/image";
 import { NextPageWithBanner } from "./_app";
 import BannerAd from "../components/Ads/BannerAd";
+import { withStaticBase } from "../lib/staticProps";
 
 const Home: NextPageWithBanner = () => {
   return (
@@ -140,3 +141,12 @@ Home.getBanner = () => (
 );
 
 export default Home;
+
+export const getStaticProps = withStaticBase(async () => {
+  return {
+    props: {
+      terms: {},
+    },
+    revalidate: false,
+  };
+});
