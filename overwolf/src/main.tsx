@@ -10,4 +10,4 @@ ReactDOM.createRoot(document.getElementById("app") as HTMLElement).render(
   </React.StrictMode>
 );
 
-initPlausible("soc.gg-app", "https://apps.machens.dev");
+initPlausible("soc.th.gl-app", "https://metrics.th.gl");

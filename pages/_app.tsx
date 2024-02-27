@@ -70,15 +70,7 @@ const App = ({ Component, pageProps }: AppPropsWithBanner) => {
   }, []);
 
   useEffect(() => {
-    if (
-      typeof process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN === "string" &&
-      typeof process.env.NEXT_PUBLIC_PLAUSIBLE_HOST === "string"
-    ) {
-      initPlausible(
-        process.env.NEXT_PUBLIC_PLAUSIBLE_DOMAIN,
-        process.env.NEXT_PUBLIC_PLAUSIBLE_HOST
-      );
-    }
+    initPlausible("soc.th.gl", "https://metrics.th.gl");
     if (!accountStore.isPatron) {
       loadNitroAds();
     }

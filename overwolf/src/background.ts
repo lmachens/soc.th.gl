@@ -92,4 +92,4 @@ async function openApp(event?: overwolf.extensions.AppLaunchTriggeredEvent) {
 
 init();
 
-initPlausible("soc.gg-app", "https://apps.machens.dev");
+initPlausible("soc.gg-app", "https://metrics.th.gl");
