@@ -51,6 +51,13 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       }))
       .sort(sortByLabel);
 
+    const townBuildLinks = factions
+      .map((faction) => ({
+        to: `/towns/${faction.type}`,
+        label: faction.name,
+      }))
+      .sort(sortByLabel);
+
     const skills = getSkills(locale);
     const skillLinks = skills
       .map((skill) => ({
@@ -199,6 +206,16 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
             label: getSiteTerm("AllRandomEvents", locale),
           },
           ...randomEventLinks,
+        ],
+      },
+      {
+        label: getSiteTerm("TownBuilds", locale),
+        docs: [
+          {
+            to: "/towns",
+            label: getSiteTerm("AllTownBuilds", locale),
+          },
+          ...townBuildLinks,
         ],
       },
     ];
