@@ -138,6 +138,7 @@ function createNodes(
 export type NodeStackPlain = {
   nodes: NodePlain[];
   childNodeKeys: string[];
+  numNodes: number;
 };
 
 class NodeStack {
@@ -160,6 +161,7 @@ class NodeStack {
     return {
       nodes: this.nodes.map(node => node.toPlain()),
       childNodeKeys: this.childNodeKeys,
+      numNodes: this.numNodes,
     };
   }
 }
