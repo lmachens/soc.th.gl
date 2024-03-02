@@ -413,14 +413,16 @@ export function createTownData(
   const keyToNode = createNodes(factionBuildings);
   const componentIdToNodes = separateNodesIntoComponents(keyToNode);
 
-  const positionedComponents = Array.from(componentIdToNodes.values()).map(
-    (nodes, componentId) => {
-      const component = new Component(componentId, nodes);
-      return new PositionedComponent(
-        component,
-        getComponentPositioning(component, keyToNode)
-      );
-    });
+  const positionedComponents = Array.from(componentIdToNodes.values())
+    .sort((aNodes, bNodes) => bNodes.length - aNodes.length)
+    .map(
+      (nodes, componentId) => {
+        const component = new Component(componentId, nodes);
+        return new PositionedComponent(
+          component,
+          getComponentPositioning(component, keyToNode)
+        );
+      });
 
   return (new TownData(keyToNode, positionedComponents)).toPlain();
 }
