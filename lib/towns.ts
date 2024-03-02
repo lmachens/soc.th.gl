@@ -318,7 +318,6 @@ function getComponentPositioning(
 ): ComponentPositioning {
   const nodeKeyToPosition = new Map<string, Coordinate>();
 
-
   // DFS all the node y-positions.
   const nodeKeyToY = new Map<string, number>();
   function setNodeY(node: Node): number {
@@ -356,11 +355,10 @@ function getComponentPositioning(
 }
 
 /** A PositionedComponent is bundled Component and ComponentPositioning data. */
-type PositionedComponentPlain = {
+export type PositionedComponentPlain = {
   component: ComponentPlain;
   positioning: ComponentPositioningPlain;
 };
-
 
 class PositionedComponent {
   component: Component;
