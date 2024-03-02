@@ -10,6 +10,16 @@ function makeUnique(array: any[]) {
   return unique;
 }
 
+type Dict = Map<string, any>;
+
+function convertDictToObject(dict: Dict) {
+  const obj: any = {};
+  dict.forEach((value, key) => {
+    obj[key] = value;
+  });
+  return obj;
+}
+
 function getNodeKey(buildingName: string, tier: number) {
   return `${buildingName}/${tier}`;
 }
@@ -266,16 +276,120 @@ function createNodes(
   return keyToNode;
 }
 
-function createTownComponents(
-  factionBuildings: BuildingDTO[]
-): Component[] {
-  const keyToNode = createNodes(factionBuildings);
-  const componentIdToNodes = separateNodesIntoComponents(keyToNode);
-  const components = Array.from(componentIdToNodes.values()).map(
-    (nodes, componentId) => new Component(componentId, nodes));
-  return components;
+type Coordinate = {
+  x: number;
+  y: number;
+};
+
+type Dimensions = {
+  width: number;
+  height: number;
+};
+
+export type ComponentPositioningPlain = {
+  nodeKeyToPosition: Map<string, Coordinate>;
+  dimensions: Dimensions;
+};
+
+class ComponentPositioning {
+  nodeKeyToPosition: Map<string, Coordinate>;
+  dimensions: Dimensions;
+
+  constructor(
+    nodeKeyToPosition: Map<string, Coordinate>,
+    dimensions: Dimensions
+  ) {
+    this.nodeKeyToPosition = nodeKeyToPosition;
+    this.dimensions = dimensions;
+  }
+
+  toPlain() {
+    return {
+      nodeKeyToPosition: convertDictToObject(this.nodeKeyToPosition),
+      dimensions: this.dimensions,
+    };
+  }
+};
+
+function getComponentPositioning(
+  component: Component,
+  keyToNode: Map<string, Node>,
+): ComponentPositioning {
+  const nodeKeyToPosition = new Map<string, Coordinate>();
+
+
+  // DFS all the node y-positions.
+  const nodeKeyToY = new Map<string, number>();
+  function setNodeY(node: Node): number {
+    if (nodeKeyToY.has(node.key)) {
+      return nodeKeyToY.get(node.key) as number;
+    }
+    let maxParentY = 0;
+    node.parentKeys.forEach((parentKey) => {
+      const parentNode = keyToNode.get(parentKey);
+      const parentY = setNodeY(parentNode as Node);
+      maxParentY = Math.max(maxParentY, parentY);
+    });
+    const y = maxParentY + 1;
+    nodeKeyToY.set(node.key, y);
+    return y;
+  }
+  keyToNode.forEach((node) => {
+    setNodeY(node);
+  });
+
+  const dimensions = { width: 0, height: 0 };
+  component.stacks.forEach((stack, stackIndex) => {
+    stack.nodes.forEach((node) => {
+      // Stacks are sorted so that each stack's nodes have x = stackIndex + 1.
+      const x = stackIndex + 1;
+      const y = nodeKeyToY.get(node.key) as number;
+      // Possibly update component's dimensions.
+      dimensions.width = Math.max(dimensions.width, x);
+      dimensions.height = Math.max(dimensions.height, y);
+      nodeKeyToPosition.set(node.key, { x, y });
+    });
+  });
+
+  return new ComponentPositioning(nodeKeyToPosition, dimensions);
 }
 
-export {
-  createTownComponents,
+class PositionedComponent {
+  component: Component;
+  positioning: ComponentPositioning;
+
+  constructor(component: Component, positioning: ComponentPositioning) {
+    this.component = component;
+    this.positioning = positioning;
+  }
+
+  toPlain() {
+    return {
+      component: this.component.toPlain(),
+      positioning: this.positioning.toPlain(),
+    };
+  }
+}
+
+export type PositionedComponentPlain = {
+  component: ComponentPlain;
+  positioning: ComponentPositioningPlain;
+};
+
+export function createPositionedComponents(
+  factionBuildings: BuildingDTO[]
+): PositionedComponent[] {
+  const keyToNode = createNodes(factionBuildings);
+  const componentIdToNodes = separateNodesIntoComponents(keyToNode);
+
+  const positionedComponents = Array.from(componentIdToNodes.values()).map(
+    (nodes, componentId) => {
+      const component = new Component(componentId, nodes);
+      return new PositionedComponent(
+        component,
+        getComponentPositioning(component, keyToNode)
+      );
+    });
+
+  return positionedComponents;
 }

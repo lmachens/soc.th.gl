@@ -6,16 +6,18 @@ import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
 import PageHead from "../../components/PageHead/PageHead";
+import { BuildingDTO, getBuilding, getBuildings } from "../../lib/buildings";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
 import { TermsDTO } from "../../lib/terms";
-import { createTownComponents, ComponentPlain } from "../../lib/towns";
-import { BuildingDTO, getBuilding, getBuildings } from "../../lib/buildings";
+import { ComponentPlain, ComponentPositioningPlain, PositionedComponentPlain, createPositionedComponents } from "../../lib/towns";
 
 const TownComponent: React.FC<{
   component: ComponentPlain,
 }> = ({
   component,
+  positioning,
 }) => {
+  console.log(positioning);
   return (
     <div>
       {component.stacks.map(stack => (
@@ -29,7 +31,7 @@ const TownComponent: React.FC<{
 
 const FactionTown: NextPage<{
   faction: FactionDTO,
-  components: ComponentPlain[],
+  components: PositionedComponentPlain[],
 }> = ({
   faction,
   components,
@@ -42,10 +44,11 @@ const FactionTown: NextPage<{
       />
       <Container>
         <Title>{faction.name} Town Build</Title>
-        {components?.map(component => (
+        {components?.map(({ component, positioning }) => (
           <TownComponent
             key={component.id}
             component={component}
+            positioning={positioning}
           />
         ))}
       </Container>
@@ -66,13 +69,14 @@ export const getStaticProps = withStaticBase(async (context) => {
   const factionBuildings = getBuildings(context.locale!)
     .filter(building => (building.factionName === faction.name))
     .map(building => getBuilding(building.type, context.locale!));
-  const components = createTownComponents(factionBuildings as BuildingDTO[]);
+  const components = createPositionedComponents(
+    factionBuildings as BuildingDTO[]);
 
   const terms: TermsDTO = {};
   return {
     props: {
       faction,
-      components: components.map(component => component.toPlain()),
+      components: components.map(components => components.toPlain()),
       terms,
     },
     revalidate: false,
