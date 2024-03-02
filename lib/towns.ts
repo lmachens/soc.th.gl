@@ -1,0 +1,239 @@
+import { BuildingDTO } from "./buildings";
+
+function makeUnique(array: any[]) {
+  const unique: any[] = [];
+  array.forEach((item) => {
+    if (unique.indexOf(item) < 0) {
+      unique.push(item);
+    }
+  });
+  return unique;
+}
+
+function getNodeKey(buildingName: string, tier: number) {
+  return `${buildingName}/${tier}`;
+}
+
+class Node {
+  key: string;
+  name: string;
+  level: number;
+  nextLevelKey: string | null;
+  otherRequiredBuildingKeys: string[];
+  childKeys: string[];
+  parentKeys: string[];
+
+  static #constructNextLevelKey(
+    building: BuildingDTO,
+    level: number,
+  ): string | null {
+    const { levelUpgrades = [] } = building;
+    const hasNextLevel = (level - 1) < levelUpgrades.length;
+    if (hasNextLevel) {
+      return getNodeKey(building.name, level + 1);
+    } else {
+      return null;
+    }
+  }
+
+  static #constructOtherRequiredBuildingKeys(
+    building: BuildingDTO,
+    level: number,
+  ): string[] {
+    if (level === 1) {
+      const { requiredBuildings = [] } = building.requirements || {};
+      return requiredBuildings.map(buildingName => getNodeKey(buildingName, 1));
+    } else if (level > 1) {
+      // upgradeIndex = 0 => upgrade to level 2 (1 --> 2)
+      // upgradeIndex = 1 => upgrade to level 3 (2 --> 3)
+      const upgradeIndex = level - 2;
+      const { levelUpgrades = [] } = building;
+      if (upgradeIndex < levelUpgrades.length) {
+        return levelUpgrades[upgradeIndex].requiredBuildings.map(
+          (requiredName) => getNodeKey(requiredName, 1)
+        );
+      } else {
+        return [];
+      }
+    } else {
+      throw Error(`Invalid level ${level} for building: ${building.name}`);
+    }
+  }
+
+  constructor(building: BuildingDTO, level: number) {
+    this.key = getNodeKey(building.name, level);
+    this.name = building.name;
+    this.level = level;
+    this.nextLevelKey = Node.#constructNextLevelKey(building, level);
+    this.otherRequiredBuildingKeys = Node.#constructOtherRequiredBuildingKeys(
+      building, level);
+    this.childKeys = [];
+    this.parentKeys = [];
+  }
+
+  get isRoot() {
+    return (
+      (this.level === 1) &&
+      (this.otherRequiredBuildingKeys.length === 0)
+    );
+  }
+}
+
+class NodeStack {
+  nodes: Node[];
+  childNodeKeys: string[];
+
+  constructor(nodes: Node[]) {
+    this.nodes = nodes;
+    this.childNodeKeys = makeUnique(
+      this.nodes.map(node => node.childKeys).flat());
+  }
+
+  get numNodes() {
+    return this.nodes.length;
+  }
+}
+
+class Component {
+  id: number;
+  stacks: NodeStack[];
+
+  constructor(id: number, nodes: Node[]) {
+    this.id = id;
+    this.stacks = buildStacks(nodes);
+  }
+
+  get numNodes() {
+    return this.stacks.reduce((total, stack) => total + stack.numNodes, 0);
+  }
+}
+
+function buildStacks(nodes: Node[]): NodeStack[] {
+  const keyToNode = new Map<string, Node>();
+  nodes.map(node => keyToNode.set(node.key, node));
+
+  function buildOneStack(node: Node) {
+    let currentNode = node;
+    const stackNodes = [currentNode];
+    while (currentNode.nextLevelKey) {
+      currentNode = keyToNode.get(currentNode.nextLevelKey) as Node;
+      stackNodes.push(currentNode);
+    }
+    return new NodeStack(stackNodes);
+  }
+
+  const stacks: NodeStack[] = [];
+  nodes.forEach((node) => {
+    // Create a new stack only for tier 1 nodes.
+    if (node.level !== 1) { return; }
+    stacks.push(buildOneStack(node));
+  });
+
+  return stacks.sort((a, b) => {
+    const aBefore = -1;
+    const aSame = 0;
+
+    // Children after parents.
+    const bRootNode = keyToNode.get(b.nodes[0].key) as Node;
+    const aPointsToB = a.childNodeKeys.indexOf(bRootNode.key) >= 0;
+    if (aPointsToB) {
+      return aBefore;
+    }
+    return aSame;
+  });
+}
+
+function separateNodesIntoComponents(
+  keyToNode: Map<string, Node>,
+): Map<number, Node[]> {
+  const nodeKeyToComponentId = new Map();
+  let currentId = 0;
+
+  function markComponentDFS(node: Node) {
+    nodeKeyToComponentId.set(node.key, currentId);
+    const adjacentNodeKeys = node.childKeys.concat(node.parentKeys);
+    for (const adjacentNodeKey of adjacentNodeKeys) {
+      if (nodeKeyToComponentId.has(adjacentNodeKey)) {
+        continue;
+      }
+      const childNode = keyToNode.get(adjacentNodeKey);
+      if (!childNode) {
+        console.error(
+          `Non-existent key ${adjacentNodeKey} adjacent to key ${node.key}`);
+        return;
+      }
+      markComponentDFS(childNode);
+    }
+  }
+
+  for (const node of keyToNode.values()) {
+    if (!node.isRoot) {
+      continue;
+    }
+    if (!nodeKeyToComponentId.has(node.key)) {
+      markComponentDFS(node);
+      currentId += 1;
+    }
+  }
+
+  const componentIdToNodes = new Map<number, Node[]>();
+  for (const [nodeKey, componentId] of nodeKeyToComponentId.entries()) {
+    if (!componentIdToNodes.has(componentId)) {
+      componentIdToNodes.set(componentId, []);
+    }
+    // @ts-ignore
+    componentIdToNodes.get(componentId).push(keyToNode.get(nodeKey));
+
+  }
+  return componentIdToNodes;
+}
+
+function createNodes(
+  factionBuildings: BuildingDTO[]
+): Map<string, Node> {
+  const keyToNode = new Map();
+
+  // Create an child/parent-less Node for each level of each building.
+  factionBuildings.forEach((building) => {
+    const baseNode = new Node(building, 1);
+    keyToNode.set(baseNode.key, baseNode)
+    building?.levelUpgrades?.forEach((_, index) => {
+      const levelNode = new Node(building, index + 2);
+      keyToNode.set(levelNode.key, levelNode);
+    });
+  });
+
+  // Add adjacency info to each node.
+  // A is a parent of B and B is a child of A if one of the following holds:
+  // *   A is a requirement for B
+  // *   A is the previous level of B
+  keyToNode.forEach((node) => {
+    const { nextLevelKey } = node;
+    if (nextLevelKey) {
+      const nextLevelNode = keyToNode.get(nextLevelKey)
+      node.childKeys.push(nextLevelNode.key);
+      nextLevelNode.parentKeys.push(node.key);
+    }
+    node.otherRequiredBuildingKeys.forEach((requiredBuildingKey: string) => {
+      const requiredNode = keyToNode.get(requiredBuildingKey);
+      requiredNode.childKeys.push(node.key);
+      node.parentKeys.push(requiredNode.key);
+    });
+  });
+
+  return keyToNode;
+}
+
+function createTownComponents(
+  factionBuildings: BuildingDTO[]
+): Component[] {
+  const keyToNode = createNodes(factionBuildings);
+  const componentIdToNodes = separateNodesIntoComponents(keyToNode);
+  const components = Array.from(componentIdToNodes.values()).map(
+    (nodes, componentId) => new Component(componentId, nodes));
+  return components;
+}
+
+export {
+  createTownComponents,
+}

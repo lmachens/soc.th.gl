@@ -8,6 +8,8 @@ import { withStaticBase } from "../../lib/staticProps";
 import PageHead from "../../components/PageHead/PageHead";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
 import { TermsDTO } from "../../lib/terms";
+import { createTownComponents } from "../../lib/towns";
+import { BuildingDTO, getBuilding, getBuildings } from "../../lib/buildings";
 
 const FactionTown: NextPage<{
   faction: FactionDTO
@@ -37,6 +39,12 @@ export const getStaticProps = withStaticBase(async (context) => {
       notFound: true,
     };
   }
+  const factionBuildings = getBuildings(context.locale!)
+    .filter(building => (building.factionName === faction.name))
+    .map(building => getBuilding(building.type, context.locale!));
+  const components = createTownComponents(factionBuildings as BuildingDTO[]);
+  console.log(components);
+
   const terms: TermsDTO = {};
   return {
     props: {
