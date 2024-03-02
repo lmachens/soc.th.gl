@@ -142,10 +142,12 @@ export type NodeStackPlain = {
 
 class NodeStack {
   nodes: Node[];
+  nodeKeys: string[];
   childNodeKeys: string[];
 
   constructor(nodes: Node[]) {
     this.nodes = nodes;
+    this.nodeKeys = nodes.map(node => node.key);
     this.childNodeKeys = makeUnique(
       this.nodes.map(node => node.childKeys).flat());
   }
@@ -186,13 +188,20 @@ function buildStacks(nodes: Node[]): NodeStack[] {
   return stacks.sort((a, b) => {
     const aBefore = -1;
     const aSame = 0;
+    const aAfter = 1;
 
     // Children after parents.
-    const bRootNode = keyToNode.get(b.nodes[0].key) as Node;
-    const aPointsToB = a.childNodeKeys.indexOf(bRootNode.key) >= 0;
+    const aPointsToB = a.childNodeKeys.filter((aChildKey) =>
+      b.nodeKeys.includes(aChildKey)).length > 0;
+    const bPointsToA = b.childNodeKeys.filter((bChildKey) =>
+      a.nodeKeys.includes(bChildKey)).length > 0;
+
     if (aPointsToB) {
       return aBefore;
+    } else if (bPointsToA) {
+      return aAfter;
     }
+
     return aSame;
   });
 }
