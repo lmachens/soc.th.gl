@@ -273,12 +273,12 @@ function separateNodesIntoComponents(
  *  It also contains the component's size, for better responsive placement.
  */
 
-type Coordinate = {
+export type Coordinate = {
   x: number;
   y: number;
 };
 
-type Dimensions = {
+export type Dimensions = {
   width: number;
   height: number;
 };
