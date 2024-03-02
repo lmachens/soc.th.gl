@@ -28,41 +28,60 @@ const BuildingNode: React.FC<{
   data: {
     node: NodePlain,
     building: BuildingDTO,
+    numNodesInStack: number,
   },
 }> = ({
   data,
 }) => {
-  const { node, building } = data;
-  const hasChildren = node.childKeys.length > 0;
-  const hasParents = node.parentKeys.length > 0;
-  return (
-    <>
-      {hasParents && (
-        <Handle
-          type="target"
-          position={Position.Top}
-          style={{
-            opacity: 0,
-          }}
-        />
-      )}
-      <SpriteSheet
-        spriteSheet={building.portraits[node.level - 1]}
-        folder="buildings"
-      />
-      {hasChildren && (
-        <Handle
-          type="source"
-          position={Position.Bottom}
-          style={{
-            opacity: 0,
-          }}
-        />
-      )}
-      <Text align="center" size={9}>{node.key}</Text>
-    </>
-  );
-}
+    const { node, building, numNodesInStack } = data;
+    const hasChildren = node.childKeys.length > 0;
+    const hasParents = node.parentKeys.length > 0;
+    const nodeText = (numNodesInStack > 1)
+      ? `${node.name} (${node.level})`
+      : node.name;
+    return (
+      <div>
+        <div style={{
+          width: 64,
+          height: 64,
+          background: '#1a1b1e',
+          borderRadius: 8,
+          border: '1px solid #f39a25',
+        }}>
+          {hasParents && (
+            <Handle
+              type="target"
+              position={Position.Top}
+              style={{
+                opacity: 0,
+              }}
+            />
+          )}
+          <SpriteSheet
+            spriteSheet={building.portraits[node.level - 1]}
+            folder="buildings"
+          />
+          {hasChildren && (
+            <Handle
+              type="source"
+              position={Position.Bottom}
+              style={{
+                opacity: 0,
+              }}
+            />
+          )}
+          <Text
+            align="center"
+            size={11}
+          >
+            <mark style={{ background: '#1a1b1e', color: 'inherit' }}>
+              {nodeText}
+            </mark>
+          </Text>
+        </div>
+      </div>
+    );
+  }
 
 /** Places Node components into rows.
  *  This method is useful for dynamically resizing the grid for small screens.
@@ -105,59 +124,60 @@ const TownGraph: React.FC<{
   nameToBuilding,
   townData,
 }) => {
-  const componentIdToOffset = getComponentOffsets(
-    townData.components, 8);
-  const reactflowNodes = [] as any[];
-  const reactflowEdges = [] as any[];
-  townData.components.forEach(({ component, positioning }) => {
-    const offset = componentIdToOffset[component.id];
-    component.stacks.forEach((stack) => {
-      stack.nodes.forEach((node) => {
-        const { x, y } = positioning.nodeKeyToPosition[node.key];
-        reactflowNodes.push({
-          id: node.key,
-          type: 'buildingNode',
-          data: {
-            node,
-            building: nameToBuilding[node.name],
-          },
-          position: {
-            x: (offset.x + x - 1) * (64 + 32),
-            y: (offset.y + y - 1) * (64 + 64),
-          },
-        });
+    const componentIdToOffset = getComponentOffsets(
+      townData.components, 8);
+    const reactflowNodes = [] as any[];
+    const reactflowEdges = [] as any[];
+    townData.components.forEach(({ component, positioning }) => {
+      const offset = componentIdToOffset[component.id];
+      component.stacks.forEach((stack) => {
+        stack.nodes.forEach((node) => {
+          const { x, y } = positioning.nodeKeyToPosition[node.key];
+          reactflowNodes.push({
+            id: node.key,
+            type: 'buildingNode',
+            data: {
+              node,
+              building: nameToBuilding[node.name],
+              numNodesInStack: stack.numNodes,
+            },
+            position: {
+              x: (offset.x + x - 1) * (64 + 32),
+              y: (offset.y + y - 1) * (64 + 64),
+            },
+          });
 
-        node.childKeys.forEach((childKey) => {
-          reactflowEdges.push({
-            id: `${node.key}-${childKey}`,
-            source: node.key,
-            target: childKey,
-            markerEnd: {
-              type: MarkerType.Arrow,
-              color: '#f39a25',
-            },
-            style: {
-              stroke: '#f39a25',
-            },
+          node.childKeys.forEach((childKey) => {
+            reactflowEdges.push({
+              id: `${node.key}-${childKey}`,
+              source: node.key,
+              target: childKey,
+              markerEnd: {
+                type: MarkerType.Arrow,
+                color: '#f39a25',
+              },
+              style: {
+                stroke: '#f39a25',
+              },
+            });
           });
         });
       });
     });
-  });
 
-  const nodeTypes = useMemo(() => ({ buildingNode: BuildingNode }), []);
+    const nodeTypes = useMemo(() => ({ buildingNode: BuildingNode }), []);
 
-  return (
-    <div style={{ minWidth:800, width: 1000, height: 800 }}>
-      <ReactFlow
-        nodeTypes={nodeTypes}
-        nodes={reactflowNodes}
-        edges={reactflowEdges}
-        proOptions={{ hideAttribution: true }}
-      />
-    </div>
-  );
-};
+    return (
+      <div style={{ minWidth: 800, width: 1000, height: 800 }}>
+        <ReactFlow
+          nodeTypes={nodeTypes}
+          nodes={reactflowNodes}
+          edges={reactflowEdges}
+          proOptions={{ hideAttribution: true }}
+        />
+      </div>
+    );
+  };
 
 const FactionTown: NextPage<{
   faction: FactionDTO,
@@ -168,22 +188,22 @@ const FactionTown: NextPage<{
   nameToBuilding,
   townData,
 }) => {
-  return (
-    <>
-      <PageHead
-        title={`${faction.name} Town Build - SoC.gg`}
-        description={`Town build calculator for the ${faction.name} faction from Songs of Conquest.`}
-      />
-      <Container>
-        <Title>{faction.name} Town Build</Title>
-        <TownGraph
-          nameToBuilding={nameToBuilding}
-          townData={townData}
+    return (
+      <>
+        <PageHead
+          title={`${faction.name} Town Build - SoC.gg`}
+          description={`Town build calculator for the ${faction.name} faction from Songs of Conquest.`}
         />
-      </Container>
-    </>
-  );
-};
+        <Container>
+          <Title>{faction.name} Town Build</Title>
+          <TownGraph
+            nameToBuilding={nameToBuilding}
+            townData={townData}
+          />
+        </Container>
+      </>
+    );
+  };
 
 export default FactionTown;
 
