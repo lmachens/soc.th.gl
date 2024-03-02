@@ -10,16 +10,6 @@ function makeUnique(array: any[]) {
   return unique;
 }
 
-type Dict = Map<string, any>;
-
-function convertDictToObject(dict: Dict) {
-  const obj: any = {};
-  dict.forEach((value, key) => {
-    obj[key] = value;
-  });
-  return obj;
-}
-
 function getNodeKey(buildingName: string, tier: number) {
   return `${buildingName}/${tier}`;
 }
@@ -287,7 +277,7 @@ type Dimensions = {
 };
 
 export type ComponentPositioningPlain = {
-  nodeKeyToPosition: Map<string, Coordinate>;
+  nodeKeyToPosition: { [key: string]: Coordinate };
   dimensions: Dimensions;
 };
 
@@ -303,9 +293,13 @@ class ComponentPositioning {
     this.dimensions = dimensions;
   }
 
-  toPlain() {
+  toPlain(): ComponentPositioningPlain {
+    const nodeKeyToPositionPlain: { [key: string]: Coordinate } = {};
+    this.nodeKeyToPosition.forEach((position, key) => {
+      nodeKeyToPositionPlain[key] = position;
+    });
     return {
-      nodeKeyToPosition: convertDictToObject(this.nodeKeyToPosition),
+      nodeKeyToPosition: nodeKeyToPositionPlain,
       dimensions: this.dimensions,
     };
   }
@@ -354,6 +348,12 @@ function getComponentPositioning(
   return new ComponentPositioning(nodeKeyToPosition, dimensions);
 }
 
+type PositionedComponentPlain = {
+  component: ComponentPlain;
+  positioning: ComponentPositioningPlain;
+};
+
+
 class PositionedComponent {
   component: Component;
   positioning: ComponentPositioning;
@@ -363,7 +363,7 @@ class PositionedComponent {
     this.positioning = positioning;
   }
 
-  toPlain() {
+  toPlain(): PositionedComponentPlain {
     return {
       component: this.component.toPlain(),
       positioning: this.positioning.toPlain(),
@@ -371,14 +371,38 @@ class PositionedComponent {
   }
 }
 
-export type PositionedComponentPlain = {
-  component: ComponentPlain;
-  positioning: ComponentPositioningPlain;
+export type TownDataPlain = {
+  keyToNode: { [key: string]: NodePlain };
+  components: PositionedComponentPlain[];
 };
 
-export function createPositionedComponents(
+class TownData {
+  keyToNode: Map<string, Node>;
+  components: PositionedComponent[];
+
+  constructor(
+    keyToNode: Map<string, Node>,
+    components: PositionedComponent[]
+  ) {
+    this.keyToNode = keyToNode;
+    this.components = components;
+  }
+
+  toPlain(): TownDataPlain {
+    const keyToNodePlain: { [key: string]: NodePlain } = {};
+    this.keyToNode.forEach((node, key) => {
+      keyToNodePlain[key] = node.toPlain();
+    });
+    return {
+      keyToNode: keyToNodePlain,
+      components: this.components.map(component => component.toPlain()),
+    };
+  }
+};
+
+export function createTownData(
   factionBuildings: BuildingDTO[]
-): PositionedComponent[] {
+): TownDataPlain {
   const keyToNode = createNodes(factionBuildings);
   const componentIdToNodes = separateNodesIntoComponents(keyToNode);
 
@@ -391,5 +415,5 @@ export function createPositionedComponents(
       );
     });
 
-  return positionedComponents;
+  return (new TownData(keyToNode, positionedComponents)).toPlain();
 }

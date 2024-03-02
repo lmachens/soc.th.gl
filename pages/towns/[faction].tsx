@@ -9,10 +9,16 @@ import PageHead from "../../components/PageHead/PageHead";
 import { BuildingDTO, getBuilding, getBuildings } from "../../lib/buildings";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
 import { TermsDTO } from "../../lib/terms";
-import { ComponentPlain, ComponentPositioningPlain, PositionedComponentPlain, createPositionedComponents } from "../../lib/towns";
+import {
+  ComponentPlain,
+  ComponentPositioningPlain,
+  createTownData,
+  TownDataPlain,
+} from "../../lib/towns";
 
 const TownComponent: React.FC<{
   component: ComponentPlain,
+  positioning: ComponentPositioningPlain,
 }> = ({
   component,
   positioning,
@@ -31,10 +37,10 @@ const TownComponent: React.FC<{
 
 const FactionTown: NextPage<{
   faction: FactionDTO,
-  components: PositionedComponentPlain[],
+  townData: TownDataPlain,
 }> = ({
   faction,
-  components,
+  townData,
 }) => {
   return (
     <>
@@ -44,7 +50,7 @@ const FactionTown: NextPage<{
       />
       <Container>
         <Title>{faction.name} Town Build</Title>
-        {components?.map(({ component, positioning }) => (
+        {townData.components?.map(({ component, positioning }) => (
           <TownComponent
             key={component.id}
             component={component}
@@ -69,14 +75,13 @@ export const getStaticProps = withStaticBase(async (context) => {
   const factionBuildings = getBuildings(context.locale!)
     .filter(building => (building.factionName === faction.name))
     .map(building => getBuilding(building.type, context.locale!));
-  const components = createPositionedComponents(
-    factionBuildings as BuildingDTO[]);
+  const townData = createTownData(factionBuildings as BuildingDTO[]);
 
   const terms: TermsDTO = {};
   return {
     props: {
       faction,
-      components: components.map(components => components.toPlain()),
+      townData,
       terms,
     },
     revalidate: false,
