@@ -14,6 +14,7 @@ function getNodeKey(buildingName: string, tier: number) {
   return `${buildingName}/${tier}`;
 }
 
+/** A Node is a building at a specific level/tier. */
 export type NodePlain = {
   key: string;
   name: string;
@@ -97,6 +98,43 @@ class Node {
   }
 }
 
+function createNodes(
+  factionBuildings: BuildingDTO[]
+): Map<string, Node> {
+  const keyToNode = new Map();
+
+  // Create an child/parent-less Node for each level of each building.
+  factionBuildings.forEach((building) => {
+    const baseNode = new Node(building, 1);
+    keyToNode.set(baseNode.key, baseNode)
+    building?.levelUpgrades?.forEach((_, index) => {
+      const levelNode = new Node(building, index + 2);
+      keyToNode.set(levelNode.key, levelNode);
+    });
+  });
+
+  // Add adjacency info to each node.
+  // A is a parent of B and B is a child of A if one of the following holds:
+  // *   A is a requirement for B
+  // *   A is the previous level of B
+  keyToNode.forEach((node) => {
+    const { nextLevelKey } = node;
+    if (nextLevelKey) {
+      const nextLevelNode = keyToNode.get(nextLevelKey)
+      node.childKeys.push(nextLevelNode.key);
+      nextLevelNode.parentKeys.push(node.key);
+    }
+    node.otherRequiredBuildingKeys.forEach((requiredBuildingKey: string) => {
+      const requiredNode = keyToNode.get(requiredBuildingKey);
+      requiredNode.childKeys.push(node.key);
+      node.parentKeys.push(requiredNode.key);
+    });
+  });
+
+  return keyToNode;
+}
+
+/** A NodeStack consists of all the Nodes coming from one building. */
 export type NodeStackPlain = {
   nodes: NodePlain[];
   childNodeKeys: string[];
@@ -120,32 +158,6 @@ class NodeStack {
     return {
       nodes: this.nodes.map(node => node.toPlain()),
       childNodeKeys: this.childNodeKeys,
-    };
-  }
-}
-
-export type ComponentPlain = {
-  id: number;
-  stacks: NodeStackPlain[];
-};
-
-class Component {
-  id: number;
-  stacks: NodeStack[];
-
-  constructor(id: number, nodes: Node[]) {
-    this.id = id;
-    this.stacks = buildStacks(nodes);
-  }
-
-  get numNodes() {
-    return this.stacks.reduce((total, stack) => total + stack.numNodes, 0);
-  }
-
-  toPlain(): ComponentPlain {
-    return {
-      id: this.id,
-      stacks: this.stacks.map(stack => stack.toPlain()),
     };
   }
 }
@@ -183,6 +195,33 @@ function buildStacks(nodes: Node[]): NodeStack[] {
     }
     return aSame;
   });
+}
+
+/** A (connected) Component stacks that map to each other through requirements. */
+export type ComponentPlain = {
+  id: number;
+  stacks: NodeStackPlain[];
+};
+
+class Component {
+  id: number;
+  stacks: NodeStack[];
+
+  constructor(id: number, nodes: Node[]) {
+    this.id = id;
+    this.stacks = buildStacks(nodes);
+  }
+
+  get numNodes() {
+    return this.stacks.reduce((total, stack) => total + stack.numNodes, 0);
+  }
+
+  toPlain(): ComponentPlain {
+    return {
+      id: this.id,
+      stacks: this.stacks.map(stack => stack.toPlain()),
+    };
+  }
 }
 
 function separateNodesIntoComponents(
@@ -230,41 +269,9 @@ function separateNodesIntoComponents(
   return componentIdToNodes;
 }
 
-function createNodes(
-  factionBuildings: BuildingDTO[]
-): Map<string, Node> {
-  const keyToNode = new Map();
-
-  // Create an child/parent-less Node for each level of each building.
-  factionBuildings.forEach((building) => {
-    const baseNode = new Node(building, 1);
-    keyToNode.set(baseNode.key, baseNode)
-    building?.levelUpgrades?.forEach((_, index) => {
-      const levelNode = new Node(building, index + 2);
-      keyToNode.set(levelNode.key, levelNode);
-    });
-  });
-
-  // Add adjacency info to each node.
-  // A is a parent of B and B is a child of A if one of the following holds:
-  // *   A is a requirement for B
-  // *   A is the previous level of B
-  keyToNode.forEach((node) => {
-    const { nextLevelKey } = node;
-    if (nextLevelKey) {
-      const nextLevelNode = keyToNode.get(nextLevelKey)
-      node.childKeys.push(nextLevelNode.key);
-      nextLevelNode.parentKeys.push(node.key);
-    }
-    node.otherRequiredBuildingKeys.forEach((requiredBuildingKey: string) => {
-      const requiredNode = keyToNode.get(requiredBuildingKey);
-      requiredNode.childKeys.push(node.key);
-      node.parentKeys.push(requiredNode.key);
-    });
-  });
-
-  return keyToNode;
-}
+/** ComponentPositioning places each Node in the component on a grid.
+ *  It also contains the component's size, for better responsive placement.
+ */
 
 type Coordinate = {
   x: number;
@@ -348,6 +355,7 @@ function getComponentPositioning(
   return new ComponentPositioning(nodeKeyToPosition, dimensions);
 }
 
+/** A PositionedComponent is bundled Component and ComponentPositioning data. */
 type PositionedComponentPlain = {
   component: ComponentPlain;
   positioning: ComponentPositioningPlain;
@@ -371,6 +379,7 @@ class PositionedComponent {
   }
 }
 
+/** TownData is all the data we need to render a town build graph. */
 export type TownDataPlain = {
   keyToNode: { [key: string]: NodePlain };
   components: PositionedComponentPlain[];
