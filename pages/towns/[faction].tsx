@@ -8,26 +8,50 @@ import { withStaticBase } from "../../lib/staticProps";
 import PageHead from "../../components/PageHead/PageHead";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
 import { TermsDTO } from "../../lib/terms";
-import { createTownComponents } from "../../lib/towns";
+import { createTownComponents, ComponentPlain } from "../../lib/towns";
 import { BuildingDTO, getBuilding, getBuildings } from "../../lib/buildings";
 
-const FactionTown: NextPage<{
-  faction: FactionDTO
+const TownComponent: React.FC<{
+  component: ComponentPlain,
 }> = ({
-  faction
+  component,
 }) => {
-    return (
-      <>
-        <PageHead
-          title={`${faction.name} Town Build - SoC.gg`}
-          description={`Town build calculator for the ${faction.name} faction from Songs of Conquest.`}
-        />
-        <Container>
-          <Title>{faction.name} Town Build</Title>
-        </Container>
-      </>
-    );
-  };
+  return (
+    <div>
+      {component.stacks.map(stack => (
+        stack.nodes.map(node => (
+          <div key={node.key}>{node.key}</div>
+        ))
+      )).flat()}
+    </div>
+  );
+};
+
+const FactionTown: NextPage<{
+  faction: FactionDTO,
+  components: ComponentPlain[],
+}> = ({
+  faction,
+  components,
+}) => {
+  return (
+    <>
+      <PageHead
+        title={`${faction.name} Town Build - SoC.gg`}
+        description={`Town build calculator for the ${faction.name} faction from Songs of Conquest.`}
+      />
+      <Container>
+        <Title>{faction.name} Town Build</Title>
+        {components?.map(component => (
+          <TownComponent
+            key={component.id}
+            component={component}
+          />
+        ))}
+      </Container>
+    </>
+  );
+};
 
 export default FactionTown;
 
@@ -43,12 +67,12 @@ export const getStaticProps = withStaticBase(async (context) => {
     .filter(building => (building.factionName === faction.name))
     .map(building => getBuilding(building.type, context.locale!));
   const components = createTownComponents(factionBuildings as BuildingDTO[]);
-  console.log(components);
 
   const terms: TermsDTO = {};
   return {
     props: {
       faction,
+      components: components.map(component => component.toPlain()),
       terms,
     },
     revalidate: false,

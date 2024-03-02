@@ -14,6 +14,14 @@ function getNodeKey(buildingName: string, tier: number) {
   return `${buildingName}/${tier}`;
 }
 
+export type NodePlain = {
+  key: string;
+  name: string;
+  level: number;
+  childKeys: string[];
+  parentKeys: string[];
+};
+
 class Node {
   key: string;
   name: string;
@@ -77,7 +85,22 @@ class Node {
       (this.otherRequiredBuildingKeys.length === 0)
     );
   }
+
+  toPlain(): NodePlain {
+    return {
+      key: this.key,
+      name: this.name,
+      level: this.level,
+      childKeys: this.childKeys,
+      parentKeys: this.parentKeys,
+    };
+  }
 }
+
+export type NodeStackPlain = {
+  nodes: NodePlain[];
+  childNodeKeys: string[];
+};
 
 class NodeStack {
   nodes: Node[];
@@ -92,7 +115,19 @@ class NodeStack {
   get numNodes() {
     return this.nodes.length;
   }
+
+  toPlain(): NodeStackPlain {
+    return {
+      nodes: this.nodes.map(node => node.toPlain()),
+      childNodeKeys: this.childNodeKeys,
+    };
+  }
 }
+
+export type ComponentPlain = {
+  id: number;
+  stacks: NodeStackPlain[];
+};
 
 class Component {
   id: number;
@@ -105,6 +140,13 @@ class Component {
 
   get numNodes() {
     return this.stacks.reduce((total, stack) => total + stack.numNodes, 0);
+  }
+
+  toPlain(): ComponentPlain {
+    return {
+      id: this.id,
+      stacks: this.stacks.map(stack => stack.toPlain()),
+    };
   }
 }
 
