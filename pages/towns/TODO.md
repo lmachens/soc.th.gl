@@ -12,7 +12,7 @@
 -   Add building sizes like S/M/L to the data
     (so that we can calculate needed town size).
 -   Calculate needed income for achieving build.
--   Add tooltips to buildings showing which building is available.
+-   Add tooltips to buildings showing building incomes.
 -   Display mana generation per unit.
 -   Add share button and sync URL with build.
 
@@ -21,4 +21,7 @@
 -   Allow selecting unit stack counts (up to max stacks possible for wielder).
     -   Show mana generation totals.
         -   Add a tab for available spells.
--   Allow reverse-build selection, e.g., click unit to show buildings needed.
+-   Optional: Allow reverse-build selection, e.g., click unit to show
+    buildings needed.
+-   Show incomes from build (resources and units).
+    -   Integrate research effects.
