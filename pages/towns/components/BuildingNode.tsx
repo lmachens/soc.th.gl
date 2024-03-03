@@ -9,11 +9,12 @@ export const BuildingNode: React.FC<{
     node: NodePlain;
     building: BuildingDTO;
     numNodesInStack: number;
-  },
+    selected: boolean;
+  };
 }> = ({
   data,
 }) => {
-  const { node, building, numNodesInStack } = data;
+  const { node, building, numNodesInStack, selected } = data;
   const hasChildren = node.childKeys.length > 0;
   const hasParents = node.parentKeys.length > 0;
   const nodeText = (numNodesInStack > 1)
@@ -26,7 +27,9 @@ export const BuildingNode: React.FC<{
         height: 64,
         background: '#1a1b1e',
         borderRadius: 8,
-        border: '1px solid #f39a25',
+        border: selected ? '1px solid #f39a25' : '1px solid rgb(193, 194, 197)',
+        boxShadow: selected ? '0 0 2px 1px #f39a25' : 'none',
+        cursor: 'pointer',
       }}>
         {hasParents && (
           <Handle
@@ -38,7 +41,8 @@ export const BuildingNode: React.FC<{
         )}
         <SpriteSheet
           spriteSheet={building.portraits[node.level - 1]}
-          folder="buildings" />
+          folder="buildings"
+        />
         {hasChildren && (
           <Handle
             type="source"
