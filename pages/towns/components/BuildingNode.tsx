@@ -9,7 +9,7 @@ export const BuildingNode: React.FC<{
     node: NodePlain;
     building: BuildingDTO;
     numNodesInStack: number;
-  };
+  },
 }> = ({
   data,
 }) => {

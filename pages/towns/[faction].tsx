@@ -14,6 +14,7 @@ import {
   createTownData} from "../../lib/towns";
 
 import { TownGraph } from "./components/TownGraph";
+import { ReactFlowProvider } from "reactflow";
 
 
 const FactionTown: NextPage<{
@@ -33,10 +34,12 @@ const FactionTown: NextPage<{
         />
         <Container>
           <Title>{faction.name} Town Build</Title>
-          <TownGraph
-            nameToBuilding={nameToBuilding}
-            townData={townData}
-          />
+          <ReactFlowProvider>
+            <TownGraph
+              nameToBuilding={nameToBuilding}
+              townData={townData}
+            />
+          </ReactFlowProvider>
         </Container>
       </>
     );
