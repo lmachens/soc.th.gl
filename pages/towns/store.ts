@@ -7,6 +7,7 @@ import {
   OnEdgesChange,
   applyNodeChanges,
   applyEdgeChanges,
+  MarkerType,
 } from 'reactflow';
 import { create } from 'zustand';
 
@@ -79,15 +80,27 @@ const createUseTownStore = (
           nodes: state.nodes.map((flowNode) => {
             const wasSelected = flowNode.data.selected;
             const isSelected = selectedKeys.has(flowNode.id);
-            if (wasSelected === isSelected) {
-              return flowNode;
-            } else {
+            if (wasSelected !== isSelected) {
               flowNode.data = {
                 ...flowNode.data,
                 selected: isSelected,
               };
-              return flowNode;
             }
+            return flowNode;
+          }),
+          edges: state.edges.map((flowEdge) => {
+            const sourceSelected = selectedKeys.has(flowEdge.source);
+            const targetSelected = selectedKeys.has(flowEdge.target);
+            const isSelected = sourceSelected && targetSelected;
+            flowEdge.style = {
+              ...flowEdge.style,
+              stroke: isSelected ? '#f39a25' : '#c1c2c5',
+            };
+            flowEdge.markerEnd = {
+              type: MarkerType.Arrow,
+              color: isSelected ? '#f39a25' : '#c1c2c5',
+            };
+            return flowEdge;
           }),
           selectedKeys,
         });

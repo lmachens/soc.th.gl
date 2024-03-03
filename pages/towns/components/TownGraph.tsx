@@ -95,10 +95,10 @@ export const TownGraph: React.FC<{
               target: childKey,
               markerEnd: {
                 type: MarkerType.Arrow,
-                color: '#f39a25',
+                color: '#c1c2c5',
               },
               style: {
-                stroke: '#f39a25',
+                stroke: '#c1c2c5',
               },
             });
           });

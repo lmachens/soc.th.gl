@@ -27,8 +27,7 @@ export const BuildingNode: React.FC<{
         height: 64,
         background: '#1a1b1e',
         borderRadius: 8,
-        border: selected ? '1px solid #f39a25' : '1px solid rgb(193, 194, 197)',
-        boxShadow: selected ? '0 0 2px 1px #f39a25' : 'none',
+        border: selected ? '1px solid #f39a25' : '1px solid #c1c2c5',
         cursor: 'pointer',
       }}>
         {hasParents && (
@@ -55,7 +54,10 @@ export const BuildingNode: React.FC<{
           align="center"
           size={11}
         >
-          <mark style={{ background: '#1a1b1e', color: 'inherit' }}>
+          <mark style={{
+            background: '#1a1b1e',
+            color: selected ? '#f39a25' : '#c1c2c5'
+          }}>
             {nodeText}
           </mark>
         </Text>
