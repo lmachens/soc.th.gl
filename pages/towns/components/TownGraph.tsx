@@ -3,11 +3,14 @@ import ReactFlow, { Edge, MarkerType, Node } from "reactflow";
 import { useShallow } from "zustand/react/shallow";
 
 import { BuildingDTO } from "../../../lib/buildings";
-import createUseTownStore, { TownGraphState } from "../store";
 import { Coordinate, Dimensions, PositionedComponentPlain, TownDataPlain } from "../../../lib/towns";
+import createUseTownStore, { TownGraphState } from "../store";
 import { BuildingNode } from "./BuildingNode";
 
 import 'reactflow/dist/style.css';
+import { kAppNavbarWidthLg, kAppNavbarWidthSm } from "../../../components/AppNavbar/AppNavbar";
+import { useWindowDimensions } from "../../../lib/hooks";
+import { kMaxComponentWidth, kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
 
 /** Places Node components into rows.
  *  This function is useful for dynamically resizing the grid for small screens.
@@ -57,14 +60,53 @@ const selector = (state: TownGraphState) => ({
   toggleNodeSelection: state.toggleNodeSelection,
 });
 
+/**
+ * Determines the number of columns to use for the town graph.
+ *
+ * Because we render the town graph in ReactFlow with explicitly calculated
+ * node positions, we need to manually make the graph responsive.
+ * Moreover, we can't narrow the graph beyond the width of the widest
+ * node connected component.
+ *
+ * The non-responsiveness of the graph is compensated for by the ability to pan.
+ */
+const useResponsiveNumNodeColumns = () => {
+  const windowDimensions = useWindowDimensions();
+  const columnSpacing = [
+    {
+      numColumns: 10,
+      unavailableWidth: kAppNavbarWidthLg + (
+        /* error margin = */ kNodeSize + kNodeMarginRight)
+    },
+    { numColumns: 8, unavailableWidth: kAppNavbarWidthSm },
+  ];
+  const possibleSpacing = columnSpacing.filter(
+    ({ numColumns, unavailableWidth }) => {
+      const availableWidth = windowDimensions.width - unavailableWidth;
+      const neededGraphWidth = numColumns * (
+        kNodeSize + kNodeMarginRight);
+      if (availableWidth >= neededGraphWidth) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  );
+  return Math.max(
+    ...possibleSpacing.map(({ numColumns }) => numColumns)
+  ) || kMaxComponentWidth;
+}
+
 export const TownGraph: React.FC<{
   nameToBuilding: { [key: string]: BuildingDTO; };
   townData: TownDataPlain;
 }> = ({
   nameToBuilding, townData,
 }) => {
+  const numNodeColumns = useResponsiveNumNodeColumns();
+
   const { componentIdToOffset, dimensions } = useMemo(() => getComponentOffsets(
-    townData.components, 8), [townData]);
+    townData.components, numNodeColumns), [townData, numNodeColumns]);
   const computeInitialGraphData = () => {
     const initialNodes = [] as Node[];
     const initialEdges = [] as Edge[];
@@ -83,8 +125,10 @@ export const TownGraph: React.FC<{
               selected: false,
             },
             position: {
-              x: (offset.x + x - 1) * (64 + 32),
-              y: (offset.y + y - 1) * (64 + 64),
+              x: (offset.x + x - 1) * (
+                kNodeSize + kNodeMarginRight),
+              y: (offset.y + y - 1) * (
+                kNodeSize + kNodeMarginBottom),
             },
           });
 
@@ -132,7 +176,8 @@ export const TownGraph: React.FC<{
     <div
       style={{
         width: '100%',
-        height: dimensions.height * (64 + 64),
+        height: dimensions.height * (
+          kNodeSize + kNodeMarginBottom),
       }}>
       <ReactFlow
         nodeTypes={nodeTypes}

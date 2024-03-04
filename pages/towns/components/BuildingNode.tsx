@@ -3,6 +3,7 @@ import { Handle, Position } from "reactflow";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { BuildingDTO } from "../../../lib/buildings";
 import { NodePlain } from "../../../lib/towns";
+import { kNodeSize } from "./constants";
 
 export const BuildingNode: React.FC<{
   data: {
@@ -23,8 +24,8 @@ export const BuildingNode: React.FC<{
   return (
     <div>
       <div style={{
-        width: 64,
-        height: 64,
+        width: kNodeSize,
+        height: kNodeSize,
         background: '#1a1b1e',
         borderRadius: 8,
         border: selected ? '1px solid #f39a25' : '1px solid #c1c2c5',
