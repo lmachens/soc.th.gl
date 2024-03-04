@@ -15,16 +15,20 @@ import {
 
 import { TownGraph } from "./components/TownGraph";
 import { ReactFlowProvider } from "reactflow";
+import { AvailableTroops } from "./components/AvailableTroops";
+import { UnitSimpleDTO, getUnits } from "../../lib/units";
 
 
 const FactionTown: NextPage<{
   faction: FactionDTO,
   nameToBuilding: { [key: string]: BuildingDTO },
   townData: TownDataPlain,
+  units: UnitSimpleDTO[],
 }> = ({
   faction,
   nameToBuilding,
   townData,
+  units,
 }) => {
     return (
       <>
@@ -34,6 +38,11 @@ const FactionTown: NextPage<{
         />
         <Container>
           <Title>{faction.name} Town Build</Title>
+          <Title order={3}>Available Troops</Title>
+          <AvailableTroops
+            units={units}
+          />
+          <Title order={3}>Town Buildings</Title>
           <ReactFlowProvider>
             <TownGraph
               nameToBuilding={nameToBuilding}
@@ -66,12 +75,16 @@ export const getStaticProps = withStaticBase(async (context) => {
     nameToBuilding[building.name] = building;
   });
 
+  const units = getUnits(context.locale!);
+  const factionUnits = units.filter(unit => (unit.faction === factionType));
+
   const terms: TermsDTO = {};
   return {
     props: {
       faction,
       nameToBuilding,
       townData,
+      units: factionUnits,
       terms,
     },
     revalidate: false,
