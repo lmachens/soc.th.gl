@@ -61,9 +61,10 @@ export const AvailableTroops: React.FC<{
 }) => {
   return (
     <Grid columns={units.length}>
-      {(units || []).map((unit) => (
+      {(units).map((unit) => (
         <Grid.Col
-          span={1}
+          md={2}
+          lg={1}
           key={`${unit.vanilla.name}-stack`}
         >
           <UnitStack
