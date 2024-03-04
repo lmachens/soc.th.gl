@@ -10,8 +10,10 @@ import { BuildingDTO, getBuilding, getBuildings } from "../../lib/buildings";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
 import { TermsDTO } from "../../lib/terms";
 import {
+  kExcludedUnitNames,
   TownDataPlain,
-  createTownData} from "../../lib/towns";
+  createTownData
+} from "../../lib/towns";
 
 import { TownGraph } from "./components/TownGraph";
 import { ReactFlowProvider } from "reactflow";
@@ -76,7 +78,9 @@ export const getStaticProps = withStaticBase(async (context) => {
   });
 
   const units = getUnits(context.locale!);
-  const factionUnits = units.filter(unit => (unit.faction === factionType));
+  const factionUnits = units
+    .filter(unit => (unit.faction === factionType))
+    .filter(unit => (kExcludedUnitNames.indexOf(unit.vanilla.name) === -1));
 
   const terms: TermsDTO = {};
   return {

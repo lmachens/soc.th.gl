@@ -1,5 +1,11 @@
 import { BuildingDTO } from "./buildings";
 
+/** Units excluded from the town build calculators. */
+export const kExcludedUnitNames = [
+  "Ballistae",
+  "Risen",
+];
+
 function makeUnique(array: any[]) {
   const unique: any[] = [];
   array.forEach((item) => {
