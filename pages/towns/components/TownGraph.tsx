@@ -63,7 +63,7 @@ export const TownGraph: React.FC<{
 }> = ({
   nameToBuilding, townData,
 }) => {
-  const { componentIdToOffset } = useMemo(() => getComponentOffsets(
+  const { componentIdToOffset, dimensions } = useMemo(() => getComponentOffsets(
     townData.components, 8), [townData]);
   const computeInitialGraphData = () => {
     const initialNodes = [] as Node[];
@@ -129,7 +129,11 @@ export const TownGraph: React.FC<{
   const nodeTypes = useMemo(() => ({ buildingNode: BuildingNode }), []);
 
   return (
-    <div style={{ minWidth: 800, width: 1000, height: 800 }}>
+    <div
+      style={{
+        width: '100%',
+        height: dimensions.height * (64 + 64),
+      }}>
       <ReactFlow
         nodeTypes={nodeTypes}
         nodes={nodes}
@@ -137,7 +141,11 @@ export const TownGraph: React.FC<{
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onNodeClick={(_, node) => toggleNodeSelection(node.id)}
-        proOptions={{ hideAttribution: true }} />
+        panOnDrag={false}
+        zoomOnScroll={false}
+        preventScrolling={false}
+        proOptions={{ hideAttribution: true }}
+      />
     </div>
   );
 };
