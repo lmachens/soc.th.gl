@@ -141,7 +141,7 @@ export const TownGraph: React.FC<{
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onNodeClick={(_, node) => toggleNodeSelection(node.id)}
-        panOnDrag={false}
+        panOnDrag={true}
         zoomOnScroll={false}
         preventScrolling={false}
         proOptions={{ hideAttribution: true }}

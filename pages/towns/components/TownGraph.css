@@ -1,4 +1,0 @@
-/* Disable the grab cursor since panning is disabled. */
-.react-flow__pane {
-  cursor: default !important;
-}

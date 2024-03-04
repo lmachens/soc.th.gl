@@ -11,8 +11,6 @@ import { loadNitroAds } from "../lib/nitroAds";
 import { initPlausible } from "../lib/stats";
 import { useAccountStore } from "../lib/store/account";
 
-import './towns/components/TownGraph.css';
-
 export type NextPageWithBanner<T = {}> = NextPage<T> & {
   getBanner?: () => ReactNode;
 };
