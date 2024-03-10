@@ -3,7 +3,7 @@ import ReactFlow, { Edge, MarkerType, Node } from "reactflow";
 import { useShallow } from "zustand/react/shallow";
 
 import { BuildingDTO } from "../../../lib/buildings";
-import { TownDataPlain } from "../../../lib/towns";
+import { Dimensions, TownDataPlain } from "../../../lib/towns";
 import createUseTownStore, { TownGraphState } from "../store";
 import { BuildingNode } from "./BuildingNode";
 
@@ -32,8 +32,7 @@ const selector = (state: TownGraphState) => ({
  *
  * The non-responsiveness of the graph is compensated for by the ability to pan.
  */
-const useResponsiveNumNodeColumns = () => {
-  const windowDimensions = useWindowDimensions();
+const useResponsiveNumNodeColumns = (windowDimensions: Dimensions) => {
   const columnSpacing = [
     {
       numColumns: 10,
@@ -139,7 +138,8 @@ export const TownGraph: React.FC<{
   );
   const nodeTypes = useMemo(() => ({ buildingNode: BuildingNode }), []);
 
-  const numNodeColumns = useResponsiveNumNodeColumns();
+  const windowDimensions = useWindowDimensions();
+  const numNodeColumns = useResponsiveNumNodeColumns(windowDimensions);
   const { dimensions } = useMemo(() => {
     return getComponentOffsets(
       townData.components, numNodeColumns);
