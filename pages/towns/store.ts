@@ -14,6 +14,7 @@ import { create } from 'zustand';
 import { Coordinate, Dimensions, NodePlain, PositionedComponentPlain } from '../../lib/towns';
 import { kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./components/constants";
 import { getComponentOffsets } from './positioning';
+import { BuildingDTO } from '../../lib/buildings';
 
 
 export type TownGraphState = {
@@ -28,6 +29,55 @@ export type TownGraphState = {
     components: PositionedComponentPlain[],
     numNodeColumns: number,
   ) => void;
+};
+
+export const computeInitialGraphData = (
+  nameToBuilding: { [key: string]: BuildingDTO; },
+  components: PositionedComponentPlain[],
+) => {
+  const initialNodes = [] as Node[];
+  const initialEdges = [] as Edge[];
+  const { componentIdToOffset } = getComponentOffsets(components, 10);
+  components.forEach(({ component, positioning }) => {
+    const offset = componentIdToOffset[component.id];
+    component.stacks.forEach((stack) => {
+      stack.nodes.forEach((node) => {
+        const { x, y } = positioning.nodeKeyToPosition[node.key];
+        initialNodes.push({
+          id: node.key,
+          type: 'buildingNode',
+          data: {
+            node,
+            building: nameToBuilding[node.name],
+            numNodesInStack: stack.numNodes,
+            selected: false,
+          },
+          position: {
+            x: (offset.x + x - 1) * (
+              kNodeSize + kNodeMarginRight),
+            y: (offset.y + y - 1) * (
+              kNodeSize + kNodeMarginBottom),
+          },
+        });
+
+        node.childKeys.forEach((childKey) => {
+          initialEdges.push({
+            id: `${node.key}-${childKey}`,
+            source: node.key,
+            target: childKey,
+            markerEnd: {
+              type: MarkerType.Arrow,
+              color: '#c1c2c5',
+            },
+            style: {
+              stroke: '#c1c2c5',
+            },
+          });
+        });
+      });
+    });
+  });
+  return { initialNodes, initialEdges };
 };
 
 const selectWithAncestors = (
