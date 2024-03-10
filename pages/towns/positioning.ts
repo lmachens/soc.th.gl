@@ -1,5 +1,5 @@
 import { Coordinate, Dimensions, PositionedComponentPlain } from '../../lib/towns';
-import { kMaxComponentWidth, kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
+import { kMaxComponentWidth, kNodeMarginRight, kNodeSize } from "./constants";
 import { kAppNavbarWidthLg, kAppNavbarWidthSm } from "../../components/AppNavbar/AppNavbar";
 
 /** Places Node components into rows.
@@ -7,7 +7,7 @@ import { kAppNavbarWidthLg, kAppNavbarWidthSm } from "../../components/AppNavbar
  */
 export function getComponentOffsets(
   components: PositionedComponentPlain[],
-  numColumns: number = 6
+  desiredNumColumns: number = 10,
 ): {
   componentIdToOffset: { [key: number]: Coordinate; };
   dimensions: Dimensions;
@@ -15,14 +15,14 @@ export function getComponentOffsets(
   const componentIdToOffset: { [key: number]: Coordinate; } = {};
 
   // Components are closely connected, so we can't break them up between rows.
-  const maxComponentWidth = Math.max(...components.map(
+  const widestComponentNumColumns = Math.max(...components.map(
     ({ positioning }) => positioning.dimensions.width));
-  const stacksPerRow = Math.max(numColumns, maxComponentWidth);
+  const numColumns = Math.max(desiredNumColumns, widestComponentNumColumns);
 
   const offset: Coordinate = { x: 0, y: 0 };
   let heightSoFar = 0;
   for (const { component, positioning: { dimensions } } of components) {
-    if ((offset.x + dimensions.width) <= stacksPerRow) {
+    if ((offset.x + dimensions.width) <= numColumns) {
       // Same row.
       componentIdToOffset[component.id] = { ...offset };
       offset.x += dimensions.width;
@@ -38,7 +38,7 @@ export function getComponentOffsets(
 
   return {
     componentIdToOffset,
-    dimensions: { width: stacksPerRow, height: heightSoFar },
+    dimensions: { width: numColumns, height: heightSoFar },
   };
 }
 
