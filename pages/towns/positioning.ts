@@ -1,4 +1,6 @@
 import { Coordinate, Dimensions, PositionedComponentPlain } from '../../lib/towns';
+import { kMaxComponentWidth, kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./components/constants";
+import { kAppNavbarWidthLg, kAppNavbarWidthSm } from "../../components/AppNavbar/AppNavbar";
 
 /** Places Node components into rows.
  *  This function is useful for dynamically resizing the grid for small screens.
@@ -38,4 +40,44 @@ export function getComponentOffsets(
     componentIdToOffset,
     dimensions: { width: stacksPerRow, height: heightSoFar },
   };
+}
+
+/**
+ * Determines the number of columns to use for the town graph.
+ *
+ * Because we render the town graph in ReactFlow with explicitly calculated
+ * node positions, we need to manually make the graph responsive.
+ * Moreover, we can't narrow the graph beyond the width of the widest
+ * node connected component.
+ *
+ * The non-responsiveness of the graph is compensated for by the ability to pan.
+ */
+export const getNumNodeColumns = (windowDimensions: Dimensions) => {
+  const columnSpacing = [
+    {
+      numColumns: 10,
+      unavailableWidth: kAppNavbarWidthLg + (
+        /* error margin = */ kNodeSize + kNodeMarginRight)
+    },
+    { numColumns: 8, unavailableWidth: kAppNavbarWidthSm },
+  ];
+  const possibleSpacing = columnSpacing.filter(
+    ({ numColumns, unavailableWidth }) => {
+      const availableWidth = windowDimensions.width - unavailableWidth;
+      const neededGraphWidth = numColumns * (
+        kNodeSize + kNodeMarginRight);
+      if (availableWidth >= neededGraphWidth) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  );
+  if (possibleSpacing.length > 0) {
+    return Math.max(
+      ...possibleSpacing.map(({ numColumns }) => numColumns)
+    ) || kMaxComponentWidth;
+  } else {
+    return kMaxComponentWidth;
+  }
 }

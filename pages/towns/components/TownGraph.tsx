@@ -3,15 +3,14 @@ import ReactFlow, { Edge, MarkerType, Node } from "reactflow";
 import { useShallow } from "zustand/react/shallow";
 
 import { BuildingDTO } from "../../../lib/buildings";
-import { Dimensions, TownDataPlain } from "../../../lib/towns";
+import { TownDataPlain } from "../../../lib/towns";
 import createUseTownStore, { TownGraphState } from "../store";
 import { BuildingNode } from "./BuildingNode";
 
 import 'reactflow/dist/style.css';
-import { kAppNavbarWidthLg, kAppNavbarWidthSm } from "../../../components/AppNavbar/AppNavbar";
 import { useWindowDimensions } from "../../../lib/hooks";
-import { getComponentOffsets } from '../positioning';
-import { kMaxComponentWidth, kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
+import { getComponentOffsets, getNumNodeColumns } from '../positioning';
+import { kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
 
 const selector = (state: TownGraphState) => ({
   nodes: state.nodes,
@@ -21,46 +20,6 @@ const selector = (state: TownGraphState) => ({
   toggleNodeSelection: state.toggleNodeSelection,
   resizeGraph: state.resizeGraph,
 });
-
-/**
- * Determines the number of columns to use for the town graph.
- *
- * Because we render the town graph in ReactFlow with explicitly calculated
- * node positions, we need to manually make the graph responsive.
- * Moreover, we can't narrow the graph beyond the width of the widest
- * node connected component.
- *
- * The non-responsiveness of the graph is compensated for by the ability to pan.
- */
-const getNumNodeColumns = (windowDimensions: Dimensions) => {
-  const columnSpacing = [
-    {
-      numColumns: 10,
-      unavailableWidth: kAppNavbarWidthLg + (
-        /* error margin = */ kNodeSize + kNodeMarginRight)
-    },
-    { numColumns: 8, unavailableWidth: kAppNavbarWidthSm },
-  ];
-  const possibleSpacing = columnSpacing.filter(
-    ({ numColumns, unavailableWidth }) => {
-      const availableWidth = windowDimensions.width - unavailableWidth;
-      const neededGraphWidth = numColumns * (
-        kNodeSize + kNodeMarginRight);
-      if (availableWidth >= neededGraphWidth) {
-        return true;
-      } else {
-        return false;
-      }
-    }
-  );
-  if (possibleSpacing.length > 0) {
-    return Math.max(
-      ...possibleSpacing.map(({ numColumns }) => numColumns)
-    ) || kMaxComponentWidth;
-  } else {
-    return kMaxComponentWidth;
-  }
-}
 
 export const TownGraph: React.FC<{
   nameToBuilding: { [key: string]: BuildingDTO; };
