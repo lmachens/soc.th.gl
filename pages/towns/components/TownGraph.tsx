@@ -32,7 +32,7 @@ const selector = (state: TownGraphState) => ({
  *
  * The non-responsiveness of the graph is compensated for by the ability to pan.
  */
-const useResponsiveNumNodeColumns = (windowDimensions: Dimensions) => {
+const getNumNodeColumns = (windowDimensions: Dimensions) => {
   const columnSpacing = [
     {
       numColumns: 10,
@@ -139,7 +139,7 @@ export const TownGraph: React.FC<{
   const nodeTypes = useMemo(() => ({ buildingNode: BuildingNode }), []);
 
   const windowDimensions = useWindowDimensions();
-  const numNodeColumns = useResponsiveNumNodeColumns(windowDimensions);
+  const numNodeColumns = getNumNodeColumns(windowDimensions);
   const { dimensions } = useMemo(() => {
     return getComponentOffsets(
       townData.components, numNodeColumns);
