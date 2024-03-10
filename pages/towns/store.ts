@@ -21,6 +21,7 @@ export type TownGraphState = {
   nodes: Node[];
   edges: Edge[];
   selectedKeys: Set<string>;
+  availableTroopKeys: Set<string>;
   dimensions: Dimensions;
   onNodesChange: OnNodesChange;
   onEdgesChange: OnEdgesChange;
@@ -51,6 +52,7 @@ export const computeInitialGraphData = (
             building: nameToBuilding[node.name],
             numNodesInStack: stack.numNodes,
             selected: false,
+            level: node.level,
           },
           position: {
             x: (offset.x + x - 1) * (
@@ -104,6 +106,31 @@ const deselectWithDescendants = (
   });
 }
 
+const getAvailableTroops = (
+  nodes: Node[],
+  selectedKeys: Set<string>,
+): Set<string> => {
+  const activeUnits = new Set<string>();
+  nodes.forEach((flowNode) => {
+    if (selectedKeys.has(flowNode.id)) {
+      const { building, level: buildingLevel } = flowNode.data;
+      const { incomePerLevel } = building;
+      (incomePerLevel || []).forEach(({
+        troopIncomes,
+        level: incomeLevel
+      }: { troopIncomes: any[], level: number }) => {
+        (troopIncomes || []).forEach((income: any) => {
+          const { unitKey } = income;
+          if (buildingLevel == incomeLevel) {
+            activeUnits.add(unitKey);
+          }
+        });
+      });
+    }
+  });
+  return activeUnits;
+};
+
 const createUseTownStore = (
   initialNodes: Node[],
   initialEdges: Edge[],
@@ -113,6 +140,7 @@ const createUseTownStore = (
       nodes: initialNodes,
       edges: initialEdges,
       selectedKeys: new Set([]),
+      availableTroopKeys: new Set([]),
       onNodesChange: (changes: NodeChange[]) => {
         set({
           nodes: applyNodeChanges(changes, get().nodes),
@@ -133,6 +161,8 @@ const createUseTownStore = (
         } else {
           selectWithAncestors(selectedKey, keyToNode, selectedKeys);
         }
+
+        const availableTroopKeys = getAvailableTroops(state.nodes, selectedKeys);
 
         set({
           nodes: state.nodes.map((flowNode) => {
@@ -161,6 +191,7 @@ const createUseTownStore = (
             return flowEdge;
           }),
           selectedKeys,
+          availableTroopKeys,
         });
       },
       dimensions: { width: 0, height: 0 },
