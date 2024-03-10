@@ -2,11 +2,15 @@ import { Box, Grid, Stack, Text } from "@mantine/core";
 import React from "react";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { UnitSimpleDTO, UnitTypeDTO } from "../../../lib/units";
+import { useStoreFromContext } from "./TownGraphStoreProvider";
+import { useShallow } from "zustand/react/shallow";
+import { TownGraphState } from "../store";
 
 
 const UnitTypeBox: React.FC<{
   unit: UnitTypeDTO | null,
-}> = ({ unit }) => {
+  available: boolean,
+}> = ({ unit, available }) => {
   if (!unit) {
     return null;
   }
@@ -17,6 +21,9 @@ const UnitTypeBox: React.FC<{
         gridTemplateRows: "110px 1fr",
         alignItems: "center",
         justifyItems: "center",
+        ...available ? {} : {
+          filter: 'grayscale(1)'
+        },
       }}
     >
       <SpriteSheet spriteSheet={unit.sprite} folder="units" />
@@ -38,27 +45,43 @@ const UnitTypeBox: React.FC<{
 
 const UnitStack: React.FC<{
   unit: UnitSimpleDTO,
+  availableTroopKeys: Set<string>,
 }> = ({
   unit,
+  availableTroopKeys,
 }) => {
   return (
     <Stack>
-      <UnitTypeBox unit={unit.vanilla as UnitTypeDTO} />
+      <UnitTypeBox
+        unit={unit.vanilla as UnitTypeDTO}
+        available={availableTroopKeys.has(unit.vanilla.languageKey)}
+      />
       {unit.upgraded && (
-        <UnitTypeBox unit={unit.upgraded as UnitTypeDTO} />
+        <UnitTypeBox
+          unit={unit.upgraded as UnitTypeDTO}
+          available={availableTroopKeys.has(unit.upgraded.languageKey)}
+        />
       )}
       {unit.superUpgraded && (
-        <UnitTypeBox unit={unit.superUpgraded as UnitTypeDTO} />
+        <UnitTypeBox
+          unit={unit.superUpgraded as UnitTypeDTO}
+          available={availableTroopKeys.has(unit.superUpgraded.languageKey)}
+        />
       )}
     </Stack>
   );
 };
+
+const selector = (state: TownGraphState) => ({
+  availableTroopKeys: state.availableTroopKeys,
+});
 
 export const AvailableTroops: React.FC<{
   units: UnitSimpleDTO[];
 }> = ({
   units
 }) => {
+  const { availableTroopKeys } = useStoreFromContext(useShallow(selector));
   return (
     <Grid columns={units.length}>
       {(units).map((unit) => (
@@ -69,6 +92,7 @@ export const AvailableTroops: React.FC<{
         >
           <UnitStack
             unit={unit}
+            availableTroopKeys={availableTroopKeys}
           />
         </Grid.Col>
       ))}
