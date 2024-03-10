@@ -3,7 +3,7 @@ import ReactFlow, { Edge, MarkerType, Node } from "reactflow";
 import { useShallow } from "zustand/react/shallow";
 
 import { BuildingDTO } from "../../../lib/buildings";
-import { TownDataPlain } from "../../../lib/towns";
+import { PositionedComponentPlain, TownDataPlain } from "../../../lib/towns";
 import createUseTownStore, { TownGraphState } from "../store";
 import { BuildingNode } from "./BuildingNode";
 
@@ -21,60 +21,64 @@ const selector = (state: TownGraphState) => ({
   resizeGraph: state.resizeGraph,
 });
 
+const computeInitialGraphData = (
+  nameToBuilding: { [key: string]: BuildingDTO; },
+  components: PositionedComponentPlain[],
+) => {
+  const initialNodes = [] as Node[];
+  const initialEdges = [] as Edge[];
+  const { componentIdToOffset } = getComponentOffsets(components, 10);
+  components.forEach(({ component, positioning }) => {
+    const offset = componentIdToOffset[component.id];
+    component.stacks.forEach((stack) => {
+      stack.nodes.forEach((node) => {
+        const { x, y } = positioning.nodeKeyToPosition[node.key];
+        initialNodes.push({
+          id: node.key,
+          type: 'buildingNode',
+          data: {
+            node,
+            building: nameToBuilding[node.name],
+            numNodesInStack: stack.numNodes,
+            selected: false,
+          },
+          position: {
+            x: (offset.x + x - 1) * (
+              kNodeSize + kNodeMarginRight),
+            y: (offset.y + y - 1) * (
+              kNodeSize + kNodeMarginBottom),
+          },
+        });
+
+        node.childKeys.forEach((childKey) => {
+          initialEdges.push({
+            id: `${node.key}-${childKey}`,
+            source: node.key,
+            target: childKey,
+            markerEnd: {
+              type: MarkerType.Arrow,
+              color: '#c1c2c5',
+            },
+            style: {
+              stroke: '#c1c2c5',
+            },
+          });
+        });
+      });
+    });
+  });
+  return { initialNodes, initialEdges };
+};
+
 export const TownGraph: React.FC<{
   nameToBuilding: { [key: string]: BuildingDTO; };
   townData: TownDataPlain;
 }> = ({
   nameToBuilding, townData,
 }) => {
-  const computeInitialGraphData = () => {
-    const initialNodes = [] as Node[];
-    const initialEdges = [] as Edge[];
-    const { componentIdToOffset } = getComponentOffsets(townData.components, 10);
-    townData.components.forEach(({ component, positioning }) => {
-      const offset = componentIdToOffset[component.id];
-      component.stacks.forEach((stack) => {
-        stack.nodes.forEach((node) => {
-          const { x, y } = positioning.nodeKeyToPosition[node.key];
-          initialNodes.push({
-            id: node.key,
-            type: 'buildingNode',
-            data: {
-              node,
-              building: nameToBuilding[node.name],
-              numNodesInStack: stack.numNodes,
-              selected: false,
-            },
-            position: {
-              x: (offset.x + x - 1) * (
-                kNodeSize + kNodeMarginRight),
-              y: (offset.y + y - 1) * (
-                kNodeSize + kNodeMarginBottom),
-            },
-          });
-
-          node.childKeys.forEach((childKey) => {
-            initialEdges.push({
-              id: `${node.key}-${childKey}`,
-              source: node.key,
-              target: childKey,
-              markerEnd: {
-                type: MarkerType.Arrow,
-                color: '#c1c2c5',
-              },
-              style: {
-                stroke: '#c1c2c5',
-              },
-            });
-          });
-        });
-      });
-    });
-    return { initialNodes, initialEdges };
-  };
   const { initialNodes, initialEdges } = useMemo(
-    computeInitialGraphData, [
-      townData,
+    () => computeInitialGraphData(nameToBuilding, townData.components), [
+      townData.components,
       nameToBuilding,
     ]);
   const useTownStore = useMemo(
