@@ -11,15 +11,23 @@ import {
 } from 'reactflow';
 import { create } from 'zustand';
 
-import { NodePlain } from '../../lib/towns';
+import { Coordinate, Dimensions, NodePlain, PositionedComponentPlain } from '../../lib/towns';
+import { kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./components/constants";
+import { getComponentOffsets } from './positioning';
+
 
 export type TownGraphState = {
   nodes: Node[];
   edges: Edge[];
   selectedKeys: Set<string>;
+  dimensions: Dimensions;
   onNodesChange: OnNodesChange;
   onEdgesChange: OnEdgesChange;
   toggleNodeSelection: (nodeId: string) => void;
+  resizeGraph: (
+    components: PositionedComponentPlain[],
+    numNodeColumns: number,
+  ) => void;
 };
 
 const selectWithAncestors = (
@@ -103,6 +111,43 @@ const createUseTownStore = (
             return flowEdge;
           }),
           selectedKeys,
+        });
+      },
+      dimensions: { width: 0, height: 0 },
+      resizeGraph: (
+        components: PositionedComponentPlain[],
+        numNodeColumns: number,
+      ) => {
+        const { componentIdToOffset, dimensions } = getComponentOffsets(
+          components, numNodeColumns);
+
+        const nodeKeyToPosition: {
+          [key: string]: { position: Coordinate } } = {};
+        components.forEach(({ component, positioning }) => {
+          const offset = componentIdToOffset[component.id];
+          component.stacks.forEach((stack) => {
+            stack.nodes.forEach((node) => {
+              const { x, y } = positioning.nodeKeyToPosition[node.key];
+              nodeKeyToPosition[node.key] = {
+                position: {
+                  x: (offset.x + x - 1) * (kNodeSize + kNodeMarginRight),
+                  y: (offset.y + y - 1) * (kNodeSize + kNodeMarginBottom),
+                },
+              };
+            });
+          });
+        });
+
+        const { nodes } = get();
+        set({
+          nodes: nodes.map((flowNode) => {
+            const position = nodeKeyToPosition[flowNode.id];
+            return {
+              ...flowNode,
+              position: position?.position || flowNode.position
+            };
+          }),
+          dimensions,
         });
       },
     }));

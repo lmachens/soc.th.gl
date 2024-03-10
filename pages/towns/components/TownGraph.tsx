@@ -1,56 +1,17 @@
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import ReactFlow, { Edge, MarkerType, Node } from "reactflow";
 import { useShallow } from "zustand/react/shallow";
 
 import { BuildingDTO } from "../../../lib/buildings";
-import { Coordinate, Dimensions, PositionedComponentPlain, TownDataPlain } from "../../../lib/towns";
+import { TownDataPlain } from "../../../lib/towns";
 import createUseTownStore, { TownGraphState } from "../store";
 import { BuildingNode } from "./BuildingNode";
 
 import 'reactflow/dist/style.css';
 import { kAppNavbarWidthLg, kAppNavbarWidthSm } from "../../../components/AppNavbar/AppNavbar";
 import { useWindowDimensions } from "../../../lib/hooks";
+import { getComponentOffsets } from '../positioning';
 import { kMaxComponentWidth, kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
-
-/** Places Node components into rows.
- *  This function is useful for dynamically resizing the grid for small screens.
- */
-export function getComponentOffsets(
-  components: PositionedComponentPlain[],
-  numColumns: number = 6
-): {
-  componentIdToOffset: { [key: number]: Coordinate },
-  dimensions: Dimensions,
-} {
-  const componentIdToOffset: { [key: number]: Coordinate; } = {};
-
-  // Components are closely connected, so we can't break them up between rows.
-  const maxComponentWidth = Math.max(...components.map(
-    ({ positioning }) => positioning.dimensions.width));
-  const stacksPerRow = Math.max(numColumns, maxComponentWidth);
-
-  const offset: Coordinate = { x: 0, y: 0 };
-  let heightSoFar = 0;
-  for (const { component, positioning: { dimensions } } of components) {
-    if ((offset.x + dimensions.width) <= stacksPerRow) {
-      // Same row.
-      componentIdToOffset[component.id] = { ...offset };
-      offset.x += dimensions.width;
-    } else {
-      // New row
-      offset.x = 0;
-      offset.y = heightSoFar;
-      componentIdToOffset[component.id] = { ...offset };
-      offset.x = dimensions.width;
-    }
-    heightSoFar = Math.max(heightSoFar, offset.y + dimensions.height);
-  }
-
-  return {
-    componentIdToOffset,
-    dimensions: { width: stacksPerRow, height: heightSoFar },
-  };
-}
 
 const selector = (state: TownGraphState) => ({
   nodes: state.nodes,
@@ -58,6 +19,7 @@ const selector = (state: TownGraphState) => ({
   onNodesChange: state.onNodesChange,
   onEdgesChange: state.onEdgesChange,
   toggleNodeSelection: state.toggleNodeSelection,
+  resizeGraph: state.resizeGraph,
 });
 
 /**
@@ -103,13 +65,10 @@ export const TownGraph: React.FC<{
 }> = ({
   nameToBuilding, townData,
 }) => {
-  const numNodeColumns = useResponsiveNumNodeColumns();
-
-  const { componentIdToOffset, dimensions } = useMemo(() => getComponentOffsets(
-    townData.components, numNodeColumns), [townData, numNodeColumns]);
   const computeInitialGraphData = () => {
     const initialNodes = [] as Node[];
     const initialEdges = [] as Edge[];
+    const { componentIdToOffset } = getComponentOffsets(townData.components, 10);
     townData.components.forEach(({ component, positioning }) => {
       const offset = componentIdToOffset[component.id];
       component.stacks.forEach((stack) => {
@@ -152,7 +111,10 @@ export const TownGraph: React.FC<{
     return { initialNodes, initialEdges };
   };
   const { initialNodes, initialEdges } = useMemo(
-    computeInitialGraphData, [townData, componentIdToOffset, nameToBuilding]);
+    computeInitialGraphData, [
+      townData,
+      nameToBuilding,
+    ]);
   const useTownStore = useMemo(
     () => createUseTownStore(initialNodes, initialEdges, townData.keyToNode),
     [
@@ -160,17 +122,34 @@ export const TownGraph: React.FC<{
       initialEdges,
       townData.keyToNode,
     ]
-);
+  );
   const {
     nodes,
     edges,
     onNodesChange,
     onEdgesChange,
     toggleNodeSelection,
+    resizeGraph,
   } = useTownStore(
     useShallow(selector),
   );
   const nodeTypes = useMemo(() => ({ buildingNode: BuildingNode }), []);
+
+  const numNodeColumns = useResponsiveNumNodeColumns();
+  const { dimensions } = useMemo(() => {
+    return getComponentOffsets(
+      townData.components, numNodeColumns);
+    },
+    [
+      townData,
+      numNodeColumns
+    ]
+  );
+
+  useEffect(() => {
+    resizeGraph(townData.components, numNodeColumns);
+    console.log('Resizing graph');
+  }, [townData.components, numNodeColumns, resizeGraph]);
 
   return (
     <div
