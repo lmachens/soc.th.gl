@@ -1,5 +1,5 @@
 import { Coordinate, Dimensions, PositionedComponentPlain } from '../../lib/towns';
-import { kMaxComponentWidth, kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./components/constants";
+import { kMaxComponentWidth, kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
 import { kAppNavbarWidthLg, kAppNavbarWidthSm } from "../../components/AppNavbar/AppNavbar";
 
 /** Places Node components into rows.

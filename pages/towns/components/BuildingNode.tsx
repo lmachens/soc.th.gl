@@ -3,7 +3,7 @@ import { Handle, Position } from "reactflow";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { BuildingDTO } from "../../../lib/buildings";
 import { NodePlain } from "../../../lib/towns";
-import { kNodeSize } from "./constants";
+import { kNodeSize } from "../constants";
 
 export const BuildingNode: React.FC<{
   data: {

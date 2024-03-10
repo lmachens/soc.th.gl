@@ -10,7 +10,7 @@ import { BuildingNode } from "./BuildingNode";
 import 'reactflow/dist/style.css';
 import { useWindowDimensions } from "../../../lib/hooks";
 import { getComponentOffsets, getNumNodeColumns } from '../positioning';
-import { kNodeMarginBottom, kNodeSize } from "./constants";
+import { kNodeMarginBottom, kNodeSize } from "../constants";
 
 const selector = (state: TownGraphState) => ({
   nodes: state.nodes,
@@ -64,10 +64,14 @@ export const TownGraph: React.FC<{
     ]
   );
 
-  useEffect(() => {
-    resizeGraph(townData.components, numNodeColumns);
-    console.log('Resizing graph');
-  }, [townData.components, numNodeColumns, resizeGraph]);
+  useEffect(
+    () => resizeGraph(townData.components, numNodeColumns),
+    [
+      townData.components,
+      numNodeColumns,
+      resizeGraph
+    ]
+  );
 
   return (
     <div

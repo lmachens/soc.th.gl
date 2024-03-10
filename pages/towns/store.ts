@@ -12,7 +12,7 @@ import {
 import { create } from 'zustand';
 
 import { Coordinate, Dimensions, NodePlain, PositionedComponentPlain } from '../../lib/towns';
-import { kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./components/constants";
+import { kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
 import { getComponentOffsets } from './positioning';
 import { BuildingDTO } from '../../lib/buildings';
 
