@@ -54,9 +54,13 @@ const useResponsiveNumNodeColumns = () => {
       }
     }
   );
-  return Math.max(
-    ...possibleSpacing.map(({ numColumns }) => numColumns)
-  ) || kMaxComponentWidth;
+  if (possibleSpacing.length > 0) {
+    return Math.max(
+      ...possibleSpacing.map(({ numColumns }) => numColumns)
+    ) || kMaxComponentWidth;
+  } else {
+    return kMaxComponentWidth;
+  }
 }
 
 export const TownGraph: React.FC<{
