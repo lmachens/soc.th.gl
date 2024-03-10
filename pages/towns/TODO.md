@@ -1,6 +1,5 @@
 ## V0
 
--   Move state out of TownGraph to prevent resets.
 -   Hook up AvailableTroops to the store.
 -   Formalize styles into handlers.
 
