@@ -1,12 +1,19 @@
-## V0
+## MVP
 
--   Hook up AvailableTroops to the store.
--   Formalize styles into handlers.
+-   Show accurate unit growth counts.
+-   Allow clicking units to turn on buildings.
+-   Clean up:
+    -   Prevent vertical panning?
+    -   Prevent node dragging?
+    -   Clean up constant data access.
+    -   Stop breaking to single column too early.
 
-## V1
+## Later Versions
 
 -   Add building sizes like S/M/L to the data
     (so that we can calculate needed town size).
 -   Calculate needed income for achieving build.
 -   Display mana generation per unit.
+-   Allow building armies and show army mana generation.
+-   Calculate recruitment costs and growth statistics.
 -   Add share button and sync URL with build.
