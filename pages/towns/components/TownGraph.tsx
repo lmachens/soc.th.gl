@@ -77,8 +77,7 @@ export const TownGraph: React.FC<{
     <div
       style={{
         width: '100%',
-        height: dimensions.height * (
-          kNodeSize + kNodeMarginBottom),
+        height: dimensions.height * (kNodeSize + kNodeMarginBottom),
       }}>
       <ReactFlow
         nodeTypes={nodeTypes}
