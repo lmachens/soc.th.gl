@@ -19,6 +19,9 @@ import { TownGraph } from "./components/TownGraph";
 import { ReactFlowProvider } from "reactflow";
 import { AvailableTroops } from "./components/AvailableTroops";
 import { UnitSimpleDTO, getUnits } from "../../lib/units";
+import { TownGraphStoreProvider } from "./components/TownGraphStoreProvider";
+import { computeInitialGraphData } from "./store";
+import { useMemo } from "react";
 
 
 const FactionTown: NextPage<{
@@ -32,35 +35,45 @@ const FactionTown: NextPage<{
   townData,
   units,
 }) => {
-    return (
-      <>
-        <PageHead
-          title={`${faction.name} Town Build - SoC.gg`}
-          description={`Town build calculator for the ${faction.name} faction from Songs of Conquest.`}
+  const { initialNodes, initialEdges } = useMemo(
+    () => computeInitialGraphData(nameToBuilding, townData.components),
+    [
+      townData.components,
+      nameToBuilding,
+    ]
+  );
+  return (
+    <TownGraphStoreProvider
+      initialNodes={initialNodes}
+      initialEdges={initialEdges}
+      keyToNode={townData.keyToNode}
+    >
+      <PageHead
+        title={`${faction.name} Town Build - SoC.gg`}
+        description={`Town build calculator for the ${faction.name} faction from Songs of Conquest.`}
+      />
+      <Container>
+        <Title order={1} style={{ marginBottom: '0.5em' }}>
+          {faction.name} Town Build
+        </Title>
+        <Title order={2} style={{ marginBottom: '1em' }}>
+          Available Troops
+        </Title>
+        <AvailableTroops
+          units={units}
         />
-        <Container>
-          <Title order={1} style={{ marginBottom: '0.5em' }}>
-            {faction.name} Town Build
-          </Title>
-          <Title order={2} style={{ marginBottom: '1em' }}>
-            Available Troops
-          </Title>
-          <AvailableTroops
-            units={units}
+        <Title order={2} style={{ marginBottom: '1em' }}>
+          Town Buildings
+        </Title>
+        <ReactFlowProvider>
+          <TownGraph
+            townData={townData}
           />
-          <Title order={2} style={{ marginBottom: '1em' }}>
-            Town Buildings
-          </Title>
-          <ReactFlowProvider>
-            <TownGraph
-              nameToBuilding={nameToBuilding}
-              townData={townData}
-            />
-          </ReactFlowProvider>
-        </Container>
-      </>
-    );
-  };
+        </ReactFlowProvider>
+      </Container>
+    </TownGraphStoreProvider>
+  );
+};
 
 export default FactionTown;
 

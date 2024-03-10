@@ -11,6 +11,7 @@ import 'reactflow/dist/style.css';
 import { useWindowDimensions } from "../../../lib/hooks";
 import { getComponentOffsets, getNumNodeColumns } from '../positioning';
 import { kNodeMarginBottom, kNodeSize } from "../constants";
+import { useStoreFromContext } from "./TownGraphStoreProvider";
 
 const selector = (state: TownGraphState) => ({
   nodes: state.nodes,
@@ -22,24 +23,10 @@ const selector = (state: TownGraphState) => ({
 });
 
 export const TownGraph: React.FC<{
-  nameToBuilding: { [key: string]: BuildingDTO; };
   townData: TownDataPlain;
 }> = ({
-  nameToBuilding, townData,
+  townData,
 }) => {
-  const { initialNodes, initialEdges } = useMemo(
-    () => computeInitialGraphData(nameToBuilding, townData.components), [
-      townData.components,
-      nameToBuilding,
-    ]);
-  const useTownStore = useMemo(
-    () => createUseTownStore(initialNodes, initialEdges, townData.keyToNode),
-    [
-      initialNodes,
-      initialEdges,
-      townData.keyToNode,
-    ]
-  );
   const {
     nodes,
     edges,
@@ -47,7 +34,7 @@ export const TownGraph: React.FC<{
     onEdgesChange,
     toggleNodeSelection,
     resizeGraph,
-  } = useTownStore(
+  } = useStoreFromContext(
     useShallow(selector),
   );
   const nodeTypes = useMemo(() => ({ buildingNode: BuildingNode }), []);

@@ -9,7 +9,7 @@ import {
   applyEdgeChanges,
   MarkerType,
 } from 'reactflow';
-import { create } from 'zustand';
+import { createStore } from 'zustand';
 
 import { Coordinate, Dimensions, NodePlain, PositionedComponentPlain } from '../../lib/towns';
 import { kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
@@ -109,7 +109,7 @@ const createUseTownStore = (
   initialEdges: Edge[],
   keyToNode: { [key: string]: NodePlain },
 ) => {
-  return create<TownGraphState>()((set, get) => ({
+  return createStore<TownGraphState>()((set, get) => ({
       nodes: initialNodes,
       edges: initialEdges,
       selectedKeys: new Set([]),
