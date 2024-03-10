@@ -2,9 +2,8 @@ import { useEffect, useMemo } from "react";
 import ReactFlow from "reactflow";
 import { useShallow } from "zustand/react/shallow";
 
-import { BuildingDTO } from "../../../lib/buildings";
 import { TownDataPlain } from "../../../lib/towns";
-import createUseTownStore, { TownGraphState, computeInitialGraphData } from "../store";
+import  { TownGraphState } from "../store";
 import { BuildingNode } from "./BuildingNode";
 
 import 'reactflow/dist/style.css';
