@@ -3,7 +3,7 @@ import { Handle, Position } from "reactflow";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { BuildingDTO } from "../../../lib/buildings";
 import { NodePlain } from "../../../lib/towns";
-import { kNodeSize } from "../constants";
+import { kNodeSize, kTownGraphColors } from "../constants";
 
 export const BuildingNode: React.FC<{
   data: {
@@ -26,9 +26,11 @@ export const BuildingNode: React.FC<{
       <div style={{
         width: kNodeSize,
         height: kNodeSize,
-        background: '#1a1b1e',
+        background: kTownGraphColors.backgroundDark,
         borderRadius: 8,
-        border: selected ? '1px solid #f39a25' : '1px solid #c1c2c5',
+        border: selected
+          ? `1px solid ${kTownGraphColors.selectionPrimary}`
+          : `1px solid ${kTownGraphColors.selectionNeutral}`,
         cursor: 'pointer',
       }}>
         {hasParents && (
@@ -56,8 +58,10 @@ export const BuildingNode: React.FC<{
           size={11}
         >
           <mark style={{
-            background: '#1a1b1e',
-            color: selected ? '#f39a25' : '#c1c2c5'
+            background: kTownGraphColors.backgroundDark,
+            color: selected
+              ? kTownGraphColors.selectionPrimary
+              : kTownGraphColors.selectionNeutral,
           }}>
             {nodeText}
           </mark>

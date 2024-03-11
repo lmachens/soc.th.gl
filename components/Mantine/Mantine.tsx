@@ -6,7 +6,7 @@ type Props = {
   children: ReactNode;
 };
 
-export const themeConstants = {
+export const kThemeConstants = {
   colorScheme: "dark",
   fontFamily: '"Roboto", sans-serif',
   colors: {
@@ -33,7 +33,7 @@ const Mantine = ({ children }: Props) => {
       withGlobalStyles
       withNormalizeCSS
       theme={{
-        ...themeConstants,
+        ...kThemeConstants as any,
         components: {
           Title: {
             styles: (theme) => ({

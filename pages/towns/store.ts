@@ -15,7 +15,7 @@ import { Coordinate, Dimensions, NodePlain, PositionedComponentPlain } from '../
 import { kNodeMarginBottom, kNodeMarginRight, kNodeSize } from "./constants";
 import { getComponentOffsets } from './positioning';
 import { BuildingDTO } from '../../lib/buildings';
-
+import { kTownGraphColors } from './constants';
 
 export type TownGraphState = {
   nodes: Node[];
@@ -69,10 +69,10 @@ export const computeInitialGraphData = (
             target: childKey,
             markerEnd: {
               type: MarkerType.Arrow,
-              color: '#c1c2c5',
+              color: kTownGraphColors.selectionNeutral,
             },
             style: {
-              stroke: '#c1c2c5',
+              stroke: kTownGraphColors.selectionNeutral,
             },
           });
         });
@@ -182,11 +182,15 @@ const createUseTownStore = (
             const isSelected = sourceSelected && targetSelected;
             flowEdge.style = {
               ...flowEdge.style,
-              stroke: isSelected ? '#f6b156' : '#c1c2c5',
+              stroke: isSelected
+                ? kTownGraphColors.selectionPrimary
+                : kTownGraphColors.selectionNeutral,
             };
             flowEdge.markerEnd = {
               type: MarkerType.Arrow,
-              color: isSelected ? '#f6b156' : '#c1c2c5',
+              color: isSelected
+                ? kTownGraphColors.selectionPrimary
+                : kTownGraphColors.selectionNeutral,
             };
             return flowEdge;
           }),

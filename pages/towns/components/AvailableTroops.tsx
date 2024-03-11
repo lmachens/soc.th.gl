@@ -5,6 +5,7 @@ import { UnitSimpleDTO, UnitTypeDTO } from "../../../lib/units";
 import { useStoreFromContext } from "./TownGraphStoreProvider";
 import { useShallow } from "zustand/react/shallow";
 import { TownGraphState } from "../store";
+import { kTownGraphColors } from "../constants";
 
 
 const kEssenceTypeToColor: { [key: string] : string } = {
@@ -90,19 +91,19 @@ const UnitTypeBox: React.FC<{
       </span>
       <Text
         size="xs"
-        sx={(theme) => ({
+        sx={{
           whiteSpace: "nowrap",
-          color: available ? theme.colors[theme.primaryColor][4] : 'inherit'
-        })}
+          color: available ? kTownGraphColors.selectionPrimary : 'inherit'
+        }}
       >
         {unit.name}
       </Text>
       <Text
           component="span"
           size={10}
-          sx={(theme) => ({
-            color: available ? theme.colors[theme.primaryColor][5] : 'inherit'
-          })}
+          sx={{
+            color: available ? kTownGraphColors.selectionSecondary : 'inherit'
+          }}
         >
           <Tooltip label="damage">
             <span>⚔ {unit.stats.damage.min}–{unit.stats.damage.max}</span>
@@ -115,9 +116,9 @@ const UnitTypeBox: React.FC<{
       <Text
           component="span"
           size={10}
-          sx={(theme) => ({
-            color: available ? theme.colors[theme.primaryColor][5] : 'inherit'
-          })}
+          sx={{
+            color: available ? kTownGraphColors.selectionSecondary : 'inherit'
+          }}
         >
         <Tooltip label="health">
           <span>♥ {unit.stats.health}</span>
