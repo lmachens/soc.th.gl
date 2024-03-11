@@ -7,6 +7,15 @@ import { useShallow } from "zustand/react/shallow";
 import { TownGraphState } from "../store";
 
 
+const kEssenceTypeToColor: { [key: string] : string } = {
+  "order": "#303DC5",
+  "chaos": "#CD3CD9",
+  "destruction": "#D74034",
+  "creation": "#F2DF33",
+  "arcana": "#00C6B2",
+};
+
+
 const UnitTypeBox: React.FC<{
   unit: UnitTypeDTO | null,
   available: boolean,
@@ -21,9 +30,20 @@ const UnitTypeBox: React.FC<{
   if (!unit) {
     return null;
   }
-  console.log(unit);
   const maxOffense = Math.max(
     unit.stats.meleeAttack.offense, unit.stats.rangedAttack.offense);
+
+  const essenceList: string[] = [];
+  Object.entries(unit.stats.essenceStats).forEach(
+    ([essenceType, essenceValue]) => {
+      if (essenceValue > 0) {
+        Array.from({ length: essenceValue }).forEach((_) => {
+          essenceList.push(essenceType);
+        });
+      }
+    }
+  );
+
   return (
     <Box
       sx={{
@@ -31,9 +51,7 @@ const UnitTypeBox: React.FC<{
         gridTemplateRows: "110px 1fr",
         alignItems: "center",
         justifyItems: "center",
-        ...available ? {} : {
-          filter: 'grayscale(1)'
-        },
+        position: "relative",
       }}
     >
       <span
@@ -42,10 +60,33 @@ const UnitTypeBox: React.FC<{
           cursor: "pointer",
         }}
       >
-        <SpriteSheet
-          spriteSheet={unit.sprite}
-          folder="units"
-        />
+        <span
+          style={{
+            filter: available ? 'none' : 'grayscale(0.9)',
+          }}
+        >
+          <SpriteSheet
+            spriteSheet={unit.sprite}
+            folder="units"
+          />
+        </span>
+        {
+          essenceList.map((essenceType, essenceIndex) => (
+            <Text
+              key={`${unit.languageKey}-${essenceType}-${essenceIndex}`}
+              style={{
+                position: "absolute",
+                top: 10 * essenceIndex,
+                right: 0,
+                color: kEssenceTypeToColor[essenceType],
+                opacity: available ? '100%' : '40%',
+              }}
+              size={8}
+            >
+              ⬤
+            </Text>
+          ))
+        }
       </span>
       <Text
         size="xs"
