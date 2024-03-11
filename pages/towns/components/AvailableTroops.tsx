@@ -6,6 +6,7 @@ import { useStoreFromContext } from "./TownGraphStoreProvider";
 import { useShallow } from "zustand/react/shallow";
 import { TownGraphState } from "../store";
 import { kTownGraphColors } from "../constants";
+import AppLink from "../../../components/AppLink/AppLink";
 
 
 const kEssenceTypeToColor: { [key: string] : string } = {
@@ -22,11 +23,13 @@ const UnitTypeBox: React.FC<{
   available: boolean,
   buildingKey: string,
   toggleDwellingSelection: (key: string) => void,
+  href: string,
 }> = ({
   unit,
   available,
   buildingKey,
   toggleDwellingSelection,
+  href,
 }) => {
   if (!unit) {
     return null;
@@ -96,7 +99,9 @@ const UnitTypeBox: React.FC<{
           color: available ? kTownGraphColors.selectionPrimary : 'inherit'
         }}
       >
-        {unit.name}
+        <AppLink href={href}>
+          {unit.name}
+        </AppLink>
       </Text>
       <Text
           component="span"
@@ -144,7 +149,7 @@ const UnitStack: React.FC<{
   toggleNodeSelection,
 }) => {
   // All unit levels in a stack come from the same building.
-
+  const href = `/units/${unit.faction}/${unit.vanilla.languageKey}`;
   return (
     <Stack>
       <UnitTypeBox
@@ -152,6 +157,7 @@ const UnitStack: React.FC<{
         available={availableTroopKeys.has(unit.vanilla.languageKey)}
         buildingKey={unitKeyToBuildingKey[unit.vanilla.languageKey]}
         toggleDwellingSelection={toggleNodeSelection}
+        href={href}
       />
       {unit.upgraded && (
         <UnitTypeBox
@@ -159,6 +165,7 @@ const UnitStack: React.FC<{
           available={availableTroopKeys.has(unit.upgraded.languageKey)}
           buildingKey={unitKeyToBuildingKey[unit.upgraded.languageKey]}
           toggleDwellingSelection={toggleNodeSelection}
+          href={href}
         />
       )}
       {unit.superUpgraded && (
@@ -167,6 +174,7 @@ const UnitStack: React.FC<{
           available={availableTroopKeys.has(unit.superUpgraded.languageKey)}
           buildingKey={unitKeyToBuildingKey[unit.superUpgraded.languageKey]}
           toggleDwellingSelection={toggleNodeSelection}
+          href={href}
         />
       )}
     </Stack>
