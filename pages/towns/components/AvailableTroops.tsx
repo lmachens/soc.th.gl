@@ -10,7 +10,14 @@ import { TownGraphState } from "../store";
 const UnitTypeBox: React.FC<{
   unit: UnitTypeDTO | null,
   available: boolean,
-}> = ({ unit, available }) => {
+  buildingKey: string,
+  toggleDwellingSelection: (key: string) => void,
+}> = ({
+  unit,
+  available,
+  buildingKey,
+  toggleDwellingSelection,
+}) => {
   if (!unit) {
     return null;
   }
@@ -26,7 +33,17 @@ const UnitTypeBox: React.FC<{
         },
       }}
     >
-      <SpriteSheet spriteSheet={unit.sprite} folder="units" />
+      <span
+        onClick={() => toggleDwellingSelection(buildingKey)}
+        style={{
+          cursor: "pointer",
+        }}
+      >
+        <SpriteSheet
+          spriteSheet={unit.sprite}
+          folder="units"
+        />
+      </span>
       <Text size="xs" style={{ whiteSpace: "nowrap" }}>
         {unit.name}
       </Text>
@@ -46,26 +63,38 @@ const UnitTypeBox: React.FC<{
 const UnitStack: React.FC<{
   unit: UnitSimpleDTO,
   availableTroopKeys: Set<string>,
+  unitKeyToBuildingKey: { [key: string]: string },
+  toggleNodeSelection: (key: string) => void,
 }> = ({
   unit,
   availableTroopKeys,
+  unitKeyToBuildingKey,
+  toggleNodeSelection,
 }) => {
+  // All unit levels in a stack come from the same building.
+
   return (
     <Stack>
       <UnitTypeBox
         unit={unit.vanilla as UnitTypeDTO}
         available={availableTroopKeys.has(unit.vanilla.languageKey)}
+        buildingKey={unitKeyToBuildingKey[unit.vanilla.languageKey]}
+        toggleDwellingSelection={toggleNodeSelection}
       />
       {unit.upgraded && (
         <UnitTypeBox
           unit={unit.upgraded as UnitTypeDTO}
           available={availableTroopKeys.has(unit.upgraded.languageKey)}
+          buildingKey={unitKeyToBuildingKey[unit.upgraded.languageKey]}
+          toggleDwellingSelection={toggleNodeSelection}
         />
       )}
       {unit.superUpgraded && (
         <UnitTypeBox
           unit={unit.superUpgraded as UnitTypeDTO}
           available={availableTroopKeys.has(unit.superUpgraded.languageKey)}
+          buildingKey={unitKeyToBuildingKey[unit.superUpgraded.languageKey]}
+          toggleDwellingSelection={toggleNodeSelection}
         />
       )}
     </Stack>
@@ -74,14 +103,20 @@ const UnitStack: React.FC<{
 
 const selector = (state: TownGraphState) => ({
   availableTroopKeys: state.availableTroopKeys,
+  toggleNodeSelection: state.toggleNodeSelection,
 });
 
 export const AvailableTroops: React.FC<{
   units: UnitSimpleDTO[];
+  unitKeyToBuildingKey: { [key: string]: string };
 }> = ({
-  units
+  units,
+  unitKeyToBuildingKey,
 }) => {
-  const { availableTroopKeys } = useStoreFromContext(useShallow(selector));
+  const {
+    availableTroopKeys,
+    toggleNodeSelection,
+ } = useStoreFromContext(useShallow(selector));
   return (
     <Grid columns={units.length}>
       {(units).map((unit) => (
@@ -93,6 +128,8 @@ export const AvailableTroops: React.FC<{
           <UnitStack
             unit={unit}
             availableTroopKeys={availableTroopKeys}
+            unitKeyToBuildingKey={unitKeyToBuildingKey}
+            toggleNodeSelection={toggleNodeSelection}
           />
         </Grid.Col>
       ))}

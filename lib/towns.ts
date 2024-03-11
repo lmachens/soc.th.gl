@@ -16,7 +16,7 @@ function makeUnique(array: any[]) {
   return unique;
 }
 
-function getNodeKey(buildingName: string, tier: number) {
+export function getNodeKey(buildingName: string, tier: number) {
   return `${buildingName}/${tier}`;
 }
 

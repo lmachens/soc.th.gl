@@ -12,7 +12,8 @@ import { TermsDTO } from "../../lib/terms";
 import {
   kExcludedUnitNames,
   TownDataPlain,
-  createTownData
+  createTownData,
+  getNodeKey
 } from "../../lib/towns";
 
 import { TownGraph } from "./components/TownGraph";
@@ -27,10 +28,12 @@ import { useMemo } from "react";
 const FactionTown: NextPage<{
   faction: FactionDTO,
   nameToBuilding: { [key: string]: BuildingDTO },
+  unitKeyToBuildingKey: { [key: string]: string },
   townData: TownDataPlain,
   units: UnitSimpleDTO[],
 }> = ({
   faction,
+  unitKeyToBuildingKey,
   nameToBuilding,
   townData,
   units,
@@ -61,6 +64,7 @@ const FactionTown: NextPage<{
         </Title>
         <AvailableTroops
           units={units}
+          unitKeyToBuildingKey={unitKeyToBuildingKey}
         />
         <Title order={2} style={{ marginBottom: '1em' }}>
           Town Buildings
@@ -91,9 +95,16 @@ export const getStaticProps = withStaticBase(async (context) => {
   const townData = createTownData(factionBuildings as BuildingDTO[]);
 
   const nameToBuilding: { [key: string]: BuildingDTO } = {};
+  const unitKeyToBuildingKey: { [key: string]: string } = {};
   factionBuildings.forEach((building) => {
     if (!building) { return; }
     nameToBuilding[building.name] = building;
+    building.incomePerLevel?.forEach((income) => {
+      income?.troopIncomes?.forEach((troopIncome) => {
+        unitKeyToBuildingKey[troopIncome.unitKey] = getNodeKey(
+          building.name, income.level);
+      });
+    });
   });
 
   const units = getUnits(context.locale!);
@@ -106,6 +117,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     props: {
       faction,
       nameToBuilding,
+      unitKeyToBuildingKey,
       townData,
       units: factionUnits,
       terms,

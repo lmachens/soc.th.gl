@@ -1,7 +1,6 @@
 ## MVP
 
 -   Show accurate unit growth counts.
--   Allow clicking units to turn on buildings.
 -   Clean up:
     -   Prevent vertical panning?
     -   Prevent node dragging?
