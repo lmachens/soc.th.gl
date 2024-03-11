@@ -8,11 +8,11 @@ import { TownGraphState } from "../store";
 
 
 const kEssenceTypeToColor: { [key: string] : string } = {
-  "order": "#303DC5",
-  "chaos": "#CD3CD9",
-  "destruction": "#D74034",
-  "creation": "#F2DF33",
-  "arcana": "#00C6B2",
+  "order": "#303dc5",
+  "chaos": "#cd3cd9",
+  "destruction": "#d74034",
+  "creation": "#f2df33",
+  "arcana": "#00c6b2",
 };
 
 
