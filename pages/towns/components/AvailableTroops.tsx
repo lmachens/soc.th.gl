@@ -44,7 +44,13 @@ const UnitTypeBox: React.FC<{
           folder="units"
         />
       </span>
-      <Text size="xs" style={{ whiteSpace: "nowrap" }}>
+      <Text
+        size="xs"
+        sx={(theme) => ({
+          whiteSpace: "nowrap",
+          color: available ? theme.colors[theme.primaryColor][5] : 'inherit'
+        })}
+      >
         {unit.name}
       </Text>
       <Text
