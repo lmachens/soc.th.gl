@@ -1,4 +1,4 @@
-import { Box, Grid, Stack, Text } from "@mantine/core";
+import { Box, Grid, Stack, Text, Tooltip } from "@mantine/core";
 import React from "react";
 import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
 import { UnitSimpleDTO, UnitTypeDTO } from "../../../lib/units";
@@ -21,6 +21,9 @@ const UnitTypeBox: React.FC<{
   if (!unit) {
     return null;
   }
+  console.log(unit);
+  const maxOffense = Math.max(
+    unit.stats.meleeAttack.offense, unit.stats.rangedAttack.offense);
   return (
     <Box
       sx={{
@@ -54,13 +57,28 @@ const UnitTypeBox: React.FC<{
         {unit.name}
       </Text>
       <Text
-          sx={(theme) => ({
-            color: theme.colors[theme.primaryColor][5],
-          })}
           component="span"
-          size="xs"
+          size={10}
         >
-          {`4/day`}
+          <Tooltip label="damage">
+            <span>⚔ {unit.stats.damage.min}–{unit.stats.damage.max}</span>
+          </Tooltip>
+          &nbsp;
+          <Tooltip label="offense">
+            <span>({maxOffense})</span>
+          </Tooltip>
+      </Text>
+      <Text
+          component="span"
+          size={10}
+        >
+        <Tooltip label="health (defense)">
+          <span>♥ {unit.stats.health}</span>
+        </Tooltip>
+        &nbsp;
+        <Tooltip label="defense">
+          <span>({unit.stats.defense})</span>
+        </Tooltip>
       </Text>
     </Box>
   );
