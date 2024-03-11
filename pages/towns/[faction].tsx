@@ -56,17 +56,25 @@ const FactionTown: NextPage<{
         description={`Town build calculator for the ${faction.name} faction from Songs of Conquest.`}
       />
       <Container>
-        <Title order={1} style={{ marginBottom: '0.5em' }}>
+        <Title order={1} style={{
+          marginBottom: '0.5em'
+        }}>
           {faction.name} Town Build
         </Title>
-        <Title order={2} style={{ marginBottom: '1em' }}>
+        <Title order={2} style={{
+          marginTop: '1em',
+          marginBottom: '0.5em',
+        }}>
           Available Troops
         </Title>
         <AvailableTroops
           units={units}
           unitKeyToBuildingKey={unitKeyToBuildingKey}
         />
-        <Title order={2} style={{ marginBottom: '1em' }}>
+        <Title order={2} style={{
+          marginTop: '1.5em',
+          marginBottom: '1.5em',
+        }}>
           Town Buildings
         </Title>
         <ReactFlowProvider>
