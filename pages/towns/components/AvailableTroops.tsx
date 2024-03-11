@@ -178,7 +178,7 @@ const selector = (state: TownGraphState) => ({
   toggleNodeSelection: state.toggleNodeSelection,
 });
 
-export const AvailableTroops: React.FC<{
+const AvailableTroops: React.FC<{
   units: UnitSimpleDTO[];
   unitKeyToBuildingKey: { [key: string]: string };
 }> = ({
@@ -208,3 +208,5 @@ export const AvailableTroops: React.FC<{
     </Grid>
   );
 };
+
+export default AvailableTroops;

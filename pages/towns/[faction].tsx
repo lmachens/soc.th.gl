@@ -16,11 +16,11 @@ import {
   getNodeKey
 } from "../../lib/towns";
 
-import { TownGraph } from "./components/TownGraph";
+import TownGraph from "./components/TownGraph";
 import { ReactFlowProvider } from "reactflow";
-import { AvailableTroops } from "./components/AvailableTroops";
+import AvailableTroops from "./components/AvailableTroops";
 import { UnitSimpleDTO, getUnits } from "../../lib/units";
-import { TownGraphStoreProvider } from "./components/TownGraphStoreProvider";
+import TownGraphStoreProvider from "./components/TownGraphStoreProvider";
 import { computeInitialGraphData } from "./store";
 import { useMemo } from "react";
 

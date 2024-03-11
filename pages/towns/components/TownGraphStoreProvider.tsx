@@ -17,7 +17,16 @@ interface TownGraphStoreProps {
   keyToNode: { [key: string]: NodePlain };
 }
 
-export const TownGraphStoreProvider = ({
+export const useStoreFromContext = (selector: any): TownGraphState => {
+  const store = useContext(TownGraphContext);
+  if (!store) {
+    throw new Error(
+      'useStoreFromContext must be used within a <TownGraphStoreProvider />.');
+  }
+  return useStore(store as any, selector);
+}
+
+const TownGraphStoreProvider = ({
   children,
   initialNodes,
   initialEdges,
@@ -42,11 +51,4 @@ export const TownGraphStoreProvider = ({
   );
 }
 
-export const useStoreFromContext = (selector: any): TownGraphState => {
-  const store = useContext(TownGraphContext);
-  if (!store) {
-    throw new Error(
-      'useStoreFromContext must be used within a <TownGraphStoreProvider />.');
-  }
-  return useStore(store as any, selector);
-}
+export default TownGraphStoreProvider;

@@ -5,7 +5,7 @@ import { BuildingDTO } from "../../../lib/buildings";
 import { NodePlain } from "../../../lib/towns";
 import { kNodeSize, kTownGraphColors } from "../constants";
 
-export const BuildingNode: React.FC<{
+const BuildingNode: React.FC<{
   data: {
     node: NodePlain;
     building: BuildingDTO;
@@ -70,3 +70,5 @@ export const BuildingNode: React.FC<{
     </div>
   );
 };
+
+export default BuildingNode;

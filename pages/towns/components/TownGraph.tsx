@@ -4,7 +4,7 @@ import { useShallow } from "zustand/react/shallow";
 
 import { TownDataPlain } from "../../../lib/towns";
 import  { TownGraphState } from "../store";
-import { BuildingNode } from "./BuildingNode";
+import BuildingNode from "./BuildingNode";
 
 import 'reactflow/dist/style.css';
 import { useWindowDimensions } from "../../../lib/hooks";
@@ -21,7 +21,7 @@ const selector = (state: TownGraphState) => ({
   resizeGraph: state.resizeGraph,
 });
 
-export const TownGraph: React.FC<{
+const TownGraph: React.FC<{
   townData: TownDataPlain;
 }> = ({
   townData,
@@ -80,3 +80,5 @@ export const TownGraph: React.FC<{
     </div>
   );
 };
+
+export default TownGraph;
