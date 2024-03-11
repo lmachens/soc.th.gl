@@ -90,16 +90,17 @@ const FactionTown: NextPage<{
 export default FactionTown;
 
 export const getStaticProps = withStaticBase(async (context) => {
+  const locale = context.locale! as string;
   const factionType = context.params!.faction as string;
-  const faction = getFaction(factionType, context.locale!);
+  const faction = getFaction(factionType, locale);
   if (!faction) {
     return {
       notFound: true,
     };
   }
-  const factionBuildings = getBuildings(context.locale!)
+  const factionBuildings = getBuildings(locale)
     .filter(building => (building.factionName === faction.name))
-    .map(building => getBuilding(building.type, context.locale!));
+    .map(building => getBuilding(building.type, locale));
   const townData = createTownData(factionBuildings as BuildingDTO[]);
 
   const nameToBuilding: { [key: string]: BuildingDTO } = {};
@@ -115,7 +116,7 @@ export const getStaticProps = withStaticBase(async (context) => {
     });
   });
 
-  const units = getUnits(context.locale!);
+  const units = getUnits(locale);
   const factionUnits = units
     .filter(unit => (unit.faction === factionType))
     .filter(unit => (kExcludedUnitNames.indexOf(unit.vanilla.name) === -1));
@@ -135,7 +136,7 @@ export const getStaticProps = withStaticBase(async (context) => {
 });
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const factions = getFactions("en")
+  const factions = getFactions("en")  // Keep as "en" for routing.
     .filter((faction) => (faction.type !== "Neutral"))
     .map((faction) => ({
       params: {
