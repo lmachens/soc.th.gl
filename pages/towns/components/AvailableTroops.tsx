@@ -119,7 +119,7 @@ const UnitTypeBox: React.FC<{
             color: available ? theme.colors[theme.primaryColor][5] : 'inherit'
           })}
         >
-        <Tooltip label="health (defense)">
+        <Tooltip label="health">
           <span>♥ {unit.stats.health}</span>
         </Tooltip>
         &nbsp;
