@@ -51,7 +51,7 @@ const UnitTypeBox: React.FC<{
         size="xs"
         sx={(theme) => ({
           whiteSpace: "nowrap",
-          color: available ? theme.colors[theme.primaryColor][5] : 'inherit'
+          color: available ? theme.colors[theme.primaryColor][4] : 'inherit'
         })}
       >
         {unit.name}
@@ -59,6 +59,9 @@ const UnitTypeBox: React.FC<{
       <Text
           component="span"
           size={10}
+          sx={(theme) => ({
+            color: available ? theme.colors[theme.primaryColor][5] : 'inherit'
+          })}
         >
           <Tooltip label="damage">
             <span>⚔ {unit.stats.damage.min}–{unit.stats.damage.max}</span>
@@ -71,6 +74,9 @@ const UnitTypeBox: React.FC<{
       <Text
           component="span"
           size={10}
+          sx={(theme) => ({
+            color: available ? theme.colors[theme.primaryColor][5] : 'inherit'
+          })}
         >
         <Tooltip label="health (defense)">
           <span>♥ {unit.stats.health}</span>

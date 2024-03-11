@@ -182,11 +182,11 @@ const createUseTownStore = (
             const isSelected = sourceSelected && targetSelected;
             flowEdge.style = {
               ...flowEdge.style,
-              stroke: isSelected ? '#f39a25' : '#c1c2c5',
+              stroke: isSelected ? '#f6b156' : '#c1c2c5',
             };
             flowEdge.markerEnd = {
               type: MarkerType.Arrow,
-              color: isSelected ? '#f39a25' : '#c1c2c5',
+              color: isSelected ? '#f6b156' : '#c1c2c5',
             };
             return flowEdge;
           }),
