@@ -96,10 +96,14 @@ const UnitTypeBox: React.FC<{
         size="xs"
         sx={{
           whiteSpace: "nowrap",
-          color: available ? kTownGraphColors.selectionPrimary : 'inherit'
         }}
       >
-        <AppLink href={href}>
+        <AppLink
+          href={href}
+          style={{
+            color: available ? kTownGraphColors.selectionPrimary : 'inherit'
+          }}
+        >
           {unit.name}
         </AppLink>
       </Text>
