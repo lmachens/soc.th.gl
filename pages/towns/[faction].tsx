@@ -13,13 +13,13 @@ import {
   getNodeKey,
 } from "../../lib/towns";
 
-import TownGraph from "./components/TownGraph";
 import { ReactFlowProvider } from "reactflow";
-import AvailableTroops from "./components/AvailableTroops";
 import { UnitSimpleDTO, getUnits } from "../../lib/units";
-import TownGraphStoreProvider from "./components/TownGraphStoreProvider";
-import { computeInitialGraphData } from "./store";
 import { useMemo } from "react";
+import TownGraph from "../../components/Towns/TownGraph";
+import { computeInitialGraphData } from "../../components/Towns/store";
+import TownGraphStoreProvider from "../../components/Towns/TownGraphStoreProvider";
+import AvailableTroops from "../../components/Towns/AvailableTroops";
 
 const FactionTown: NextPage<{
   faction: FactionDTO;

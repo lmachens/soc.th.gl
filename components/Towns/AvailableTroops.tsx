@@ -1,12 +1,12 @@
 import { Box, Grid, Stack, Text, Tooltip } from "@mantine/core";
 import React from "react";
-import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
-import { UnitSimpleDTO, UnitTypeDTO } from "../../../lib/units";
+import { UnitSimpleDTO, UnitTypeDTO } from "../../lib/units";
 import { useStoreFromContext } from "./TownGraphStoreProvider";
 import { useShallow } from "zustand/react/shallow";
-import { TownGraphState } from "../store";
-import { TOWN_GRAPH_COLORS } from "../constants";
-import AppLink from "../../../components/AppLink/AppLink";
+import { TownGraphState } from "./store";
+import AppLink from "../AppLink/AppLink";
+import SpriteSheet from "../SpriteSheet/SpriteSheet";
+import { TOWN_GRAPH_COLORS } from "../../lib/towns/constants";
 
 const ESSENCE_TYPE_TO_COLOR: { [key: string]: string } = {
   order: "#303dc5",

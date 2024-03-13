@@ -1,11 +1,12 @@
 import { Text } from "@mantine/core";
 import { Handle, Position } from "reactflow";
-import SpriteSheet from "../../../components/SpriteSheet/SpriteSheet";
-import { BuildingDTO } from "../../../lib/buildings";
-import { NodePlain } from "../../../lib/towns";
-import { NODE_SIZE, TOWN_GRAPH_COLORS } from "../constants";
+import SpriteSheet from "../SpriteSheet/SpriteSheet";
+import { BuildingDTO } from "../../lib/buildings";
+import { NODE_SIZE, TOWN_GRAPH_COLORS } from "../../lib/towns/constants";
+import { NodePlain } from "../../lib/towns";
+import { FC } from "react";
 
-const BuildingNode: React.FC<{
+const BuildingNode: FC<{
   data: {
     node: NodePlain;
     building: BuildingDTO;

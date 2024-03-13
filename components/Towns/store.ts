@@ -17,10 +17,14 @@ import {
   NodePlain,
   PositionedComponentPlain,
 } from "../../lib/towns";
-import { NODE_MARGIN_BOTTOM, NODE_MARGIN_RIGHT, NODE_SIZE } from "./constants";
-import { getComponentOffsets } from "./positioning";
+import {
+  NODE_MARGIN_BOTTOM,
+  NODE_MARGIN_RIGHT,
+  NODE_SIZE,
+  TOWN_GRAPH_COLORS,
+} from "../../lib/towns/constants";
+import { getComponentOffsets } from "../../lib/towns/positioning";
 import { BuildingDTO } from "../../lib/buildings";
-import { TOWN_GRAPH_COLORS } from "./constants";
 
 export type TownGraphState = {
   nodes: Node[];

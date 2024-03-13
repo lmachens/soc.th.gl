@@ -1,4 +1,4 @@
-import { BuildingDTO } from "./buildings";
+import { BuildingDTO } from "../buildings";
 
 /** Units excluded from the town build calculators. */
 export const EXCLUDED_UNIT_NAMES = ["Ballistae", "Risen"];

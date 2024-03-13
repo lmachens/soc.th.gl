@@ -1,12 +1,9 @@
-import { createContext, useContext, useRef } from 'react';
-import {
-  Edge,
-  Node,
-} from 'reactflow';
-import { StoreApi, useStore } from 'zustand';
+import { createContext, useContext, useRef } from "react";
+import { Edge, Node } from "reactflow";
+import { StoreApi, useStore } from "zustand";
 
-import { NodePlain } from '../../../lib/towns';
-import createUseTownStore, { TownGraphState } from '../store';
+import { NodePlain } from "../../lib/towns";
+import createUseTownStore, { TownGraphState } from "./store";
 
 const TownGraphContext = createContext<TownGraphState | null>(null);
 
@@ -21,10 +18,11 @@ export const useStoreFromContext = (selector: any): TownGraphState => {
   const store = useContext(TownGraphContext);
   if (!store) {
     throw new Error(
-      'useStoreFromContext must be used within a <TownGraphStoreProvider />.');
+      "useStoreFromContext must be used within a <TownGraphStoreProvider />."
+    );
   }
   return useStore(store as any, selector);
-}
+};
 
 const TownGraphStoreProvider = ({
   children,
@@ -39,9 +37,12 @@ const TownGraphStoreProvider = ({
     : [];
   const incomingNodeKeys = initialNodes.map((node) => node.id);
   // Building nodes remain constant for any given town.
-  if (existingNodeKeys.join('') !== incomingNodeKeys.join('')) {
+  if (existingNodeKeys.join("") !== incomingNodeKeys.join("")) {
     storeRef.current = createUseTownStore(
-      initialNodes, initialEdges, keyToNode);
+      initialNodes,
+      initialEdges,
+      keyToNode
+    );
   }
 
   return (
@@ -49,6 +50,6 @@ const TownGraphStoreProvider = ({
       {children}
     </TownGraphContext.Provider>
   );
-}
+};
 
 export default TownGraphStoreProvider;

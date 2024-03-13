@@ -1,16 +1,19 @@
-import { useEffect, useMemo } from "react";
+import { FC, useEffect, useMemo } from "react";
 import ReactFlow from "reactflow";
 import { useShallow } from "zustand/react/shallow";
 
-import { TownDataPlain } from "../../../lib/towns";
-import { TownGraphState } from "../store";
+import { TownGraphState } from "./store";
 import BuildingNode from "./BuildingNode";
 
 import "reactflow/dist/style.css";
-import { useWindowDimensions } from "../../../lib/hooks";
-import { getComponentOffsets, getNumNodeColumns } from "../positioning";
-import { NODE_MARGIN_BOTTOM, NODE_SIZE } from "../constants";
+import { useWindowDimensions } from "../../lib/hooks";
+import {
+  getComponentOffsets,
+  getNumNodeColumns,
+} from "../../lib/towns/positioning";
+import { NODE_MARGIN_BOTTOM, NODE_SIZE } from "../../lib/towns/constants";
 import { useStoreFromContext } from "./TownGraphStoreProvider";
+import { TownDataPlain } from "../../lib/towns";
 
 const selector = (state: TownGraphState) => ({
   nodes: state.nodes,
@@ -21,7 +24,7 @@ const selector = (state: TownGraphState) => ({
   resizeGraph: state.resizeGraph,
 });
 
-const TownGraph: React.FC<{
+const TownGraph: FC<{
   townData: TownDataPlain;
 }> = ({ townData }) => {
   const {
