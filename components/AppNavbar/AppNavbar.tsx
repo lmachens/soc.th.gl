@@ -5,8 +5,8 @@ import { SearchControl } from "../SearchControl/SearchControl";
 import NavbarCollectionLinks from "./NavbarCollectionLinks/NavbarCollectionLinks";
 import NavbarMainLink from "./NavbarMainLink/NavbarMainLink";
 
-export const kAppNavbarWidthSm = 200;
-export const kAppNavbarWidthLg = 300;
+export const APP_NAVBAR_WIDTH_SM = 200;
+export const APP_NAVBAR_WIDTH_LG = 300;
 
 type Props = {
   collectionLinks: CollectionLink[];
@@ -24,7 +24,7 @@ const AppNavbar = ({ collectionLinks, opened }: Props) => {
       p="md"
       hiddenBreakpoint="sm"
       hidden={!opened}
-      width={{ sm: kAppNavbarWidthSm, lg: kAppNavbarWidthLg }}
+      width={{ sm: APP_NAVBAR_WIDTH_SM, lg: APP_NAVBAR_WIDTH_LG }}
     >
       <ScrollArea
         styles={{

@@ -1,10 +1,7 @@
 import { BuildingDTO } from "./buildings";
 
 /** Units excluded from the town build calculators. */
-export const kExcludedUnitNames = [
-  "Ballistae",
-  "Risen",
-];
+export const EXCLUDED_UNIT_NAMES = ["Ballistae", "Risen"];
 
 function makeUnique(array: any[]) {
   const unique: any[] = [];
@@ -40,10 +37,10 @@ class Node {
 
   static #constructNextLevelKey(
     building: BuildingDTO,
-    level: number,
+    level: number
   ): string | null {
     const { levelUpgrades = [] } = building;
-    const hasNextLevel = (level - 1) < levelUpgrades.length;
+    const hasNextLevel = level - 1 < levelUpgrades.length;
     if (hasNextLevel) {
       return getNodeKey(building.name, level + 1);
     } else {
@@ -53,11 +50,13 @@ class Node {
 
   static #constructOtherRequiredBuildingKeys(
     building: BuildingDTO,
-    level: number,
+    level: number
   ): string[] {
     if (level === 1) {
       const { requiredBuildings = [] } = building.requirements || {};
-      return requiredBuildings.map(buildingName => getNodeKey(buildingName, 1));
+      return requiredBuildings.map((buildingName) =>
+        getNodeKey(buildingName, 1)
+      );
     } else if (level > 1) {
       // upgradeIndex = 0 => upgrade to level 2 (1 --> 2)
       // upgradeIndex = 1 => upgrade to level 3 (2 --> 3)
@@ -81,16 +80,15 @@ class Node {
     this.level = level;
     this.nextLevelKey = Node.#constructNextLevelKey(building, level);
     this.otherRequiredBuildingKeys = Node.#constructOtherRequiredBuildingKeys(
-      building, level);
+      building,
+      level
+    );
     this.childKeys = [];
     this.parentKeys = [];
   }
 
   get isRoot() {
-    return (
-      (this.level === 1) &&
-      (this.otherRequiredBuildingKeys.length === 0)
-    );
+    return this.level === 1 && this.otherRequiredBuildingKeys.length === 0;
   }
 
   toPlain(): NodePlain {
@@ -104,15 +102,13 @@ class Node {
   }
 }
 
-function createNodes(
-  factionBuildings: BuildingDTO[]
-): Map<string, Node> {
+function createNodes(factionBuildings: BuildingDTO[]): Map<string, Node> {
   const keyToNode = new Map();
 
   // Create an child/parent-less Node for each level of each building.
   factionBuildings.forEach((building) => {
     const baseNode = new Node(building, 1);
-    keyToNode.set(baseNode.key, baseNode)
+    keyToNode.set(baseNode.key, baseNode);
     building?.levelUpgrades?.forEach((_, index) => {
       const levelNode = new Node(building, index + 2);
       keyToNode.set(levelNode.key, levelNode);
@@ -126,7 +122,7 @@ function createNodes(
   keyToNode.forEach((node) => {
     const { nextLevelKey } = node;
     if (nextLevelKey) {
-      const nextLevelNode = keyToNode.get(nextLevelKey)
+      const nextLevelNode = keyToNode.get(nextLevelKey);
       node.childKeys.push(nextLevelNode.key);
       nextLevelNode.parentKeys.push(node.key);
     }
@@ -154,9 +150,10 @@ class NodeStack {
 
   constructor(nodes: Node[]) {
     this.nodes = nodes;
-    this.nodeKeys = nodes.map(node => node.key);
+    this.nodeKeys = nodes.map((node) => node.key);
     this.childNodeKeys = makeUnique(
-      this.nodes.map(node => node.childKeys).flat());
+      this.nodes.map((node) => node.childKeys).flat()
+    );
   }
 
   get numNodes() {
@@ -165,7 +162,7 @@ class NodeStack {
 
   toPlain(): NodeStackPlain {
     return {
-      nodes: this.nodes.map(node => node.toPlain()),
+      nodes: this.nodes.map((node) => node.toPlain()),
       childNodeKeys: this.childNodeKeys,
       numNodes: this.numNodes,
     };
@@ -174,7 +171,7 @@ class NodeStack {
 
 function buildStacks(nodes: Node[]): NodeStack[] {
   const keyToNode = new Map<string, Node>();
-  nodes.map(node => keyToNode.set(node.key, node));
+  nodes.map((node) => keyToNode.set(node.key, node));
 
   function buildOneStack(node: Node) {
     let currentNode = node;
@@ -189,7 +186,9 @@ function buildStacks(nodes: Node[]): NodeStack[] {
   const stacks: NodeStack[] = [];
   nodes.forEach((node) => {
     // Create a new stack only for tier 1 nodes.
-    if (node.level !== 1) { return; }
+    if (node.level !== 1) {
+      return;
+    }
     stacks.push(buildOneStack(node));
   });
 
@@ -199,10 +198,12 @@ function buildStacks(nodes: Node[]): NodeStack[] {
     const aAfter = 1;
 
     // Children after parents.
-    const aPointsToB = a.childNodeKeys.filter((aChildKey) =>
-      b.nodeKeys.includes(aChildKey)).length > 0;
-    const bPointsToA = b.childNodeKeys.filter((bChildKey) =>
-      a.nodeKeys.includes(bChildKey)).length > 0;
+    const aPointsToB =
+      a.childNodeKeys.filter((aChildKey) => b.nodeKeys.includes(aChildKey))
+        .length > 0;
+    const bPointsToA =
+      b.childNodeKeys.filter((bChildKey) => a.nodeKeys.includes(bChildKey))
+        .length > 0;
 
     if (aPointsToB) {
       return aBefore;
@@ -236,13 +237,13 @@ class Component {
   toPlain(): ComponentPlain {
     return {
       id: this.id,
-      stacks: this.stacks.map(stack => stack.toPlain()),
+      stacks: this.stacks.map((stack) => stack.toPlain()),
     };
   }
 }
 
 function separateNodesIntoComponents(
-  keyToNode: Map<string, Node>,
+  keyToNode: Map<string, Node>
 ): Map<number, Node[]> {
   const nodeKeyToComponentId = new Map();
   let currentId = 0;
@@ -257,7 +258,8 @@ function separateNodesIntoComponents(
       const childNode = keyToNode.get(adjacentNodeKey);
       if (!childNode) {
         console.error(
-          `Non-existent key ${adjacentNodeKey} adjacent to key ${node.key}`);
+          `Non-existent key ${adjacentNodeKey} adjacent to key ${node.key}`
+        );
         return;
       }
       markComponentDFS(childNode);
@@ -281,7 +283,6 @@ function separateNodesIntoComponents(
     }
     // @ts-ignore
     componentIdToNodes.get(componentId).push(keyToNode.get(nodeKey));
-
   }
   return componentIdToNodes;
 }
@@ -327,11 +328,11 @@ class ComponentPositioning {
       dimensions: this.dimensions,
     };
   }
-};
+}
 
 function getComponentPositioning(
   component: Component,
-  keyToNode: Map<string, Node>,
+  keyToNode: Map<string, Node>
 ): ComponentPositioning {
   const nodeKeyToPosition = new Map<string, Coordinate>();
 
@@ -404,10 +405,7 @@ class TownData {
   keyToNode: Map<string, Node>;
   components: PositionedComponent[];
 
-  constructor(
-    keyToNode: Map<string, Node>,
-    components: PositionedComponent[]
-  ) {
+  constructor(keyToNode: Map<string, Node>, components: PositionedComponent[]) {
     this.keyToNode = keyToNode;
     this.components = components;
   }
@@ -419,27 +417,24 @@ class TownData {
     });
     return {
       keyToNode: keyToNodePlain,
-      components: this.components.map(component => component.toPlain()),
+      components: this.components.map((component) => component.toPlain()),
     };
   }
-};
+}
 
-export function createTownData(
-  factionBuildings: BuildingDTO[]
-): TownDataPlain {
+export function createTownData(factionBuildings: BuildingDTO[]): TownDataPlain {
   const keyToNode = createNodes(factionBuildings);
   const componentIdToNodes = separateNodesIntoComponents(keyToNode);
 
   const positionedComponents = Array.from(componentIdToNodes.values())
     .sort((aNodes, bNodes) => bNodes.length - aNodes.length)
-    .map(
-      (nodes, componentId) => {
-        const component = new Component(componentId, nodes);
-        return new PositionedComponent(
-          component,
-          getComponentPositioning(component, keyToNode)
-        );
-      });
+    .map((nodes, componentId) => {
+      const component = new Component(componentId, nodes);
+      return new PositionedComponent(
+        component,
+        getComponentPositioning(component, keyToNode)
+      );
+    });
 
-  return (new TownData(keyToNode, positionedComponents)).toPlain();
+  return new TownData(keyToNode, positionedComponents).toPlain();
 }

@@ -3,13 +3,13 @@ import ReactFlow from "reactflow";
 import { useShallow } from "zustand/react/shallow";
 
 import { TownDataPlain } from "../../../lib/towns";
-import  { TownGraphState } from "../store";
+import { TownGraphState } from "../store";
 import BuildingNode from "./BuildingNode";
 
-import 'reactflow/dist/style.css';
+import "reactflow/dist/style.css";
 import { useWindowDimensions } from "../../../lib/hooks";
-import { getComponentOffsets, getNumNodeColumns } from '../positioning';
-import { kNodeMarginBottom, kNodeSize } from "../constants";
+import { getComponentOffsets, getNumNodeColumns } from "../positioning";
+import { NODE_MARGIN_BOTTOM, NODE_SIZE } from "../constants";
 import { useStoreFromContext } from "./TownGraphStoreProvider";
 
 const selector = (state: TownGraphState) => ({
@@ -23,9 +23,7 @@ const selector = (state: TownGraphState) => ({
 
 const TownGraph: React.FC<{
   townData: TownDataPlain;
-}> = ({
-  townData,
-}) => {
+}> = ({ townData }) => {
   const {
     nodes,
     edges,
@@ -33,38 +31,27 @@ const TownGraph: React.FC<{
     onEdgesChange,
     toggleNodeSelection,
     resizeGraph,
-  } = useStoreFromContext(
-    useShallow(selector),
-  );
+  } = useStoreFromContext(useShallow(selector));
   const nodeTypes = useMemo(() => ({ buildingNode: BuildingNode }), []);
 
   const windowDimensions = useWindowDimensions();
   const numNodeColumns = getNumNodeColumns(windowDimensions);
   const { dimensions } = useMemo(() => {
-    return getComponentOffsets(
-      townData.components, numNodeColumns);
-    },
-    [
-      townData,
-      numNodeColumns
-    ]
-  );
+    return getComponentOffsets(townData.components, numNodeColumns);
+  }, [townData, numNodeColumns]);
 
   useEffect(
     () => resizeGraph(townData.components, numNodeColumns),
-    [
-      townData.components,
-      numNodeColumns,
-      resizeGraph
-    ]
+    [townData.components, numNodeColumns, resizeGraph]
   );
 
   return (
     <div
       style={{
-        width: '100%',
-        height: dimensions.height * (kNodeSize + kNodeMarginBottom),
-      }}>
+        width: "100%",
+        height: dimensions.height * (NODE_SIZE + NODE_MARGIN_BOTTOM),
+      }}
+    >
       <ReactFlow
         nodeTypes={nodeTypes}
         nodes={nodes}

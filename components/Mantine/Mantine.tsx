@@ -1,4 +1,9 @@
-import { Global, MantineProvider } from "@mantine/core";
+import {
+  Global,
+  MantineProvider,
+  MantineThemeColors,
+  MantineThemeOverride,
+} from "@mantine/core";
 import { NotificationsProvider } from "@mantine/notifications";
 import { ReactNode } from "react";
 
@@ -6,7 +11,11 @@ type Props = {
   children: ReactNode;
 };
 
-export const kThemeConstants = {
+export const THEME_CONSTANTS: Omit<MantineThemeOverride, "colors"> & {
+  colors: {
+    brand: MantineThemeColors[string];
+  };
+} = {
   colorScheme: "dark",
   fontFamily: '"Roboto", sans-serif',
   colors: {
@@ -33,7 +42,7 @@ const Mantine = ({ children }: Props) => {
       withGlobalStyles
       withNormalizeCSS
       theme={{
-        ...kThemeConstants as any,
+        ...THEME_CONSTANTS,
         components: {
           Title: {
             styles: (theme) => ({
