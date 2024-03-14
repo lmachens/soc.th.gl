@@ -16,9 +16,6 @@ We have the approval and support of the game studio (Lavapotion) to use the game
 
 ## Contribution
 
-This app is Open Source. Contributors are highly welcome!
-You can find open tasks and issues on [GitHub](https://github.com/lmachens/soc.gg/issues).
-
 Join us on [Discord](https://th.gl/discord) if you like to contribute.
 
 ## Town Graph Improvements
