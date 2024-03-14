@@ -62,6 +62,7 @@ const TownGraph: FC<{
         onNodesChange={onNodesChange}
         onEdgesChange={onEdgesChange}
         onNodeClick={(_, node) => toggleNodeSelection(node.id)}
+        nodesDraggable={false}
         panOnDrag={true}
         zoomOnScroll={false}
         preventScrolling={false}
