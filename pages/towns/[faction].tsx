@@ -1,11 +1,11 @@
-import { Container, Title } from "@mantine/core";
+import { Container, Text, Title } from "@mantine/core";
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
 import PageHead from "../../components/PageHead/PageHead";
 import { BuildingDTO, getBuilding, getBuildings } from "../../lib/buildings";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
-import { TermsDTO } from "../../lib/terms";
+import { TermsDTO, getSiteTerm } from "../../lib/terms";
 import {
   EXCLUDED_UNIT_NAMES,
   TownDataPlain,
@@ -20,6 +20,7 @@ import TownGraph from "../../components/Towns/TownGraph";
 import { computeInitialGraphData } from "../../components/Towns/store";
 import TownGraphStoreProvider from "../../components/Towns/TownGraphStoreProvider";
 import AvailableTroops from "../../components/Towns/AvailableTroops";
+import { useTerms } from "../../components/Terms/Terms";
 
 const FactionTown: NextPage<{
   faction: FactionDTO;
@@ -28,6 +29,7 @@ const FactionTown: NextPage<{
   townData: TownDataPlain;
   units: UnitSimpleDTO[];
 }> = ({ faction, unitKeyToBuildingKey, nameToBuilding, townData, units }) => {
+  const terms = useTerms();
   const { initialNodes, initialEdges } = useMemo(
     () => computeInitialGraphData(nameToBuilding, townData.components),
     [townData.components, nameToBuilding]
@@ -51,6 +53,7 @@ const FactionTown: NextPage<{
         >
           {faction.name} Town Build
         </Title>
+        <Text component="p">{terms.townBuildDescription}</Text>
         <Title
           order={2}
           style={{
@@ -119,7 +122,9 @@ export const getStaticProps = withStaticBase(async (context) => {
     .filter((unit) => unit.faction === factionType)
     .filter((unit) => EXCLUDED_UNIT_NAMES.indexOf(unit.vanilla.name) === -1);
 
-  const terms: TermsDTO = {};
+  const terms: TermsDTO = {
+    townBuildDescription: getSiteTerm("townBuildDescription", locale),
+  };
   return {
     props: {
       faction,
