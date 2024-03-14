@@ -574,5 +574,21 @@
     "ko": null,
     "pt-BR": null,
     "uk": null
+  },
+  "TownBuildDescription": {
+    "en": "Click on a unit to see which buildings you need for it. Click on a building to see which units it allows you to recruit.",
+    "sv": null,
+    "ru": null,
+    "cs": null,
+    "fr": null,
+    "de": null,
+    "it": null,
+    "pl": null,
+    "es": null,
+    "zh-CN": null,
+    "ja": null,
+    "ko": null,
+    "pt-BR": null,
+    "uk": null
   }
 }
