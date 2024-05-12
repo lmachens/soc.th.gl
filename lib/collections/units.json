@@ -5,7 +5,7 @@
       "languageKey": "Wolf",
       "sprite": {
         "name": "NeutralWolfDefault1Idle1",
-        "spriteSheet": "NeutralWolfAtlas.webp",
+        "spriteSheet": "NeutralWolfAtlas.png",
         "x": 327,
         "y": 42,
         "width": 67,
@@ -154,12 +154,12 @@
           "max": 5
         },
         "movement": 5,
-        "initiative": 49,
+        "initiative": 43,
         "health": 11,
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": null,
+        "statuses": [],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -179,7 +179,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -206,7 +207,7 @@
       "languageKey": "Brigand",
       "sprite": {
         "name": "NeutralBanditLeftAxe1Idle1",
-        "spriteSheet": "NeutralBanditAtlas.webp",
+        "spriteSheet": "NeutralBanditAtlas.png",
         "x": 145,
         "y": 134,
         "width": 1,
@@ -279,13 +280,13 @@
           "max": 7
         },
         "movement": 4,
-        "initiative": 24,
+        "initiative": 29,
         "health": 25,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -305,7 +306,7 @@
       "languageKey": "CutThroat",
       "sprite": {
         "name": "NeutralCutThroatDefault1Idle1",
-        "spriteSheet": "NeutralCutThroatAtlas.webp",
+        "spriteSheet": "NeutralCutThroatAtlas.png",
         "x": 351,
         "y": 31,
         "width": 37,
@@ -450,13 +451,13 @@
           "max": 11
         },
         "movement": 4,
-        "initiative": 19,
+        "initiative": 25,
         "health": 20,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -477,7 +478,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -504,7 +506,7 @@
       "languageKey": "Silvermane",
       "sprite": {
         "name": "NeutralDireWolfDefault1Idle1",
-        "spriteSheet": "NeutralDireWolfAtlas.webp",
+        "spriteSheet": "NeutralDireWolfAtlas.png",
         "x": 226,
         "y": 81,
         "width": 71,
@@ -657,12 +659,12 @@
           "max": 8
         },
         "movement": 5,
-        "initiative": 29,
+        "initiative": 39,
         "health": 20,
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": null,
+        "statuses": [],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -682,7 +684,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -709,7 +712,7 @@
       "languageKey": "Outlaw",
       "sprite": {
         "name": "NeutralBanditLeaderDefault1Idle1",
-        "spriteSheet": "NeutralBanditLeaderAtlas.webp",
+        "spriteSheet": "NeutralBanditLeaderAtlas.png",
         "x": 466,
         "y": 38,
         "width": 46,
@@ -868,7 +871,7 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -880,9 +883,9 @@
         "type": "Inspire",
         "icon": {
           "name": "AbilityIconInspire",
-          "spriteSheet": "Icons.webp",
-          "x": 1026,
-          "y": 356,
+          "spriteSheet": "Icons.png",
+          "x": 610,
+          "y": 322,
           "width": 52,
           "height": 52,
           "outline": [
@@ -927,7 +930,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -956,7 +960,8 @@
                 }
               },
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -988,7 +993,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -1017,7 +1023,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -1037,7 +1044,7 @@
       "languageKey": "Poacher",
       "sprite": {
         "name": "NeutralBanditArcherDefault1Idle1",
-        "spriteSheet": "NeutralBanditArcherAtlas.webp",
+        "spriteSheet": "NeutralBanditArcherAtlas.png",
         "x": 408,
         "y": 90,
         "width": 49,
@@ -1170,13 +1177,14 @@
           "max": 4
         },
         "movement": 3,
-        "initiative": 14,
+        "initiative": 21,
         "health": 14,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -1188,9 +1196,9 @@
         "type": "Aim",
         "icon": {
           "name": "AbilityIconAim",
-          "spriteSheet": "Icons.webp",
-          "x": 442,
-          "y": 314,
+          "spriteSheet": "Icons.png",
+          "x": 449,
+          "y": 226,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1226,7 +1234,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -1261,7 +1270,7 @@
       "languageKey": "Militia",
       "sprite": {
         "name": "ArleonMilitiaDefault1idle1",
-        "spriteSheet": "ArleonMilitiaAtlas.webp",
+        "spriteSheet": "ArleonMilitiaAtlas.png",
         "x": 380,
         "y": 328,
         "width": 39.941795,
@@ -1390,13 +1399,14 @@
           "max": 3
         },
         "movement": 2,
-        "initiative": 12,
+        "initiative": 14,
         "health": 7,
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -1422,7 +1432,7 @@
       "languageKey": "Sapper",
       "sprite": {
         "name": "ArleonMilitiaUpgrade1idle1",
-        "spriteSheet": "ArleonMilitiaAtlas.webp",
+        "spriteSheet": "ArleonMilitiaAtlas.png",
         "x": 59,
         "y": 218,
         "width": 43.923878,
@@ -1565,7 +1575,8 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -1577,9 +1588,9 @@
         "type": "Palisades",
         "icon": {
           "name": "AbilityIconPalisades",
-          "spriteSheet": "Icons.webp",
-          "x": 735,
-          "y": 202,
+          "spriteSheet": "Icons.png",
+          "x": 609,
+          "y": 269,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1626,7 +1637,7 @@
       "languageKey": "Ranger",
       "sprite": {
         "name": "ArleonRangerDefault1Idle1",
-        "spriteSheet": "ArleonRangerAtlas.webp",
+        "spriteSheet": "ArleonRangerAtlas.png",
         "x": 147.01291,
         "y": 301.0761,
         "width": 60.974174,
@@ -1779,13 +1790,14 @@
           "max": 3
         },
         "movement": 4,
-        "initiative": 8,
+        "initiative": 21,
         "health": 8,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -1800,7 +1812,7 @@
       "languageKey": "Archer",
       "sprite": {
         "name": "ArleonRangerUpgrade1Idle1",
-        "spriteSheet": "ArleonRangerAtlas.webp",
+        "spriteSheet": "ArleonRangerAtlas.png",
         "x": 131.01291,
         "y": 161.07613,
         "width": 60.974174,
@@ -1953,13 +1965,14 @@
           "max": 4
         },
         "movement": 3,
-        "initiative": 9,
+        "initiative": 22,
         "health": 14,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -1971,9 +1984,9 @@
         "type": "Overwatch",
         "icon": {
           "name": "AbilityIconOverwatch",
-          "spriteSheet": "Icons.webp",
-          "x": 1026,
-          "y": 303,
+          "spriteSheet": "Icons.png",
+          "x": 581,
+          "y": 128,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2009,7 +2022,7 @@
       "languageKey": "Minstrel",
       "sprite": {
         "name": "ArleonMinstrelDefault1Idle1",
-        "spriteSheet": "ArleonMinstrelAtlas.webp",
+        "spriteSheet": "ArleonMinstrelAtlas.png",
         "x": 138,
         "y": 248.07613,
         "width": 39,
@@ -2162,14 +2175,14 @@
           "max": 4
         },
         "movement": 3,
-        "initiative": 28,
+        "initiative": 19,
         "health": 10,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human",
-          "Musician"
+          0,
+          3
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -2181,9 +2194,9 @@
         "type": "FearNoFoe",
         "icon": {
           "name": "AbilityIconSing",
-          "spriteSheet": "Icons.webp",
-          "x": 756,
-          "y": 96,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 80,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2219,7 +2232,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -2249,7 +2263,7 @@
       "languageKey": "Troubadour",
       "sprite": {
         "name": "ArleonMinstrelUpgrade1Idle1",
-        "spriteSheet": "ArleonMinstrelAtlas.webp",
+        "spriteSheet": "ArleonMinstrelAtlas.png",
         "x": 2.0761204,
         "y": 390.0761,
         "width": 41.923878,
@@ -2398,14 +2412,14 @@
           "max": 6
         },
         "movement": 3,
-        "initiative": 33,
-        "health": 18,
+        "initiative": 20,
+        "health": 15,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human",
-          "Musician"
+          0,
+          3
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -2417,9 +2431,9 @@
         "type": "StoutheartShallStand",
         "icon": {
           "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.webp",
-          "x": 1036,
-          "y": 409,
+          "spriteSheet": "Icons.png",
+          "x": 560,
+          "y": 181,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2455,7 +2469,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -2489,7 +2504,7 @@
       "languageKey": "Footman",
       "sprite": {
         "name": "ArleonFootmanDefault1Idle1",
-        "spriteSheet": "ArleonFootmanAtlas.webp",
+        "spriteSheet": "ArleonFootmanAtlas.png",
         "x": 227,
         "y": 130,
         "width": 41.923878,
@@ -2630,13 +2645,13 @@
           "max": 5
         },
         "movement": 3,
-        "initiative": 19,
+        "initiative": 25,
         "health": 18,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -2657,7 +2672,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -2679,7 +2695,7 @@
       "languageKey": "ShieldOfOrder",
       "sprite": {
         "name": "ArleonFootmanUpgrade1Idle1",
-        "spriteSheet": "ArleonFootmanAtlas.webp",
+        "spriteSheet": "ArleonFootmanAtlas.png",
         "x": 421,
         "y": 441,
         "width": 42.923878,
@@ -2808,13 +2824,13 @@
           "max": 7
         },
         "movement": 3,
-        "initiative": 21,
+        "initiative": 26,
         "health": 30,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -2826,9 +2842,9 @@
         "type": "Protect",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.webp",
-          "x": 777,
-          "y": 149,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 133,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2873,7 +2889,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2896,7 +2913,8 @@
                 }
               },
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2919,7 +2937,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -2945,7 +2964,7 @@
       "languageKey": "Knight",
       "sprite": {
         "name": "ArleonKnightDefault1Idle1",
-        "spriteSheet": "ArleonKnightAtlas.webp",
+        "spriteSheet": "ArleonKnightAtlas.png",
         "x": 458,
         "y": 663,
         "width": 83,
@@ -3182,13 +3201,13 @@
           "max": 16
         },
         "movement": 5,
-        "initiative": 20,
+        "initiative": 9,
         "health": 40,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -3209,7 +3228,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -3246,7 +3266,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -3270,7 +3291,7 @@
       "languageKey": "FistOfOrder",
       "sprite": {
         "name": "ArleonKnightUpgrade1Idle1",
-        "spriteSheet": "ArleonKnightAtlas.webp",
+        "spriteSheet": "ArleonKnightAtlas.png",
         "x": 148,
         "y": 273,
         "width": 85,
@@ -3511,13 +3532,13 @@
           "max": 25
         },
         "movement": 5,
-        "initiative": 23,
+        "initiative": 16,
         "health": 75,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -3529,9 +3550,9 @@
         "type": "Inspire",
         "icon": {
           "name": "AbilityIconInspire",
-          "spriteSheet": "Icons.webp",
-          "x": 1026,
-          "y": 356,
+          "spriteSheet": "Icons.png",
+          "x": 610,
+          "y": 322,
           "width": 52,
           "height": 52,
           "outline": [
@@ -3576,7 +3597,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3605,7 +3627,8 @@
                 }
               },
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -3628,7 +3651,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -3665,7 +3689,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -3693,7 +3718,7 @@
       "languageKey": "HornedOne",
       "sprite": {
         "name": "ArleonHornedOneDefault1Idle1",
-        "spriteSheet": "ArleonHornedOneAtlas.webp",
+        "spriteSheet": "ArleonHornedOneAtlas.png",
         "x": 293,
         "y": 359,
         "width": 65,
@@ -3874,13 +3899,13 @@
           "max": 16
         },
         "movement": 4,
-        "initiative": 34,
+        "initiative": 38,
         "health": 50,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Faey"
+          1
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -3906,7 +3931,7 @@
       "languageKey": "QueensGuard",
       "sprite": {
         "name": "ArleonQueensGuardDefault1Idle1",
-        "spriteSheet": "ArleonQueensGuardAtlas.webp",
+        "spriteSheet": "ArleonQueensGuardAtlas.png",
         "x": 142,
         "y": 193,
         "width": 69,
@@ -4099,13 +4124,13 @@
           "max": 22
         },
         "movement": 4,
-        "initiative": 41,
+        "initiative": 39,
         "health": 70,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Faey"
+          1
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -4117,9 +4142,9 @@
         "type": "Defend",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.webp",
-          "x": 777,
-          "y": 149,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 133,
           "width": 52,
           "height": 52,
           "outline": [
@@ -4155,7 +4180,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -4210,7 +4236,7 @@
       "languageKey": "FaeySpirit",
       "sprite": {
         "name": "ArleonFaeySpiritDefault1Idle1",
-        "spriteSheet": "ArleonFaeySpiritAtlas.webp",
+        "spriteSheet": "ArleonFaeySpiritAtlas.png",
         "x": 189,
         "y": 97,
         "width": 65,
@@ -4415,13 +4441,13 @@
           "max": 12
         },
         "movement": 5,
-        "initiative": 26,
+        "initiative": 14,
         "health": 8,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Faey"
+          1
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -4436,7 +4462,7 @@
       "languageKey": "FaeyRager",
       "sprite": {
         "name": "ArleonFaeyRagerDefault1Idle1",
-        "spriteSheet": "ArleonFaeyRagerAtlas.webp",
+        "spriteSheet": "ArleonFaeyRagerAtlas.png",
         "x": 164,
         "y": 168,
         "width": 65,
@@ -4657,13 +4683,13 @@
           "max": 12
         },
         "movement": 5,
-        "initiative": 31,
+        "initiative": 16,
         "health": 12,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Faey"
+          1
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -4675,9 +4701,9 @@
         "type": "MagicImmunity",
         "icon": {
           "name": "AbilityIconMagicImmunitye",
-          "spriteSheet": "Icons.webp",
-          "x": 601,
-          "y": 315,
+          "spriteSheet": "Icons.png",
+          "x": 320,
+          "y": 1,
           "width": 52,
           "height": 53,
           "outline": [
@@ -4713,7 +4739,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -4736,7 +4763,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -4772,7 +4800,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -4813,7 +4842,8 @@
               }
             },
             "isStackable": 0,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -4832,7 +4862,7 @@
       "languageKey": "FaeyNoble",
       "sprite": {
         "name": "ArleonFaeyNobleDefault1Idle1",
-        "spriteSheet": "ArleonFaeyNobleAtlas.webp",
+        "spriteSheet": "ArleonFaeyNobleAtlas.png",
         "x": 337,
         "y": 272,
         "width": 79,
@@ -5057,13 +5087,14 @@
           "max": 16
         },
         "movement": 3,
-        "initiative": 25,
+        "initiative": 15,
         "health": 70,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Faey"
+          1,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -5093,7 +5124,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -5122,7 +5154,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -5137,7 +5170,7 @@
       "languageKey": "FaeyQueen",
       "sprite": {
         "name": "ArleonFaeyQueenDefault1Idle1",
-        "spriteSheet": "ArleonFaeyQueenAtlas.webp",
+        "spriteSheet": "ArleonFaeyQueenAtlas.png",
         "x": 188,
         "y": 402,
         "width": 90,
@@ -5386,13 +5419,14 @@
           "max": 30
         },
         "movement": 4,
-        "initiative": 30,
+        "initiative": 17,
         "health": 100,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Faey"
+          1,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -5404,9 +5438,9 @@
         "type": "FaeyFire",
         "icon": {
           "name": "AbilityIconFaeyFire",
-          "spriteSheet": "Icons.webp",
-          "x": 495,
-          "y": 315,
+          "spriteSheet": "Icons.png",
+          "x": 560,
+          "y": 766,
           "width": 52,
           "height": 53,
           "outline": [
@@ -5464,7 +5498,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -5493,7 +5528,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -5512,7 +5548,7 @@
       "languageKey": "Ballista",
       "sprite": {
         "name": "ArleonBalistaDefault1Idle1",
-        "spriteSheet": "ArleonBallistaAtlas.webp",
+        "spriteSheet": "ArleonBallistaAtlas.png",
         "x": 128,
         "y": 230,
         "width": 72,
@@ -5678,7 +5714,9 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": [],
+        "statuses": [
+          8
+        ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -5717,7 +5755,7 @@
       "languageKey": "Rats",
       "sprite": {
         "name": "LothRatsRat11Idle1",
-        "spriteSheet": "LothRatsAtlas.webp",
+        "spriteSheet": "LothRatsAtlas.png",
         "x": 191,
         "y": 0,
         "width": 37,
@@ -5842,12 +5880,12 @@
           "max": 2
         },
         "movement": 4,
-        "initiative": 25,
+        "initiative": 35,
         "health": 5,
         "maxTroopSize": 100,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": null,
+        "statuses": [],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -5872,7 +5910,7 @@
       "languageKey": "PlagueRats",
       "sprite": {
         "name": "LothPlagueRatsRat11Idle1",
-        "spriteSheet": "LothPlagueRatsAtlas.webp",
+        "spriteSheet": "LothPlagueRatsAtlas.png",
         "x": 0,
         "y": 13,
         "width": 37,
@@ -5997,12 +6035,12 @@
           "max": 3
         },
         "movement": 4,
-        "initiative": 29,
+        "initiative": 36,
         "health": 7,
         "maxTroopSize": 100,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": null,
+        "statuses": [],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -6041,7 +6079,7 @@
       "languageKey": "Oathbound",
       "sprite": {
         "name": "LothOathboundDefault1Idle1",
-        "spriteSheet": "LothOathboundAtlas.webp",
+        "spriteSheet": "LothOathboundAtlas.png",
         "x": 397,
         "y": 82,
         "width": 51,
@@ -6222,13 +6260,13 @@
           "max": 3
         },
         "movement": 3,
-        "initiative": 22,
+        "initiative": 29,
         "health": 15,
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -6258,7 +6296,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -6275,7 +6314,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -6290,7 +6330,7 @@
       "languageKey": "Legionnaire",
       "sprite": {
         "name": "LothOathboundLegionaireDefault1Idle1",
-        "spriteSheet": "LothOathboundLegionaireAtlas.webp",
+        "spriteSheet": "LothOathboundLegionaireAtlas.png",
         "x": 447,
         "y": 152,
         "width": 56,
@@ -6479,13 +6519,13 @@
           "max": 6
         },
         "movement": 3,
-        "initiative": 24,
+        "initiative": 30,
         "health": 22,
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -6497,9 +6537,9 @@
         "type": "Defend",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.webp",
-          "x": 777,
-          "y": 149,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 133,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6535,7 +6575,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6571,7 +6612,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -6607,7 +6649,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -6624,7 +6667,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -6643,7 +6687,7 @@
       "languageKey": "Cultist",
       "sprite": {
         "name": "LothCultistDefault1Idle1",
-        "spriteSheet": "LothCultistAtlas.webp",
+        "spriteSheet": "LothCultistAtlas.png",
         "x": 417,
         "y": 88,
         "width": 33,
@@ -6748,14 +6792,14 @@
           "max": 4
         },
         "movement": 4,
-        "initiative": 33,
+        "initiative": 26,
         "health": 14,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human",
-          "Musician"
+          0,
+          3
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -6767,9 +6811,9 @@
         "type": "HerAimWasTrue",
         "icon": {
           "name": "AbilityIconSing",
-          "spriteSheet": "Icons.webp",
-          "x": 756,
-          "y": 96,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 80,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6805,7 +6849,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6829,7 +6874,7 @@
       "languageKey": "Oathsinger",
       "sprite": {
         "name": "LothZealotDefault1Idle1",
-        "spriteSheet": "LothZealotAtlas.webp",
+        "spriteSheet": "LothZealotAtlas.png",
         "x": 56,
         "y": 125,
         "width": 38,
@@ -6934,14 +6979,14 @@
           "max": 7
         },
         "movement": 4,
-        "initiative": 39,
+        "initiative": 27,
         "health": 25,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human",
-          "Musician"
+          0,
+          3
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -6953,9 +6998,9 @@
         "type": "AureliaEternal",
         "icon": {
           "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.webp",
-          "x": 1036,
-          "y": 409,
+          "spriteSheet": "Icons.png",
+          "x": 560,
+          "y": 181,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6991,7 +7036,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -7019,7 +7065,7 @@
       "languageKey": "Toxicologist",
       "sprite": {
         "name": "LothEmbalmerDefault1Idle1",
-        "spriteSheet": "LothEmbalmerAtlas.webp",
+        "spriteSheet": "LothEmbalmerAtlas.png",
         "x": 109,
         "y": 113,
         "width": 40,
@@ -7156,13 +7202,14 @@
           "max": 3
         },
         "movement": 3,
-        "initiative": 16,
+        "initiative": 24,
         "health": 15,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -7198,7 +7245,7 @@
       "languageKey": "Bane",
       "sprite": {
         "name": "LothDoctorDefault1Idle1",
-        "spriteSheet": "LothDoctorAtlas.webp",
+        "spriteSheet": "LothDoctorAtlas.png",
         "x": 68,
         "y": 39.076122,
         "width": 38,
@@ -7323,13 +7370,14 @@
           "max": 6
         },
         "movement": 4,
-        "initiative": 18,
+        "initiative": 25,
         "health": 25,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -7370,7 +7418,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -7396,7 +7445,7 @@
       "languageKey": "AurelianScholar",
       "sprite": {
         "name": "LothScholarDefault1Idle1",
-        "spriteSheet": "LothScholarAtlas.webp",
+        "spriteSheet": "LothScholarAtlas.png",
         "x": 377,
         "y": 121,
         "width": 57,
@@ -7531,7 +7580,8 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -7558,7 +7608,7 @@
       "languageKey": "Necromancer",
       "sprite": {
         "name": "LothNecromancerDefault1Idle1",
-        "spriteSheet": "LothNecromancerAtlas.webp",
+        "spriteSheet": "LothNecromancerAtlas.png",
         "x": 127,
         "y": 184,
         "width": 59,
@@ -7737,13 +7787,14 @@
           "max": 14
         },
         "movement": 3,
-        "initiative": 11,
+        "initiative": 12,
         "health": 50,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -7755,9 +7806,9 @@
         "type": "ChargeEssence",
         "icon": {
           "name": "AbilityIconChargeEssence",
-          "spriteSheet": "Icons.webp",
-          "x": 436,
-          "y": 1,
+          "spriteSheet": "Icons.png",
+          "x": 616,
+          "y": 539,
           "width": 56,
           "height": 57,
           "outline": [
@@ -7802,7 +7853,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7831,7 +7883,8 @@
                 }
               },
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -7864,7 +7917,7 @@
       "languageKey": "ScavengedBones",
       "sprite": {
         "name": "LothSanctifiedBonesDefault1Idle1",
-        "spriteSheet": "LothSanctifiedBonesAtlas.webp",
+        "spriteSheet": "LothSanctifiedBonesAtlas.png",
         "x": 194,
         "y": 261,
         "width": 86,
@@ -8127,13 +8180,13 @@
           "max": 16
         },
         "movement": 4,
-        "initiative": 17,
+        "initiative": 33,
         "health": 65,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -8154,7 +8207,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -8181,7 +8235,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -8203,7 +8258,7 @@
       "languageKey": "BlessedBones",
       "sprite": {
         "name": "LothBlessedBonesDefault1Idle1",
-        "spriteSheet": "LothBlessedBonesAtlas.webp",
+        "spriteSheet": "LothBlessedBonesAtlas.png",
         "x": 356,
         "y": 406,
         "width": 93,
@@ -8488,13 +8543,13 @@
           "max": 20
         },
         "movement": 4,
-        "initiative": 23,
+        "initiative": 34,
         "health": 90,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -8506,9 +8561,9 @@
         "type": "SacrificeBones",
         "icon": {
           "name": "AbilityIconSacrificeBones",
-          "spriteSheet": "Icons.webp",
-          "x": 891,
-          "y": 213,
+          "spriteSheet": "Icons.png",
+          "x": 581,
+          "y": 75,
           "width": 52,
           "height": 52,
           "outline": [
@@ -8544,7 +8599,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -8567,7 +8623,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -8594,7 +8651,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -8620,7 +8678,7 @@
       "languageKey": "Spectre",
       "sprite": {
         "name": "LothAurelianClericDefault1Idle1",
-        "spriteSheet": "LothAurelianClericAtlas.webp",
+        "spriteSheet": "LothAurelianClericAtlas.png",
         "x": 245,
         "y": 233,
         "width": 55,
@@ -8763,13 +8821,13 @@
           "max": 15
         },
         "movement": 5,
-        "initiative": 32,
+        "initiative": 21,
         "health": 40,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -8790,7 +8848,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -8812,7 +8871,7 @@
       "languageKey": "Seneschal",
       "sprite": {
         "name": "LothAurelianHighClericDefault1Idle1",
-        "spriteSheet": "LothAurelianHighClericAtlas.webp",
+        "spriteSheet": "LothAurelianHighClericAtlas.png",
         "x": 77,
         "y": 166.01291,
         "width": 55,
@@ -8973,13 +9032,13 @@
           "max": 22
         },
         "movement": 5,
-        "initiative": 37,
+        "initiative": 22,
         "health": 60,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -8991,9 +9050,9 @@
         "type": "DrainEssence",
         "icon": {
           "name": "AbilityIconDrainEssence",
-          "spriteSheet": "Icons.webp",
-          "x": 926,
-          "y": 420,
+          "spriteSheet": "Icons.png",
+          "x": 556,
+          "y": 234,
           "width": 52,
           "height": 52,
           "outline": [
@@ -9031,7 +9090,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -9057,7 +9117,7 @@
       "languageKey": "Legion",
       "sprite": {
         "name": "LothLegionDefault1Idle1",
-        "spriteSheet": "LothLegionAtlas.webp",
+        "spriteSheet": "LothLegionAtlas.png",
         "x": 448,
         "y": 358,
         "width": 83,
@@ -9498,13 +9558,13 @@
           "max": 35
         },
         "movement": 4,
-        "initiative": 27,
+        "initiative": 19,
         "health": 100,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -9525,7 +9585,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -9561,7 +9622,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -9584,7 +9646,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -9609,7 +9672,7 @@
       "languageKey": "HighLegion",
       "sprite": {
         "name": "LothHighLegionDefault1Idle1",
-        "spriteSheet": "LothHighLegionAtlas.webp",
+        "spriteSheet": "LothHighLegionAtlas.png",
         "x": 679,
         "y": 471,
         "width": 112,
@@ -10070,13 +10133,13 @@
           "max": 50
         },
         "movement": 4,
-        "initiative": 31,
+        "initiative": 20,
         "health": 150,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -10088,9 +10151,9 @@
         "type": "Protect",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.webp",
-          "x": 777,
-          "y": 149,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 133,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10135,7 +10198,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10158,7 +10222,8 @@
                 }
               },
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -10190,7 +10255,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -10213,7 +10279,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -10243,7 +10310,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -10269,7 +10337,7 @@
       "languageKey": "Risen",
       "sprite": {
         "name": "LothZombieDefault1Idle1",
-        "spriteSheet": "LothZombieAtlas.webp",
+        "spriteSheet": "LothZombieAtlas.png",
         "x": 115,
         "y": 84,
         "width": 49,
@@ -10398,13 +10466,13 @@
           "max": 3
         },
         "movement": 2,
-        "initiative": 3,
+        "initiative": 31,
         "health": 15,
         "maxTroopSize": 200,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Undead"
+          2
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -10424,7 +10492,7 @@
       "languageKey": "Ballista",
       "sprite": {
         "name": "ArleonBalistaDefault1Idle1",
-        "spriteSheet": "ArleonBallistaAtlas.webp",
+        "spriteSheet": "ArleonBallistaAtlas.png",
         "x": 128,
         "y": 230,
         "width": 72,
@@ -10590,7 +10658,9 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": [],
+        "statuses": [
+          8
+        ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -10629,7 +10699,7 @@
       "languageKey": "Piper",
       "sprite": {
         "name": "BaryaPiperDefault1Idle1",
-        "spriteSheet": "BaryaPiperAtlas.webp",
+        "spriteSheet": "BaryaPiperAtlas.png",
         "x": 229,
         "y": 14,
         "width": 33,
@@ -10730,14 +10800,14 @@
           "max": 2
         },
         "movement": 4,
-        "initiative": 22,
+        "initiative": 23,
         "health": 7,
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Harima",
-          "Musician"
+          6,
+          3
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -10749,9 +10819,9 @@
         "type": "JigOfJugs",
         "icon": {
           "name": "AbilityIconSing",
-          "spriteSheet": "Icons.webp",
-          "x": 756,
-          "y": 96,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 80,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10787,7 +10857,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -10823,7 +10894,7 @@
       "languageKey": "SteamPiper",
       "sprite": {
         "name": "BaryaSteampiperDefault1Idle1",
-        "spriteSheet": "BaryaSteampiperAtlas.webp",
+        "spriteSheet": "BaryaSteampiperAtlas.png",
         "x": 167,
         "y": 69,
         "width": 35,
@@ -10938,8 +11009,8 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Harima",
-          "Musician"
+          6,
+          3
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -10951,9 +11022,9 @@
         "type": "TheCoinInMyHand",
         "icon": {
           "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.webp",
-          "x": 1036,
-          "y": 409,
+          "spriteSheet": "Icons.png",
+          "x": 560,
+          "y": 181,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10989,7 +11060,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -11029,7 +11101,7 @@
       "languageKey": "Pikeneer",
       "sprite": {
         "name": "BaryaPikeneerDefault1Idle1",
-        "spriteSheet": "BaryaPikeneerAtlas.webp",
+        "spriteSheet": "BaryaPikeneerAtlas.png",
         "x": 429,
         "y": 74,
         "width": 75,
@@ -11186,13 +11258,13 @@
           "max": 5
         },
         "movement": 3,
-        "initiative": 21,
+        "initiative": 28,
         "health": 10,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -11213,7 +11285,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -11235,7 +11308,7 @@
       "languageKey": "VeteranPikeneer",
       "sprite": {
         "name": "BaryaPikeneerVeteranDefault1Idle1",
-        "spriteSheet": "BaryaPikeneerVeteranAtlas.webp",
+        "spriteSheet": "BaryaPikeneerVeteranAtlas.png",
         "x": 69,
         "y": 64,
         "width": 78,
@@ -11416,13 +11489,13 @@
           "max": 7
         },
         "movement": 3,
-        "initiative": 27,
+        "initiative": 32,
         "health": 18,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -11434,9 +11507,9 @@
         "type": "Spearwall",
         "icon": {
           "name": "AbilityIconSpearwall",
-          "spriteSheet": "Icons.webp",
-          "x": 654,
-          "y": 316,
+          "spriteSheet": "Icons.png",
+          "x": 478,
+          "y": 115,
           "width": 52,
           "height": 53,
           "outline": [
@@ -11474,7 +11547,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -11500,7 +11574,7 @@
       "languageKey": "Musketeer",
       "sprite": {
         "name": "BaryaMusketeerDefault1Idle1",
-        "spriteSheet": "BaryaMusketeerAtlas.webp",
+        "spriteSheet": "BaryaMusketeerAtlas.png",
         "x": 90,
         "y": 244,
         "width": 51,
@@ -11637,13 +11711,14 @@
           "max": 5
         },
         "movement": 3,
-        "initiative": 11,
+        "initiative": 20,
         "health": 11,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -11669,7 +11744,7 @@
       "languageKey": "VeteranMusketeer",
       "sprite": {
         "name": "BaryaMusketeerVeteranDefault1Idle1",
-        "spriteSheet": "BaryaMusketeerVeteranAtlas.webp",
+        "spriteSheet": "BaryaMusketeerVeteranAtlas.png",
         "x": 237,
         "y": 219,
         "width": 56,
@@ -11830,13 +11905,14 @@
           "max": 8
         },
         "movement": 3,
-        "initiative": 14,
+        "initiative": 21,
         "health": 18,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -11848,9 +11924,9 @@
         "type": "Aim",
         "icon": {
           "name": "AbilityIconAim",
-          "spriteSheet": "Icons.webp",
-          "x": 442,
-          "y": 314,
+          "spriteSheet": "Icons.png",
+          "x": 449,
+          "y": 226,
           "width": 52,
           "height": 52,
           "outline": [
@@ -11886,7 +11962,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -11931,7 +12008,7 @@
       "languageKey": "Dreath",
       "sprite": {
         "name": "BaryaDreathDefault1Idle1",
-        "spriteSheet": "BaryaDreathAtlas.webp",
+        "spriteSheet": "BaryaDreathAtlas.png",
         "x": 373,
         "y": 81,
         "width": 51,
@@ -12154,13 +12231,13 @@
           "max": 5
         },
         "movement": 5,
-        "initiative": 15,
+        "initiative": 18,
         "health": 10,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Beast"
+          5
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -12186,7 +12263,7 @@
       "languageKey": "DireDreath",
       "sprite": {
         "name": "BaryaDireDreathDefault1Idle1",
-        "spriteSheet": "BaryaDireDreathAtlas.webp",
+        "spriteSheet": "BaryaDireDreathAtlas.png",
         "x": 266,
         "y": 85,
         "width": 59,
@@ -12429,13 +12506,13 @@
           "max": 6
         },
         "movement": 5,
-        "initiative": 18,
+        "initiative": 22,
         "health": 18,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Beast"
+          5
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -12447,9 +12524,9 @@
         "type": "Hype",
         "icon": {
           "name": "AbilityIconHype",
-          "spriteSheet": "Icons.webp",
-          "x": 548,
-          "y": 315,
+          "spriteSheet": "Icons.png",
+          "x": 267,
+          "y": 1,
           "width": 52,
           "height": 53,
           "outline": [
@@ -12485,7 +12562,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -12537,7 +12615,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -12563,7 +12642,7 @@
       "languageKey": "Brute",
       "sprite": {
         "name": "BaryaBruteDefault1Idle1",
-        "spriteSheet": "BaryaBruteAtlas.webp",
+        "spriteSheet": "BaryaBruteAtlas.png",
         "x": 361,
         "y": 54,
         "width": 77,
@@ -12764,13 +12843,13 @@
           "max": 14
         },
         "movement": 4,
-        "initiative": 29,
+        "initiative": 31,
         "health": 60,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Harima"
+          6
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -12791,7 +12870,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -12813,7 +12893,7 @@
       "languageKey": "ScarredBrute",
       "sprite": {
         "name": "BaryaScarredBruteDefault1Idle1",
-        "spriteSheet": "BaryaScarredBruteAtlas.webp",
+        "spriteSheet": "BaryaScarredBruteAtlas.png",
         "x": 244,
         "y": 178,
         "width": 83,
@@ -13008,13 +13088,13 @@
           "max": 24
         },
         "movement": 4,
-        "initiative": 31,
+        "initiative": 32,
         "health": 90,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Harima"
+          6
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -13035,7 +13115,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -13071,7 +13152,7 @@
       "languageKey": "Tinkerer",
       "sprite": {
         "name": "BaryaTinkererDefault1Idle1",
-        "spriteSheet": "BaryaTinkererAtlas.webp",
+        "spriteSheet": "BaryaTinkererAtlas.png",
         "x": 338,
         "y": 89,
         "width": 47,
@@ -13228,13 +13309,13 @@
           "max": 9
         },
         "movement": 4,
-        "initiative": 24,
+        "initiative": 17,
         "health": 30,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -13246,9 +13327,9 @@
         "type": "Palisades",
         "icon": {
           "name": "AbilityIconPalisades",
-          "spriteSheet": "Icons.webp",
-          "x": 735,
-          "y": 202,
+          "spriteSheet": "Icons.png",
+          "x": 609,
+          "y": 269,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13280,7 +13361,7 @@
       "languageKey": "Artificer",
       "sprite": {
         "name": "BaryaArtificerDefault1Idle1",
-        "spriteSheet": "BaryaArtificerAtlas.webp",
+        "spriteSheet": "BaryaArtificerAtlas.png",
         "x": 458,
         "y": 186,
         "width": 47.923878,
@@ -13423,13 +13504,13 @@
           "max": 12
         },
         "movement": 4,
-        "initiative": 30,
+        "initiative": 22,
         "health": 45,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -13441,9 +13522,9 @@
         "type": "PlaceMine",
         "icon": {
           "name": "AbilityIconPlaceMine",
-          "spriteSheet": "Icons.webp",
-          "x": 788,
-          "y": 202,
+          "spriteSheet": "Icons.png",
+          "x": 613,
+          "y": 186,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13490,7 +13571,7 @@
       "languageKey": "Sassanid",
       "sprite": {
         "name": "BaryaSassanidDefault1Idle1",
-        "spriteSheet": "BaryaSassanidAtlas.webp",
+        "spriteSheet": "BaryaSassanidAtlas.png",
         "x": 321,
         "y": 109,
         "width": 57,
@@ -13627,13 +13708,13 @@
           "max": 20
         },
         "movement": 5,
-        "initiative": 43,
+        "initiative": 36,
         "health": 30,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Harima"
+          6
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -13660,7 +13741,7 @@
       "languageKey": "Shadow",
       "sprite": {
         "name": "BaryaSassanidVeteranDefault1Idle1",
-        "spriteSheet": "BaryaSassanidVeteranAtlas.webp",
+        "spriteSheet": "BaryaSassanidVeteranAtlas.png",
         "x": 290,
         "y": 86,
         "width": 55,
@@ -13819,7 +13900,7 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Harima"
+          6
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -13831,9 +13912,9 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.webp",
-          "x": 770,
-          "y": 43,
+          "spriteSheet": "Icons.png",
+          "x": 821,
+          "y": 241,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13871,7 +13952,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -13908,7 +13990,7 @@
       "languageKey": "Hellbreath",
       "sprite": {
         "name": "BaryaHellbreathDefault1Idle1",
-        "spriteSheet": "BaryaHellbreathAtlas.webp",
+        "spriteSheet": "BaryaHellbreathAtlas.png",
         "x": 916,
         "y": 145,
         "width": 99.92388,
@@ -14099,7 +14181,8 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -14146,7 +14229,7 @@
       "languageKey": "Hellroar",
       "sprite": {
         "name": "BaryaHellroarDefault1Idle1",
-        "spriteSheet": "BaryaHellroarAtlas.webp",
+        "spriteSheet": "BaryaHellroarAtlas.png",
         "x": 62,
         "y": 172,
         "width": 107,
@@ -14353,7 +14436,8 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Human"
+          0,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -14365,9 +14449,9 @@
         "type": "Bombard",
         "icon": {
           "name": "AbilityIconBombard",
-          "spriteSheet": "Icons.webp",
-          "x": 879,
-          "y": 647,
+          "spriteSheet": "Icons.png",
+          "x": 805,
+          "y": 593,
           "width": 54,
           "height": 56,
           "outline": [
@@ -14435,7 +14519,7 @@
       "languageKey": "Ballista",
       "sprite": {
         "name": "ArleonBalistaDefault1Idle1",
-        "spriteSheet": "ArleonBallistaAtlas.webp",
+        "spriteSheet": "ArleonBallistaAtlas.png",
         "x": 128,
         "y": 230,
         "width": 72,
@@ -14601,7 +14685,9 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": [],
+        "statuses": [
+          8
+        ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -14640,7 +14726,7 @@
       "languageKey": "Hunter",
       "sprite": {
         "name": "RanaHunterDefault1Idle1",
-        "spriteSheet": "RanaHunterAtlas.webp",
+        "spriteSheet": "RanaHunterAtlas.png",
         "x": 118,
         "y": 88,
         "width": 70,
@@ -14777,13 +14863,13 @@
           "max": 3
         },
         "movement": 4,
-        "initiative": 24,
+        "initiative": 30,
         "health": 7,
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -14798,7 +14884,7 @@
       "languageKey": "StormGuard",
       "sprite": {
         "name": "RanaStormGuardDefault1Idle1",
-        "spriteSheet": "RanaStormGuardAtlas.webp",
+        "spriteSheet": "RanaStormGuardAtlas.png",
         "x": 365,
         "y": 104,
         "width": 75,
@@ -14943,13 +15029,13 @@
           "max": 5
         },
         "movement": 4,
-        "initiative": 27,
+        "initiative": 34,
         "health": 14,
         "maxTroopSize": 50,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -14961,9 +15047,9 @@
         "type": "Defend",
         "icon": {
           "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.webp",
-          "x": 777,
-          "y": 149,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 133,
           "width": 52,
           "height": 52,
           "outline": [
@@ -14999,7 +15085,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -15035,7 +15122,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -15061,7 +15149,7 @@
       "languageKey": "Shaman",
       "sprite": {
         "name": "RanaShamanDefault1Idle1",
-        "spriteSheet": "RanaShamanAtlas.webp",
+        "spriteSheet": "RanaShamanAtlas.png",
         "x": 134,
         "y": 93,
         "width": 58,
@@ -15290,13 +15378,14 @@
           "max": 3
         },
         "movement": 3,
-        "initiative": 21,
+        "initiative": 25,
         "health": 10,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -15322,7 +15411,7 @@
       "languageKey": "Sage",
       "sprite": {
         "name": "RanaSageDefault1Idle1",
-        "spriteSheet": "RanaSageAtlas.webp",
+        "spriteSheet": "RanaSageAtlas.png",
         "x": 0.076120496,
         "y": 138,
         "width": 62.923878,
@@ -15575,13 +15664,14 @@
           "max": 4
         },
         "movement": 3,
-        "initiative": 23,
+        "initiative": 27,
         "health": 15,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -15611,7 +15701,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -15640,7 +15731,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -15669,7 +15761,7 @@
       "languageKey": "Guard",
       "sprite": {
         "name": "RanaGuardDefault1Idle1",
-        "spriteSheet": "RanaGuardAtlas.webp",
+        "spriteSheet": "RanaGuardAtlas.png",
         "x": 118,
         "y": 42,
         "width": 53,
@@ -15814,13 +15906,13 @@
           "max": 5
         },
         "movement": 2,
-        "initiative": 15,
+        "initiative": 33,
         "health": 30,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -15850,7 +15942,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -15867,7 +15960,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -15882,7 +15976,7 @@
       "languageKey": "Protector",
       "sprite": {
         "name": "RanaProtectorDefault1Idle1",
-        "spriteSheet": "RanaProtectorAtlas.webp",
+        "spriteSheet": "RanaProtectorAtlas.png",
         "x": 407,
         "y": 115,
         "width": 53,
@@ -16031,13 +16125,13 @@
           "max": 7
         },
         "movement": 2,
-        "initiative": 17,
+        "initiative": 36,
         "health": 50,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -16049,9 +16143,9 @@
         "type": "BullRush",
         "icon": {
           "name": "AbilityIconBullRush",
-          "spriteSheet": "Icons.webp",
-          "x": 699,
-          "y": 429,
+          "spriteSheet": "Icons.png",
+          "x": 531,
+          "y": 22,
           "width": 52,
           "height": 52,
           "outline": [
@@ -16098,7 +16192,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -16115,7 +16210,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -16134,7 +16230,7 @@
       "languageKey": "Ravager",
       "sprite": {
         "name": "RanaRavagerDefault1Idle1",
-        "spriteSheet": "RanaRavagerAtlas.webp",
+        "spriteSheet": "RanaRavagerAtlas.png",
         "x": 330,
         "y": 314,
         "width": 94,
@@ -16349,13 +16445,13 @@
           "max": 10
         },
         "movement": 5,
-        "initiative": 19,
+        "initiative": 20,
         "health": 35,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Beast"
+          5
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -16386,7 +16482,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -16410,7 +16507,7 @@
       "languageKey": "RiderOfTheSwamp",
       "sprite": {
         "name": "RanaRiderOfTheSwampDefault1Idle1",
-        "spriteSheet": "RanaRiderOfTheSwampAtlas.webp",
+        "spriteSheet": "RanaRiderOfTheSwampAtlas.png",
         "x": 107,
         "y": 378,
         "width": 94,
@@ -16657,14 +16754,14 @@
           "max": 15
         },
         "movement": 5,
-        "initiative": 22,
+        "initiative": 23,
         "health": 50,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana",
-          "Beast"
+          4,
+          5
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -16676,9 +16773,9 @@
         "type": "Wait",
         "icon": {
           "name": "AbilityIconWait",
-          "spriteSheet": "Icons.webp",
-          "x": 770,
-          "y": 43,
+          "spriteSheet": "Icons.png",
+          "x": 821,
+          "y": 241,
           "width": 52,
           "height": 52,
           "outline": [
@@ -16726,7 +16823,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -16754,7 +16852,7 @@
       "languageKey": "Crawler",
       "sprite": {
         "name": "RanaCrawlerDefault1Idle1",
-        "spriteSheet": "RanaCrawlerAtlas.webp",
+        "spriteSheet": "RanaCrawlerAtlas.png",
         "x": 416,
         "y": 18,
         "width": 51,
@@ -16883,13 +16981,13 @@
           "max": 10
         },
         "movement": 3,
-        "initiative": 20,
+        "initiative": 32,
         "health": 35,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Beast"
+          5
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -16919,7 +17017,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -16942,7 +17041,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -16962,7 +17062,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -16984,7 +17085,7 @@
       "languageKey": "AdultCrawler",
       "sprite": {
         "name": "RanaAdultCrawlerDefault1Idle1",
-        "spriteSheet": "RanaAdultCrawlerAtlas.webp",
+        "spriteSheet": "RanaAdultCrawlerAtlas.png",
         "x": 101,
         "y": 154,
         "width": 66,
@@ -17177,13 +17278,13 @@
           "max": 15
         },
         "movement": 3,
-        "initiative": 25,
+        "initiative": 37,
         "health": 50,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Beast"
+          5
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -17195,9 +17296,9 @@
         "type": "Burrow",
         "icon": {
           "name": "AbilityIconBurrow",
-          "spriteSheet": "Icons.webp",
-          "x": 884,
-          "y": 266,
+          "spriteSheet": "Icons.png",
+          "x": 547,
+          "y": 287,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17244,7 +17345,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -17267,7 +17369,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -17287,7 +17390,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -17313,7 +17417,7 @@
       "languageKey": "Tremor",
       "sprite": {
         "name": "RanaTremorDefault1Idle1",
-        "spriteSheet": "RanaTremorAtlas.webp",
+        "spriteSheet": "RanaTremorAtlas.png",
         "x": 271.0429,
         "y": 98,
         "width": 88.95709,
@@ -17552,15 +17656,15 @@
           "max": 16
         },
         "movement": 4,
-        "initiative": 26,
+        "initiative": 24,
         "health": 40,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Musician",
-          "Rana",
-          "Beast"
+          3,
+          4,
+          5
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -17572,9 +17676,9 @@
         "type": "TheDragonsRoar",
         "icon": {
           "name": "AbilityIconSing",
-          "spriteSheet": "Icons.webp",
-          "x": 756,
-          "y": 96,
+          "spriteSheet": "Icons.png",
+          "x": 634,
+          "y": 80,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17610,7 +17714,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -17655,7 +17760,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -17678,7 +17784,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -17698,7 +17805,7 @@
       "languageKey": "Chelun",
       "sprite": {
         "name": "RanaChelunDefault1Idle1",
-        "spriteSheet": "RanaChelunAtlas.webp",
+        "spriteSheet": "RanaChelunAtlas.png",
         "x": 423,
         "y": 250,
         "width": 87,
@@ -17891,13 +17998,13 @@
           "max": 14
         },
         "movement": 2,
-        "initiative": 9,
+        "initiative": 5,
         "health": 60,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -17918,7 +18025,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -17940,7 +18048,7 @@
       "languageKey": "ChelunElder",
       "sprite": {
         "name": "RanaChelunElderDefault1Idle1",
-        "spriteSheet": "RanaChelunElderAtlas.webp",
+        "spriteSheet": "RanaChelunElderAtlas.png",
         "x": 351,
         "y": 256,
         "width": 96,
@@ -18157,13 +18265,13 @@
           "max": 20
         },
         "movement": 2,
-        "initiative": 14,
+        "initiative": 8,
         "health": 80,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -18175,9 +18283,9 @@
         "type": "ChargeEssence",
         "icon": {
           "name": "AbilityIconChargeEssence",
-          "spriteSheet": "Icons.webp",
-          "x": 436,
-          "y": 1,
+          "spriteSheet": "Icons.png",
+          "x": 616,
+          "y": 539,
           "width": 56,
           "height": 57,
           "outline": [
@@ -18222,7 +18330,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -18251,7 +18360,8 @@
                 }
               },
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -18274,7 +18384,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -18300,7 +18411,7 @@
       "languageKey": "Ethdra",
       "sprite": {
         "name": "RanaDragonlingDefault1Idle1",
-        "spriteSheet": "RanaDragonlingAtlas.webp",
+        "spriteSheet": "RanaDragonlingAtlas.png",
         "x": 120,
         "y": 324,
         "width": 72,
@@ -18507,7 +18618,8 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -18519,9 +18631,9 @@
         "type": "Overwatch",
         "icon": {
           "name": "AbilityIconOverwatch",
-          "spriteSheet": "Icons.webp",
-          "x": 1026,
-          "y": 303,
+          "spriteSheet": "Icons.png",
+          "x": 581,
+          "y": 128,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18553,7 +18665,7 @@
       "languageKey": "Dragon",
       "sprite": {
         "name": "RanaDragonDefault1Idle1",
-        "spriteSheet": "RanaDragonAtlas.webp",
+        "spriteSheet": "RanaDragonAtlas.png",
         "x": 0.076120496,
         "y": 200.07613,
         "width": 90.92388,
@@ -18715,7 +18827,7 @@
           "offense": 0,
           "range": {
             "min": 0,
-            "max": 5
+            "max": 0
           },
           "deadlyRange": 0,
           "lobbing": 0,
@@ -18730,13 +18842,13 @@
           "max": 50
         },
         "movement": 6,
-        "initiative": 38,
+        "initiative": 31,
         "health": 160,
         "maxTroopSize": 3,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -18748,9 +18860,9 @@
         "type": "TangleShout",
         "icon": {
           "name": "AbilityIconTangleShout",
-          "spriteSheet": "Icons.webp",
-          "x": 830,
-          "y": 149,
+          "spriteSheet": "Icons.png",
+          "x": 637,
+          "y": 27,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18788,7 +18900,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -18834,7 +18947,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -18857,7 +18971,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -18872,7 +18987,7 @@
       "languageKey": "ElderDragon",
       "sprite": {
         "name": "RanaElderDragonDefault1Idle1",
-        "spriteSheet": "RanaElderDragonAtlas.webp",
+        "spriteSheet": "RanaElderDragonAtlas.png",
         "x": 708,
         "y": 173.07613,
         "width": 91,
@@ -19034,7 +19149,7 @@
           "offense": 0,
           "range": {
             "min": 0,
-            "max": 5
+            "max": 0
           },
           "deadlyRange": 0,
           "lobbing": 0,
@@ -19049,13 +19164,13 @@
           "max": 70
         },
         "movement": 7,
-        "initiative": 39,
+        "initiative": 32,
         "health": 200,
         "maxTroopSize": 3,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          "Rana"
+          4
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
@@ -19067,9 +19182,9 @@
         "type": "TangleShout",
         "icon": {
           "name": "AbilityIconTangleShout",
-          "spriteSheet": "Icons.webp",
-          "x": 830,
-          "y": 149,
+          "spriteSheet": "Icons.png",
+          "x": 637,
+          "y": 27,
           "width": 52,
           "height": 52,
           "outline": [
@@ -19116,7 +19231,8 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
@@ -19139,7 +19255,8 @@
               }
             },
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [],
           "resourcesIncome": [],
@@ -19159,7 +19276,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -19194,7 +19312,7 @@
       "languageKey": "Ballista",
       "sprite": {
         "name": "ArleonBalistaDefault1Idle1",
-        "spriteSheet": "ArleonBallistaAtlas.webp",
+        "spriteSheet": "ArleonBallistaAtlas.png",
         "x": 128,
         "y": 230,
         "width": 72,
@@ -19360,7 +19478,9 @@
         "maxTroopSize": 10,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": [],
+        "statuses": [
+          8
+        ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,

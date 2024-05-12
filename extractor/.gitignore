@@ -2,4 +2,5 @@ SongsOfConquest
 node_modules
 cache.json
 out/*
+export/*
 !.gitkeep

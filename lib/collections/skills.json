@@ -3,7 +3,7 @@
     "type": "Archery",
     "icon": {
       "name": "Precision",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 274,
       "width": 90,
@@ -57,7 +57,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -84,7 +85,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -111,7 +113,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -139,7 +142,7 @@
     "type": "Cunning",
     "icon": {
       "name": "Cunning",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 274,
       "width": 90,
@@ -193,7 +196,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -232,7 +236,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -271,7 +276,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -305,7 +311,7 @@
     "type": "Guard",
     "icon": {
       "name": "Guard",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 378,
       "y": 932,
       "width": 90,
@@ -359,7 +365,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -386,7 +393,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -413,7 +421,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -435,7 +444,7 @@
     "type": "HandToHand",
     "icon": {
       "name": "Hand to Hand",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 472,
       "y": 932,
       "width": 90,
@@ -489,7 +498,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -516,7 +526,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -543,7 +554,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -571,7 +583,7 @@
     "type": "Prepared",
     "icon": {
       "name": "Prepared",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 180,
       "width": 90,
@@ -625,7 +637,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -652,7 +665,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -679,7 +693,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -701,7 +716,7 @@
     "type": "Arcana",
     "icon": {
       "name": "Arcana",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 932,
       "width": 90,
@@ -755,7 +770,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -782,7 +798,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -809,7 +826,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -831,7 +849,7 @@
     "type": "Chaos",
     "icon": {
       "name": "Chaos Magic",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 556,
       "width": 90,
@@ -885,7 +903,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -912,7 +931,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -939,7 +959,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -961,7 +982,7 @@
     "type": "Creation",
     "icon": {
       "name": "Creation Magic",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 368,
       "width": 90,
@@ -1015,7 +1036,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1042,7 +1064,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1069,7 +1092,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1091,7 +1115,7 @@
     "type": "Destruction",
     "icon": {
       "name": "Destruction",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 180,
       "width": 90,
@@ -1145,7 +1169,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1172,7 +1197,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1199,7 +1225,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1221,7 +1248,7 @@
     "type": "Order",
     "icon": {
       "name": "Order Magic",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 462,
       "width": 90,
@@ -1275,7 +1302,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1302,7 +1330,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1329,7 +1358,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1351,7 +1381,7 @@
     "type": "Command",
     "icon": {
       "name": "Command",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 462,
       "width": 90,
@@ -1405,7 +1435,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1432,7 +1463,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1459,7 +1491,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1486,7 +1519,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1513,7 +1547,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1540,7 +1575,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1567,7 +1603,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1594,7 +1631,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1621,7 +1659,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1643,7 +1682,7 @@
     "type": "Taxes",
     "icon": {
       "name": "Taxes",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 190,
       "y": 556,
       "width": 90,
@@ -1740,7 +1779,7 @@
     "type": "Brutal",
     "icon": {
       "name": "Brutal",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 744,
       "width": 90,
@@ -1794,7 +1833,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1821,7 +1861,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1843,7 +1884,7 @@
     "type": "Rigor",
     "icon": {
       "name": "Rigor",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 754,
       "y": 838,
       "width": 90,
@@ -1897,7 +1938,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1924,7 +1966,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1946,7 +1989,7 @@
     "type": "March",
     "icon": {
       "name": "March",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 744,
       "width": 90,
@@ -2000,7 +2043,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2027,7 +2071,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2054,13 +2099,14 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
             "type": 12,
             "modifier": "CommanderMovement",
-            "amountToAdd": 3,
+            "amountToAdd": 4,
             "applicationType": 0
           }
         ],
@@ -2076,7 +2122,7 @@
     "type": "Melee",
     "icon": {
       "name": "Melee",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 650,
       "width": 90,
@@ -2130,7 +2176,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2157,7 +2204,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2184,7 +2232,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2212,7 +2261,7 @@
     "type": "SpeedOfWinds",
     "icon": {
       "name": "Speed of Winds",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 190,
       "y": 650,
       "width": 90,
@@ -2266,7 +2315,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2293,7 +2343,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2321,7 +2372,7 @@
     "type": "Scouting",
     "icon": {
       "name": "Scouting",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 848,
       "y": 838,
       "width": 90,
@@ -2375,7 +2426,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2402,7 +2454,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2429,7 +2482,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2457,7 +2511,7 @@
     "type": "Levy",
     "icon": {
       "name": "Levy",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 754,
       "y": 932,
       "width": 90,
@@ -2511,7 +2565,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2538,7 +2593,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2560,7 +2616,7 @@
     "type": "MagicResistance",
     "icon": {
       "name": "Magic Resistance",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 838,
       "width": 90,
@@ -2614,7 +2670,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2641,7 +2698,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2668,7 +2726,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2690,7 +2749,7 @@
     "type": "Channeling",
     "icon": {
       "name": "Channeling",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 650,
       "width": 90,
@@ -2744,7 +2803,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2771,7 +2831,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2798,7 +2859,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2820,7 +2882,7 @@
     "type": "Raider",
     "icon": {
       "name": "Raider",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 660,
       "y": 838,
       "width": 90,
@@ -2874,13 +2936,20 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 500,
+            "amountToAdd": 200,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 1,
             "applicationType": 0
           }
         ],
@@ -2901,13 +2970,20 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 1000,
+            "amountToAdd": 400,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 2,
             "applicationType": 0
           }
         ],
@@ -2928,24 +3004,25 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 1000,
-            "applicationType": 0
-          },
-          {
-            "type": 12,
-            "modifier": "CommanderMovement",
-            "amountToAdd": 1,
+            "amountToAdd": 500,
             "applicationType": 0
           },
           {
             "type": 21,
             "modifier": "CommanderViewRadius",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
             "amountToAdd": 1,
             "applicationType": 0
           }
@@ -2962,7 +3039,7 @@
     "type": "Learning",
     "icon": {
       "name": "Learning",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 660,
       "y": 932,
       "width": 90,
@@ -3016,7 +3093,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3043,7 +3121,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3070,7 +3149,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3092,7 +3172,7 @@
     "type": "ProduceGlimmer",
     "icon": {
       "name": "Production Glimmerweave",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 190,
       "y": 838,
       "width": 90,
@@ -3189,7 +3269,7 @@
     "type": "ProduceAmber",
     "icon": {
       "name": "Production Amber",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 86,
       "width": 90,
@@ -3286,7 +3366,7 @@
     "type": "ProduceCelestial",
     "icon": {
       "name": "Production Ore",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 284,
       "y": 838,
       "width": 90,
@@ -3383,7 +3463,7 @@
     "type": "PowerRange",
     "icon": {
       "name": "Farsight",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 284,
       "y": 932,
       "width": 90,
@@ -3437,7 +3517,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3464,7 +3545,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3492,7 +3574,7 @@
     "type": "ProduceStone",
     "icon": {
       "name": "Production Stone",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 378,
       "y": 838,
       "width": 90,
@@ -3589,7 +3671,7 @@
     "type": "ProduceWood",
     "icon": {
       "name": "Production Wood",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 472,
       "y": 838,
       "width": 90,
@@ -3686,7 +3768,7 @@
     "type": "Fast",
     "icon": {
       "name": "Eager",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 86,
       "width": 90,
@@ -3740,7 +3822,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3767,7 +3850,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3795,7 +3879,7 @@
     "type": "Positioning",
     "icon": {
       "name": "Positioning",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 368,
       "width": 90,
@@ -3849,7 +3933,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3876,7 +3961,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3903,7 +3989,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3925,7 +4012,7 @@
     "type": "Diplomacy",
     "icon": {
       "name": "Impressive",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 566,
       "y": 932,
       "width": 90,
@@ -3979,7 +4066,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4006,7 +4094,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4033,7 +4122,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4055,7 +4145,7 @@
     "type": "EssenceBurst",
     "icon": {
       "name": "Essence Burst",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 96,
       "y": 932,
       "width": 90,
@@ -4109,7 +4199,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4160,7 +4251,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4206,7 +4298,7 @@
     "type": "PowerShielded",
     "icon": {
       "name": "Shielded",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 190,
       "y": 744,
       "width": 90,
@@ -4271,31 +4363,32 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
                   "type": 7,
                   "modifier": "TroopRangedAttackResistance",
-                  "amountToAdd": 35,
+                  "amountToAdd": 30,
                   "applicationType": 0
                 },
                 {
                   "type": 4,
                   "modifier": "TroopMeleeAttackResistance",
-                  "amountToAdd": 35,
+                  "amountToAdd": 30,
                   "applicationType": 0
                 },
                 {
                   "type": 34,
                   "modifier": "TroopSpellDamageResistance",
-                  "amountToAdd": 35,
+                  "amountToAdd": 30,
                   "applicationType": 0
                 }
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": "OwnerAttacks",
+                "type": "OwnerAttacksOrUsedTroopAbility",
                 "duration": 1
               }
             }
@@ -4324,31 +4417,32 @@
                 "hexRadius": 1,
                 "bacteriaToAdd": null,
                 "isStackable": 1,
-                "isPassable": 1
+                "isPassable": 1,
+                "isSingleShot": 0
               },
               "modifierData": [
                 {
                   "type": 7,
                   "modifier": "TroopRangedAttackResistance",
-                  "amountToAdd": 70,
+                  "amountToAdd": 60,
                   "applicationType": 0
                 },
                 {
                   "type": 4,
                   "modifier": "TroopMeleeAttackResistance",
-                  "amountToAdd": 70,
+                  "amountToAdd": 60,
                   "applicationType": 0
                 },
                 {
                   "type": 34,
                   "modifier": "TroopSpellDamageResistance",
-                  "amountToAdd": 70,
+                  "amountToAdd": 60,
                   "applicationType": 0
                 }
               ],
               "resourcesIncome": [],
               "duration": {
-                "type": "OwnerAttacks",
+                "type": "OwnerAttacksOrUsedTroopAbility",
                 "duration": 1
               }
             }
@@ -4361,7 +4455,7 @@
     "type": "Tutor",
     "icon": {
       "name": "Tutoring",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 190,
       "y": 462,
       "width": 90,
@@ -4415,7 +4509,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4442,7 +4537,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4469,7 +4565,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4491,7 +4588,7 @@
     "type": "Attuned",
     "icon": {
       "name": "Attuned",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 2,
       "y": 838,
       "width": 90,
@@ -4545,7 +4642,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4596,7 +4694,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4642,7 +4741,7 @@
     "type": "EssenceLeech",
     "icon": {
       "name": "Essence Leech",
-      "spriteSheet": "SkillIcons.webp",
+      "spriteSheet": "SkillIcons.png",
       "x": 190,
       "y": 932,
       "width": 90,
@@ -4696,7 +4795,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4723,7 +4823,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4750,7 +4851,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {

@@ -5160,6 +5160,17 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "skill": 14,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 28,
+                "level": 1
+              }
+            ]
           }
         ],
         "isExclusive": 0
@@ -5373,6 +5384,10 @@
               {
                 "skill": 34,
                 "level": 1
+              },
+              {
+                "skill": 14,
+                "level": 1
               }
             ]
           },
@@ -5383,6 +5398,28 @@
             "requiredSkills": [
               {
                 "skill": 29,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 14,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 30,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 42,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 28,
                 "level": 1
               }
             ]
@@ -5762,6 +5799,10 @@
               {
                 "skill": 34,
                 "level": 1
+              },
+              {
+                "skill": 14,
+                "level": 1
               }
             ]
           },
@@ -5820,6 +5861,17 @@
             "requiredSkills": [
               {
                 "skill": 8,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 14,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 30,
                 "level": 1
               }
             ]

@@ -48,7 +48,7 @@ export const readYAMLFile = async (path) => {
     .replaceAll(/- '.+[^']\n(.|\n|\t)+?'/g, (a) =>
       a.replaceAll("\n", "<br>").replaceAll("\t", "")
     )
-    .replaceAll("<hl>", `<span class="highlight">`)
+    .replaceAll("<hl>", `<span class=\\"highlight\\">`)
     .replaceAll("</hl>", "</span>");
   const content = yaml.parse(cleanFile);
   const obj = camelcaseKeys(content, { deep: true });

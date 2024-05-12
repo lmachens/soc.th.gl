@@ -5,7 +5,7 @@
     "languageKey": "Neutral",
     "bannerSprite": {
       "name": "BannerColorable",
-      "spriteSheet": "NeutralUIDecoration.webp",
+      "spriteSheet": "NeutralUIDecoration.png",
       "x": 0,
       "y": 739.0761,
       "width": 193,
@@ -199,7 +199,7 @@
     "wielderFrames": [
       {
         "name": "HostileHUDFrame",
-        "spriteSheet": "NeutralUIDecoration.webp",
+        "spriteSheet": "NeutralUIDecoration.png",
         "x": 707,
         "y": 699,
         "width": 306,
@@ -393,7 +393,7 @@
           "languageKey": "Wolf",
           "sprite": {
             "name": "NeutralWolfDefault1Idle1",
-            "spriteSheet": "NeutralWolfAtlas.webp",
+            "spriteSheet": "NeutralWolfAtlas.png",
             "x": 327,
             "y": 42,
             "width": 67,
@@ -497,7 +497,7 @@
           },
           "adventureSprite": {
             "name": "NeutralHostilesDefault1Wolf1",
-            "spriteSheet": "NeutralHostilesAtlas.webp",
+            "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 179,
             "y": 54,
             "width": 43,
@@ -556,7 +556,7 @@
           "languageKey": "Brigand",
           "sprite": {
             "name": "NeutralBanditLeftAxe1Idle1",
-            "spriteSheet": "NeutralBanditAtlas.webp",
+            "spriteSheet": "NeutralBanditAtlas.png",
             "x": 145,
             "y": 134,
             "width": 1,
@@ -584,7 +584,7 @@
           },
           "adventureSprite": {
             "name": "NeutralHostilesDefault7Bandit1",
-            "spriteSheet": "NeutralHostilesAtlas.webp",
+            "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 58,
             "y": 282,
             "width": 46.923878,
@@ -679,7 +679,7 @@
           "languageKey": "CutThroat",
           "sprite": {
             "name": "NeutralCutThroatDefault1Idle1",
-            "spriteSheet": "NeutralCutThroatAtlas.webp",
+            "spriteSheet": "NeutralCutThroatAtlas.png",
             "x": 351,
             "y": 31,
             "width": 37,
@@ -779,7 +779,7 @@
           },
           "adventureSprite": {
             "name": "NeutralHostilesDefault13CutThroat1",
-            "spriteSheet": "NeutralHostilesAtlas.webp",
+            "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 74.07612,
             "y": 65,
             "width": 29.872562,
@@ -854,7 +854,7 @@
           "languageKey": "Silvermane",
           "sprite": {
             "name": "NeutralDireWolfDefault1Idle1",
-            "spriteSheet": "NeutralDireWolfAtlas.webp",
+            "spriteSheet": "NeutralDireWolfAtlas.png",
             "x": 226,
             "y": 81,
             "width": 71,
@@ -962,7 +962,7 @@
           },
           "adventureSprite": {
             "name": "NeutralHostilesDefault1Wolf1",
-            "spriteSheet": "NeutralHostilesAtlas.webp",
+            "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 179,
             "y": 54,
             "width": 43,
@@ -1021,7 +1021,7 @@
           "languageKey": "Outlaw",
           "sprite": {
             "name": "NeutralBanditLeaderDefault1Idle1",
-            "spriteSheet": "NeutralBanditLeaderAtlas.webp",
+            "spriteSheet": "NeutralBanditLeaderAtlas.png",
             "x": 466,
             "y": 38,
             "width": 46,
@@ -1129,7 +1129,7 @@
           },
           "adventureSprite": {
             "name": "NeutralHostilesDefault25BanditLeader1",
-            "spriteSheet": "NeutralHostilesAtlas.webp",
+            "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 98,
             "y": 291,
             "width": 37.987087,
@@ -1196,7 +1196,7 @@
           "languageKey": "Poacher",
           "sprite": {
             "name": "NeutralBanditArcherDefault1Idle1",
-            "spriteSheet": "NeutralBanditArcherAtlas.webp",
+            "spriteSheet": "NeutralBanditArcherAtlas.png",
             "x": 408,
             "y": 90,
             "width": 49,
@@ -1284,7 +1284,7 @@
           },
           "adventureSprite": {
             "name": "NeutralHostilesDefault31BanditArcher1",
-            "spriteSheet": "NeutralHostilesAtlas.webp",
+            "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 1.026751,
             "y": 105.07612,
             "width": 31.897127,
@@ -1362,7 +1362,7 @@
     "languageKey": "Arleon",
     "bannerSprite": {
       "name": "BannerColorable",
-      "spriteSheet": "ArleonUI.webp",
+      "spriteSheet": "ArleonUI.png",
       "x": 1436,
       "y": 1712,
       "width": 96,
@@ -1390,7 +1390,7 @@
     },
     "symbolSprite": {
       "name": "TopCircleSymbol",
-      "spriteSheet": "ArleonUI.webp",
+      "spriteSheet": "ArleonUI.png",
       "x": 1894,
       "y": 1863,
       "width": 82,
@@ -1419,7 +1419,7 @@
     "wielderFrames": [
       {
         "name": "HostileArleonFrame",
-        "spriteSheet": "ArleonWielderFrames.webp",
+        "spriteSheet": "ArleonWielderFrames.png",
         "x": 316,
         "y": 682,
         "width": 310,
@@ -1447,7 +1447,7 @@
       },
       {
         "name": "ArleonWielderHUDFrame",
-        "spriteSheet": "ArleonWielderFrames.webp",
+        "spriteSheet": "ArleonWielderFrames.png",
         "x": 2,
         "y": 682,
         "width": 310,
@@ -1479,7 +1479,7 @@
         "type": "GiandraStormspire",
         "portrait": {
           "name": "StormspirePortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 0,
           "y": 551,
           "width": 208,
@@ -1490,7 +1490,7 @@
         "type": "Cecilia",
         "portrait": {
           "name": "StoutheartPortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 569,
           "y": 590,
           "width": 185,
@@ -1501,7 +1501,7 @@
         "type": "BaronSilverlink",
         "portrait": {
           "name": "SilverlinkPortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 396,
           "y": 524,
           "width": 147,
@@ -1512,7 +1512,7 @@
         "type": "EthylleErnaline",
         "portrait": {
           "name": "EthyllePortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 288,
           "y": 755,
           "width": 277,
@@ -1523,7 +1523,7 @@
         "type": "Ravenfayre",
         "portrait": {
           "name": "RavenfayrePortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 547,
           "y": 368,
           "width": 173,
@@ -1534,7 +1534,7 @@
         "type": "Peradine",
         "portrait": {
           "name": "PeradinePortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 758,
           "y": 581,
           "width": 180,
@@ -1545,7 +1545,7 @@
         "type": "Gnaw",
         "portrait": {
           "name": "GnawPortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 0,
           "y": 783,
           "width": 284,
@@ -1556,7 +1556,7 @@
         "type": "ViljaOfThornecliff",
         "portrait": {
           "name": "ThornecliffPortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 764,
           "y": 799,
           "width": 190,
@@ -1567,7 +1567,7 @@
         "type": "LadyElisaHammond",
         "portrait": {
           "name": "HammondPortrait",
-          "spriteSheet": "ArleonWielderPortraits.webp",
+          "spriteSheet": "ArleonWielderPortraits.png",
           "x": 569,
           "y": 802,
           "width": 191,
@@ -1581,7 +1581,7 @@
           "languageKey": "Militia",
           "sprite": {
             "name": "ArleonMilitiaDefault1idle1",
-            "spriteSheet": "ArleonMilitiaAtlas.webp",
+            "spriteSheet": "ArleonMilitiaAtlas.png",
             "x": 380,
             "y": 328,
             "width": 39.941795,
@@ -1665,7 +1665,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostilesIdle1Militia1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 346,
             "y": 87,
             "width": 25,
@@ -1720,7 +1720,7 @@
           "languageKey": "Sapper",
           "sprite": {
             "name": "ArleonHostilesIdle7Sapper1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 395,
             "y": 160,
             "width": 27,
@@ -1778,7 +1778,7 @@
           "languageKey": "Ranger",
           "sprite": {
             "name": "ArleonRangerDefault1Idle1",
-            "spriteSheet": "ArleonRangerAtlas.webp",
+            "spriteSheet": "ArleonRangerAtlas.png",
             "x": 147.01291,
             "y": 301.0761,
             "width": 60.974174,
@@ -1886,7 +1886,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostilesIdle25Ranger1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 167,
             "y": 190,
             "width": 33,
@@ -1953,7 +1953,7 @@
           "languageKey": "Archer",
           "sprite": {
             "name": "ArleonHostilesIdle31Archer1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 67,
             "y": 116,
             "width": 36.881676,
@@ -2031,7 +2031,7 @@
           "languageKey": "Minstrel",
           "sprite": {
             "name": "ArleonMinstrelDefault1Idle1",
-            "spriteSheet": "ArleonMinstrelAtlas.webp",
+            "spriteSheet": "ArleonMinstrelAtlas.png",
             "x": 138,
             "y": 248.07613,
             "width": 39,
@@ -2139,7 +2139,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostilesIdle13Minstrel1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 284,
             "y": 74,
             "width": 21,
@@ -2190,7 +2190,7 @@
           "languageKey": "Troubadour",
           "sprite": {
             "name": "ArleonHostilesIdle19Troubadour1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 220,
             "y": 85,
             "width": 21,
@@ -2240,7 +2240,7 @@
           "languageKey": "Footman",
           "sprite": {
             "name": "ArleonFootmanDefault1Idle1",
-            "spriteSheet": "ArleonFootmanAtlas.webp",
+            "spriteSheet": "ArleonFootmanAtlas.png",
             "x": 227,
             "y": 130,
             "width": 41.923878,
@@ -2336,7 +2336,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostilesIdle37Footman1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 395,
             "y": 202,
             "width": 31,
@@ -2411,7 +2411,7 @@
           "languageKey": "ShieldOfOrder",
           "sprite": {
             "name": "ArleonHostilesIdle43ShieldOfOrder1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 335,
             "y": 203,
             "width": 31,
@@ -2481,7 +2481,7 @@
           "languageKey": "Knight",
           "sprite": {
             "name": "ArleonKnightDefault1Idle1",
-            "spriteSheet": "ArleonKnightAtlas.webp",
+            "spriteSheet": "ArleonKnightAtlas.png",
             "x": 458,
             "y": 663,
             "width": 83,
@@ -2673,7 +2673,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostilesIdle49Knight1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 0,
             "y": 374,
             "width": 51,
@@ -2770,7 +2770,7 @@
           "languageKey": "FistOfOrder",
           "sprite": {
             "name": "ArleonHostilesIdle55FistOfOrder1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 228,
             "y": 444,
             "width": 47,
@@ -2868,7 +2868,7 @@
           "languageKey": "HornedOne",
           "sprite": {
             "name": "ArleonHornedOneDefault1Idle1",
-            "spriteSheet": "ArleonHornedOneAtlas.webp",
+            "spriteSheet": "ArleonHornedOneAtlas.png",
             "x": 293,
             "y": 359,
             "width": 65,
@@ -3004,7 +3004,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostilesIdle69HornedOne1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 143,
             "y": 288,
             "width": 39,
@@ -3091,7 +3091,7 @@
           "languageKey": "QueensGuard",
           "sprite": {
             "name": "ArleonHostilesIdle75QueensGuard1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 343,
             "y": 322,
             "width": 39,
@@ -3181,7 +3181,7 @@
           "languageKey": "FaeySpirit",
           "sprite": {
             "name": "ArleonFaeySpiritDefault1Idle1",
-            "spriteSheet": "ArleonFaeySpiritAtlas.webp",
+            "spriteSheet": "ArleonFaeySpiritAtlas.png",
             "x": 189,
             "y": 97,
             "width": 65,
@@ -3341,7 +3341,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostilesIdle61FaeySpirit1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 0.05131668,
             "y": 91.07612,
             "width": 45.921932,
@@ -3408,7 +3408,7 @@
           "languageKey": "FaeyRager",
           "sprite": {
             "name": "ArleonHostilesIdle65FaeyRager1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 455,
             "y": 331,
             "width": 45.973248,
@@ -3478,7 +3478,7 @@
           "languageKey": "FaeyNoble",
           "sprite": {
             "name": "ArleonFaeyNobleDefault1Idle1",
-            "spriteSheet": "ArleonFaeyNobleAtlas.webp",
+            "spriteSheet": "ArleonFaeyNobleAtlas.png",
             "x": 337,
             "y": 272,
             "width": 79,
@@ -3654,7 +3654,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostilesIdle81FaeyNoble1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 289,
             "y": 387,
             "width": 44,
@@ -3729,7 +3729,7 @@
           "languageKey": "FaeyQueen",
           "sprite": {
             "name": "ArleonHostilesIdle87FaeyQueen1",
-            "spriteSheet": "ArleonHostilesAtlas.webp",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 259,
             "y": 340,
             "width": 49,
@@ -3811,7 +3811,7 @@
           "languageKey": "Ballista",
           "sprite": {
             "name": "ArleonBalistaDefault1Idle1",
-            "spriteSheet": "ArleonBallistaAtlas.webp",
+            "spriteSheet": "ArleonBallistaAtlas.png",
             "x": 128,
             "y": 230,
             "width": 72,
@@ -3937,7 +3937,7 @@
     "languageKey": "Loth",
     "bannerSprite": {
       "name": "BannerColorable",
-      "spriteSheet": "LothUI.webp",
+      "spriteSheet": "LothUI.png",
       "x": 1436,
       "y": 1703,
       "width": 96,
@@ -3965,7 +3965,7 @@
     },
     "symbolSprite": {
       "name": "TopCircleSymbol",
-      "spriteSheet": "LothUI.webp",
+      "spriteSheet": "LothUI.png",
       "x": 1894,
       "y": 1856,
       "width": 82,
@@ -3994,7 +3994,7 @@
     "wielderFrames": [
       {
         "name": "HostileLothWielderFrame",
-        "spriteSheet": "LothWielderFrames.webp",
+        "spriteSheet": "LothWielderFrames.png",
         "x": 2,
         "y": 682,
         "width": 310,
@@ -4022,7 +4022,7 @@
       },
       {
         "name": "LothWielderHUDFrame",
-        "spriteSheet": "LothWielderFrames.webp",
+        "spriteSheet": "LothWielderFrames.png",
         "x": 316,
         "y": 682,
         "width": 310,
@@ -4054,7 +4054,7 @@
         "type": "BaronAldus",
         "portrait": {
           "name": "AldusPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 344,
           "y": 176,
           "width": 161,
@@ -4065,7 +4065,7 @@
         "type": "DoctorMarjatta",
         "portrait": {
           "name": "MarjattaPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 178,
           "y": 374,
           "width": 164,
@@ -4076,7 +4076,7 @@
         "type": "Wiesh",
         "portrait": {
           "name": "WieshPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 190,
           "y": 809,
           "width": 187,
@@ -4087,7 +4087,7 @@
         "type": "Ambertina",
         "portrait": {
           "name": "AmbertinaPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 344,
           "y": 390,
           "width": 162,
@@ -4098,7 +4098,7 @@
         "type": "BrotherHillar",
         "portrait": {
           "name": "HillarPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 190,
           "y": 598,
           "width": 178,
@@ -4109,7 +4109,7 @@
         "type": "Coral",
         "portrait": {
           "name": "CoralPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 1,
           "y": 359,
           "width": 159,
@@ -4120,7 +4120,7 @@
         "type": "MagnoliaSilverlink",
         "portrait": {
           "name": "MagnoliaPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 1,
           "y": 572,
           "width": 175,
@@ -4131,7 +4131,7 @@
         "type": "Merkoth",
         "portrait": {
           "name": "MerkothPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 1,
           "y": 798,
           "width": 187,
@@ -4142,7 +4142,7 @@
         "type": "Roderick",
         "portrait": {
           "name": "RoderickPortrait",
-          "spriteSheet": "LothWielderPortraits.webp",
+          "spriteSheet": "LothWielderPortraits.png",
           "x": 162,
           "y": 168,
           "width": 159,
@@ -4156,7 +4156,7 @@
           "languageKey": "Rats",
           "sprite": {
             "name": "LothRatsRat11Idle1",
-            "spriteSheet": "LothRatsAtlas.webp",
+            "spriteSheet": "LothRatsAtlas.png",
             "x": 191,
             "y": 0,
             "width": 37,
@@ -4236,7 +4236,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork1Rats1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 286,
             "y": 8,
             "width": 34,
@@ -4279,7 +4279,7 @@
           "languageKey": "PlagueRats",
           "sprite": {
             "name": "LothHostilesArtwork7PlagueRats1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 0,
             "y": 57,
             "width": 35,
@@ -4337,7 +4337,7 @@
           "languageKey": "Oathbound",
           "sprite": {
             "name": "LothOathboundDefault1Idle1",
-            "spriteSheet": "LothOathboundAtlas.webp",
+            "spriteSheet": "LothOathboundAtlas.png",
             "x": 397,
             "y": 82,
             "width": 51,
@@ -4473,7 +4473,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork13Oathbound1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 344,
             "y": 40,
             "width": 27,
@@ -4540,7 +4540,7 @@
           "languageKey": "Legionnaire",
           "sprite": {
             "name": "LothHostilesArtwork19OathboundLegionaire1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 470.0233,
             "y": 124,
             "width": 34.949966,
@@ -4606,7 +4606,7 @@
           "languageKey": "Cultist",
           "sprite": {
             "name": "LothCultistDefault1Idle1",
-            "spriteSheet": "LothCultistAtlas.webp",
+            "spriteSheet": "LothCultistAtlas.png",
             "x": 417,
             "y": 88,
             "width": 33,
@@ -4666,7 +4666,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork25Cultist1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 468,
             "y": 16,
             "width": 21,
@@ -4717,7 +4717,7 @@
           "languageKey": "Oathsinger",
           "sprite": {
             "name": "LothHostilesArtwork31Zealot1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 298,
             "y": 40,
             "width": 22,
@@ -4763,7 +4763,7 @@
           "languageKey": "Toxicologist",
           "sprite": {
             "name": "LothEmbalmerDefault1Idle1",
-            "spriteSheet": "LothEmbalmerAtlas.webp",
+            "spriteSheet": "LothEmbalmerAtlas.png",
             "x": 109,
             "y": 113,
             "width": 40,
@@ -4855,7 +4855,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork37Embalmer1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 2,
             "y": 88,
             "width": 26,
@@ -4898,7 +4898,7 @@
           "languageKey": "Bane",
           "sprite": {
             "name": "LothHostilesArtwork43Doctor1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 484,
             "y": 411,
             "width": 27,
@@ -4948,7 +4948,7 @@
           "languageKey": "AurelianScholar",
           "sprite": {
             "name": "LothScholarDefault1Idle1",
-            "spriteSheet": "LothScholarAtlas.webp",
+            "spriteSheet": "LothScholarAtlas.png",
             "x": 377,
             "y": 121,
             "width": 57,
@@ -5032,7 +5032,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork49Necromancer1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 138,
             "y": 149,
             "width": 33,
@@ -5079,7 +5079,7 @@
           "languageKey": "Necromancer",
           "sprite": {
             "name": "LothHostilesArtwork55Oathsinger1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 445,
             "y": 173,
             "width": 32,
@@ -5147,7 +5147,7 @@
           "languageKey": "ScavengedBones",
           "sprite": {
             "name": "LothSanctifiedBonesDefault1Idle1",
-            "spriteSheet": "LothSanctifiedBonesAtlas.webp",
+            "spriteSheet": "LothSanctifiedBonesAtlas.png",
             "x": 194,
             "y": 261,
             "width": 86,
@@ -5365,7 +5365,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork73BlessedBones1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 266,
             "y": 214,
             "width": 48,
@@ -5448,7 +5448,7 @@
           "languageKey": "BlessedBones",
           "sprite": {
             "name": "LothHostilesArtwork79SanctifiedBones1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 260,
             "y": 324,
             "width": 49.923878,
@@ -5546,7 +5546,7 @@
           "languageKey": "Spectre",
           "sprite": {
             "name": "LothAurelianClericDefault1Idle1",
-            "spriteSheet": "LothAurelianClericAtlas.webp",
+            "spriteSheet": "LothAurelianClericAtlas.png",
             "x": 245,
             "y": 233,
             "width": 55,
@@ -5644,7 +5644,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork61AurelianCleric1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 129,
             "y": 105,
             "width": 30,
@@ -5687,7 +5687,7 @@
           "languageKey": "Seneschal",
           "sprite": {
             "name": "LothHostilesArtwork67AurelianHighCleric1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 27,
             "y": 129,
             "width": 31,
@@ -5761,7 +5761,7 @@
           "languageKey": "Legion",
           "sprite": {
             "name": "LothLegionDefault1Idle1",
-            "spriteSheet": "LothLegionAtlas.webp",
+            "spriteSheet": "LothLegionAtlas.png",
             "x": 448,
             "y": 358,
             "width": 83,
@@ -6153,7 +6153,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork85Legion1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 437.02676,
             "y": 387,
             "width": 47.973248,
@@ -6246,7 +6246,7 @@
           "languageKey": "HighLegion",
           "sprite": {
             "name": "LothHostilesArtwork91HighLegion1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 182,
             "y": 387,
             "width": 58,
@@ -6370,7 +6370,7 @@
           "languageKey": "Risen",
           "sprite": {
             "name": "LothZombieDefault1Idle1",
-            "spriteSheet": "LothZombieAtlas.webp",
+            "spriteSheet": "LothZombieAtlas.png",
             "x": 115,
             "y": 84,
             "width": 49,
@@ -6454,7 +6454,7 @@
           },
           "adventureSprite": {
             "name": "LothHostilesArtwork97Zombie1",
-            "spriteSheet": "LothHostilesAtlas.webp",
+            "spriteSheet": "LothHostilesAtlas.png",
             "x": 242,
             "y": 58,
             "width": 29,
@@ -6525,7 +6525,7 @@
           "languageKey": "Ballista",
           "sprite": {
             "name": "ArleonBalistaDefault1Idle1",
-            "spriteSheet": "ArleonBallistaAtlas.webp",
+            "spriteSheet": "ArleonBallistaAtlas.png",
             "x": 128,
             "y": 230,
             "width": 72,
@@ -6651,7 +6651,7 @@
     "languageKey": "Barya",
     "bannerSprite": {
       "name": "BannerColorable",
-      "spriteSheet": "BaryaUI.webp",
+      "spriteSheet": "BaryaUI.png",
       "x": 480,
       "y": 1689,
       "width": 96,
@@ -6679,7 +6679,7 @@
     },
     "symbolSprite": {
       "name": "TopCircleSymbol",
-      "spriteSheet": "BaryaUI.webp",
+      "spriteSheet": "BaryaUI.png",
       "x": 796,
       "y": 1841,
       "width": 82,
@@ -6708,7 +6708,7 @@
     "wielderFrames": [
       {
         "name": "HostileBaryaWielderFrame",
-        "spriteSheet": "BaryaWielderFrames.webp",
+        "spriteSheet": "BaryaWielderFrames.png",
         "x": 0,
         "y": 684,
         "width": 310,
@@ -6736,7 +6736,7 @@
       },
       {
         "name": "WielderHUDFrame",
-        "spriteSheet": "BaryaWielderFrames.webp",
+        "spriteSheet": "BaryaWielderFrames.png",
         "x": 310,
         "y": 684,
         "width": 310,
@@ -6768,7 +6768,7 @@
         "type": "Nimander",
         "portrait": {
           "name": "NimanderBreeze",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 552,
           "y": 12,
           "width": 145,
@@ -6779,7 +6779,7 @@
         "type": "Mehry",
         "portrait": {
           "name": "Mehry",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 618,
           "y": 268,
           "width": 195,
@@ -6790,7 +6790,7 @@
         "type": "Silkspool",
         "portrait": {
           "name": "Silkspool",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 1,
           "y": 199,
           "width": 218,
@@ -6801,7 +6801,7 @@
         "type": "Aleah",
         "portrait": {
           "name": "Aleah",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 425,
           "y": 240,
           "width": 191,
@@ -6812,7 +6812,7 @@
         "type": "Bihgli",
         "portrait": {
           "name": "Bihgli",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 1,
           "y": 1,
           "width": 184,
@@ -6823,7 +6823,7 @@
         "type": "Everthink",
         "portrait": {
           "name": "Everthink",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 387,
           "y": 35,
           "width": 163,
@@ -6834,7 +6834,7 @@
         "type": "Rosewater",
         "portrait": {
           "name": "Rosewater",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 699,
           "y": 65,
           "width": 157,
@@ -6845,7 +6845,7 @@
         "type": "Sanaz",
         "portrait": {
           "name": "Sanaz",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 221,
           "y": 241,
           "width": 202,
@@ -6856,7 +6856,7 @@
         "type": "Soughtfor",
         "portrait": {
           "name": "Soughtfor",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
           "x": 221,
           "y": 40,
           "width": 164,
@@ -6870,7 +6870,7 @@
           "languageKey": "Piper",
           "sprite": {
             "name": "BaryaPiperDefault1Idle1",
-            "spriteSheet": "BaryaPiperAtlas.webp",
+            "spriteSheet": "BaryaPiperAtlas.png",
             "x": 229,
             "y": 14,
             "width": 33,
@@ -6926,7 +6926,7 @@
           },
           "adventureSprite": {
             "name": "BaryaHostilesIdle1Piper1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 441,
             "y": 28,
             "width": 25,
@@ -6977,7 +6977,7 @@
           "languageKey": "SteamPiper",
           "sprite": {
             "name": "BaryaHostilesIdle7Steampiper1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 490,
             "y": 8,
             "width": 22,
@@ -7035,7 +7035,7 @@
           "languageKey": "Pikeneer",
           "sprite": {
             "name": "BaryaPikeneerDefault1Idle1",
-            "spriteSheet": "BaryaPikeneerAtlas.webp",
+            "spriteSheet": "BaryaPikeneerAtlas.png",
             "x": 429,
             "y": 74,
             "width": 75,
@@ -7147,7 +7147,7 @@
           },
           "adventureSprite": {
             "name": "BaryaHostilesIdle25Pikeneer1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 429,
             "y": 137,
             "width": 22,
@@ -7218,7 +7218,7 @@
           "languageKey": "VeteranPikeneer",
           "sprite": {
             "name": "BaryaHostilesIdle31PikeneerVeteran1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 344,
             "y": 144,
             "width": 25,
@@ -7280,7 +7280,7 @@
           "languageKey": "Musketeer",
           "sprite": {
             "name": "BaryaMusketeerDefault1Idle1",
-            "spriteSheet": "BaryaMusketeerAtlas.webp",
+            "spriteSheet": "BaryaMusketeerAtlas.png",
             "x": 90,
             "y": 244,
             "width": 51,
@@ -7372,7 +7372,7 @@
           },
           "adventureSprite": {
             "name": "BaryaHostilesIdle37Musketeer1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 370,
             "y": 68,
             "width": 28,
@@ -7435,7 +7435,7 @@
           "languageKey": "VeteranMusketeer",
           "sprite": {
             "name": "BaryaHostilesIdle43MusketeerVeteran1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 144,
             "y": 151,
             "width": 32.952297,
@@ -7497,7 +7497,7 @@
           "languageKey": "Dreath",
           "sprite": {
             "name": "BaryaDreathDefault1Idle1",
-            "spriteSheet": "BaryaDreathAtlas.webp",
+            "spriteSheet": "BaryaDreathAtlas.png",
             "x": 373,
             "y": 81,
             "width": 51,
@@ -7675,7 +7675,7 @@
           },
           "adventureSprite": {
             "name": "BaryaHostilesIdle13Dreath1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 163,
             "y": 10,
             "width": 31,
@@ -7726,7 +7726,7 @@
           "languageKey": "DireDreath",
           "sprite": {
             "name": "BaryaHostilesIdle19DireDreath1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 111,
             "y": 45,
             "width": 40,
@@ -7788,7 +7788,7 @@
           "languageKey": "Brute",
           "sprite": {
             "name": "BaryaBruteDefault1Idle1",
-            "spriteSheet": "BaryaBruteAtlas.webp",
+            "spriteSheet": "BaryaBruteAtlas.png",
             "x": 361,
             "y": 54,
             "width": 77,
@@ -7944,7 +7944,7 @@
           },
           "adventureSprite": {
             "name": "BaryaHostilesIdle61Brute1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 208,
             "y": 193,
             "width": 47,
@@ -8055,7 +8055,7 @@
           "languageKey": "ScarredBrute",
           "sprite": {
             "name": "BaryaHostilesIdle67ScarredBrute1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 234.07613,
             "y": 242,
             "width": 46.847755,
@@ -8141,7 +8141,7 @@
           "languageKey": "Tinkerer",
           "sprite": {
             "name": "BaryaTinkererDefault1Idle1",
-            "spriteSheet": "BaryaTinkererAtlas.webp",
+            "spriteSheet": "BaryaTinkererAtlas.png",
             "x": 338,
             "y": 89,
             "width": 47,
@@ -8253,7 +8253,7 @@
           },
           "adventureSprite": {
             "name": "BaryaHostilesIdle49Tinkerer1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 482,
             "y": 72,
             "width": 30,
@@ -8308,7 +8308,7 @@
           "languageKey": "Artificer",
           "sprite": {
             "name": "BaryaHostilesIdle55Artificer1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 271,
             "y": 109,
             "width": 31,
@@ -8376,7 +8376,7 @@
           "languageKey": "Sassanid",
           "sprite": {
             "name": "BaryaSassanidDefault1Idle1",
-            "spriteSheet": "BaryaSassanidAtlas.webp",
+            "spriteSheet": "BaryaSassanidAtlas.png",
             "x": 321,
             "y": 109,
             "width": 57,
@@ -8468,7 +8468,7 @@
           },
           "adventureSprite": {
             "name": "BaryaHostilesIdle73Sassanid1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 195,
             "y": 37,
             "width": 32,
@@ -8543,7 +8543,7 @@
           "languageKey": "Shadow",
           "sprite": {
             "name": "BaryaHostilesIdle79SassanidVeteran1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 47,
             "y": 104,
             "width": 32,
@@ -8629,7 +8629,7 @@
           "languageKey": "Hellbreath",
           "sprite": {
             "name": "BaryaHellbreathDefault1Idle1",
-            "spriteSheet": "BaryaHellbreathAtlas.webp",
+            "spriteSheet": "BaryaHellbreathAtlas.png",
             "x": 916,
             "y": 145,
             "width": 99.92388,
@@ -8765,7 +8765,7 @@
           },
           "adventureSprite": {
             "name": "BaryaHostilesIdle85Hellbreath1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 96,
             "y": 242,
             "width": 61,
@@ -8852,7 +8852,7 @@
           "languageKey": "Hellroar",
           "sprite": {
             "name": "BaryaHostilesIdle91Hellroar1",
-            "spriteSheet": "BaryaHostilesAtlas.webp",
+            "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 0.047704518,
             "y": 180,
             "width": 61.952297,
@@ -8934,7 +8934,7 @@
           "languageKey": "Ballista",
           "sprite": {
             "name": "ArleonBalistaDefault1Idle1",
-            "spriteSheet": "ArleonBallistaAtlas.webp",
+            "spriteSheet": "ArleonBallistaAtlas.png",
             "x": 128,
             "y": 230,
             "width": 72,
@@ -9060,7 +9060,7 @@
     "languageKey": "Rana",
     "bannerSprite": {
       "name": "BannerColorable",
-      "spriteSheet": "RanaUI.webp",
+      "spriteSheet": "RanaUI.png",
       "x": 891,
       "y": 1908,
       "width": 96,
@@ -9088,7 +9088,7 @@
     },
     "symbolSprite": {
       "name": "TopCircleSymbol",
-      "spriteSheet": "RanaUI.webp",
+      "spriteSheet": "RanaUI.png",
       "x": 212,
       "y": 1964,
       "width": 82,
@@ -9117,7 +9117,7 @@
     "wielderFrames": [
       {
         "name": "HostileRanaWielderFrame",
-        "spriteSheet": "RanaWielderFrames.webp",
+        "spriteSheet": "RanaWielderFrames.png",
         "x": 2,
         "y": 682,
         "width": 310,
@@ -9145,7 +9145,7 @@
       },
       {
         "name": "RanaWielderHUDFrame",
-        "spriteSheet": "RanaWielderFrames.webp",
+        "spriteSheet": "RanaWielderFrames.png",
         "x": 316,
         "y": 682,
         "width": 310,
@@ -9177,7 +9177,7 @@
         "type": "Cheekham",
         "portrait": {
           "name": "Cheekham",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 216,
           "y": 824,
           "width": 213,
@@ -9188,7 +9188,7 @@
         "type": "Itchamo",
         "portrait": {
           "name": "Itchamo",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 216,
           "y": 645,
           "width": 205,
@@ -9199,7 +9199,7 @@
         "type": "Msugna",
         "portrait": {
           "name": "MSugna",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 1,
           "y": 623,
           "width": 203,
@@ -9210,7 +9210,7 @@
         "type": "Pcha",
         "portrait": {
           "name": "PCha",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 1,
           "y": 214,
           "width": 189,
@@ -9221,7 +9221,7 @@
         "type": "Rasc",
         "portrait": {
           "name": "Rasc",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 1,
           "y": 23,
           "width": 182,
@@ -9232,7 +9232,7 @@
         "type": "RikTap",
         "portrait": {
           "name": "RikTap",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 1,
           "y": 425,
           "width": 196,
@@ -9243,7 +9243,7 @@
         "type": "Rlac",
         "portrait": {
           "name": "RLac",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 199,
           "y": 208,
           "width": 191,
@@ -9254,7 +9254,7 @@
         "type": "SlaKin",
         "portrait": {
           "name": "SlaKin",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 206,
           "y": 435,
           "width": 201,
@@ -9265,7 +9265,7 @@
         "type": "Tchyra",
         "portrait": {
           "name": "TChyra",
-          "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+          "spriteSheet": "RanaWielderPortraitsAtlas.png",
           "x": 1,
           "y": 818,
           "width": 213,
@@ -9279,7 +9279,7 @@
           "languageKey": "Hunter",
           "sprite": {
             "name": "RanaHunterDefault1Idle1",
-            "spriteSheet": "RanaHunterAtlas.webp",
+            "spriteSheet": "RanaHunterAtlas.png",
             "x": 118,
             "y": 88,
             "width": 70,
@@ -9371,7 +9371,7 @@
           },
           "adventureSprite": {
             "name": "RanaHostilesIdle1Hunter1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 294,
             "y": 21,
             "width": 42,
@@ -9442,7 +9442,7 @@
           "languageKey": "StormGuard",
           "sprite": {
             "name": "RanaHostilesIdle7StormGuard1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 364,
             "y": 92,
             "width": 41,
@@ -9516,7 +9516,7 @@
           "languageKey": "Shaman",
           "sprite": {
             "name": "RanaShamanDefault1Idle1",
-            "spriteSheet": "RanaShamanAtlas.webp",
+            "spriteSheet": "RanaShamanAtlas.png",
             "x": 134,
             "y": 93,
             "width": 58,
@@ -9700,7 +9700,7 @@
           },
           "adventureSprite": {
             "name": "RanaHostilesIdle13Shaman1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 422.05133,
             "y": 166,
             "width": 35.89737,
@@ -9759,7 +9759,7 @@
           "languageKey": "Sage",
           "sprite": {
             "name": "RanaHostilesIdle19Sage1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 368,
             "y": 247,
             "width": 37,
@@ -9821,7 +9821,7 @@
           "languageKey": "Guard",
           "sprite": {
             "name": "RanaGuardDefault1Idle1",
-            "spriteSheet": "RanaGuardAtlas.webp",
+            "spriteSheet": "RanaGuardAtlas.png",
             "x": 118,
             "y": 42,
             "width": 53,
@@ -9921,7 +9921,7 @@
           },
           "adventureSprite": {
             "name": "RanaHostilesIdle85Guard1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 288,
             "y": 52,
             "width": 34,
@@ -9992,7 +9992,7 @@
           "languageKey": "Protector",
           "sprite": {
             "name": "RanaHostilesIdle91Guard upgrade1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 446,
             "y": 85,
             "width": 33,
@@ -10062,7 +10062,7 @@
           "languageKey": "Ravager",
           "sprite": {
             "name": "RanaRavagerDefault1Idle1",
-            "spriteSheet": "RanaRavagerAtlas.webp",
+            "spriteSheet": "RanaRavagerAtlas.png",
             "x": 330,
             "y": 314,
             "width": 94,
@@ -10232,7 +10232,7 @@
           },
           "adventureSprite": {
             "name": "RanaHostilesIdle25Ravager1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 183.07613,
             "y": 186,
             "width": 48.847755,
@@ -10325,7 +10325,7 @@
           "languageKey": "RiderOfTheSwamp",
           "sprite": {
             "name": "RanaHostilesIdle31RiderOfTheSwamp1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 353,
             "y": 332,
             "width": 49,
@@ -10423,7 +10423,7 @@
           "languageKey": "Crawler",
           "sprite": {
             "name": "RanaCrawlerDefault1Idle1",
-            "spriteSheet": "RanaCrawlerAtlas.webp",
+            "spriteSheet": "RanaCrawlerAtlas.png",
             "x": 416,
             "y": 18,
             "width": 51,
@@ -10507,7 +10507,7 @@
           },
           "adventureSprite": {
             "name": "RanaHostilesIdle37Crawler1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 134,
             "y": 153,
             "width": 37,
@@ -10574,7 +10574,7 @@
           "languageKey": "AdultCrawler",
           "sprite": {
             "name": "RanaHostilesIdle43AdultCrawler1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 3.0761204,
             "y": 178,
             "width": 46.897125,
@@ -10676,7 +10676,7 @@
           "languageKey": "Tremor",
           "sprite": {
             "name": "RanaTremorDefault1Idle1",
-            "spriteSheet": "RanaTremorAtlas.webp",
+            "spriteSheet": "RanaTremorAtlas.png",
             "x": 271.0429,
             "y": 98,
             "width": 88.95709,
@@ -10870,7 +10870,7 @@
           },
           "adventureSprite": {
             "name": "RanaHostilesIdle49Tremor1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 0.0541268,
             "y": 350,
             "width": 52.91912,
@@ -10977,7 +10977,7 @@
           "languageKey": "Chelun",
           "sprite": {
             "name": "RanaChelunDefault1Idle1",
-            "spriteSheet": "RanaChelunAtlas.webp",
+            "spriteSheet": "RanaChelunAtlas.png",
             "x": 423,
             "y": 250,
             "width": 87,
@@ -11125,7 +11125,7 @@
           },
           "adventureSprite": {
             "name": "RanaHostilesIdle55Chelun1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 450,
             "y": 341,
             "width": 50,
@@ -11208,7 +11208,7 @@
           "languageKey": "ChelunElder",
           "sprite": {
             "name": "RanaHostilesIdle61ChelunElder1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 210,
             "y": 295,
             "width": 54,
@@ -11294,7 +11294,7 @@
           "languageKey": "Ethdra",
           "sprite": {
             "name": "RanaDragonlingDefault1Idle1",
-            "spriteSheet": "RanaDragonlingAtlas.webp",
+            "spriteSheet": "RanaDragonlingAtlas.png",
             "x": 120,
             "y": 324,
             "width": 72,
@@ -11450,7 +11450,7 @@
           },
           "adventureSprite": {
             "name": "RanaHostilesIdle67Dragonling1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 0.05131668,
             "y": 86,
             "width": 45.872562,
@@ -11537,7 +11537,7 @@
           "languageKey": "Dragon",
           "sprite": {
             "name": "RanaHostilesIdle73Dragon1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 215,
             "y": 381,
             "width": 55,
@@ -11608,7 +11608,7 @@
           "languageKey": "ElderDragon",
           "sprite": {
             "name": "RanaHostilesIdle79ElderDragon1",
-            "spriteSheet": "RanaHostilesAtlas.webp",
+            "spriteSheet": "RanaHostilesAtlas.png",
             "x": 50,
             "y": 369,
             "width": 55,
@@ -11681,7 +11681,7 @@
           "languageKey": "Ballista",
           "sprite": {
             "name": "ArleonBalistaDefault1Idle1",
-            "spriteSheet": "ArleonBallistaAtlas.webp",
+            "spriteSheet": "ArleonBallistaAtlas.png",
             "x": 128,
             "y": 230,
             "width": 72,

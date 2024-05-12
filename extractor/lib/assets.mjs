@@ -28,7 +28,7 @@ export const findAssetByGUID = async ({ guid, fileId }, spriteName) => {
         return;
       }
       const texture = meta.textureImporter.internalIdToNameTable.find(
-        (item) => item.first["213"] === fileId
+        (item) => item.first.second === fileId
       );
       const name = spriteName || texture?.second;
       if (!name) {

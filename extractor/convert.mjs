@@ -3,7 +3,9 @@ import { copyImageFile, readJSONFile, writeJSONFile } from "./lib/out.mjs";
 
 const bacteriasSrc = await readJSONFile("./out/bacteria.json");
 const skillsSrc = await readJSONFile("./out/skill.json");
-const factionsSrc = await readJSONFile("./out/faction.json");
+const factionsSrc = (await readJSONFile("./out/faction.json")).filter(
+  (f) => f.id !== 5
+); // Skip Vanir;
 const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
 const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
 const artifactsSrc = await readJSONFile("./out/artifact.json");
@@ -105,25 +107,27 @@ const factions = factionsSrc.map((factionSrc) => ({
         height: commander.portrait.height,
       },
     })),
-  units: factionSrc.units.map((unit) => ({
-    vanilla: {
-      languageKey: unit.vanilla.languageKey,
-      sprite: unit.vanilla.visuals?.prefab.sprite,
-      adventureSprite: unit.vanilla.visuals?.adventurePrefab.sprite,
-    },
-    upgraded: unit.upgraded.languageKey
-      ? {
-          languageKey: unit.upgraded.languageKey,
-          sprite: unit.upgraded.visuals?.adventurePrefab.sprite,
-        }
-      : null,
-    superUpgraded: unit.superUpgraded.languageKey
-      ? {
-          languageKey: unit.superUpgraded.languageKey,
-          sprite: unit.superUpgraded.visuals?.adventurePrefab.sprite,
-        }
-      : null,
-  })),
+  units: factionSrc.units
+    .filter((u) => u.vanilla.languageKey !== "NiceTry")
+    .map((unit) => ({
+      vanilla: {
+        languageKey: unit.vanilla.languageKey,
+        sprite: unit.vanilla.visuals?.prefab.sprite,
+        adventureSprite: unit.vanilla.visuals?.adventurePrefab.sprite,
+      },
+      upgraded: unit.upgraded.languageKey
+        ? {
+            languageKey: unit.upgraded.languageKey,
+            sprite: unit.upgraded.visuals?.adventurePrefab.sprite,
+          }
+        : null,
+      superUpgraded: unit.superUpgraded.languageKey
+        ? {
+            languageKey: unit.superUpgraded.languageKey,
+            sprite: unit.superUpgraded.visuals?.adventurePrefab.sprite,
+          }
+        : null,
+    })),
 }));
 
 await writeJSONFile(factions, "../../lib/collections/factions");
@@ -365,14 +369,16 @@ const getUnitType = (type) => ({
 });
 const units = factionsSrc
   .map((factionSrc) =>
-    factionSrc.units.map((unit) => ({
-      faction: factionSrc.languageKey,
-      vanilla: getUnitType(unit.vanilla),
-      upgraded: unit.upgraded.languageKey ? getUnitType(unit.upgraded) : null,
-      superUpgraded: unit.superUpgraded.languageKey
-        ? getUnitType(unit.superUpgraded)
-        : null,
-    }))
+    factionSrc.units
+      .filter((u) => u.vanilla.languageKey !== "NiceTry")
+      .map((unit) => ({
+        faction: factionSrc.languageKey,
+        vanilla: getUnitType(unit.vanilla),
+        upgraded: unit.upgraded.languageKey ? getUnitType(unit.upgraded) : null,
+        superUpgraded: unit.superUpgraded.languageKey
+          ? getUnitType(unit.superUpgraded)
+          : null,
+      }))
   )
   .flat();
 
@@ -487,6 +493,9 @@ for (const buildSite of buildSites) {
     factionId = 3;
   } else if (buildSite.nameKey.startsWith("Rana")) {
     factionId = 4;
+  } else if (buildSite.nameKey.startsWith("Vanir")) {
+    factionId = 5;
+    continue;
   }
   const building = {
     id: buildSite.id,

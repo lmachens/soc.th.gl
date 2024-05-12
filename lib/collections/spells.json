@@ -3,7 +3,7 @@
     "id": 24,
     "icon": {
       "name": "Quicken",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 277,
       "y": 381,
       "width": 90,
@@ -62,7 +62,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -114,7 +115,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -166,7 +168,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -196,7 +199,7 @@
     "id": 6,
     "icon": {
       "name": "Protection",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 1,
       "y": 381,
       "width": 90,
@@ -255,7 +258,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -307,7 +311,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -359,7 +364,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -389,7 +395,7 @@
     "id": 13,
     "icon": {
       "name": "Invigorate",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 277,
       "y": 565,
       "width": 90,
@@ -452,7 +458,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -508,7 +515,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -564,7 +572,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -594,7 +603,7 @@
     "id": 26,
     "icon": {
       "name": "Aggression",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 93,
       "y": 933,
       "width": 90,
@@ -653,7 +662,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -705,7 +715,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -757,7 +768,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -787,7 +799,7 @@
     "id": 25,
     "icon": {
       "name": "Justice",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 369,
       "y": 565,
       "width": 90,
@@ -850,7 +862,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -893,7 +906,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -936,7 +950,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -953,7 +968,7 @@
     "id": 23,
     "icon": {
       "name": "Breath of the Pheonix",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 277,
       "y": 841,
       "width": 90,
@@ -1016,7 +1031,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1059,7 +1075,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1102,7 +1119,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1119,7 +1137,7 @@
     "id": 28,
     "icon": {
       "name": "Psychic Spear",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 93,
       "y": 381,
       "width": 90,
@@ -1178,7 +1196,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1217,7 +1236,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1256,7 +1276,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1273,7 +1294,7 @@
     "id": 27,
     "icon": {
       "name": "Arcane Explosion",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 369,
       "y": 933,
       "width": 90,
@@ -1332,7 +1353,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1371,7 +1393,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1410,7 +1433,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1427,7 +1451,7 @@
     "id": 29,
     "icon": {
       "name": "Ice Bolt",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 1,
       "y": 565,
       "width": 90,
@@ -1479,14 +1503,15 @@
             "bacteriaType": 244,
             "type": "SpellIceBolt1",
             "customEffect": "Damage",
-            "customEffectValue": 40,
+            "customEffectValue": 50,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1506,13 +1531,14 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
                 "type": 6,
                 "modifier": "TroopMovement",
-                "amountToAdd": -2,
+                "amountToAdd": -1,
                 "applicationType": 0
               },
               {
@@ -1558,7 +1584,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1568,8 +1595,8 @@
             }
           },
           {
-            "bacteriaType": 356,
-            "type": "SpellIceBoltStatsNerf1",
+            "bacteriaType": 1192,
+            "type": "SpellIceBoltStatsNerf2",
             "customEffect": "None",
             "customEffectValue": 5,
             "secondaryCustomEffectValue": 0,
@@ -1578,7 +1605,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -1590,7 +1618,7 @@
               {
                 "type": 3,
                 "modifier": "TroopInitiative",
-                "amountToAdd": -10,
+                "amountToAdd": -15,
                 "applicationType": 0
               }
             ],
@@ -1623,14 +1651,15 @@
             "bacteriaType": 246,
             "type": "SpellIceBolt3",
             "customEffect": "Damage",
-            "customEffectValue": 100,
+            "customEffectValue": 90,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1640,8 +1669,8 @@
             }
           },
           {
-            "bacteriaType": 356,
-            "type": "SpellIceBoltStatsNerf1",
+            "bacteriaType": 1193,
+            "type": "SpellIceBoltStatsNerf3",
             "customEffect": "None",
             "customEffectValue": 5,
             "secondaryCustomEffectValue": 0,
@@ -1650,19 +1679,20 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
                 "type": 6,
                 "modifier": "TroopMovement",
-                "amountToAdd": -2,
+                "amountToAdd": -3,
                 "applicationType": 0
               },
               {
                 "type": 3,
                 "modifier": "TroopInitiative",
-                "amountToAdd": -10,
+                "amountToAdd": -20,
                 "applicationType": 0
               }
             ],
@@ -1680,7 +1710,7 @@
     "id": 30,
     "icon": {
       "name": "Fireaball",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 277,
       "y": 657,
       "width": 90,
@@ -1739,7 +1769,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1778,7 +1809,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1817,7 +1849,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -1834,7 +1867,7 @@
     "id": 33,
     "icon": {
       "name": "Arcane Door",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 277,
       "y": 933,
       "width": 90,
@@ -1931,7 +1964,7 @@
     "id": 34,
     "icon": {
       "name": "Repel",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 1,
       "y": 289,
       "width": 90,
@@ -1990,7 +2023,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2029,7 +2063,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2068,7 +2103,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2085,7 +2121,7 @@
     "id": 35,
     "icon": {
       "name": "Earth Block",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 369,
       "y": 749,
       "width": 90,
@@ -2157,7 +2193,7 @@
         ],
         "mapEntityToSummon": {
           "nameKey": "MapEntities/Battle/Obstacle/Barrier",
-          "entityHealthPoints": 100,
+          "entityHealthPoints": 50,
           "bacterias": null
         },
         "bacterias": [
@@ -2194,7 +2230,7 @@
     "id": 36,
     "icon": {
       "name": "Insect Swarm",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 93,
       "y": 565,
       "width": 90,
@@ -2253,7 +2289,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -2299,7 +2336,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -2345,7 +2383,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -2369,7 +2408,7 @@
     "id": 37,
     "icon": {
       "name": "Blind Hatred",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 93,
       "y": 841,
       "width": 90,
@@ -2432,7 +2471,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2475,7 +2515,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2518,7 +2559,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2535,7 +2577,7 @@
     "id": 38,
     "icon": {
       "name": "Boiling Blood",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 185,
       "y": 841,
       "width": 90,
@@ -2594,7 +2636,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2633,7 +2676,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2672,7 +2716,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2689,7 +2734,7 @@
     "id": 39,
     "icon": {
       "name": "Chain Lightning",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 1,
       "y": 749,
       "width": 90,
@@ -2748,7 +2793,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2787,7 +2833,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2826,7 +2873,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -2843,7 +2891,7 @@
     "id": 40,
     "icon": {
       "name": "Chaos Step",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 93,
       "y": 749,
       "width": 90,
@@ -2940,7 +2988,7 @@
     "id": 41,
     "icon": {
       "name": "Tempest",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 1,
       "y": 197,
       "width": 90,
@@ -2999,7 +3047,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3045,7 +3094,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3091,7 +3141,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3115,7 +3166,7 @@
     "id": 42,
     "icon": {
       "name": "Aegis",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 1,
       "y": 933,
       "width": 90,
@@ -3178,7 +3229,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3228,7 +3280,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3278,7 +3331,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3302,7 +3356,7 @@
     "id": 43,
     "icon": {
       "name": "Entagle",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 1,
       "y": 657,
       "width": 90,
@@ -3365,7 +3419,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3415,7 +3470,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3465,7 +3521,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3489,7 +3546,7 @@
     "id": 44,
     "icon": {
       "name": "Burst of Strength",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 369,
       "y": 841,
       "width": 90,
@@ -3552,7 +3609,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3602,7 +3660,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3652,7 +3711,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3676,7 +3736,7 @@
     "id": 45,
     "icon": {
       "name": "Lethargy",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 1,
       "y": 473,
       "width": 90,
@@ -3739,7 +3799,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3795,7 +3856,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3851,7 +3913,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -3881,7 +3944,7 @@
     "id": 46,
     "icon": {
       "name": "Explosive Seeds",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 185,
       "y": 657,
       "width": 90,
@@ -3955,7 +4018,8 @@
                     "hexRadius": 0,
                     "bacteriaToAdd": null,
                     "isStackable": 1,
-                    "isPassable": 1
+                    "isPassable": 1,
+                    "isSingleShot": 0
                   },
                   "modifierData": [],
                   "resourcesIncome": [],
@@ -3965,7 +4029,8 @@
                   }
                 },
                 "isStackable": 1,
-                "isPassable": 0
+                "isPassable": 0,
+                "isSingleShot": 1
               },
               "modifierData": [],
               "resourcesIncome": [],
@@ -4031,7 +4096,8 @@
                     "hexRadius": 1,
                     "bacteriaToAdd": null,
                     "isStackable": 1,
-                    "isPassable": 1
+                    "isPassable": 1,
+                    "isSingleShot": 0
                   },
                   "modifierData": [],
                   "resourcesIncome": [],
@@ -4041,7 +4107,8 @@
                   }
                 },
                 "isStackable": 1,
-                "isPassable": 0
+                "isPassable": 0,
+                "isSingleShot": 1
               },
               "modifierData": [],
               "resourcesIncome": [],
@@ -4107,7 +4174,8 @@
                     "hexRadius": 1,
                     "bacteriaToAdd": null,
                     "isStackable": 1,
-                    "isPassable": 1
+                    "isPassable": 1,
+                    "isSingleShot": 0
                   },
                   "modifierData": [],
                   "resourcesIncome": [],
@@ -4117,7 +4185,8 @@
                   }
                 },
                 "isStackable": 1,
-                "isPassable": 0
+                "isPassable": 0,
+                "isSingleShot": 1
               },
               "modifierData": [],
               "resourcesIncome": [],
@@ -4146,7 +4215,7 @@
     "id": 47,
     "icon": {
       "name": "Poison Cloud",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 369,
       "y": 473,
       "width": 90,
@@ -4216,7 +4285,8 @@
                     "hexRadius": 3,
                     "bacteriaToAdd": null,
                     "isStackable": 0,
-                    "isPassable": 1
+                    "isPassable": 1,
+                    "isSingleShot": 0
                   },
                   "modifierData": [],
                   "resourcesIncome": [],
@@ -4226,7 +4296,8 @@
                   }
                 },
                 "isStackable": 0,
-                "isPassable": 0
+                "isPassable": 0,
+                "isSingleShot": 0
               },
               "modifierData": [],
               "resourcesIncome": [],
@@ -4268,7 +4339,8 @@
                   "hexRadius": 3,
                   "bacteriaToAdd": null,
                   "isStackable": 0,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [],
                 "resourcesIncome": [],
@@ -4278,7 +4350,8 @@
                 }
               },
               "isStackable": 0,
-              "isPassable": 0
+              "isPassable": 0,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -4328,7 +4401,8 @@
                     "hexRadius": 3,
                     "bacteriaToAdd": null,
                     "isStackable": 0,
-                    "isPassable": 1
+                    "isPassable": 1,
+                    "isSingleShot": 0
                   },
                   "modifierData": [],
                   "resourcesIncome": [],
@@ -4338,7 +4412,8 @@
                   }
                 },
                 "isStackable": 0,
-                "isPassable": 0
+                "isPassable": 0,
+                "isSingleShot": 0
               },
               "modifierData": [],
               "resourcesIncome": [],
@@ -4380,7 +4455,8 @@
                   "hexRadius": 3,
                   "bacteriaToAdd": null,
                   "isStackable": 0,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [],
                 "resourcesIncome": [],
@@ -4390,7 +4466,8 @@
                 }
               },
               "isStackable": 0,
-              "isPassable": 0
+              "isPassable": 0,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -4440,7 +4517,8 @@
                     "hexRadius": 3,
                     "bacteriaToAdd": null,
                     "isStackable": 0,
-                    "isPassable": 1
+                    "isPassable": 1,
+                    "isSingleShot": 0
                   },
                   "modifierData": [],
                   "resourcesIncome": [],
@@ -4450,7 +4528,8 @@
                   }
                 },
                 "isStackable": 0,
-                "isPassable": 0
+                "isPassable": 0,
+                "isSingleShot": 0
               },
               "modifierData": [],
               "resourcesIncome": [],
@@ -4492,7 +4571,8 @@
                   "hexRadius": 3,
                   "bacteriaToAdd": null,
                   "isStackable": 0,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [],
                 "resourcesIncome": [],
@@ -4502,7 +4582,8 @@
                 }
               },
               "isStackable": 0,
-              "isPassable": 0
+              "isPassable": 0,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -4519,7 +4600,7 @@
     "id": 48,
     "icon": {
       "name": "Onslaught",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 185,
       "y": 473,
       "width": 90,
@@ -4582,7 +4663,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -4632,7 +4714,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -4682,7 +4765,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -4706,7 +4790,7 @@
     "id": 49,
     "icon": {
       "name": "Apocalypse",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 185,
       "y": 933,
       "width": 90,
@@ -4769,7 +4853,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -4812,7 +4897,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -4855,7 +4941,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -4872,7 +4959,7 @@
     "id": 16,
     "icon": {
       "name": "Quick Draw",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 185,
       "y": 381,
       "width": 90,
@@ -4935,7 +5022,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -4985,7 +5073,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -5035,7 +5124,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -5059,7 +5149,7 @@
     "id": 17,
     "icon": {
       "name": "Rejuvenation",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 369,
       "y": 381,
       "width": 90,
@@ -5122,7 +5212,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5165,7 +5256,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5208,7 +5300,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5225,7 +5318,7 @@
     "id": 50,
     "icon": {
       "name": "Rupture",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 93,
       "y": 289,
       "width": 90,
@@ -5288,7 +5381,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5331,7 +5425,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5374,7 +5469,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5391,7 +5487,7 @@
     "id": 20,
     "icon": {
       "name": "Mist",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 93,
       "y": 473,
       "width": 90,
@@ -5450,7 +5546,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5489,7 +5586,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5528,7 +5626,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [],
             "resourcesIncome": [],
@@ -5545,7 +5644,7 @@
     "id": 52,
     "icon": {
       "name": "Swap",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 369,
       "y": 289,
       "width": 90,
@@ -5654,7 +5753,7 @@
     "id": 32,
     "icon": {
       "name": "Sabotage",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 185,
       "y": 289,
       "width": 90,
@@ -5713,7 +5812,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -5765,7 +5865,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -5817,7 +5918,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -5847,7 +5949,7 @@
     "id": 54,
     "icon": {
       "name": "Inspire",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 185,
       "y": 565,
       "width": 90,
@@ -5906,7 +6008,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -5970,7 +6073,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6034,7 +6138,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6076,7 +6181,7 @@
     "id": 55,
     "icon": {
       "name": "Pacify",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 277,
       "y": 473,
       "width": 90,
@@ -6135,7 +6240,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6181,7 +6287,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6227,7 +6334,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6251,7 +6359,7 @@
     "id": 31,
     "icon": {
       "name": "EtherealScales",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 93,
       "y": 657,
       "width": 90,
@@ -6314,7 +6422,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6364,7 +6473,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6414,7 +6524,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6438,7 +6549,7 @@
     "id": 56,
     "icon": {
       "name": "Fury",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 369,
       "y": 657,
       "width": 90,
@@ -6501,7 +6612,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6557,7 +6669,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6613,7 +6726,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6643,7 +6757,7 @@
     "id": 57,
     "icon": {
       "name": "Strengthen Essence",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 277,
       "y": 289,
       "width": 90,
@@ -6706,7 +6820,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6780,7 +6895,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6854,7 +6970,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -6902,7 +7019,7 @@
     "id": 58,
     "icon": {
       "name": "Destroy Essence",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 277,
       "y": 749,
       "width": 90,
@@ -6965,7 +7082,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -7039,7 +7157,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -7113,7 +7232,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -7161,7 +7281,7 @@
     "id": 59,
     "icon": {
       "name": "Clouded Vision",
-      "spriteSheet": "SpellIcons.webp",
+      "spriteSheet": "SpellIcons.png",
       "x": 185,
       "y": 749,
       "width": 90,
@@ -7224,7 +7344,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -7280,7 +7401,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {
@@ -7336,7 +7458,8 @@
               "hexRadius": 1,
               "bacteriaToAdd": null,
               "isStackable": 1,
-              "isPassable": 1
+              "isPassable": 1,
+              "isSingleShot": 0
             },
             "modifierData": [
               {

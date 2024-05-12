@@ -4,7 +4,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "StormspirePortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 0,
       "y": 551,
       "width": 208,
@@ -859,7 +859,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -882,7 +883,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "StoutheartPortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 569,
       "y": 590,
       "width": 185,
@@ -1761,7 +1762,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -1784,7 +1786,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "SilverlinkPortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 396,
       "y": 524,
       "width": 147,
@@ -2667,7 +2669,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -2690,7 +2693,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "EthyllePortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 288,
       "y": 755,
       "width": 277,
@@ -3541,7 +3544,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -3564,7 +3568,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "RavenfayrePortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 547,
       "y": 368,
       "width": 173,
@@ -4383,7 +4387,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -4406,7 +4411,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "PeradinePortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 758,
       "y": 581,
       "width": 180,
@@ -5210,11 +5215,15 @@
     "units": [
       {
         "languageKey": "Militia",
-        "size": 15
+        "size": 10
       },
       {
         "languageKey": "Troubadour",
-        "size": 2
+        "size": 1
+      },
+      {
+        "languageKey": "Ranger",
+        "size": 4
       }
     ],
     "specializations": [
@@ -5229,7 +5238,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -5252,7 +5262,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "GnawPortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 0,
       "y": 783,
       "width": 284,
@@ -6099,7 +6109,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -6128,7 +6139,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "ThornecliffPortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 764,
       "y": 799,
       "width": 190,
@@ -6951,7 +6962,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -6974,7 +6986,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "HammondPortrait",
-      "spriteSheet": "ArleonWielderPortraits.webp",
+      "spriteSheet": "ArleonWielderPortraits.png",
       "x": 569,
       "y": 802,
       "width": 191,
@@ -7853,7 +7865,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -7876,7 +7889,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "AldusPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 344,
       "y": 176,
       "width": 161,
@@ -8705,7 +8718,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -8728,7 +8742,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "MarjattaPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 178,
       "y": 374,
       "width": 164,
@@ -9541,7 +9555,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -9564,7 +9579,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "WieshPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 190,
       "y": 809,
       "width": 187,
@@ -10317,7 +10332,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -10340,7 +10356,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "AmbertinaPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 344,
       "y": 390,
       "width": 162,
@@ -11149,7 +11165,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -11172,7 +11189,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "HillarPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 190,
       "y": 598,
       "width": 178,
@@ -11981,7 +11998,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -12004,7 +12022,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "CoralPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 1,
       "y": 359,
       "width": 159,
@@ -12757,7 +12775,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -12780,7 +12799,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "MagnoliaPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 1,
       "y": 572,
       "width": 175,
@@ -13609,7 +13628,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -13632,7 +13652,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "MerkothPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 1,
       "y": 798,
       "width": 187,
@@ -14385,7 +14405,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -14408,7 +14429,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "RoderickPortrait",
-      "spriteSheet": "LothWielderPortraits.webp",
+      "spriteSheet": "LothWielderPortraits.png",
       "x": 162,
       "y": 168,
       "width": 159,
@@ -15237,7 +15258,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -15260,7 +15282,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "NimanderBreeze",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 552,
       "y": 12,
       "width": 145,
@@ -16102,7 +16124,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -16125,7 +16148,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Mehry",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 618,
       "y": 268,
       "width": 195,
@@ -16811,7 +16834,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -16834,7 +16858,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Silkspool",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 1,
       "y": 199,
       "width": 218,
@@ -17676,7 +17700,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -17699,7 +17724,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Aleah",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 425,
       "y": 240,
       "width": 191,
@@ -18612,7 +18637,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -18635,7 +18661,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Bihgli",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 1,
       "y": 1,
       "width": 184,
@@ -19321,7 +19347,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -19344,7 +19371,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Everthink",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 387,
       "y": 35,
       "width": 163,
@@ -20034,7 +20061,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -20057,7 +20085,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Rosewater",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 699,
       "y": 65,
       "width": 157,
@@ -20970,7 +20998,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -20993,7 +21022,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Sanaz",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 221,
       "y": 241,
       "width": 202,
@@ -21835,7 +21864,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -21858,7 +21888,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Soughtfor",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.webp",
+      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
       "x": 221,
       "y": 40,
       "width": 164,
@@ -22771,7 +22801,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -22794,7 +22825,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "Cheekham",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 216,
       "y": 824,
       "width": 213,
@@ -23560,7 +23591,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -23583,7 +23615,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "Itchamo",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 216,
       "y": 645,
       "width": 205,
@@ -24397,7 +24429,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -24420,7 +24453,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "MSugna",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 1,
       "y": 623,
       "width": 203,
@@ -25230,7 +25263,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -25253,7 +25287,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "PCha",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 1,
       "y": 214,
       "width": 189,
@@ -26067,7 +26101,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -26090,7 +26125,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "Rasc",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 1,
       "y": 23,
       "width": 182,
@@ -26856,7 +26891,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -26879,7 +26915,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "RikTap",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 1,
       "y": 425,
       "width": 196,
@@ -27645,7 +27681,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -27668,7 +27705,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "RLac",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 199,
       "y": 208,
       "width": 191,
@@ -27841,6 +27878,17 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Learning",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -28050,6 +28098,10 @@
               {
                 "type": "ProduceWood",
                 "level": 1
+              },
+              {
+                "type": "Taxes",
+                "level": 1
               }
             ]
           },
@@ -28060,6 +28112,28 @@
             "requiredSkills": [
               {
                 "type": "ProduceGlimmer",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "ProduceAmber",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Tutor",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Learning",
                 "level": 1
               }
             ]
@@ -28431,6 +28505,10 @@
               {
                 "type": "ProduceWood",
                 "level": 1
+              },
+              {
+                "type": "Taxes",
+                "level": 1
               }
             ]
           },
@@ -28492,6 +28570,17 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "ProduceAmber",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -28518,7 +28607,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -28547,7 +28637,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "SlaKin",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 206,
       "y": 435,
       "width": 201,
@@ -28720,6 +28810,17 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Learning",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -28929,6 +29030,10 @@
               {
                 "type": "ProduceWood",
                 "level": 1
+              },
+              {
+                "type": "Taxes",
+                "level": 1
               }
             ]
           },
@@ -28939,6 +29044,28 @@
             "requiredSkills": [
               {
                 "type": "ProduceGlimmer",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "ProduceAmber",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Tutor",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Learning",
                 "level": 1
               }
             ]
@@ -29310,6 +29437,10 @@
               {
                 "type": "ProduceWood",
                 "level": 1
+              },
+              {
+                "type": "Taxes",
+                "level": 1
               }
             ]
           },
@@ -29371,6 +29502,17 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "ProduceAmber",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -29393,7 +29535,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {
@@ -29416,7 +29559,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "TChyra",
-      "spriteSheet": "RanaWielderPortraitsAtlas.webp",
+      "spriteSheet": "RanaWielderPortraitsAtlas.png",
       "x": 1,
       "y": 818,
       "width": 213,
@@ -29589,6 +29732,17 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Learning",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -29798,6 +29952,10 @@
               {
                 "type": "ProduceWood",
                 "level": 1
+              },
+              {
+                "type": "Taxes",
+                "level": 1
               }
             ]
           },
@@ -29808,6 +29966,28 @@
             "requiredSkills": [
               {
                 "type": "ProduceGlimmer",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "ProduceAmber",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Tutor",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Learning",
                 "level": 1
               }
             ]
@@ -30179,6 +30359,10 @@
               {
                 "type": "ProduceWood",
                 "level": 1
+              },
+              {
+                "type": "Taxes",
+                "level": 1
               }
             ]
           },
@@ -30240,6 +30424,17 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "Taxes",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "ProduceAmber",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -30266,7 +30461,8 @@
           "hexRadius": 1,
           "bacteriaToAdd": null,
           "isStackable": 1,
-          "isPassable": 1
+          "isPassable": 1,
+          "isSingleShot": 0
         },
         "modifierData": [
           {

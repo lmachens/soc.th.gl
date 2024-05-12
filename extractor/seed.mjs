@@ -52,13 +52,13 @@ await Promise.all(promises);
 
 console.log(`Copying icons`);
 const iconsMeta = await readYAMLFile(
-  `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons.webp.meta`
+  `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons.png.meta`
 );
 const icons = [];
 for (const idToName of iconsMeta.textureImporter.internalIdToNameTable) {
   const icon = await findAssetByGUID({
     guid: iconsMeta.guid,
-    fileId: idToName.first["213"],
+    fileId: idToName.first.second,
   });
   icons.push(icon);
 }

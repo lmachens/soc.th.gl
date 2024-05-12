@@ -8,7 +8,7 @@ const cache = {};
 for await (const file of klaw("./SongsOfConquest/ExportedProject/Assets")) {
   if (
     file.path.endsWith("asset.meta") ||
-    file.path.endsWith("webp.meta") ||
+    file.path.endsWith("png.meta") ||
     file.path.endsWith("prefab.meta")
   ) {
     const meta = await readYAMLFile(file.path);

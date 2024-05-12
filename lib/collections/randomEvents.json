@@ -44,7 +44,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -99,7 +108,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -181,7 +199,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -267,7 +286,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -287,7 +315,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -307,7 +344,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -362,7 +408,16 @@
             "max": 600
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -430,7 +485,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -450,7 +514,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "BoarSpear",
         "randomArtifact": {
           "category": 0,
@@ -505,7 +578,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -560,7 +642,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -616,7 +707,16 @@
             "max": 2500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -684,7 +784,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "VanirAxe",
         "randomArtifact": {
           "category": 0,
@@ -778,7 +887,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -891,7 +1001,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -967,7 +1078,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -987,7 +1107,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1007,7 +1136,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1073,7 +1211,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -1168,7 +1307,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -1203,7 +1343,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1223,7 +1372,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1291,7 +1449,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -1361,7 +1520,16 @@
             "max": 400
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1381,7 +1549,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1401,7 +1578,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1421,7 +1607,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1476,7 +1671,16 @@
             "max": 800
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1531,7 +1735,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1551,7 +1764,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1619,7 +1841,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1674,7 +1905,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1705,7 +1945,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -1801,7 +2042,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1871,7 +2121,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -1937,7 +2196,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -2019,7 +2279,16 @@
             "max": 50
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "BoneClub",
         "randomArtifact": {
           "category": 0,
@@ -2074,7 +2343,16 @@
             "max": 9
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2129,7 +2407,16 @@
             "max": 11
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2184,7 +2471,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2239,7 +2535,16 @@
             "max": 7
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2294,7 +2599,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "GlovesOfTheWildHunt",
         "randomArtifact": {
           "category": 0,
@@ -2351,7 +2665,16 @@
             "max": 1300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2430,7 +2753,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -2520,7 +2844,16 @@
             "max": 12
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2589,7 +2922,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2658,7 +3000,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2726,7 +3077,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2795,7 +3155,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2863,7 +3232,16 @@
             "max": 1200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2931,7 +3309,16 @@
             "max": 2400
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -2999,7 +3386,16 @@
             "max": 2500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3078,7 +3474,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -3162,7 +3559,16 @@
             "max": 2500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3230,7 +3636,16 @@
             "max": 2500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3301,7 +3716,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3321,7 +3745,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3341,7 +3774,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3361,7 +3803,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3445,7 +3896,16 @@
             "max": 9
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3513,7 +3973,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3581,7 +4050,16 @@
             "max": 2500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -3637,7 +4115,16 @@
             "max": 9
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 0,
@@ -3754,7 +4241,16 @@
             "max": 2500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "TheGoldenGoose",
         "randomArtifact": {
           "category": 0,
@@ -4063,7 +4559,16 @@
             "max": 4000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -4258,7 +4763,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -4377,7 +4883,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -4501,7 +5016,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -4631,7 +5147,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -4743,7 +5260,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -4846,7 +5364,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 0,
@@ -4973,7 +5500,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -5081,7 +5609,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -5138,7 +5675,16 @@
             "max": 700
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -5208,7 +5754,16 @@
             "max": 9
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 0,
@@ -5317,7 +5872,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -5427,7 +5983,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -5510,7 +6067,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 0,
@@ -5572,7 +6138,16 @@
             "max": 9
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 0,
@@ -5681,7 +6256,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -5766,7 +6342,16 @@
             "max": 15
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 0,
@@ -5937,7 +6522,16 @@
             "max": 1250
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -6006,7 +6600,16 @@
             "max": 600
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -6061,7 +6664,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -6081,7 +6693,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -6101,7 +6722,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -6121,7 +6751,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -6141,7 +6780,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "HelmetOfTheVanir",
         "randomArtifact": {
           "category": 0,
@@ -6196,7 +6844,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 1,
@@ -6216,7 +6873,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "SpikedGauntlet",
         "randomArtifact": {
           "category": 1,
@@ -6236,7 +6902,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "SpikedGauntlet",
         "randomArtifact": {
           "category": 2,
@@ -6334,7 +7009,16 @@
             "max": 7
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -6428,7 +7112,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 0,
@@ -6567,7 +7260,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -6598,7 +7300,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -6881,7 +7584,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7035,7 +7747,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7090,7 +7811,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7110,7 +7840,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7130,7 +7869,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7161,7 +7909,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -7237,7 +7986,16 @@
             "max": 450
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7321,7 +8079,16 @@
             "max": 400
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7466,7 +8233,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -7519,7 +8287,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7575,7 +8352,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7606,7 +8392,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -7695,7 +8482,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Dagger",
         "randomArtifact": {
           "category": 0,
@@ -7831,7 +8627,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -7907,7 +8704,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -7962,7 +8768,16 @@
             "max": 4
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8028,7 +8843,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -8166,7 +8982,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -8371,7 +9188,16 @@
             "max": 9000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8441,7 +9267,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8524,7 +9359,16 @@
             "max": 900
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8550,7 +9394,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8606,7 +9459,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "AncientBlade",
         "randomArtifact": {
           "category": 0,
@@ -8626,7 +9488,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8692,7 +9563,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -8794,7 +9666,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8863,7 +9744,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8883,7 +9773,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -8914,7 +9813,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -9024,7 +9924,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9119,7 +10028,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -9239,7 +10149,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9329,7 +10248,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -9438,7 +10358,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9532,7 +10461,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9601,7 +10539,16 @@
             "max": 900
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9657,7 +10604,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9677,7 +10633,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9739,7 +10704,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9883,7 +10857,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -9966,7 +10941,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -9986,7 +10970,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10006,7 +10999,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10068,7 +11070,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10281,7 +11292,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10351,7 +11371,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10450,7 +11479,16 @@
             "max": 800
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10576,7 +11614,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -10665,7 +11704,16 @@
             "max": 3000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10749,7 +11797,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10780,7 +11837,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -10869,7 +11927,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -10939,7 +12006,16 @@
             "max": 10
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11073,7 +12149,16 @@
             "max": 7
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11129,7 +12214,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11258,7 +12352,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "FaeyHornWarbow",
         "randomArtifact": {
           "category": 0,
@@ -11338,7 +12441,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11358,7 +12470,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11472,7 +12593,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -11561,7 +12683,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11581,7 +12712,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11601,7 +12741,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11685,7 +12834,16 @@
             "max": 3000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -11819,7 +12977,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Gauntlets",
         "randomArtifact": {
           "category": 0,
@@ -11839,7 +13006,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "Roundshield",
         "randomArtifact": {
           "category": 0,
@@ -11901,7 +13077,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -12027,7 +13212,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -12130,7 +13316,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -12381,7 +13576,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -12437,7 +13641,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -12560,7 +13773,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -12680,7 +13894,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -12738,7 +13953,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -12796,7 +14012,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -12972,7 +14189,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13028,7 +14254,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13131,15 +14366,29 @@
         "eventReference": {
           "uniqueName": null
         },
+        "value": 1,
+        "factionIndex": 2,
+        "unitIndex": 1,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Loth/OathboundCrypt"
+        },
+        "requirementType": "GreaterThanOrEqualEntitiesOwned"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
         "value": 5,
         "factionIndex": 2,
         "unitIndex": 1,
         "resourceType": "Gold",
         "artifactType": "Crossbow",
         "entityType": {
-          "nameKey": "Arleon/Farm"
+          "nameKey": "Loth/OathboundCrypt"
         },
-        "requirementType": "RecipientOwnsGreaterThanOrEqualTroop"
+        "requirementType": "GreaterThanOrEqualRound"
       }
     ],
     "eventRecipient": "CommanderWithLeastOwnedArtifacts",
@@ -13155,7 +14404,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13175,7 +14433,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "SwampSpear",
         "randomArtifact": {
           "category": 0,
@@ -13245,7 +14512,16 @@
             "max": 300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13265,7 +14541,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13285,7 +14570,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13414,7 +14708,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 10,
@@ -13434,7 +14737,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 2,
@@ -13503,7 +14815,16 @@
             "max": 900
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13523,7 +14844,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13674,7 +15004,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13694,7 +15033,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13720,7 +15068,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13931,7 +15288,16 @@
             "max": 300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -13987,7 +15353,16 @@
             "max": 250
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -14057,7 +15432,16 @@
             "max": 100
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -14088,7 +15472,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -14383,7 +15768,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -14466,7 +15852,16 @@
             "max": 300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -14497,7 +15892,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -14718,7 +16114,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -14801,7 +16198,16 @@
             "max": 7
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -14821,7 +16227,16 @@
             "max": 1200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -14905,7 +16320,16 @@
             "max": 9
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -15015,7 +16439,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -15331,7 +16764,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 10,
@@ -15351,7 +16793,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 2,
@@ -15432,7 +16883,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -15514,7 +16966,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -15608,7 +17061,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -15782,7 +17236,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -15858,7 +17321,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -15939,7 +17411,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -16134,7 +17607,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -16342,7 +17816,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -16441,7 +17916,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -16461,7 +17945,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -16481,7 +17974,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -16657,7 +18159,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -16751,7 +18254,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -16889,7 +18393,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -16920,7 +18433,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -16991,7 +18505,16 @@
             "max": 300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -17058,7 +18581,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -17146,7 +18670,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -17252,7 +18777,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -17342,7 +18868,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -17422,7 +18957,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -17527,7 +19063,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -17616,7 +19153,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -17647,7 +19193,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -17802,7 +19349,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -17871,7 +19427,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -17937,7 +19502,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -18077,7 +19643,16 @@
             "max": 4
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18143,7 +19718,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -18213,7 +19789,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18233,7 +19818,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18253,7 +19847,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18273,7 +19876,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18356,7 +19968,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18376,7 +19997,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18432,7 +20062,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18452,7 +20091,16 @@
             "max": 4
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18508,7 +20156,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18589,7 +20246,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -18711,7 +20369,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18792,7 +20459,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -18869,7 +20537,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -18964,7 +20641,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -19049,7 +20727,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -19192,7 +20879,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -19212,7 +20908,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -19232,7 +20937,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -19361,7 +21075,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -19423,7 +21146,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -19571,7 +21303,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 1,
@@ -19591,7 +21332,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 2,
@@ -19890,7 +21640,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -20075,7 +21826,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -20197,7 +21949,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -20385,7 +22146,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -20456,7 +22218,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -20476,7 +22247,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -20543,7 +22323,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -20658,7 +22447,16 @@
             "max": 900
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -20779,7 +22577,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -20849,7 +22656,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -20880,7 +22696,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -20988,7 +22805,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -21147,7 +22965,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -21203,7 +23030,16 @@
             "max": 1250
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -21259,7 +23095,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "BoneClub",
         "randomArtifact": {
           "category": 0,
@@ -21404,7 +23249,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -21527,7 +23381,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -21876,7 +23731,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -21989,7 +23845,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -22009,7 +23874,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -22029,7 +23903,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -22177,7 +24060,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -22344,7 +24228,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -22542,7 +24435,16 @@
             "max": 1200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -22623,7 +24525,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -22706,7 +24609,16 @@
             "max": 1200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -22726,7 +24638,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -22746,7 +24667,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -22766,7 +24696,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 1,
@@ -22881,7 +24820,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -23057,7 +25005,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -23140,7 +25089,16 @@
             "max": 4
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -23348,7 +25306,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -23506,7 +25465,16 @@
             "max": 900
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -23573,7 +25541,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -23667,7 +25636,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -23750,7 +25720,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "ToolsOfTheMasterMason",
         "randomArtifact": {
           "category": 0,
@@ -23891,7 +25870,16 @@
             "max": 1400
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -23996,7 +25984,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -24067,7 +26056,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -24137,7 +26135,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -24218,7 +26225,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -24346,7 +26354,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -24443,7 +26452,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 2,
@@ -24614,7 +26632,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -24868,7 +26887,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -24953,7 +26973,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -25244,7 +27273,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -25327,7 +27357,16 @@
             "max": 7
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -25430,7 +27469,16 @@
             "max": 6
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -25486,7 +27534,16 @@
             "max": 1200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -25567,7 +27624,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -25655,7 +27713,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -25737,7 +27796,16 @@
             "max": 200
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -25792,7 +27860,16 @@
             "max": 800
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -25858,7 +27935,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -25928,7 +28006,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "SwampSpear",
         "randomArtifact": {
           "category": 0,
@@ -25995,7 +28082,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -26071,7 +28159,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26132,7 +28229,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26187,7 +28293,16 @@
             "max": 300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26207,7 +28322,16 @@
             "max": 300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26276,7 +28400,16 @@
             "max": 300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "BoneScimitar",
         "randomArtifact": {
           "category": 0,
@@ -26296,7 +28429,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26366,7 +28508,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26450,7 +28601,16 @@
             "max": 5
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26534,7 +28694,16 @@
             "max": 600
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26628,7 +28797,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26648,7 +28826,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26704,7 +28891,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26760,7 +28956,16 @@
             "max": 100
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -26827,7 +29032,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -26938,7 +29144,16 @@
             "max": 700
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27008,7 +29223,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27064,7 +29288,16 @@
             "max": 400
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27198,7 +29431,16 @@
             "max": 400
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27218,7 +29460,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27238,7 +29489,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27258,7 +29518,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27353,7 +29622,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -27459,7 +29729,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -27600,7 +29871,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -27688,7 +29960,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -27759,7 +30032,16 @@
             "max": 300
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27779,7 +30061,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27799,7 +30090,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27819,7 +30119,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27875,7 +30184,16 @@
             "max": 75
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27895,7 +30213,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -27915,7 +30242,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "TurbanHelmet",
         "randomArtifact": {
           "category": 0,
@@ -27982,7 +30318,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -28053,7 +30390,16 @@
             "max": 75
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28073,7 +30419,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28093,7 +30448,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28160,7 +30524,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -28243,7 +30608,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "AncientFalchion",
         "randomArtifact": {
           "category": 0,
@@ -28324,7 +30698,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -28427,7 +30802,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28494,7 +30878,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -28583,7 +30968,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "BoneClub",
         "randomArtifact": {
           "category": 0,
@@ -28603,7 +30997,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28623,7 +31026,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28643,7 +31055,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28713,7 +31134,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28876,7 +31306,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -28967,7 +31406,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -29038,7 +31478,16 @@
             "max": 500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29058,7 +31507,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29114,7 +31572,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29275,7 +31742,16 @@
             "max": 900
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29345,7 +31821,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29365,7 +31850,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29385,7 +31879,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "HelmetOfTheArena",
         "randomArtifact": {
           "category": 0,
@@ -29480,7 +31983,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -29604,7 +32108,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29635,7 +32148,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -29732,7 +32246,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29799,7 +32322,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -29893,7 +32417,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -29970,7 +32495,16 @@
             "max": 1000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -29990,7 +32524,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -30010,7 +32553,16 @@
             "max": 2
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -30206,7 +32758,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -30334,7 +32895,16 @@
             "max": 150
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -30428,7 +32998,16 @@
             "max": 1500
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -30459,7 +33038,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -30547,7 +33127,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -30588,7 +33169,16 @@
             "max": 6
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -30711,7 +33301,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -30817,7 +33408,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -30914,7 +33506,16 @@
             "max": 8
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -30995,7 +33596,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -31077,7 +33679,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -31160,7 +33763,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 1,
@@ -31180,7 +33792,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": "MorningStar",
         "randomArtifact": {
           "category": 1,
@@ -31247,7 +33868,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -31364,7 +33986,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -31384,7 +34015,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -31404,7 +34044,16 @@
             "max": 1
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -31538,7 +34187,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -31608,7 +34266,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -31634,7 +34301,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -31715,7 +34391,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -31823,7 +34500,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -31902,7 +34580,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -31996,7 +34675,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -32192,7 +34872,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -32269,7 +34950,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -32336,7 +35026,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -32424,7 +35115,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -32526,7 +35218,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -32620,7 +35313,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -32714,7 +35408,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -32836,7 +35531,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -32930,7 +35626,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -33001,7 +35698,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -33085,7 +35791,16 @@
             "max": 3
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -33116,7 +35831,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -33198,7 +35914,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -33292,7 +36009,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -33380,7 +36098,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -33468,7 +36187,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -33709,7 +36429,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -33831,7 +36552,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -33947,7 +36669,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -34046,7 +36769,16 @@
             "max": 2000
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -34066,7 +36798,16 @@
             "max": 10
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -34161,7 +36902,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -34340,7 +37082,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -34429,7 +37172,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -34496,7 +37248,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -34591,7 +37344,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -34653,7 +37415,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -34739,7 +37510,16 @@
             "max": 0
           }
         },
-        "bacteriaReward": null,
+        "bacteriaReward": {
+          "bacteriaType": 0,
+          "type": null,
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "BattleStackRound",
+            "duration": 0
+          }
+        },
         "artifactReward": null,
         "randomArtifact": {
           "category": 0,
@@ -34865,7 +37645,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {
@@ -34961,7 +37742,8 @@
             "hexRadius": 1,
             "bacteriaToAdd": null,
             "isStackable": 1,
-            "isPassable": 1
+            "isPassable": 1,
+            "isSingleShot": 0
           },
           "modifierData": [
             {

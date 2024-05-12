@@ -8,7 +8,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasFarm1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 384,
         "width": 64,
@@ -36,7 +36,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasFarm2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 385,
         "width": 64,
@@ -124,7 +124,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasLumberMill1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 320,
         "width": 64,
@@ -152,7 +152,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasLumberMill2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 320,
         "width": 64,
@@ -240,7 +240,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasTavern1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 256,
         "width": 64,
@@ -268,7 +268,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasTavern2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 256,
         "width": 64,
@@ -305,7 +305,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Minstrel",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           }
         ]
@@ -319,7 +319,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Troubadour",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -376,7 +376,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasQuarry1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 256,
         "width": 64,
@@ -404,7 +404,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasQuarry2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 256,
         "width": 64,
@@ -492,7 +492,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasPeasantsHut1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 256,
         "width": 64,
@@ -520,7 +520,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasPeasantsHut2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 256,
         "width": 64,
@@ -557,7 +557,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Militia",
             "size": 3,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 4
           }
         ]
@@ -571,7 +571,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Sapper",
             "size": 3,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -620,7 +620,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasRallyPoint",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 256,
         "width": 64,
@@ -683,7 +683,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasMarketplace",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 256,
         "width": 64,
@@ -730,7 +730,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasFaeyGrove1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 384,
         "width": 64,
@@ -758,7 +758,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasFaeyGrove2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 384,
         "width": 64,
@@ -791,7 +791,7 @@
         "descriptionKey": "Arleon/Research/FaeyGrove/HornedOnes/Description",
         "icon": {
           "name": "ResearchHornedOneSmall",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 458,
           "y": 798,
           "width": 110,
@@ -825,7 +825,7 @@
             "costEntries": [
               {
                 "type": "Gold",
-                "amount": 2000
+                "amount": 1500
               },
               {
                 "type": "Glimmerweave",
@@ -847,7 +847,7 @@
             "upgradeType": "vanilla",
             "unitKey": "FaeySpirit",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           },
           {
@@ -855,7 +855,9 @@
             "upgradeType": "vanilla",
             "unitKey": "HornedOne",
             "size": 1,
-            "requiredResearch": "a5000000",
+            "requiredResearch": [
+              165
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -869,7 +871,7 @@
             "upgradeType": "upgraded",
             "unitKey": "FaeyRager",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           },
           {
@@ -877,7 +879,9 @@
             "upgradeType": "upgraded",
             "unitKey": "QueensGuard",
             "size": 1,
-            "requiredResearch": "a5000000",
+            "requiredResearch": [
+              165
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -924,7 +928,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasFaeyCourt1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 384,
         "width": 64,
@@ -952,7 +956,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasFaeyCourt2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 384,
         "width": 64,
@@ -989,7 +993,7 @@
             "upgradeType": "vanilla",
             "unitKey": "FaeyNoble",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           }
         ]
@@ -1003,7 +1007,7 @@
             "upgradeType": "upgraded",
             "unitKey": "FaeyQueen",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -1050,7 +1054,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasBarracks1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 448,
         "width": 64,
@@ -1078,7 +1082,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasBarracks2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 448,
         "width": 64,
@@ -1111,7 +1115,7 @@
         "descriptionKey": "Arleon/Research/Barracks/Rangers/Description",
         "icon": {
           "name": "ResearchRangerSmall",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 572,
           "y": 570,
           "width": 110,
@@ -1167,7 +1171,9 @@
             "upgradeType": "vanilla",
             "unitKey": "Ranger",
             "size": 2,
-            "requiredResearch": "a4000000",
+            "requiredResearch": [
+              164
+            ],
             "initialInstantIncome": 0
           },
           {
@@ -1175,7 +1181,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Footman",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           }
         ]
@@ -1189,7 +1195,9 @@
             "upgradeType": "upgraded",
             "unitKey": "Archer",
             "size": 2,
-            "requiredResearch": "a4000000",
+            "requiredResearch": [
+              164
+            ],
             "initialInstantIncome": 0
           },
           {
@@ -1197,7 +1205,7 @@
             "upgradeType": "upgraded",
             "unitKey": "ShieldOfOrder",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -1248,7 +1256,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasCastle1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 448,
         "width": 64,
@@ -1276,7 +1284,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasCastle2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 448,
         "width": 64,
@@ -1313,7 +1321,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Knight",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           }
         ]
@@ -1327,7 +1335,7 @@
             "upgradeType": "upgraded",
             "unitKey": "FistOfOrder",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -1380,7 +1388,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasGuardTower1",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 320,
         "width": 64,
@@ -1408,7 +1416,7 @@
       },
       {
         "name": "ArleonBuildingPortraitsAtlasGuardTower2",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 320,
         "width": 64,
@@ -1474,7 +1482,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasAcademy",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 448,
         "width": 64,
@@ -1507,7 +1515,7 @@
         "descriptionKey": "Arleon/Research/Academy/Economy/MultiBuild/Description",
         "icon": {
           "name": "DynamicConstruction",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 316,
           "y": 912,
           "width": 110,
@@ -1564,7 +1572,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -1588,7 +1597,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Harvest the Glimmerweave",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 116,
           "y": 912,
           "width": 110,
@@ -1706,7 +1715,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "IncreasetheTaxes",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 772,
           "y": 912,
           "width": 110,
@@ -1848,7 +1857,7 @@
         "descriptionKey": "Arleon/Research/Academy/Wielders/Order/Description",
         "icon": {
           "name": "ResearchIconOrder",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 230,
           "y": 684,
           "width": 110,
@@ -1897,7 +1906,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -1936,7 +1946,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -1975,7 +1986,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -1999,7 +2011,7 @@
         "descriptionKey": "Arleon/Research/Academy/Wielders/Creation/Description",
         "icon": {
           "name": "ResearchIconCreation",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 2,
           "y": 684,
           "width": 110,
@@ -2048,7 +2060,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2087,7 +2100,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2126,7 +2140,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2150,7 +2165,7 @@
         "descriptionKey": "Arleon/Research/Academy/Wielders/Chaos/Description",
         "icon": {
           "name": "ResearchIconChaos",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 800,
           "y": 798,
           "width": 110,
@@ -2199,7 +2214,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2238,7 +2254,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2277,7 +2294,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2301,7 +2319,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMilitiaPlus",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 686,
           "y": 684,
           "width": 110,
@@ -2350,7 +2368,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2389,7 +2408,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2428,7 +2448,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2452,7 +2473,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMinstrelPlus",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 2,
           "y": 570,
           "width": 110,
@@ -2501,7 +2522,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2540,7 +2562,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2579,7 +2602,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2603,7 +2627,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchFootmenPlus",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 116,
           "y": 798,
           "width": 110,
@@ -2652,7 +2676,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2691,7 +2716,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2730,7 +2756,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2754,7 +2781,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRangerPlus",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 458,
           "y": 570,
           "width": 110,
@@ -2803,7 +2830,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2842,7 +2870,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2881,7 +2910,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2905,7 +2935,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchKnightPlus",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 458,
           "y": 684,
           "width": 110,
@@ -2954,7 +2984,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -2993,7 +3024,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3032,7 +3064,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3056,7 +3089,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSpiritsPlus",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 800,
           "y": 570,
           "width": 110,
@@ -3105,7 +3138,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3144,7 +3178,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3183,7 +3218,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3207,7 +3243,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHornedOnePlus",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 344,
           "y": 798,
           "width": 110,
@@ -3256,7 +3292,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3295,7 +3332,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3334,7 +3372,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3358,7 +3397,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchNoblePlus",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 230,
           "y": 570,
           "width": 110,
@@ -3407,7 +3446,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3446,7 +3486,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3485,7 +3526,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3533,7 +3575,7 @@
     "portraits": [
       {
         "name": "ArleonBuildingPortraitsAtlasGrandArmory",
-        "spriteSheet": "ArleonBuildingPortraitsAtlas.webp",
+        "spriteSheet": "ArleonBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 320,
         "width": 64,
@@ -3566,7 +3608,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "FuryoftheWild",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 430,
           "y": 912,
           "width": 110,
@@ -3619,7 +3661,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3668,7 +3711,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3717,7 +3761,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3747,7 +3792,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "NaturesBlessing",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 886,
           "y": 912,
           "width": 110,
@@ -3800,7 +3845,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3843,7 +3889,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3886,7 +3933,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -3916,7 +3964,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "WindsoftheForest",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 116,
           "y": 456,
           "width": 110,
@@ -3973,7 +4021,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4020,7 +4069,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4067,7 +4117,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4091,7 +4142,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "CelestialWeapons",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 202,
           "y": 912,
           "width": 110,
@@ -4144,7 +4195,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4187,7 +4239,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4230,7 +4283,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4254,7 +4308,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "TargetPractice",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 2,
           "y": 456,
           "width": 110,
@@ -4307,7 +4361,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4350,7 +4405,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4393,7 +4449,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4417,7 +4474,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "CelestialArmour",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 88,
           "y": 912,
           "width": 110,
@@ -4470,7 +4527,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4513,7 +4571,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4556,7 +4615,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4580,7 +4640,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "HeartyMeals",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 658,
           "y": 912,
           "width": 110,
@@ -4637,7 +4697,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4684,7 +4745,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4731,7 +4793,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4761,7 +4824,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMilitia",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 572,
           "y": 684,
           "width": 110,
@@ -4810,7 +4873,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4855,7 +4919,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4894,7 +4959,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -4918,7 +4984,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMinstrel",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 800,
           "y": 684,
           "width": 110,
@@ -4967,7 +5033,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5006,7 +5073,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5045,7 +5113,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5069,7 +5138,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchFootmen",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 2,
           "y": 798,
           "width": 110,
@@ -5118,7 +5187,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5157,7 +5227,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5196,7 +5267,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5220,7 +5292,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRanger",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 344,
           "y": 570,
           "width": 110,
@@ -5269,7 +5341,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5314,7 +5387,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5353,7 +5427,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5377,7 +5452,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchKnight",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 344,
           "y": 684,
           "width": 110,
@@ -5426,7 +5501,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5465,7 +5541,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5504,7 +5581,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5528,7 +5606,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSpirits",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 686,
           "y": 570,
           "width": 110,
@@ -5577,7 +5655,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5616,7 +5695,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5676,7 +5756,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHornedOne",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 230,
           "y": 798,
           "width": 110,
@@ -5725,7 +5805,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5764,7 +5845,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5803,7 +5885,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5827,7 +5910,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchNoble",
-          "spriteSheet": "ArleonIcons.webp",
+          "spriteSheet": "ArleonIcons.png",
           "x": 116,
           "y": 570,
           "width": 110,
@@ -5876,7 +5959,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5921,7 +6005,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -5960,7 +6045,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6008,7 +6094,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasBazar",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 320,
         "width": 64,
@@ -6055,7 +6141,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasDreathDen1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 448,
         "width": 64,
@@ -6083,7 +6169,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasDreathDen2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 448,
         "width": 64,
@@ -6120,7 +6206,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Dreath",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           }
         ]
@@ -6134,7 +6220,7 @@
             "upgradeType": "upgraded",
             "unitKey": "DireDreath",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -6191,7 +6277,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasFactory1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 320,
         "width": 64,
@@ -6219,7 +6305,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasFactory2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 320,
         "width": 64,
@@ -6256,7 +6342,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Hellbreath",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           }
         ]
@@ -6270,7 +6356,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Hellroar",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -6321,7 +6407,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasFoundry",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 256,
         "width": 64,
@@ -6354,7 +6440,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "StrikeHard",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 800,
           "y": 570,
           "width": 110,
@@ -6407,7 +6493,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6450,7 +6537,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6493,7 +6581,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6517,7 +6606,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "EndurePunishment",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 2,
           "y": 912,
           "width": 110,
@@ -6570,7 +6659,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6613,7 +6703,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6656,7 +6747,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6680,7 +6772,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "MoveFast",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 458,
           "y": 912,
           "width": 110,
@@ -6737,7 +6829,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6784,7 +6877,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6831,7 +6925,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6855,7 +6950,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "RefinedWeaponry",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 800,
           "y": 912,
           "width": 110,
@@ -6908,7 +7003,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6951,7 +7047,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -6994,7 +7091,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7018,7 +7116,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "SteelBullets",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 686,
           "y": 570,
           "width": 110,
@@ -7071,7 +7169,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7114,7 +7213,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7157,7 +7257,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7181,7 +7282,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "RefinedArmors",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 572,
           "y": 912,
           "width": 110,
@@ -7234,7 +7335,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7277,7 +7379,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7320,7 +7423,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7344,7 +7448,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Refinedequipment",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 686,
           "y": 912,
           "width": 110,
@@ -7401,7 +7505,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7448,7 +7553,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7495,7 +7601,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7525,7 +7632,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMusketeer",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 116,
           "y": 684,
           "width": 110,
@@ -7574,7 +7681,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7613,7 +7721,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7658,7 +7767,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7682,7 +7792,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchPikeneer",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 344,
           "y": 684,
           "width": 110,
@@ -7731,7 +7841,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7770,7 +7881,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7809,7 +7921,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7833,7 +7946,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchTinker",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 344,
           "y": 570,
           "width": 110,
@@ -7882,7 +7995,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7921,7 +8035,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7960,7 +8075,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -7984,7 +8100,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHellbreath",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 458,
           "y": 798,
           "width": 110,
@@ -8033,7 +8149,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8078,7 +8195,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8117,7 +8235,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8141,7 +8260,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchPiper",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 686,
           "y": 684,
           "width": 110,
@@ -8190,7 +8309,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8229,7 +8349,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8268,7 +8389,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8292,7 +8414,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchBrute",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 2,
           "y": 798,
           "width": 110,
@@ -8341,7 +8463,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8380,7 +8503,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8410,7 +8534,7 @@
             "bacterias": [
               {
                 "bacteriaType": 1115,
-                "type": "ResearchBerserkBrute",
+                "type": "ResearchFrightfulBrute",
                 "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
@@ -8439,7 +8563,8 @@
                           }
                         },
                         "isStackable": 1,
-                        "isPassable": 1
+                        "isPassable": 1,
+                        "isSingleShot": 0
                       },
                       "modifierData": [],
                       "resourcesIncome": [],
@@ -8460,7 +8585,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSassanid",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 2,
           "y": 570,
           "width": 110,
@@ -8509,7 +8634,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8548,7 +8674,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8587,7 +8714,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8611,7 +8739,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchDreath",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 230,
           "y": 798,
           "width": 110,
@@ -8660,7 +8788,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8699,7 +8828,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -8748,7 +8878,8 @@
                         "hexRadius": 1,
                         "bacteriaToAdd": null,
                         "isStackable": 1,
-                        "isPassable": 1
+                        "isPassable": 1,
+                        "isSingleShot": 0
                       },
                       "modifierData": [
                         {
@@ -8800,7 +8931,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasGuardTower1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 384,
         "width": 64,
@@ -8828,7 +8959,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasGuardTower2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 384,
         "width": 64,
@@ -8894,7 +9025,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasFortalice1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 256,
         "width": 64,
@@ -8922,7 +9053,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasFortalice2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 256,
         "width": 64,
@@ -8955,7 +9086,7 @@
         "descriptionKey": "Barya/Research/Fortalice/Sassanids/Description",
         "icon": {
           "name": "ResearchSassanidSmall",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 230,
           "y": 570,
           "width": 110,
@@ -9011,7 +9142,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Brute",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           },
           {
@@ -9019,7 +9150,9 @@
             "upgradeType": "vanilla",
             "unitKey": "Sassanid",
             "size": 1,
-            "requiredResearch": 20010000,
+            "requiredResearch": [
+              288
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -9033,7 +9166,7 @@
             "upgradeType": "upgraded",
             "unitKey": "ScarredBrute",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           },
           {
@@ -9041,7 +9174,9 @@
             "upgradeType": "upgraded",
             "unitKey": "Shadow",
             "size": 1,
-            "requiredResearch": 20010000,
+            "requiredResearch": [
+              288
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -9094,7 +9229,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasMercenaryQuarters1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 320,
         "width": 64,
@@ -9122,7 +9257,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasMercenaryQuarters2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 320,
         "width": 64,
@@ -9155,7 +9290,7 @@
         "descriptionKey": "Barya/Research/MercenaryQuarters/Pikeneers/Description",
         "icon": {
           "name": "ResearchPikeneerSmall",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 572,
           "y": 684,
           "width": 110,
@@ -9211,7 +9346,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Musketeer",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           },
           {
@@ -9219,7 +9354,9 @@
             "upgradeType": "vanilla",
             "unitKey": "Pikeneer",
             "size": 2,
-            "requiredResearch": 21010000,
+            "requiredResearch": [
+              289
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -9233,7 +9370,7 @@
             "upgradeType": "upgraded",
             "unitKey": "VeteranMusketeer",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           },
           {
@@ -9241,7 +9378,9 @@
             "upgradeType": "upgraded",
             "unitKey": "VeteranPikeneer",
             "size": 2,
-            "requiredResearch": 21010000,
+            "requiredResearch": [
+              289
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -9292,7 +9431,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasMerchantsGuild",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 384,
         "width": 64,
@@ -9325,7 +9464,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "EnlistIndebted",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 116,
           "y": 912,
           "width": 110,
@@ -9382,7 +9521,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -9406,7 +9546,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ExtracttheCelestialOre",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 230,
           "y": 912,
           "width": 110,
@@ -9524,7 +9664,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "IncreasetheTariffs",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 344,
           "y": 912,
           "width": 110,
@@ -9666,7 +9806,7 @@
         "descriptionKey": "Barya/Research/MerchantsGuild/Wielders/Order/Description",
         "icon": {
           "name": "ResearchIconOrder",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 2,
           "y": 684,
           "width": 110,
@@ -9715,7 +9855,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -9754,7 +9895,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -9793,7 +9935,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -9817,7 +9960,7 @@
         "descriptionKey": "Barya/Research/MerchantsGuild/Wielders/Chaos/Description",
         "icon": {
           "name": "ResearchIconChaos",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 686,
           "y": 798,
           "width": 110,
@@ -9866,7 +10009,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -9905,7 +10049,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -9944,7 +10089,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -9968,7 +10114,7 @@
         "descriptionKey": "Barya/Research/MerchantsGuild/Wielders/Destruction/Description",
         "icon": {
           "name": "ResearchIconDestruction",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 800,
           "y": 798,
           "width": 110,
@@ -10017,7 +10163,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10056,7 +10203,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10095,7 +10243,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10119,7 +10268,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchMusketeerPlus",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 230,
           "y": 684,
           "width": 110,
@@ -10168,7 +10317,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10207,7 +10357,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10246,7 +10397,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10270,7 +10422,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchPikeneerPlus",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 458,
           "y": 684,
           "width": 110,
@@ -10319,7 +10471,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10358,7 +10511,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10397,7 +10551,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10421,7 +10576,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchTinkerPlus",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 458,
           "y": 570,
           "width": 110,
@@ -10470,7 +10625,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10509,7 +10665,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10548,7 +10705,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10572,7 +10730,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHellbreathPlus",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 572,
           "y": 798,
           "width": 110,
@@ -10621,7 +10779,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10660,7 +10819,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10699,7 +10859,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10723,7 +10884,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchPiperPlus",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 800,
           "y": 684,
           "width": 110,
@@ -10772,7 +10933,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10811,7 +10973,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10850,7 +11013,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10874,7 +11038,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchBrutePlus",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 116,
           "y": 798,
           "width": 110,
@@ -10923,7 +11087,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -10962,7 +11127,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -11001,7 +11167,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -11025,7 +11192,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSassanidPlus",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 116,
           "y": 570,
           "width": 110,
@@ -11074,7 +11241,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -11113,7 +11281,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -11152,7 +11321,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -11176,7 +11346,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchDreathPlus",
-          "spriteSheet": "BaryaIcons.webp",
+          "spriteSheet": "BaryaIcons.png",
           "x": 344,
           "y": 798,
           "width": 110,
@@ -11225,7 +11395,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -11264,7 +11435,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -11303,7 +11475,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -11351,7 +11524,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasPipersPost1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 384,
         "width": 64,
@@ -11379,7 +11552,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasPipersPost2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 384,
         "width": 64,
@@ -11416,7 +11589,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Piper",
             "size": 3,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 4
           }
         ]
@@ -11430,7 +11603,7 @@
             "upgradeType": "upgraded",
             "unitKey": "SteamPiper",
             "size": 3,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -11483,7 +11656,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasTeleport",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 384,
         "width": 64,
@@ -11546,7 +11719,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasSawmill1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 448,
         "width": 64,
@@ -11574,7 +11747,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasSawmill2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 448,
         "width": 64,
@@ -11662,7 +11835,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasShop1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 448,
         "width": 64,
@@ -11690,7 +11863,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasShop2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 448,
         "width": 64,
@@ -11778,7 +11951,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasStonePit1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 448,
         "width": 64,
@@ -11806,7 +11979,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasStonePit2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 448,
         "width": 64,
@@ -11894,7 +12067,7 @@
     "portraits": [
       {
         "name": "BaryaBuildingPortraitsAtlasWorkshop1",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 320,
         "width": 64,
@@ -11922,7 +12095,7 @@
       },
       {
         "name": "BaryaBuildingPortraitsAtlasWorkshop2",
-        "spriteSheet": "BaryaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "BaryaBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 320,
         "width": 64,
@@ -11959,7 +12132,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Tinkerer",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           }
         ]
@@ -11973,7 +12146,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Artificer",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -12032,7 +12205,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasAurelianMausoleum1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 448,
         "width": 64,
@@ -12060,7 +12233,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasAurelianMausoleum2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 448,
         "width": 64,
@@ -12093,7 +12266,7 @@
         "descriptionKey": "Loth/Research/AurelianMausoleum/BlessedBones/Description",
         "icon": {
           "name": "ResearchBonesSmall",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 630,
           "y": 798,
           "width": 110,
@@ -12149,7 +12322,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Spectre",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           },
           {
@@ -12157,7 +12330,9 @@
             "upgradeType": "vanilla",
             "unitKey": "ScavengedBones",
             "size": 1,
-            "requiredResearch": "a7000000",
+            "requiredResearch": [
+              167
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -12171,7 +12346,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Seneschal",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           },
           {
@@ -12179,7 +12354,9 @@
             "upgradeType": "upgraded",
             "unitKey": "BlessedBones",
             "size": 1,
-            "requiredResearch": "a7000000",
+            "requiredResearch": [
+              167
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -12190,12 +12367,16 @@
       {
         "costEntries": [
           {
+            "type": "Stone",
+            "amount": 5
+          },
+          {
             "type": "Wood",
             "amount": 5
           },
           {
             "type": "AncientAmber",
-            "amount": 10
+            "amount": 5
           }
         ],
         "requiredBuildings": [
@@ -12236,7 +12417,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasCroft1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 384,
         "width": 64,
@@ -12264,7 +12445,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasCroft2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 385,
         "width": 64,
@@ -12352,7 +12533,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasEmbalmersLab1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 384,
         "width": 64,
@@ -12380,7 +12561,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasEmbalmersLab2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 384,
         "width": 64,
@@ -12417,7 +12598,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Toxicologist",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           }
         ]
@@ -12431,7 +12612,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Bane",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -12486,7 +12667,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasExMortisSanctum1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 448,
         "width": 64,
@@ -12514,7 +12695,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasExMortisSanctum2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 448,
         "width": 64,
@@ -12547,7 +12728,7 @@
         "descriptionKey": "Loth/Research/AurelianSanctum/Necromancer/Description",
         "icon": {
           "name": "ResearchScholarSmall",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 344,
           "y": 570,
           "width": 110,
@@ -12603,7 +12784,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Cultist",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           },
           {
@@ -12611,7 +12792,9 @@
             "upgradeType": "vanilla",
             "unitKey": "AurelianScholar",
             "size": 1,
-            "requiredResearch": "a6000000",
+            "requiredResearch": [
+              166
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -12625,7 +12808,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Oathsinger",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           },
           {
@@ -12633,7 +12816,9 @@
             "upgradeType": "upgraded",
             "unitKey": "Necromancer",
             "size": 1,
-            "requiredResearch": "a6000000",
+            "requiredResearch": [
+              166
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -12649,7 +12834,7 @@
           },
           {
             "type": "Glimmerweave",
-            "amount": 3
+            "amount": 5
           },
           {
             "type": "CelestialOre",
@@ -12688,7 +12873,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasGuardTower1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 320,
         "width": 64,
@@ -12716,7 +12901,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasGuardTower2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 320,
         "width": 64,
@@ -12782,7 +12967,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasLibraryofAurelia",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 448,
         "width": 64,
@@ -12815,7 +13000,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ImperialArchitecture",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 2,
           "y": 798,
           "width": 110,
@@ -12872,7 +13057,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -12896,7 +13082,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ExtracttheAncientAmber",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 572,
           "y": 912,
           "width": 110,
@@ -13014,7 +13200,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "FanaticOfferings",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 686,
           "y": 912,
           "width": 110,
@@ -13156,7 +13342,7 @@
         "descriptionKey": "Loth/Research/LibraryOfAurelia/Wielders/Order/Description",
         "icon": {
           "name": "ResearchIconOrder",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 230,
           "y": 684,
           "width": 110,
@@ -13205,7 +13391,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13244,7 +13431,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13283,7 +13471,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13307,7 +13496,7 @@
         "descriptionKey": "Loth/Research/LibraryOfAurelia/Wielders/Destruction/Description",
         "icon": {
           "name": "ResearchIconDestruction",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 116,
           "y": 684,
           "width": 110,
@@ -13356,7 +13545,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13395,7 +13585,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13434,7 +13625,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13458,7 +13650,7 @@
         "descriptionKey": "Loth/Research/LibraryOfAurelia/Wielders/Arcana/Description",
         "icon": {
           "name": "ResearchIconArcana",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 2,
           "y": 684,
           "width": 110,
@@ -13507,7 +13699,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13546,7 +13739,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13585,7 +13779,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13609,7 +13804,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRatsPlus",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 2,
           "y": 570,
           "width": 110,
@@ -13658,7 +13853,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13697,7 +13893,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13736,7 +13933,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13760,7 +13958,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchCultistPlus",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 858,
           "y": 798,
           "width": 110,
@@ -13809,7 +14007,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13848,7 +14047,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13887,7 +14087,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13911,7 +14112,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchToxocologistPlus",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 800,
           "y": 570,
           "width": 110,
@@ -13960,7 +14161,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -13999,7 +14201,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14038,7 +14241,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14062,7 +14266,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchScholarPlus",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 230,
           "y": 570,
           "width": 110,
@@ -14111,7 +14315,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14150,7 +14355,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14189,7 +14395,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14213,7 +14420,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchOathboundPlus",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 686,
           "y": 684,
           "width": 110,
@@ -14262,7 +14469,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14301,7 +14509,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14340,7 +14549,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14364,7 +14574,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSpectrePlus",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 572,
           "y": 570,
           "width": 110,
@@ -14413,7 +14623,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14452,7 +14663,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14491,7 +14703,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14515,7 +14728,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchBonesPlus",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 516,
           "y": 798,
           "width": 110,
@@ -14564,7 +14777,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14603,7 +14817,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14642,7 +14857,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14666,7 +14882,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchLegionPlus",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 458,
           "y": 684,
           "width": 110,
@@ -14715,7 +14931,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14754,7 +14971,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14793,7 +15011,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -14841,7 +15060,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasOathboundCrypt1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 256,
         "width": 64,
@@ -14869,7 +15088,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasOathboundCrypt2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 256,
         "width": 64,
@@ -14906,7 +15125,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Oathbound",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           }
         ]
@@ -14920,7 +15139,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Legionnaire",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -14973,7 +15192,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasRefusePile1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 256,
         "width": 64,
@@ -15001,7 +15220,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasRefusePile2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 129,
         "y": 256,
         "width": 64,
@@ -15037,8 +15256,8 @@
             "factionKey": "Loth",
             "upgradeType": "vanilla",
             "unitKey": "Rats",
-            "size": 4,
-            "requiredResearch": null,
+            "size": 5,
+            "requiredResearch": [],
             "initialInstantIncome": 6
           }
         ]
@@ -15051,8 +15270,8 @@
             "factionKey": "Loth",
             "upgradeType": "upgraded",
             "unitKey": "PlagueRats",
-            "size": 4,
-            "requiredResearch": null,
+            "size": 5,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -15101,7 +15320,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasRitualCircle1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 384,
         "width": 64,
@@ -15129,7 +15348,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasRitualCircle2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 384,
         "width": 64,
@@ -15166,7 +15385,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Legion",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           }
         ]
@@ -15180,7 +15399,7 @@
             "upgradeType": "upgraded",
             "unitKey": "HighLegion",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -15231,7 +15450,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasStoneMasons1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 256,
         "width": 64,
@@ -15259,7 +15478,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasStoneMasons2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 256,
         "width": 64,
@@ -15347,7 +15566,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasTheUnseenSociety",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 320,
         "width": 64,
@@ -15380,7 +15599,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "AureliasRage",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 230,
           "y": 912,
           "width": 110,
@@ -15433,7 +15652,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15476,7 +15696,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15519,7 +15740,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15543,7 +15765,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "AureliasGuidance",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 2,
           "y": 912,
           "width": 110,
@@ -15596,7 +15818,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15639,7 +15862,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15682,7 +15906,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15706,7 +15931,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "AureliasProtection",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 116,
           "y": 912,
           "width": 110,
@@ -15759,7 +15984,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15802,7 +16028,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15845,7 +16072,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15869,7 +16097,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "AureliasVigor",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 344,
           "y": 912,
           "width": 110,
@@ -15926,7 +16154,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -15973,7 +16202,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16020,7 +16250,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16050,7 +16281,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ColdFury",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 458,
           "y": 912,
           "width": 110,
@@ -16103,7 +16334,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16146,7 +16378,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16189,7 +16422,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16213,7 +16447,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "NecroticResurgence",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 288,
           "y": 798,
           "width": 110,
@@ -16266,7 +16500,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16309,7 +16544,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16352,7 +16588,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16382,7 +16619,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "FinalMarch",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 800,
           "y": 912,
           "width": 110,
@@ -16439,7 +16676,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16486,7 +16724,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16533,7 +16772,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16557,7 +16797,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRats",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 800,
           "y": 684,
           "width": 110,
@@ -16606,7 +16846,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16645,7 +16886,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16694,7 +16936,8 @@
                         "hexRadius": 1,
                         "bacteriaToAdd": null,
                         "isStackable": 1,
-                        "isPassable": 1
+                        "isPassable": 1,
+                        "isSingleShot": 0
                       },
                       "modifierData": [
                         {
@@ -16722,7 +16965,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchCultist",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 744,
           "y": 798,
           "width": 110,
@@ -16771,7 +17014,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16810,7 +17054,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16849,7 +17094,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16873,7 +17119,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchToxocologist",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 686,
           "y": 570,
           "width": 110,
@@ -16922,7 +17168,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -16961,7 +17208,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17000,7 +17248,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17030,7 +17279,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchScholar",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 116,
           "y": 570,
           "width": 110,
@@ -17079,7 +17328,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17118,7 +17368,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17157,7 +17408,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17181,7 +17433,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchOathbound",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 572,
           "y": 684,
           "width": 110,
@@ -17230,7 +17482,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17269,7 +17522,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17308,7 +17562,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17332,7 +17587,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchSpectre",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 458,
           "y": 570,
           "width": 110,
@@ -17381,7 +17636,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17420,7 +17676,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17459,7 +17716,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17483,7 +17741,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchBones",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 402,
           "y": 798,
           "width": 110,
@@ -17532,7 +17790,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17571,7 +17830,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17620,7 +17880,8 @@
                         "hexRadius": 1,
                         "bacteriaToAdd": null,
                         "isStackable": 1,
-                        "isPassable": 1
+                        "isPassable": 1,
+                        "isSingleShot": 0
                       },
                       "modifierData": [
                         {
@@ -17648,7 +17909,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchLegion",
-          "spriteSheet": "LothIcons.webp",
+          "spriteSheet": "LothIcons.png",
           "x": 344,
           "y": 684,
           "width": 110,
@@ -17697,7 +17958,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17736,7 +17998,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -17795,7 +18058,8 @@
                           }
                         },
                         "isStackable": 1,
-                        "isPassable": 1
+                        "isPassable": 1,
+                        "isSingleShot": 0
                       },
                       "modifierData": [],
                       "resourcesIncome": [],
@@ -17840,7 +18104,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasTradingPost",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 256,
         "width": 64,
@@ -17887,7 +18151,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasWoodCollector1",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 320,
         "width": 64,
@@ -17915,7 +18179,7 @@
       },
       {
         "name": "LothBuildingPortraitsAtlasWoodCollector2",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 320,
         "width": 64,
@@ -18003,7 +18267,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasBeastCorral1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 384,
         "width": 64,
@@ -18031,7 +18295,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasBeastCorral2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 384,
         "width": 64,
@@ -18064,7 +18328,7 @@
         "descriptionKey": "Rana/Research/BeastCorral/Tremor/Description",
         "icon": {
           "name": "ResearchTremorSmall",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 344,
           "y": 570,
           "width": 110,
@@ -18097,6 +18361,10 @@
             "descriptionKey": "Rana/Research/BeastCorral/Tremor/Description",
             "costEntries": [
               {
+                "type": "Gold",
+                "amount": 1000
+              },
+              {
                 "type": "AncientAmber",
                 "amount": 2
               },
@@ -18119,8 +18387,8 @@
             "factionKey": "Rana",
             "upgradeType": "vanilla",
             "unitKey": "Ravager",
-            "size": 1,
-            "requiredResearch": null,
+            "size": 2,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           },
           {
@@ -18128,7 +18396,9 @@
             "upgradeType": "vanilla",
             "unitKey": "Tremor",
             "size": 1,
-            "requiredResearch": "1f010000",
+            "requiredResearch": [
+              287
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -18141,8 +18411,8 @@
             "factionKey": "Rana",
             "upgradeType": "upgraded",
             "unitKey": "RiderOfTheSwamp",
-            "size": 1,
-            "requiredResearch": null,
+            "size": 2,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           },
           {
@@ -18150,7 +18420,9 @@
             "upgradeType": "vanilla",
             "unitKey": "Tremor",
             "size": 1,
-            "requiredResearch": "1f010000",
+            "requiredResearch": [
+              287
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -18162,6 +18434,10 @@
         "costEntries": [
           {
             "type": "Stone",
+            "amount": 5
+          },
+          {
+            "type": "Wood",
             "amount": 5
           },
           {
@@ -18201,7 +18477,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasChelunSanctuary1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 448,
         "width": 64,
@@ -18229,7 +18505,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasChelunSanctuary2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 448,
         "width": 64,
@@ -18266,7 +18542,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Chelun",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           }
         ]
@@ -18280,7 +18556,7 @@
             "upgradeType": "upgraded",
             "unitKey": "ChelunElder",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -18341,7 +18617,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasMudHuts1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 448,
         "width": 64,
@@ -18369,7 +18645,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasMudHuts2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 448,
         "width": 64,
@@ -18402,7 +18678,7 @@
         "descriptionKey": "Rana/Research/MudHut/Crawler/Description",
         "icon": {
           "name": "ResearchCrawlerSmall",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 116,
           "y": 798,
           "width": 110,
@@ -18439,11 +18715,11 @@
                 "amount": 1500
               },
               {
-                "type": "Wood",
+                "type": "Stone",
                 "amount": 5
               },
               {
-                "type": "Glimmerweave",
+                "type": "Wood",
                 "amount": 5
               }
             ],
@@ -18462,7 +18738,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Guard",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           },
           {
@@ -18470,7 +18746,9 @@
             "upgradeType": "vanilla",
             "unitKey": "Crawler",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [
+              286
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -18484,7 +18762,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Protector",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           },
           {
@@ -18492,7 +18770,9 @@
             "upgradeType": "upgraded",
             "unitKey": "AdultCrawler",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [
+              286
+            ],
             "initialInstantIncome": 0
           }
         ]
@@ -18512,7 +18792,7 @@
           },
           {
             "type": "Glimmerweave",
-            "amount": 10
+            "amount": 5
           },
           {
             "type": "CelestialOre",
@@ -18547,7 +18827,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasDigger1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 320,
         "width": 64,
@@ -18575,7 +18855,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasDigger2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 320,
         "width": 64,
@@ -18663,7 +18943,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasFetishPiles1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 448,
         "width": 64,
@@ -18691,7 +18971,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasFetishPiles2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 448,
         "width": 64,
@@ -18728,7 +19008,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Shaman",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 3
           }
         ]
@@ -18742,7 +19022,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Sage",
             "size": 2,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -18757,12 +19037,12 @@
             "amount": 3
           },
           {
-            "type": "Glimmerweave",
+            "type": "AncientAmber",
             "amount": 3
           },
           {
-            "type": "AncientAmber",
-            "amount": 3
+            "type": "CelestialOre",
+            "amount": 2
           }
         ],
         "requiredBuildings": []
@@ -18795,7 +19075,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasGatherers1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 320,
         "width": 64,
@@ -18823,7 +19103,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasGatherers2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 320,
         "width": 64,
@@ -18911,7 +19191,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasFungusFarmer1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 320,
         "width": 64,
@@ -18939,7 +19219,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasFungusFarmer2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 320,
         "width": 64,
@@ -19031,7 +19311,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasLeanTo1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 448,
         "width": 64,
@@ -19059,7 +19339,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasLeanTo2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 448,
         "width": 64,
@@ -19095,9 +19375,9 @@
             "factionKey": "Rana",
             "upgradeType": "vanilla",
             "unitKey": "Hunter",
-            "size": 3,
-            "requiredResearch": null,
-            "initialInstantIncome": 4
+            "size": 4,
+            "requiredResearch": [],
+            "initialInstantIncome": 5
           }
         ]
       },
@@ -19109,8 +19389,8 @@
             "factionKey": "Rana",
             "upgradeType": "upgraded",
             "unitKey": "StormGuard",
-            "size": 3,
-            "requiredResearch": null,
+            "size": 4,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -19125,11 +19405,11 @@
             "amount": 3
           },
           {
-            "type": "CelestialOre",
-            "amount": 3
+            "type": "Glimmerweave",
+            "amount": 2
           },
           {
-            "type": "Glimmerweave",
+            "type": "CelestialOre",
             "amount": 3
           }
         ],
@@ -19140,7 +19420,7 @@
       "costEntries": [
         {
           "type": "Gold",
-          "amount": 800
+          "amount": 1000
         },
         {
           "type": "Wood",
@@ -19159,7 +19439,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasWatchTower1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 0,
         "y": 256,
         "width": 64,
@@ -19187,7 +19467,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasWatchTower2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 64,
         "y": 256,
         "width": 64,
@@ -19253,7 +19533,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasDragonMonolith",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 256,
         "width": 64,
@@ -19286,7 +19566,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Sharp Teeth",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 458,
           "y": 570,
           "width": 110,
@@ -19339,7 +19619,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19382,7 +19663,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19425,7 +19707,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19449,7 +19732,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Thick Hide",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 686,
           "y": 570,
           "width": 110,
@@ -19502,7 +19785,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19545,7 +19829,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19588,7 +19873,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19612,7 +19898,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Tough Flesh",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 2,
           "y": 456,
           "width": 110,
@@ -19669,7 +19955,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19716,7 +20003,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19763,7 +20051,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19793,7 +20082,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Quick Feet",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 458,
           "y": 912,
           "width": 110,
@@ -19846,7 +20135,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19889,7 +20179,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19932,7 +20223,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -19956,7 +20248,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Fierce Beasts",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 2,
           "y": 912,
           "width": 110,
@@ -20009,7 +20301,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20052,7 +20345,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20095,7 +20389,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20119,7 +20414,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Tough Beasts",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 800,
           "y": 570,
           "width": 110,
@@ -20172,7 +20467,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20215,7 +20511,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20258,7 +20555,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20282,7 +20580,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Hungry Beasts",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 230,
           "y": 912,
           "width": 110,
@@ -20335,7 +20633,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20378,7 +20677,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20421,7 +20721,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20451,7 +20752,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHunter",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 2,
           "y": 684,
           "width": 110,
@@ -20500,7 +20801,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20539,7 +20841,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20578,7 +20881,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20602,7 +20906,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchShaman",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 800,
           "y": 684,
           "width": 110,
@@ -20651,7 +20955,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20696,7 +21001,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20735,7 +21041,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20759,7 +21066,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchGuard",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 686,
           "y": 798,
           "width": 110,
@@ -20808,7 +21115,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20847,7 +21155,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -20896,7 +21205,8 @@
                         "hexRadius": 1,
                         "bacteriaToAdd": null,
                         "isStackable": 1,
-                        "isPassable": 1
+                        "isPassable": 1,
+                        "isSingleShot": 0
                       },
                       "modifierData": [
                         {
@@ -20924,7 +21234,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchChelun",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 572,
           "y": 912,
           "width": 110,
@@ -20973,7 +21283,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21012,7 +21323,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21051,7 +21363,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21075,7 +21388,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchEthdra",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 458,
           "y": 798,
           "width": 110,
@@ -21124,7 +21437,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21163,7 +21477,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21208,7 +21523,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21232,7 +21548,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchDragon",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 230,
           "y": 798,
           "width": 110,
@@ -21281,7 +21597,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21320,7 +21637,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21359,7 +21677,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21383,7 +21702,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchCrawler",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 800,
           "y": 912,
           "width": 110,
@@ -21432,7 +21751,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21471,7 +21791,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21510,7 +21831,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21534,7 +21856,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRavager",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 572,
           "y": 684,
           "width": 110,
@@ -21583,7 +21905,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21622,7 +21945,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21661,7 +21985,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21685,7 +22010,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchTremor",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 116,
           "y": 570,
           "width": 110,
@@ -21734,7 +22059,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21773,7 +22099,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -21832,7 +22159,8 @@
                           }
                         },
                         "isStackable": 1,
-                        "isPassable": 1
+                        "isPassable": 1,
+                        "isSingleShot": 0
                       },
                       "modifierData": [],
                       "resourcesIncome": [],
@@ -21877,7 +22205,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasSmolderingCave1",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 128,
         "y": 384,
         "width": 64,
@@ -21905,7 +22233,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasSmolderingCave2",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 192,
         "y": 384,
         "width": 64,
@@ -21933,7 +22261,7 @@
       },
       {
         "name": "RanaBuildingPortraitsAtlasSmolderingCave3",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 192,
         "width": 64,
@@ -21970,7 +22298,7 @@
             "upgradeType": "vanilla",
             "unitKey": "Ethdra",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 1
           }
         ]
@@ -21984,7 +22312,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Dragon",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -21998,7 +22326,7 @@
             "upgradeType": "upgraded",
             "unitKey": "Dragon",
             "size": 1,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           },
           {
@@ -22006,7 +22334,7 @@
             "upgradeType": "superUpgraded",
             "unitKey": "ElderDragon",
             "size": 0,
-            "requiredResearch": null,
+            "requiredResearch": [],
             "initialInstantIncome": 0
           }
         ]
@@ -22080,7 +22408,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasTheExchange",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 384,
         "y": 320,
         "width": 64,
@@ -22127,7 +22455,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasBirthingPools",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 256,
         "y": 384,
         "width": 64,
@@ -22160,7 +22488,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Swift Builders",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 572,
           "y": 570,
           "width": 110,
@@ -22217,7 +22545,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22241,7 +22570,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Harvest the Glimmerweave",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 116,
           "y": 912,
           "width": 110,
@@ -22359,7 +22688,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "Hunters and Gatherers",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 344,
           "y": 912,
           "width": 110,
@@ -22501,7 +22830,7 @@
         "descriptionKey": "Rana/Research/BirthingPools/Wielders/Creation/Description",
         "icon": {
           "name": "ResearchIconCreation",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 344,
           "y": 684,
           "width": 110,
@@ -22550,7 +22879,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22589,7 +22919,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22628,7 +22959,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22652,7 +22984,7 @@
         "descriptionKey": "Rana/Research/BirthingPools/Wielders/Destruction/Description",
         "icon": {
           "name": "ResearchIconDestruction",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 458,
           "y": 684,
           "width": 110,
@@ -22701,7 +23033,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22740,7 +23073,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22779,7 +23113,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22803,7 +23138,7 @@
         "descriptionKey": "Rana/Research/BirthingPools/Wielders/Arcana/Description",
         "icon": {
           "name": "ResearchIconArcana",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 230,
           "y": 684,
           "width": 110,
@@ -22852,7 +23187,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22891,7 +23227,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22930,7 +23267,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -22954,7 +23292,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchHunterPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 116,
           "y": 684,
           "width": 110,
@@ -23003,7 +23341,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23042,7 +23381,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23081,7 +23421,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23105,7 +23446,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchShamanPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 2,
           "y": 570,
           "width": 110,
@@ -23154,7 +23495,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23193,7 +23535,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23232,7 +23575,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23256,7 +23600,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchGuardPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 800,
           "y": 798,
           "width": 110,
@@ -23305,7 +23649,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23344,7 +23689,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23383,7 +23729,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23407,7 +23754,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchChelunPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 686,
           "y": 912,
           "width": 110,
@@ -23456,7 +23803,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23495,7 +23843,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23534,7 +23883,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23558,7 +23908,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchEthdraPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 572,
           "y": 798,
           "width": 110,
@@ -23607,7 +23957,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23646,7 +23997,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23685,7 +24037,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23709,7 +24062,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchDragonPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 344,
           "y": 798,
           "width": 110,
@@ -23758,7 +24111,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23797,7 +24151,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23836,7 +24191,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23860,7 +24216,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchCrawlerPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 2,
           "y": 798,
           "width": 110,
@@ -23909,7 +24265,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23948,7 +24305,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -23987,7 +24345,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -24011,7 +24370,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchRavagerPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 686,
           "y": 684,
           "width": 110,
@@ -24060,7 +24419,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -24099,7 +24459,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -24138,7 +24499,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -24162,7 +24524,7 @@
         "descriptionKey": null,
         "icon": {
           "name": "ResearchTremorPlus",
-          "spriteSheet": "RanaIcons.webp",
+          "spriteSheet": "RanaIcons.png",
           "x": 230,
           "y": 570,
           "width": 110,
@@ -24211,7 +24573,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -24250,7 +24613,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -24289,7 +24653,8 @@
                   "hexRadius": 1,
                   "bacteriaToAdd": null,
                   "isStackable": 1,
-                  "isPassable": 1
+                  "isPassable": 1,
+                  "isSingleShot": 0
                 },
                 "modifierData": [
                   {
@@ -24337,7 +24702,7 @@
     "portraits": [
       {
         "name": "LothBuildingPortraitsAtlasRallyPoint",
-        "spriteSheet": "LothBuildingPortraitsAtlas.webp",
+        "spriteSheet": "LothBuildingPortraitsAtlas.png",
         "x": 320,
         "y": 256,
         "width": 64,
@@ -24400,7 +24765,7 @@
     "portraits": [
       {
         "name": "RanaBuildingPortraitsAtlasSpawningPool",
-        "spriteSheet": "RanaBuildingPortraitsAtlas.webp",
+        "spriteSheet": "RanaBuildingPortraitsAtlas.png",
         "x": 448,
         "y": 320,
         "width": 64,
