@@ -10,7 +10,7 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
   return (
     <>
       <PageHead
-        title="Town Builds - SoC.gg"
+        title="Town Builds - SoC.th.gl"
         description="Town build calculators for each faction from Songs of Conquest."
       />
       <Title>Town Build Calculators</Title>

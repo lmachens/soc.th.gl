@@ -13,7 +13,7 @@ const Skills: NextPage<{ artifacts: ArtifactSimpleDTO[] }> = ({
   return (
     <>
       <PageHead
-        title="Artifacts - SoC.gg"
+        title="Artifacts - SoC.th.gl"
         description="All artifacts of Songs of Conquest"
       />
       <SimpleGrid

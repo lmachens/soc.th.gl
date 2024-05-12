@@ -120,7 +120,7 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
   return (
     <>
       <PageHead
-        title={`${unit.vanilla.name} - SoC.gg`}
+        title={`${unit.vanilla.name} - SoC.th.gl`}
         description={`${unit.vanilla.description} - ${unit.vanilla.name} (Songs of Conquest)`}
       />
       <Stack>

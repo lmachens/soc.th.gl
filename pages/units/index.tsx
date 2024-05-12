@@ -11,7 +11,7 @@ const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
   return (
     <>
       <PageHead
-        title="Units - SoC.gg"
+        title="Units - SoC.th.gl"
         description="All units of Songs of Conquest"
       />
       <SimpleGrid

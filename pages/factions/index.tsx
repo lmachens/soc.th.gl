@@ -12,7 +12,7 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
   return (
     <>
       <PageHead
-        title="Factions - SoC.gg"
+        title="Factions - SoC.th.gl"
         description="All factions of Songs of Conquest"
       />
       <Grid justify="center" mt="md">

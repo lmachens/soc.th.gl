@@ -14,7 +14,7 @@ const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
   return (
     <>
       <PageHead
-        title={`${faction.name} - SoC.gg`}
+        title={`${faction.name} - SoC.th.gl`}
         description={`${faction.description} - ${faction.name} (Songs of Conquest)`}
       />
       <Stack>
@@ -66,7 +66,7 @@ const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
                       >
                         {
                           commander.stats[
-                            identifier as keyof typeof commander["stats"]
+                            identifier as keyof (typeof commander)["stats"]
                           ]
                         }
                       </Text>

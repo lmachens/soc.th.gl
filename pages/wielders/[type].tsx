@@ -24,7 +24,7 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
   return (
     <>
       <PageHead
-        title={`${wielder.name} - SoC.gg`}
+        title={`${wielder.name} - SoC.th.gl`}
         description={`${wielder.description} - ${wielder.name} (Songs of Conquest)`}
       />
       <Stack align="flex-start">

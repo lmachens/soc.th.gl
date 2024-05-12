@@ -11,7 +11,7 @@ const footerLinks: {
     term: "About",
     links: [
       {
-        term: "SoC.gg Discord",
+        term: "SoC.th.gl Discord",
         href: "https://th.gl/discord",
         target: "_blank",
       },

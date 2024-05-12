@@ -11,7 +11,7 @@ const Spells: NextPage<{ spells: SpellSimpleDTO[] }> = ({ spells }) => {
   return (
     <>
       <PageHead
-        title="Spells - SoC.gg"
+        title="Spells - SoC.th.gl"
         description="All spells of Songs of Conquest"
       />
       <SimpleGrid

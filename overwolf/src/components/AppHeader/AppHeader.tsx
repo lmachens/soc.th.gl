@@ -48,7 +48,13 @@ function AppHeader() {
       }
     >
       <Group>
-        <Image src={LogoSmall} alt="SOC.GG" height={16} width="auto" p="xs" />
+        <Image
+          src={LogoSmall}
+          alt="SoC.th.gl"
+          height={16}
+          width="auto"
+          p="xs"
+        />
         <Badge>
           <Anchor
             size="xs"

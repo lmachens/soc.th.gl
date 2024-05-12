@@ -11,7 +11,7 @@ const Skills: NextPage<{ skills: SkillSimpleDTO[] }> = ({ skills }) => {
   return (
     <>
       <PageHead
-        title="Skills - SoC.gg"
+        title="Skills - SoC.th.gl"
         description="All skills of Songs of Conquest"
       />
       <SimpleGrid

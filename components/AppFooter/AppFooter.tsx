@@ -37,14 +37,14 @@ const AppFooter = () => {
         <Group className={classes.inner}>
           <div className={classes.logo}>
             <AppLink href="/" style={{ display: "flex" }}>
-              <Image src={LogoSmall} alt="SoC.GG" />
+              <Image src={LogoSmall} alt="SoC.th.gl" />
             </AppLink>
           </div>
           <div className={classes.groups}>{groups}</div>
         </Group>
         <Group className={classes.afterFooter}>
           <Text color="dimmed" size="sm">
-            © 2023 SoC.GG. All rights reserved.
+            © 2024 The Hidden Gaming Lair. All rights reserved.
           </Text>
           <ConsentLink />
         </Group>

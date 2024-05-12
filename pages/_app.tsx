@@ -79,8 +79,8 @@ const App = ({ Component, pageProps }: AppPropsWithBanner) => {
   return (
     <>
       <PageHead
-        title="Songs of Conquest database and wiki for building, factions, units, skills, spells and wielders - SoC.gg"
-        description="SoC.gg contains all the information about building, factions, units, skills, spells, wielders and more for the turn-based strategy game Songs of Conquest."
+        title="Songs of Conquest database and wiki for building, factions, units, skills, spells and wielders - SoC.th.gl"
+        description="SoC.th.gl contains all the information about building, factions, units, skills, spells, wielders and more for the turn-based strategy game Songs of Conquest."
       >
         <link rel="icon" href="/favicon.ico" />
         <meta

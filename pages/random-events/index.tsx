@@ -24,7 +24,7 @@ const RandomEvents: NextPage<{ randomEvents: RandomEventSimpleDTO[] }> = ({
   return (
     <>
       <PageHead
-        title="Random Events - SoC.gg"
+        title="Random Events - SoC.th.gl"
         description="All Random Events in Songs of Conquest"
       />
       <SimpleGrid

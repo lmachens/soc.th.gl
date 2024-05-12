@@ -14,7 +14,7 @@ const Unit: NextPage<{ artifact: ArtifactDTO }> = ({ artifact }) => {
   return (
     <>
       <PageHead
-        title={`${artifact.name} - SoC.gg`}
+        title={`${artifact.name} - SoC.th.gl`}
         description={`${artifact.description} - ${artifact.name} (Songs of Conquest)`}
       />
       <Stack>

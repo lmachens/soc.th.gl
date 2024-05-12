@@ -18,7 +18,7 @@ const Building: NextPage<{ building: BuildingDTO }> = ({ building }) => {
   return (
     <>
       <PageHead
-        title={`${building.name} - SoC.gg`}
+        title={`${building.name} - SoC.th.gl`}
         description={`${building.description} - ${building.name} (Songs of Conquest)`}
       />
       <Stack align="flex-start">

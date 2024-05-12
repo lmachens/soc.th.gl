@@ -20,7 +20,7 @@ const RandomEvent: NextPage<{ randomEvent: RandomEventDTO }> = ({
   return (
     <>
       <PageHead
-        title={`${randomEvent.name} - SoC.gg`}
+        title={`${randomEvent.name} - SoC.th.gl`}
         description={`${randomEvent.description} - ${randomEvent.name} (Songs of Conquest)`}
       />
       <Stack align="flex-start">

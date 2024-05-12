@@ -20,10 +20,10 @@ export default function PrivacyPolicy() {
     <Container>
       <Title order={2}>Details</Title>
       <Text>
-        At SoC.gg, accessible from https://soc.th.gl, one of our main priorities
-        is the privacy of our visitors. This Privacy Policy document contains
-        types of information that is collected and recorded by SoC.gg and how we
-        use it.
+        At SoC.th.gl, accessible from https://soc.th.gl, one of our main
+        priorities is the privacy of our visitors. This Privacy Policy document
+        contains types of information that is collected and recorded by
+        SoC.th.gl and how we use it.
       </Text>
 
       <Text>
@@ -34,7 +34,7 @@ export default function PrivacyPolicy() {
       <Text>
         This Privacy Policy applies only to our online activities and is valid
         for visitors to our website with regards to the information that they
-        shared and/or collect in SoC.gg. This policy is not applicable to any
+        shared and/or collect in SoC.th.gl. This policy is not applicable to any
         information collected offline or via channels other than this website.
         Our Privacy Policy was created with the help of the{" "}
         <Anchor href="https://www.privacypolicygenerator.info" target="_blank">
@@ -87,9 +87,9 @@ export default function PrivacyPolicy() {
       <Title order={2}>Log Files</Title>
 
       <Text>
-        SoC.gg follows a standard procedure of using log files. These files log
-        visitors when they visit websites. All hosting companies do this and a
-        part of hosting services&apos; analytics. The information collected by
+        SoC.th.gl follows a standard procedure of using log files. These files
+        log visitors when they visit websites. All hosting companies do this and
+        a part of hosting services&apos; analytics. The information collected by
         log files include internet protocol (IP) addresses, browser type,
         Internet Service Provider (ISP), date and time stamp, referring/exit
         pages, and possibly the number of clicks. These are not linked to any
@@ -102,11 +102,11 @@ export default function PrivacyPolicy() {
       <Title order={2}>Cookies and Web Beacons</Title>
 
       <Text>
-        Like any other website, soc.gg uses &apos;cookies&apos;. These cookies
-        are used to store information including visitors&apos; preferences, and
-        the pages on the website that the visitor accessed or visited. The
-        information is used to optimize the users&apos; experience by
-        customizing our web page content based on visitors&apos; browser type
+        Like any other website, soc.th.gl uses &apos;cookies&apos;. These
+        cookies are used to store information including visitors&apos;
+        preferences, and the pages on the website that the visitor accessed or
+        visited. The information is used to optimize the users&apos; experience
+        by customizing our web page content based on visitors&apos; browser type
         and/or other information.
       </Text>
 
@@ -122,28 +122,28 @@ export default function PrivacyPolicy() {
 
       <Text>
         You may consListt this list to find the Privacy Policy for each of the
-        advertising partners of SoC.gg.
+        advertising partners of SoC.th.gl.
       </Text>
 
       <Text>
         Third-party ad servers or ad networks uses technologies like cookies,
         JavaScript, or Web Beacons that are used in their respective
-        advertisements and links that appear on SoC.gg, which are sent directly
-        to users&apos; browser. They automatically receive your IP address when
-        this occurs. These technologies are used to measure the effectiveness of
-        their advertising campaigns and/or to personalize the advertising
-        content that you see on websites that you visit.
+        advertisements and links that appear on SoC.th.gl, which are sent
+        directly to users&apos; browser. They automatically receive your IP
+        address when this occurs. These technologies are used to measure the
+        effectiveness of their advertising campaigns and/or to personalize the
+        advertising content that you see on websites that you visit.
       </Text>
 
       <Text>
-        Note that SoC.gg has no access to or control over these cookies that are
-        used by third-party advertisers.
+        Note that SoC.th.gl has no access to or control over these cookies that
+        are used by third-party advertisers.
       </Text>
 
       <Title order={2}>Third Party Privacy Policies</Title>
 
       <Text>
-        SoC.gg&apos;s Privacy Policy does not apply to other advertisers or
+        SoC.th.gl&apos;s Privacy Policy does not apply to other advertisers or
         websites. Thus, we are advising you to consult the respective Privacy
         Policies of these third-party ad servers for more detailed information.
         It may include their practices and instructions about how to opt-out of
@@ -234,11 +234,11 @@ export default function PrivacyPolicy() {
       </Text>
 
       <Text>
-        SoC.gg does not knowingly collect any Personal Identifiable Information
-        from children under the age of 13. If you think that your child provided
-        this kind of information on our website, we strongly encourage you to
-        contact us immediately and we will do our best efforts to promptly
-        remove such information from our records.
+        SoC.th.gl does not knowingly collect any Personal Identifiable
+        Information from children under the age of 13. If you think that your
+        child provided this kind of information on our website, we strongly
+        encourage you to contact us immediately and we will do our best efforts
+        to promptly remove such information from our records.
       </Text>
     </Container>
   );

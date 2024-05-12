@@ -1,4 +1,4 @@
-# SoC.gg extractor
+# SoC.th.gl extractor
 
 The extractor is used to extract the data from Songs of Conquest to the JSON files in `lib/collections`.
 

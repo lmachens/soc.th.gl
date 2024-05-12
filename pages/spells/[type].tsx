@@ -15,7 +15,7 @@ const Unit: NextPage<{ spell: SpellDTO }> = ({ spell }) => {
   return (
     <>
       <PageHead
-        title={`${spell.name} - SoC.gg`}
+        title={`${spell.name} - SoC.th.gl`}
         description={`${spell.description} - ${spell.name} (Songs of Conquest)`}
       />
       <Stack>

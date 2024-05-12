@@ -40,7 +40,7 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[]; icons: IconsDTO }> = ({
   return (
     <>
       <PageHead
-        title="Wielders - SoC.gg"
+        title="Wielders - SoC.th.gl"
         description="All wielders of Songs of Conquest"
       />
       <Select

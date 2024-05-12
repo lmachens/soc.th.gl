@@ -16,7 +16,7 @@ const Skill: NextPage<{
   return (
     <>
       <PageHead
-        title={`${skill.name} - SoC.gg`}
+        title={`${skill.name} - SoC.th.gl`}
         description={`${skill.lore} - ${skill.name} (Songs of Conquest)`}
       />
 

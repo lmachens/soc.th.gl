@@ -41,7 +41,7 @@ const FactionTown: NextPage<{
       keyToNode={townData.keyToNode}
     >
       <PageHead
-        title={`${faction.name} Town Build - SoC.gg`}
+        title={`${faction.name} Town Build - SoC.th.gl`}
         description={`Town build calculator for the ${faction.name} faction from Songs of Conquest.`}
       />
       <Container>

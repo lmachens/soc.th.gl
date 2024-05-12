@@ -25,7 +25,7 @@ const Buildings: NextPage<{ buildings: BuildingSimpleDTO[] }> = ({
   return (
     <>
       <PageHead
-        title="Buildings - SoC.gg"
+        title="Buildings - SoC.th.gl"
         description="All buildings of Songs of Conquest"
       />
       <SimpleGrid

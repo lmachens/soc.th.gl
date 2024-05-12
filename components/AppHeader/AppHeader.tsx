@@ -1,6 +1,5 @@
 import { Box, Burger, Group, Header, MediaQuery } from "@mantine/core";
 import { DiscordIcon } from "./DiscordIcon";
-import { MarkGithubIcon } from "@primer/octicons-react";
 import { HeaderControl } from "./HeaderControl/HeaderControl";
 import Image from "next/image";
 import LogoSmall from "../../public/logo_small.png";
@@ -41,7 +40,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
           />
         </MediaQuery>
         <AppLink href="/" style={{ display: "flex" }}>
-          <Image src={LogoSmall} alt="SOC.GG" />
+          <Image src={LogoSmall} alt="SoC.th.gl" />
         </AppLink>
       </Box>
       <Group spacing="xs">
