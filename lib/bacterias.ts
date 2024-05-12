@@ -23,7 +23,7 @@ export type BacteriaDTO = {
 
 export type PureBacteria = {
   bacteriaType: number;
-  type: string;
+  type: string | null;
   modifierData: {
     type: number;
     modifier: string;
@@ -59,25 +59,26 @@ export const getLocaleBacteria = (
   bacteria: PureBacteria,
   locale: string
 ): BacteriaDTO => {
-  let name;
-  let description;
-  if (bacteria.type.startsWith("RandomEvent")) {
-    const type = bacteria.type.split("RandomEvent")[1];
-    name = getTerm(`RandomEvents/${type}`, locale);
-    description = "";
-  } else {
-    name = getTerm(
-      `Bacterias/${bacteria.type.replace("Trait", "").replace(/\d+/, "")}`,
-      locale
-    );
-    description = getTerm(
-      `Bacterias/${bacteria.type
-        .replace("Trait", "")
-        .replace(/\d+/g, "")}/Description`,
-      locale
-    );
+  let name = "";
+  let description = "";
+  if (bacteria.type !== null) {
+    if (bacteria.type.startsWith("RandomEvent")) {
+      const type = bacteria.type.split("RandomEvent")[1];
+      name = getTerm(`RandomEvents/${type}`, locale);
+      description = "";
+    } else {
+      name = getTerm(
+        `Bacterias/${bacteria.type.replace("Trait", "").replace(/\d+/, "")}`,
+        locale
+      );
+      description = getTerm(
+        `Bacterias/${bacteria.type
+          .replace("Trait", "")
+          .replace(/\d+/g, "")}/Description`,
+        locale
+      );
+    }
   }
-
   let modifierData = bacteria.modifierData;
 
   // The description of bacterias with restriction are generated from the restriction type.
