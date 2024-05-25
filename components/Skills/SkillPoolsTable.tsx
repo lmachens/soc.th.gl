@@ -25,8 +25,8 @@ const SkillPoolsTable = ({ skillPools }: Props) => {
       <tbody>
         {skillPools.map((skillPool) => (
           <Fragment key={skillPool.name}>
-            {skillPool.skills.map((skill) => (
-              <tr key={`${skillPool.name}-${skill.type}`}>
+            {skillPool.skills.map((skill, index) => (
+              <tr key={`${skillPool.name}-${skill.type}-${index}`}>
                 <td>
                   <SkillPopover skill={skill}>
                     <Group spacing={2} sx={{ minWidth: 160 }}>
