@@ -49,7 +49,6 @@ const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
                 />
               }
               name={commander.name}
-              description={commander.description}
               href={`/wielders/${commander.type}`}
             >
               <Group>
@@ -93,9 +92,48 @@ const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
                 <SpriteSheet spriteSheet={unit.vanilla.sprite} folder="units" />
               }
               name={unit.vanilla.name}
-              description={unit.vanilla.description}
               href={`/units/${faction.type}/${unit.vanilla.languageKey}`}
-            />
+            >
+              <Group>
+                <Text color="dimmed" size="sm">
+                  {terms.damage}{" "}
+                  <Text
+                    component="span"
+                    size="sm"
+                    sx={(theme) => ({
+                      color: theme.colors.gray[3],
+                    })}
+                  >
+                    {unit.vanilla.stats.damage.min}-
+                    {unit.vanilla.stats.damage.max}
+                  </Text>
+                </Text>
+                <Text color="dimmed" size="sm">
+                  {terms.health}{" "}
+                  <Text
+                    component="span"
+                    size="sm"
+                    sx={(theme) => ({
+                      color: theme.colors.gray[3],
+                    })}
+                  >
+                    {unit.vanilla.stats.health}
+                  </Text>
+                </Text>
+                <Text color="dimmed" size="sm">
+                  {terms.movement}{" "}
+                  <Text
+                    component="span"
+                    size="sm"
+                    sx={(theme) => ({
+                      color: theme.colors.gray[3],
+                    })}
+                  >
+                    {unit.vanilla.stats.movement}
+                  </Text>
+                </Text>
+              </Group>
+            </Article>
           ))}
         </SimpleGrid>
 
@@ -147,6 +185,8 @@ export const getStaticProps = withStaticBase(async (context) => {
     movement: getTerm("Commanders/Details/CommanderStat/Movement", locale),
     viewRadius: getTerm("Commanders/Details/CommanderStat/View", locale),
     buildings: getSiteTerm("Buildings", locale),
+    damage: getTerm("Units/Tooltip/Damage", locale),
+    health: getTerm("Units/Tooltip/Health", locale),
   };
 
   return {

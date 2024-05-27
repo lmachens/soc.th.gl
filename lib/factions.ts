@@ -3,6 +3,7 @@ import factionsCollection from "./collections/factions.json";
 import wieldersCollection from "./collections/wielders.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
+import { UnitTypeDTO, getUnit } from "./units";
 
 export const getFactions = (locale: string) => {
   const factions = factionsCollection.map<FactionSimpleDTO>((faction) => ({
@@ -48,6 +49,8 @@ export const getFaction = (type: string, locale: string) => {
       ...unit,
       vanilla: {
         ...unit.vanilla,
+        stats: getUnit(factionSrc.type, unit.vanilla.languageKey, locale)
+          ?.vanilla.stats,
         name: getTerm(
           `${factionSrc.type}/${unit.vanilla.languageKey}/Name`,
           locale
@@ -59,6 +62,8 @@ export const getFaction = (type: string, locale: string) => {
       },
       upgraded: unit.upgraded && {
         ...unit.upgraded,
+        stats: getUnit(factionSrc.type, unit.upgraded.languageKey, locale)
+          ?.upgraded?.stats,
         name: getTerm(
           `${factionSrc.type}/${unit.upgraded.languageKey}/Name`,
           locale
@@ -70,6 +75,8 @@ export const getFaction = (type: string, locale: string) => {
       },
       superUpgraded: unit.superUpgraded && {
         ...unit.superUpgraded,
+        stats: getUnit(factionSrc.type, unit.superUpgraded.languageKey, locale)
+          ?.superUpgraded?.stats,
         name: getTerm(
           `${factionSrc.type}/${unit.superUpgraded.languageKey}/Name`,
           locale
@@ -122,18 +129,21 @@ export type FactionDTO = {
       sprite?: SpriteDTO;
       name: string;
       description: string;
+      stats: UnitTypeDTO["stats"];
     };
     upgraded: {
       languageKey: string;
       sprite?: SpriteDTO;
       name: string;
       description: string;
+      stats: UnitTypeDTO["stats"];
     } | null;
     superUpgraded: {
       languageKey: string;
       sprite?: SpriteDTO;
       name: string;
       description: string;
+      stats: UnitTypeDTO["stats"];
     } | null;
   }[];
   buildings: BuildingSimpleDTO[];

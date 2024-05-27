@@ -10,6 +10,9 @@ export const getArtifacts = (locale: string) => {
     name: getTerm(`Artifacts/${artifact.type}/Name`, locale),
     description: getTerm(`Artifacts/${artifact.type}/Description`, locale),
     icon: artifact.icon,
+    bacterias: artifact.bacterias.map((bacteria) =>
+      getLocaleBacteria(bacteria, locale)
+    ),
   }));
   return artifacts;
 };
@@ -39,6 +42,7 @@ export type ArtifactSimpleDTO = {
   name: string;
   description: string;
   icon: SpriteDTO;
+  bacterias: BacteriaDTO[];
 };
 
 export type ArtifactDTO = {
