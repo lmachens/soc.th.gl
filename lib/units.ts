@@ -8,6 +8,14 @@ export const getUnits = (locale: string): UnitSimpleDTO[] => {
     ...unit,
     vanilla: {
       ...unit.vanilla,
+      stats: {
+        ...unit.vanilla.stats,
+        statuses: unit.vanilla.stats.statuses
+          ? unit.vanilla.stats.statuses.map((status) =>
+              getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
+            )
+          : null,
+      },
       name: getTerm(`${unit.faction}/${unit.vanilla.languageKey}/Name`, locale),
       description: getTerm(
         `${unit.faction}/${unit.vanilla.languageKey}/Description`,
@@ -16,6 +24,14 @@ export const getUnits = (locale: string): UnitSimpleDTO[] => {
     },
     upgraded: unit.upgraded && {
       ...unit.upgraded,
+      stats: {
+        ...unit.upgraded.stats,
+        statuses: unit.upgraded.stats.statuses
+          ? unit.upgraded.stats.statuses.map((status) =>
+              getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
+            )
+          : null,
+      },
       name: getTerm(
         `${unit.faction}/${unit.upgraded.languageKey}/Name`,
         locale
@@ -27,6 +43,14 @@ export const getUnits = (locale: string): UnitSimpleDTO[] => {
     },
     superUpgraded: unit.superUpgraded && {
       ...unit.superUpgraded,
+      stats: {
+        ...unit.superUpgraded.stats,
+        statuses: unit.superUpgraded.stats.statuses
+          ? unit.superUpgraded.stats.statuses.map((status) =>
+              getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
+            )
+          : null,
+      },
       name: getTerm(
         `${unit.faction}/${unit.superUpgraded.languageKey}/Name`,
         locale
