@@ -126,21 +126,21 @@ export type UnitSimpleDTO = {
     sprite?: SpriteDTO;
     name: string;
     description: string;
-    stats: UnitTypeDTO["stats"];
+    stats?: UnitTypeDTO["stats"];
   };
   upgraded: {
     languageKey: string;
     sprite?: SpriteDTO;
     name: string;
     description: string;
-    stats: UnitTypeDTO["stats"];
+    stats?: UnitTypeDTO["stats"];
   } | null;
   superUpgraded: {
     languageKey: string;
     sprite?: SpriteDTO;
     name: string;
     description: string;
-    stats: UnitTypeDTO["stats"];
+    stats?: UnitTypeDTO["stats"];
   } | null;
 };
 
