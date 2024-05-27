@@ -44,8 +44,8 @@ const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
                     color: theme.colors.gray[3],
                   })}
                 >
-                  {unit.vanilla.stats.damage.min}-
-                  {unit.vanilla.stats.damage.max}
+                  {unit.vanilla.stats?.damage.min}-
+                  {unit.vanilla.stats?.damage.max}
                 </Text>
               </Text>
               <Text color="dimmed" size="sm">
@@ -57,7 +57,7 @@ const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
                     color: theme.colors.gray[3],
                   })}
                 >
-                  {unit.vanilla.stats.health}
+                  {unit.vanilla.stats?.health}
                 </Text>
               </Text>
               <Text color="dimmed" size="sm">
@@ -69,7 +69,7 @@ const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
                     color: theme.colors.gray[3],
                   })}
                 >
-                  {unit.vanilla.stats.movement}
+                  {unit.vanilla.stats?.movement}
                 </Text>
               </Text>
             </Group>
