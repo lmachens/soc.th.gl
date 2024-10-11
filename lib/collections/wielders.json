@@ -1,6 +1,8 @@
 [
   {
     "type": "GiandraStormspire",
+    "commanderClass": "Erudite",
+    "race": "Faey",
     "faction": "Arleon",
     "portrait": {
       "name": "StormspirePortrait",
@@ -14,7 +16,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -229,12 +231,6 @@
                 "level": 1
               }
             ]
-          },
-          {
-            "type": "Scouting",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
           },
           {
             "type": "Learning",
@@ -600,12 +596,6 @@
             ]
           },
           {
-            "type": "Scouting",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
             "type": "Tutor",
             "requiresSkill": false,
             "requirementType": "RequireAny",
@@ -880,6 +870,8 @@
   },
   {
     "type": "Cecilia",
+    "commanderClass": "Commander",
+    "race": "Human",
     "faction": "Arleon",
     "portrait": {
       "name": "StoutheartPortrait",
@@ -893,7 +885,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -1783,6 +1775,8 @@
   },
   {
     "type": "BaronSilverlink",
+    "commanderClass": "Commander",
+    "race": "Human",
     "faction": "Arleon",
     "portrait": {
       "name": "SilverlinkPortrait",
@@ -1796,7 +1790,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -2690,6 +2684,8 @@
   },
   {
     "type": "EthylleErnaline",
+    "commanderClass": "Erudite",
+    "race": "Faey",
     "faction": "Arleon",
     "portrait": {
       "name": "EthyllePortrait",
@@ -2703,7 +2699,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -2918,12 +2914,6 @@
                 "level": 1
               }
             ]
-          },
-          {
-            "type": "Scouting",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
           },
           {
             "type": "Learning",
@@ -3289,12 +3279,6 @@
             ]
           },
           {
-            "type": "Scouting",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
             "type": "Tutor",
             "requiresSkill": false,
             "requirementType": "RequireAny",
@@ -3565,6 +3549,8 @@
   },
   {
     "type": "Ravenfayre",
+    "commanderClass": "Warden",
+    "race": "Human",
     "faction": "Arleon",
     "portrait": {
       "name": "RavenfayrePortrait",
@@ -3578,7 +3564,7 @@
       "defense": 0,
       "offense": 10,
       "movement": 13,
-      "viewRadius": 8,
+      "viewRadius": 10,
       "command": 0
     },
     "startingSkills": [
@@ -4404,7 +4390,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Ranged"
               }
             ]
           }
@@ -4419,6 +4406,8 @@
   },
   {
     "type": "Peradine",
+    "commanderClass": "Warden",
+    "race": "Human",
     "faction": "Arleon",
     "portrait": {
       "name": "PeradinePortrait",
@@ -4432,7 +4421,7 @@
       "defense": 5,
       "offense": 5,
       "movement": 13,
-      "viewRadius": 8,
+      "viewRadius": 10,
       "command": 0
     },
     "startingSkills": [
@@ -5270,6 +5259,8 @@
   },
   {
     "type": "Gnaw",
+    "commanderClass": "Erudite",
+    "race": "Faey",
     "faction": "Arleon",
     "portrait": {
       "name": "GnawPortrait",
@@ -5283,7 +5274,7 @@
       "defense": 0,
       "offense": 15,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -5498,12 +5489,6 @@
                 "level": 1
               }
             ]
-          },
-          {
-            "type": "Scouting",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
           },
           {
             "type": "Learning",
@@ -5869,12 +5854,6 @@
             ]
           },
           {
-            "type": "Scouting",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
             "type": "Tutor",
             "requiresSkill": false,
             "requirementType": "RequireAny",
@@ -6137,7 +6116,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Faey"
               }
             ]
           },
@@ -6154,7 +6134,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Faey"
               }
             ]
           }
@@ -6169,6 +6150,8 @@
   },
   {
     "type": "ViljaOfThornecliff",
+    "commanderClass": "Warden",
+    "race": "Human",
     "faction": "Arleon",
     "portrait": {
       "name": "ThornecliffPortrait",
@@ -6182,7 +6165,7 @@
       "defense": 5,
       "offense": 5,
       "movement": 13,
-      "viewRadius": 8,
+      "viewRadius": 10,
       "command": 0
     },
     "startingSkills": [
@@ -7016,6 +6999,8 @@
   },
   {
     "type": "LadyElisaHammond",
+    "commanderClass": "Commander",
+    "race": "Human",
     "faction": "Arleon",
     "portrait": {
       "name": "HammondPortrait",
@@ -7029,7 +7014,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -7915,7 +7900,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Human"
               }
             ]
           }
@@ -7930,12 +7916,14 @@
   },
   {
     "type": "BaronAldus",
+    "commanderClass": "Chosen",
+    "race": "Human",
     "faction": "Loth",
     "portrait": {
       "name": "AldusPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 344,
-      "y": 176,
+      "x": 667,
+      "y": 299,
       "width": 161,
       "height": 212
     },
@@ -7943,7 +7931,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -8086,6 +8074,21 @@
             "requiresSkill": true,
             "requirementType": "RequireAny",
             "requiredSkills": [
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
               {
                 "type": "Melee",
                 "level": 1
@@ -8309,6 +8312,21 @@
               },
               {
                 "type": "ProduceStone",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -8736,6 +8754,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -8783,12 +8816,14 @@
   },
   {
     "type": "DoctorMarjatta",
+    "commanderClass": "Magi",
+    "race": "Human",
     "faction": "Loth",
     "portrait": {
       "name": "MarjattaPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 178,
-      "y": 374,
+      "x": 385,
+      "y": 76,
       "width": 164,
       "height": 222
     },
@@ -8796,7 +8831,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -8836,12 +8871,6 @@
                 "level": 1
               }
             ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
           },
           {
             "type": "Learning",
@@ -8961,6 +8990,21 @@
             "requiredSkills": [
               {
                 "type": "Raider",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -9162,6 +9206,21 @@
             "requiredSkills": [
               {
                 "type": "ProduceGlimmer",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -9569,6 +9628,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -9620,12 +9694,14 @@
   },
   {
     "type": "Wiesh",
+    "commanderClass": "Reaver",
+    "race": "Undead",
     "faction": "Loth",
     "portrait": {
       "name": "WieshPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 190,
-      "y": 809,
+      "x": 1,
+      "y": 89,
       "width": 187,
       "height": 214
     },
@@ -9633,7 +9709,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -9794,6 +9870,32 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "MagicResistance",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Order",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -9815,12 +9917,6 @@
           },
           {
             "type": "Arcana",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -9988,6 +10084,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -10014,6 +10125,10 @@
             "requiredSkills": [
               {
                 "type": "Melee",
+                "level": 1
+              },
+              {
+                "type": "GenerateRisen",
                 "level": 1
               }
             ]
@@ -10151,12 +10266,6 @@
           },
           {
             "type": "Arcana",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -10350,6 +10459,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -10397,12 +10521,14 @@
   },
   {
     "type": "Ambertina",
+    "commanderClass": "Magi",
+    "race": "Human",
     "faction": "Loth",
     "portrait": {
       "name": "AmbertinaPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 344,
-      "y": 390,
+      "x": 162,
+      "y": 305,
       "width": 162,
       "height": 206
     },
@@ -10410,7 +10536,7 @@
       "defense": 0,
       "offense": 15,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -10452,12 +10578,6 @@
             ]
           },
           {
-            "type": "Raider",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
             "type": "Learning",
             "requiresSkill": false,
             "requirementType": "RequireAny",
@@ -10575,6 +10695,21 @@
             "requiredSkills": [
               {
                 "type": "Raider",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -10776,6 +10911,21 @@
             "requiredSkills": [
               {
                 "type": "ProduceGlimmer",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -11183,14 +11333,29 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       }
     ],
     "units": [
       {
-        "languageKey": "Cultist",
-        "size": 5
+        "languageKey": "ScavengedBones",
+        "size": 1
       },
       {
         "languageKey": "Toxicologist",
@@ -11230,12 +11395,14 @@
   },
   {
     "type": "BrotherHillar",
+    "commanderClass": "Magi",
+    "race": "Human",
     "faction": "Loth",
     "portrait": {
       "name": "HillarPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 190,
-      "y": 598,
+      "x": 326,
+      "y": 302,
       "width": 178,
       "height": 209
     },
@@ -11243,7 +11410,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -11285,12 +11452,6 @@
             ]
           },
           {
-            "type": "Raider",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
             "type": "Learning",
             "requiresSkill": false,
             "requirementType": "RequireAny",
@@ -11408,6 +11569,21 @@
             "requiredSkills": [
               {
                 "type": "Raider",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -11609,6 +11785,21 @@
             "requiredSkills": [
               {
                 "type": "ProduceGlimmer",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -12013,6 +12204,21 @@
             "requiredSkills": [
               {
                 "type": "Creation",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -12059,7 +12265,8 @@
                   "faction": "Loth",
                   "languageKey": "Rats",
                   "size": 0
-                }
+                },
+                "status": "Human"
               },
               {
                 "filterType": 2,
@@ -12067,7 +12274,8 @@
                   "faction": "Loth",
                   "languageKey": "PlagueRats",
                   "size": 0
-                }
+                },
+                "status": "Human"
               }
             ]
           }
@@ -12082,12 +12290,14 @@
   },
   {
     "type": "Coral",
+    "commanderClass": "Reaver",
+    "race": "Undead",
     "faction": "Loth",
     "portrait": {
       "name": "CoralPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 1,
-      "y": 359,
+      "x": 506,
+      "y": 300,
       "width": 159,
       "height": 211
     },
@@ -12095,7 +12305,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -12256,6 +12466,32 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "MagicResistance",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Order",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -12277,12 +12513,6 @@
           },
           {
             "type": "Arcana",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -12450,6 +12680,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -12476,6 +12721,10 @@
             "requiredSkills": [
               {
                 "type": "Melee",
+                "level": 1
+              },
+              {
+                "type": "GenerateRisen",
                 "level": 1
               }
             ]
@@ -12613,12 +12862,6 @@
           },
           {
             "type": "Arcana",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -12812,6 +13055,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -12859,12 +13117,14 @@
   },
   {
     "type": "MagnoliaSilverlink",
+    "commanderClass": "Chosen",
+    "race": "Human",
     "faction": "Loth",
     "portrait": {
       "name": "MagnoliaPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 1,
-      "y": 572,
+      "x": 551,
+      "y": 73,
       "width": 175,
       "height": 224
     },
@@ -12872,7 +13132,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -13015,6 +13275,21 @@
             "requiresSkill": true,
             "requirementType": "RequireAny",
             "requiredSkills": [
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
               {
                 "type": "Melee",
                 "level": 1
@@ -13238,6 +13513,21 @@
               },
               {
                 "type": "ProduceStone",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -13665,6 +13955,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -13712,12 +14017,14 @@
   },
   {
     "type": "Merkoth",
+    "commanderClass": "Reaver",
+    "race": "Undead",
     "faction": "Loth",
     "portrait": {
       "name": "MerkothPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 1,
-      "y": 798,
+      "x": 728,
+      "y": 70,
       "width": 187,
       "height": 225
     },
@@ -13725,7 +14032,7 @@
       "defense": 0,
       "offense": 15,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -13886,6 +14193,32 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "MagicResistance",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Order",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -13907,12 +14240,6 @@
           },
           {
             "type": "Arcana",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -14080,6 +14407,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       },
@@ -14106,6 +14448,10 @@
             "requiredSkills": [
               {
                 "type": "Melee",
+                "level": 1
+              },
+              {
+                "type": "GenerateRisen",
                 "level": 1
               }
             ]
@@ -14243,12 +14589,6 @@
           },
           {
             "type": "Arcana",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -14442,6 +14782,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -14485,7 +14840,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Undead"
               }
             ]
           }
@@ -14500,12 +14856,14 @@
   },
   {
     "type": "Roderick",
+    "commanderClass": "Chosen",
+    "race": "Human",
     "faction": "Loth",
     "portrait": {
       "name": "RoderickPortrait",
       "spriteSheet": "LothWielderPortraits.png",
-      "x": 162,
-      "y": 168,
+      "x": 1,
+      "y": 307,
       "width": 159,
       "height": 204
     },
@@ -14513,7 +14871,7 @@
       "defense": 15,
       "offense": 0,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -14656,6 +15014,21 @@
             "requiresSkill": true,
             "requirementType": "RequireAny",
             "requiredSkills": [
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
               {
                 "type": "Melee",
                 "level": 1
@@ -14879,6 +15252,21 @@
               },
               {
                 "type": "ProduceStone",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
                 "level": 1
               }
             ]
@@ -15306,6 +15694,21 @@
                 "level": 1
               }
             ]
+          },
+          {
+            "type": "GenerateRisen",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Arcana",
+                "level": 1
+              },
+              {
+                "type": "Melee",
+                "level": 1
+              }
+            ]
           }
         ]
       }
@@ -15349,7 +15752,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Human"
               }
             ]
           }
@@ -15364,6 +15768,8 @@
   },
   {
     "type": "Nimander",
+    "commanderClass": "Mercenary",
+    "race": "Human",
     "faction": "Barya",
     "portrait": {
       "name": "NimanderBreeze",
@@ -15377,7 +15783,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -15485,21 +15891,6 @@
             ]
           },
           {
-            "type": "Diplomacy",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Cunning",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "HandToHand",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -15529,6 +15920,10 @@
               {
                 "type": "Learning",
                 "level": 1
+              },
+              {
+                "type": "Prepared",
+                "level": 1
               }
             ]
           },
@@ -15550,6 +15945,17 @@
             "requiredSkills": [
               {
                 "type": "Taxes",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "ProduceCelestial",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -15650,21 +16056,6 @@
             ]
           },
           {
-            "type": "Diplomacy",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Cunning",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "HandToHand",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -15693,6 +16084,10 @@
             "requiredSkills": [
               {
                 "type": "Learning",
+                "level": 1
+              },
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -15771,6 +16166,10 @@
               },
               {
                 "type": "ProduceWood",
+                "level": 1
+              },
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -16226,7 +16625,8 @@
                   "faction": "Barya",
                   "languageKey": "Dreath",
                   "size": 0
-                }
+                },
+                "status": "Human"
               },
               {
                 "filterType": 2,
@@ -16234,7 +16634,8 @@
                   "faction": "Barya",
                   "languageKey": "DireDreath",
                   "size": 0
-                }
+                },
+                "status": "Human"
               }
             ]
           }
@@ -16249,6 +16650,8 @@
   },
   {
     "type": "Mehry",
+    "commanderClass": "Tinkersmith",
+    "race": "Human",
     "faction": "Barya",
     "portrait": {
       "name": "Mehry",
@@ -16262,7 +16665,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -16955,7 +17358,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Ranged"
               }
             ]
           }
@@ -16970,6 +17374,8 @@
   },
   {
     "type": "Silkspool",
+    "commanderClass": "Mercenary",
+    "race": "Human",
     "faction": "Barya",
     "portrait": {
       "name": "Silkspool",
@@ -16983,7 +17389,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -17091,21 +17497,6 @@
             ]
           },
           {
-            "type": "Diplomacy",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Cunning",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "HandToHand",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -17135,6 +17526,10 @@
               {
                 "type": "Learning",
                 "level": 1
+              },
+              {
+                "type": "Prepared",
+                "level": 1
               }
             ]
           },
@@ -17156,6 +17551,17 @@
             "requiredSkills": [
               {
                 "type": "Taxes",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "ProduceCelestial",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -17256,21 +17662,6 @@
             ]
           },
           {
-            "type": "Diplomacy",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Cunning",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "HandToHand",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -17299,6 +17690,10 @@
             "requiredSkills": [
               {
                 "type": "Learning",
+                "level": 1
+              },
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -17377,6 +17772,10 @@
               },
               {
                 "type": "ProduceWood",
+                "level": 1
+              },
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -17836,6 +18235,8 @@
   },
   {
     "type": "Aleah",
+    "commanderClass": "Freeblade",
+    "race": "Human",
     "faction": "Barya",
     "portrait": {
       "name": "Aleah",
@@ -17849,7 +18250,7 @@
       "defense": 5,
       "offense": 5,
       "movement": 13,
-      "viewRadius": 8,
+      "viewRadius": 10,
       "command": 0
     },
     "startingSkills": [
@@ -17900,12 +18301,6 @@
           },
           {
             "type": "Learning",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "Prepared",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -18073,12 +18468,6 @@
           },
           {
             "type": "Learning",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "Prepared",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -18473,12 +18862,6 @@
             "requiredSkills": []
           },
           {
-            "type": "Prepared",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
             "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
@@ -18769,7 +19152,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Ranged"
               }
             ]
           }
@@ -18784,6 +19168,8 @@
   },
   {
     "type": "Bihgli",
+    "commanderClass": "Tinkersmith",
+    "race": "Human",
     "faction": "Barya",
     "portrait": {
       "name": "Bihgli",
@@ -18797,7 +19183,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -19494,6 +19880,8 @@
   },
   {
     "type": "Everthink",
+    "commanderClass": "Tinkersmith",
+    "race": "Harima",
     "faction": "Barya",
     "portrait": {
       "name": "Everthink",
@@ -19507,7 +19895,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -20208,6 +20596,8 @@
   },
   {
     "type": "Rosewater",
+    "commanderClass": "Freeblade",
+    "race": "Harima",
     "faction": "Barya",
     "portrait": {
       "name": "Rosewater",
@@ -20221,7 +20611,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -20272,12 +20662,6 @@
           },
           {
             "type": "Learning",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "Prepared",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -20445,12 +20829,6 @@
           },
           {
             "type": "Learning",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "Prepared",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -20845,12 +21223,6 @@
             "requiredSkills": []
           },
           {
-            "type": "Prepared",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
             "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
@@ -21141,7 +21513,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Harima"
               }
             ]
           }
@@ -21156,6 +21529,8 @@
   },
   {
     "type": "Sanaz",
+    "commanderClass": "Mercenary",
+    "race": "Human",
     "faction": "Barya",
     "portrait": {
       "name": "Sanaz",
@@ -21169,7 +21544,7 @@
       "defense": 5,
       "offense": 5,
       "movement": 13,
-      "viewRadius": 8,
+      "viewRadius": 10,
       "command": 0
     },
     "startingSkills": [
@@ -21277,21 +21652,6 @@
             ]
           },
           {
-            "type": "Diplomacy",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Cunning",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "HandToHand",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -21321,6 +21681,10 @@
               {
                 "type": "Learning",
                 "level": 1
+              },
+              {
+                "type": "Prepared",
+                "level": 1
               }
             ]
           },
@@ -21342,6 +21706,17 @@
             "requiredSkills": [
               {
                 "type": "Taxes",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "ProduceCelestial",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -21442,21 +21817,6 @@
             ]
           },
           {
-            "type": "Diplomacy",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Cunning",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "HandToHand",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -21485,6 +21845,10 @@
             "requiredSkills": [
               {
                 "type": "Learning",
+                "level": 1
+              },
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -21563,6 +21927,10 @@
               },
               {
                 "type": "ProduceWood",
+                "level": 1
+              },
+              {
+                "type": "Prepared",
                 "level": 1
               }
             ]
@@ -22018,7 +22386,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Human"
               }
             ]
           }
@@ -22033,6 +22402,8 @@
   },
   {
     "type": "Soughtfor",
+    "commanderClass": "Freeblade",
+    "race": "Harima",
     "faction": "Barya",
     "portrait": {
       "name": "Soughtfor",
@@ -22046,7 +22417,7 @@
       "defense": 5,
       "offense": 5,
       "movement": 13,
-      "viewRadius": 8,
+      "viewRadius": 10,
       "command": 0
     },
     "startingSkills": [
@@ -22097,12 +22468,6 @@
           },
           {
             "type": "Learning",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "Prepared",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -22270,12 +22635,6 @@
           },
           {
             "type": "Learning",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
-            "type": "Prepared",
             "requiresSkill": false,
             "requirementType": "RequireAny",
             "requiredSkills": []
@@ -22670,12 +23029,6 @@
             "requiredSkills": []
           },
           {
-            "type": "Prepared",
-            "requiresSkill": false,
-            "requirementType": "RequireAny",
-            "requiredSkills": []
-          },
-          {
             "type": "March",
             "requiresSkill": false,
             "requirementType": "RequireAny",
@@ -22970,6 +23323,8 @@
   },
   {
     "type": "Cheekham",
+    "commanderClass": "Raider",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "Cheekham",
@@ -22983,7 +23338,7 @@
       "defense": 5,
       "offense": 5,
       "movement": 13,
-      "viewRadius": 8,
+      "viewRadius": 10,
       "command": 0
     },
     "startingSkills": [
@@ -23048,17 +23403,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -23086,7 +23430,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -23188,17 +23547,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -23226,7 +23574,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -23237,11 +23600,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Positioning",
+                "type": "Archery",
                 "level": 1
               }
             ]
@@ -23531,17 +23890,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -23569,7 +23917,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -23580,11 +23943,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Positioning",
+                "type": "Archery",
                 "level": 1
               }
             ]
@@ -23756,7 +24115,8 @@
                   "faction": "Rana",
                   "languageKey": "Hunter",
                   "size": 0
-                }
+                },
+                "status": "Human"
               },
               {
                 "filterType": 2,
@@ -23764,7 +24124,8 @@
                   "faction": "Rana",
                   "languageKey": "StormGuard",
                   "size": 0
-                }
+                },
+                "status": "Human"
               }
             ]
           }
@@ -23779,6 +24140,8 @@
   },
   {
     "type": "Itchamo",
+    "commanderClass": "Seer",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "Itchamo",
@@ -23792,7 +24155,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -24617,6 +24980,8 @@
   },
   {
     "type": "Msugna",
+    "commanderClass": "Seer",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "MSugna",
@@ -24630,12 +24995,12 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
       {
-        "type": "Creation",
+        "type": "Positioning",
         "level": 1
       },
       {
@@ -25415,7 +25780,15 @@
     "units": [
       {
         "languageKey": "Tremor",
-        "size": 3
+        "size": 1
+      },
+      {
+        "languageKey": "Guard",
+        "size": 2
+      },
+      {
+        "languageKey": "Shaman",
+        "size": 5
       }
     ],
     "specializations": [
@@ -25451,6 +25824,8 @@
   },
   {
     "type": "Pcha",
+    "commanderClass": "Seer",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "PCha",
@@ -25464,12 +25839,12 @@
       "defense": 15,
       "offense": 0,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
       {
-        "type": "Positioning",
+        "type": "Creation",
         "level": 1
       },
       {
@@ -26289,6 +26664,8 @@
   },
   {
     "type": "Rasc",
+    "commanderClass": "Raider",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "Rasc",
@@ -26302,7 +26679,7 @@
       "defense": 0,
       "offense": 5,
       "movement": 14,
-      "viewRadius": 8,
+      "viewRadius": 10,
       "command": 0
     },
     "startingSkills": [
@@ -26367,17 +26744,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -26405,7 +26771,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -26507,17 +26888,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -26545,7 +26915,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -26556,11 +26941,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Positioning",
+                "type": "Archery",
                 "level": 1
               }
             ]
@@ -26850,17 +27231,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -26888,7 +27258,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -26899,11 +27284,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Positioning",
+                "type": "Archery",
                 "level": 1
               }
             ]
@@ -27075,7 +27456,8 @@
                   "faction": "Rana",
                   "languageKey": "Ravager",
                   "size": 0
-                }
+                },
+                "status": "Human"
               },
               {
                 "filterType": 2,
@@ -27083,7 +27465,8 @@
                   "faction": "Rana",
                   "languageKey": "RiderOfTheSwamp",
                   "size": 0
-                }
+                },
+                "status": "Human"
               }
             ]
           }
@@ -27098,6 +27481,8 @@
   },
   {
     "type": "RikTap",
+    "commanderClass": "Raider",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "RikTap",
@@ -27111,7 +27496,7 @@
       "defense": 15,
       "offense": 0,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -27176,17 +27561,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -27214,7 +27588,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -27316,17 +27705,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -27354,7 +27732,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -27365,11 +27758,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Positioning",
+                "type": "Archery",
                 "level": 1
               }
             ]
@@ -27659,17 +28048,6 @@
             ]
           },
           {
-            "type": "Archery",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "Melee",
-                "level": 1
-              }
-            ]
-          },
-          {
             "type": "Prepared",
             "requiresSkill": true,
             "requirementType": "RequireAny",
@@ -27697,7 +28075,22 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Archery",
+                "type": "Prepared",
+                "level": 1
+              },
+              {
+                "type": "Cunning",
+                "level": 1
+              }
+            ]
+          },
+          {
+            "type": "Archery",
+            "requiresSkill": true,
+            "requirementType": "RequireAny",
+            "requiredSkills": [
+              {
+                "type": "Positioning",
                 "level": 1
               }
             ]
@@ -27708,11 +28101,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Prepared",
-                "level": 1
-              },
-              {
-                "type": "Positioning",
+                "type": "Archery",
                 "level": 1
               }
             ]
@@ -27888,6 +28277,8 @@
   },
   {
     "type": "Rlac",
+    "commanderClass": "Awakened",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "RLac",
@@ -27901,7 +28292,7 @@
       "defense": 0,
       "offense": 15,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -28050,17 +28441,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]
@@ -28224,17 +28604,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]
@@ -28443,7 +28812,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Raider",
+                "type": "March",
                 "level": 1
               }
             ]
@@ -28627,17 +28996,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]
@@ -28810,7 +29168,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Rana"
               }
             ]
           },
@@ -28827,7 +29186,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Rana"
               }
             ]
           }
@@ -28842,6 +29202,8 @@
   },
   {
     "type": "SlaKin",
+    "commanderClass": "Awakened",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "SlaKin",
@@ -28855,7 +29217,7 @@
       "defense": 10,
       "offense": 5,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -29004,17 +29366,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]
@@ -29178,17 +29529,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]
@@ -29397,7 +29737,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Raider",
+                "type": "March",
                 "level": 1
               }
             ]
@@ -29581,17 +29921,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]
@@ -29760,7 +30089,8 @@
                   "faction": "Arleon",
                   "languageKey": "Archer",
                   "size": 0
-                }
+                },
+                "status": "Ranged"
               }
             ]
           }
@@ -29775,6 +30105,8 @@
   },
   {
     "type": "Tchyra",
+    "commanderClass": "Awakened",
+    "race": "Rana",
     "faction": "Rana",
     "portrait": {
       "name": "TChyra",
@@ -29788,7 +30120,7 @@
       "defense": 5,
       "offense": 10,
       "movement": 12,
-      "viewRadius": 7,
+      "viewRadius": 9,
       "command": 0
     },
     "startingSkills": [
@@ -29937,17 +30269,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]
@@ -30111,17 +30432,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]
@@ -30330,7 +30640,7 @@
             "requirementType": "RequireAny",
             "requiredSkills": [
               {
-                "type": "Raider",
+                "type": "March",
                 "level": 1
               }
             ]
@@ -30514,17 +30824,6 @@
             "requiredSkills": [
               {
                 "type": "Arcana",
-                "level": 1
-              }
-            ]
-          },
-          {
-            "type": "Raider",
-            "requiresSkill": true,
-            "requirementType": "RequireAny",
-            "requiredSkills": [
-              {
-                "type": "March",
                 "level": 1
               }
             ]

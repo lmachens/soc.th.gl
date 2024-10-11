@@ -32,7 +32,9 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
           <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
           <Stack spacing="xs">
             <Title order={2}>{wielder.name}</Title>
-            <Text>{wielder.faction}</Text>
+            <Text>
+              {wielder.race} {wielder.commanderClassName}
+            </Text>
             <Lore text={wielder.description} />
           </Stack>
         </Group>

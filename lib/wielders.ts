@@ -31,6 +31,11 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
 
   const wielder: WielderDTO = {
     type: wielderSrc.type,
+    race: getTerm(`Common/Race/${wielderSrc.race}`, locale),
+    commanderClassName: getTerm(
+      `Commanders/Class/${wielderSrc.commanderClass}`,
+      locale
+    ),
     faction: wielderSrc.faction,
     factionName: getTerm(`Factions/${wielderSrc.faction}/Name`, locale),
     portrait: wielderSrc.portrait,
@@ -131,6 +136,8 @@ export type SkillPoolDTO = {
 
 export type WielderDTO = {
   type: string;
+  race: string;
+  commanderClassName: string;
   faction: string;
   factionName: string;
   portrait: SpriteDTO;

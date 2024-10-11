@@ -37,7 +37,7 @@ export type PureBacteria = {
         languageKey: string;
         size: number;
       };
-      status: number;
+      status: string;
     }[];
   }[];
   resourcesIncome: {
@@ -132,15 +132,21 @@ export const getLocaleBacteria = (
     modifierData: modifierData.map((modifier) => {
       let append = "";
       if (modifier.modifier.includes("Troop") && modifier.filters?.length) {
+        console.log(modifier.filters);
         append +=
           " to " +
           modifier.filters
             .map((filter) => {
-              return getTerm(
-                `${filter.troop.faction}/${filter.troop.languageKey}/Name`,
-                locale,
-                filter.troop.size
-              );
+              if (filter.filterType === 2) {
+                return getTerm(
+                  `${filter.troop.faction}/${filter.troop.languageKey}/Name`,
+                  locale,
+                  filter.troop.size
+                );
+              } else if (filter.filterType === 3) {
+                return filter.status + " troops";
+              }
+              return "";
             })
             .join(", ");
       }

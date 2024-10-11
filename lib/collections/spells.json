@@ -2766,7 +2766,7 @@
     "costs": [
       {
         "type": "Chaos",
-        "amount": 14
+        "amount": 13
       }
     ],
     "tiers": [
@@ -4278,7 +4278,7 @@
                   "bacteriaType": 357,
                   "type": "SpellPoisonCloudDamage1",
                   "customEffect": "Damage",
-                  "customEffectValue": 25,
+                  "customEffectValue": 20,
                   "secondaryCustomEffectValue": 0,
                   "auraSettings": {
                     "recipients": "All",
@@ -4332,7 +4332,7 @@
                 "bacteriaType": 357,
                 "type": "SpellPoisonCloudDamage1",
                 "customEffect": "Damage",
-                "customEffectValue": 25,
+                "customEffectValue": 20,
                 "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
@@ -4394,7 +4394,7 @@
                   "bacteriaType": 358,
                   "type": "SpellPoisonCloudDamage2",
                   "customEffect": "Damage",
-                  "customEffectValue": 50,
+                  "customEffectValue": 40,
                   "secondaryCustomEffectValue": 0,
                   "auraSettings": {
                     "recipients": "All",
@@ -4448,7 +4448,7 @@
                 "bacteriaType": 358,
                 "type": "SpellPoisonCloudDamage2",
                 "customEffect": "Damage",
-                "customEffectValue": 50,
+                "customEffectValue": 40,
                 "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
@@ -4510,7 +4510,7 @@
                   "bacteriaType": 359,
                   "type": "SpellPoisonCloudDamage3",
                   "customEffect": "Damage",
-                  "customEffectValue": 75,
+                  "customEffectValue": 60,
                   "secondaryCustomEffectValue": 0,
                   "auraSettings": {
                     "recipients": "All",
@@ -4564,7 +4564,7 @@
                 "bacteriaType": 359,
                 "type": "SpellPoisonCloudDamage3",
                 "customEffect": "Damage",
-                "customEffectValue": 75,
+                "customEffectValue": 60,
                 "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "All",
@@ -5462,7 +5462,7 @@
             "bacteriaType": 308,
             "type": "SpellRupture3",
             "customEffect": "Damage",
-            "customEffectValue": 250,
+            "customEffectValue": 220,
             "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",

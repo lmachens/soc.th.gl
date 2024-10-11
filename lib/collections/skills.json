@@ -1945,7 +1945,7 @@
           {
             "type": 13,
             "modifier": "TroopHealth",
-            "amountToAdd": 2,
+            "amountToAdd": 3,
             "applicationType": 0
           }
         ],
@@ -1973,7 +1973,7 @@
           {
             "type": 13,
             "modifier": "TroopHealth",
-            "amountToAdd": 4,
+            "amountToAdd": 6,
             "applicationType": 0
           }
         ],
@@ -2433,7 +2433,7 @@
           {
             "type": 21,
             "modifier": "CommanderViewRadius",
-            "amountToAdd": 2,
+            "amountToAdd": 3,
             "applicationType": 0
           }
         ],
@@ -2461,7 +2461,7 @@
           {
             "type": 21,
             "modifier": "CommanderViewRadius",
-            "amountToAdd": 4,
+            "amountToAdd": 6,
             "applicationType": 0
           }
         ],
@@ -2489,13 +2489,13 @@
           {
             "type": 21,
             "modifier": "CommanderViewRadius",
-            "amountToAdd": 5,
+            "amountToAdd": 6,
             "applicationType": 0
           },
           {
             "type": 12,
             "modifier": "CommanderMovement",
-            "amountToAdd": 1,
+            "amountToAdd": 2,
             "applicationType": 0
           }
         ],
@@ -4073,7 +4073,7 @@
           {
             "type": 45,
             "modifier": "CommanderDiplomacyBonus",
-            "amountToAdd": 10,
+            "amountToAdd": 15,
             "applicationType": 0
           }
         ],
@@ -4101,7 +4101,7 @@
           {
             "type": 45,
             "modifier": "CommanderDiplomacyBonus",
-            "amountToAdd": 20,
+            "amountToAdd": 30,
             "applicationType": 0
           }
         ],
@@ -4129,7 +4129,7 @@
           {
             "type": 45,
             "modifier": "CommanderDiplomacyBonus",
-            "amountToAdd": 30,
+            "amountToAdd": 50,
             "applicationType": 0
           }
         ],
@@ -4370,19 +4370,19 @@
                 {
                   "type": 7,
                   "modifier": "TroopRangedAttackResistance",
-                  "amountToAdd": 30,
+                  "amountToAdd": 25,
                   "applicationType": 0
                 },
                 {
                   "type": 4,
                   "modifier": "TroopMeleeAttackResistance",
-                  "amountToAdd": 30,
+                  "amountToAdd": 25,
                   "applicationType": 0
                 },
                 {
                   "type": 34,
                   "modifier": "TroopSpellDamageResistance",
-                  "amountToAdd": 30,
+                  "amountToAdd": 25,
                   "applicationType": 0
                 }
               ],
@@ -4424,19 +4424,19 @@
                 {
                   "type": 7,
                   "modifier": "TroopRangedAttackResistance",
-                  "amountToAdd": 60,
+                  "amountToAdd": 50,
                   "applicationType": 0
                 },
                 {
                   "type": 4,
                   "modifier": "TroopMeleeAttackResistance",
-                  "amountToAdd": 60,
+                  "amountToAdd": 50,
                   "applicationType": 0
                 },
                 {
                   "type": 34,
                   "modifier": "TroopSpellDamageResistance",
-                  "amountToAdd": 60,
+                  "amountToAdd": 50,
                   "applicationType": 0
                 }
               ],
@@ -4866,6 +4866,139 @@
         "duration": {
           "type": "Permanent",
           "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "type": "GenerateRisen",
+    "icon": {
+      "name": "Scouting",
+      "spriteSheet": "SkillIcons.png",
+      "x": 848,
+      "y": 838,
+      "width": 90,
+      "height": 90,
+      "outline": [
+        [
+          {
+            "x": -45,
+            "y": 3
+          },
+          {
+            "x": -3,
+            "y": 45
+          },
+          {
+            "x": 3,
+            "y": 45
+          },
+          {
+            "x": 45,
+            "y": 3
+          },
+          {
+            "x": 45,
+            "y": -4
+          },
+          {
+            "x": 4,
+            "y": -45
+          },
+          {
+            "x": -4,
+            "y": -45
+          },
+          {
+            "x": -45,
+            "y": -4
+          }
+        ]
+      ]
+    },
+    "levels": [
+      {
+        "bacteriaType": 1208,
+        "type": "SkillGenerateRisen1",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 51,
+            "modifier": "CommanderTroopGenerationRisen",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 2
+        }
+      },
+      {
+        "bacteriaType": 1209,
+        "type": "SkillGenerateRisen2",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 51,
+            "modifier": "CommanderTroopGenerationRisen",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 3
+        }
+      },
+      {
+        "bacteriaType": 1210,
+        "type": "SkillGenerateRisen3",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 51,
+            "modifier": "CommanderTroopGenerationRisen",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 3
         }
       }
     ]

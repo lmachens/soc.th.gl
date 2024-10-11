@@ -884,8 +884,8 @@
         "icon": {
           "name": "AbilityIconInspire",
           "spriteSheet": "Icons.png",
-          "x": 610,
-          "y": 322,
+          "x": 915,
+          "y": 266,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1197,8 +1197,8 @@
         "icon": {
           "name": "AbilityIconAim",
           "spriteSheet": "Icons.png",
-          "x": 449,
-          "y": 226,
+          "x": 917,
+          "y": 478,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1589,8 +1589,8 @@
         "icon": {
           "name": "AbilityIconPalisades",
           "spriteSheet": "Icons.png",
-          "x": 609,
-          "y": 269,
+          "x": 834,
+          "y": 229,
           "width": 52,
           "height": 52,
           "outline": [
@@ -1985,8 +1985,8 @@
         "icon": {
           "name": "AbilityIconOverwatch",
           "spriteSheet": "Icons.png",
-          "x": 581,
-          "y": 128,
+          "x": 781,
+          "y": 274,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2195,8 +2195,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 80,
+          "x": 781,
+          "y": 168,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2249,7 +2249,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               },
@@ -2266,7 +2267,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               }
@@ -2454,8 +2456,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.png",
-          "x": 560,
-          "y": 181,
+          "x": 838,
+          "y": 282,
           "width": 52,
           "height": 52,
           "outline": [
@@ -2508,7 +2510,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               },
@@ -2525,7 +2528,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               }
@@ -2689,7 +2693,7 @@
           "max": 5
         },
         "movement": 3,
-        "initiative": 25,
+        "initiative": 26,
         "health": 18,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
@@ -2868,7 +2872,7 @@
           "max": 7
         },
         "movement": 3,
-        "initiative": 26,
+        "initiative": 27,
         "health": 30,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
@@ -2887,8 +2891,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 133,
+          "x": 912,
+          "y": 213,
           "width": 52,
           "height": 52,
           "outline": [
@@ -3595,8 +3599,8 @@
         "icon": {
           "name": "AbilityIconInspire",
           "spriteSheet": "Icons.png",
-          "x": 610,
-          "y": 322,
+          "x": 915,
+          "y": 266,
           "width": 52,
           "height": 52,
           "outline": [
@@ -4187,8 +4191,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 133,
+          "x": 912,
+          "y": 213,
           "width": 52,
           "height": 52,
           "outline": [
@@ -4485,7 +4489,7 @@
           "max": 12
         },
         "movement": 5,
-        "initiative": 14,
+        "initiative": 23,
         "health": 8,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
@@ -4727,7 +4731,7 @@
           "max": 12
         },
         "movement": 5,
-        "initiative": 16,
+        "initiative": 25,
         "health": 12,
         "maxTroopSize": 20,
         "damageMultiplier": 0,
@@ -4746,8 +4750,8 @@
         "icon": {
           "name": "AbilityIconMagicImmunitye",
           "spriteSheet": "Icons.png",
-          "x": 320,
-          "y": 1,
+          "x": 1056,
+          "y": 693,
           "width": 52,
           "height": 53,
           "outline": [
@@ -5483,8 +5487,8 @@
         "icon": {
           "name": "AbilityIconFaeyFire",
           "spriteSheet": "Icons.png",
-          "x": 560,
-          "y": 766,
+          "x": 1058,
+          "y": 914,
           "width": 52,
           "height": 53,
           "outline": [
@@ -5929,7 +5933,9 @@
         "maxTroopSize": 100,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": [],
+        "statuses": [
+          5
+        ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -6084,7 +6090,9 @@
         "maxTroopSize": 100,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": [],
+        "statuses": [
+          5
+        ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -6582,8 +6590,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 133,
+          "x": 912,
+          "y": 213,
           "width": 52,
           "height": 52,
           "outline": [
@@ -6856,8 +6864,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 80,
+          "x": 781,
+          "y": 168,
           "width": 52,
           "height": 52,
           "outline": [
@@ -7043,8 +7051,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.png",
-          "x": 560,
-          "y": 181,
+          "x": 838,
+          "y": 282,
           "width": 52,
           "height": 52,
           "outline": [
@@ -7851,8 +7859,8 @@
         "icon": {
           "name": "AbilityIconChargeEssence",
           "spriteSheet": "Icons.png",
-          "x": 616,
-          "y": 539,
+          "x": 419,
+          "y": 202,
           "width": 56,
           "height": 57,
           "outline": [
@@ -8606,8 +8614,8 @@
         "icon": {
           "name": "AbilityIconSacrificeBones",
           "spriteSheet": "Icons.png",
-          "x": 581,
-          "y": 75,
+          "x": 834,
+          "y": 176,
           "width": 52,
           "height": 52,
           "outline": [
@@ -8865,7 +8873,7 @@
           "max": 15
         },
         "movement": 5,
-        "initiative": 21,
+        "initiative": 26,
         "health": 40,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
@@ -9076,7 +9084,7 @@
           "max": 22
         },
         "movement": 5,
-        "initiative": 22,
+        "initiative": 28,
         "health": 60,
         "maxTroopSize": 10,
         "damageMultiplier": 0,
@@ -9095,8 +9103,8 @@
         "icon": {
           "name": "AbilityIconDrainEssence",
           "spriteSheet": "Icons.png",
-          "x": 556,
-          "y": 234,
+          "x": 915,
+          "y": 319,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10196,8 +10204,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 133,
+          "x": 912,
+          "y": 213,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10382,83 +10390,83 @@
       "sprite": {
         "name": "LothZombieDefault1Idle1",
         "spriteSheet": "LothZombieAtlas.png",
-        "x": 115,
-        "y": 84,
-        "width": 49,
-        "height": 72,
+        "x": 134,
+        "y": 20,
+        "width": 47,
+        "height": 73,
         "outline": [
           [
             {
-              "x": -10.5,
-              "y": 30
+              "x": -9.5,
+              "y": 29.5
             },
             {
-              "x": -4.5,
-              "y": 36
+              "x": -2.5,
+              "y": 36.5
             },
             {
-              "x": 6.5,
-              "y": 28
-            },
-            {
-              "x": 24.5,
-              "y": 3
-            },
-            {
-              "x": 19.5,
-              "y": -2
-            },
-            {
-              "x": 13.5,
-              "y": -2
-            },
-            {
-              "x": 18.5,
-              "y": -14
-            },
-            {
-              "x": 13.5,
-              "y": -14
+              "x": 9.5,
+              "y": 24.5
             },
             {
               "x": 22.5,
-              "y": -30
+              "y": 5.5
+            },
+            {
+              "x": 22.5,
+              "y": -1.5
+            },
+            {
+              "x": 15.5,
+              "y": -4.5
             },
             {
               "x": 19.5,
-              "y": -35
+              "y": -14.5
             },
             {
-              "x": 10.5,
-              "y": -36
+              "x": 14.5,
+              "y": -14.5
+            },
+            {
+              "x": 23.5,
+              "y": -30.5
+            },
+            {
+              "x": 20.5,
+              "y": -35.5
+            },
+            {
+              "x": 11.5,
+              "y": -36.5
+            },
+            {
+              "x": 0.5,
+              "y": -21.5
             },
             {
               "x": -0.5,
-              "y": -21
+              "y": -33.5
             },
             {
-              "x": -1.5,
-              "y": -33
+              "x": -8.5,
+              "y": -33.5
             },
             {
-              "x": -9.5,
-              "y": -33
+              "x": -5.5,
+              "y": -24.5
             },
             {
               "x": -6.5,
-              "y": -24
+              "y": -5.5
             },
             {
-              "x": -7.5,
-              "y": -5
+              "x": -23.5,
+              "y": -3.5
             },
             {
-              "x": -24.5,
-              "y": -3
-            },
-            {
-              "x": -10.5,
-              "y": 12
+              "x": -9.5,
+              "y": 11.5
             }
           ]
         ]
@@ -10524,7 +10532,38 @@
         "blessed": 0,
         "restrictions": []
       },
-      "troopAbility": null,
+      "troopAbility": {
+        "type": "Lunge",
+        "icon": {
+          "name": "AbilityIconLunge",
+          "spriteSheet": "Icons.png",
+          "x": 709,
+          "y": 465,
+          "width": 51,
+          "height": 38,
+          "outline": [
+            [
+              {
+                "x": -25.499998,
+                "y": -19
+              },
+              {
+                "x": -25.499998,
+                "y": 19
+              },
+              {
+                "x": 25.500002,
+                "y": 19
+              },
+              {
+                "x": 25.500002,
+                "y": -19
+              }
+            ]
+          ]
+        },
+        "bacterias": []
+      },
       "bacterias": []
     },
     "upgraded": null,
@@ -10864,8 +10903,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 80,
+          "x": 781,
+          "y": 168,
           "width": 52,
           "height": 52,
           "outline": [
@@ -10918,7 +10957,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               }
@@ -11078,8 +11118,8 @@
         "icon": {
           "name": "AbilityIconEpic",
           "spriteSheet": "Icons.png",
-          "x": 560,
-          "y": 181,
+          "x": 838,
+          "y": 282,
           "width": 52,
           "height": 52,
           "outline": [
@@ -11132,7 +11172,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               },
@@ -11149,7 +11190,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               },
@@ -11166,7 +11208,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               }
@@ -11596,8 +11639,8 @@
         "icon": {
           "name": "AbilityIconSpearwall",
           "spriteSheet": "Icons.png",
-          "x": 478,
-          "y": 115,
+          "x": 917,
+          "y": 531,
           "width": 52,
           "height": 53,
           "outline": [
@@ -12013,8 +12056,8 @@
         "icon": {
           "name": "AbilityIconAim",
           "spriteSheet": "Icons.png",
-          "x": 449,
-          "y": 226,
+          "x": 917,
+          "y": 478,
           "width": 52,
           "height": 52,
           "outline": [
@@ -12613,8 +12656,8 @@
         "icon": {
           "name": "AbilityIconHype",
           "spriteSheet": "Icons.png",
-          "x": 267,
-          "y": 1,
+          "x": 1058,
+          "y": 860,
           "width": 52,
           "height": 53,
           "outline": [
@@ -13190,7 +13233,73 @@
         "blessed": 0,
         "restrictions": []
       },
-      "troopAbility": null,
+      "troopAbility": {
+        "type": "Defend",
+        "icon": {
+          "name": "AbilityIconProtectDefend",
+          "spriteSheet": "Icons.png",
+          "x": 912,
+          "y": 213,
+          "width": 52,
+          "height": 52,
+          "outline": [
+            [
+              {
+                "x": -26,
+                "y": -26
+              },
+              {
+                "x": -26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": 26
+              },
+              {
+                "x": 26,
+                "y": -26
+              }
+            ]
+          ]
+        },
+        "bacterias": [
+          {
+            "bacteriaType": 408,
+            "type": "TroopAbilityDefend",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "secondaryCustomEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 25,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 25,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
       "bacterias": [
         {
           "bacteriaType": 1161,
@@ -13416,8 +13525,8 @@
         "icon": {
           "name": "AbilityIconPalisades",
           "spriteSheet": "Icons.png",
-          "x": 609,
-          "y": 269,
+          "x": 834,
+          "y": 229,
           "width": 52,
           "height": 52,
           "outline": [
@@ -13592,7 +13701,7 @@
           "max": 12
         },
         "movement": 4,
-        "initiative": 22,
+        "initiative": 19,
         "health": 45,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
@@ -13611,8 +13720,8 @@
         "icon": {
           "name": "AbilityIconPlaceMine",
           "spriteSheet": "Icons.png",
-          "x": 613,
-          "y": 186,
+          "x": 781,
+          "y": 221,
           "width": 52,
           "height": 52,
           "outline": [
@@ -14001,8 +14110,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.png",
-          "x": 821,
-          "y": 241,
+          "x": 912,
+          "y": 160,
           "width": 52,
           "height": 52,
           "outline": [
@@ -14518,7 +14627,7 @@
           "max": 50
         },
         "movement": 1,
-        "initiative": 28,
+        "initiative": 27,
         "health": 100,
         "maxTroopSize": 5,
         "damageMultiplier": 0,
@@ -14538,8 +14647,8 @@
         "icon": {
           "name": "AbilityIconBombard",
           "spriteSheet": "Icons.png",
-          "x": 805,
-          "y": 593,
+          "x": 1057,
+          "y": 803,
           "width": 54,
           "height": 56,
           "outline": [
@@ -15136,8 +15245,8 @@
         "icon": {
           "name": "AbilityIconProtectDefend",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 133,
+          "x": 912,
+          "y": 213,
           "width": 52,
           "height": 52,
           "outline": [
@@ -15466,7 +15575,7 @@
           "max": 3
         },
         "movement": 3,
-        "initiative": 25,
+        "initiative": 13,
         "health": 10,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
@@ -15752,7 +15861,7 @@
           "max": 4
         },
         "movement": 3,
-        "initiative": 27,
+        "initiative": 14,
         "health": 15,
         "maxTroopSize": 30,
         "damageMultiplier": 0,
@@ -16232,8 +16341,8 @@
         "icon": {
           "name": "AbilityIconBullRush",
           "spriteSheet": "Icons.png",
-          "x": 531,
-          "y": 22,
+          "x": 916,
+          "y": 425,
           "width": 52,
           "height": 52,
           "outline": [
@@ -16862,8 +16971,8 @@
         "icon": {
           "name": "AbilityIconWait",
           "spriteSheet": "Icons.png",
-          "x": 821,
-          "y": 241,
+          "x": 912,
+          "y": 160,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17069,7 +17178,7 @@
           "max": 10
         },
         "movement": 3,
-        "initiative": 32,
+        "initiative": 35,
         "health": 35,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
@@ -17385,8 +17494,8 @@
         "icon": {
           "name": "AbilityIconBurrow",
           "spriteSheet": "Icons.png",
-          "x": 547,
-          "y": 287,
+          "x": 915,
+          "y": 372,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17765,8 +17874,8 @@
         "icon": {
           "name": "AbilityIconSing",
           "spriteSheet": "Icons.png",
-          "x": 634,
-          "y": 80,
+          "x": 781,
+          "y": 168,
           "width": 52,
           "height": 52,
           "outline": [
@@ -17819,7 +17928,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               },
@@ -17836,7 +17946,8 @@
                       "faction": "Arleon",
                       "languageKey": "Archer",
                       "size": 0
-                    }
+                    },
+                    "status": "Human"
                   }
                 ]
               }
@@ -18394,8 +18505,8 @@
         "icon": {
           "name": "AbilityIconChargeEssence",
           "spriteSheet": "Icons.png",
-          "x": 616,
-          "y": 539,
+          "x": 419,
+          "y": 202,
           "width": 56,
           "height": 57,
           "outline": [
@@ -18718,8 +18829,8 @@
         "retaliations": 1,
         "attacksOfOpportunity": 1,
         "damage": {
-          "min": 8,
-          "max": 12
+          "min": 9,
+          "max": 14
         },
         "movement": 5,
         "initiative": 28,
@@ -18742,8 +18853,8 @@
         "icon": {
           "name": "AbilityIconOverwatch",
           "spriteSheet": "Icons.png",
-          "x": 581,
-          "y": 128,
+          "x": 781,
+          "y": 274,
           "width": 52,
           "height": 52,
           "outline": [
@@ -18971,8 +19082,8 @@
         "icon": {
           "name": "AbilityIconTangleShout",
           "spriteSheet": "Icons.png",
-          "x": 637,
-          "y": 27,
+          "x": 1013,
+          "y": 173,
           "width": 52,
           "height": 52,
           "outline": [
@@ -19293,8 +19404,8 @@
         "icon": {
           "name": "AbilityIconTangleShout",
           "spriteSheet": "Icons.png",
-          "x": 637,
-          "y": 27,
+          "x": 1013,
+          "y": 173,
           "width": 52,
           "height": 52,
           "outline": [

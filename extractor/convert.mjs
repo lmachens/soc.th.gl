@@ -85,6 +85,15 @@ const runtimePenaltyTypes = await readCSTypes(
 const runtimePenaltyHostileSpawnLocationTypes = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Penalties/RuntimePenaltyHostileSpawnLocation.cs"
 );
+const commanderClassType = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/CommanderClassType.cs"
+);
+const bacteriaOwnerStatus = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Bacterias/BacteriaOwnerStatus.cs"
+);
+const raceType = await readCSTypes(
+  "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/RaceType.cs"
+);
 const SKILL_POOL_EVALUATION = ["LevelRange", "LevelInterval"];
 
 const factions = factionsSrc.map((factionSrc) => ({
@@ -208,6 +217,7 @@ const getBacteria = ({ bacteriaType, duration }) => {
           amountToAdd: modifier.amountToAdd,
           applicationType: modifier.applicationType,
         };
+
         if (modifier.filters?.length) {
           result.filterEvaluation = modifier.filterEvaluation;
           result.filters = modifier.filters.map((filter) => {
@@ -219,6 +229,7 @@ const getBacteria = ({ bacteriaType, duration }) => {
                 languageKey: troop.languageKey,
                 size: filter.troop.size,
               },
+              status: bacteriaOwnerStatus[filter.status],
             };
           });
         }
@@ -280,7 +291,6 @@ const wielders = factionsSrc
         );
 
         const startingSkills = commander.skills.map(getSimpleSkill);
-
         const skillPools = skillPool.pools.map((pool) => ({
           name: pool.name,
           evaluationType: SKILL_POOL_EVALUATION[pool.evaluationType],
@@ -303,6 +313,8 @@ const wielders = factionsSrc
 
         return {
           type: commander.type,
+          commanderClass: commanderClassType[commander.class],
+          race: raceType[commander.race],
           faction: factionSrc.languageKey,
           portrait: {
             name: commander.portrait.name,
@@ -517,6 +529,7 @@ for (const buildSite of buildSites) {
     factionId = 5;
     continue;
   }
+
   const building = {
     id: buildSite.id,
     factionId: factionId,
@@ -527,7 +540,9 @@ for (const buildSite of buildSites) {
       (portraitSetting) => portraitSetting.portrait
     ),
   };
-
+  if (building.nameKey === "REDACTEDSECRETS") {
+    continue;
+  }
   for (const component of buildSite.components) {
     if (component.baseViewRadius) {
       building.baseViewRadius = component.baseViewRadius;
@@ -540,9 +555,15 @@ for (const buildSite of buildSites) {
             type: resourceTypes[resource.type],
             amount: resource.amount,
           })),
-          troopIncomes: incomePerLevel.definition.troopIncomes.map(
-            (troopIncome) => {
+          troopIncomes: incomePerLevel.definition.troopIncomes
+            .map((troopIncome) => {
               const faction = factionsSrc[troopIncome.reference.factionIndex];
+              if (!faction) {
+                console.warn(
+                  `Missing factionIndex ${troopIncome.reference.factionIndex} for ${building.nameKey}`
+                );
+                return null;
+              }
               const upgradeType = UNIT_TYPES[troopIncome.reference.upgradeType];
 
               const unit =
@@ -555,8 +576,8 @@ for (const buildSite of buildSites) {
                 requiredResearch: troopIncome.requiredResearch,
                 initialInstantIncome: troopIncome.initialInstantIncome,
               };
-            }
-          ),
+            })
+            .filter((troopIncome) => troopIncome),
         })
       );
     }

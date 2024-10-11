@@ -5,8 +5,8 @@
     "icon": {
       "name": "AllSeeingEyeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 305,
-      "y": 288,
+      "x": 386,
+      "y": 324,
       "width": 28,
       "height": 28,
       "outline": [
@@ -62,40 +62,40 @@
     ]
   },
   {
-    "id": 28,
-    "type": "AncientSteampipe",
+    "id": 149,
+    "type": "WrappedBracers",
     "icon": {
-      "name": "AncientSteampipeDefault1",
+      "name": "LeatherBracersDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 212,
-      "y": 227,
-      "width": 31,
-      "height": 30,
+      "x": 0,
+      "y": 326,
+      "width": 29,
+      "height": 26,
       "outline": [
         [
           {
-            "x": -15.5,
-            "y": -15
+            "x": -14.5,
+            "y": -13
           },
           {
-            "x": -15.5,
-            "y": 15
+            "x": -14.5,
+            "y": 13
           },
           {
-            "x": 15.5,
-            "y": 15
+            "x": 14.5,
+            "y": 13
           },
           {
-            "x": 15.5,
-            "y": -15
+            "x": 14.5,
+            "y": -13
           }
         ]
       ]
     },
     "bacterias": [
       {
-        "bacteriaType": 492,
-        "type": "AncientSteampipeArtifactBacteria",
+        "bacteriaType": 1251,
+        "type": "WrappedBracersArtifactBacteria",
         "customEffect": "None",
         "customEffectValue": 0,
         "secondaryCustomEffectValue": 0,
@@ -107,14 +107,7 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [
-          {
-            "type": 3,
-            "modifier": "TroopInitiative",
-            "amountToAdd": 10,
-            "applicationType": 0
-          }
-        ],
+        "modifierData": [],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -129,8 +122,8 @@
     "icon": {
       "name": "BucklerShieldDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 133,
-      "y": 289,
+      "x": 214,
+      "y": 325,
       "width": 31,
       "height": 27,
       "outline": [
@@ -191,8 +184,8 @@
     "icon": {
       "name": "DragonscaleCrownDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 325,
-      "y": 317,
+      "x": 415,
+      "y": 353,
       "width": 31,
       "height": 26,
       "outline": [
@@ -253,8 +246,8 @@
     "icon": {
       "name": "OpenFacedBacinettDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 175,
-      "y": 92,
+      "x": 475,
+      "y": 129,
       "width": 28,
       "height": 34,
       "outline": [
@@ -315,8 +308,8 @@
     "icon": {
       "name": "PetrifiedDragonEggDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 420,
-      "y": 258,
+      "x": 115,
+      "y": 264,
       "width": 27,
       "height": 29,
       "outline": [
@@ -383,8 +376,8 @@
     "icon": {
       "name": "SassanidVelvetShoesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 257,
-      "y": 289,
+      "x": 338,
+      "y": 325,
       "width": 30,
       "height": 27,
       "outline": [
@@ -451,8 +444,8 @@
     "icon": {
       "name": "TalismanOfArcanaDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 479,
-      "y": 195,
+      "x": 210,
+      "y": 199,
       "width": 26,
       "height": 31,
       "outline": [
@@ -513,8 +506,8 @@
     "icon": {
       "name": "TalismanOfChaosDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 0,
-      "y": 163,
+      "x": 237,
+      "y": 199,
       "width": 27,
       "height": 31,
       "outline": [
@@ -575,8 +568,8 @@
     "icon": {
       "name": "TheBonesOfCorneliusDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 217,
-      "y": 318,
+      "x": 307,
+      "y": 354,
       "width": 31,
       "height": 25,
       "outline": [
@@ -643,8 +636,8 @@
     "icon": {
       "name": "BreastplateOfTheSunDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 131,
-      "y": 162,
+      "x": 368,
+      "y": 198,
       "width": 27,
       "height": 32,
       "outline": [
@@ -705,8 +698,8 @@
     "icon": {
       "name": "SpikedGauntletDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 56,
-      "y": 129,
+      "x": 344,
+      "y": 165,
       "width": 29,
       "height": 32,
       "outline": [
@@ -768,7 +761,7 @@
       "name": "DaggerDefault1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 231,
-      "y": 348,
+      "y": 384,
       "width": 34,
       "height": 20,
       "outline": [
@@ -829,8 +822,8 @@
     "icon": {
       "name": "BoneScimitarDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 315,
-      "y": 91,
+      "x": 111,
+      "y": 93,
       "width": 29,
       "height": 35,
       "outline": [
@@ -891,8 +884,8 @@
     "icon": {
       "name": "AncientFalchionDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 472,
-      "y": 127,
+      "x": 267,
+      "y": 129,
       "width": 32,
       "height": 34,
       "outline": [
@@ -954,7 +947,7 @@
       "name": "HandgunPrototypeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 104,
-      "y": 353,
+      "y": 389,
       "width": 36,
       "height": 15,
       "outline": [
@@ -1015,8 +1008,8 @@
     "icon": {
       "name": "GreatAxeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 64,
-      "y": 13,
+      "x": 381,
+      "y": 53,
       "width": 27,
       "height": 38,
       "outline": [
@@ -1077,8 +1070,8 @@
     "icon": {
       "name": "BoarSpearDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 386,
-      "y": 52,
+      "x": 220,
+      "y": 53,
       "width": 37,
       "height": 38,
       "outline": [
@@ -1139,8 +1132,8 @@
     "icon": {
       "name": "SwampSpearDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 147,
-      "y": 13,
+      "x": 464,
+      "y": 53,
       "width": 32,
       "height": 38,
       "outline": [
@@ -1201,8 +1194,8 @@
     "icon": {
       "name": "TwoHandedSwordDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 453,
-      "y": 3,
+      "x": 275,
+      "y": 4,
       "width": 26,
       "height": 48,
       "outline": [
@@ -1263,8 +1256,8 @@
     "icon": {
       "name": "StaffOfTheMagusDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 86,
-      "y": 129,
+      "x": 374,
+      "y": 165,
       "width": 32,
       "height": 32,
       "outline": [
@@ -1325,8 +1318,8 @@
     "icon": {
       "name": "ArchersGambesonDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 327,
-      "y": 52,
+      "x": 161,
+      "y": 53,
       "width": 32,
       "height": 38,
       "outline": [
@@ -1387,8 +1380,8 @@
     "icon": {
       "name": "ChainmailHauberkDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 455,
-      "y": 52,
+      "x": 289,
+      "y": 53,
       "width": 27,
       "height": 38,
       "outline": [
@@ -1449,8 +1442,8 @@
     "icon": {
       "name": "CelestialBreastplateDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 192,
-      "y": 162,
+      "x": 429,
+      "y": 198,
       "width": 29,
       "height": 32,
       "outline": [
@@ -1511,8 +1504,8 @@
     "icon": {
       "name": "CowlOfEndlessEssenceDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 150,
-      "y": 195,
+      "x": 385,
+      "y": 231,
       "width": 30,
       "height": 31,
       "outline": [
@@ -1597,8 +1590,8 @@
     "icon": {
       "name": "WornBootsLayer 11",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 266,
-      "y": 318,
+      "x": 356,
+      "y": 354,
       "width": 28,
       "height": 25,
       "outline": [
@@ -1665,8 +1658,8 @@
     "icon": {
       "name": "RidingBootsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 432,
-      "y": 195,
+      "x": 163,
+      "y": 199,
       "width": 22,
       "height": 31,
       "outline": [
@@ -1733,8 +1726,8 @@
     "icon": {
       "name": "MasterlyCraftedBootsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 407,
-      "y": 162,
+      "x": 157,
+      "y": 165,
       "width": 31,
       "height": 32,
       "outline": [
@@ -1801,8 +1794,8 @@
     "icon": {
       "name": "BootsOfTheWhisperingLeavesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 71,
-      "y": 54,
+      "x": 410,
+      "y": 92,
       "width": 32,
       "height": 36,
       "outline": [
@@ -1870,7 +1863,7 @@
       "name": "WornLeatherGlovesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 280,
-      "y": 348,
+      "y": 384,
       "width": 29,
       "height": 20,
       "outline": [
@@ -1931,8 +1924,8 @@
     "icon": {
       "name": "GlimmerglovesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 334,
-      "y": 288,
+      "x": 442,
+      "y": 324,
       "width": 30,
       "height": 28,
       "outline": [
@@ -1993,8 +1986,8 @@
     "icon": {
       "name": "CelestialGauntletsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 281,
-      "y": 227,
+      "x": 479,
+      "y": 263,
       "width": 30,
       "height": 30,
       "outline": [
@@ -2061,8 +2054,8 @@
     "icon": {
       "name": "GlovesOfTheWildHuntDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 341,
-      "y": 347,
+      "x": 373,
+      "y": 383,
       "width": 30,
       "height": 21,
       "outline": [
@@ -2135,8 +2128,8 @@
     "icon": {
       "name": "GauntletsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 332,
-      "y": 258,
+      "x": 27,
+      "y": 264,
       "width": 31,
       "height": 29,
       "outline": [
@@ -2203,8 +2196,8 @@
     "icon": {
       "name": "HelmetOfTheVanirDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 269,
-      "y": 195,
+      "x": 0,
+      "y": 199,
       "width": 25,
       "height": 31,
       "outline": [
@@ -2265,8 +2258,8 @@
     "icon": {
       "name": "VisoredBarbutaDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 232,
-      "y": 92,
+      "x": 28,
+      "y": 94,
       "width": 25,
       "height": 34,
       "outline": [
@@ -2333,8 +2326,8 @@
     "icon": {
       "name": "MaskOfWieshDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 378,
-      "y": 227,
+      "x": 66,
+      "y": 232,
       "width": 28,
       "height": 30,
       "outline": [
@@ -2413,8 +2406,8 @@
     "icon": {
       "name": "VanirAxeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 41,
-      "y": 55,
+      "x": 380,
+      "y": 93,
       "width": 29,
       "height": 35,
       "outline": [
@@ -2475,8 +2468,8 @@
     "icon": {
       "name": "BladeOfTheVanirDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 262,
-      "y": 12,
+      "x": 122,
+      "y": 13,
       "width": 22,
       "height": 39,
       "outline": [
@@ -2537,8 +2530,8 @@
     "icon": {
       "name": "CrossbowDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 165,
-      "y": 289,
+      "x": 246,
+      "y": 325,
       "width": 31,
       "height": 27,
       "outline": [
@@ -2599,8 +2592,8 @@
     "icon": {
       "name": "FaeyHornWarbowDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 318,
-      "y": 10,
+      "x": 178,
+      "y": 11,
       "width": 31,
       "height": 41,
       "outline": [
@@ -2667,8 +2660,8 @@
     "icon": {
       "name": "EternalLightbringerDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 250,
-      "y": 162,
+      "x": 0,
+      "y": 165,
       "width": 32,
       "height": 32,
       "outline": [
@@ -2741,8 +2734,8 @@
     "icon": {
       "name": "RoundShieldDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 475,
-      "y": 258,
+      "x": 170,
+      "y": 264,
       "width": 27,
       "height": 29,
       "outline": [
@@ -2803,8 +2796,8 @@
     "icon": {
       "name": "KiteShieldDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 136,
-      "y": 54,
+      "x": 475,
+      "y": 92,
       "width": 29,
       "height": 36,
       "outline": [
@@ -2865,8 +2858,8 @@
     "icon": {
       "name": "HeaterShieldDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 104,
-      "y": 54,
+      "x": 443,
+      "y": 92,
       "width": 31,
       "height": 36,
       "outline": [
@@ -2927,8 +2920,8 @@
     "icon": {
       "name": "EthyllesBlessingDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 402,
-      "y": 91,
+      "x": 226,
+      "y": 93,
       "width": 31,
       "height": 35,
       "outline": [
@@ -2989,8 +2982,8 @@
     "icon": {
       "name": "TalismanOfDestructionDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 57,
-      "y": 228,
+      "x": 255,
+      "y": 264,
       "width": 25,
       "height": 29,
       "outline": [
@@ -3051,8 +3044,8 @@
     "icon": {
       "name": "TalismanOfOrderDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 448,
-      "y": 288,
+      "x": 81,
+      "y": 295,
       "width": 28,
       "height": 28,
       "outline": [
@@ -3113,8 +3106,8 @@
     "icon": {
       "name": "AureliasAshesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 360,
-      "y": 52,
+      "x": 194,
+      "y": 53,
       "width": 25,
       "height": 38,
       "outline": [
@@ -3175,8 +3168,8 @@
     "icon": {
       "name": "TheMakersCompassDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 351,
-      "y": 128,
+      "x": 146,
+      "y": 130,
       "width": 27,
       "height": 33,
       "outline": [
@@ -3243,8 +3236,8 @@
     "icon": {
       "name": "ToolsOfTheMasterMasonDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 155,
-      "y": 228,
+      "x": 353,
+      "y": 264,
       "width": 28,
       "height": 29,
       "outline": [
@@ -3293,8 +3286,8 @@
     "icon": {
       "name": "EnchantedBagOfAcornsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 111,
-      "y": 318,
+      "x": 201,
+      "y": 354,
       "width": 23,
       "height": 25,
       "outline": [
@@ -3343,8 +3336,8 @@
     "icon": {
       "name": "TheGoldenGooseDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 434,
-      "y": 91,
+      "x": 258,
+      "y": 93,
       "width": 23,
       "height": 35,
       "outline": [
@@ -3393,8 +3386,8 @@
     "icon": {
       "name": "GlimmerweaveSpinningWheelDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 55,
-      "y": 92,
+      "x": 355,
+      "y": 129,
       "width": 32,
       "height": 34,
       "outline": [
@@ -3443,8 +3436,8 @@
     "icon": {
       "name": "EverflowingBranchOfSapDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 33,
-      "y": 13,
+      "x": 350,
+      "y": 53,
       "width": 30,
       "height": 38,
       "outline": [
@@ -3493,8 +3486,8 @@
     "icon": {
       "name": "CelestialCompassDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 89,
-      "y": 195,
+      "x": 324,
+      "y": 231,
       "width": 32,
       "height": 31,
       "outline": [
@@ -3543,8 +3536,8 @@
     "icon": {
       "name": "TalismanOfCreationDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 0,
-      "y": 196,
+      "x": 176,
+      "y": 232,
       "width": 29,
       "height": 30,
       "outline": [
@@ -3605,8 +3598,8 @@
     "icon": {
       "name": "EnchantedSilkGlovesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 310,
-      "y": 347,
+      "x": 342,
+      "y": 383,
       "width": 30,
       "height": 21,
       "outline": [
@@ -3655,8 +3648,8 @@
     "icon": {
       "name": "GauntletsOfTheNightDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 312,
-      "y": 227,
+      "x": 0,
+      "y": 232,
       "width": 31,
       "height": 30,
       "outline": [
@@ -3723,8 +3716,8 @@
     "icon": {
       "name": "GlovesOfEternityDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 365,
-      "y": 288,
+      "x": 473,
+      "y": 324,
       "width": 28,
       "height": 28,
       "outline": [
@@ -3803,8 +3796,8 @@
     "icon": {
       "name": "GlovesOfThePhoenixDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 344,
-      "y": 227,
+      "x": 32,
+      "y": 232,
       "width": 33,
       "height": 30,
       "outline": [
@@ -3883,8 +3876,8 @@
     "icon": {
       "name": "GauntletsOfEssenceDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 197,
-      "y": 289,
+      "x": 278,
+      "y": 325,
       "width": 28,
       "height": 27,
       "outline": [
@@ -3951,8 +3944,8 @@
     "icon": {
       "name": "IronShieldDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 324,
-      "y": 195,
+      "x": 55,
+      "y": 199,
       "width": 29,
       "height": 31,
       "outline": [
@@ -4019,8 +4012,8 @@
     "icon": {
       "name": "ShieldOEternalServitudeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 455,
-      "y": 195,
+      "x": 186,
+      "y": 199,
       "width": 23,
       "height": 31,
       "outline": [
@@ -4093,8 +4086,8 @@
     "icon": {
       "name": "ShieldOfTheOgreDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 421,
-      "y": 9,
+      "x": 243,
+      "y": 10,
       "width": 31,
       "height": 42,
       "outline": [
@@ -4161,8 +4154,8 @@
     "icon": {
       "name": "EtheralShieldDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 278,
-      "y": 258,
+      "x": 471,
+      "y": 294,
       "width": 26,
       "height": 29,
       "outline": [
@@ -4229,8 +4222,8 @@
     "icon": {
       "name": "SpikedShieldDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 458,
-      "y": 91,
+      "x": 308,
+      "y": 93,
       "width": 30,
       "height": 35,
       "outline": [
@@ -4297,8 +4290,8 @@
     "icon": {
       "name": "BoneClubDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 286,
-      "y": 91,
+      "x": 82,
+      "y": 93,
       "width": 28,
       "height": 35,
       "outline": [
@@ -4359,8 +4352,8 @@
     "icon": {
       "name": "SpikedBootsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 0,
-      "y": 290,
+      "x": 81,
+      "y": 326,
       "width": 32,
       "height": 26,
       "outline": [
@@ -4433,8 +4426,8 @@
     "icon": {
       "name": "DragonToothDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 209,
-      "y": 195,
+      "x": 444,
+      "y": 231,
       "width": 26,
       "height": 31,
       "outline": [
@@ -4501,8 +4494,8 @@
     "icon": {
       "name": "AncientBladeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 173,
-      "y": 128,
+      "x": 461,
+      "y": 164,
       "width": 31,
       "height": 33,
       "outline": [
@@ -4563,8 +4556,8 @@
     "icon": {
       "name": "DaggerOfRageDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 345,
-      "y": 91,
+      "x": 169,
+      "y": 93,
       "width": 27,
       "height": 35,
       "outline": [
@@ -4631,8 +4624,8 @@
     "icon": {
       "name": "BewitchedBladeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 59,
-      "y": 195,
+      "x": 294,
+      "y": 231,
       "width": 29,
       "height": 31,
       "outline": [
@@ -4699,8 +4692,8 @@
     "icon": {
       "name": "ElementalAxeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 236,
-      "y": 195,
+      "x": 471,
+      "y": 231,
       "width": 32,
       "height": 31,
       "outline": [
@@ -4767,8 +4760,8 @@
     "icon": {
       "name": "MaceDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 374,
-      "y": 162,
+      "x": 124,
+      "y": 165,
       "width": 32,
       "height": 32,
       "outline": [
@@ -4829,8 +4822,8 @@
     "icon": {
       "name": "MorningStarDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 379,
-      "y": 195,
+      "x": 110,
+      "y": 199,
       "width": 31,
       "height": 31,
       "outline": [
@@ -4891,8 +4884,8 @@
     "icon": {
       "name": "TheOathkeeperDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 260,
-      "y": 53,
+      "x": 94,
+      "y": 54,
       "width": 29,
       "height": 37,
       "outline": [
@@ -4959,8 +4952,8 @@
     "icon": {
       "name": "WarhammerDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 236,
-      "y": 13,
+      "x": 56,
+      "y": 14,
       "width": 25,
       "height": 38,
       "outline": [
@@ -5021,8 +5014,8 @@
     "icon": {
       "name": "BeakOfTheBeastDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 285,
-      "y": 11,
+      "x": 145,
+      "y": 12,
       "width": 32,
       "height": 40,
       "outline": [
@@ -5089,8 +5082,8 @@
     "icon": {
       "name": "PoleaxeOfPainDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 480,
-      "y": 2,
+      "x": 302,
+      "y": 3,
       "width": 31,
       "height": 49,
       "outline": [
@@ -5151,8 +5144,8 @@
     "icon": {
       "name": "RodOfTheRootsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 388,
-      "y": 9,
+      "x": 210,
+      "y": 10,
       "width": 32,
       "height": 42,
       "outline": [
@@ -5225,8 +5218,8 @@
     "icon": {
       "name": "TheEmancipatorDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 0,
-      "y": 55,
+      "x": 339,
+      "y": 93,
       "width": 40,
       "height": 35,
       "outline": [
@@ -5287,8 +5280,8 @@
     "icon": {
       "name": "TheStingerDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 290,
-      "y": 53,
+      "x": 124,
+      "y": 54,
       "width": 36,
       "height": 37,
       "outline": [
@@ -5355,8 +5348,8 @@
     "icon": {
       "name": "BootsOfTheHeavensDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 244,
-      "y": 227,
+      "x": 442,
+      "y": 263,
       "width": 36,
       "height": 30,
       "outline": [
@@ -5423,8 +5416,8 @@
     "icon": {
       "name": "NimbleBootsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 470,
-      "y": 317,
+      "x": 56,
+      "y": 326,
       "width": 24,
       "height": 26,
       "outline": [
@@ -5485,8 +5478,8 @@
     "icon": {
       "name": "ShoesOfTheWandererDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 0,
-      "y": 228,
+      "x": 198,
+      "y": 264,
       "width": 27,
       "height": 29,
       "outline": [
@@ -5553,8 +5546,8 @@
     "icon": {
       "name": "ArchersHelmetDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 54,
-      "y": 318,
+      "x": 144,
+      "y": 354,
       "width": 31,
       "height": 25,
       "outline": [
@@ -5615,8 +5608,8 @@
     "icon": {
       "name": "CapeOfLeavesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 424,
-      "y": 52,
+      "x": 258,
+      "y": 53,
       "width": 30,
       "height": 38,
       "outline": [
@@ -5677,8 +5670,8 @@
     "icon": {
       "name": "CelestialHelmetDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 222,
-      "y": 162,
+      "x": 459,
+      "y": 198,
       "width": 27,
       "height": 32,
       "outline": [
@@ -5745,8 +5738,8 @@
     "icon": {
       "name": "CloakOfTheAncientsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 122,
-      "y": 195,
+      "x": 357,
+      "y": 231,
       "width": 27,
       "height": 31,
       "outline": [
@@ -5819,8 +5812,8 @@
     "icon": {
       "name": "GoldenLaurelWreathDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 462,
-      "y": 344,
+      "x": 59,
+      "y": 355,
       "width": 30,
       "height": 24,
       "outline": [
@@ -5887,8 +5880,8 @@
     "icon": {
       "name": "HatOfTheMagusDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 226,
-      "y": 289,
+      "x": 307,
+      "y": 325,
       "width": 30,
       "height": 27,
       "outline": [
@@ -5949,8 +5942,8 @@
     "icon": {
       "name": "HelmetOfTheArenaDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 316,
-      "y": 162,
+      "x": 66,
+      "y": 165,
       "width": 26,
       "height": 32,
       "outline": [
@@ -6023,8 +6016,8 @@
     "icon": {
       "name": "OrnateBreastplateDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 325,
-      "y": 128,
+      "x": 120,
+      "y": 130,
       "width": 25,
       "height": 33,
       "outline": [
@@ -6085,8 +6078,8 @@
     "icon": {
       "name": "TunicOfTheForestCourtDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 146,
-      "y": 129,
+      "x": 434,
+      "y": 165,
       "width": 26,
       "height": 32,
       "outline": [
@@ -6153,8 +6146,8 @@
     "icon": {
       "name": "TurbanHelmetDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 30,
-      "y": 196,
+      "x": 206,
+      "y": 232,
       "width": 28,
       "height": 30,
       "outline": [
@@ -6215,8 +6208,8 @@
     "icon": {
       "name": "WornBrigandineDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 258,
-      "y": 92,
+      "x": 54,
+      "y": 94,
       "width": 27,
       "height": 34,
       "outline": [
@@ -6277,8 +6270,8 @@
     "icon": {
       "name": "AncientAmberSpyglassDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 100,
-      "y": 289,
+      "x": 181,
+      "y": 325,
       "width": 32,
       "height": 27,
       "outline": [
@@ -6345,8 +6338,8 @@
     "icon": {
       "name": "ArcaneTomeDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 21,
-      "y": 318,
+      "x": 111,
+      "y": 354,
       "width": 32,
       "height": 25,
       "outline": [
@@ -6407,8 +6400,8 @@
     "icon": {
       "name": "BannerOfUnyieldingHatredDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 166,
-      "y": 53,
+      "x": 0,
+      "y": 54,
       "width": 31,
       "height": 37,
       "outline": [
@@ -6475,8 +6468,8 @@
     "icon": {
       "name": "BaryanGlassesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 295,
-      "y": 317,
+      "x": 385,
+      "y": 353,
       "width": 29,
       "height": 26,
       "outline": [
@@ -6537,8 +6530,8 @@
     "icon": {
       "name": "BraidOfTheHornedOnesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 198,
-      "y": 53,
+      "x": 32,
+      "y": 54,
       "width": 26,
       "height": 37,
       "outline": [
@@ -6611,8 +6604,8 @@
     "icon": {
       "name": "DrumOfTheMarchesDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 357,
-      "y": 317,
+      "x": 447,
+      "y": 353,
       "width": 27,
       "height": 26,
       "outline": [
@@ -6673,8 +6666,8 @@
     "icon": {
       "name": "EndlessSamovarDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 30,
-      "y": 92,
+      "x": 330,
+      "y": 129,
       "width": 24,
       "height": 34,
       "outline": [
@@ -6741,8 +6734,8 @@
     "icon": {
       "name": "MechanicalBirdDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 354,
-      "y": 195,
+      "x": 85,
+      "y": 199,
       "width": 24,
       "height": 31,
       "outline": [
@@ -6803,8 +6796,8 @@
     "icon": {
       "name": "NeverendingChestOfGoldDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 393,
-      "y": 258,
+      "x": 88,
+      "y": 264,
       "width": 26,
       "height": 29,
       "outline": [
@@ -6853,8 +6846,8 @@
     "icon": {
       "name": "SkullOfAeonsDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 28,
-      "y": 129,
+      "x": 316,
+      "y": 165,
       "width": 27,
       "height": 32,
       "outline": [
@@ -6921,8 +6914,8 @@
     "icon": {
       "name": "LuteOfPinecoastDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 92,
-      "y": 13,
+      "x": 409,
+      "y": 53,
       "width": 29,
       "height": 38,
       "outline": [
@@ -6989,8 +6982,8 @@
     "icon": {
       "name": "VialOfTheHeartDefault1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 0,
-      "y": 319,
+      "x": 90,
+      "y": 355,
       "width": 20,
       "height": 24,
       "outline": [
@@ -7051,8 +7044,8 @@
     "icon": {
       "name": "TownPortalScrollFlattened1",
       "spriteSheet": "ArtifactAtlas.png",
-      "x": 372,
-      "y": 345,
+      "x": 404,
+      "y": 381,
       "width": 30,
       "height": 23,
       "outline": [
@@ -7105,6 +7098,950 @@
           {
             "x": 15,
             "y": -12.5
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  },
+  {
+    "id": 138,
+    "type": "GateKey",
+    "icon": {
+      "name": "AncientKey",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 415,
+      "y": 324,
+      "width": 26,
+      "height": 28,
+      "outline": [
+        [
+          {
+            "x": -13,
+            "y": -14
+          },
+          {
+            "x": -13,
+            "y": 14
+          },
+          {
+            "x": 13,
+            "y": 14
+          },
+          {
+            "x": 13,
+            "y": -14
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  },
+  {
+    "id": 139,
+    "type": "AshenCowl",
+    "icon": {
+      "name": "AshenCowl",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 235,
+      "y": 231,
+      "width": 29,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -15.5
+          },
+          {
+            "x": -14.5,
+            "y": 15.5
+          },
+          {
+            "x": 14.5,
+            "y": 15.5
+          },
+          {
+            "x": 14.5,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  },
+  {
+    "id": 140,
+    "type": "AshenGloves",
+    "icon": {
+      "name": "AshenGloves",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 310,
+      "y": 383,
+      "width": 31,
+      "height": 21,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -10.5
+          },
+          {
+            "x": -15.5,
+            "y": 10.5
+          },
+          {
+            "x": 15.5,
+            "y": 10.5
+          },
+          {
+            "x": 15.5,
+            "y": -10.5
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  },
+  {
+    "id": 141,
+    "type": "AshenKnell",
+    "icon": {
+      "name": "AshenKnell",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 82,
+      "y": 13,
+      "width": 39,
+      "height": 39,
+      "outline": [
+        [
+          {
+            "x": -19.5,
+            "y": -19.5
+          },
+          {
+            "x": -19.5,
+            "y": 19.5
+          },
+          {
+            "x": 19.5,
+            "y": 19.5
+          },
+          {
+            "x": 19.5,
+            "y": -19.5
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  },
+  {
+    "id": 142,
+    "type": "Dodecahedron",
+    "icon": {
+      "name": "Dodecahedron",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 31,
+      "y": 355,
+      "width": 27,
+      "height": 24,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -12
+          },
+          {
+            "x": -13.5,
+            "y": 12
+          },
+          {
+            "x": 13.5,
+            "y": 12
+          },
+          {
+            "x": 13.5,
+            "y": -12
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  },
+  {
+    "id": 143,
+    "type": "AshenRobes",
+    "icon": {
+      "name": "AshenRobes",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 265,
+      "y": 231,
+      "width": 28,
+      "height": 31,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -15.5
+          },
+          {
+            "x": -14,
+            "y": 15.5
+          },
+          {
+            "x": 14,
+            "y": 15.5
+          },
+          {
+            "x": 14,
+            "y": -15.5
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  },
+  {
+    "id": 144,
+    "type": "MirrorOfTheMoon",
+    "icon": {
+      "name": "MirrorOFTheMoon",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 189,
+      "y": 165,
+      "width": 18,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -9,
+            "y": -16
+          },
+          {
+            "x": -9,
+            "y": 16
+          },
+          {
+            "x": 9,
+            "y": 16
+          },
+          {
+            "x": 9,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1223,
+        "type": "MirrorOfTheMoonArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "type": "CrackedWoodenShield",
+    "icon": {
+      "name": "CrackedWoodenShieldDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 414,
+      "y": 294,
+      "width": 27,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -14.5
+          },
+          {
+            "x": -13.5,
+            "y": 14.5
+          },
+          {
+            "x": 13.5,
+            "y": 14.5
+          },
+          {
+            "x": 13.5,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1246,
+        "type": "CrackedWoodenShieldArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "type": "ThrowingAxe",
+    "icon": {
+      "name": "ThrowingAxeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 407,
+      "y": 165,
+      "width": 26,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -13,
+            "y": -16
+          },
+          {
+            "x": -13,
+            "y": 16
+          },
+          {
+            "x": 13,
+            "y": 16
+          },
+          {
+            "x": 13,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1247,
+        "type": "ThrowingAxeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 147,
+    "type": "MaskOfTheMarshes",
+    "icon": {
+      "name": "SagesMaskDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 288,
+      "y": 165,
+      "width": 27,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -13.5,
+            "y": -16
+          },
+          {
+            "x": -13.5,
+            "y": 16
+          },
+          {
+            "x": 13.5,
+            "y": 16
+          },
+          {
+            "x": 13.5,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1249,
+        "type": "MaskOfTheMarshesArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 148,
+    "type": "SwampSandals",
+    "icon": {
+      "name": "TribalSandalsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 149,
+      "y": 326,
+      "width": 31,
+      "height": 26,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -13
+          },
+          {
+            "x": -15.5,
+            "y": 13
+          },
+          {
+            "x": 15.5,
+            "y": 13
+          },
+          {
+            "x": 15.5,
+            "y": -13
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1250,
+        "type": "SwampSandalsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 150,
+    "type": "LeatherJacket",
+    "icon": {
+      "name": "LeatherJacketDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 93,
+      "y": 165,
+      "width": 30,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -15,
+            "y": -16
+          },
+          {
+            "x": -15,
+            "y": 16
+          },
+          {
+            "x": 15,
+            "y": 16
+          },
+          {
+            "x": 15,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1252,
+        "type": "LeatherJacketArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 151,
+    "type": "LeatherCowl",
+    "icon": {
+      "name": "BattleCowlDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 300,
+      "y": 129,
+      "width": 29,
+      "height": 34,
+      "outline": [
+        [
+          {
+            "x": -14.5,
+            "y": -17
+          },
+          {
+            "x": -14.5,
+            "y": 17
+          },
+          {
+            "x": 14.5,
+            "y": 17
+          },
+          {
+            "x": 14.5,
+            "y": -17
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1253,
+        "type": "LeatherCowlArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 152,
+    "type": "ThighBoots",
+    "icon": {
+      "name": "ThighBootsDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 27,
+      "y": 14,
+      "width": 28,
+      "height": 38,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -19
+          },
+          {
+            "x": -14,
+            "y": 19
+          },
+          {
+            "x": 14,
+            "y": 19
+          },
+          {
+            "x": 14,
+            "y": -19
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1254,
+        "type": "ThighBootsArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 153,
+    "type": "ParryingDagger",
+    "icon": {
+      "name": "ParryingDaggerDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 238,
+      "y": 165,
+      "width": 18,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -9,
+            "y": -16
+          },
+          {
+            "x": -9,
+            "y": 16
+          },
+          {
+            "x": 9,
+            "y": 16
+          },
+          {
+            "x": 9,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1255,
+        "type": "ParryingDaggerArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 154,
+    "type": "BroadDagger",
+    "icon": {
+      "name": "BroadDaggerDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 396,
+      "y": 198,
+      "width": 32,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -16,
+            "y": -16
+          },
+          {
+            "x": -16,
+            "y": 16
+          },
+          {
+            "x": 16,
+            "y": 16
+          },
+          {
+            "x": 16,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1256,
+        "type": "BroadDaggerArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 155,
+    "type": "BaryanHeaddress",
+    "icon": {
+      "name": "BaryanTurbanDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 339,
+      "y": 198,
+      "width": 28,
+      "height": 32,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -16
+          },
+          {
+            "x": -14,
+            "y": 16
+          },
+          {
+            "x": 14,
+            "y": 16
+          },
+          {
+            "x": 14,
+            "y": -16
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1257,
+        "type": "BaryanHeaddressArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 156,
+    "type": "OldSword",
+    "icon": {
+      "name": "OldSwordDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 88,
+      "y": 130,
+      "width": 31,
+      "height": 33,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -16.5
+          },
+          {
+            "x": -15.5,
+            "y": 16.5
+          },
+          {
+            "x": 15.5,
+            "y": 16.5
+          },
+          {
+            "x": 15.5,
+            "y": -16.5
+          }
+        ]
+      ]
+    },
+    "bacterias": []
+  },
+  {
+    "id": 28,
+    "type": "AncientSteampipe",
+    "icon": {
+      "name": "AncientSteampipeDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 410,
+      "y": 263,
+      "width": 31,
+      "height": 30,
+      "outline": [
+        [
+          {
+            "x": -15.5,
+            "y": -15
+          },
+          {
+            "x": -15.5,
+            "y": 15
+          },
+          {
+            "x": 15.5,
+            "y": 15
+          },
+          {
+            "x": 15.5,
+            "y": -15
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 492,
+        "type": "AncientSteampipeArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 10,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "Permanent",
+          "duration": 0
+        }
+      }
+    ]
+  },
+  {
+    "id": 157,
+    "type": "Error",
+    "icon": {
+      "name": "CategoryIconMissing",
+      "spriteSheet": "LevelEditorUI.png",
+      "x": 742,
+      "y": 793,
+      "width": 64,
+      "height": 64,
+      "outline": [
+        [
+          {
+            "x": -32,
+            "y": -32
+          },
+          {
+            "x": -32,
+            "y": 32
+          },
+          {
+            "x": 32,
+            "y": 32
+          },
+          {
+            "x": 32,
+            "y": -32
           }
         ]
       ]
