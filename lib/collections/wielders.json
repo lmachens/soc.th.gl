@@ -4395,7 +4395,18 @@
             "type": 8,
             "modifier": "TroopRangedOffense",
             "amountToAdd": 15,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -6117,13 +6128,35 @@
             "type": 5,
             "modifier": "TroopMeleeOffense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           },
           {
             "type": 8,
             "modifier": "TroopRangedOffense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -7873,7 +7906,18 @@
             "type": 2,
             "modifier": "TroopDefense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -12006,7 +12050,26 @@
             "type": 13,
             "modifier": "TroopHealth",
             "amountToAdd": 1,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 1,
+            "filters": [
+              {
+                "filterType": 2,
+                "troop": {
+                  "faction": "Loth",
+                  "languageKey": "Rats",
+                  "size": 0
+                }
+              },
+              {
+                "filterType": 2,
+                "troop": {
+                  "faction": "Loth",
+                  "languageKey": "PlagueRats",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -14413,7 +14476,18 @@
             "type": 5,
             "modifier": "TroopMeleeOffense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -15266,7 +15340,18 @@
             "type": 2,
             "modifier": "TroopDefense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -16132,7 +16217,26 @@
             "type": 1,
             "modifier": "TroopDamage",
             "amountToAdd": 2,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 1,
+            "filters": [
+              {
+                "filterType": 2,
+                "troop": {
+                  "faction": "Barya",
+                  "languageKey": "Dreath",
+                  "size": 0
+                }
+              },
+              {
+                "filterType": 2,
+                "troop": {
+                  "faction": "Barya",
+                  "languageKey": "DireDreath",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -16842,7 +16946,18 @@
             "type": 18,
             "modifier": "TroopRangedRange",
             "amountToAdd": 1,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -18645,7 +18760,18 @@
             "type": 8,
             "modifier": "TroopRangedOffense",
             "amountToAdd": 15,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -21006,7 +21132,18 @@
             "type": 5,
             "modifier": "TroopMeleeOffense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -21872,7 +22009,18 @@
             "type": 2,
             "modifier": "TroopDefense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -23599,7 +23747,26 @@
             "type": 1,
             "modifier": "TroopDamage",
             "amountToAdd": 1,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 1,
+            "filters": [
+              {
+                "filterType": 2,
+                "troop": {
+                  "faction": "Rana",
+                  "languageKey": "Hunter",
+                  "size": 0
+                }
+              },
+              {
+                "filterType": 2,
+                "troop": {
+                  "faction": "Rana",
+                  "languageKey": "StormGuard",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -26899,7 +27066,26 @@
             "type": 6,
             "modifier": "TroopMovement",
             "amountToAdd": 1,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 1,
+            "filters": [
+              {
+                "filterType": 2,
+                "troop": {
+                  "faction": "Rana",
+                  "languageKey": "Ravager",
+                  "size": 0
+                }
+              },
+              {
+                "filterType": 2,
+                "troop": {
+                  "faction": "Rana",
+                  "languageKey": "RiderOfTheSwamp",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -28615,13 +28801,35 @@
             "type": 5,
             "modifier": "TroopMeleeOffense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           },
           {
             "type": 8,
             "modifier": "TroopRangedOffense",
             "amountToAdd": 20,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],
@@ -29543,7 +29751,18 @@
             "type": 18,
             "modifier": "TroopRangedRange",
             "amountToAdd": 1,
-            "applicationType": 0
+            "applicationType": 0,
+            "filterEvaluation": 0,
+            "filters": [
+              {
+                "filterType": 3,
+                "troop": {
+                  "faction": "Arleon",
+                  "languageKey": "Archer",
+                  "size": 0
+                }
+              }
+            ]
           }
         ],
         "resourcesIncome": [],

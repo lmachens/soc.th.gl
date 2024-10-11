@@ -201,12 +201,29 @@ const getBacteria = ({ bacteriaType, duration }) => {
       result.auraSettings.bacteriaToAdd = null;
     }
     result.modifierData =
-      bacteria.modifierData?.map((modifier) => ({
-        type: modifier.type,
-        modifier: modifier.modifier,
-        amountToAdd: modifier.amountToAdd,
-        applicationType: modifier.applicationType,
-      })) || [];
+      bacteria.modifierData?.map((modifier) => {
+        const result = {
+          type: modifier.type,
+          modifier: modifier.modifier,
+          amountToAdd: modifier.amountToAdd,
+          applicationType: modifier.applicationType,
+        };
+        if (modifier.filters?.length) {
+          result.filterEvaluation = modifier.filterEvaluation;
+          result.filters = modifier.filters.map((filter) => {
+            const troop = getUnit(filter.troop);
+            return {
+              filterType: filter.filterType,
+              troop: {
+                faction: troop.faction,
+                languageKey: troop.languageKey,
+                size: filter.troop.size,
+              },
+            };
+          });
+        }
+        return result;
+      }) || [];
   }
 
   if (bacteria.settings?.bacterias) {
@@ -248,7 +265,10 @@ const getSimpleSkill = ({ skill, level }) => {
 
 const getUnit = ({ factionIndex, unitIndex, upgradeType }) => {
   const unitType = UNIT_TYPES[upgradeType];
-  return factions[factionIndex].units[unitIndex][unitType];
+  return {
+    ...factions[factionIndex].units[unitIndex][unitType],
+    faction: factions[factionIndex].languageKey,
+  };
 };
 const wielders = factionsSrc
   .map((factionSrc) =>

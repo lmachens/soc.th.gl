@@ -3482,7 +3482,18 @@
               "type": 8,
               "modifier": "TroopRangedOffense",
               "amountToAdd": 5,
-              "applicationType": 0
+              "applicationType": 0,
+              "filterEvaluation": 0,
+              "filters": [
+                {
+                  "filterType": 3,
+                  "troop": {
+                    "faction": "Arleon",
+                    "languageKey": "Archer",
+                    "size": 0
+                  }
+                }
+              ]
             }
           ],
           "resourcesIncome": [],
@@ -6264,7 +6275,18 @@
               "type": 8,
               "modifier": "TroopRangedOffense",
               "amountToAdd": 5,
-              "applicationType": 0
+              "applicationType": 0,
+              "filterEvaluation": 0,
+              "filters": [
+                {
+                  "filterType": 3,
+                  "troop": {
+                    "faction": "Arleon",
+                    "languageKey": "Archer",
+                    "size": 0
+                  }
+                }
+              ]
             }
           ],
           "resourcesIncome": [],
@@ -20649,7 +20671,18 @@
               "type": 8,
               "modifier": "TroopRangedOffense",
               "amountToAdd": 5,
-              "applicationType": 0
+              "applicationType": 0,
+              "filterEvaluation": 0,
+              "filters": [
+                {
+                  "filterType": 3,
+                  "troop": {
+                    "faction": "Arleon",
+                    "languageKey": "Archer",
+                    "size": 0
+                  }
+                }
+              ]
             }
           ],
           "resourcesIncome": [],
@@ -35839,7 +35872,18 @@
               "type": 8,
               "modifier": "TroopRangedOffense",
               "amountToAdd": 5,
-              "applicationType": 0
+              "applicationType": 0,
+              "filterEvaluation": 0,
+              "filters": [
+                {
+                  "filterType": 3,
+                  "troop": {
+                    "faction": "Arleon",
+                    "languageKey": "Archer",
+                    "size": 0
+                  }
+                }
+              ]
             }
           ],
           "resourcesIncome": [],

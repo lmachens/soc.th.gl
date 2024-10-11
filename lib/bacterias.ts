@@ -29,6 +29,16 @@ export type PureBacteria = {
     modifier: string;
     amountToAdd: number;
     applicationType: number;
+    filterEvaluation?: number;
+    filters?: {
+      filterType: number;
+      troop: {
+        faction: string;
+        languageKey: string;
+        size: number;
+      };
+      status: number;
+    }[];
   }[];
   resourcesIncome: {
     type: string;
@@ -119,16 +129,36 @@ export const getLocaleBacteria = (
     bacteriaType: bacteria.bacteriaType,
     name,
     description,
-    modifierData: modifierData.map((modifier) => ({
-      type: modifier.type,
-      description: getTerm(
-        `Modifiers/${modifier.modifier.replaceAll("Troop", "")}/Description`,
-        locale,
-        modifier.amountToAdd,
-        modifier.applicationType === 1 ||
-          PERCENTAGE_BASED_MODIFIERS.includes(modifier.modifier)
-      ),
-    })),
+    modifierData: modifierData.map((modifier) => {
+      let append = "";
+      if (modifier.modifier.includes("Troop") && modifier.filters?.length) {
+        append +=
+          " to " +
+          modifier.filters
+            .map((filter) => {
+              return getTerm(
+                `${filter.troop.faction}/${filter.troop.languageKey}/Name`,
+                locale,
+                filter.troop.size
+              );
+            })
+            .join(", ");
+      }
+      return {
+        type: modifier.type,
+        description:
+          getTerm(
+            `Modifiers/${modifier.modifier.replaceAll(
+              "Troop",
+              ""
+            )}/Description`,
+            locale,
+            modifier.amountToAdd,
+            modifier.applicationType === 1 ||
+              PERCENTAGE_BASED_MODIFIERS.includes(modifier.modifier)
+          ) + append,
+      };
+    }),
     resourcesIncome: bacteria.resourcesIncome.map((resourceIncome) => ({
       type: resourceIncome.type,
       name: getTerm(`Common/Resource/${resourceIncome.type}`, locale),

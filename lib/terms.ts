@@ -46,9 +46,9 @@ export const getSiteTerm = (term: string, locale: string) => {
     siteTerms[lowerCaseTerm]?.[locale] || siteTerms[lowerCaseTerm]?.en;
   if (!value) {
     if (process.env.NODE_ENV === "development") {
-      console.warn(
-        `[getSiteTerm] Can not find ${term} (${lowerCaseTerm}) - ${locale}`
-      );
+      // console.warn(
+      //   `[getSiteTerm] Can not find ${term} (${lowerCaseTerm}) - ${locale}`
+      // );
     }
     value = "";
   }
@@ -76,9 +76,9 @@ export const getTerm = (
 
   if (!result) {
     if (process.env.NODE_ENV === "development") {
-      console.warn(
-        `[getTerm] Can not find ${term} (${lowerCaseTerm}) - ${locale}`
-      );
+      // console.warn(
+      //   `[getTerm] Can not find ${term} (${lowerCaseTerm}) - ${locale}`
+      // );
     }
     result = "";
   }

@@ -2240,13 +2240,35 @@
                 "type": 2,
                 "modifier": "TroopDefense",
                 "amountToAdd": 5,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               },
               {
                 "type": 34,
                 "modifier": "TroopSpellDamageResistance",
                 "amountToAdd": 5,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               }
             ],
             "resourcesIncome": [],
@@ -2477,13 +2499,35 @@
                 "type": 2,
                 "modifier": "TroopDefense",
                 "amountToAdd": 10,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               },
               {
                 "type": 34,
                 "modifier": "TroopSpellDamageResistance",
                 "amountToAdd": 10,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               }
             ],
             "resourcesIncome": [],
@@ -10865,7 +10909,18 @@
                 "type": 3,
                 "modifier": "TroopInitiative",
                 "amountToAdd": 5,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               }
             ],
             "resourcesIncome": [],
@@ -11068,19 +11123,52 @@
                 "type": 3,
                 "modifier": "TroopInitiative",
                 "amountToAdd": 5,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               },
               {
                 "type": 5,
                 "modifier": "TroopMeleeOffense",
                 "amountToAdd": 5,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               },
               {
                 "type": 8,
                 "modifier": "TroopRangedOffense",
                 "amountToAdd": 5,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               }
             ],
             "resourcesIncome": [],
@@ -17722,13 +17810,35 @@
                 "type": 2,
                 "modifier": "TroopDefense",
                 "amountToAdd": -10,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 1,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               },
               {
                 "type": 3,
                 "modifier": "TroopInitiative",
                 "amountToAdd": -5,
-                "applicationType": 0
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 1,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    }
+                  }
+                ]
               }
             ],
             "resourcesIncome": [],
