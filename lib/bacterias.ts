@@ -132,7 +132,6 @@ export const getLocaleBacteria = (
     modifierData: modifierData.map((modifier) => {
       let append = "";
       if (modifier.modifier.includes("Troop") && modifier.filters?.length) {
-        console.log(modifier.filters);
         append +=
           " to " +
           modifier.filters

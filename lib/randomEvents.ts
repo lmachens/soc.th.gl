@@ -235,7 +235,9 @@ export const getRandomEvent = (
           // There is no RandomTroopInFaction type right now
           break;
         case "Bacteria":
-          result = getLocaleBacteria(reward.bacteriaReward, locale);
+          if (reward.bacteriaReward) {
+            result = getLocaleBacteria(reward.bacteriaReward, locale);
+          }
           break;
         case "Experience":
           result = getTerm(`MapEntities/Generic/Reward/Experience`, locale, [
