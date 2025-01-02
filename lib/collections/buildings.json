@@ -5786,9 +5786,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 8,
-                    "modifier": "TroopRangedOffense",
-                    "amountToAdd": 10,
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -5832,51 +5832,26 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 936,
-                "type": "ArleonGrandArmoryMilitiaBacteria3",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 1,
-                    "modifier": "TroopDamage",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Arleon",
-                          "languageKey": "Militia",
-                          "size": 0
-                        },
-                        "status": "Faey"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Arleon",
-                          "languageKey": "Sapper",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1407,
+                "type": "ResearchMobileMilitia",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 1170,
+                      "type": "TraitMobile",
+                      "modifierData": [],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -6003,9 +5978,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 13,
+                    "modifier": "TroopHealth",
+                    "amountToAdd": 5,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -6161,7 +6136,7 @@
                   {
                     "type": 1,
                     "modifier": "TroopDamage",
-                    "amountToAdd": 1,
+                    "amountToAdd": 2,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -6281,9 +6256,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 1,
-                    "modifier": "TroopDamage",
-                    "amountToAdd": 2,
+                    "type": 13,
+                    "modifier": "TroopHealth",
+                    "amountToAdd": 5,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -6464,9 +6439,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 8,
-                    "modifier": "TroopRangedOffense",
-                    "amountToAdd": 10,
+                    "type": 25,
+                    "modifier": "TroopEssenceChaos",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -6525,9 +6500,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 25,
-                    "modifier": "TroopEssenceChaos",
-                    "amountToAdd": 1,
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 2,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -6681,9 +6656,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 10,
+                    "type": 23,
+                    "modifier": "TroopEssenceOrder",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -6727,51 +6702,76 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 933,
-                "type": "ArleonGrandArmoryKnightBacteria3",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 23,
-                    "modifier": "TroopEssenceOrder",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Arleon",
-                          "languageKey": "Knight",
-                          "size": 0
-                        },
-                        "status": "Faey"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Arleon",
-                          "languageKey": "FistOfOrder",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1403,
+                "type": "ResearchInspiringKnights",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 62,
+                      "type": "TraitInspiring",
+                      "customEffect": "Aura",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": {
+                          "bacteriaType": 63,
+                          "type": "TraitInspired",
+                          "customEffect": "None",
+                          "customEffectValue": 0,
+                          "secondaryCustomEffectValue": 0,
+                          "auraSettings": {
+                            "recipients": "Friends",
+                            "hexRadius": 1,
+                            "bacteriaToAdd": null,
+                            "isStackable": 1,
+                            "isPassable": 1,
+                            "isSingleShot": 0
+                          },
+                          "modifierData": [
+                            {
+                              "type": 5,
+                              "modifier": "TroopMeleeOffense",
+                              "amountToAdd": 5,
+                              "applicationType": 0
+                            },
+                            {
+                              "type": 8,
+                              "modifier": "TroopRangedOffense",
+                              "amountToAdd": 5,
+                              "applicationType": 0
+                            },
+                            {
+                              "type": 3,
+                              "modifier": "TroopInitiative",
+                              "amountToAdd": 5,
+                              "applicationType": 0
+                            }
+                          ],
+                          "resourcesIncome": [],
+                          "duration": {
+                            "type": "EntireBattle",
+                            "duration": 0
+                          }
+                        },
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -7110,9 +7110,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 23,
+                    "modifier": "TroopEssenceOrder",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -7160,51 +7160,44 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 930,
-                "type": "ArleonGrandArmoryHornedOneBacteria3",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 23,
-                    "modifier": "TroopEssenceOrder",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Arleon",
-                          "languageKey": "HornedOne",
-                          "size": 0
-                        },
-                        "status": "Faey"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Arleon",
-                          "languageKey": "QueensGuard",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1409,
+                "type": "ResearchShieldedHornedOnes",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 800,
+                      "type": "TraitShielded",
+                      "customEffect": "None",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": null,
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [
+                        {
+                          "type": 7,
+                          "modifier": "TroopRangedAttackResistance",
+                          "amountToAdd": 50,
+                          "applicationType": 0
+                        }
+                      ],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -7366,9 +7359,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 24,
+                    "modifier": "TroopEssenceCreation",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -7416,51 +7409,44 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 921,
-                "type": "ArleonGrandArmoryFaeyNobleBacteria3",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 24,
-                    "modifier": "TroopEssenceCreation",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Arleon",
-                          "languageKey": "FaeyNoble",
-                          "size": 0
-                        },
-                        "status": "Faey"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Arleon",
-                          "languageKey": "FaeyQueen",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1405,
+                "type": "ResearchMagicResistantNobles",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 1161,
+                      "type": "TraitMagicResistance",
+                      "customEffect": "None",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": null,
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [
+                        {
+                          "type": 34,
+                          "modifier": "TroopSpellDamageResistance",
+                          "amountToAdd": 50,
+                          "applicationType": 0
+                        }
+                      ],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -9352,9 +9338,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 8,
-                    "modifier": "TroopRangedOffense",
-                    "amountToAdd": 10,
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -9657,9 +9643,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 10,
+                    "type": 13,
+                    "modifier": "TroopHealth",
+                    "amountToAdd": 3,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -9718,9 +9704,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 13,
-                    "modifier": "TroopHealth",
-                    "amountToAdd": 2,
+                    "type": 27,
+                    "modifier": "TroopEssenceDestruction",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -10118,9 +10104,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 8,
-                    "modifier": "TroopRangedOffense",
-                    "amountToAdd": 10,
+                    "type": 23,
+                    "modifier": "TroopEssenceOrder",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -10164,51 +10150,44 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 1087,
-                "type": "BaryaFoundryHellbreath3Bacteria",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 23,
-                    "modifier": "TroopEssenceOrder",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Barya",
-                          "languageKey": "Hellbreath",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Barya",
-                          "languageKey": "Hellroar",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1408,
+                "type": "ResearchShieldedHellbreath",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 800,
+                      "type": "TraitShielded",
+                      "customEffect": "None",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": null,
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [
+                        {
+                          "type": 7,
+                          "modifier": "TroopRangedAttackResistance",
+                          "amountToAdd": 50,
+                          "applicationType": 0
+                        }
+                      ],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -10335,9 +10314,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 13,
+                    "modifier": "TroopHealth",
+                    "amountToAdd": 3,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -10537,51 +10516,70 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 1080,
-                "type": "BaryaFoundryBrute2Bacteria",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 10,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Barya",
-                          "languageKey": "Brute",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Barya",
-                          "languageKey": "ScarredBrute",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1411,
+                "type": "ResearchIntimidatingBrute",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 797,
+                      "type": "TraitIntimidating",
+                      "customEffect": "Aura",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Enemies",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": {
+                          "bacteriaType": 796,
+                          "type": "TraitIntimidated",
+                          "customEffect": "None",
+                          "customEffectValue": 0,
+                          "secondaryCustomEffectValue": 0,
+                          "auraSettings": {
+                            "recipients": "Friends",
+                            "hexRadius": 1,
+                            "bacteriaToAdd": null,
+                            "isStackable": 1,
+                            "isPassable": 1,
+                            "isSingleShot": 0
+                          },
+                          "modifierData": [
+                            {
+                              "type": 2,
+                              "modifier": "TroopDefense",
+                              "amountToAdd": -10,
+                              "applicationType": 0
+                            },
+                            {
+                              "type": 3,
+                              "modifier": "TroopInitiative",
+                              "amountToAdd": -10,
+                              "applicationType": 0
+                            }
+                          ],
+                          "resourcesIncome": [],
+                          "duration": {
+                            "type": "EntireBattle",
+                            "duration": 0
+                          }
+                        },
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -10765,9 +10763,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 10,
+                    "type": 6,
+                    "modifier": "TroopMovement",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -10826,8 +10824,8 @@
                 },
                 "modifierData": [
                   {
-                    "type": 6,
-                    "modifier": "TroopMovement",
+                    "type": 27,
+                    "modifier": "TroopEssenceDestruction",
                     "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
@@ -10921,9 +10919,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 10,
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -20576,9 +20574,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 3,
+                    "modifier": "TroopInitiative",
+                    "amountToAdd": 5,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -20622,51 +20620,27 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 982,
-                "type": "LothTheUnseenSocietyCultist3Bacteria",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 3,
-                    "modifier": "TroopInitiative",
-                    "amountToAdd": 5,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Cultist",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Oathsinger",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1400,
+                "type": "ResearchBackstabbingCultists",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 801,
+                      "type": "TraitBackstabber",
+                      "restriction": "CantBeRetaliatedOn",
+                      "modifierData": [],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -20732,9 +20706,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 8,
-                    "modifier": "TroopRangedOffense",
-                    "amountToAdd": 10,
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -20793,11 +20767,38 @@
                 },
                 "modifierData": [
                   {
-                    "type": 1,
-                    "modifier": "TroopDamage",
+                    "type": 18,
+                    "modifier": "TroopRangedRange",
                     "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
+                    "filters": [
+                      {
+                        "filterType": 2,
+                        "troop": {
+                          "faction": "Loth",
+                          "languageKey": "Toxicologist",
+                          "size": 0
+                        },
+                        "status": "Human"
+                      },
+                      {
+                        "filterType": 2,
+                        "troop": {
+                          "faction": "Loth",
+                          "languageKey": "Bane",
+                          "size": 0
+                        },
+                        "status": "Human"
+                      }
+                    ]
+                  },
+                  {
+                    "type": 39,
+                    "modifier": "TroopDeadlyRange",
+                    "amountToAdd": 1,
+                    "applicationType": 0,
+                    "filterEvaluation": 0,
                     "filters": [
                       {
                         "filterType": 2,
@@ -20839,78 +20840,37 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 1000,
-                "type": "LothTheUnseenSocietyToxicologist3Bacteria",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 18,
-                    "modifier": "TroopRangedRange",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Toxicologist",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Bane",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  },
-                  {
-                    "type": 39,
-                    "modifier": "TroopDeadlyRange",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Toxicologist",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Bane",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1412,
+                "type": "ResearchWaitToxigologist",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 1413,
+                      "type": "TroopAbilityWait",
+                      "customEffect": "None",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": null,
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -20976,9 +20936,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 27,
-                    "modifier": "TroopEssenceDestruction",
-                    "amountToAdd": 1,
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 3,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -21037,9 +20997,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 3,
+                    "modifier": "TroopInitiative",
+                    "amountToAdd": 5,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -21083,51 +21043,76 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 994,
-                "type": "LothTheUnseenSocietyScholar3Bacteria",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 3,
-                    "modifier": "TroopInitiative",
-                    "amountToAdd": 5,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "AurelianScholar",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Necromancer",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1404,
+                "type": "ResearchInspiringScholars",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 62,
+                      "type": "TraitInspiring",
+                      "customEffect": "Aura",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": {
+                          "bacteriaType": 63,
+                          "type": "TraitInspired",
+                          "customEffect": "None",
+                          "customEffectValue": 0,
+                          "secondaryCustomEffectValue": 0,
+                          "auraSettings": {
+                            "recipients": "Friends",
+                            "hexRadius": 1,
+                            "bacteriaToAdd": null,
+                            "isStackable": 1,
+                            "isPassable": 1,
+                            "isSingleShot": 0
+                          },
+                          "modifierData": [
+                            {
+                              "type": 5,
+                              "modifier": "TroopMeleeOffense",
+                              "amountToAdd": 5,
+                              "applicationType": 0
+                            },
+                            {
+                              "type": 8,
+                              "modifier": "TroopRangedOffense",
+                              "amountToAdd": 5,
+                              "applicationType": 0
+                            },
+                            {
+                              "type": 3,
+                              "modifier": "TroopInitiative",
+                              "amountToAdd": 5,
+                              "applicationType": 0
+                            }
+                          ],
+                          "resourcesIncome": [],
+                          "duration": {
+                            "type": "EntireBattle",
+                            "duration": 0
+                          }
+                        },
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -21193,9 +21178,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 13,
+                    "modifier": "TroopHealth",
+                    "amountToAdd": 3,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -21254,9 +21239,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 10,
+                    "type": 6,
+                    "modifier": "TroopMovement",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -21300,51 +21285,44 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 988,
-                "type": "LothTheUnseenSocietyOathbound3Bacteria",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 6,
-                    "modifier": "TroopMovement",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Oathbound",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Legionnaire",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1406,
+                "type": "ResearchMagicResistentOathbound",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 1161,
+                      "type": "TraitMagicResistance",
+                      "customEffect": "None",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": null,
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [
+                        {
+                          "type": 34,
+                          "modifier": "TroopSpellDamageResistance",
+                          "amountToAdd": 50,
+                          "applicationType": 0
+                        }
+                      ],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -21517,51 +21495,50 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 997,
-                "type": "LothTheUnseenSocietySpectre3Bacteria",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 26,
-                    "modifier": "TroopEssenceArcana",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Spectre",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Loth",
-                          "languageKey": "Seneschal",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1401,
+                "type": "ResearchEtherealSpectres",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 1364,
+                      "type": "TraitEthereal",
+                      "customEffect": "None",
+                      "customEffectValue": 0,
+                      "secondaryCustomEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": null,
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [
+                        {
+                          "type": 7,
+                          "modifier": "TroopRangedAttackResistance",
+                          "amountToAdd": 50,
+                          "applicationType": 0
+                        },
+                        {
+                          "type": 4,
+                          "modifier": "TroopMeleeAttackResistance",
+                          "amountToAdd": 50,
+                          "applicationType": 0
+                        }
+                      ],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -22033,49 +22010,7 @@
                 "amount": 10
               }
             ],
-            "bacterias": [
-              {
-                "bacteriaType": 1260,
-                "type": "ResearchLungingRisen",
-                "modifierData": [],
-                "resourcesIncome": [],
-                "duration": {
-                  "type": "Permanent"
-                },
-                "settings": {
-                  "bacterias": [
-                    {
-                      "bacteriaType": 1214,
-                      "type": "TroopAbilityLunge",
-                      "customEffect": "None",
-                      "customEffectValue": 0,
-                      "secondaryCustomEffectValue": 0,
-                      "auraSettings": {
-                        "recipients": "Friends",
-                        "hexRadius": 1,
-                        "bacteriaToAdd": null,
-                        "isStackable": 1,
-                        "isPassable": 1,
-                        "isSingleShot": 0
-                      },
-                      "modifierData": [
-                        {
-                          "type": 5,
-                          "modifier": "TroopMeleeOffense",
-                          "amountToAdd": 10,
-                          "applicationType": 0
-                        }
-                      ],
-                      "resourcesIncome": [],
-                      "duration": {
-                        "type": "Permanent",
-                        "duration": 0
-                      }
-                    }
-                  ]
-                }
-              }
-            ]
+            "bacterias": []
           },
           {
             "id": 571,
@@ -23483,7 +23418,7 @@
             "factionKey": "Rana",
             "upgradeType": "vanilla",
             "unitKey": "Hunter",
-            "size": 4,
+            "size": 3,
             "requiredResearch": [],
             "initialInstantIncome": 5
           }
@@ -23497,7 +23432,7 @@
             "factionKey": "Rana",
             "upgradeType": "upgraded",
             "unitKey": "StormGuard",
-            "size": 4,
+            "size": 3,
             "requiredResearch": [],
             "initialInstantIncome": 0
           }
@@ -25495,9 +25430,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 8,
-                    "modifier": "TroopRangedOffense",
-                    "amountToAdd": 10,
+                    "type": 13,
+                    "modifier": "TroopHealth",
+                    "amountToAdd": 3,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -25922,9 +25857,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 13,
+                    "modifier": "TroopHealth",
+                    "amountToAdd": 5,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -25968,51 +25903,26 @@
             ],
             "bacterias": [
               {
-                "bacteriaType": 1029,
-                "type": "RanaDragonMonolithChelunBacteria3",
-                "customEffect": "None",
-                "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
-                "auraSettings": {
-                  "recipients": "Friends",
-                  "hexRadius": 1,
-                  "bacteriaToAdd": null,
-                  "isStackable": 1,
-                  "isPassable": 1,
-                  "isSingleShot": 0
-                },
-                "modifierData": [
-                  {
-                    "type": 27,
-                    "modifier": "TroopEssenceDestruction",
-                    "amountToAdd": 1,
-                    "applicationType": 0,
-                    "filterEvaluation": 1,
-                    "filters": [
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Rana",
-                          "languageKey": "Chelun",
-                          "size": 0
-                        },
-                        "status": "Faey"
-                      },
-                      {
-                        "filterType": 2,
-                        "troop": {
-                          "faction": "Rana",
-                          "languageKey": "ChelunElder",
-                          "size": 0
-                        },
-                        "status": "Human"
-                      }
-                    ]
-                  }
-                ],
+                "bacteriaType": 1402,
+                "type": "ResearchFrontlinefighterChelun",
+                "modifierData": [],
                 "resourcesIncome": [],
                 "duration": {
                   "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 1179,
+                      "type": "TraitFrontLineFighter",
+                      "modifierData": [],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
                 }
               }
             ]
@@ -26347,9 +26257,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 10,
+                    "type": 6,
+                    "modifier": "TroopMovement",
+                    "amountToAdd": 1,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -26408,9 +26318,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 6,
-                    "modifier": "TroopMovement",
-                    "amountToAdd": 1,
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 10,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -26720,9 +26630,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 5,
-                    "modifier": "TroopMeleeOffense",
-                    "amountToAdd": 10,
+                    "type": 1,
+                    "modifier": "TroopDamage",
+                    "amountToAdd": 2,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [
@@ -26937,9 +26847,9 @@
                 },
                 "modifierData": [
                   {
-                    "type": 2,
-                    "modifier": "TroopDefense",
-                    "amountToAdd": 10,
+                    "type": 13,
+                    "modifier": "TroopHealth",
+                    "amountToAdd": 5,
                     "applicationType": 0,
                     "filterEvaluation": 1,
                     "filters": [

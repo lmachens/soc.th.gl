@@ -9853,14 +9853,7 @@
               {
                 "skill": 4,
                 "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 8,
-            "requiresSkill": 1,
-            "requirementType": 0,
-            "requiredSkills": [
+              },
               {
                 "skill": 10,
                 "level": 1
@@ -9944,6 +9937,17 @@
             "requiredSkills": [
               {
                 "skill": 36,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 26,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 17,
                 "level": 1
               }
             ]
@@ -10103,7 +10107,7 @@
             ]
           },
           {
-            "skill": 7,
+            "skill": 45,
             "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
@@ -10114,49 +10118,12 @@
             ]
           },
           {
-            "skill": 45,
-            "requiresSkill": 1,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 7,
-                "level": 1
-              }
-            ]
-          },
-          {
             "skill": 25,
             "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
-                "skill": 7,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 11,
-            "requiresSkill": 1,
-            "requirementType": 1,
-            "requiredSkills": [
-              {
-                "skill": 45,
-                "level": 1
-              },
-              {
-                "skill": 25,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 9,
-            "requiresSkill": 1,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 11,
+                "skill": 8,
                 "level": 1
               }
             ]
@@ -10358,7 +10325,7 @@
             ]
           },
           {
-            "skill": 7,
+            "skill": 45,
             "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
@@ -10369,23 +10336,27 @@
             ]
           },
           {
-            "skill": 45,
-            "requiresSkill": 1,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 7,
-                "level": 1
-              }
-            ]
-          },
-          {
             "skill": 25,
             "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
-                "skill": 7,
+                "skill": 8,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 7,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 25,
+                "level": 1
+              },
+              {
+                "skill": 45,
                 "level": 1
               }
             ]
@@ -10511,23 +10482,34 @@
             "requiredSkills": []
           },
           {
-            "skill": 40,
-            "requiresSkill": 0,
+            "skill": 15,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
-                "skill": 3,
+                "skill": 18,
                 "level": 1
               },
               {
-                "skill": 36,
+                "skill": 16,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 40,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 24,
                 "level": 1
               }
             ]
           },
           {
             "skill": 23,
-            "requiresSkill": 0,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
@@ -10557,38 +10539,60 @@
             ]
           },
           {
-            "skill": 35,
-            "requiresSkill": 0,
+            "skill": 41,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
-                "skill": 2,
+                "skill": 8,
                 "level": 1
               }
             ]
           },
           {
-            "skill": 15,
-            "requiresSkill": 0,
+            "skill": 35,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
-                "skill": 1,
+                "skill": 4,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 39,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 41,
                 "level": 1
               },
               {
-                "skill": 18,
+                "skill": 7,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 19,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 17,
                 "level": 1
               },
               {
-                "skill": 16,
+                "skill": 23,
                 "level": 1
               }
             ]
           },
           {
             "skill": 32,
-            "requiresSkill": 0,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
@@ -10597,43 +10601,6 @@
               },
               {
                 "skill": 40,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 41,
-            "requiresSkill": 0,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 23,
-                "level": 1
-              },
-              {
-                "skill": 8,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 39,
-            "requiresSkill": 0,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 41,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 19,
-            "requiresSkill": 0,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 20,
                 "level": 1
               }
             ]
@@ -11000,49 +10967,12 @@
             ]
           },
           {
-            "skill": 7,
-            "requiresSkill": 1,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 10,
-                "level": 1
-              }
-            ]
-          },
-          {
             "skill": 25,
             "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
                 "skill": 10,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 9,
-            "requiresSkill": 1,
-            "requirementType": 1,
-            "requiredSkills": [
-              {
-                "skill": 7,
-                "level": 1
-              },
-              {
-                "skill": 25,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 11,
-            "requiresSkill": 1,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 9,
                 "level": 1
               }
             ]
@@ -11064,29 +10994,82 @@
         "levelInterval": 8,
         "skills": [
           {
-            "skill": 16,
+            "skill": 19,
             "requiresSkill": 0,
             "requirementType": 0,
-            "requiredSkills": []
+            "requiredSkills": [
+              {
+                "skill": 20,
+                "level": 1
+              }
+            ]
           },
           {
-            "skill": 40,
-            "requiresSkill": 0,
+            "skill": 35,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 5,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 16,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
                 "skill": 3,
                 "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 41,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 39,
+                "level": 1
               },
               {
-                "skill": 36,
+                "skill": 10,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 15,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 1,
+                "level": 1
+              },
+              {
+                "skill": 4,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 40,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 24,
                 "level": 1
               }
             ]
           },
           {
             "skill": 23,
-            "requiresSkill": 0,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
@@ -11116,81 +11099,25 @@
             ]
           },
           {
-            "skill": 35,
-            "requiresSkill": 0,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 2,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 15,
-            "requiresSkill": 0,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 1,
-                "level": 1
-              },
-              {
-                "skill": 18,
-                "level": 1
-              },
-              {
-                "skill": 16,
-                "level": 1
-              }
-            ]
-          },
-          {
             "skill": 32,
-            "requiresSkill": 0,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
                 "skill": 1,
-                "level": 1
-              },
-              {
-                "skill": 40,
-                "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 41,
-            "requiresSkill": 0,
-            "requirementType": 0,
-            "requiredSkills": [
-              {
-                "skill": 23,
-                "level": 1
-              },
-              {
-                "skill": 8,
                 "level": 1
               }
             ]
           },
           {
             "skill": 39,
-            "requiresSkill": 0,
+            "requiresSkill": 1,
             "requirementType": 0,
             "requiredSkills": [
               {
                 "skill": 41,
                 "level": 1
-              }
-            ]
-          },
-          {
-            "skill": 19,
-            "requiresSkill": 0,
-            "requirementType": 0,
-            "requiredSkills": [
+              },
               {
                 "skill": 20,
                 "level": 1
@@ -11476,6 +11403,825 @@
             "requiresSkill": 0,
             "requirementType": 0,
             "requiredSkills": []
+          }
+        ],
+        "isExclusive": 0
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "type": "Vildra",
+    "pools": [
+      {
+        "name": "Lvl1SkillPool",
+        "requiresSkill": 0,
+        "requirementType": 0,
+        "requiredSkills": [],
+        "evaluationType": 0,
+        "levelRange": {
+          "min": 1,
+          "max": 4
+        },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
+        "skills": [
+          {
+            "skill": 2,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 4,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 7,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": []
+          },
+          {
+            "skill": 20,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": []
+          },
+          {
+            "skill": 28,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 18,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 1,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 17,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 20,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 30,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 28,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 3,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 5,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              },
+              {
+                "skill": 1,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 36,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 1,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 25,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 7,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 31,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 30,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 29,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 30,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 4,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 3,
+                "level": 1
+              },
+              {
+                "skill": 5,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 24,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 5,
+                "level": 1
+              },
+              {
+                "skill": 36,
+                "level": 1
+              }
+            ]
+          }
+        ],
+        "isExclusive": 0
+      },
+      {
+        "name": "Lvl5SkillPool",
+        "requiresSkill": 0,
+        "requirementType": 0,
+        "requiredSkills": [],
+        "evaluationType": 0,
+        "levelRange": {
+          "min": 5,
+          "max": 9
+        },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
+        "skills": [
+          {
+            "skill": 2,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 7,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 0
+              }
+            ]
+          },
+          {
+            "skill": 20,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": []
+          },
+          {
+            "skill": 28,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 18,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 1,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 10,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 7,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 17,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 20,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 30,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 28,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 42,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 28,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 3,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 5,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              },
+              {
+                "skill": 1,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 36,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 1,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 25,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 7,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 31,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 30,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 29,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 30,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 4,
+            "requiresSkill": 1,
+            "requirementType": 1,
+            "requiredSkills": [
+              {
+                "skill": 3,
+                "level": 1
+              },
+              {
+                "skill": 5,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 24,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 5,
+                "level": 1
+              },
+              {
+                "skill": 36,
+                "level": 1
+              }
+            ]
+          }
+        ],
+        "isExclusive": 0
+      },
+      {
+        "name": "8LevelPowerPool",
+        "requiresSkill": 0,
+        "requirementType": 0,
+        "requiredSkills": [],
+        "evaluationType": 1,
+        "levelRange": {
+          "min": 8,
+          "max": 8
+        },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
+        "skills": [
+          {
+            "skill": 15,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 1,
+                "level": 1
+              },
+              {
+                "skill": 18,
+                "level": 1
+              },
+              {
+                "skill": 16,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 16,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 40,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 32,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 41,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 39,
+                "level": 1
+              },
+              {
+                "skill": 7,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 23,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 14,
+                "level": 1
+              },
+              {
+                "skill": 30,
+                "level": 1
+              },
+              {
+                "skill": 31,
+                "level": 1
+              },
+              {
+                "skill": 29,
+                "level": 1
+              },
+              {
+                "skill": 33,
+                "level": 1
+              },
+              {
+                "skill": 34,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 39,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 41,
+                "level": 1
+              },
+              {
+                "skill": 25,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 32,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 1,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 35,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 19,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 17,
+                "level": 1
+              }
+            ]
+          }
+        ],
+        "isExclusive": 1
+      },
+      {
+        "name": "Lvl10SkillPool",
+        "requiresSkill": 0,
+        "requirementType": 0,
+        "requiredSkills": [],
+        "evaluationType": 0,
+        "levelRange": {
+          "min": 10,
+          "max": 99
+        },
+        "levelIntervalStartLevel": 8,
+        "levelInterval": 8,
+        "skills": [
+          {
+            "skill": 2,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 4,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 7,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": []
+          },
+          {
+            "skill": 42,
+            "requiresSkill": 0,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 18,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 1,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 2,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 10,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 7,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 17,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 20,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 30,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 28,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 3,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 5,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 18,
+                "level": 1
+              },
+              {
+                "skill": 1,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 5,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 24,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 36,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 1,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 8,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 10,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 25,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 10,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 31,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 30,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 4,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 3,
+                "level": 1
+              },
+              {
+                "skill": 5,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 24,
+            "requiresSkill": 1,
+            "requirementType": 1,
+            "requiredSkills": [
+              {
+                "skill": 5,
+                "level": 1
+              },
+              {
+                "skill": 36,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 45,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 8,
+                "level": 1
+              },
+              {
+                "skill": 25,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 11,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 45,
+                "level": 1
+              }
+            ]
+          },
+          {
+            "skill": 9,
+            "requiresSkill": 1,
+            "requirementType": 0,
+            "requiredSkills": [
+              {
+                "skill": 11,
+                "level": 1
+              }
+            ]
           }
         ],
         "isExclusive": 0

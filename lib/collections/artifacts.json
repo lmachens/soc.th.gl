@@ -107,7 +107,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7076,7 +7089,7 @@
     "type": "WoodCuttersAxe",
     "icon": {
       "name": "WoodcuttersAxe",
-      "spriteSheet": "DEPRECATED_Artifacts.png",
+      "spriteSheet": "DEPRECATED_Artifacts_0.png",
       "x": 165,
       "y": 167,
       "width": 30,
@@ -7416,7 +7429,14 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7471,7 +7491,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7514,7 +7547,7 @@
     "bacterias": [
       {
         "bacteriaType": 1249,
-        "type": "MaskOfTheMarshesArtifactBacteria",
+        "type": "SagesMaskArtifactBacteria",
         "customEffect": "None",
         "customEffectValue": 0,
         "secondaryCustomEffectValue": 0,
@@ -7526,7 +7559,26 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": -1,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7569,7 +7621,7 @@
     "bacterias": [
       {
         "bacteriaType": 1250,
-        "type": "SwampSandalsArtifactBacteria",
+        "type": "SimpleSandalsArtifactBacteria",
         "customEffect": "None",
         "customEffectValue": 0,
         "secondaryCustomEffectValue": 0,
@@ -7581,7 +7633,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7636,7 +7701,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7691,7 +7769,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7746,10 +7837,33 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
+          "duration": 0
+        }
+      },
+      {
+        "bacteriaType": 1158,
+        "type": "ThighBootsGoldIncome",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": "Gold",
+            "amount": 50,
+            "allTimeAmount": 0
+          }
+        ],
+        "duration": {
+          "type": "BattleStackRound",
           "duration": 0
         }
       }
@@ -7801,7 +7915,14 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7856,7 +7977,14 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7911,7 +8039,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7951,7 +8092,36 @@
         ]
       ]
     },
-    "bacterias": []
+    "bacterias": [
+      {
+        "bacteriaType": 1258,
+        "type": "OldSwordArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "BattleStackRound",
+          "duration": 0
+        }
+      }
+    ]
   },
   {
     "id": 28,
@@ -8047,5 +8217,73 @@
       ]
     },
     "bacterias": []
+  },
+  {
+    "id": 158,
+    "type": "VanirBracers",
+    "icon": {
+      "name": "CursedBracersOfDestructionDefault1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 442,
+      "y": 294,
+      "width": 28,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -14.5
+          },
+          {
+            "x": -14,
+            "y": 14.5
+          },
+          {
+            "x": 14,
+            "y": 14.5
+          },
+          {
+            "x": 14,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1248,
+        "type": "VanirBracersArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "BattleStackRound",
+          "duration": 0
+        }
+      }
+    ]
   }
 ]

@@ -1390,7 +1390,7 @@
     },
     "symbolSprite": {
       "name": "TopCircleSymbol",
-      "spriteSheet": "ArleonUI.png",
+      "spriteSheet": "ArleonUI_0.png",
       "x": 1894,
       "y": 1863,
       "width": 82,
@@ -1479,7 +1479,7 @@
         "type": "GiandraStormspire",
         "portrait": {
           "name": "StormspirePortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 0,
           "y": 551,
           "width": 208,
@@ -1490,7 +1490,7 @@
         "type": "Cecilia",
         "portrait": {
           "name": "StoutheartPortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 569,
           "y": 590,
           "width": 185,
@@ -1501,7 +1501,7 @@
         "type": "BaronSilverlink",
         "portrait": {
           "name": "SilverlinkPortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 396,
           "y": 524,
           "width": 147,
@@ -1512,7 +1512,7 @@
         "type": "EthylleErnaline",
         "portrait": {
           "name": "EthyllePortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 288,
           "y": 755,
           "width": 277,
@@ -1523,7 +1523,7 @@
         "type": "Ravenfayre",
         "portrait": {
           "name": "RavenfayrePortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 547,
           "y": 368,
           "width": 173,
@@ -1534,7 +1534,7 @@
         "type": "Peradine",
         "portrait": {
           "name": "PeradinePortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 758,
           "y": 581,
           "width": 180,
@@ -1545,7 +1545,7 @@
         "type": "Gnaw",
         "portrait": {
           "name": "GnawPortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 0,
           "y": 783,
           "width": 284,
@@ -1556,7 +1556,7 @@
         "type": "ViljaOfThornecliff",
         "portrait": {
           "name": "ThornecliffPortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 764,
           "y": 799,
           "width": 190,
@@ -1567,7 +1567,7 @@
         "type": "LadyElisaHammond",
         "portrait": {
           "name": "HammondPortrait",
-          "spriteSheet": "ArleonWielderPortraits.png",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
           "x": 569,
           "y": 802,
           "width": 191,
@@ -3965,7 +3965,7 @@
     },
     "symbolSprite": {
       "name": "TopCircleSymbol",
-      "spriteSheet": "LothUI.png",
+      "spriteSheet": "LothUI_0.png",
       "x": 1894,
       "y": 1856,
       "width": 82,
@@ -4054,7 +4054,7 @@
         "type": "BaronAldus",
         "portrait": {
           "name": "AldusPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 667,
           "y": 299,
           "width": 161,
@@ -4065,7 +4065,7 @@
         "type": "DoctorMarjatta",
         "portrait": {
           "name": "MarjattaPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 385,
           "y": 76,
           "width": 164,
@@ -4076,7 +4076,7 @@
         "type": "Wiesh",
         "portrait": {
           "name": "WieshPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 1,
           "y": 89,
           "width": 187,
@@ -4087,7 +4087,7 @@
         "type": "Ambertina",
         "portrait": {
           "name": "AmbertinaPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 162,
           "y": 305,
           "width": 162,
@@ -4098,7 +4098,7 @@
         "type": "BrotherHillar",
         "portrait": {
           "name": "HillarPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 326,
           "y": 302,
           "width": 178,
@@ -4109,7 +4109,7 @@
         "type": "Coral",
         "portrait": {
           "name": "CoralPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 506,
           "y": 300,
           "width": 159,
@@ -4120,7 +4120,7 @@
         "type": "MagnoliaSilverlink",
         "portrait": {
           "name": "MagnoliaPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 551,
           "y": 73,
           "width": 175,
@@ -4131,7 +4131,7 @@
         "type": "Merkoth",
         "portrait": {
           "name": "MerkothPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 728,
           "y": 70,
           "width": 187,
@@ -4142,7 +4142,7 @@
         "type": "Roderick",
         "portrait": {
           "name": "RoderickPortrait",
-          "spriteSheet": "LothWielderPortraits.png",
+          "spriteSheet": "LothWielderPortraits_0.png",
           "x": 1,
           "y": 307,
           "width": 159,
@@ -4714,47 +4714,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "Oathsinger",
-          "sprite": {
-            "name": "LothHostilesArtwork31Zealot1",
-            "spriteSheet": "LothHostilesAtlas.png",
-            "x": 298,
-            "y": 40,
-            "width": 22,
-            "height": 43,
-            "outline": [
-              [
-                {
-                  "x": 6,
-                  "y": -6.5
-                },
-                {
-                  "x": 11,
-                  "y": -21.5
-                },
-                {
-                  "x": -10,
-                  "y": -21.5
-                },
-                {
-                  "x": -11,
-                  "y": 8.5
-                },
-                {
-                  "x": -5,
-                  "y": 21.5
-                },
-                {
-                  "x": 1,
-                  "y": 20.5
-                },
-                {
-                  "x": 6,
-                  "y": 10.5
-                }
-              ]
-            ]
-          }
+          "languageKey": "Oathsinger"
         },
         "superUpgraded": null
       },
@@ -6243,125 +6203,7 @@
           }
         },
         "upgraded": {
-          "languageKey": "HighLegion",
-          "sprite": {
-            "name": "LothHostilesArtwork91HighLegion1",
-            "spriteSheet": "LothHostilesAtlas.png",
-            "x": 182,
-            "y": 387,
-            "width": 58,
-            "height": 68.92388,
-            "outline": [
-              [
-                {
-                  "x": 14,
-                  "y": 30.53806
-                },
-                {
-                  "x": -1,
-                  "y": 30.53806
-                },
-                {
-                  "x": 3,
-                  "y": 34.53806
-                }
-              ],
-              [
-                {
-                  "x": -13,
-                  "y": 22.53806
-                },
-                {
-                  "x": -13,
-                  "y": 30.53806
-                },
-                {
-                  "x": 14,
-                  "y": 30.53806
-                },
-                {
-                  "x": 14,
-                  "y": 34.53806
-                },
-                {
-                  "x": 25,
-                  "y": 27.53806
-                },
-                {
-                  "x": 25,
-                  "y": 12.538059
-                },
-                {
-                  "x": 29,
-                  "y": 4.538059
-                },
-                {
-                  "x": 29,
-                  "y": -2.4619408
-                },
-                {
-                  "x": 22,
-                  "y": -5.461941
-                },
-                {
-                  "x": 19,
-                  "y": -20.46194
-                },
-                {
-                  "x": 23,
-                  "y": -20.46194
-                },
-                {
-                  "x": 23,
-                  "y": -34.46194
-                },
-                {
-                  "x": 10,
-                  "y": -34.46194
-                },
-                {
-                  "x": 3,
-                  "y": -28.46194
-                },
-                {
-                  "x": 0,
-                  "y": -33.46194
-                },
-                {
-                  "x": -9,
-                  "y": -32.46194
-                },
-                {
-                  "x": -12,
-                  "y": -21.46194
-                },
-                {
-                  "x": -20,
-                  "y": -22.46194
-                },
-                {
-                  "x": -23,
-                  "y": -10.461941
-                },
-                {
-                  "x": -19,
-                  "y": -1.4619408
-                },
-                {
-                  "x": -29,
-                  "y": 0.53805923
-                },
-                {
-                  "x": -29,
-                  "y": 6.538059
-                },
-                {
-                  "x": -17,
-                  "y": 6.538059
-                }
-              ]
-            ]
-          }
+          "languageKey": "HighLegion"
         },
         "superUpgraded": null
       },
@@ -6679,7 +6521,7 @@
     },
     "symbolSprite": {
       "name": "TopCircleSymbol",
-      "spriteSheet": "BaryaUI.png",
+      "spriteSheet": "BaryaUI_0.png",
       "x": 796,
       "y": 1841,
       "width": 82,
@@ -6768,7 +6610,7 @@
         "type": "Nimander",
         "portrait": {
           "name": "NimanderBreeze",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 552,
           "y": 12,
           "width": 145,
@@ -6779,7 +6621,7 @@
         "type": "Mehry",
         "portrait": {
           "name": "Mehry",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 618,
           "y": 268,
           "width": 195,
@@ -6790,7 +6632,7 @@
         "type": "Silkspool",
         "portrait": {
           "name": "Silkspool",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 1,
           "y": 199,
           "width": 218,
@@ -6801,7 +6643,7 @@
         "type": "Aleah",
         "portrait": {
           "name": "Aleah",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 425,
           "y": 240,
           "width": 191,
@@ -6812,7 +6654,7 @@
         "type": "Bihgli",
         "portrait": {
           "name": "Bihgli",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 1,
           "y": 1,
           "width": 184,
@@ -6823,7 +6665,7 @@
         "type": "Everthink",
         "portrait": {
           "name": "Everthink",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 387,
           "y": 35,
           "width": 163,
@@ -6834,7 +6676,7 @@
         "type": "Rosewater",
         "portrait": {
           "name": "Rosewater",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 699,
           "y": 65,
           "width": 157,
@@ -6845,7 +6687,7 @@
         "type": "Sanaz",
         "portrait": {
           "name": "Sanaz",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 221,
           "y": 241,
           "width": 202,
@@ -6856,7 +6698,7 @@
         "type": "Soughtfor",
         "portrait": {
           "name": "Soughtfor",
-          "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
           "x": 221,
           "y": 40,
           "width": 164,
@@ -9088,7 +8930,7 @@
     },
     "symbolSprite": {
       "name": "TopCircleSymbol",
-      "spriteSheet": "RanaUI.png",
+      "spriteSheet": "RanaUI_0.png",
       "x": 212,
       "y": 1964,
       "width": 82,
@@ -9177,7 +9019,7 @@
         "type": "Cheekham",
         "portrait": {
           "name": "Cheekham",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 216,
           "y": 824,
           "width": 213,
@@ -9188,7 +9030,7 @@
         "type": "Itchamo",
         "portrait": {
           "name": "Itchamo",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 216,
           "y": 645,
           "width": 205,
@@ -9199,7 +9041,7 @@
         "type": "Msugna",
         "portrait": {
           "name": "MSugna",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 1,
           "y": 623,
           "width": 203,
@@ -9210,7 +9052,7 @@
         "type": "Pcha",
         "portrait": {
           "name": "PCha",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 1,
           "y": 214,
           "width": 189,
@@ -9221,7 +9063,7 @@
         "type": "Rasc",
         "portrait": {
           "name": "Rasc",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 1,
           "y": 23,
           "width": 182,
@@ -9232,7 +9074,7 @@
         "type": "RikTap",
         "portrait": {
           "name": "RikTap",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 1,
           "y": 425,
           "width": 196,
@@ -9243,7 +9085,7 @@
         "type": "Rlac",
         "portrait": {
           "name": "RLac",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 199,
           "y": 208,
           "width": 191,
@@ -9254,7 +9096,7 @@
         "type": "SlaKin",
         "portrait": {
           "name": "SlaKin",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 206,
           "y": 435,
           "width": 201,
@@ -9265,7 +9107,7 @@
         "type": "Tchyra",
         "portrait": {
           "name": "TChyra",
-          "spriteSheet": "RanaWielderPortraitsAtlas.png",
+          "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
           "x": 1,
           "y": 818,
           "width": 213,

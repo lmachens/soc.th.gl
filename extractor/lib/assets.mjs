@@ -16,46 +16,72 @@ export const findManifests = async () => {
 };
 
 export const findAssetByGUID = async ({ guid, fileId }, spriteName) => {
-  const filePath = cache[guid];
+  let filePath = cache[guid];
   if (!filePath) {
     return;
   }
-  try {
-    const meta = await readYAMLFile(filePath);
+  const processMeta = async (filePath, part) => {
+    try {
+      if (part !== undefined) {
+        filePath = filePath.replace(".png.meta", `_${part}.png.meta`);
+      }
+      const meta = await readYAMLFile(filePath);
 
-    if (meta.textureImporter) {
-      if (!Array.isArray(meta.textureImporter.internalIdToNameTable)) {
-        return;
+      if (meta.textureImporter) {
+        if (!Array.isArray(meta.textureImporter.internalIdToNameTable)) {
+          return;
+        }
+        const texture = meta.textureImporter.internalIdToNameTable.find(
+          (item) => item.first.second === fileId
+        );
+        const name = spriteName || texture?.second;
+        if (!name) {
+          return null;
+        }
+        const sprite = meta.textureImporter.spriteSheet.sprites.find(
+          (sprite) => sprite.name === name
+        );
+        if (!sprite) {
+          console.log(
+            `Trying to find ${name} in next part of ${filePath} ( ${
+              (part ?? 0) + 1
+            } )`
+          );
+          const result = await processMeta(filePath, part ? part + 1 : 0);
+          if (!result) {
+            console.warn(
+              `Could not find ${name} in sprite sheet of ${filePath}`
+            );
+          }
+          return result;
+        }
+        return {
+          name: sprite.name,
+          spriteSheet: filePath.replace(".meta", "").split(/[\\/]/).at(-1),
+          x: sprite.rect.x,
+          y: sprite.rect.y,
+          width: sprite.rect.width,
+          height: sprite.rect.height,
+          outline: sprite.outline,
+          // physicsShape: sprite.physicsShape,
+        };
       }
-      const texture = meta.textureImporter.internalIdToNameTable.find(
-        (item) => item.first.second === fileId
-      );
-      const name = spriteName || texture?.second;
-      if (!name) {
-        return null;
-      }
-      const sprite = meta.textureImporter.spriteSheet.sprites.find(
-        (sprite) => sprite.name === name
-      );
-      if (!sprite) {
-        console.warn(`Could not find ${name} in sprite sheet of ${filePath}`);
-        return null;
-      }
-      return {
-        name: sprite.name,
-        spriteSheet: filePath.replace(".meta", "").split(/[\\/]/).at(-1),
-        x: sprite.rect.x,
-        y: sprite.rect.y,
-        width: sprite.rect.width,
-        height: sprite.rect.height,
-        outline: sprite.outline,
-        // physicsShape: sprite.physicsShape,
-      };
+      return null;
+    } catch (e) {
+      console.warn(e.message, filePath || guid, fileId, spriteName);
+      return null;
+    }
+  };
+
+  try {
+    const result = await processMeta(filePath);
+    if (result) {
+      return result;
     }
     const assetFilePath = filePath.replace(".meta", "");
     return await readYAMLFile(assetFilePath);
   } catch (error) {
-    console.log(error.message, filePath || guid, fileId, spriteName);
+    console.warn(error.message, filePath || guid, fileId, spriteName);
     return null;
   }
 };
@@ -73,11 +99,52 @@ export const resolveEmbedObjects = async (asset) => {
       );
       await resolveEmbedObjects(visualsMeta);
       asset.visuals = visualsMeta;
+      if (!asset.visuals.prefab) {
+        let prefabName = value
+          .split("/")
+          .at(-1)
+          .replace("Definition", "")
+          .replace("Visuals", "")
+          .replace("Aurelian", "");
+        const faction = value.split("/")[1];
+        if (!prefabName.includes(faction)) {
+          prefabName = `${faction}${prefabName}`;
+        }
+
+        try {
+          const prefab = await readYAMLFile(
+            `./SongsOfConquest/ExportedProject/Assets/PrefabInstance/${toCaseSensitivePath(
+              prefabName
+            )}.prefab`
+          );
+          await resolveEmbedObjects(prefab);
+          asset.visuals.prefab = prefab;
+          const adventurePrefab = await readYAMLFile(
+            `./SongsOfConquest/ExportedProject/Assets/PrefabInstance/${toCaseSensitivePath(
+              prefabName + "Hostile"
+            )}.prefab`
+          );
+          await resolveEmbedObjects(adventurePrefab);
+          asset.visuals.adventurePrefab = adventurePrefab;
+        } catch (e) {
+          console.warn(`Could not find prefab for ${value}`);
+          if (!asset.visuals.prefab) {
+            asset.visuals.prefab = {};
+          }
+          if (!asset.visuals.adventurePrefab) {
+            asset.visuals.adventurePrefab = {};
+          }
+        }
+      }
       continue;
     }
     if (Array.isArray(value)) {
       for (let i = 0; i < value.length; i++) {
         const entry = value[i];
+        if (!entry) {
+          console.warn(`Empty entry in ${key}`);
+          continue;
+        }
         if (entry.guid) {
           value[i] = await findAssetByGUID(entry);
         }

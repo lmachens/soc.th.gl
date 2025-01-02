@@ -6,7 +6,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "StormspirePortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 0,
       "y": 551,
       "width": 208,
@@ -875,7 +875,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "StoutheartPortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 569,
       "y": 590,
       "width": 185,
@@ -1780,7 +1780,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "SilverlinkPortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 396,
       "y": 524,
       "width": 147,
@@ -2689,7 +2689,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "EthyllePortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 288,
       "y": 755,
       "width": 277,
@@ -3508,12 +3508,12 @@
     ],
     "units": [
       {
-        "languageKey": "FaeySpirit",
-        "size": 4
+        "languageKey": "FaeyNoble",
+        "size": 1
       },
       {
         "languageKey": "FaeySpirit",
-        "size": 4
+        "size": 3
       }
     ],
     "specializations": [
@@ -3554,7 +3554,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "RavenfayrePortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 547,
       "y": 368,
       "width": 173,
@@ -4358,7 +4358,11 @@
     "units": [
       {
         "languageKey": "Ranger",
-        "size": 10
+        "size": 8
+      },
+      {
+        "languageKey": "FaeyRager",
+        "size": 1
       }
     ],
     "specializations": [
@@ -4411,7 +4415,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "PeradinePortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 758,
       "y": 581,
       "width": 180,
@@ -5264,7 +5268,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "GnawPortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 0,
       "y": 783,
       "width": 284,
@@ -6083,8 +6087,8 @@
     ],
     "units": [
       {
-        "languageKey": "HornedOne",
-        "size": 3
+        "languageKey": "QueensGuard",
+        "size": 2
       }
     ],
     "specializations": [
@@ -6155,7 +6159,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "ThornecliffPortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 764,
       "y": 799,
       "width": 190,
@@ -7004,7 +7008,7 @@
     "faction": "Arleon",
     "portrait": {
       "name": "HammondPortrait",
-      "spriteSheet": "ArleonWielderPortraits.png",
+      "spriteSheet": "ArleonWielderPortraits_0.png",
       "x": 569,
       "y": 802,
       "width": 191,
@@ -7921,7 +7925,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "AldusPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 667,
       "y": 299,
       "width": 161,
@@ -8821,7 +8825,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "MarjattaPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 385,
       "y": 76,
       "width": 164,
@@ -9699,7 +9703,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "WieshPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 1,
       "y": 89,
       "width": 187,
@@ -10526,7 +10530,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "AmbertinaPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 162,
       "y": 305,
       "width": 162,
@@ -11400,7 +11404,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "HillarPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 326,
       "y": 302,
       "width": 178,
@@ -12295,7 +12299,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "CoralPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 506,
       "y": 300,
       "width": 159,
@@ -13122,7 +13126,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "MagnoliaPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 551,
       "y": 73,
       "width": 175,
@@ -14022,7 +14026,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "MerkothPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 728,
       "y": 70,
       "width": 187,
@@ -14861,7 +14865,7 @@
     "faction": "Loth",
     "portrait": {
       "name": "RoderickPortrait",
-      "spriteSheet": "LothWielderPortraits.png",
+      "spriteSheet": "LothWielderPortraits_0.png",
       "x": 1,
       "y": 307,
       "width": 159,
@@ -15773,7 +15777,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "NimanderBreeze",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 552,
       "y": 12,
       "width": 145,
@@ -16655,7 +16659,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Mehry",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 618,
       "y": 268,
       "width": 195,
@@ -17379,7 +17383,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Silkspool",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 199,
       "width": 218,
@@ -18240,7 +18244,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Aleah",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 425,
       "y": 240,
       "width": 191,
@@ -19173,7 +19177,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Bihgli",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 1,
       "width": 184,
@@ -19885,7 +19889,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Everthink",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 387,
       "y": 35,
       "width": 163,
@@ -20601,7 +20605,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Rosewater",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 699,
       "y": 65,
       "width": 157,
@@ -21534,7 +21538,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Sanaz",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 221,
       "y": 241,
       "width": 202,
@@ -22407,7 +22411,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Soughtfor",
-      "spriteSheet": "BaryaWielderPortraitsAtlas.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 221,
       "y": 40,
       "width": 164,
@@ -23328,7 +23332,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "Cheekham",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 216,
       "y": 824,
       "width": 213,
@@ -24145,7 +24149,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "Itchamo",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 216,
       "y": 645,
       "width": 205,
@@ -24985,7 +24989,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "MSugna",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 623,
       "width": 203,
@@ -25829,7 +25833,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "PCha",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 214,
       "width": 189,
@@ -26669,7 +26673,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "Rasc",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 23,
       "width": 182,
@@ -27486,7 +27490,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "RikTap",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 425,
       "width": 196,
@@ -28282,7 +28286,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "RLac",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 199,
       "y": 208,
       "width": 191,
@@ -29207,7 +29211,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "SlaKin",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 206,
       "y": 435,
       "width": 201,
@@ -30110,7 +30114,7 @@
     "faction": "Rana",
     "portrait": {
       "name": "TChyra",
-      "spriteSheet": "RanaWielderPortraitsAtlas.png",
+      "spriteSheet": "RanaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 818,
       "width": 213,

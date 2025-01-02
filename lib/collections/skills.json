@@ -2941,9 +2941,15 @@
         },
         "modifierData": [
           {
+            "type": 54,
+            "modifier": "CommanderBattleLoot",
+            "amountToAdd": 5,
+            "applicationType": 0
+          },
+          {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 200,
+            "amountToAdd": 50,
             "applicationType": 0
           },
           {
@@ -2975,9 +2981,15 @@
         },
         "modifierData": [
           {
+            "type": 54,
+            "modifier": "CommanderBattleLoot",
+            "amountToAdd": 10,
+            "applicationType": 0
+          },
+          {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 400,
+            "amountToAdd": 100,
             "applicationType": 0
           },
           {
@@ -3009,9 +3021,15 @@
         },
         "modifierData": [
           {
+            "type": 54,
+            "modifier": "CommanderBattleLoot",
+            "amountToAdd": 15,
+            "applicationType": 0
+          },
+          {
             "type": 37,
             "modifier": "CommanderPillageBonus",
-            "amountToAdd": 500,
+            "amountToAdd": 200,
             "applicationType": 0
           },
           {

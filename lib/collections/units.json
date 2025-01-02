@@ -159,7 +159,9 @@
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": [],
+        "statuses": [
+          5
+        ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -664,7 +666,9 @@
         "maxTroopSize": 40,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
-        "statuses": [],
+        "statuses": [
+          5
+        ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
@@ -881,34 +885,6 @@
       },
       "troopAbility": {
         "type": "Inspire",
-        "icon": {
-          "name": "AbilityIconInspire",
-          "spriteSheet": "Icons.png",
-          "x": 915,
-          "y": 266,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 802,
@@ -1194,34 +1170,6 @@
       },
       "troopAbility": {
         "type": "Aim",
-        "icon": {
-          "name": "AbilityIconAim",
-          "spriteSheet": "Icons.png",
-          "x": 917,
-          "y": 478,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 825,
@@ -1586,34 +1534,6 @@
       },
       "troopAbility": {
         "type": "Palisades",
-        "icon": {
-          "name": "AbilityIconPalisades",
-          "spriteSheet": "Icons.png",
-          "x": 834,
-          "y": 229,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -1982,34 +1902,6 @@
       },
       "troopAbility": {
         "type": "Overwatch",
-        "icon": {
-          "name": "AbilityIconOverwatch",
-          "spriteSheet": "Icons.png",
-          "x": 781,
-          "y": 274,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": []
@@ -2192,34 +2084,6 @@
       },
       "troopAbility": {
         "type": "FearNoFoe",
-        "icon": {
-          "name": "AbilityIconSing",
-          "spriteSheet": "Icons.png",
-          "x": 781,
-          "y": 168,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 148,
@@ -2453,34 +2317,6 @@
       },
       "troopAbility": {
         "type": "StoutheartShallStand",
-        "icon": {
-          "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.png",
-          "x": 838,
-          "y": 282,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 793,
@@ -2888,34 +2724,6 @@
       },
       "troopAbility": {
         "type": "Protect",
-        "icon": {
-          "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
-          "x": 912,
-          "y": 213,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 409,
@@ -3596,34 +3404,6 @@
       },
       "troopAbility": {
         "type": "Inspire",
-        "icon": {
-          "name": "AbilityIconInspire",
-          "spriteSheet": "Icons.png",
-          "x": 915,
-          "y": 266,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 802,
@@ -4188,34 +3968,6 @@
       },
       "troopAbility": {
         "type": "Defend",
-        "icon": {
-          "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
-          "x": 912,
-          "y": 213,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 408,
@@ -4747,34 +4499,6 @@
       },
       "troopAbility": {
         "type": "MagicImmunity",
-        "icon": {
-          "name": "AbilityIconMagicImmunitye",
-          "spriteSheet": "Icons.png",
-          "x": 1056,
-          "y": 693,
-          "width": 52,
-          "height": 53,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26.5
-              },
-              {
-                "x": -26,
-                "y": 26.500002
-              },
-              {
-                "x": 26,
-                "y": 26.500002
-              },
-              {
-                "x": 26,
-                "y": -26.5
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 1174,
@@ -5484,34 +5208,6 @@
       },
       "troopAbility": {
         "type": "FaeyFire",
-        "icon": {
-          "name": "AbilityIconFaeyFire",
-          "spriteSheet": "Icons.png",
-          "x": 1058,
-          "y": 914,
-          "width": 52,
-          "height": 53,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26.5
-              },
-              {
-                "x": -26,
-                "y": 26.500002
-              },
-              {
-                "x": 26,
-                "y": 26.500002
-              },
-              {
-                "x": 26,
-                "y": -26.5
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 1,
@@ -6587,34 +6283,6 @@
       },
       "troopAbility": {
         "type": "Defend",
-        "icon": {
-          "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
-          "x": 912,
-          "y": 213,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 408,
@@ -6861,34 +6529,6 @@
       },
       "troopAbility": {
         "type": "HerAimWasTrue",
-        "icon": {
-          "name": "AbilityIconSing",
-          "spriteSheet": "Icons.png",
-          "x": 781,
-          "y": 168,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 149,
@@ -6914,7 +6554,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleRound",
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -6924,66 +6564,6 @@
     },
     "upgraded": {
       "languageKey": "Oathsinger",
-      "sprite": {
-        "name": "LothZealotDefault1Idle1",
-        "spriteSheet": "LothZealotAtlas.png",
-        "x": 56,
-        "y": 125,
-        "width": 38,
-        "height": 73,
-        "outline": [
-          [
-            {
-              "x": 7,
-              "y": 26.5
-            },
-            {
-              "x": 7,
-              "y": 18.5
-            },
-            {
-              "x": 12,
-              "y": 19.5
-            },
-            {
-              "x": 10,
-              "y": 1.5
-            },
-            {
-              "x": 7,
-              "y": -4.5
-            },
-            {
-              "x": 19,
-              "y": -35.5
-            },
-            {
-              "x": -8,
-              "y": -36.5
-            },
-            {
-              "x": -19,
-              "y": -32.5
-            },
-            {
-              "x": -10,
-              "y": -8.5
-            },
-            {
-              "x": -15,
-              "y": -3.5
-            },
-            {
-              "x": -15,
-              "y": 18.5
-            },
-            {
-              "x": -3,
-              "y": 36.5
-            }
-          ]
-        ]
-      },
       "purchaseCost": {
         "costEntries": [
           {
@@ -7048,34 +6628,6 @@
       },
       "troopAbility": {
         "type": "AureliaEternal",
-        "icon": {
-          "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.png",
-          "x": 838,
-          "y": 282,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 792,
@@ -7101,7 +6653,7 @@
             ],
             "resourcesIncome": [],
             "duration": {
-              "type": "BattleRound",
+              "type": "BattleStackRoundWithTail",
               "duration": 1
             }
           }
@@ -7269,7 +6821,10 @@
         "blessed": 0,
         "restrictions": []
       },
-      "troopAbility": null,
+      "troopAbility": {
+        "type": "Wait",
+        "bacterias": []
+      },
       "bacterias": [
         {
           "bacteriaType": 866,
@@ -7437,7 +6992,10 @@
         "blessed": 0,
         "restrictions": []
       },
-      "troopAbility": null,
+      "troopAbility": {
+        "type": "Wait",
+        "bacterias": []
+      },
       "bacterias": [
         {
           "bacteriaType": 866,
@@ -7856,34 +7414,6 @@
       },
       "troopAbility": {
         "type": "ChargeEssence",
-        "icon": {
-          "name": "AbilityIconChargeEssence",
-          "spriteSheet": "Icons.png",
-          "x": 419,
-          "y": 202,
-          "width": 56,
-          "height": 57,
-          "outline": [
-            [
-              {
-                "x": -28,
-                "y": -28.5
-              },
-              {
-                "x": -28,
-                "y": 28.5
-              },
-              {
-                "x": 28,
-                "y": 28.5
-              },
-              {
-                "x": 28,
-                "y": -28.5
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 867,
@@ -8611,34 +8141,6 @@
       },
       "troopAbility": {
         "type": "SacrificeBones",
-        "icon": {
-          "name": "AbilityIconSacrificeBones",
-          "spriteSheet": "Icons.png",
-          "x": 834,
-          "y": 176,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 829,
@@ -9100,34 +8602,6 @@
       },
       "troopAbility": {
         "type": "DrainEssence",
-        "icon": {
-          "name": "AbilityIconDrainEssence",
-          "spriteSheet": "Icons.png",
-          "x": 915,
-          "y": 319,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -10201,34 +9675,6 @@
       },
       "troopAbility": {
         "type": "Protect",
-        "icon": {
-          "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
-          "x": 912,
-          "y": 213,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 409,
@@ -10534,34 +9980,6 @@
       },
       "troopAbility": {
         "type": "Lunge",
-        "icon": {
-          "name": "AbilityIconLunge",
-          "spriteSheet": "Icons.png",
-          "x": 709,
-          "y": 465,
-          "width": 51,
-          "height": 38,
-          "outline": [
-            [
-              {
-                "x": -25.499998,
-                "y": -19
-              },
-              {
-                "x": -25.499998,
-                "y": 19
-              },
-              {
-                "x": 25.500002,
-                "y": 19
-              },
-              {
-                "x": 25.500002,
-                "y": -19
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": []
@@ -10900,34 +10318,6 @@
       },
       "troopAbility": {
         "type": "JigOfJugs",
-        "icon": {
-          "name": "AbilityIconSing",
-          "spriteSheet": "Icons.png",
-          "x": 781,
-          "y": 168,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 150,
@@ -11115,34 +10505,6 @@
       },
       "troopAbility": {
         "type": "TheCoinInMyHand",
-        "icon": {
-          "name": "AbilityIconEpic",
-          "spriteSheet": "Icons.png",
-          "x": 838,
-          "y": 282,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 794,
@@ -11636,34 +10998,6 @@
       },
       "troopAbility": {
         "type": "Spearwall",
-        "icon": {
-          "name": "AbilityIconSpearwall",
-          "spriteSheet": "Icons.png",
-          "x": 917,
-          "y": 531,
-          "width": 52,
-          "height": 53,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26.5
-              },
-              {
-                "x": -26,
-                "y": 26.500002
-              },
-              {
-                "x": 26,
-                "y": 26.500002
-              },
-              {
-                "x": 26,
-                "y": -26.5
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -12053,34 +11387,6 @@
       },
       "troopAbility": {
         "type": "Aim",
-        "icon": {
-          "name": "AbilityIconAim",
-          "spriteSheet": "Icons.png",
-          "x": 917,
-          "y": 478,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 825,
@@ -12653,34 +11959,6 @@
       },
       "troopAbility": {
         "type": "Hype",
-        "icon": {
-          "name": "AbilityIconHype",
-          "spriteSheet": "Icons.png",
-          "x": 1058,
-          "y": 860,
-          "width": 52,
-          "height": 53,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26.5
-              },
-              {
-                "x": -26,
-                "y": 26.500002
-              },
-              {
-                "x": 26,
-                "y": 26.500002
-              },
-              {
-                "x": 26,
-                "y": -26.5
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 1171,
@@ -13235,34 +12513,6 @@
       },
       "troopAbility": {
         "type": "Defend",
-        "icon": {
-          "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
-          "x": 912,
-          "y": 213,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 408,
@@ -13522,34 +12772,6 @@
       },
       "troopAbility": {
         "type": "Palisades",
-        "icon": {
-          "name": "AbilityIconPalisades",
-          "spriteSheet": "Icons.png",
-          "x": 834,
-          "y": 229,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": []
@@ -13717,34 +12939,6 @@
       },
       "troopAbility": {
         "type": "PlaceMine",
-        "icon": {
-          "name": "AbilityIconPlaceMine",
-          "spriteSheet": "Icons.png",
-          "x": 781,
-          "y": 221,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -14107,34 +13301,6 @@
       },
       "troopAbility": {
         "type": "Wait",
-        "icon": {
-          "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
-          "x": 912,
-          "y": 160,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -14644,34 +13810,6 @@
       },
       "troopAbility": {
         "type": "Bombard",
-        "icon": {
-          "name": "AbilityIconBombard",
-          "spriteSheet": "Icons.png",
-          "x": 1057,
-          "y": 803,
-          "width": 54,
-          "height": 56,
-          "outline": [
-            [
-              {
-                "x": -27.000002,
-                "y": -28
-              },
-              {
-                "x": -27.000002,
-                "y": 28.000002
-              },
-              {
-                "x": 27.000002,
-                "y": 28.000002
-              },
-              {
-                "x": 27.000002,
-                "y": -28
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -15242,34 +14380,6 @@
       },
       "troopAbility": {
         "type": "Defend",
-        "icon": {
-          "name": "AbilityIconProtectDefend",
-          "spriteSheet": "Icons.png",
-          "x": 912,
-          "y": 213,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 408,
@@ -16338,34 +15448,6 @@
       },
       "troopAbility": {
         "type": "BullRush",
-        "icon": {
-          "name": "AbilityIconBullRush",
-          "spriteSheet": "Icons.png",
-          "x": 916,
-          "y": 425,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -16968,34 +16050,6 @@
       },
       "troopAbility": {
         "type": "Wait",
-        "icon": {
-          "name": "AbilityIconWait",
-          "spriteSheet": "Icons.png",
-          "x": 912,
-          "y": 160,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -17491,34 +16545,6 @@
       },
       "troopAbility": {
         "type": "Burrow",
-        "icon": {
-          "name": "AbilityIconBurrow",
-          "spriteSheet": "Icons.png",
-          "x": 915,
-          "y": 372,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -17871,34 +16897,6 @@
       },
       "troopAbility": {
         "type": "TheDragonsRoar",
-        "icon": {
-          "name": "AbilityIconSing",
-          "spriteSheet": "Icons.png",
-          "x": 781,
-          "y": 168,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 151,
@@ -18502,34 +17500,6 @@
       },
       "troopAbility": {
         "type": "ChargeEssence",
-        "icon": {
-          "name": "AbilityIconChargeEssence",
-          "spriteSheet": "Icons.png",
-          "x": 419,
-          "y": 202,
-          "width": 56,
-          "height": 57,
-          "outline": [
-            [
-              {
-                "x": -28,
-                "y": -28.5
-              },
-              {
-                "x": -28,
-                "y": 28.5
-              },
-              {
-                "x": 28,
-                "y": 28.5
-              },
-              {
-                "x": 28,
-                "y": -28.5
-              }
-            ]
-          ]
-        },
         "bacterias": [
           {
             "bacteriaType": 867,
@@ -18850,34 +17820,6 @@
       },
       "troopAbility": {
         "type": "Overwatch",
-        "icon": {
-          "name": "AbilityIconOverwatch",
-          "spriteSheet": "Icons.png",
-          "x": 781,
-          "y": 274,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": []
@@ -19079,34 +18021,6 @@
       },
       "troopAbility": {
         "type": "TangleShout",
-        "icon": {
-          "name": "AbilityIconTangleShout",
-          "spriteSheet": "Icons.png",
-          "x": 1013,
-          "y": 173,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [
@@ -19401,34 +18315,6 @@
       },
       "troopAbility": {
         "type": "TangleShout",
-        "icon": {
-          "name": "AbilityIconTangleShout",
-          "spriteSheet": "Icons.png",
-          "x": 1013,
-          "y": 173,
-          "width": 52,
-          "height": 52,
-          "outline": [
-            [
-              {
-                "x": -26,
-                "y": -26
-              },
-              {
-                "x": -26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": 26
-              },
-              {
-                "x": 26,
-                "y": -26
-              }
-            ]
-          ]
-        },
         "bacterias": []
       },
       "bacterias": [

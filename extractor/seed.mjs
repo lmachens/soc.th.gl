@@ -6,6 +6,7 @@ import {
 } from "./lib/assets.mjs";
 import { writeJSONFile } from "./lib/out.mjs";
 
+console.log(`Reading Terms`);
 const terms = await readYAMLFile(
   "./SongsOfConquest/ExportedProject/Assets/Resources/I2Languages.asset"
 );
@@ -54,10 +55,20 @@ console.log(`Copying icons`);
 const iconsMeta = await readYAMLFile(
   `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons.png.meta`
 );
+const icons0Meta = await readYAMLFile(
+  `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons_0.png.meta`
+);
 const icons = [];
 for (const idToName of iconsMeta.textureImporter.internalIdToNameTable) {
   const icon = await findAssetByGUID({
     guid: iconsMeta.guid,
+    fileId: idToName.first.second,
+  });
+  icons.push(icon);
+}
+for (const idToName of icons0Meta.textureImporter.internalIdToNameTable) {
+  const icon = await findAssetByGUID({
+    guid: icons0Meta.guid,
     fileId: idToName.first.second,
   });
   icons.push(icon);
