@@ -4714,7 +4714,47 @@
           }
         },
         "upgraded": {
-          "languageKey": "Oathsinger"
+          "languageKey": "Oathsinger",
+          "sprite": {
+            "name": "LothHostilesArtwork31Zealot1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 298,
+            "y": 40,
+            "width": 22,
+            "height": 43,
+            "outline": [
+              [
+                {
+                  "x": 6,
+                  "y": -6.5
+                },
+                {
+                  "x": 11,
+                  "y": -21.5
+                },
+                {
+                  "x": -10,
+                  "y": -21.5
+                },
+                {
+                  "x": -11,
+                  "y": 8.5
+                },
+                {
+                  "x": -5,
+                  "y": 21.5
+                },
+                {
+                  "x": 1,
+                  "y": 20.5
+                },
+                {
+                  "x": 6,
+                  "y": 10.5
+                }
+              ]
+            ]
+          }
         },
         "superUpgraded": null
       },

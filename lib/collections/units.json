@@ -6564,6 +6564,66 @@
     },
     "upgraded": {
       "languageKey": "Oathsinger",
+      "sprite": {
+        "name": "LothZealotDefault1Idle1",
+        "spriteSheet": "LothZealotAtlas.png",
+        "x": 56,
+        "y": 125,
+        "width": 38,
+        "height": 73,
+        "outline": [
+          [
+            {
+              "x": 7,
+              "y": 26.5
+            },
+            {
+              "x": 7,
+              "y": 18.5
+            },
+            {
+              "x": 12,
+              "y": 19.5
+            },
+            {
+              "x": 10,
+              "y": 1.5
+            },
+            {
+              "x": 7,
+              "y": -4.5
+            },
+            {
+              "x": 19,
+              "y": -35.5
+            },
+            {
+              "x": -8,
+              "y": -36.5
+            },
+            {
+              "x": -19,
+              "y": -32.5
+            },
+            {
+              "x": -10,
+              "y": -8.5
+            },
+            {
+              "x": -15,
+              "y": -3.5
+            },
+            {
+              "x": -15,
+              "y": 18.5
+            },
+            {
+              "x": -3,
+              "y": 36.5
+            }
+          ]
+        ]
+      },
       "purchaseCost": {
         "costEntries": [
           {
