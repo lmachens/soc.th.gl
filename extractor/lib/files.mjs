@@ -19,14 +19,9 @@ export const readYAMLFile = async (path) => {
   }
 
   const cleanFile = assetFile
-    // Replace terminate lines for linux support
-    .replaceAll("\r\n", "\n")
-    // Workaround sequence mapping issue in yamljs
-    .replaceAll("m_Curve", "x_Curve")
-    .replaceAll(/\s+m_\w+.+/g, "")
+    .replaceAll("\r\n", "\n") // Linux line endings
+    .replaceAll("m_Curve", "x_Curve") // Specific fix for yamljs issue
     .replaceAll(/_statuses: (\d+)/g, (_, statuses) => {
-      // Convert index of BacteriaOwnerStatus
-      // e.g. 06000000 to ['Faey'] or 030000000400000005000000 to ['Musician', 'Rana', 'Beast']
       const bacteriaOwnerStatus = [
         "Human",
         "Faey",
@@ -42,16 +37,15 @@ export const readYAMLFile = async (path) => {
         .map((part) => bacteriaOwnerStatus[+part[1]]);
       return `_statuses: [${parts.join(", ")}]`;
     })
-    .replaceAll(/_/g, "")
-    .replaceAll("''", "")
-    .replaceAll(/[^']\n\s+\n/g, "")
-    .replaceAll(/- '.+[^']\n(.|\n|\t)+?'/g, (a) =>
-      a.replaceAll("\n", "<br>").replaceAll("\t", "")
-    )
-    .replaceAll("<hl>", `<span class=\\"highlight\\">`)
-    .replaceAll("</hl>", "</span>");
+    // Minimize unnecessary cleaning to avoid breaking nested structures
+    .replaceAll("''", "") // Remove unnecessary quotes
+    .replaceAll(/[^']\n\s+\n/g, "") // Collapse empty lines
+    .replaceAll(/<hl>/g, `<span class=\\"highlight\\">`) // Highlight tags
+    .replaceAll(/<\/hl>/g, "</span>");
+
   const content = yaml.parse(cleanFile);
   const obj = camelcaseKeys(content, { deep: true });
+
   return obj.monoBehaviour || obj;
 };
 

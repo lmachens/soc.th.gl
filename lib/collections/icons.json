@@ -336,7 +336,7 @@
     ]
   },
   {
-    "name": "EssenceLostNotificationsicon",
+    "name": "EssenceLostNotifications_icon",
     "spriteSheet": "Icons_0.png",
     "x": 624,
     "y": 206,
@@ -1316,7 +1316,7 @@
     ]
   },
   {
-    "name": "PaginationArrownormal",
+    "name": "PaginationArrow_normal",
     "spriteSheet": "Icons_0.png",
     "x": 809,
     "y": 99,
@@ -2184,7 +2184,7 @@
     ]
   },
   {
-    "name": "PaginationArrowdisabled",
+    "name": "PaginationArrow_disabled",
     "spriteSheet": "Icons_0.png",
     "x": 525,
     "y": 348,
@@ -5348,7 +5348,7 @@
     ]
   },
   {
-    "name": "PaginationArrowpressed",
+    "name": "PaginationArrow_pressed",
     "spriteSheet": "Icons_0.png",
     "x": 771,
     "y": 80,
@@ -7364,7 +7364,7 @@
     ]
   },
   {
-    "name": "PaginationArrowhighlight",
+    "name": "PaginationArrow_highlight",
     "spriteSheet": "Icons_0.png",
     "x": 771,
     "y": 102,

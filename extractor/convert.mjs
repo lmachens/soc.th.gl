@@ -3,9 +3,7 @@ import { copyImageFile, readJSONFile, writeJSONFile } from "./lib/out.mjs";
 
 const bacteriasSrc = await readJSONFile("./out/bacteria.json");
 const skillsSrc = await readJSONFile("./out/skill.json");
-const factionsSrc = (await readJSONFile("./out/faction.json")).filter(
-  (f) => f.id !== 5
-); // Skip Vanir;
+const factionsSrc = await readJSONFile("./out/faction.json");
 const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
 const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
 const artifactsSrc = await readJSONFile("./out/artifact.json");
@@ -530,6 +528,8 @@ for (const buildSite of buildSites) {
     factionId = 4;
   } else if (buildSite.nameKey.startsWith("Vanir")) {
     factionId = 5;
+  } else {
+    console.warn(`Unknown faction for ${buildSite.nameKey}`);
     continue;
   }
 

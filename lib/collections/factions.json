@@ -392,7 +392,7 @@
         "vanilla": {
           "languageKey": "Wolf",
           "sprite": {
-            "name": "NeutralWolfDefault1Idle1",
+            "name": "NeutralWolf_Default_1_Idle_1",
             "spriteSheet": "NeutralWolfAtlas.png",
             "x": 327,
             "y": 42,
@@ -496,7 +496,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "NeutralHostilesDefault1Wolf1",
+            "name": "NeutralHostiles_Default_1_Wolf_1",
             "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 179,
             "y": 54,
@@ -555,7 +555,7 @@
         "vanilla": {
           "languageKey": "Brigand",
           "sprite": {
-            "name": "NeutralBanditLeftAxe1Idle1",
+            "name": "NeutralBandit_LeftAxe_1_Idle_1",
             "spriteSheet": "NeutralBanditAtlas.png",
             "x": 145,
             "y": 134,
@@ -583,7 +583,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "NeutralHostilesDefault7Bandit1",
+            "name": "NeutralHostiles_Default_7_Bandit_1",
             "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 58,
             "y": 282,
@@ -678,7 +678,7 @@
         "vanilla": {
           "languageKey": "CutThroat",
           "sprite": {
-            "name": "NeutralCutThroatDefault1Idle1",
+            "name": "NeutralCutThroat_Default_1_Idle_1",
             "spriteSheet": "NeutralCutThroatAtlas.png",
             "x": 351,
             "y": 31,
@@ -778,7 +778,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "NeutralHostilesDefault13CutThroat1",
+            "name": "NeutralHostiles_Default_13_CutThroat_1",
             "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 74.07612,
             "y": 65,
@@ -853,7 +853,7 @@
         "vanilla": {
           "languageKey": "Silvermane",
           "sprite": {
-            "name": "NeutralDireWolfDefault1Idle1",
+            "name": "NeutralDireWolf_Default_1_Idle_1",
             "spriteSheet": "NeutralDireWolfAtlas.png",
             "x": 226,
             "y": 81,
@@ -961,7 +961,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "NeutralHostilesDefault1Wolf1",
+            "name": "NeutralHostiles_Default_1_Wolf_1",
             "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 179,
             "y": 54,
@@ -1020,7 +1020,7 @@
         "vanilla": {
           "languageKey": "Outlaw",
           "sprite": {
-            "name": "NeutralBanditLeaderDefault1Idle1",
+            "name": "NeutralBanditLeader_Default_1_Idle_1",
             "spriteSheet": "NeutralBanditLeaderAtlas.png",
             "x": 466,
             "y": 38,
@@ -1128,7 +1128,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "NeutralHostilesDefault25BanditLeader1",
+            "name": "NeutralHostiles_Default_25_BanditLeader_1",
             "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 98,
             "y": 291,
@@ -1195,7 +1195,7 @@
         "vanilla": {
           "languageKey": "Poacher",
           "sprite": {
-            "name": "NeutralBanditArcherDefault1Idle1",
+            "name": "NeutralBanditArcher_Default_1_Idle_1",
             "spriteSheet": "NeutralBanditArcherAtlas.png",
             "x": 408,
             "y": 90,
@@ -1283,7 +1283,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "NeutralHostilesDefault31BanditArcher1",
+            "name": "NeutralHostiles_Default_31_BanditArcher_1",
             "spriteSheet": "NeutralHostilesAtlas.png",
             "x": 1.026751,
             "y": 105.07612,
@@ -1580,7 +1580,7 @@
         "vanilla": {
           "languageKey": "Militia",
           "sprite": {
-            "name": "ArleonMilitiaDefault1idle1",
+            "name": "ArleonMilitia_Default_1_idle_1",
             "spriteSheet": "ArleonMilitiaAtlas.png",
             "x": 380,
             "y": 328,
@@ -1664,7 +1664,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "ArleonHostilesIdle1Militia1",
+            "name": "ArleonHostiles_Idle_1_Militia_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 346,
             "y": 87,
@@ -1719,7 +1719,7 @@
         "upgraded": {
           "languageKey": "Sapper",
           "sprite": {
-            "name": "ArleonHostilesIdle7Sapper1",
+            "name": "ArleonHostiles_Idle_7_Sapper_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 395,
             "y": 160,
@@ -1777,7 +1777,7 @@
         "vanilla": {
           "languageKey": "Ranger",
           "sprite": {
-            "name": "ArleonRangerDefault1Idle1",
+            "name": "ArleonRanger_Default_1_Idle_1",
             "spriteSheet": "ArleonRangerAtlas.png",
             "x": 147.01291,
             "y": 301.0761,
@@ -1885,7 +1885,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "ArleonHostilesIdle25Ranger1",
+            "name": "ArleonHostiles_Idle_25_Ranger_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 167,
             "y": 190,
@@ -1952,7 +1952,7 @@
         "upgraded": {
           "languageKey": "Archer",
           "sprite": {
-            "name": "ArleonHostilesIdle31Archer1",
+            "name": "ArleonHostiles_Idle_31_Archer_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 67,
             "y": 116,
@@ -2030,7 +2030,7 @@
         "vanilla": {
           "languageKey": "Minstrel",
           "sprite": {
-            "name": "ArleonMinstrelDefault1Idle1",
+            "name": "ArleonMinstrel_Default_1_Idle_1",
             "spriteSheet": "ArleonMinstrelAtlas.png",
             "x": 138,
             "y": 248.07613,
@@ -2138,7 +2138,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "ArleonHostilesIdle13Minstrel1",
+            "name": "ArleonHostiles_Idle_13_Minstrel_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 284,
             "y": 74,
@@ -2189,7 +2189,7 @@
         "upgraded": {
           "languageKey": "Troubadour",
           "sprite": {
-            "name": "ArleonHostilesIdle19Troubadour1",
+            "name": "ArleonHostiles_Idle_19_Troubadour_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 220,
             "y": 85,
@@ -2239,7 +2239,7 @@
         "vanilla": {
           "languageKey": "Footman",
           "sprite": {
-            "name": "ArleonFootmanDefault1Idle1",
+            "name": "ArleonFootman_Default_1_Idle_1",
             "spriteSheet": "ArleonFootmanAtlas.png",
             "x": 227,
             "y": 130,
@@ -2335,7 +2335,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "ArleonHostilesIdle37Footman1",
+            "name": "ArleonHostiles_Idle_37_Footman_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 395,
             "y": 202,
@@ -2410,7 +2410,7 @@
         "upgraded": {
           "languageKey": "ShieldOfOrder",
           "sprite": {
-            "name": "ArleonHostilesIdle43ShieldOfOrder1",
+            "name": "ArleonHostiles_Idle_43_ShieldOfOrder_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 335,
             "y": 203,
@@ -2480,7 +2480,7 @@
         "vanilla": {
           "languageKey": "Knight",
           "sprite": {
-            "name": "ArleonKnightDefault1Idle1",
+            "name": "ArleonKnight_Default_1_Idle_1",
             "spriteSheet": "ArleonKnightAtlas.png",
             "x": 458,
             "y": 663,
@@ -2672,7 +2672,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "ArleonHostilesIdle49Knight1",
+            "name": "ArleonHostiles_Idle_49_Knight_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 0,
             "y": 374,
@@ -2769,7 +2769,7 @@
         "upgraded": {
           "languageKey": "FistOfOrder",
           "sprite": {
-            "name": "ArleonHostilesIdle55FistOfOrder1",
+            "name": "ArleonHostiles_Idle_55_FistOfOrder_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 228,
             "y": 444,
@@ -2867,7 +2867,7 @@
         "vanilla": {
           "languageKey": "HornedOne",
           "sprite": {
-            "name": "ArleonHornedOneDefault1Idle1",
+            "name": "ArleonHornedOne_Default_1_Idle_1",
             "spriteSheet": "ArleonHornedOneAtlas.png",
             "x": 293,
             "y": 359,
@@ -3003,7 +3003,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "ArleonHostilesIdle69HornedOne1",
+            "name": "ArleonHostiles_Idle_69_HornedOne_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 143,
             "y": 288,
@@ -3090,7 +3090,7 @@
         "upgraded": {
           "languageKey": "QueensGuard",
           "sprite": {
-            "name": "ArleonHostilesIdle75QueensGuard1",
+            "name": "ArleonHostiles_Idle_75_QueensGuard_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 343,
             "y": 322,
@@ -3180,7 +3180,7 @@
         "vanilla": {
           "languageKey": "FaeySpirit",
           "sprite": {
-            "name": "ArleonFaeySpiritDefault1Idle1",
+            "name": "ArleonFaeySpirit_Default_1_Idle_1",
             "spriteSheet": "ArleonFaeySpiritAtlas.png",
             "x": 189,
             "y": 97,
@@ -3340,7 +3340,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "ArleonHostilesIdle61FaeySpirit1",
+            "name": "ArleonHostiles_Idle_61_FaeySpirit_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 0.05131668,
             "y": 91.07612,
@@ -3407,7 +3407,7 @@
         "upgraded": {
           "languageKey": "FaeyRager",
           "sprite": {
-            "name": "ArleonHostilesIdle65FaeyRager1",
+            "name": "ArleonHostiles_Idle_65_FaeyRager_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 455,
             "y": 331,
@@ -3477,7 +3477,7 @@
         "vanilla": {
           "languageKey": "FaeyNoble",
           "sprite": {
-            "name": "ArleonFaeyNobleDefault1Idle1",
+            "name": "ArleonFaeyNoble_Default_1_Idle_1",
             "spriteSheet": "ArleonFaeyNobleAtlas.png",
             "x": 337,
             "y": 272,
@@ -3653,7 +3653,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "ArleonHostilesIdle81FaeyNoble1",
+            "name": "ArleonHostiles_Idle_81_FaeyNoble_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 289,
             "y": 387,
@@ -3728,7 +3728,7 @@
         "upgraded": {
           "languageKey": "FaeyQueen",
           "sprite": {
-            "name": "ArleonHostilesIdle87FaeyQueen1",
+            "name": "ArleonHostiles_Idle_87_FaeyQueen_1",
             "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 259,
             "y": 340,
@@ -3810,7 +3810,7 @@
         "vanilla": {
           "languageKey": "Ballista",
           "sprite": {
-            "name": "ArleonBalistaDefault1Idle1",
+            "name": "ArleonBalista_Default_1_Idle_1",
             "spriteSheet": "ArleonBallistaAtlas.png",
             "x": 128,
             "y": 230,
@@ -4155,7 +4155,7 @@
         "vanilla": {
           "languageKey": "Rats",
           "sprite": {
-            "name": "LothRatsRat11Idle1",
+            "name": "LothRats_Rat1_1_Idle_1",
             "spriteSheet": "LothRatsAtlas.png",
             "x": 191,
             "y": 0,
@@ -4235,7 +4235,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork1Rats1",
+            "name": "LothHostiles_Artwork_1_Rats_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 286,
             "y": 8,
@@ -4278,7 +4278,7 @@
         "upgraded": {
           "languageKey": "PlagueRats",
           "sprite": {
-            "name": "LothHostilesArtwork7PlagueRats1",
+            "name": "LothHostiles_Artwork_7_PlagueRats_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 0,
             "y": 57,
@@ -4336,7 +4336,7 @@
         "vanilla": {
           "languageKey": "Oathbound",
           "sprite": {
-            "name": "LothOathboundDefault1Idle1",
+            "name": "LothOathbound_Default_1_Idle_1",
             "spriteSheet": "LothOathboundAtlas.png",
             "x": 397,
             "y": 82,
@@ -4472,7 +4472,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork13Oathbound1",
+            "name": "LothHostiles_Artwork_13_Oathbound_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 344,
             "y": 40,
@@ -4539,7 +4539,7 @@
         "upgraded": {
           "languageKey": "Legionnaire",
           "sprite": {
-            "name": "LothHostilesArtwork19OathboundLegionaire1",
+            "name": "LothHostiles_Artwork_19_OathboundLegionaire_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 470.0233,
             "y": 124,
@@ -4605,7 +4605,7 @@
         "vanilla": {
           "languageKey": "Cultist",
           "sprite": {
-            "name": "LothCultistDefault1Idle1",
+            "name": "LothCultist_Default_1_Idle_1",
             "spriteSheet": "LothCultistAtlas.png",
             "x": 417,
             "y": 88,
@@ -4665,7 +4665,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork25Cultist1",
+            "name": "LothHostiles_Artwork_25_Cultist_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 468,
             "y": 16,
@@ -4716,7 +4716,7 @@
         "upgraded": {
           "languageKey": "Oathsinger",
           "sprite": {
-            "name": "LothHostilesArtwork31Zealot1",
+            "name": "LothHostiles_Artwork_31_Zealot_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 298,
             "y": 40,
@@ -4762,7 +4762,7 @@
         "vanilla": {
           "languageKey": "Toxicologist",
           "sprite": {
-            "name": "LothEmbalmerDefault1Idle1",
+            "name": "LothEmbalmer_Default_1_Idle_1",
             "spriteSheet": "LothEmbalmerAtlas.png",
             "x": 109,
             "y": 113,
@@ -4854,7 +4854,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork37Embalmer1",
+            "name": "LothHostiles_Artwork_37_Embalmer_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 2,
             "y": 88,
@@ -4897,7 +4897,7 @@
         "upgraded": {
           "languageKey": "Bane",
           "sprite": {
-            "name": "LothHostilesArtwork43Doctor1",
+            "name": "LothHostiles_Artwork_43_Doctor_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 484,
             "y": 411,
@@ -4947,7 +4947,7 @@
         "vanilla": {
           "languageKey": "AurelianScholar",
           "sprite": {
-            "name": "LothScholarDefault1Idle1",
+            "name": "LothScholar_Default_1_Idle_1",
             "spriteSheet": "LothScholarAtlas.png",
             "x": 377,
             "y": 121,
@@ -5031,7 +5031,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork49Necromancer1",
+            "name": "LothHostiles_Artwork_49_Necromancer_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 138,
             "y": 149,
@@ -5078,7 +5078,7 @@
         "upgraded": {
           "languageKey": "Necromancer",
           "sprite": {
-            "name": "LothHostilesArtwork55Oathsinger1",
+            "name": "LothHostiles_Artwork_55_Oathsinger_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 445,
             "y": 173,
@@ -5146,7 +5146,7 @@
         "vanilla": {
           "languageKey": "ScavengedBones",
           "sprite": {
-            "name": "LothSanctifiedBonesDefault1Idle1",
+            "name": "LothSanctifiedBones_Default_1_Idle_1",
             "spriteSheet": "LothSanctifiedBonesAtlas.png",
             "x": 194,
             "y": 261,
@@ -5364,7 +5364,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork73BlessedBones1",
+            "name": "LothHostiles_Artwork_73_BlessedBones_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 266,
             "y": 214,
@@ -5447,7 +5447,7 @@
         "upgraded": {
           "languageKey": "BlessedBones",
           "sprite": {
-            "name": "LothHostilesArtwork79SanctifiedBones1",
+            "name": "LothHostiles_Artwork_79_SanctifiedBones_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 260,
             "y": 324,
@@ -5545,7 +5545,7 @@
         "vanilla": {
           "languageKey": "Spectre",
           "sprite": {
-            "name": "LothAurelianClericDefault1Idle1",
+            "name": "LothAurelianCleric_Default_1_Idle_1",
             "spriteSheet": "LothAurelianClericAtlas.png",
             "x": 245,
             "y": 233,
@@ -5643,7 +5643,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork61AurelianCleric1",
+            "name": "LothHostiles_Artwork_61_AurelianCleric_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 129,
             "y": 105,
@@ -5686,7 +5686,7 @@
         "upgraded": {
           "languageKey": "Seneschal",
           "sprite": {
-            "name": "LothHostilesArtwork67AurelianHighCleric1",
+            "name": "LothHostiles_Artwork_67_AurelianHighCleric_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 27,
             "y": 129,
@@ -5760,7 +5760,7 @@
         "vanilla": {
           "languageKey": "Legion",
           "sprite": {
-            "name": "LothLegionDefault1Idle1",
+            "name": "LothLegion_Default_1_Idle_1",
             "spriteSheet": "LothLegionAtlas.png",
             "x": 448,
             "y": 358,
@@ -6152,7 +6152,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork85Legion1",
+            "name": "LothHostiles_Artwork_85_Legion_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 437.02676,
             "y": 387,
@@ -6251,7 +6251,7 @@
         "vanilla": {
           "languageKey": "Risen",
           "sprite": {
-            "name": "LothZombieDefault1Idle1",
+            "name": "LothZombie_Default_1_Idle_1",
             "spriteSheet": "LothZombieAtlas.png",
             "x": 134,
             "y": 20,
@@ -6335,7 +6335,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "LothHostilesArtwork97Zombie1",
+            "name": "LothHostiles_Artwork_97_Zombie_1",
             "spriteSheet": "LothHostilesAtlas.png",
             "x": 242,
             "y": 58,
@@ -6406,7 +6406,7 @@
         "vanilla": {
           "languageKey": "Ballista",
           "sprite": {
-            "name": "ArleonBalistaDefault1Idle1",
+            "name": "ArleonBalista_Default_1_Idle_1",
             "spriteSheet": "ArleonBallistaAtlas.png",
             "x": 128,
             "y": 230,
@@ -6751,7 +6751,7 @@
         "vanilla": {
           "languageKey": "Piper",
           "sprite": {
-            "name": "BaryaPiperDefault1Idle1",
+            "name": "BaryaPiper_Default_1_Idle_1",
             "spriteSheet": "BaryaPiperAtlas.png",
             "x": 229,
             "y": 14,
@@ -6807,7 +6807,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "BaryaHostilesIdle1Piper1",
+            "name": "BaryaHostiles_Idle_1_Piper_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 441,
             "y": 28,
@@ -6858,7 +6858,7 @@
         "upgraded": {
           "languageKey": "SteamPiper",
           "sprite": {
-            "name": "BaryaHostilesIdle7Steampiper1",
+            "name": "BaryaHostiles_Idle_7_Steampiper_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 490,
             "y": 8,
@@ -6916,7 +6916,7 @@
         "vanilla": {
           "languageKey": "Pikeneer",
           "sprite": {
-            "name": "BaryaPikeneerDefault1Idle1",
+            "name": "BaryaPikeneer_Default_1_Idle_1",
             "spriteSheet": "BaryaPikeneerAtlas.png",
             "x": 429,
             "y": 74,
@@ -7028,7 +7028,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "BaryaHostilesIdle25Pikeneer1",
+            "name": "BaryaHostiles_Idle_25_Pikeneer_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 429,
             "y": 137,
@@ -7099,7 +7099,7 @@
         "upgraded": {
           "languageKey": "VeteranPikeneer",
           "sprite": {
-            "name": "BaryaHostilesIdle31PikeneerVeteran1",
+            "name": "BaryaHostiles_Idle_31_PikeneerVeteran_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 344,
             "y": 144,
@@ -7161,7 +7161,7 @@
         "vanilla": {
           "languageKey": "Musketeer",
           "sprite": {
-            "name": "BaryaMusketeerDefault1Idle1",
+            "name": "BaryaMusketeer_Default_1_Idle_1",
             "spriteSheet": "BaryaMusketeerAtlas.png",
             "x": 90,
             "y": 244,
@@ -7253,7 +7253,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "BaryaHostilesIdle37Musketeer1",
+            "name": "BaryaHostiles_Idle_37_Musketeer_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 370,
             "y": 68,
@@ -7316,7 +7316,7 @@
         "upgraded": {
           "languageKey": "VeteranMusketeer",
           "sprite": {
-            "name": "BaryaHostilesIdle43MusketeerVeteran1",
+            "name": "BaryaHostiles_Idle_43_MusketeerVeteran_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 144,
             "y": 151,
@@ -7378,7 +7378,7 @@
         "vanilla": {
           "languageKey": "Dreath",
           "sprite": {
-            "name": "BaryaDreathDefault1Idle1",
+            "name": "BaryaDreath_Default_1_Idle_1",
             "spriteSheet": "BaryaDreathAtlas.png",
             "x": 373,
             "y": 81,
@@ -7556,7 +7556,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "BaryaHostilesIdle13Dreath1",
+            "name": "BaryaHostiles_Idle_13_Dreath_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 163,
             "y": 10,
@@ -7607,7 +7607,7 @@
         "upgraded": {
           "languageKey": "DireDreath",
           "sprite": {
-            "name": "BaryaHostilesIdle19DireDreath1",
+            "name": "BaryaHostiles_Idle_19_DireDreath_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 111,
             "y": 45,
@@ -7669,7 +7669,7 @@
         "vanilla": {
           "languageKey": "Brute",
           "sprite": {
-            "name": "BaryaBruteDefault1Idle1",
+            "name": "BaryaBrute_Default_1_Idle_1",
             "spriteSheet": "BaryaBruteAtlas.png",
             "x": 361,
             "y": 54,
@@ -7825,7 +7825,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "BaryaHostilesIdle61Brute1",
+            "name": "BaryaHostiles_Idle_61_Brute_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 208,
             "y": 193,
@@ -7936,7 +7936,7 @@
         "upgraded": {
           "languageKey": "ScarredBrute",
           "sprite": {
-            "name": "BaryaHostilesIdle67ScarredBrute1",
+            "name": "BaryaHostiles_Idle_67_ScarredBrute_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 234.07613,
             "y": 242,
@@ -8022,7 +8022,7 @@
         "vanilla": {
           "languageKey": "Tinkerer",
           "sprite": {
-            "name": "BaryaTinkererDefault1Idle1",
+            "name": "BaryaTinkerer_Default_1_Idle_1",
             "spriteSheet": "BaryaTinkererAtlas.png",
             "x": 338,
             "y": 89,
@@ -8134,7 +8134,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "BaryaHostilesIdle49Tinkerer1",
+            "name": "BaryaHostiles_Idle_49_Tinkerer_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 482,
             "y": 72,
@@ -8189,7 +8189,7 @@
         "upgraded": {
           "languageKey": "Artificer",
           "sprite": {
-            "name": "BaryaHostilesIdle55Artificer1",
+            "name": "BaryaHostiles_Idle_55_Artificer_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 271,
             "y": 109,
@@ -8257,7 +8257,7 @@
         "vanilla": {
           "languageKey": "Sassanid",
           "sprite": {
-            "name": "BaryaSassanidDefault1Idle1",
+            "name": "BaryaSassanid_Default_1_Idle_1",
             "spriteSheet": "BaryaSassanidAtlas.png",
             "x": 321,
             "y": 109,
@@ -8349,7 +8349,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "BaryaHostilesIdle73Sassanid1",
+            "name": "BaryaHostiles_Idle_73_Sassanid_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 195,
             "y": 37,
@@ -8424,7 +8424,7 @@
         "upgraded": {
           "languageKey": "Shadow",
           "sprite": {
-            "name": "BaryaHostilesIdle79SassanidVeteran1",
+            "name": "BaryaHostiles_Idle_79_SassanidVeteran_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 47,
             "y": 104,
@@ -8510,7 +8510,7 @@
         "vanilla": {
           "languageKey": "Hellbreath",
           "sprite": {
-            "name": "BaryaHellbreathDefault1Idle1",
+            "name": "BaryaHellbreath_Default_1_Idle_1",
             "spriteSheet": "BaryaHellbreathAtlas.png",
             "x": 916,
             "y": 145,
@@ -8646,7 +8646,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "BaryaHostilesIdle85Hellbreath1",
+            "name": "BaryaHostiles_Idle_85_Hellbreath_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 96,
             "y": 242,
@@ -8733,7 +8733,7 @@
         "upgraded": {
           "languageKey": "Hellroar",
           "sprite": {
-            "name": "BaryaHostilesIdle91Hellroar1",
+            "name": "BaryaHostiles_Idle_91_Hellroar_1",
             "spriteSheet": "BaryaHostilesAtlas.png",
             "x": 0.047704518,
             "y": 180,
@@ -8815,7 +8815,7 @@
         "vanilla": {
           "languageKey": "Ballista",
           "sprite": {
-            "name": "ArleonBalistaDefault1Idle1",
+            "name": "ArleonBalista_Default_1_Idle_1",
             "spriteSheet": "ArleonBallistaAtlas.png",
             "x": 128,
             "y": 230,
@@ -9160,7 +9160,7 @@
         "vanilla": {
           "languageKey": "Hunter",
           "sprite": {
-            "name": "RanaHunterDefault1Idle1",
+            "name": "RanaHunter_Default_1_Idle_1",
             "spriteSheet": "RanaHunterAtlas.png",
             "x": 118,
             "y": 88,
@@ -9252,7 +9252,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "RanaHostilesIdle1Hunter1",
+            "name": "RanaHostiles_Idle_1_Hunter_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 294,
             "y": 21,
@@ -9323,7 +9323,7 @@
         "upgraded": {
           "languageKey": "StormGuard",
           "sprite": {
-            "name": "RanaHostilesIdle7StormGuard1",
+            "name": "RanaHostiles_Idle_7_StormGuard_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 364,
             "y": 92,
@@ -9397,7 +9397,7 @@
         "vanilla": {
           "languageKey": "Shaman",
           "sprite": {
-            "name": "RanaShamanDefault1Idle1",
+            "name": "RanaShaman_Default_1_Idle_1",
             "spriteSheet": "RanaShamanAtlas.png",
             "x": 134,
             "y": 93,
@@ -9581,7 +9581,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "RanaHostilesIdle13Shaman1",
+            "name": "RanaHostiles_Idle_13_Shaman_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 422.05133,
             "y": 166,
@@ -9640,7 +9640,7 @@
         "upgraded": {
           "languageKey": "Sage",
           "sprite": {
-            "name": "RanaHostilesIdle19Sage1",
+            "name": "RanaHostiles_Idle_19_Sage_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 368,
             "y": 247,
@@ -9702,7 +9702,7 @@
         "vanilla": {
           "languageKey": "Guard",
           "sprite": {
-            "name": "RanaGuardDefault1Idle1",
+            "name": "RanaGuard_Default_1_Idle_1",
             "spriteSheet": "RanaGuardAtlas.png",
             "x": 118,
             "y": 42,
@@ -9802,7 +9802,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "RanaHostilesIdle85Guard1",
+            "name": "RanaHostiles_Idle_85_Guard_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 288,
             "y": 52,
@@ -9873,7 +9873,7 @@
         "upgraded": {
           "languageKey": "Protector",
           "sprite": {
-            "name": "RanaHostilesIdle91Guard upgrade1",
+            "name": "RanaHostiles_Idle_91_Guard upgrade_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 446,
             "y": 85,
@@ -9943,7 +9943,7 @@
         "vanilla": {
           "languageKey": "Ravager",
           "sprite": {
-            "name": "RanaRavagerDefault1Idle1",
+            "name": "RanaRavager_Default_1_Idle_1",
             "spriteSheet": "RanaRavagerAtlas.png",
             "x": 330,
             "y": 314,
@@ -10113,7 +10113,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "RanaHostilesIdle25Ravager1",
+            "name": "RanaHostiles_Idle_25_Ravager_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 183.07613,
             "y": 186,
@@ -10206,7 +10206,7 @@
         "upgraded": {
           "languageKey": "RiderOfTheSwamp",
           "sprite": {
-            "name": "RanaHostilesIdle31RiderOfTheSwamp1",
+            "name": "RanaHostiles_Idle_31_RiderOfTheSwamp_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 353,
             "y": 332,
@@ -10304,7 +10304,7 @@
         "vanilla": {
           "languageKey": "Crawler",
           "sprite": {
-            "name": "RanaCrawlerDefault1Idle1",
+            "name": "RanaCrawler_Default_1_Idle_1",
             "spriteSheet": "RanaCrawlerAtlas.png",
             "x": 416,
             "y": 18,
@@ -10388,7 +10388,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "RanaHostilesIdle37Crawler1",
+            "name": "RanaHostiles_Idle_37_Crawler_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 134,
             "y": 153,
@@ -10455,7 +10455,7 @@
         "upgraded": {
           "languageKey": "AdultCrawler",
           "sprite": {
-            "name": "RanaHostilesIdle43AdultCrawler1",
+            "name": "RanaHostiles_Idle_43_AdultCrawler_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 3.0761204,
             "y": 178,
@@ -10557,7 +10557,7 @@
         "vanilla": {
           "languageKey": "Tremor",
           "sprite": {
-            "name": "RanaTremorDefault1Idle1",
+            "name": "RanaTremor_Default_1_Idle_1",
             "spriteSheet": "RanaTremorAtlas.png",
             "x": 271.0429,
             "y": 98,
@@ -10751,7 +10751,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "RanaHostilesIdle49Tremor1",
+            "name": "RanaHostiles_Idle_49_Tremor_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 0.0541268,
             "y": 350,
@@ -10858,7 +10858,7 @@
         "vanilla": {
           "languageKey": "Chelun",
           "sprite": {
-            "name": "RanaChelunDefault1Idle1",
+            "name": "RanaChelun_Default_1_Idle_1",
             "spriteSheet": "RanaChelunAtlas.png",
             "x": 423,
             "y": 250,
@@ -11006,7 +11006,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "RanaHostilesIdle55Chelun1",
+            "name": "RanaHostiles_Idle_55_Chelun_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 450,
             "y": 341,
@@ -11089,7 +11089,7 @@
         "upgraded": {
           "languageKey": "ChelunElder",
           "sprite": {
-            "name": "RanaHostilesIdle61ChelunElder1",
+            "name": "RanaHostiles_Idle_61_ChelunElder_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 210,
             "y": 295,
@@ -11175,7 +11175,7 @@
         "vanilla": {
           "languageKey": "Ethdra",
           "sprite": {
-            "name": "RanaDragonlingDefault1Idle1",
+            "name": "RanaDragonling_Default_1_Idle_1",
             "spriteSheet": "RanaDragonlingAtlas.png",
             "x": 120,
             "y": 324,
@@ -11331,7 +11331,7 @@
             ]
           },
           "adventureSprite": {
-            "name": "RanaHostilesIdle67Dragonling1",
+            "name": "RanaHostiles_Idle_67_Dragonling_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 0.05131668,
             "y": 86,
@@ -11418,7 +11418,7 @@
         "upgraded": {
           "languageKey": "Dragon",
           "sprite": {
-            "name": "RanaHostilesIdle73Dragon1",
+            "name": "RanaHostiles_Idle_73_Dragon_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 215,
             "y": 381,
@@ -11489,7 +11489,7 @@
         "superUpgraded": {
           "languageKey": "ElderDragon",
           "sprite": {
-            "name": "RanaHostilesIdle79ElderDragon1",
+            "name": "RanaHostiles_Idle_79_ElderDragon_1",
             "spriteSheet": "RanaHostilesAtlas.png",
             "x": 50,
             "y": 369,
@@ -11562,7 +11562,7 @@
         "vanilla": {
           "languageKey": "Ballista",
           "sprite": {
-            "name": "ArleonBalistaDefault1Idle1",
+            "name": "ArleonBalista_Default_1_Idle_1",
             "spriteSheet": "ArleonBallistaAtlas.png",
             "x": 128,
             "y": 230,
@@ -11673,6 +11673,2477 @@
                 {
                   "x": -17,
                   "y": 16
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "type": "Vanir",
+    "languageKey": "Vanir",
+    "bannerSprite": {
+      "name": "BannerColorable",
+      "spriteSheet": "ArleonUI.png",
+      "x": 1436,
+      "y": 1712,
+      "width": 96,
+      "height": 147,
+      "outline": [
+        [
+          {
+            "x": -48,
+            "y": -73.5
+          },
+          {
+            "x": -48,
+            "y": 73.5
+          },
+          {
+            "x": 48,
+            "y": 73.5
+          },
+          {
+            "x": 48,
+            "y": -73.5
+          }
+        ]
+      ]
+    },
+    "symbolSprite": {
+      "name": "TopCircleSymbol",
+      "spriteSheet": "ArleonUI_0.png",
+      "x": 1894,
+      "y": 1863,
+      "width": 82,
+      "height": 91,
+      "outline": [
+        [
+          {
+            "x": -41,
+            "y": -45.5
+          },
+          {
+            "x": -41,
+            "y": 45.5
+          },
+          {
+            "x": 41,
+            "y": 45.5
+          },
+          {
+            "x": 41,
+            "y": -45.5
+          }
+        ]
+      ]
+    },
+    "wielderFrames": [
+      {
+        "name": "VanirWielderHUDFrame_Hostile",
+        "spriteSheet": "VanirWielderFrames.png",
+        "x": 316,
+        "y": 682,
+        "width": 310,
+        "height": 340,
+        "outline": [
+          [
+            {
+              "x": -155,
+              "y": -170
+            },
+            {
+              "x": -155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": -170
+            }
+          ]
+        ]
+      },
+      {
+        "name": "VanirWielderHUDFrame",
+        "spriteSheet": "VanirWielderFrames.png",
+        "x": 2,
+        "y": 682,
+        "width": 310,
+        "height": 340,
+        "outline": [
+          [
+            {
+              "x": -155,
+              "y": -170
+            },
+            {
+              "x": -155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": -170
+            }
+          ]
+        ]
+      }
+    ],
+    "commanders": [
+      {
+        "type": "Jarn",
+        "portrait": {
+          "name": "VanirJarnPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 0,
+          "y": 523,
+          "width": 210,
+          "height": 234
+        }
+      },
+      {
+        "type": "Ildra",
+        "portrait": {
+          "name": "VanirIldraPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 214,
+          "y": 534,
+          "width": 206,
+          "height": 223
+        }
+      },
+      {
+        "type": "Kol",
+        "portrait": {
+          "name": "VanirKolPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 0,
+          "y": 285,
+          "width": 187,
+          "height": 234
+        }
+      },
+      {
+        "type": "Gorm",
+        "portrait": {
+          "name": "VanirGormPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 424,
+          "y": 582,
+          "width": 224,
+          "height": 218
+        }
+      },
+      {
+        "type": "Bjorn",
+        "portrait": {
+          "name": "VanirBjornPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 245,
+          "y": 804,
+          "width": 243,
+          "height": 220
+        }
+      },
+      {
+        "type": "Oedi",
+        "portrait": {
+          "name": "VanirOediPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 191,
+          "y": 296,
+          "width": 240,
+          "height": 223
+        }
+      },
+      {
+        "type": "Haemnd",
+        "portrait": {
+          "name": "VanirHaemndPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 0,
+          "y": 761,
+          "width": 241,
+          "height": 263
+        }
+      },
+      {
+        "type": "Sorg",
+        "portrait": {
+          "name": "VanirSorgPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 492,
+          "y": 832,
+          "width": 210,
+          "height": 192
+        }
+      },
+      {
+        "type": "Girighet",
+        "portrait": {
+          "name": "VanirGirighetPortrait",
+          "spriteSheet": "VanirWielderPortraitAtlas_0.png",
+          "x": 0,
+          "y": 55,
+          "width": 240,
+          "height": 226
+        }
+      }
+    ],
+    "units": [
+      {
+        "vanilla": {
+          "languageKey": "Lykt",
+          "sprite": {
+            "name": "VanirLykt_Default_1_Idle_1",
+            "spriteSheet": "VanirLyktAtlas.png",
+            "x": 170,
+            "y": 34.076122,
+            "width": 46,
+            "height": 69.92388,
+            "outline": [
+              [
+                {
+                  "x": -16,
+                  "y": 23.961937
+                },
+                {
+                  "x": -3,
+                  "y": 34.961937
+                },
+                {
+                  "x": 3,
+                  "y": 21.961937
+                },
+                {
+                  "x": -1,
+                  "y": 7.961937
+                },
+                {
+                  "x": 12,
+                  "y": 20.961937
+                },
+                {
+                  "x": 17,
+                  "y": 15.961937
+                },
+                {
+                  "x": 17,
+                  "y": 8.961937
+                },
+                {
+                  "x": 23,
+                  "y": -0.03806305
+                },
+                {
+                  "x": 23,
+                  "y": -12.038063
+                },
+                {
+                  "x": 20,
+                  "y": -24.038061
+                },
+                {
+                  "x": 20,
+                  "y": -35.038063
+                },
+                {
+                  "x": 1,
+                  "y": -30.038061
+                },
+                {
+                  "x": 0,
+                  "y": -25.038061
+                },
+                {
+                  "x": -8,
+                  "y": -28.038061
+                },
+                {
+                  "x": -8,
+                  "y": -21.038063
+                },
+                {
+                  "x": -23,
+                  "y": -21.038063
+                },
+                {
+                  "x": -23,
+                  "y": -16.038063
+                },
+                {
+                  "x": -14,
+                  "y": -7.038063
+                },
+                {
+                  "x": -6,
+                  "y": -7.038063
+                },
+                {
+                  "x": -13,
+                  "y": 4.961937
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "VanirHostiles_Default_13_Lykt_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 276.0761,
+            "y": 52,
+            "width": 31.92388,
+            "height": 38,
+            "outline": [
+              [
+                {
+                  "x": -7.0380507,
+                  "y": 19
+                },
+                {
+                  "x": -1.0380507,
+                  "y": 19
+                },
+                {
+                  "x": 0.96194935,
+                  "y": 14
+                },
+                {
+                  "x": 10.961949,
+                  "y": 14
+                },
+                {
+                  "x": 15.961949,
+                  "y": -1
+                },
+                {
+                  "x": 12.961949,
+                  "y": -19
+                },
+                {
+                  "x": -4.0380507,
+                  "y": -19
+                },
+                {
+                  "x": -7.0380507,
+                  "y": -11
+                },
+                {
+                  "x": -17.038052,
+                  "y": -8
+                },
+                {
+                  "x": -13.038051,
+                  "y": 3
+                },
+                {
+                  "x": -12.038051,
+                  "y": 14
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Lyktvaan",
+          "sprite": {
+            "name": "VanirHostiles_Default_19_Lyktvaan_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 81.07612,
+            "y": 86,
+            "width": 38.923878,
+            "height": 40.923878,
+            "outline": [
+              [
+                {
+                  "x": -16.538057,
+                  "y": 17.538061
+                },
+                {
+                  "x": -6.5380573,
+                  "y": 21.538061
+                },
+                {
+                  "x": -1.5380573,
+                  "y": 12.538061
+                },
+                {
+                  "x": 3.4619427,
+                  "y": 15.538061
+                },
+                {
+                  "x": 15.461943,
+                  "y": 8.538061
+                },
+                {
+                  "x": 19.461943,
+                  "y": 0.53806114
+                },
+                {
+                  "x": 16.461943,
+                  "y": -10.461939
+                },
+                {
+                  "x": 8.461943,
+                  "y": -20.461937
+                },
+                {
+                  "x": -7.5380573,
+                  "y": -18.461937
+                },
+                {
+                  "x": -10.538057,
+                  "y": -11.461939
+                },
+                {
+                  "x": -19.538057,
+                  "y": -8.461939
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Huskarl",
+          "sprite": {
+            "name": "VanirHuskarl_Default_1_IdleSpear_1",
+            "spriteSheet": "VanirHuskarlAtlas.png",
+            "x": 360,
+            "y": 277,
+            "width": 40,
+            "height": 87,
+            "outline": [
+              [
+                {
+                  "x": 12,
+                  "y": 37.5
+                },
+                {
+                  "x": 12,
+                  "y": 13.5
+                },
+                {
+                  "x": 18,
+                  "y": 5.5
+                },
+                {
+                  "x": 16,
+                  "y": -8.5
+                },
+                {
+                  "x": 20,
+                  "y": -16.5
+                },
+                {
+                  "x": 13,
+                  "y": -23.5
+                },
+                {
+                  "x": 13,
+                  "y": -43.5
+                },
+                {
+                  "x": 4,
+                  "y": -38.5
+                },
+                {
+                  "x": 0,
+                  "y": -22.5
+                },
+                {
+                  "x": -3,
+                  "y": -35.5
+                },
+                {
+                  "x": -13,
+                  "y": -38.5
+                },
+                {
+                  "x": -12,
+                  "y": -34.5
+                },
+                {
+                  "x": -8,
+                  "y": -31.5
+                },
+                {
+                  "x": -12,
+                  "y": -16.5
+                },
+                {
+                  "x": -14,
+                  "y": -14.5
+                },
+                {
+                  "x": -20,
+                  "y": 2.5
+                },
+                {
+                  "x": -14,
+                  "y": 19.5
+                },
+                {
+                  "x": -8,
+                  "y": 18.5
+                },
+                {
+                  "x": -7,
+                  "y": 24.5
+                },
+                {
+                  "x": -1,
+                  "y": 30.5
+                },
+                {
+                  "x": 7,
+                  "y": 17.5
+                },
+                {
+                  "x": 7,
+                  "y": 35.5
+                },
+                {
+                  "x": 9,
+                  "y": 43.5
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "VanirHostiles_Default_1_Huskarl_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 171,
+            "y": 135,
+            "width": 26,
+            "height": 49,
+            "outline": [
+              [
+                {
+                  "x": 1,
+                  "y": 18.5
+                },
+                {
+                  "x": 3,
+                  "y": 24.5
+                },
+                {
+                  "x": 8,
+                  "y": 24.5
+                },
+                {
+                  "x": 13,
+                  "y": -10.499999
+                },
+                {
+                  "x": 8,
+                  "y": -15.499999
+                },
+                {
+                  "x": 8,
+                  "y": -24.5
+                },
+                {
+                  "x": 3,
+                  "y": -24.5
+                },
+                {
+                  "x": -8,
+                  "y": -22.5
+                },
+                {
+                  "x": -13,
+                  "y": 1.5
+                },
+                {
+                  "x": -6,
+                  "y": 18.5
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Korphan",
+          "sprite": {
+            "name": "VanirHostiles_Default_7_Korphan_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 92.07612,
+            "y": 140,
+            "width": 42.923878,
+            "height": 37,
+            "outline": [
+              [
+                {
+                  "x": -5.5380573,
+                  "y": 18.5
+                },
+                {
+                  "x": 6.4619427,
+                  "y": 18.5
+                },
+                {
+                  "x": 15.461943,
+                  "y": 14.5
+                },
+                {
+                  "x": 21.461943,
+                  "y": 6.5
+                },
+                {
+                  "x": 19.461943,
+                  "y": -18.5
+                },
+                {
+                  "x": 10.461943,
+                  "y": -18.5
+                },
+                {
+                  "x": 1.4619427,
+                  "y": -12.499999
+                },
+                {
+                  "x": -9.538057,
+                  "y": -17.5
+                },
+                {
+                  "x": -13.538057,
+                  "y": -13.499999
+                },
+                {
+                  "x": -9.538057,
+                  "y": -0.5
+                },
+                {
+                  "x": -21.538057,
+                  "y": 3.5
+                },
+                {
+                  "x": -20.538057,
+                  "y": 8.5
+                },
+                {
+                  "x": -13.538057,
+                  "y": 14.5
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Swine",
+          "sprite": {
+            "name": "VanirSwine_Default_1_Idle_1",
+            "spriteSheet": "VanirSwineAtlas.png",
+            "x": 214,
+            "y": 158,
+            "width": 64,
+            "height": 46,
+            "outline": [
+              [
+                {
+                  "x": -14,
+                  "y": 19
+                },
+                {
+                  "x": 1,
+                  "y": 23
+                },
+                {
+                  "x": 19,
+                  "y": 16
+                },
+                {
+                  "x": 32,
+                  "y": 10
+                },
+                {
+                  "x": 23,
+                  "y": -23
+                },
+                {
+                  "x": 13,
+                  "y": -23
+                },
+                {
+                  "x": 15,
+                  "y": -15
+                },
+                {
+                  "x": 8,
+                  "y": -19
+                },
+                {
+                  "x": 2,
+                  "y": -16
+                },
+                {
+                  "x": 1,
+                  "y": -23
+                },
+                {
+                  "x": -11,
+                  "y": -23
+                },
+                {
+                  "x": -18,
+                  "y": -20
+                },
+                {
+                  "x": -15,
+                  "y": -15
+                },
+                {
+                  "x": -30,
+                  "y": -12
+                },
+                {
+                  "x": -32,
+                  "y": -7
+                },
+                {
+                  "x": -29,
+                  "y": 1
+                },
+                {
+                  "x": -24,
+                  "y": 5
+                },
+                {
+                  "x": -30,
+                  "y": 11
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "VanirHostiles_Default_25_Swine_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 276,
+            "y": 90,
+            "width": 41,
+            "height": 30,
+            "outline": [
+              [
+                {
+                  "x": -15.5,
+                  "y": 11.999999
+                },
+                {
+                  "x": 0.5,
+                  "y": 14.999999
+                },
+                {
+                  "x": 20.5,
+                  "y": 7.999999
+                },
+                {
+                  "x": 14.5,
+                  "y": -15
+                },
+                {
+                  "x": -10.5,
+                  "y": -15
+                },
+                {
+                  "x": -20.5,
+                  "y": -8
+                },
+                {
+                  "x": -20.5,
+                  "y": 4.999999
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Serimnaan",
+          "sprite": {
+            "name": "VanirHostiles_Default_31_Serimnaan_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 181.07613,
+            "y": 232,
+            "width": 47.923878,
+            "height": 33,
+            "outline": [
+              [
+                {
+                  "x": -8.038065,
+                  "y": -16.5
+                },
+                {
+                  "x": -25.038065,
+                  "y": -8.5
+                },
+                {
+                  "x": -16.038065,
+                  "y": 16.5
+                },
+                {
+                  "x": 13.961935,
+                  "y": 14.499999
+                },
+                {
+                  "x": 23.961935,
+                  "y": 9.499999
+                },
+                {
+                  "x": 23.961935,
+                  "y": 0.5
+                },
+                {
+                  "x": 16.961935,
+                  "y": -9.5
+                },
+                {
+                  "x": 15.961935,
+                  "y": -16.5
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Berserkir",
+          "sprite": {
+            "name": "VanirBerserkir_Default_1_Idle_1",
+            "spriteSheet": "VanirBerserkir.png",
+            "x": 314,
+            "y": 185,
+            "width": 65,
+            "height": 71,
+            "outline": [
+              [
+                {
+                  "x": 8.5,
+                  "y": 31.5
+                },
+                {
+                  "x": 12.5,
+                  "y": 28.5
+                },
+                {
+                  "x": 18.5,
+                  "y": 35.5
+                },
+                {
+                  "x": 28.5,
+                  "y": 23.5
+                },
+                {
+                  "x": 22.5,
+                  "y": 16.5
+                },
+                {
+                  "x": 28.5,
+                  "y": 7.5
+                },
+                {
+                  "x": 32.5,
+                  "y": -4.5
+                },
+                {
+                  "x": 27.5,
+                  "y": -35.5
+                },
+                {
+                  "x": 19.5,
+                  "y": -34.5
+                },
+                {
+                  "x": 19.5,
+                  "y": -28.5
+                },
+                {
+                  "x": 1.5,
+                  "y": -19.5
+                },
+                {
+                  "x": -0.5,
+                  "y": -28.5
+                },
+                {
+                  "x": -10.5,
+                  "y": -33.5
+                },
+                {
+                  "x": -10.5,
+                  "y": -8.5
+                },
+                {
+                  "x": -16.5,
+                  "y": -19.5
+                },
+                {
+                  "x": -25.5,
+                  "y": -21.5
+                },
+                {
+                  "x": -32.5,
+                  "y": -11.5
+                },
+                {
+                  "x": -28.5,
+                  "y": -5.5
+                },
+                {
+                  "x": -13.5,
+                  "y": 0.5
+                },
+                {
+                  "x": -7.5,
+                  "y": 4.5
+                },
+                {
+                  "x": -12.5,
+                  "y": 23.5
+                },
+                {
+                  "x": -8.5,
+                  "y": 31.5
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "VanirHostiles_Default_37_Berserkir_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 468,
+            "y": 136,
+            "width": 43.923878,
+            "height": 45,
+            "outline": [
+              [
+                {
+                  "x": -7.961939,
+                  "y": 19.5
+                },
+                {
+                  "x": 14.038061,
+                  "y": 22.5
+                },
+                {
+                  "x": 20.038061,
+                  "y": 14.5
+                },
+                {
+                  "x": 18.038061,
+                  "y": 6.5
+                },
+                {
+                  "x": 22.038061,
+                  "y": 0.5
+                },
+                {
+                  "x": 20.038061,
+                  "y": -17.5
+                },
+                {
+                  "x": 18.038061,
+                  "y": -22.5
+                },
+                {
+                  "x": 11.038061,
+                  "y": -22.5
+                },
+                {
+                  "x": 5.038061,
+                  "y": -14.499999
+                },
+                {
+                  "x": 0.038061142,
+                  "y": -19.5
+                },
+                {
+                  "x": -6.961939,
+                  "y": -19.5
+                },
+                {
+                  "x": -6.961939,
+                  "y": -14.499999
+                },
+                {
+                  "x": -14.961939,
+                  "y": -14.499999
+                },
+                {
+                  "x": -21.961939,
+                  "y": -7.499999
+                },
+                {
+                  "x": -16.961939,
+                  "y": -2.5
+                },
+                {
+                  "x": -8.961939,
+                  "y": 1.5
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Skinshifter",
+          "sprite": {
+            "name": "VanirHostiles_Default_43_Skinshifter_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 245,
+            "y": 466,
+            "width": 59,
+            "height": 46,
+            "outline": [
+              [
+                {
+                  "x": -9.5,
+                  "y": 3
+                },
+                {
+                  "x": -5.5,
+                  "y": 20
+                },
+                {
+                  "x": 7.5,
+                  "y": 23
+                },
+                {
+                  "x": 27.5,
+                  "y": 8
+                },
+                {
+                  "x": 29.5,
+                  "y": -11.999999
+                },
+                {
+                  "x": 24.5,
+                  "y": -10.999999
+                },
+                {
+                  "x": 24.5,
+                  "y": -23
+                },
+                {
+                  "x": 14.5,
+                  "y": -23
+                },
+                {
+                  "x": 13.5,
+                  "y": -15.999999
+                },
+                {
+                  "x": 9.5,
+                  "y": -14.999999
+                },
+                {
+                  "x": 3.5,
+                  "y": -21
+                },
+                {
+                  "x": -6.5,
+                  "y": -21
+                },
+                {
+                  "x": -7.5,
+                  "y": -10.999999
+                },
+                {
+                  "x": -29.5,
+                  "y": 7
+                },
+                {
+                  "x": -20.5,
+                  "y": 13
+                },
+                {
+                  "x": -13.5,
+                  "y": 12
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Troll",
+          "sprite": {
+            "name": "VanirTroll_Default_21_RangedAttack_7",
+            "spriteSheet": "VanirTroll.png",
+            "x": 0,
+            "y": 582,
+            "width": 190,
+            "height": 90,
+            "outline": [
+              [
+                {
+                  "x": -39,
+                  "y": 33
+                },
+                {
+                  "x": -69,
+                  "y": 33
+                },
+                {
+                  "x": -68,
+                  "y": 39
+                }
+              ],
+              [
+                {
+                  "x": -83,
+                  "y": 33
+                },
+                {
+                  "x": -39,
+                  "y": 33
+                },
+                {
+                  "x": -14,
+                  "y": 45
+                },
+                {
+                  "x": 11,
+                  "y": 40
+                },
+                {
+                  "x": 46,
+                  "y": 29
+                },
+                {
+                  "x": 58,
+                  "y": 29
+                },
+                {
+                  "x": 41,
+                  "y": 22
+                },
+                {
+                  "x": 57,
+                  "y": 22
+                },
+                {
+                  "x": 57,
+                  "y": 18
+                },
+                {
+                  "x": 37,
+                  "y": 14
+                },
+                {
+                  "x": 46,
+                  "y": 12
+                },
+                {
+                  "x": 36,
+                  "y": 7
+                },
+                {
+                  "x": 57,
+                  "y": -3
+                },
+                {
+                  "x": 51,
+                  "y": -10
+                },
+                {
+                  "x": 65,
+                  "y": -16
+                },
+                {
+                  "x": 95,
+                  "y": -17
+                },
+                {
+                  "x": 95,
+                  "y": -30
+                },
+                {
+                  "x": 81,
+                  "y": -38
+                },
+                {
+                  "x": 90,
+                  "y": -41
+                },
+                {
+                  "x": 78,
+                  "y": -41
+                },
+                {
+                  "x": 74,
+                  "y": -37
+                },
+                {
+                  "x": 82,
+                  "y": -30
+                },
+                {
+                  "x": 91,
+                  "y": -26
+                },
+                {
+                  "x": 84,
+                  "y": -23
+                },
+                {
+                  "x": 62,
+                  "y": -22
+                },
+                {
+                  "x": 42,
+                  "y": -19
+                },
+                {
+                  "x": 60,
+                  "y": -25
+                },
+                {
+                  "x": 68,
+                  "y": -37
+                },
+                {
+                  "x": 68,
+                  "y": -45
+                },
+                {
+                  "x": 49,
+                  "y": -45
+                },
+                {
+                  "x": 57,
+                  "y": -37
+                },
+                {
+                  "x": 54,
+                  "y": -33
+                },
+                {
+                  "x": 34,
+                  "y": -33
+                },
+                {
+                  "x": 20,
+                  "y": -23
+                },
+                {
+                  "x": 12,
+                  "y": -20
+                },
+                {
+                  "x": 11,
+                  "y": -23
+                },
+                {
+                  "x": 17,
+                  "y": -29
+                },
+                {
+                  "x": 17,
+                  "y": -35
+                },
+                {
+                  "x": -10,
+                  "y": -38
+                },
+                {
+                  "x": -8,
+                  "y": -31
+                },
+                {
+                  "x": 0,
+                  "y": -27
+                },
+                {
+                  "x": -17,
+                  "y": -22
+                },
+                {
+                  "x": -18,
+                  "y": -13
+                },
+                {
+                  "x": -11,
+                  "y": -4
+                },
+                {
+                  "x": -17,
+                  "y": 3
+                },
+                {
+                  "x": -32,
+                  "y": 5
+                },
+                {
+                  "x": -55,
+                  "y": 9
+                },
+                {
+                  "x": -64,
+                  "y": 7
+                },
+                {
+                  "x": -76,
+                  "y": 0
+                },
+                {
+                  "x": -78,
+                  "y": -4
+                },
+                {
+                  "x": -89,
+                  "y": 0
+                },
+                {
+                  "x": -95,
+                  "y": 7
+                },
+                {
+                  "x": -91,
+                  "y": 19
+                },
+                {
+                  "x": -83,
+                  "y": 22
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "VanirHostiles_Default_49_Troll_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 269,
+            "y": 318,
+            "width": 51,
+            "height": 44.973248,
+            "outline": [
+              [
+                {
+                  "x": -21.5,
+                  "y": 4.513376
+                },
+                {
+                  "x": -18.5,
+                  "y": 15.513376
+                },
+                {
+                  "x": -5.5,
+                  "y": 22.513376
+                },
+                {
+                  "x": 8.5,
+                  "y": 21.513376
+                },
+                {
+                  "x": 17.5,
+                  "y": 12.513376
+                },
+                {
+                  "x": 18.5,
+                  "y": -2.4866238
+                },
+                {
+                  "x": 25.5,
+                  "y": -14.486623
+                },
+                {
+                  "x": 21.5,
+                  "y": -18.486624
+                },
+                {
+                  "x": 10.5,
+                  "y": -22.486624
+                },
+                {
+                  "x": 0.5,
+                  "y": -22.486624
+                },
+                {
+                  "x": -25.5,
+                  "y": -21.486624
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Grym",
+          "sprite": {
+            "name": "VanirHostiles_Default_55_Grym_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 45.076122,
+            "y": 309,
+            "width": 48.88097,
+            "height": 50.923878,
+            "outline": [
+              [
+                {
+                  "x": 14.483393,
+                  "y": 24.538061
+                },
+                {
+                  "x": 21.483393,
+                  "y": 25.538061
+                },
+                {
+                  "x": 17.483393,
+                  "y": 13.538061
+                },
+                {
+                  "x": 19.483393,
+                  "y": -1.4619389
+                },
+                {
+                  "x": 25.483393,
+                  "y": -20.461939
+                },
+                {
+                  "x": 10.483393,
+                  "y": -25.461939
+                },
+                {
+                  "x": 0.48339272,
+                  "y": -25.461939
+                },
+                {
+                  "x": -25.516607,
+                  "y": -24.461939
+                },
+                {
+                  "x": -22.516607,
+                  "y": -4.461939
+                },
+                {
+                  "x": -18.516607,
+                  "y": 12.538061
+                },
+                {
+                  "x": -6.5166073,
+                  "y": 18.538061
+                },
+                {
+                  "x": 8.483393,
+                  "y": 18.538061
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Bacahorse",
+          "sprite": {
+            "name": "VanirBacahorse_Default_1_Idle_1",
+            "spriteSheet": "VanirBacahorseAtlas.png",
+            "x": 317,
+            "y": 446,
+            "width": 86,
+            "height": 78,
+            "outline": [
+              [
+                {
+                  "x": -31,
+                  "y": 38
+                },
+                {
+                  "x": -19,
+                  "y": 39
+                },
+                {
+                  "x": -5,
+                  "y": 33
+                },
+                {
+                  "x": 4,
+                  "y": 27
+                },
+                {
+                  "x": 13,
+                  "y": 28
+                },
+                {
+                  "x": 23,
+                  "y": 34
+                },
+                {
+                  "x": 36,
+                  "y": 26
+                },
+                {
+                  "x": 38,
+                  "y": 7
+                },
+                {
+                  "x": 38,
+                  "y": -15
+                },
+                {
+                  "x": 34,
+                  "y": -29
+                },
+                {
+                  "x": 26,
+                  "y": -31
+                },
+                {
+                  "x": 22,
+                  "y": -11
+                },
+                {
+                  "x": 19,
+                  "y": -24
+                },
+                {
+                  "x": 13,
+                  "y": -4
+                },
+                {
+                  "x": 10,
+                  "y": -3
+                },
+                {
+                  "x": 6,
+                  "y": -19
+                },
+                {
+                  "x": 4,
+                  "y": -7
+                },
+                {
+                  "x": 3,
+                  "y": -19
+                },
+                {
+                  "x": 5,
+                  "y": -29
+                },
+                {
+                  "x": 1,
+                  "y": -39
+                },
+                {
+                  "x": -8,
+                  "y": -38
+                },
+                {
+                  "x": -4,
+                  "y": -19
+                },
+                {
+                  "x": -6,
+                  "y": -16
+                },
+                {
+                  "x": -15,
+                  "y": -38
+                },
+                {
+                  "x": -23,
+                  "y": -34
+                },
+                {
+                  "x": -21,
+                  "y": -26
+                },
+                {
+                  "x": -29,
+                  "y": -5
+                },
+                {
+                  "x": -37,
+                  "y": -13
+                },
+                {
+                  "x": -43,
+                  "y": 2
+                },
+                {
+                  "x": -42,
+                  "y": 20
+                },
+                {
+                  "x": -39,
+                  "y": 34
+                }
+              ],
+              [
+                {
+                  "x": 16,
+                  "y": -14
+                },
+                {
+                  "x": 19,
+                  "y": -24
+                },
+                {
+                  "x": 9,
+                  "y": -28
+                }
+              ],
+              [
+                {
+                  "x": -33,
+                  "y": -22
+                },
+                {
+                  "x": -33,
+                  "y": -17
+                },
+                {
+                  "x": -32,
+                  "y": -17
+                },
+                {
+                  "x": -32,
+                  "y": -22
+                }
+              ],
+              [
+                {
+                  "x": -26,
+                  "y": -20
+                },
+                {
+                  "x": -26,
+                  "y": -19
+                },
+                {
+                  "x": -25,
+                  "y": -19
+                },
+                {
+                  "x": -25,
+                  "y": -20
+                }
+              ],
+              [
+                {
+                  "x": 43,
+                  "y": -17
+                },
+                {
+                  "x": 43,
+                  "y": -20
+                },
+                {
+                  "x": 40,
+                  "y": -20
+                }
+              ],
+              [
+                {
+                  "x": -26,
+                  "y": -17
+                },
+                {
+                  "x": -26,
+                  "y": -16
+                },
+                {
+                  "x": -25,
+                  "y": -16
+                },
+                {
+                  "x": -25,
+                  "y": -17
+                }
+              ],
+              [
+                {
+                  "x": 42,
+                  "y": -17
+                },
+                {
+                  "x": 42,
+                  "y": -16
+                },
+                {
+                  "x": 43,
+                  "y": -16
+                },
+                {
+                  "x": 43,
+                  "y": -17
+                }
+              ],
+              [
+                {
+                  "x": -33,
+                  "y": -16
+                },
+                {
+                  "x": -33,
+                  "y": -14
+                },
+                {
+                  "x": -32,
+                  "y": -14
+                },
+                {
+                  "x": -32,
+                  "y": -16
+                }
+              ],
+              [
+                {
+                  "x": -33,
+                  "y": -12
+                },
+                {
+                  "x": -33,
+                  "y": -11
+                },
+                {
+                  "x": -32,
+                  "y": -11
+                },
+                {
+                  "x": -32,
+                  "y": -12
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "VanirHostiles_Default_73_Bacahorse_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 342.02676,
+            "y": 277,
+            "width": 46.973248,
+            "height": 44,
+            "outline": [
+              [
+                {
+                  "x": -24.513388,
+                  "y": 9
+                },
+                {
+                  "x": -19.513388,
+                  "y": 22
+                },
+                {
+                  "x": -8.513388,
+                  "y": 22
+                },
+                {
+                  "x": 5.4866123,
+                  "y": 15
+                },
+                {
+                  "x": 14.486612,
+                  "y": 19
+                },
+                {
+                  "x": 23.486612,
+                  "y": 13
+                },
+                {
+                  "x": 23.486612,
+                  "y": -7.999999
+                },
+                {
+                  "x": 21.486612,
+                  "y": -19
+                },
+                {
+                  "x": 15.486612,
+                  "y": -19
+                },
+                {
+                  "x": 11.486612,
+                  "y": -15.999999
+                },
+                {
+                  "x": 3.4866123,
+                  "y": -22
+                },
+                {
+                  "x": -11.513388,
+                  "y": -22
+                },
+                {
+                  "x": -12.513388,
+                  "y": -8.999999
+                },
+                {
+                  "x": -20.513388,
+                  "y": -7.999999
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Hunger",
+          "sprite": {
+            "name": "VanirHostiles_Default_79_Hunger_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 347,
+            "y": 462,
+            "width": 62,
+            "height": 49.973248,
+            "outline": [
+              [
+                {
+                  "x": 0,
+                  "y": 24.013376
+                },
+                {
+                  "x": 7,
+                  "y": 17.013376
+                },
+                {
+                  "x": 20,
+                  "y": 25.013376
+                },
+                {
+                  "x": 31,
+                  "y": 17.013376
+                },
+                {
+                  "x": 31,
+                  "y": 7.013376
+                },
+                {
+                  "x": 23,
+                  "y": -11.986623
+                },
+                {
+                  "x": 23,
+                  "y": -20.986624
+                },
+                {
+                  "x": 7,
+                  "y": -20.986624
+                },
+                {
+                  "x": 5,
+                  "y": -23.986624
+                },
+                {
+                  "x": 2,
+                  "y": -24.986624
+                },
+                {
+                  "x": -3,
+                  "y": -24.986624
+                },
+                {
+                  "x": -13,
+                  "y": -22.986624
+                },
+                {
+                  "x": -14,
+                  "y": -11.986623
+                },
+                {
+                  "x": -25,
+                  "y": -11.986623
+                },
+                {
+                  "x": -25,
+                  "y": 5.013376
+                },
+                {
+                  "x": -31,
+                  "y": 11.013376
+                },
+                {
+                  "x": -17,
+                  "y": 24.013376
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Crone",
+          "sprite": {
+            "name": "VanirCrone_Default_1_Idle_1",
+            "spriteSheet": "VanirCrone.png",
+            "x": 317,
+            "y": 312,
+            "width": 40.957092,
+            "height": 64,
+            "outline": [
+              [
+                {
+                  "x": -11.478546,
+                  "y": 32
+                },
+                {
+                  "x": 1.5214539,
+                  "y": 32
+                },
+                {
+                  "x": 1.5214539,
+                  "y": 28
+                },
+                {
+                  "x": 11.521454,
+                  "y": 22
+                },
+                {
+                  "x": 15.521454,
+                  "y": 12
+                },
+                {
+                  "x": 15.521454,
+                  "y": 2
+                },
+                {
+                  "x": 20.521454,
+                  "y": -3
+                },
+                {
+                  "x": 11.521454,
+                  "y": -9
+                },
+                {
+                  "x": 17.521454,
+                  "y": -18
+                },
+                {
+                  "x": 19.521454,
+                  "y": -32
+                },
+                {
+                  "x": 12.521454,
+                  "y": -32
+                },
+                {
+                  "x": 3.5214539,
+                  "y": -28
+                },
+                {
+                  "x": -12.478546,
+                  "y": -29
+                },
+                {
+                  "x": -8.478546,
+                  "y": -23
+                },
+                {
+                  "x": -9.478546,
+                  "y": -8
+                },
+                {
+                  "x": -19.478546,
+                  "y": -8
+                },
+                {
+                  "x": -19.478546,
+                  "y": -2
+                },
+                {
+                  "x": -13.478546,
+                  "y": 5
+                },
+                {
+                  "x": -20.478546,
+                  "y": 12
+                },
+                {
+                  "x": -14.478546,
+                  "y": 12
+                },
+                {
+                  "x": -17.478546,
+                  "y": 23
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "VanirHostiles_Default_61_Crone_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 247,
+            "y": 37,
+            "width": 29,
+            "height": 42,
+            "outline": [
+              [
+                {
+                  "x": -11.5,
+                  "y": 6
+                },
+                {
+                  "x": -11.5,
+                  "y": 21
+                },
+                {
+                  "x": 2.5,
+                  "y": 21
+                },
+                {
+                  "x": 9.5,
+                  "y": 15
+                },
+                {
+                  "x": 14.5,
+                  "y": -1
+                },
+                {
+                  "x": 13.5,
+                  "y": -21
+                },
+                {
+                  "x": 6.5,
+                  "y": -21
+                },
+                {
+                  "x": -6.5,
+                  "y": -19
+                },
+                {
+                  "x": -8.5,
+                  "y": -8.999999
+                },
+                {
+                  "x": -14.5,
+                  "y": -3
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Nornor",
+          "sprite": {
+            "name": "VanirHostiles_Default_67_Nornor_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 338,
+            "y": 40,
+            "width": 27,
+            "height": 42,
+            "outline": [
+              [
+                {
+                  "x": -13.5,
+                  "y": 13
+                },
+                {
+                  "x": -9.5,
+                  "y": 21
+                },
+                {
+                  "x": 2.5,
+                  "y": 21
+                },
+                {
+                  "x": 9.5,
+                  "y": 15
+                },
+                {
+                  "x": 13.5,
+                  "y": 1
+                },
+                {
+                  "x": 13.5,
+                  "y": -21
+                },
+                {
+                  "x": 6.5,
+                  "y": -21
+                },
+                {
+                  "x": -6.5,
+                  "y": -19
+                },
+                {
+                  "x": -8.5,
+                  "y": -8.999999
+                },
+                {
+                  "x": -13.5,
+                  "y": -3.999999
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Chieftain",
+          "sprite": {
+            "name": "VanirChieftain_Default_1_Idle_1",
+            "spriteSheet": "VanirChieftain.png",
+            "x": 127,
+            "y": 332,
+            "width": 67,
+            "height": 84,
+            "outline": [
+              [
+                {
+                  "x": 23.5,
+                  "y": 33
+                },
+                {
+                  "x": 28.5,
+                  "y": 18
+                },
+                {
+                  "x": 23.5,
+                  "y": -2
+                },
+                {
+                  "x": 28.5,
+                  "y": -2
+                },
+                {
+                  "x": 33.5,
+                  "y": -7
+                },
+                {
+                  "x": 25.5,
+                  "y": -10
+                },
+                {
+                  "x": 21.5,
+                  "y": -26
+                },
+                {
+                  "x": 21.5,
+                  "y": -41
+                },
+                {
+                  "x": 14.5,
+                  "y": -42
+                },
+                {
+                  "x": 8.5,
+                  "y": -25
+                },
+                {
+                  "x": 5.5,
+                  "y": -22
+                },
+                {
+                  "x": 0.5,
+                  "y": -35
+                },
+                {
+                  "x": -16.5,
+                  "y": -35
+                },
+                {
+                  "x": -8.5,
+                  "y": -25
+                },
+                {
+                  "x": -12.5,
+                  "y": -10
+                },
+                {
+                  "x": -6.5,
+                  "y": 0
+                },
+                {
+                  "x": -17.5,
+                  "y": 0
+                },
+                {
+                  "x": -11.5,
+                  "y": -3
+                },
+                {
+                  "x": -13.5,
+                  "y": -6
+                },
+                {
+                  "x": -25.5,
+                  "y": -9
+                },
+                {
+                  "x": -33.5,
+                  "y": -6
+                },
+                {
+                  "x": -31.5,
+                  "y": 10
+                },
+                {
+                  "x": -16.5,
+                  "y": 8
+                },
+                {
+                  "x": -15.5,
+                  "y": 18
+                },
+                {
+                  "x": -12.5,
+                  "y": 18
+                },
+                {
+                  "x": -3.5,
+                  "y": 36
+                },
+                {
+                  "x": 5.5,
+                  "y": 42
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "VanirHostiles_Default_85_Chieftain_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 213,
+            "y": 257,
+            "width": 41.923878,
+            "height": 52,
+            "outline": [
+              [
+                {
+                  "x": -8.961939,
+                  "y": 10
+                },
+                {
+                  "x": 1.0380611,
+                  "y": 26
+                },
+                {
+                  "x": 13.038061,
+                  "y": 22
+                },
+                {
+                  "x": 18.038061,
+                  "y": 17
+                },
+                {
+                  "x": 21.038061,
+                  "y": -7
+                },
+                {
+                  "x": 17.038061,
+                  "y": -8
+                },
+                {
+                  "x": 15.038061,
+                  "y": -26
+                },
+                {
+                  "x": 7.038061,
+                  "y": -26
+                },
+                {
+                  "x": 7.038061,
+                  "y": -22
+                },
+                {
+                  "x": -6.961939,
+                  "y": -22
+                },
+                {
+                  "x": -7.961939,
+                  "y": -7
+                },
+                {
+                  "x": -20.961939,
+                  "y": -7
+                },
+                {
+                  "x": -16.961939,
+                  "y": 5
+                },
+                {
+                  "x": -8.961939,
+                  "y": 5
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Jormr",
+          "sprite": {
+            "name": "VanirHostiles_Default_91_Jormr_1",
+            "spriteSheet": "VanirHostilesAtlas.png",
+            "x": 468,
+            "y": 375.0761,
+            "width": 42.923878,
+            "height": 68.90584,
+            "outline": [
+              [
+                {
+                  "x": -14.461939,
+                  "y": -31.52903
+                },
+                {
+                  "x": -21.461939,
+                  "y": -16.52903
+                },
+                {
+                  "x": -19.461939,
+                  "y": -0.52902985
+                },
+                {
+                  "x": -7.461939,
+                  "y": 35.470974
+                },
+                {
+                  "x": 1.5380611,
+                  "y": 30.47097
+                },
+                {
+                  "x": 13.538061,
+                  "y": 20.47097
+                },
+                {
+                  "x": 18.538061,
+                  "y": -2.5290298
+                },
+                {
+                  "x": 22.538061,
+                  "y": -6.52903
+                },
+                {
+                  "x": 13.538061,
+                  "y": -15.52903
+                },
+                {
+                  "x": 10.538061,
+                  "y": -34.52903
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Ballista",
+          "sprite": {
+            "name": "VanirBallista_Default_1_Idle_1",
+            "spriteSheet": "VanirBallista.png",
+            "x": 59,
+            "y": 172.07613,
+            "width": 71,
+            "height": 59.923878,
+            "outline": [
+              [
+                {
+                  "x": -20.5,
+                  "y": 15.961935
+                },
+                {
+                  "x": -35.5,
+                  "y": 25.961935
+                },
+                {
+                  "x": -16.5,
+                  "y": 25.961935
+                },
+                {
+                  "x": -8.5,
+                  "y": 29.961935
+                },
+                {
+                  "x": -2.5,
+                  "y": 23.961935
+                },
+                {
+                  "x": 10.5,
+                  "y": 26.961935
+                },
+                {
+                  "x": 10.5,
+                  "y": 15.961935
+                },
+                {
+                  "x": 22.5,
+                  "y": 3.961935
+                },
+                {
+                  "x": 26.5,
+                  "y": 2.961935
+                },
+                {
+                  "x": 33.5,
+                  "y": 8.961935
+                },
+                {
+                  "x": 35.5,
+                  "y": -8.038065
+                },
+                {
+                  "x": 24.5,
+                  "y": -18.038065
+                },
+                {
+                  "x": 31.5,
+                  "y": -25.038065
+                },
+                {
+                  "x": 26.5,
+                  "y": -30.038065
+                },
+                {
+                  "x": 14.5,
+                  "y": -22.038065
+                },
+                {
+                  "x": 12.5,
+                  "y": -26.038065
+                },
+                {
+                  "x": 6.5,
+                  "y": -26.038065
+                },
+                {
+                  "x": 6.5,
+                  "y": -22.038065
+                },
+                {
+                  "x": -11.5,
+                  "y": -22.038065
+                },
+                {
+                  "x": 4.5,
+                  "y": -10.038065
+                },
+                {
+                  "x": 4.5,
+                  "y": 1.961935
+                },
+                {
+                  "x": -3.5,
+                  "y": 0.96193504
+                },
+                {
+                  "x": -14.5,
+                  "y": -10.038065
+                },
+                {
+                  "x": -19.5,
+                  "y": -0.038064957
                 }
               ]
             ]

@@ -20,7 +20,11 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
             <AppLink href={`/towns/${faction.type}`}>
               <Stack align="center">
                 <Image
-                  src={`/factions/${faction.type}AnimatedFactionBanner.gif`}
+                  src={`/factions/${
+                    faction.type === "Vanir"
+                      ? "VanirBanner.png"
+                      : faction.type + "AnimatedFactionBanner.gif"
+                  }`}
                   height={200}
                   fit="contain"
                   alt=""

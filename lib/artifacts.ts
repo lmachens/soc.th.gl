@@ -5,15 +5,17 @@ import { SpriteDTO } from "./sprites";
 import { BacteriaDTO, getLocaleBacteria } from "./bacterias";
 
 export const getArtifacts = (locale: string) => {
-  const artifacts = artifactsCollection.map<ArtifactSimpleDTO>((artifact) => ({
-    type: artifact.type,
-    name: getTerm(`Artifacts/${artifact.type}/Name`, locale),
-    description: getTerm(`Artifacts/${artifact.type}/Description`, locale),
-    icon: artifact.icon,
-    bacterias: artifact.bacterias.map((bacteria) =>
-      getLocaleBacteria(bacteria, locale)
-    ),
-  }));
+  const artifacts = artifactsCollection
+    .map<ArtifactSimpleDTO>((artifact) => ({
+      type: artifact.type,
+      name: getTerm(`Artifacts/${artifact.type}/Name`, locale),
+      description: getTerm(`Artifacts/${artifact.type}/Description`, locale),
+      icon: artifact.icon,
+      bacterias: artifact.bacterias.map((bacteria) =>
+        getLocaleBacteria(bacteria, locale)
+      ),
+    }))
+    .filter((a) => a.name);
   return artifacts;
 };
 
