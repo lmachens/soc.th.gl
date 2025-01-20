@@ -3,9 +3,7 @@ import { copyImageFile, readJSONFile, writeJSONFile } from "./lib/out.mjs";
 
 const bacteriasSrc = await readJSONFile("./out/bacteria.json");
 const skillsSrc = await readJSONFile("./out/skill.json");
-const factionsSrc = (await readJSONFile("./out/faction.json")).filter(
-  (f) => f.id !== 5
-); // Skip Vanir;
+const factionsSrc = await readJSONFile("./out/faction.json");
 const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
 const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
 const artifactsSrc = await readJSONFile("./out/artifact.json");
@@ -143,6 +141,9 @@ await writeJSONFile(factions, "../../lib/collections/factions");
 
 for (const faction of factions) {
   await copyImageFile(faction.bannerSprite.spriteSheet, "../public/factions");
+  if (faction.symbolSprite?.spriteSheet) {
+    await copyImageFile(faction.symbolSprite.spriteSheet, "../public/factions");
+  }
   for (const wielderFrame of faction.wielderFrames) {
     await copyImageFile(wielderFrame.spriteSheet, "../public/factions");
   }
@@ -416,12 +417,12 @@ const units = factionsSrc
 
 await writeJSONFile(units, "../../lib/collections/units");
 for (const unit of units) {
-  if (!unit.vanilla.sprite) {
+  if (!unit.vanilla.sprite?.spriteSheet) {
     console.log(`Missing sprite for ${unit.vanilla.languageKey}`);
     continue;
   }
   await copyImageFile(unit.vanilla.sprite.spriteSheet, "../public/units");
-  if (unit.upgraded) {
+  if (unit.upgraded?.sprite?.spriteSheet) {
     await copyImageFile(unit.upgraded.sprite.spriteSheet, "../public/units");
   }
   if (unit.superUpgraded) {
@@ -527,6 +528,8 @@ for (const buildSite of buildSites) {
     factionId = 4;
   } else if (buildSite.nameKey.startsWith("Vanir")) {
     factionId = 5;
+  } else {
+    console.warn(`Unknown faction for ${buildSite.nameKey}`);
     continue;
   }
 

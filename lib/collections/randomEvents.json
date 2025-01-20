@@ -11231,22 +11231,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],
@@ -17016,22 +17006,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],
@@ -18625,22 +18605,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],
@@ -19459,22 +19429,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],
@@ -19970,22 +19930,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],
@@ -25551,22 +25501,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],
@@ -37678,22 +37618,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],
@@ -38914,22 +38844,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],
@@ -40179,22 +40099,12 @@
         },
         "bacteriaReward": {
           "bacteriaType": 1158,
-          "type": "RandomEventHighLoyalty",
+          "type": "ThighBootsGoldIncome",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 100,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Stone",
-              "amount": 1,
-              "allTimeAmount": 0
-            },
-            {
-              "type": "Wood",
-              "amount": 1,
+              "amount": 50,
               "allTimeAmount": 0
             }
           ],

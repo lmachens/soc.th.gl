@@ -3,7 +3,7 @@
     "id": 27,
     "type": "AllSeeingEye",
     "icon": {
-      "name": "AllSeeingEyeDefault1",
+      "name": "AllSeeingEye_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 386,
       "y": 324,
@@ -65,7 +65,7 @@
     "id": 149,
     "type": "WrappedBracers",
     "icon": {
-      "name": "LeatherBracersDefault1",
+      "name": "LeatherBracers_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 0,
       "y": 326,
@@ -107,7 +107,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -120,7 +133,7 @@
     "id": 29,
     "type": "BucklerShield",
     "icon": {
-      "name": "BucklerShieldDefault1",
+      "name": "BucklerShield_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 214,
       "y": 325,
@@ -182,7 +195,7 @@
     "id": 30,
     "type": "DragonscaleCrown",
     "icon": {
-      "name": "DragonscaleCrownDefault1",
+      "name": "DragonscaleCrown_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 415,
       "y": 353,
@@ -244,7 +257,7 @@
     "id": 31,
     "type": "OpenFacedBacinett",
     "icon": {
-      "name": "OpenFacedBacinettDefault1",
+      "name": "OpenFacedBacinett_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 475,
       "y": 129,
@@ -306,7 +319,7 @@
     "id": 32,
     "type": "PetrifiedDragonEgg",
     "icon": {
-      "name": "PetrifiedDragonEggDefault1",
+      "name": "PetrifiedDragonEgg_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 115,
       "y": 264,
@@ -374,7 +387,7 @@
     "id": 33,
     "type": "SassanidVelvetShoes",
     "icon": {
-      "name": "SassanidVelvetShoesDefault1",
+      "name": "SassanidVelvetShoes_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 338,
       "y": 325,
@@ -442,7 +455,7 @@
     "id": 34,
     "type": "TalismanOfArcana",
     "icon": {
-      "name": "TalismanOfArcanaDefault1",
+      "name": "TalismanOfArcana_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 210,
       "y": 199,
@@ -504,7 +517,7 @@
     "id": 35,
     "type": "TalismanOfChaos",
     "icon": {
-      "name": "TalismanOfChaosDefault1",
+      "name": "TalismanOfChaos_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 237,
       "y": 199,
@@ -566,7 +579,7 @@
     "id": 36,
     "type": "TheBonesOfCornelius",
     "icon": {
-      "name": "TheBonesOfCorneliusDefault1",
+      "name": "TheBonesOfCornelius_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 307,
       "y": 354,
@@ -634,7 +647,7 @@
     "id": 37,
     "type": "BreastplateoftheSun",
     "icon": {
-      "name": "BreastplateOfTheSunDefault1",
+      "name": "BreastplateOfTheSun_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 368,
       "y": 198,
@@ -696,7 +709,7 @@
     "id": 38,
     "type": "SpikedGauntlet",
     "icon": {
-      "name": "SpikedGauntletDefault1",
+      "name": "SpikedGauntlet_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 344,
       "y": 165,
@@ -758,7 +771,7 @@
     "id": 39,
     "type": "Dagger",
     "icon": {
-      "name": "DaggerDefault1",
+      "name": "Dagger_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 231,
       "y": 384,
@@ -820,7 +833,7 @@
     "id": 40,
     "type": "BoneScimitar",
     "icon": {
-      "name": "BoneScimitarDefault1",
+      "name": "BoneScimitar_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 111,
       "y": 93,
@@ -882,7 +895,7 @@
     "id": 41,
     "type": "AncientFalchion",
     "icon": {
-      "name": "AncientFalchionDefault1",
+      "name": "AncientFalchion_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 267,
       "y": 129,
@@ -944,7 +957,7 @@
     "id": 42,
     "type": "HandgunPrototype",
     "icon": {
-      "name": "HandgunPrototypeDefault1",
+      "name": "HandgunPrototype_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 104,
       "y": 389,
@@ -1006,7 +1019,7 @@
     "id": 43,
     "type": "GreatAxe",
     "icon": {
-      "name": "GreatAxeDefault1",
+      "name": "GreatAxe_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 381,
       "y": 53,
@@ -1068,7 +1081,7 @@
     "id": 44,
     "type": "BoarSpear",
     "icon": {
-      "name": "BoarSpearDefault1",
+      "name": "BoarSpear_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 220,
       "y": 53,
@@ -1130,7 +1143,7 @@
     "id": 45,
     "type": "SwampSpear",
     "icon": {
-      "name": "SwampSpearDefault1",
+      "name": "SwampSpear_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 464,
       "y": 53,
@@ -1192,7 +1205,7 @@
     "id": 46,
     "type": "TwoHandedSword",
     "icon": {
-      "name": "TwoHandedSwordDefault1",
+      "name": "TwoHandedSword_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 275,
       "y": 4,
@@ -1254,7 +1267,7 @@
     "id": 47,
     "type": "StaffOfTheMagus",
     "icon": {
-      "name": "StaffOfTheMagusDefault1",
+      "name": "StaffOfTheMagus_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 374,
       "y": 165,
@@ -1316,7 +1329,7 @@
     "id": 48,
     "type": "ArchersGambeson",
     "icon": {
-      "name": "ArchersGambesonDefault1",
+      "name": "ArchersGambeson_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 161,
       "y": 53,
@@ -1378,7 +1391,7 @@
     "id": 49,
     "type": "ChainmailHauberk",
     "icon": {
-      "name": "ChainmailHauberkDefault1",
+      "name": "ChainmailHauberk_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 289,
       "y": 53,
@@ -1440,7 +1453,7 @@
     "id": 50,
     "type": "CelestialBreastplate",
     "icon": {
-      "name": "CelestialBreastplateDefault1",
+      "name": "CelestialBreastplate_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 429,
       "y": 198,
@@ -1502,7 +1515,7 @@
     "id": 51,
     "type": "CowlofEndlessEssence",
     "icon": {
-      "name": "CowlOfEndlessEssenceDefault1",
+      "name": "CowlOfEndlessEssence_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 385,
       "y": 231,
@@ -1588,7 +1601,7 @@
     "id": 52,
     "type": "WornBoots",
     "icon": {
-      "name": "WornBootsLayer 11",
+      "name": "WornBoots_Layer 1_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 356,
       "y": 354,
@@ -1656,7 +1669,7 @@
     "id": 53,
     "type": "RidingBoots",
     "icon": {
-      "name": "RidingBootsDefault1",
+      "name": "RidingBoots_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 163,
       "y": 199,
@@ -1724,7 +1737,7 @@
     "id": 54,
     "type": "MasterlyCraftedBoots",
     "icon": {
-      "name": "MasterlyCraftedBootsDefault1",
+      "name": "MasterlyCraftedBoots_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 157,
       "y": 165,
@@ -1792,7 +1805,7 @@
     "id": 55,
     "type": "BootsOfTheWhisperingLeafs",
     "icon": {
-      "name": "BootsOfTheWhisperingLeavesDefault1",
+      "name": "BootsOfTheWhisperingLeaves_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 410,
       "y": 92,
@@ -1860,7 +1873,7 @@
     "id": 56,
     "type": "WornGloves",
     "icon": {
-      "name": "WornLeatherGlovesDefault1",
+      "name": "WornLeatherGloves_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 280,
       "y": 384,
@@ -1922,7 +1935,7 @@
     "id": 57,
     "type": "Glimmergloves",
     "icon": {
-      "name": "GlimmerglovesDefault1",
+      "name": "Glimmergloves_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 442,
       "y": 324,
@@ -1984,7 +1997,7 @@
     "id": 58,
     "type": "CelestialGauntlets",
     "icon": {
-      "name": "CelestialGauntletsDefault1",
+      "name": "CelestialGauntlets_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 479,
       "y": 263,
@@ -2052,7 +2065,7 @@
     "id": 59,
     "type": "GlovesOfTheWildHunt",
     "icon": {
-      "name": "GlovesOfTheWildHuntDefault1",
+      "name": "GlovesOfTheWildHunt_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 373,
       "y": 383,
@@ -2126,7 +2139,7 @@
     "id": 60,
     "type": "Gauntlets",
     "icon": {
-      "name": "GauntletsDefault1",
+      "name": "Gauntlets_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 27,
       "y": 264,
@@ -2194,7 +2207,7 @@
     "id": 61,
     "type": "HelmetOfTheVanir",
     "icon": {
-      "name": "HelmetOfTheVanirDefault1",
+      "name": "HelmetOfTheVanir_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 0,
       "y": 199,
@@ -2256,7 +2269,7 @@
     "id": 62,
     "type": "VisoredBarbuta",
     "icon": {
-      "name": "VisoredBarbutaDefault1",
+      "name": "VisoredBarbuta_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 28,
       "y": 94,
@@ -2324,7 +2337,7 @@
     "id": 63,
     "type": "MaskOfWiesh",
     "icon": {
-      "name": "MaskOfWieshDefault1",
+      "name": "MaskOfWiesh_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 66,
       "y": 232,
@@ -2404,7 +2417,7 @@
     "id": 64,
     "type": "VanirAxe",
     "icon": {
-      "name": "VanirAxeDefault1",
+      "name": "VanirAxe_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 380,
       "y": 93,
@@ -2466,7 +2479,7 @@
     "id": 65,
     "type": "BladeOfTheVanir",
     "icon": {
-      "name": "BladeOfTheVanirDefault1",
+      "name": "BladeOfTheVanir_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 122,
       "y": 13,
@@ -2528,7 +2541,7 @@
     "id": 66,
     "type": "Crossbow",
     "icon": {
-      "name": "CrossbowDefault1",
+      "name": "Crossbow_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 246,
       "y": 325,
@@ -2590,7 +2603,7 @@
     "id": 67,
     "type": "FaeyHornWarbow",
     "icon": {
-      "name": "FaeyHornWarbowDefault1",
+      "name": "FaeyHornWarbow_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 178,
       "y": 11,
@@ -2658,7 +2671,7 @@
     "id": 68,
     "type": "EternalLightbringer",
     "icon": {
-      "name": "EternalLightbringerDefault1",
+      "name": "EternalLightbringer_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 0,
       "y": 165,
@@ -2732,7 +2745,7 @@
     "id": 69,
     "type": "Roundshield",
     "icon": {
-      "name": "RoundShieldDefault1",
+      "name": "RoundShield_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 170,
       "y": 264,
@@ -2794,7 +2807,7 @@
     "id": 70,
     "type": "KiteShield",
     "icon": {
-      "name": "KiteShieldDefault1",
+      "name": "KiteShield_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 475,
       "y": 92,
@@ -2856,7 +2869,7 @@
     "id": 71,
     "type": "HeaterShield",
     "icon": {
-      "name": "HeaterShieldDefault1",
+      "name": "HeaterShield_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 443,
       "y": 92,
@@ -2918,7 +2931,7 @@
     "id": 72,
     "type": "EthyllesBlessing",
     "icon": {
-      "name": "EthyllesBlessingDefault1",
+      "name": "EthyllesBlessing_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 226,
       "y": 93,
@@ -2980,7 +2993,7 @@
     "id": 73,
     "type": "TalismanOfDestruction",
     "icon": {
-      "name": "TalismanOfDestructionDefault1",
+      "name": "TalismanOfDestruction_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 255,
       "y": 264,
@@ -3042,7 +3055,7 @@
     "id": 74,
     "type": "TalismanOfOrder",
     "icon": {
-      "name": "TalismanOfOrderDefault1",
+      "name": "TalismanOfOrder_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 81,
       "y": 295,
@@ -3104,7 +3117,7 @@
     "id": 75,
     "type": "AureliasAshes",
     "icon": {
-      "name": "AureliasAshesDefault1",
+      "name": "AureliasAshes_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 194,
       "y": 53,
@@ -3166,7 +3179,7 @@
     "id": 76,
     "type": "TheMakersCompass",
     "icon": {
-      "name": "TheMakersCompassDefault1",
+      "name": "TheMakersCompass_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 146,
       "y": 130,
@@ -3234,7 +3247,7 @@
     "id": 77,
     "type": "ToolsOfTheMasterMason",
     "icon": {
-      "name": "ToolsOfTheMasterMasonDefault1",
+      "name": "ToolsOfTheMasterMason_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 353,
       "y": 264,
@@ -3284,7 +3297,7 @@
     "id": 78,
     "type": "EnchantedBagOfAcorns",
     "icon": {
-      "name": "EnchantedBagOfAcornsDefault1",
+      "name": "EnchantedBagOfAcorns_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 201,
       "y": 354,
@@ -3334,7 +3347,7 @@
     "id": 79,
     "type": "TheGoldenGoose",
     "icon": {
-      "name": "TheGoldenGooseDefault1",
+      "name": "TheGoldenGoose_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 258,
       "y": 93,
@@ -3384,7 +3397,7 @@
     "id": 80,
     "type": "GlimmerweaveSpinningWheel",
     "icon": {
-      "name": "GlimmerweaveSpinningWheelDefault1",
+      "name": "GlimmerweaveSpinningWheel_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 355,
       "y": 129,
@@ -3434,7 +3447,7 @@
     "id": 81,
     "type": "EverflowingBranchOfSap",
     "icon": {
-      "name": "EverflowingBranchOfSapDefault1",
+      "name": "EverflowingBranchOfSap_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 350,
       "y": 53,
@@ -3484,7 +3497,7 @@
     "id": 82,
     "type": "CelestialCompass",
     "icon": {
-      "name": "CelestialCompassDefault1",
+      "name": "CelestialCompass_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 324,
       "y": 231,
@@ -3534,7 +3547,7 @@
     "id": 83,
     "type": "TalismanOfCreation",
     "icon": {
-      "name": "TalismanOfCreationDefault1",
+      "name": "TalismanOfCreation_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 176,
       "y": 232,
@@ -3596,7 +3609,7 @@
     "id": 84,
     "type": "GlovesOfTheMerchantsGuild",
     "icon": {
-      "name": "EnchantedSilkGlovesDefault1",
+      "name": "EnchantedSilkGloves_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 342,
       "y": 383,
@@ -3646,7 +3659,7 @@
     "id": 85,
     "type": "GauntletsOfTheNight",
     "icon": {
-      "name": "GauntletsOfTheNightDefault1",
+      "name": "GauntletsOfTheNight_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 0,
       "y": 232,
@@ -3714,7 +3727,7 @@
     "id": 86,
     "type": "GlovesOfEternity",
     "icon": {
-      "name": "GlovesOfEternityDefault1",
+      "name": "GlovesOfEternity_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 473,
       "y": 324,
@@ -3794,7 +3807,7 @@
     "id": 87,
     "type": "GlovesOfThePhoenix",
     "icon": {
-      "name": "GlovesOfThePhoenixDefault1",
+      "name": "GlovesOfThePhoenix_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 32,
       "y": 232,
@@ -3874,7 +3887,7 @@
     "id": 88,
     "type": "GauntletsOfEssence",
     "icon": {
-      "name": "GauntletsOfEssenceDefault1",
+      "name": "GauntletsOfEssence_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 278,
       "y": 325,
@@ -3942,7 +3955,7 @@
     "id": 89,
     "type": "IronShield",
     "icon": {
-      "name": "IronShieldDefault1",
+      "name": "IronShield_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 55,
       "y": 199,
@@ -4010,7 +4023,7 @@
     "id": 90,
     "type": "ShieldOfEternalServitude",
     "icon": {
-      "name": "ShieldOEternalServitudeDefault1",
+      "name": "ShieldOEternalServitude_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 186,
       "y": 199,
@@ -4084,7 +4097,7 @@
     "id": 91,
     "type": "ShieldOfTheOgre",
     "icon": {
-      "name": "ShieldOfTheOgreDefault1",
+      "name": "ShieldOfTheOgre_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 243,
       "y": 10,
@@ -4152,7 +4165,7 @@
     "id": 92,
     "type": "EtheralShield",
     "icon": {
-      "name": "EtheralShieldDefault1",
+      "name": "EtheralShield_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 471,
       "y": 294,
@@ -4220,7 +4233,7 @@
     "id": 93,
     "type": "SpikedShield",
     "icon": {
-      "name": "SpikedShieldDefault1",
+      "name": "SpikedShield_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 308,
       "y": 93,
@@ -4288,7 +4301,7 @@
     "id": 94,
     "type": "BoneClub",
     "icon": {
-      "name": "BoneClubDefault1",
+      "name": "BoneClub_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 82,
       "y": 93,
@@ -4350,7 +4363,7 @@
     "id": 95,
     "type": "SpikedBoots",
     "icon": {
-      "name": "SpikedBootsDefault1",
+      "name": "SpikedBoots_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 81,
       "y": 326,
@@ -4424,7 +4437,7 @@
     "id": 96,
     "type": "DragonTooth",
     "icon": {
-      "name": "DragonToothDefault1",
+      "name": "DragonTooth_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 444,
       "y": 231,
@@ -4492,7 +4505,7 @@
     "id": 97,
     "type": "AncientBlade",
     "icon": {
-      "name": "AncientBladeDefault1",
+      "name": "AncientBlade_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 461,
       "y": 164,
@@ -4554,7 +4567,7 @@
     "id": 98,
     "type": "DaggerOfRage",
     "icon": {
-      "name": "DaggerOfRageDefault1",
+      "name": "DaggerOfRage_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 169,
       "y": 93,
@@ -4622,7 +4635,7 @@
     "id": 99,
     "type": "BewitchedBlade",
     "icon": {
-      "name": "BewitchedBladeDefault1",
+      "name": "BewitchedBlade_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 294,
       "y": 231,
@@ -4690,7 +4703,7 @@
     "id": 100,
     "type": "ElementalAxe",
     "icon": {
-      "name": "ElementalAxeDefault1",
+      "name": "ElementalAxe_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 471,
       "y": 231,
@@ -4758,7 +4771,7 @@
     "id": 101,
     "type": "Mace",
     "icon": {
-      "name": "MaceDefault1",
+      "name": "Mace_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 124,
       "y": 165,
@@ -4820,7 +4833,7 @@
     "id": 102,
     "type": "MorningStar",
     "icon": {
-      "name": "MorningStarDefault1",
+      "name": "MorningStar_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 110,
       "y": 199,
@@ -4882,7 +4895,7 @@
     "id": 103,
     "type": "TheOathkeeper",
     "icon": {
-      "name": "TheOathkeeperDefault1",
+      "name": "TheOathkeeper_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 94,
       "y": 54,
@@ -4950,7 +4963,7 @@
     "id": 104,
     "type": "WarHammer",
     "icon": {
-      "name": "WarhammerDefault1",
+      "name": "Warhammer_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 56,
       "y": 14,
@@ -5012,7 +5025,7 @@
     "id": 105,
     "type": "BeakOfTheBeast",
     "icon": {
-      "name": "BeakOfTheBeastDefault1",
+      "name": "BeakOfTheBeast_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 145,
       "y": 12,
@@ -5080,7 +5093,7 @@
     "id": 106,
     "type": "PoleaxeOfPain",
     "icon": {
-      "name": "PoleaxeOfPainDefault1",
+      "name": "PoleaxeOfPain_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 302,
       "y": 3,
@@ -5142,7 +5155,7 @@
     "id": 107,
     "type": "RodOfTheRoots",
     "icon": {
-      "name": "RodOfTheRootsDefault1",
+      "name": "RodOfTheRoots_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 210,
       "y": 10,
@@ -5216,7 +5229,7 @@
     "id": 108,
     "type": "TheEmancipator",
     "icon": {
-      "name": "TheEmancipatorDefault1",
+      "name": "TheEmancipator_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 339,
       "y": 93,
@@ -5278,7 +5291,7 @@
     "id": 109,
     "type": "TheStinger",
     "icon": {
-      "name": "TheStingerDefault1",
+      "name": "TheStinger_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 124,
       "y": 54,
@@ -5346,7 +5359,7 @@
     "id": 110,
     "type": "BootsOfTheHeavens",
     "icon": {
-      "name": "BootsOfTheHeavensDefault1",
+      "name": "BootsOfTheHeavens_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 442,
       "y": 263,
@@ -5414,7 +5427,7 @@
     "id": 111,
     "type": "NimbleBoots",
     "icon": {
-      "name": "NimbleBootsDefault1",
+      "name": "NimbleBoots_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 56,
       "y": 326,
@@ -5476,7 +5489,7 @@
     "id": 112,
     "type": "ShoesOfTheWanderer",
     "icon": {
-      "name": "ShoesOfTheWandererDefault1",
+      "name": "ShoesOfTheWanderer_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 198,
       "y": 264,
@@ -5544,7 +5557,7 @@
     "id": 113,
     "type": "ArchersHelmet",
     "icon": {
-      "name": "ArchersHelmetDefault1",
+      "name": "ArchersHelmet_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 144,
       "y": 354,
@@ -5606,7 +5619,7 @@
     "id": 114,
     "type": "CapeOfLeaves",
     "icon": {
-      "name": "CapeOfLeavesDefault1",
+      "name": "CapeOfLeaves_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 258,
       "y": 53,
@@ -5668,7 +5681,7 @@
     "id": 115,
     "type": "CelestialHelmet",
     "icon": {
-      "name": "CelestialHelmetDefault1",
+      "name": "CelestialHelmet_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 459,
       "y": 198,
@@ -5736,7 +5749,7 @@
     "id": 116,
     "type": "CloakOfTheAncients",
     "icon": {
-      "name": "CloakOfTheAncientsDefault1",
+      "name": "CloakOfTheAncients_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 357,
       "y": 231,
@@ -5810,7 +5823,7 @@
     "id": 117,
     "type": "GoldenLaurelWreath",
     "icon": {
-      "name": "GoldenLaurelWreathDefault1",
+      "name": "GoldenLaurelWreath_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 59,
       "y": 355,
@@ -5878,7 +5891,7 @@
     "id": 118,
     "type": "HatOfTheMagus",
     "icon": {
-      "name": "HatOfTheMagusDefault1",
+      "name": "HatOfTheMagus_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 307,
       "y": 325,
@@ -5940,7 +5953,7 @@
     "id": 119,
     "type": "HelmetOfTheArena",
     "icon": {
-      "name": "HelmetOfTheArenaDefault1",
+      "name": "HelmetOfTheArena_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 66,
       "y": 165,
@@ -6014,7 +6027,7 @@
     "id": 120,
     "type": "OrnateBreastplate",
     "icon": {
-      "name": "OrnateBreastplateDefault1",
+      "name": "OrnateBreastplate_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 120,
       "y": 130,
@@ -6076,7 +6089,7 @@
     "id": 121,
     "type": "TunicOfTheForestCourt",
     "icon": {
-      "name": "TunicOfTheForestCourtDefault1",
+      "name": "TunicOfTheForestCourt_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 434,
       "y": 165,
@@ -6144,7 +6157,7 @@
     "id": 122,
     "type": "TurbanHelmet",
     "icon": {
-      "name": "TurbanHelmetDefault1",
+      "name": "TurbanHelmet_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 206,
       "y": 232,
@@ -6206,7 +6219,7 @@
     "id": 123,
     "type": "WornBrigandine",
     "icon": {
-      "name": "WornBrigandineDefault1",
+      "name": "WornBrigandine_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 54,
       "y": 94,
@@ -6268,7 +6281,7 @@
     "id": 124,
     "type": "AncientAmberSpyglass",
     "icon": {
-      "name": "AncientAmberSpyglassDefault1",
+      "name": "AncientAmberSpyglass_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 181,
       "y": 325,
@@ -6336,7 +6349,7 @@
     "id": 125,
     "type": "ArcaneTome",
     "icon": {
-      "name": "ArcaneTomeDefault1",
+      "name": "ArcaneTome_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 111,
       "y": 354,
@@ -6398,7 +6411,7 @@
     "id": 126,
     "type": "BannerOfUnyieldingHatred",
     "icon": {
-      "name": "BannerOfUnyieldingHatredDefault1",
+      "name": "BannerOfUnyieldingHatred_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 0,
       "y": 54,
@@ -6466,7 +6479,7 @@
     "id": 127,
     "type": "BaryanGlasses",
     "icon": {
-      "name": "BaryanGlassesDefault1",
+      "name": "BaryanGlasses_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 385,
       "y": 353,
@@ -6528,7 +6541,7 @@
     "id": 128,
     "type": "BraidOfTheHornedOnes",
     "icon": {
-      "name": "BraidOfTheHornedOnesDefault1",
+      "name": "BraidOfTheHornedOnes_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 32,
       "y": 54,
@@ -6602,7 +6615,7 @@
     "id": 129,
     "type": "DrumOfTheMarches",
     "icon": {
-      "name": "DrumOfTheMarchesDefault1",
+      "name": "DrumOfTheMarches_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 447,
       "y": 353,
@@ -6664,7 +6677,7 @@
     "id": 130,
     "type": "EndlessSamovar",
     "icon": {
-      "name": "EndlessSamovarDefault1",
+      "name": "EndlessSamovar_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 330,
       "y": 129,
@@ -6732,7 +6745,7 @@
     "id": 131,
     "type": "MechanicalBird",
     "icon": {
-      "name": "MechanicalBirdDefault1",
+      "name": "MechanicalBird_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 85,
       "y": 199,
@@ -6794,7 +6807,7 @@
     "id": 132,
     "type": "NeverEndingChestOfGold",
     "icon": {
-      "name": "NeverendingChestOfGoldDefault1",
+      "name": "NeverendingChestOfGold_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 88,
       "y": 264,
@@ -6844,7 +6857,7 @@
     "id": 133,
     "type": "SkullOfAeons",
     "icon": {
-      "name": "SkullOfAeonsDefault1",
+      "name": "SkullOfAeons_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 316,
       "y": 165,
@@ -6912,7 +6925,7 @@
     "id": 134,
     "type": "TheLuteOfPinecoast",
     "icon": {
-      "name": "LuteOfPinecoastDefault1",
+      "name": "LuteOfPinecoast_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 409,
       "y": 53,
@@ -6980,7 +6993,7 @@
     "id": 135,
     "type": "VialOfTheHeart",
     "icon": {
-      "name": "VialOfTheHeartDefault1",
+      "name": "VialOfTheHeart_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 90,
       "y": 355,
@@ -7042,7 +7055,7 @@
     "id": 136,
     "type": "TownPortalScroll",
     "icon": {
-      "name": "TownPortalScrollFlattened1",
+      "name": "TownPortalScroll_Flattened_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 404,
       "y": 381,
@@ -7076,7 +7089,7 @@
     "type": "WoodCuttersAxe",
     "icon": {
       "name": "WoodcuttersAxe",
-      "spriteSheet": "DEPRECATED_Artifacts.png",
+      "spriteSheet": "DEPRECATED_Artifacts_0.png",
       "x": 165,
       "y": 167,
       "width": 30,
@@ -7374,7 +7387,7 @@
     "id": 145,
     "type": "CrackedWoodenShield",
     "icon": {
-      "name": "CrackedWoodenShieldDefault1",
+      "name": "CrackedWoodenShield_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 414,
       "y": 294,
@@ -7416,7 +7429,14 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7429,7 +7449,7 @@
     "id": 146,
     "type": "ThrowingAxe",
     "icon": {
-      "name": "ThrowingAxeDefault1",
+      "name": "ThrowingAxe_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 407,
       "y": 165,
@@ -7471,7 +7491,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7484,7 +7517,7 @@
     "id": 147,
     "type": "MaskOfTheMarshes",
     "icon": {
-      "name": "SagesMaskDefault1",
+      "name": "SagesMask_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 288,
       "y": 165,
@@ -7514,7 +7547,7 @@
     "bacterias": [
       {
         "bacteriaType": 1249,
-        "type": "MaskOfTheMarshesArtifactBacteria",
+        "type": "SagesMaskArtifactBacteria",
         "customEffect": "None",
         "customEffectValue": 0,
         "secondaryCustomEffectValue": 0,
@@ -7526,7 +7559,26 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          },
+          {
+            "type": 21,
+            "modifier": "CommanderViewRadius",
+            "amountToAdd": -1,
+            "applicationType": 0
+          },
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 6,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7539,7 +7591,7 @@
     "id": 148,
     "type": "SwampSandals",
     "icon": {
-      "name": "TribalSandalsDefault1",
+      "name": "TribalSandals_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 149,
       "y": 326,
@@ -7569,7 +7621,7 @@
     "bacterias": [
       {
         "bacteriaType": 1250,
-        "type": "SwampSandalsArtifactBacteria",
+        "type": "SimpleSandalsArtifactBacteria",
         "customEffect": "None",
         "customEffectValue": 0,
         "secondaryCustomEffectValue": 0,
@@ -7581,7 +7633,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 3,
+            "modifier": "TroopInitiative",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7594,7 +7659,7 @@
     "id": 150,
     "type": "LeatherJacket",
     "icon": {
-      "name": "LeatherJacketDefault1",
+      "name": "LeatherJacket_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 93,
       "y": 165,
@@ -7636,7 +7701,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 5,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7649,7 +7727,7 @@
     "id": 151,
     "type": "LeatherCowl",
     "icon": {
-      "name": "BattleCowlDefault1",
+      "name": "BattleCowl_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 300,
       "y": 129,
@@ -7691,7 +7769,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 3,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7704,7 +7795,7 @@
     "id": 152,
     "type": "ThighBoots",
     "icon": {
-      "name": "ThighBootsDefault1",
+      "name": "ThighBoots_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 27,
       "y": 14,
@@ -7746,10 +7837,33 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
+          "duration": 0
+        }
+      },
+      {
+        "bacteriaType": 1158,
+        "type": "ThighBootsGoldIncome",
+        "modifierData": [],
+        "resourcesIncome": [
+          {
+            "type": "Gold",
+            "amount": 50,
+            "allTimeAmount": 0
+          }
+        ],
+        "duration": {
+          "type": "BattleStackRound",
           "duration": 0
         }
       }
@@ -7759,7 +7873,7 @@
     "id": 153,
     "type": "ParryingDagger",
     "icon": {
-      "name": "ParryingDaggerDefault1",
+      "name": "ParryingDagger_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 238,
       "y": 165,
@@ -7801,7 +7915,14 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7814,7 +7935,7 @@
     "id": 154,
     "type": "BroadDagger",
     "icon": {
-      "name": "BroadDaggerDefault1",
+      "name": "BroadDagger_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 396,
       "y": 198,
@@ -7856,7 +7977,14 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7869,7 +7997,7 @@
     "id": 155,
     "type": "BaryanHeaddress",
     "icon": {
-      "name": "BaryanTurbanDefault1",
+      "name": "BaryanTurban_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 339,
       "y": 198,
@@ -7911,7 +8039,20 @@
           "isPassable": 1,
           "isSingleShot": 0
         },
-        "modifierData": [],
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          },
+          {
+            "type": 12,
+            "modifier": "CommanderMovement",
+            "amountToAdd": 1,
+            "applicationType": 0
+          }
+        ],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
@@ -7924,7 +8065,7 @@
     "id": 156,
     "type": "OldSword",
     "icon": {
-      "name": "OldSwordDefault1",
+      "name": "OldSword_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 88,
       "y": 130,
@@ -7951,13 +8092,42 @@
         ]
       ]
     },
-    "bacterias": []
+    "bacterias": [
+      {
+        "bacteriaType": 1258,
+        "type": "OldSwordArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "BattleStackRound",
+          "duration": 0
+        }
+      }
+    ]
   },
   {
     "id": 28,
     "type": "AncientSteampipe",
     "icon": {
-      "name": "AncientSteampipeDefault1",
+      "name": "AncientSteampipe_Default_1",
       "spriteSheet": "ArtifactAtlas.png",
       "x": 410,
       "y": 263,
@@ -8047,5 +8217,73 @@
       ]
     },
     "bacterias": []
+  },
+  {
+    "id": 158,
+    "type": "VanirBracers",
+    "icon": {
+      "name": "CursedBracersOfDestruction_Default_1",
+      "spriteSheet": "ArtifactAtlas.png",
+      "x": 442,
+      "y": 294,
+      "width": 28,
+      "height": 29,
+      "outline": [
+        [
+          {
+            "x": -14,
+            "y": -14.5
+          },
+          {
+            "x": -14,
+            "y": 14.5
+          },
+          {
+            "x": 14,
+            "y": 14.5
+          },
+          {
+            "x": 14,
+            "y": -14.5
+          }
+        ]
+      ]
+    },
+    "bacterias": [
+      {
+        "bacteriaType": 1248,
+        "type": "VanirBracersArtifactBacteria",
+        "customEffect": "None",
+        "customEffectValue": 0,
+        "secondaryCustomEffectValue": 0,
+        "auraSettings": {
+          "recipients": "Friends",
+          "hexRadius": 1,
+          "bacteriaToAdd": null,
+          "isStackable": 1,
+          "isPassable": 1,
+          "isSingleShot": 0
+        },
+        "modifierData": [
+          {
+            "type": 11,
+            "modifier": "CommanderDefense",
+            "amountToAdd": 1,
+            "applicationType": 0
+          },
+          {
+            "type": 10,
+            "modifier": "CommanderOffense",
+            "amountToAdd": 2,
+            "applicationType": 0
+          }
+        ],
+        "resourcesIncome": [],
+        "duration": {
+          "type": "BattleStackRound",
+          "duration": 0
+        }
+      }
+    ]
   }
 ]

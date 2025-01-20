@@ -113,7 +113,8 @@ export const getUnit = (
       troopAbility: type.troopAbility
         ? {
             type: type.troopAbility.type,
-            icon: type.troopAbility.icon,
+            // icon: type.troopAbility.icon,
+            icon: null,
             name: getTerm(
               "Units/Tooltip/TroopAbility",
               locale,
@@ -233,7 +234,7 @@ export type UnitTypeDTO = {
   };
   troopAbility: {
     type: string;
-    icon: SpriteDTO;
+    icon: SpriteDTO | null;
     name: string;
     description: string;
     bacterias: BacteriaDTO[];
