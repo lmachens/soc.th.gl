@@ -1581,7 +1581,7 @@
           "languageKey": "Militia",
           "sprite": {
             "name": "ArleonMilitia_Default_1_idle_1",
-            "spriteSheet": "ArleonMilitiaAtlas.png",
+            "spriteSheet": "ArleonMilitiaAtlas_0.png",
             "x": 380,
             "y": 328,
             "width": 39.941795,
@@ -1665,7 +1665,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_1_Militia_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 346,
             "y": 87,
             "width": 25,
@@ -1720,7 +1720,7 @@
           "languageKey": "Sapper",
           "sprite": {
             "name": "ArleonHostiles_Idle_7_Sapper_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 395,
             "y": 160,
             "width": 27,
@@ -1886,7 +1886,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_25_Ranger_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 167,
             "y": 190,
             "width": 33,
@@ -1953,7 +1953,7 @@
           "languageKey": "Archer",
           "sprite": {
             "name": "ArleonHostiles_Idle_31_Archer_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 67,
             "y": 116,
             "width": 36.881676,
@@ -2139,7 +2139,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_13_Minstrel_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 284,
             "y": 74,
             "width": 21,
@@ -2190,7 +2190,7 @@
           "languageKey": "Troubadour",
           "sprite": {
             "name": "ArleonHostiles_Idle_19_Troubadour_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 220,
             "y": 85,
             "width": 21,
@@ -2336,7 +2336,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_37_Footman_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 395,
             "y": 202,
             "width": 31,
@@ -2411,7 +2411,7 @@
           "languageKey": "ShieldOfOrder",
           "sprite": {
             "name": "ArleonHostiles_Idle_43_ShieldOfOrder_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 335,
             "y": 203,
             "width": 31,
@@ -2481,7 +2481,7 @@
           "languageKey": "Knight",
           "sprite": {
             "name": "ArleonKnight_Default_1_Idle_1",
-            "spriteSheet": "ArleonKnightAtlas.png",
+            "spriteSheet": "ArleonKnightAtlas_0.png",
             "x": 458,
             "y": 663,
             "width": 83,
@@ -2673,7 +2673,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_49_Knight_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 0,
             "y": 374,
             "width": 51,
@@ -2770,7 +2770,7 @@
           "languageKey": "FistOfOrder",
           "sprite": {
             "name": "ArleonHostiles_Idle_55_FistOfOrder_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 228,
             "y": 444,
             "width": 47,
@@ -3004,7 +3004,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_69_HornedOne_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 143,
             "y": 288,
             "width": 39,
@@ -3091,7 +3091,7 @@
           "languageKey": "QueensGuard",
           "sprite": {
             "name": "ArleonHostiles_Idle_75_QueensGuard_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 343,
             "y": 322,
             "width": 39,
@@ -3341,7 +3341,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_61_FaeySpirit_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 0.05131668,
             "y": 91.07612,
             "width": 45.921932,
@@ -3408,7 +3408,7 @@
           "languageKey": "FaeyRager",
           "sprite": {
             "name": "ArleonHostiles_Idle_65_FaeyRager_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 455,
             "y": 331,
             "width": 45.973248,
@@ -3654,7 +3654,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_81_FaeyNoble_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 289,
             "y": 387,
             "width": 44,
@@ -3729,7 +3729,7 @@
           "languageKey": "FaeyQueen",
           "sprite": {
             "name": "ArleonHostiles_Idle_87_FaeyQueen_1",
-            "spriteSheet": "ArleonHostilesAtlas.png",
+            "spriteSheet": "ArleonHostilesAtlas_0.png",
             "x": 259,
             "y": 340,
             "width": 49,
@@ -6243,7 +6243,125 @@
           }
         },
         "upgraded": {
-          "languageKey": "HighLegion"
+          "languageKey": "HighLegion",
+          "sprite": {
+            "name": "LothHostiles_Artwork_91_HighLegion_1",
+            "spriteSheet": "LothHostilesAtlas.png",
+            "x": 182,
+            "y": 387,
+            "width": 58,
+            "height": 68.92388,
+            "outline": [
+              [
+                {
+                  "x": 14,
+                  "y": 30.53806
+                },
+                {
+                  "x": -1,
+                  "y": 30.53806
+                },
+                {
+                  "x": 3,
+                  "y": 34.53806
+                }
+              ],
+              [
+                {
+                  "x": -13,
+                  "y": 22.53806
+                },
+                {
+                  "x": -13,
+                  "y": 30.53806
+                },
+                {
+                  "x": 14,
+                  "y": 30.53806
+                },
+                {
+                  "x": 14,
+                  "y": 34.53806
+                },
+                {
+                  "x": 25,
+                  "y": 27.53806
+                },
+                {
+                  "x": 25,
+                  "y": 12.538059
+                },
+                {
+                  "x": 29,
+                  "y": 4.538059
+                },
+                {
+                  "x": 29,
+                  "y": -2.4619408
+                },
+                {
+                  "x": 22,
+                  "y": -5.461941
+                },
+                {
+                  "x": 19,
+                  "y": -20.46194
+                },
+                {
+                  "x": 23,
+                  "y": -20.46194
+                },
+                {
+                  "x": 23,
+                  "y": -34.46194
+                },
+                {
+                  "x": 10,
+                  "y": -34.46194
+                },
+                {
+                  "x": 3,
+                  "y": -28.46194
+                },
+                {
+                  "x": 0,
+                  "y": -33.46194
+                },
+                {
+                  "x": -9,
+                  "y": -32.46194
+                },
+                {
+                  "x": -12,
+                  "y": -21.46194
+                },
+                {
+                  "x": -20,
+                  "y": -22.46194
+                },
+                {
+                  "x": -23,
+                  "y": -10.461941
+                },
+                {
+                  "x": -19,
+                  "y": -1.4619408
+                },
+                {
+                  "x": -29,
+                  "y": 0.53805923
+                },
+                {
+                  "x": -29,
+                  "y": 6.538059
+                },
+                {
+                  "x": -17,
+                  "y": 6.538059
+                }
+              ]
+            ]
+          }
         },
         "superUpgraded": null
       },
@@ -6650,7 +6768,7 @@
         "type": "Nimander",
         "portrait": {
           "name": "NimanderBreeze",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 552,
           "y": 12,
           "width": 145,
@@ -6661,7 +6779,7 @@
         "type": "Mehry",
         "portrait": {
           "name": "Mehry",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 618,
           "y": 268,
           "width": 195,
@@ -6672,7 +6790,7 @@
         "type": "Silkspool",
         "portrait": {
           "name": "Silkspool",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 1,
           "y": 199,
           "width": 218,
@@ -6683,7 +6801,7 @@
         "type": "Aleah",
         "portrait": {
           "name": "Aleah",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 425,
           "y": 240,
           "width": 191,
@@ -6694,7 +6812,7 @@
         "type": "Bihgli",
         "portrait": {
           "name": "Bihgli",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 1,
           "y": 1,
           "width": 184,
@@ -6705,7 +6823,7 @@
         "type": "Everthink",
         "portrait": {
           "name": "Everthink",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 387,
           "y": 35,
           "width": 163,
@@ -6716,7 +6834,7 @@
         "type": "Rosewater",
         "portrait": {
           "name": "Rosewater",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 699,
           "y": 65,
           "width": 157,
@@ -6727,7 +6845,7 @@
         "type": "Sanaz",
         "portrait": {
           "name": "Sanaz",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 221,
           "y": 241,
           "width": 202,
@@ -6738,7 +6856,7 @@
         "type": "Soughtfor",
         "portrait": {
           "name": "Soughtfor",
-          "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
+          "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
           "x": 221,
           "y": 40,
           "width": 164,
@@ -14144,6 +14262,2425 @@
                 {
                   "x": -19.5,
                   "y": -0.038064957
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": null,
+        "superUpgraded": null
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "type": "Roots",
+    "languageKey": "Roots",
+    "bannerSprite": {
+      "name": "BannerColorable",
+      "spriteSheet": "RootsUI.png",
+      "x": 1811,
+      "y": 1817,
+      "width": 96,
+      "height": 147,
+      "outline": [
+        [
+          {
+            "x": -48,
+            "y": -73.5
+          },
+          {
+            "x": -48,
+            "y": 73.5
+          },
+          {
+            "x": 48,
+            "y": 73.5
+          },
+          {
+            "x": 48,
+            "y": -73.5
+          }
+        ]
+      ]
+    },
+    "symbolSprite": {
+      "name": "TopCircleSymbol",
+      "spriteSheet": "RootsUI_0.png",
+      "x": 291,
+      "y": 1873,
+      "width": 82,
+      "height": 91,
+      "outline": [
+        [
+          {
+            "x": -41,
+            "y": -45.5
+          },
+          {
+            "x": -41,
+            "y": 45.5
+          },
+          {
+            "x": 41,
+            "y": 45.5
+          },
+          {
+            "x": 41,
+            "y": -45.5
+          }
+        ]
+      ]
+    },
+    "wielderFrames": [
+      {
+        "name": "HostileRootsWielderFrame",
+        "spriteSheet": "RootsWielderFrames.png",
+        "x": 2,
+        "y": 682,
+        "width": 310,
+        "height": 340,
+        "outline": [
+          [
+            {
+              "x": -155,
+              "y": -170
+            },
+            {
+              "x": -155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": -170
+            }
+          ]
+        ]
+      },
+      {
+        "name": "RootsWielderHUDFrame",
+        "spriteSheet": "RootsWielderFrames.png",
+        "x": 316,
+        "y": 682,
+        "width": 310,
+        "height": 340,
+        "outline": [
+          [
+            {
+              "x": -155,
+              "y": -170
+            },
+            {
+              "x": -155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": -170
+            }
+          ]
+        ]
+      }
+    ],
+    "commanders": [
+      {
+        "type": "Vigil",
+        "portrait": {
+          "name": "RootsVigilPortrait",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 276,
+          "y": 536,
+          "width": 227,
+          "height": 235
+        }
+      },
+      {
+        "type": "Prowl",
+        "portrait": {
+          "name": "RootsProwlPortrait ",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 547,
+          "y": 774,
+          "width": 253,
+          "height": 250
+        }
+      },
+      {
+        "type": "Brood",
+        "portrait": {
+          "name": "RootsBroodPortrait",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 0,
+          "y": 770,
+          "width": 272,
+          "height": 254
+        }
+      },
+      {
+        "type": "Grow",
+        "portrait": {
+          "name": "RootsGrowPortrait",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 276,
+          "y": 775,
+          "width": 267,
+          "height": 249
+        }
+      },
+      {
+        "type": "Flora",
+        "portrait": {
+          "name": "RootsFloraPortrait ",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 507,
+          "y": 541,
+          "width": 222,
+          "height": 229
+        }
+      },
+      {
+        "type": "Honey",
+        "portrait": {
+          "name": "RootsHoneyPortrait",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 804,
+          "y": 564,
+          "width": 194,
+          "height": 231
+        }
+      },
+      {
+        "type": "Lost",
+        "portrait": {
+          "name": "RootsLostPortrait",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 0,
+          "y": 537,
+          "width": 227,
+          "height": 229
+        }
+      },
+      {
+        "type": "Grunt",
+        "portrait": {
+          "name": "RootsGruntPortrait",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 0,
+          "y": 308,
+          "width": 227,
+          "height": 225
+        }
+      },
+      {
+        "type": "Reap",
+        "portrait": {
+          "name": "RootsReapPortrait",
+          "spriteSheet": "RootsWielderPortraits_0.png",
+          "x": 804,
+          "y": 799,
+          "width": 206,
+          "height": 225
+        }
+      }
+    ],
+    "units": [
+      {
+        "vanilla": {
+          "languageKey": "Fungi",
+          "sprite": {
+            "name": "RootsFungi_Default_15_Hit_2",
+            "spriteSheet": "RootsFungiAtlas.png",
+            "x": 196,
+            "y": 126,
+            "width": 31,
+            "height": 53,
+            "outline": [
+              [
+                {
+                  "x": -7.5,
+                  "y": 3.5
+                },
+                {
+                  "x": -13.5,
+                  "y": 9.5
+                },
+                {
+                  "x": -6.5,
+                  "y": 16.5
+                },
+                {
+                  "x": -7.5,
+                  "y": 26.5
+                },
+                {
+                  "x": 4.5,
+                  "y": 19.5
+                },
+                {
+                  "x": 15.5,
+                  "y": 3.5
+                },
+                {
+                  "x": 15.5,
+                  "y": -18.5
+                },
+                {
+                  "x": 5.5,
+                  "y": -26.5
+                },
+                {
+                  "x": -8.5,
+                  "y": -26.5
+                },
+                {
+                  "x": -15.5,
+                  "y": -19.5
+                },
+                {
+                  "x": -15.5,
+                  "y": -9.5
+                },
+                {
+                  "x": -8.5,
+                  "y": -9.5
+                },
+                {
+                  "x": -1.5,
+                  "y": -12.5
+                },
+                {
+                  "x": 1.5,
+                  "y": -8.5
+                },
+                {
+                  "x": -7.5,
+                  "y": -4.5
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "RootsHostiles_Idle_1_Fungi_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 0,
+            "y": 118,
+            "width": 29,
+            "height": 37,
+            "outline": [
+              [
+                {
+                  "x": -14.5,
+                  "y": 10.5
+                },
+                {
+                  "x": -9.5,
+                  "y": 18.5
+                },
+                {
+                  "x": -4.5,
+                  "y": 18.5
+                },
+                {
+                  "x": 5.5,
+                  "y": 5.5
+                },
+                {
+                  "x": 4.5,
+                  "y": 0.5
+                },
+                {
+                  "x": 14.5,
+                  "y": -9.5
+                },
+                {
+                  "x": 4.5,
+                  "y": -16.5
+                },
+                {
+                  "x": -9.5,
+                  "y": -18.5
+                },
+                {
+                  "x": -10.5,
+                  "y": -3.5
+                },
+                {
+                  "x": -14.5,
+                  "y": 0.5
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Spawn",
+          "sprite": {
+            "name": "RootsHostiles_Idle_7_Spawn_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 0,
+            "y": 358,
+            "width": 30.97325,
+            "height": 39.940273,
+            "outline": [
+              [
+                {
+                  "x": -15.486625,
+                  "y": 14.029863
+                },
+                {
+                  "x": -9.486625,
+                  "y": 20.029863
+                },
+                {
+                  "x": -2.4866247,
+                  "y": 13.029863
+                },
+                {
+                  "x": 8.513375,
+                  "y": 22.029863
+                },
+                {
+                  "x": 13.513375,
+                  "y": 15.029863
+                },
+                {
+                  "x": 16.513374,
+                  "y": -11.970137
+                },
+                {
+                  "x": 7.5133753,
+                  "y": -14.970137
+                },
+                {
+                  "x": 7.5133753,
+                  "y": -19.970137
+                },
+                {
+                  "x": -6.4866247,
+                  "y": -19.970137
+                },
+                {
+                  "x": -13.486625,
+                  "y": -16.970137
+                },
+                {
+                  "x": -15.486625,
+                  "y": -6.9701366
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "BrokenVessel",
+          "sprite": {
+            "name": "RootsBrokenVessel_Default_2_Idle_2",
+            "spriteSheet": "RootsBrokenVesselAtlas.png",
+            "x": 239,
+            "y": 245,
+            "width": 50,
+            "height": 68,
+            "outline": [
+              [
+                {
+                  "x": -4,
+                  "y": 31
+                },
+                {
+                  "x": 5,
+                  "y": 34
+                },
+                {
+                  "x": 6,
+                  "y": 25
+                },
+                {
+                  "x": 11,
+                  "y": 25
+                },
+                {
+                  "x": 19,
+                  "y": 8
+                },
+                {
+                  "x": 25,
+                  "y": 7
+                },
+                {
+                  "x": 16,
+                  "y": -7
+                },
+                {
+                  "x": 8,
+                  "y": 1
+                },
+                {
+                  "x": 13,
+                  "y": -17
+                },
+                {
+                  "x": 16,
+                  "y": -21
+                },
+                {
+                  "x": 12,
+                  "y": -24
+                },
+                {
+                  "x": 15,
+                  "y": -34
+                },
+                {
+                  "x": 11,
+                  "y": -34
+                },
+                {
+                  "x": 4,
+                  "y": -27
+                },
+                {
+                  "x": 3,
+                  "y": -19
+                },
+                {
+                  "x": -4,
+                  "y": -14
+                },
+                {
+                  "x": -9,
+                  "y": -22
+                },
+                {
+                  "x": -4,
+                  "y": -32
+                },
+                {
+                  "x": -25,
+                  "y": -32
+                },
+                {
+                  "x": -13,
+                  "y": -27
+                },
+                {
+                  "x": -17,
+                  "y": -7
+                },
+                {
+                  "x": -17,
+                  "y": 18
+                },
+                {
+                  "x": -7,
+                  "y": 24
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "RootsHostiles_Idle_13_BrokenVessel_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 110,
+            "y": 512,
+            "width": 32,
+            "height": 46,
+            "outline": [
+              [
+                {
+                  "x": -6,
+                  "y": 22
+                },
+                {
+                  "x": 1,
+                  "y": 23
+                },
+                {
+                  "x": 16,
+                  "y": 2
+                },
+                {
+                  "x": 8,
+                  "y": -7
+                },
+                {
+                  "x": 8,
+                  "y": -23
+                },
+                {
+                  "x": 3,
+                  "y": -23
+                },
+                {
+                  "x": -4,
+                  "y": -18
+                },
+                {
+                  "x": -5,
+                  "y": -22
+                },
+                {
+                  "x": -16,
+                  "y": -22
+                },
+                {
+                  "x": -16,
+                  "y": 12
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "BlightedVessel",
+          "sprite": {
+            "name": "RootsHostiles_Idle_19_Blightedvessel_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 157,
+            "y": 584.02325,
+            "width": 35,
+            "height": 45.97672,
+            "outline": [
+              [
+                {
+                  "x": 8.5,
+                  "y": 17.988386
+                },
+                {
+                  "x": 9.5,
+                  "y": 9.988386
+                },
+                {
+                  "x": 17.5,
+                  "y": 1.9883862
+                },
+                {
+                  "x": 8.5,
+                  "y": -6.011614
+                },
+                {
+                  "x": 8.5,
+                  "y": -22.011614
+                },
+                {
+                  "x": 3.5,
+                  "y": -23.011614
+                },
+                {
+                  "x": -3.5,
+                  "y": -12.011614
+                },
+                {
+                  "x": -3.5,
+                  "y": -21.011614
+                },
+                {
+                  "x": -13.5,
+                  "y": -21.011614
+                },
+                {
+                  "x": -13.5,
+                  "y": -13.011614
+                },
+                {
+                  "x": -17.5,
+                  "y": 1.9883862
+                },
+                {
+                  "x": -14.5,
+                  "y": 11.988386
+                },
+                {
+                  "x": -3.5,
+                  "y": 22.988386
+                },
+                {
+                  "x": 3.5,
+                  "y": 22.988386
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Spiker",
+          "sprite": {
+            "name": "RootsSpiker_Default_1_Idle_1",
+            "spriteSheet": "RootsSpikerAtlas.png",
+            "x": 160,
+            "y": 40,
+            "width": 79,
+            "height": 52,
+            "outline": [
+              [
+                {
+                  "x": -14.5,
+                  "y": -10
+                },
+                {
+                  "x": -21.5,
+                  "y": -8
+                },
+                {
+                  "x": -39.5,
+                  "y": -8
+                },
+                {
+                  "x": -16.5,
+                  "y": 15
+                },
+                {
+                  "x": 13.5,
+                  "y": 16
+                },
+                {
+                  "x": 28.5,
+                  "y": 26
+                },
+                {
+                  "x": 25.5,
+                  "y": 10
+                },
+                {
+                  "x": 36.5,
+                  "y": 20
+                },
+                {
+                  "x": 39.5,
+                  "y": 17
+                },
+                {
+                  "x": 32.5,
+                  "y": -1
+                },
+                {
+                  "x": 39.5,
+                  "y": -5
+                },
+                {
+                  "x": 29.5,
+                  "y": -21
+                },
+                {
+                  "x": 21.5,
+                  "y": -21
+                },
+                {
+                  "x": 12.5,
+                  "y": -18
+                },
+                {
+                  "x": 10.5,
+                  "y": -9
+                },
+                {
+                  "x": 3.5,
+                  "y": -11
+                },
+                {
+                  "x": -1.5,
+                  "y": -16
+                },
+                {
+                  "x": 10.5,
+                  "y": -18
+                },
+                {
+                  "x": 13.5,
+                  "y": -19
+                },
+                {
+                  "x": 9.5,
+                  "y": -23
+                },
+                {
+                  "x": -3.5,
+                  "y": -26
+                },
+                {
+                  "x": -11.5,
+                  "y": -22
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "RootsHostiles_Idle_25_Spiker_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 337,
+            "y": 640.01294,
+            "width": 51.923878,
+            "height": 32.987087,
+            "outline": [
+              [
+                {
+                  "x": -11.961941,
+                  "y": 10.493517
+                },
+                {
+                  "x": 3.0380592,
+                  "y": 11.493517
+                },
+                {
+                  "x": 16.03806,
+                  "y": 16.493517
+                },
+                {
+                  "x": 17.03806,
+                  "y": 9.493517
+                },
+                {
+                  "x": 22.03806,
+                  "y": 15.493517
+                },
+                {
+                  "x": 27.03806,
+                  "y": 10.493517
+                },
+                {
+                  "x": 22.03806,
+                  "y": 0.49351692
+                },
+                {
+                  "x": 27.03806,
+                  "y": -4.506483
+                },
+                {
+                  "x": 19.03806,
+                  "y": -14.506483
+                },
+                {
+                  "x": -1.9619408,
+                  "y": -16.506483
+                },
+                {
+                  "x": -13.961941,
+                  "y": -7.506483
+                },
+                {
+                  "x": -25.96194,
+                  "y": -7.506483
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Piercer",
+          "sprite": {
+            "name": "RootsHostiles_Idle_31_Piercer_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 53,
+            "y": 649,
+            "width": 54,
+            "height": 35,
+            "outline": [
+              [
+                {
+                  "x": 14,
+                  "y": 17.5
+                },
+                {
+                  "x": 23,
+                  "y": 17.5
+                },
+                {
+                  "x": 27,
+                  "y": 13.5
+                },
+                {
+                  "x": 22,
+                  "y": 3.5
+                },
+                {
+                  "x": 21,
+                  "y": -13.5
+                },
+                {
+                  "x": -6,
+                  "y": -17.5
+                },
+                {
+                  "x": -11,
+                  "y": -15.5
+                },
+                {
+                  "x": -14,
+                  "y": -8.5
+                },
+                {
+                  "x": -27,
+                  "y": -8.5
+                },
+                {
+                  "x": -27,
+                  "y": -3.5
+                },
+                {
+                  "x": -13,
+                  "y": 10.5
+                },
+                {
+                  "x": 3,
+                  "y": 11.5
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Lob",
+          "sprite": {
+            "name": "RootsLob_Default_15_RangedAttack_3",
+            "spriteSheet": "RootsLobAtlas.png",
+            "x": 107,
+            "y": 585,
+            "width": 157,
+            "height": 55,
+            "outline": [
+              [
+                {
+                  "x": -6.5,
+                  "y": 27.5
+                },
+                {
+                  "x": 2.5,
+                  "y": 27.5
+                },
+                {
+                  "x": 4.5,
+                  "y": 21.5
+                },
+                {
+                  "x": 19.5,
+                  "y": 21.5
+                },
+                {
+                  "x": 21.5,
+                  "y": 14.5
+                },
+                {
+                  "x": 32.5,
+                  "y": 11.5
+                },
+                {
+                  "x": 46.5,
+                  "y": 5.5
+                },
+                {
+                  "x": 70.5,
+                  "y": -15.5
+                },
+                {
+                  "x": 72.5,
+                  "y": -13.5
+                },
+                {
+                  "x": 72.5,
+                  "y": -19.5
+                },
+                {
+                  "x": 29.5,
+                  "y": -26.5
+                },
+                {
+                  "x": 13.5,
+                  "y": -27.5
+                },
+                {
+                  "x": -5.5,
+                  "y": -23.5
+                },
+                {
+                  "x": -21.5,
+                  "y": -23.5
+                },
+                {
+                  "x": -17.5,
+                  "y": -5.5
+                },
+                {
+                  "x": -4.5,
+                  "y": -3.5
+                },
+                {
+                  "x": -10.5,
+                  "y": -1.5
+                },
+                {
+                  "x": -24.5,
+                  "y": -4.5
+                },
+                {
+                  "x": -50.5,
+                  "y": -7.5
+                },
+                {
+                  "x": -73.5,
+                  "y": -0.5
+                },
+                {
+                  "x": -78.5,
+                  "y": 8.5
+                },
+                {
+                  "x": -75.5,
+                  "y": 16.5
+                },
+                {
+                  "x": -60.5,
+                  "y": 14.5
+                },
+                {
+                  "x": -65.5,
+                  "y": 8.5
+                },
+                {
+                  "x": -60.5,
+                  "y": 3.5
+                },
+                {
+                  "x": -45.5,
+                  "y": 1.5
+                },
+                {
+                  "x": -35.5,
+                  "y": 3.5
+                },
+                {
+                  "x": -26.5,
+                  "y": 1.5
+                },
+                {
+                  "x": -13.5,
+                  "y": 5.5
+                },
+                {
+                  "x": -6.5,
+                  "y": 11.5
+                }
+              ],
+              [
+                {
+                  "x": 75.5,
+                  "y": -15.5
+                },
+                {
+                  "x": 78.5,
+                  "y": -18.5
+                },
+                {
+                  "x": 73.5,
+                  "y": -19.5
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "RootsHostiles_Idle_37_Lob_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 384,
+            "y": 741,
+            "width": 48.923878,
+            "height": 44,
+            "outline": [
+              [
+                {
+                  "x": -15.461939,
+                  "y": 22
+                },
+                {
+                  "x": -19.461939,
+                  "y": -2
+                },
+                {
+                  "x": -20.461939,
+                  "y": 20
+                }
+              ],
+              [
+                {
+                  "x": -19.461939,
+                  "y": -2
+                },
+                {
+                  "x": -22.461939,
+                  "y": -20
+                },
+                {
+                  "x": -24.461939,
+                  "y": -10
+                }
+              ],
+              [
+                {
+                  "x": 0.53806114,
+                  "y": -22
+                },
+                {
+                  "x": -22.461939,
+                  "y": -20
+                },
+                {
+                  "x": -15.461939,
+                  "y": 22
+                },
+                {
+                  "x": 14.538061,
+                  "y": 19
+                },
+                {
+                  "x": 20.538061,
+                  "y": 13
+                },
+                {
+                  "x": 20.538061,
+                  "y": 5
+                },
+                {
+                  "x": 17.538061,
+                  "y": -2
+                },
+                {
+                  "x": 25.538061,
+                  "y": -16
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Chuck",
+          "sprite": {
+            "name": "RootsHostiles_Idle_43_Chuck_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 0.012912571,
+            "y": 576,
+            "width": 52.910965,
+            "height": 46,
+            "outline": [
+              [
+                {
+                  "x": -26.468395,
+                  "y": 17
+                },
+                {
+                  "x": -23.468395,
+                  "y": 23
+                },
+                {
+                  "x": -11.468395,
+                  "y": 23
+                },
+                {
+                  "x": 3.5316048,
+                  "y": 18
+                },
+                {
+                  "x": 19.531605,
+                  "y": 18
+                },
+                {
+                  "x": 26.531605,
+                  "y": 13
+                },
+                {
+                  "x": 24.531605,
+                  "y": 1
+                },
+                {
+                  "x": 15.531605,
+                  "y": -2
+                },
+                {
+                  "x": 24.531605,
+                  "y": -18
+                },
+                {
+                  "x": 1.5316048,
+                  "y": -23
+                },
+                {
+                  "x": -10.468395,
+                  "y": -23
+                },
+                {
+                  "x": -24.468395,
+                  "y": -20
+                },
+                {
+                  "x": -26.468395,
+                  "y": 3
+                },
+                {
+                  "x": -24.468395,
+                  "y": 6
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Lasher",
+          "sprite": {
+            "name": "RootsLasher_Default_1_Idle_1",
+            "spriteSheet": "RootsLasherAtlas.png",
+            "x": 338,
+            "y": 404,
+            "width": 62,
+            "height": 84,
+            "outline": [
+              [
+                {
+                  "x": -17,
+                  "y": 25
+                },
+                {
+                  "x": -10,
+                  "y": 40
+                },
+                {
+                  "x": -4,
+                  "y": 42
+                },
+                {
+                  "x": 8,
+                  "y": 38
+                },
+                {
+                  "x": 18,
+                  "y": 21
+                },
+                {
+                  "x": 26,
+                  "y": 21
+                },
+                {
+                  "x": 31,
+                  "y": 16
+                },
+                {
+                  "x": 31,
+                  "y": 0
+                },
+                {
+                  "x": 23,
+                  "y": 8
+                },
+                {
+                  "x": 23,
+                  "y": -6
+                },
+                {
+                  "x": 11,
+                  "y": -9
+                },
+                {
+                  "x": 4,
+                  "y": -22
+                },
+                {
+                  "x": 7,
+                  "y": -35
+                },
+                {
+                  "x": 5,
+                  "y": -42
+                },
+                {
+                  "x": -10,
+                  "y": -42
+                },
+                {
+                  "x": -10,
+                  "y": -26
+                },
+                {
+                  "x": -3,
+                  "y": -12
+                },
+                {
+                  "x": -18,
+                  "y": -9
+                },
+                {
+                  "x": -20,
+                  "y": -17
+                },
+                {
+                  "x": -17,
+                  "y": -29
+                },
+                {
+                  "x": -26,
+                  "y": -27
+                },
+                {
+                  "x": -31,
+                  "y": -16
+                },
+                {
+                  "x": -28,
+                  "y": -7
+                },
+                {
+                  "x": -19,
+                  "y": 2
+                },
+                {
+                  "x": -8,
+                  "y": -6
+                },
+                {
+                  "x": -3,
+                  "y": -4
+                },
+                {
+                  "x": -17,
+                  "y": 14
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "RootsHostiles_Idle_49_Lasher_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 52,
+            "y": 717,
+            "width": 42,
+            "height": 50,
+            "outline": [
+              [
+                {
+                  "x": -6,
+                  "y": 25
+                },
+                {
+                  "x": 4,
+                  "y": 25
+                },
+                {
+                  "x": 10,
+                  "y": 12
+                },
+                {
+                  "x": 15,
+                  "y": 12
+                },
+                {
+                  "x": 21,
+                  "y": 4
+                },
+                {
+                  "x": 17,
+                  "y": -2
+                },
+                {
+                  "x": 3,
+                  "y": -12
+                },
+                {
+                  "x": 3,
+                  "y": -25
+                },
+                {
+                  "x": -9,
+                  "y": -25
+                },
+                {
+                  "x": -10,
+                  "y": -8
+                },
+                {
+                  "x": -15,
+                  "y": -23
+                },
+                {
+                  "x": -21,
+                  "y": -16
+                },
+                {
+                  "x": -21,
+                  "y": -6
+                },
+                {
+                  "x": -17,
+                  "y": 1
+                },
+                {
+                  "x": -10,
+                  "y": 0
+                },
+                {
+                  "x": -13,
+                  "y": 6
+                },
+                {
+                  "x": -13,
+                  "y": 18
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Flayer",
+          "sprite": {
+            "name": "RootsHostiles_Idle_55_Flayer_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 349,
+            "y": 771.0761,
+            "width": 41,
+            "height": 61.923878,
+            "outline": [
+              [
+                {
+                  "x": -16.5,
+                  "y": 21.96195
+                },
+                {
+                  "x": -11.5,
+                  "y": 25.96195
+                },
+                {
+                  "x": -6.5,
+                  "y": 21.96195
+                },
+                {
+                  "x": 1.5,
+                  "y": 30.96195
+                },
+                {
+                  "x": 10.5,
+                  "y": 21.96195
+                },
+                {
+                  "x": 10.5,
+                  "y": 9.96195
+                },
+                {
+                  "x": 20.5,
+                  "y": 7.9619503
+                },
+                {
+                  "x": 17.5,
+                  "y": -12.03805
+                },
+                {
+                  "x": 17.5,
+                  "y": -25.03805
+                },
+                {
+                  "x": 11.5,
+                  "y": -31.03805
+                },
+                {
+                  "x": 6.5,
+                  "y": -24.03805
+                },
+                {
+                  "x": 3.5,
+                  "y": -30.03805
+                },
+                {
+                  "x": -7.5,
+                  "y": -31.03805
+                },
+                {
+                  "x": -9.5,
+                  "y": -22.03805
+                },
+                {
+                  "x": -16.5,
+                  "y": -23.03805
+                },
+                {
+                  "x": -20.5,
+                  "y": -14.03805
+                },
+                {
+                  "x": -20.5,
+                  "y": -6.0380497
+                },
+                {
+                  "x": -11.5,
+                  "y": 2.9619503
+                },
+                {
+                  "x": -11.5,
+                  "y": 13.96195
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Heart",
+          "sprite": {
+            "name": "RootsHeart_Default_2_Idle_2",
+            "spriteSheet": "RootsHeartAtlas.png",
+            "x": 360,
+            "y": 293,
+            "width": 72,
+            "height": 99,
+            "outline": [
+              [
+                {
+                  "x": -20,
+                  "y": 26.5
+                },
+                {
+                  "x": -19,
+                  "y": 47.5
+                },
+                {
+                  "x": -4,
+                  "y": 37.5
+                },
+                {
+                  "x": 13,
+                  "y": 49.5
+                },
+                {
+                  "x": 36,
+                  "y": 19.5
+                },
+                {
+                  "x": 31,
+                  "y": 7.5
+                },
+                {
+                  "x": 31,
+                  "y": -20.5
+                },
+                {
+                  "x": 15,
+                  "y": -20.5
+                },
+                {
+                  "x": 0,
+                  "y": -49.5
+                },
+                {
+                  "x": -12,
+                  "y": -23.5
+                },
+                {
+                  "x": -29,
+                  "y": -6.5
+                },
+                {
+                  "x": -29,
+                  "y": 9.5
+                },
+                {
+                  "x": -36,
+                  "y": 13.5
+                },
+                {
+                  "x": -32,
+                  "y": 23.5
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "RootsHostiles_Idle_61_Heart_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 238,
+            "y": 846,
+            "width": 45,
+            "height": 62,
+            "outline": [
+              [
+                {
+                  "x": -7.5,
+                  "y": 26
+                },
+                {
+                  "x": -2.5,
+                  "y": 22
+                },
+                {
+                  "x": 6.5,
+                  "y": 31
+                },
+                {
+                  "x": 13.5,
+                  "y": 24
+                },
+                {
+                  "x": 13.5,
+                  "y": 16
+                },
+                {
+                  "x": 20.5,
+                  "y": 16
+                },
+                {
+                  "x": 20.5,
+                  "y": 5
+                },
+                {
+                  "x": 16.5,
+                  "y": -1
+                },
+                {
+                  "x": 22.5,
+                  "y": -8
+                },
+                {
+                  "x": 15.5,
+                  "y": -13
+                },
+                {
+                  "x": 9.5,
+                  "y": -15
+                },
+                {
+                  "x": -0.5,
+                  "y": -31
+                },
+                {
+                  "x": -11.5,
+                  "y": -11
+                },
+                {
+                  "x": -21.5,
+                  "y": -6
+                },
+                {
+                  "x": -15.5,
+                  "y": 2
+                },
+                {
+                  "x": -22.5,
+                  "y": 6
+                },
+                {
+                  "x": -22.5,
+                  "y": 11
+                },
+                {
+                  "x": -13.5,
+                  "y": 20
+                },
+                {
+                  "x": -13.5,
+                  "y": 26
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Pulse",
+          "sprite": {
+            "name": "RootsHostiles_Idle_67_Pulse_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 332,
+            "y": 844,
+            "width": 48,
+            "height": 58,
+            "outline": [
+              [
+                {
+                  "x": -10,
+                  "y": 29
+                },
+                {
+                  "x": 2,
+                  "y": 29
+                },
+                {
+                  "x": 17,
+                  "y": 24
+                },
+                {
+                  "x": 23,
+                  "y": 13
+                },
+                {
+                  "x": 23,
+                  "y": 2
+                },
+                {
+                  "x": 16,
+                  "y": 1
+                },
+                {
+                  "x": 24,
+                  "y": -9
+                },
+                {
+                  "x": 18,
+                  "y": -15
+                },
+                {
+                  "x": 11,
+                  "y": -15
+                },
+                {
+                  "x": 2,
+                  "y": -29
+                },
+                {
+                  "x": -4,
+                  "y": -28
+                },
+                {
+                  "x": -7,
+                  "y": -20
+                },
+                {
+                  "x": -22,
+                  "y": -8
+                },
+                {
+                  "x": -18,
+                  "y": -3
+                },
+                {
+                  "x": -24,
+                  "y": 0
+                },
+                {
+                  "x": -24,
+                  "y": 10
+                },
+                {
+                  "x": -18,
+                  "y": 13
+                },
+                {
+                  "x": -18,
+                  "y": 23
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Dread",
+          "sprite": {
+            "name": "RootsDread_Default_2_Idle_2",
+            "spriteSheet": "RootsDreadAtlas.png",
+            "x": 395,
+            "y": 370,
+            "width": 95,
+            "height": 92.92388,
+            "outline": [
+              [
+                {
+                  "x": -47.5,
+                  "y": 34.53806
+                },
+                {
+                  "x": -34.5,
+                  "y": 47.53806
+                },
+                {
+                  "x": -28.5,
+                  "y": 36.53806
+                },
+                {
+                  "x": -6.5,
+                  "y": 45.53806
+                },
+                {
+                  "x": 6.5,
+                  "y": 35.53806
+                },
+                {
+                  "x": 11.5,
+                  "y": 38.53806
+                },
+                {
+                  "x": 21.5,
+                  "y": 34.53806
+                },
+                {
+                  "x": 26.5,
+                  "y": 29.53806
+                },
+                {
+                  "x": 33.5,
+                  "y": 29.53806
+                },
+                {
+                  "x": 31.5,
+                  "y": 18.53806
+                },
+                {
+                  "x": 40.5,
+                  "y": 16.53806
+                },
+                {
+                  "x": 30.5,
+                  "y": 5.538059
+                },
+                {
+                  "x": 30.5,
+                  "y": 0.53805923
+                },
+                {
+                  "x": 39.5,
+                  "y": -4.461941
+                },
+                {
+                  "x": 47.5,
+                  "y": -34.46194
+                },
+                {
+                  "x": 32.5,
+                  "y": -33.46194
+                },
+                {
+                  "x": 37.5,
+                  "y": -22.46194
+                },
+                {
+                  "x": 31.5,
+                  "y": -14.461941
+                },
+                {
+                  "x": 28.5,
+                  "y": -14.461941
+                },
+                {
+                  "x": 28.5,
+                  "y": -27.46194
+                },
+                {
+                  "x": 13.5,
+                  "y": -39.46194
+                },
+                {
+                  "x": -0.5,
+                  "y": -36.46194
+                },
+                {
+                  "x": 11.5,
+                  "y": -30.46194
+                },
+                {
+                  "x": 14.5,
+                  "y": -22.46194
+                },
+                {
+                  "x": 14.5,
+                  "y": -15.461941
+                },
+                {
+                  "x": 11.5,
+                  "y": -12.461941
+                },
+                {
+                  "x": 4.5,
+                  "y": -32.46194
+                },
+                {
+                  "x": -1.5,
+                  "y": -35.46194
+                },
+                {
+                  "x": -8.5,
+                  "y": -33.46194
+                },
+                {
+                  "x": -0.5,
+                  "y": -23.46194
+                },
+                {
+                  "x": 4.5,
+                  "y": -13.461941
+                },
+                {
+                  "x": -1.5,
+                  "y": -16.46194
+                },
+                {
+                  "x": -11.5,
+                  "y": -28.46194
+                },
+                {
+                  "x": -17.5,
+                  "y": -40.46194
+                },
+                {
+                  "x": -23.5,
+                  "y": -46.46194
+                },
+                {
+                  "x": -24.5,
+                  "y": -38.46194
+                },
+                {
+                  "x": -12.5,
+                  "y": -7.461941
+                },
+                {
+                  "x": -37.5,
+                  "y": -45.46194
+                },
+                {
+                  "x": -37.5,
+                  "y": -37.46194
+                },
+                {
+                  "x": -28.5,
+                  "y": -6.461941
+                },
+                {
+                  "x": -21.5,
+                  "y": 1.5380592
+                },
+                {
+                  "x": -29.5,
+                  "y": 6.538059
+                },
+                {
+                  "x": -36.5,
+                  "y": 6.538059
+                },
+                {
+                  "x": -38.5,
+                  "y": 11.538059
+                },
+                {
+                  "x": -43.5,
+                  "y": 10.538059
+                },
+                {
+                  "x": -39.5,
+                  "y": 18.53806
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "RootsHostiles_Idle_73_Dread_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 205,
+            "y": 899,
+            "width": 56,
+            "height": 52,
+            "outline": [
+              [
+                {
+                  "x": -23,
+                  "y": 26
+                },
+                {
+                  "x": -6,
+                  "y": 26
+                },
+                {
+                  "x": 12,
+                  "y": 21
+                },
+                {
+                  "x": 22,
+                  "y": 13
+                },
+                {
+                  "x": 22,
+                  "y": 2
+                },
+                {
+                  "x": 28,
+                  "y": -19
+                },
+                {
+                  "x": 12,
+                  "y": -20
+                },
+                {
+                  "x": 8,
+                  "y": -23
+                },
+                {
+                  "x": -2,
+                  "y": -20
+                },
+                {
+                  "x": -12,
+                  "y": -26
+                },
+                {
+                  "x": -24,
+                  "y": -23
+                },
+                {
+                  "x": -18,
+                  "y": -4
+                },
+                {
+                  "x": -13,
+                  "y": 3
+                },
+                {
+                  "x": -24,
+                  "y": 2
+                },
+                {
+                  "x": -28,
+                  "y": 21
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "Terror",
+          "sprite": {
+            "name": "RootsHostiles_Idle_79_Terror_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 451,
+            "y": 952,
+            "width": 61,
+            "height": 70.92388,
+            "outline": [
+              [
+                {
+                  "x": -17.5,
+                  "y": 33.53806
+                },
+                {
+                  "x": -7.5,
+                  "y": 33.53806
+                },
+                {
+                  "x": -6.5,
+                  "y": 30.53806
+                },
+                {
+                  "x": 5.5,
+                  "y": 36.53806
+                },
+                {
+                  "x": 8.5,
+                  "y": 30.53806
+                },
+                {
+                  "x": 8.5,
+                  "y": 17.53806
+                },
+                {
+                  "x": 13.5,
+                  "y": 8.538059
+                },
+                {
+                  "x": 19.5,
+                  "y": 4.538059
+                },
+                {
+                  "x": 26.5,
+                  "y": -3.4619408
+                },
+                {
+                  "x": 24.5,
+                  "y": -7.461941
+                },
+                {
+                  "x": 30.5,
+                  "y": -30.46194
+                },
+                {
+                  "x": 14.5,
+                  "y": -31.46194
+                },
+                {
+                  "x": 8.5,
+                  "y": -35.46194
+                },
+                {
+                  "x": -5.5,
+                  "y": -35.46194
+                },
+                {
+                  "x": -16.5,
+                  "y": -33.46194
+                },
+                {
+                  "x": -10.5,
+                  "y": -19.46194
+                },
+                {
+                  "x": -13.5,
+                  "y": -14.461941
+                },
+                {
+                  "x": -30.5,
+                  "y": -21.46194
+                },
+                {
+                  "x": -29.5,
+                  "y": -15.461941
+                },
+                {
+                  "x": -14.5,
+                  "y": 0.53805923
+                },
+                {
+                  "x": -10.5,
+                  "y": 0.53805923
+                },
+                {
+                  "x": -10.5,
+                  "y": 7.538059
+                },
+                {
+                  "x": -14.5,
+                  "y": 7.538059
+                },
+                {
+                  "x": -22.5,
+                  "y": 23.53806
+                },
+                {
+                  "x": -17.5,
+                  "y": 22.53806
+                }
+              ]
+            ]
+          }
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "SeedOfTheMother",
+          "sprite": {
+            "name": "RootsSeedOfTheMother_Default_1_Idle_1",
+            "spriteSheet": "RootsSeedOfTheMotherAtlas.png",
+            "x": 83,
+            "y": 162,
+            "width": 83,
+            "height": 79,
+            "outline": [
+              [
+                {
+                  "x": 10.5,
+                  "y": 39.5
+                },
+                {
+                  "x": 20.5,
+                  "y": 39.5
+                },
+                {
+                  "x": 20.5,
+                  "y": 34.5
+                },
+                {
+                  "x": 16.5,
+                  "y": 29.5
+                },
+                {
+                  "x": 23.5,
+                  "y": 21.5
+                },
+                {
+                  "x": 31.5,
+                  "y": 6.5
+                },
+                {
+                  "x": 40.5,
+                  "y": 11.5
+                },
+                {
+                  "x": 36.5,
+                  "y": -1.5
+                },
+                {
+                  "x": 40.5,
+                  "y": -10.5
+                },
+                {
+                  "x": 34.5,
+                  "y": -13.5
+                },
+                {
+                  "x": 41.5,
+                  "y": -27.5
+                },
+                {
+                  "x": 36.5,
+                  "y": -27.5
+                },
+                {
+                  "x": 36.5,
+                  "y": -36.5
+                },
+                {
+                  "x": 27.5,
+                  "y": -31.5
+                },
+                {
+                  "x": 20.5,
+                  "y": -38.5
+                },
+                {
+                  "x": 1.5,
+                  "y": -28.5
+                },
+                {
+                  "x": -7.5,
+                  "y": -28.5
+                },
+                {
+                  "x": -18.5,
+                  "y": -39.5
+                },
+                {
+                  "x": -19.5,
+                  "y": -29.5
+                },
+                {
+                  "x": -30.5,
+                  "y": -30.5
+                },
+                {
+                  "x": -24.5,
+                  "y": -17.5
+                },
+                {
+                  "x": -41.5,
+                  "y": -25.5
+                },
+                {
+                  "x": -40.5,
+                  "y": -20.5
+                },
+                {
+                  "x": -27.5,
+                  "y": -7.5
+                },
+                {
+                  "x": -33.5,
+                  "y": -7.5
+                },
+                {
+                  "x": -35.5,
+                  "y": -1.5
+                },
+                {
+                  "x": -26.5,
+                  "y": 15.5
+                },
+                {
+                  "x": -15.5,
+                  "y": 17.5
+                },
+                {
+                  "x": -6.5,
+                  "y": 26.5
+                }
+              ]
+            ]
+          },
+          "adventureSprite": {
+            "name": "RootsHostiles_Idle_85_SeedOfTheMother_1",
+            "spriteSheet": "RootsHostilesAtlas.png",
+            "x": 211,
+            "y": 811,
+            "width": 64,
+            "height": 37,
+            "outline": [
+              [
+                {
+                  "x": 27,
+                  "y": -18.5
+                },
+                {
+                  "x": -4,
+                  "y": -18.5
+                },
+                {
+                  "x": -32,
+                  "y": -11.5
+                },
+                {
+                  "x": -19,
+                  "y": 1.5
+                },
+                {
+                  "x": -11,
+                  "y": 1.5
+                },
+                {
+                  "x": 5,
+                  "y": 17.5
+                },
+                {
+                  "x": 15,
+                  "y": 18.5
+                },
+                {
+                  "x": 20,
+                  "y": 3.5
+                },
+                {
+                  "x": 32,
+                  "y": -11.5
+                },
+                {
+                  "x": 30,
+                  "y": -16.5
+                }
+              ]
+            ]
+          }
+        },
+        "upgraded": {
+          "languageKey": "RootsOfTheMother"
+        },
+        "superUpgraded": null
+      },
+      {
+        "vanilla": {
+          "languageKey": "Ballista",
+          "sprite": {
+            "name": "RootsBallista_Default_1_Idle_1",
+            "spriteSheet": "RootsBallistaAtlas.png",
+            "x": 0.012912571,
+            "y": 140,
+            "width": 65.98709,
+            "height": 55,
+            "outline": [
+              [
+                {
+                  "x": -16.006458,
+                  "y": 15.5
+                },
+                {
+                  "x": -17.006458,
+                  "y": 25.5
+                },
+                {
+                  "x": -9.006458,
+                  "y": 20.5
+                },
+                {
+                  "x": -10.006458,
+                  "y": 27.5
+                },
+                {
+                  "x": -5.0064583,
+                  "y": 25.5
+                },
+                {
+                  "x": -2.0064583,
+                  "y": 18.5
+                },
+                {
+                  "x": 7.9935417,
+                  "y": 18.5
+                },
+                {
+                  "x": 14.993542,
+                  "y": 13.5
+                },
+                {
+                  "x": 21.993542,
+                  "y": 20.5
+                },
+                {
+                  "x": 19.993542,
+                  "y": 12.5
+                },
+                {
+                  "x": 15.993542,
+                  "y": 5.5
+                },
+                {
+                  "x": 27.993542,
+                  "y": 2.5
+                },
+                {
+                  "x": 32.99354,
+                  "y": -4.5
+                },
+                {
+                  "x": 26.993542,
+                  "y": -14.5
+                },
+                {
+                  "x": 17.993542,
+                  "y": -14.5
+                },
+                {
+                  "x": 24.993542,
+                  "y": -21.5
+                },
+                {
+                  "x": 10.993542,
+                  "y": -27.5
+                },
+                {
+                  "x": 2.9935417,
+                  "y": -27.5
+                },
+                {
+                  "x": -6.0064583,
+                  "y": -21.5
+                },
+                {
+                  "x": -4.0064583,
+                  "y": -15.5
+                },
+                {
+                  "x": 1.9935417,
+                  "y": -12.5
+                },
+                {
+                  "x": -22.006458,
+                  "y": -7.5
+                },
+                {
+                  "x": -22.006458,
+                  "y": 4.5
+                },
+                {
+                  "x": -25.006458,
+                  "y": 5.5
+                },
+                {
+                  "x": -21.006458,
+                  "y": 9.5
+                },
+                {
+                  "x": -33.00646,
+                  "y": 18.5
+                },
+                {
+                  "x": -24.006458,
+                  "y": 18.5
                 }
               ]
             ]
