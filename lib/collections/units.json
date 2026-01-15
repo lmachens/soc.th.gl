@@ -165,6 +165,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -175,7 +176,6 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -293,6 +293,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -464,6 +465,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -474,7 +476,6 @@
           "type": "TraitDoubleStrike",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -672,6 +673,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -682,7 +684,6 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -880,6 +881,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -891,7 +893,6 @@
             "type": "TroopAbilityInspire",
             "customEffect": "Aura",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -900,7 +901,6 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -954,7 +954,6 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -963,7 +962,6 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -1165,6 +1163,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -1176,7 +1175,6 @@
             "type": "TroopAbilityAim",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -1218,7 +1216,7 @@
       "languageKey": "Militia",
       "sprite": {
         "name": "ArleonMilitia_Default_1_idle_1",
-        "spriteSheet": "ArleonMilitiaAtlas.png",
+        "spriteSheet": "ArleonMilitiaAtlas_0.png",
         "x": 380,
         "y": 328,
         "width": 39.941795,
@@ -1359,6 +1357,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -1380,7 +1379,7 @@
       "languageKey": "Sapper",
       "sprite": {
         "name": "ArleonMilitia_Upgrade_1_idle_1",
-        "spriteSheet": "ArleonMilitiaAtlas.png",
+        "spriteSheet": "ArleonMilitiaAtlas_0.png",
         "x": 59,
         "y": 218,
         "width": 43.923878,
@@ -1529,6 +1528,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -1722,6 +1722,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -1897,6 +1898,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -2079,6 +2081,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -2090,7 +2093,6 @@
             "type": "TroopAbilityFearNoFoe",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2312,6 +2314,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -2323,7 +2326,6 @@
             "type": "TroopAbilityStoutheartShallStand",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2540,6 +2542,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -2550,7 +2553,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -2719,6 +2721,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -2730,7 +2733,6 @@
             "type": "TroopAbilityProtect",
             "customEffect": "Aura",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2739,7 +2741,6 @@
                 "type": "TroopAbilityProtected",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -2787,7 +2788,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -2820,7 +2820,7 @@
       "languageKey": "Knight",
       "sprite": {
         "name": "ArleonKnight_Default_1_Idle_1",
-        "spriteSheet": "ArleonKnightAtlas.png",
+        "spriteSheet": "ArleonKnightAtlas_0.png",
         "x": 458,
         "y": 663,
         "width": 83,
@@ -3068,6 +3068,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -3078,7 +3079,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -3116,7 +3116,6 @@
               "type": "TraitCharged",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -3147,7 +3146,7 @@
       "languageKey": "FistOfOrder",
       "sprite": {
         "name": "ArleonKnight_Upgrade_1_Idle_1",
-        "spriteSheet": "ArleonKnightAtlas.png",
+        "spriteSheet": "ArleonKnightAtlas_0.png",
         "x": 148,
         "y": 273,
         "width": 85,
@@ -3399,6 +3398,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -3410,7 +3410,6 @@
             "type": "TroopAbilityInspire",
             "customEffect": "Aura",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -3419,7 +3418,6 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -3473,7 +3471,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -3511,7 +3508,6 @@
               "type": "TraitCharged",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -3738,6 +3734,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -3759,7 +3756,7 @@
       "languageKey": "QueensGuard",
       "sprite": {
         "name": "ArleonQueensGuard_Default_1_Idle_1",
-        "spriteSheet": "ArleonQueensGuardAtlas.png",
+        "spriteSheet": "ArleonQueensGuardAtlas_0.png",
         "x": 142,
         "y": 193,
         "width": 69,
@@ -3963,6 +3960,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -3974,7 +3972,6 @@
             "type": "TroopAbilityDefend",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4252,6 +4249,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -4494,6 +4492,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -4505,7 +4504,6 @@
             "type": "TroopAbilityMagicImmunity",
             "customEffect": "MagicImmunityRestriction",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -4529,7 +4527,6 @@
           "type": "TraitDoubleStrike",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -4557,7 +4554,6 @@
           "type": "TraitDisruptEssence",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -4566,7 +4562,6 @@
               "type": "TraitEssenceDisrupted",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -4871,6 +4866,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -4881,7 +4877,6 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -4890,7 +4885,6 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -5203,6 +5197,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -5227,7 +5222,6 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -5236,7 +5230,6 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -5464,6 +5457,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": [
           {
@@ -5635,6 +5629,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -5792,6 +5787,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -6019,6 +6015,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -6029,7 +6026,6 @@
           "type": "TraitGuard",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -6038,7 +6034,6 @@
               "type": "TraitGuarded",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -6278,6 +6273,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -6289,7 +6285,6 @@
             "type": "TroopAbilityDefend",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6326,7 +6321,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -6354,7 +6348,6 @@
           "type": "TraitGuard",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -6363,7 +6356,6 @@
               "type": "TraitGuarded",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -6524,6 +6516,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -6535,7 +6528,6 @@
             "type": "TroopAbilityHerAimWasTrue",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6683,6 +6675,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -6694,7 +6687,6 @@
             "type": "TroopAbilityAureliaEternal",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -6878,6 +6870,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -7049,6 +7042,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -7082,7 +7076,6 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7256,6 +7249,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -7469,6 +7463,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -7480,7 +7475,6 @@
             "type": "TroopAbilityChargeEssence",
             "customEffect": "GenerateEssence",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -7489,7 +7483,6 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -7833,6 +7826,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -7843,7 +7837,6 @@
           "type": "TraitPersistent",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7871,7 +7864,6 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -8196,6 +8188,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -8207,7 +8200,6 @@
             "type": "TroopAbilitySacrificeBones",
             "customEffect": "KillAmount",
             "customEffectValue": 1,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -8231,7 +8223,6 @@
           "type": "TraitPersistent",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -8259,7 +8250,6 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -8446,6 +8436,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -8456,7 +8447,6 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -8657,6 +8647,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -8670,7 +8661,6 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -9155,6 +9145,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -9165,7 +9156,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -9193,7 +9183,6 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -9202,7 +9191,6 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -9730,6 +9718,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -9741,7 +9730,6 @@
             "type": "TroopAbilityProtect",
             "customEffect": "Aura",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -9750,7 +9738,6 @@
                 "type": "TroopAbilityProtected",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -9798,7 +9785,6 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -9807,7 +9793,6 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -9862,7 +9847,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -10035,6 +10019,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -10225,6 +10210,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": [
           {
@@ -10373,6 +10359,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -10384,7 +10371,6 @@
             "type": "TroopAbilityJigOfJugs",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -10560,6 +10546,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -10571,7 +10558,6 @@
             "type": "TroopAbilityTheCoinInMyHand",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -10822,6 +10808,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -10832,7 +10819,6 @@
           "type": "TraitReach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -11053,6 +11039,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -11066,7 +11053,6 @@
           "type": "TraitReach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -11248,6 +11234,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -11442,6 +11429,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -11453,7 +11441,6 @@
             "type": "TroopAbilityAim",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -11739,6 +11726,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -12014,6 +12002,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -12025,7 +12014,6 @@
             "type": "TroopAbilityHype",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -12078,7 +12066,6 @@
           "type": "TraitPersistent",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -12323,6 +12310,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -12333,7 +12321,6 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -12568,6 +12555,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -12579,7 +12567,6 @@
             "type": "TroopAbilityDefend",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -12616,7 +12603,6 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -12827,6 +12813,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -12994,6 +12981,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -13170,6 +13158,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -13356,6 +13345,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -13369,7 +13359,6 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -13610,6 +13599,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -13865,6 +13855,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -14086,6 +14077,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": [
           {
@@ -14269,6 +14261,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -14435,6 +14428,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -14446,7 +14440,6 @@
             "type": "TroopAbilityDefend",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -14483,7 +14476,6 @@
           "type": "TraitStealthy1",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -14757,6 +14749,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -15043,6 +15036,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -15053,7 +15047,6 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -15062,7 +15055,6 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -15284,6 +15276,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -15294,7 +15287,6 @@
           "type": "TraitGuard",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -15303,7 +15295,6 @@
               "type": "TraitGuarded",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -15503,6 +15494,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -15516,7 +15508,6 @@
           "type": "TraitGuard",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -15525,7 +15516,6 @@
               "type": "TraitGuarded",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -15795,6 +15785,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -15815,7 +15806,6 @@
               "type": "TraitCharged",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -16084,7 +16074,7 @@
           "lobbing": 0,
           "resistancePercent": 0
         },
-        "defense": 21,
+        "defense": 16,
         "attacks": 1,
         "retaliations": 1,
         "attacksOfOpportunity": 1,
@@ -16094,7 +16084,7 @@
         },
         "movement": 5,
         "initiative": 23,
-        "health": 50,
+        "health": 45,
         "maxTroopSize": 15,
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
@@ -16105,6 +16095,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -16128,7 +16119,6 @@
               "type": "TraitCharged",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -16303,6 +16293,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -16313,7 +16304,6 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -16322,7 +16312,6 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -16367,7 +16356,6 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -16600,6 +16588,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -16613,7 +16602,6 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -16622,7 +16610,6 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -16667,7 +16654,6 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -16952,6 +16938,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -16963,7 +16950,6 @@
             "type": "TroopAbilityTheDragonsRoar",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -17024,7 +17010,6 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -17033,7 +17018,6 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -17288,6 +17272,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -17298,7 +17283,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17555,6 +17539,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -17566,7 +17551,6 @@
             "type": "TroopAbilityChargeEssence",
             "customEffect": "GenerateEssence",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -17575,7 +17559,6 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -17629,7 +17612,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17875,6 +17857,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -18076,6 +18059,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -18089,7 +18073,6 @@
           "type": "TraitReach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -18127,7 +18110,6 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -18136,7 +18118,6 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -18370,6 +18351,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -18383,7 +18365,6 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -18392,7 +18373,6 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -18437,7 +18417,6 @@
           "type": "TraitReach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -18651,6 +18630,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": [
           {
@@ -18835,6 +18815,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -18846,7 +18827,6 @@
             "type": "TroopAbilityDanceOfTheVanir",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -19060,6 +19040,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -19071,7 +19052,6 @@
             "type": "TroopAbilityWhatsYoursIsMine",
             "customEffect": "None",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -19297,6 +19277,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -19307,7 +19288,6 @@
           "type": "TraitShielded",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -19335,7 +19315,6 @@
           "type": "TraitGuard",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -19344,7 +19323,6 @@
               "type": "TraitGuarded",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -19574,6 +19552,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -19731,6 +19710,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -19890,6 +19870,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -19903,7 +19884,6 @@
           "type": "TraitEternal",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -20085,6 +20065,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -20282,6 +20263,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -20609,6 +20591,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -20778,11 +20761,13 @@
         "damageMultiplier": 0,
         "spellDamageResistance": 0,
         "statuses": [
-          9
+          9,
+          8
         ],
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -21129,6 +21114,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -21149,7 +21135,6 @@
               "type": "TraitCharged",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -21179,7 +21164,6 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -21521,6 +21505,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -21544,7 +21529,6 @@
               "type": "TraitCharged",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -21574,7 +21558,6 @@
           "type": "TraitMagicResistance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -21759,6 +21742,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -21770,7 +21754,6 @@
             "type": "TroopAbilityChargeEssence",
             "customEffect": "GenerateEssence",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -21779,7 +21762,6 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -21992,6 +21974,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -22003,7 +21986,6 @@
             "type": "TroopAbilityChargeEssence",
             "customEffect": "GenerateEssence",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -22012,7 +21994,6 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -22257,6 +22238,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -22268,7 +22250,6 @@
             "type": "TroopAbilityInspire",
             "customEffect": "Aura",
             "customEffectValue": 0,
-            "secondaryCustomEffectValue": 0,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -22277,7 +22258,6 @@
                 "type": "TroopAbilityInspired",
                 "customEffect": "None",
                 "customEffectValue": 0,
-                "secondaryCustomEffectValue": 0,
                 "auraSettings": {
                   "recipients": "Friends",
                   "hexRadius": 1,
@@ -22331,7 +22311,6 @@
           "type": "TraitInspiring",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -22340,7 +22319,6 @@
               "type": "TraitInspired",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -22614,6 +22592,7 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": []
       },
@@ -22627,7 +22606,6 @@
           "type": "TraitIntimidating",
           "customEffect": "Aura",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Enemies",
             "hexRadius": 1,
@@ -22636,7 +22614,6 @@
               "type": "TraitIntimidated",
               "customEffect": "None",
               "customEffectValue": 0,
-              "secondaryCustomEffectValue": 0,
               "auraSettings": {
                 "recipients": "Friends",
                 "hexRadius": 1,
@@ -22850,6 +22827,4592 @@
         "size": 0,
         "canPerformAttacksOfOpportunity": 1,
         "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": [
+          {
+            "statistic": 2,
+            "range": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        ]
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": null,
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "Fungi",
+      "sprite": {
+        "name": "RootsFungi_Default_15_Hit_2",
+        "spriteSheet": "RootsFungiAtlas.png",
+        "x": 196,
+        "y": 126,
+        "width": 31,
+        "height": 53,
+        "outline": [
+          [
+            {
+              "x": -7.5,
+              "y": 3.5
+            },
+            {
+              "x": -13.5,
+              "y": 9.5
+            },
+            {
+              "x": -6.5,
+              "y": 16.5
+            },
+            {
+              "x": -7.5,
+              "y": 26.5
+            },
+            {
+              "x": 4.5,
+              "y": 19.5
+            },
+            {
+              "x": 15.5,
+              "y": 3.5
+            },
+            {
+              "x": 15.5,
+              "y": -18.5
+            },
+            {
+              "x": 5.5,
+              "y": -26.5
+            },
+            {
+              "x": -8.5,
+              "y": -26.5
+            },
+            {
+              "x": -15.5,
+              "y": -19.5
+            },
+            {
+              "x": -15.5,
+              "y": -9.5
+            },
+            {
+              "x": -8.5,
+              "y": -9.5
+            },
+            {
+              "x": -1.5,
+              "y": -12.5
+            },
+            {
+              "x": 1.5,
+              "y": -8.5
+            },
+            {
+              "x": -7.5,
+              "y": -4.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 50
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 1,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 4,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 3,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 1,
+          "max": 2
+        },
+        "movement": 3,
+        "initiative": 30,
+        "health": 3,
+        "maxTroopSize": 50,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1511,
+          "type": "TraitRootsSpongeAuraCreation",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1516,
+              "type": "TraitRootsSpongeEffectCreation",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 24,
+                  "modifier": "TroopEssenceCreation",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "Spawn",
+      "sprite": {
+        "name": "RootsSpawn_Default_1_Idle_1",
+        "spriteSheet": "RootsSpawnAtlas.png",
+        "x": 160,
+        "y": 119,
+        "width": 45,
+        "height": 60.923878,
+        "outline": [
+          [
+            {
+              "x": -1.5,
+              "y": 16.538061
+            },
+            {
+              "x": 3.5,
+              "y": 25.538061
+            },
+            {
+              "x": 14.5,
+              "y": 30.538061
+            },
+            {
+              "x": 18.5,
+              "y": 23.538061
+            },
+            {
+              "x": 18.5,
+              "y": 12.538061
+            },
+            {
+              "x": 21.5,
+              "y": 8.538061
+            },
+            {
+              "x": 18.5,
+              "y": 0.53806114
+            },
+            {
+              "x": 19.5,
+              "y": -10.461939
+            },
+            {
+              "x": 22.5,
+              "y": -13.461939
+            },
+            {
+              "x": 15.5,
+              "y": -22.461939
+            },
+            {
+              "x": 8.5,
+              "y": -19.461939
+            },
+            {
+              "x": 10.5,
+              "y": -25.461939
+            },
+            {
+              "x": 6.5,
+              "y": -29.461939
+            },
+            {
+              "x": -8.5,
+              "y": -30.461939
+            },
+            {
+              "x": -17.5,
+              "y": -21.461939
+            },
+            {
+              "x": -17.5,
+              "y": -14.461939
+            },
+            {
+              "x": -21.5,
+              "y": -2.4619389
+            },
+            {
+              "x": -22.5,
+              "y": 10.538061
+            },
+            {
+              "x": -17.5,
+              "y": 18.538061
+            },
+            {
+              "x": -16.5,
+              "y": 27.538061
+            },
+            {
+              "x": -12.5,
+              "y": 28.538061
+            },
+            {
+              "x": -6.5,
+              "y": 19.538061
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 100
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 11,
+        "essenceStats": {
+          "order": 1,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 8,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 5,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 1,
+          "max": 3
+        },
+        "movement": 3,
+        "initiative": 32,
+        "health": 7,
+        "maxTroopSize": 50,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "SporeCloud",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1511,
+          "type": "TraitRootsSpongeAuraCreation",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1516,
+              "type": "TraitRootsSpongeEffectCreation",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 24,
+                  "modifier": "TroopEssenceCreation",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "BrokenVessel",
+      "sprite": {
+        "name": "RootsBrokenVessel_Default_2_Idle_2",
+        "spriteSheet": "RootsBrokenVesselAtlas.png",
+        "x": 239,
+        "y": 245,
+        "width": 50,
+        "height": 68,
+        "outline": [
+          [
+            {
+              "x": -4,
+              "y": 31
+            },
+            {
+              "x": 5,
+              "y": 34
+            },
+            {
+              "x": 6,
+              "y": 25
+            },
+            {
+              "x": 11,
+              "y": 25
+            },
+            {
+              "x": 19,
+              "y": 8
+            },
+            {
+              "x": 25,
+              "y": 7
+            },
+            {
+              "x": 16,
+              "y": -7
+            },
+            {
+              "x": 8,
+              "y": 1
+            },
+            {
+              "x": 13,
+              "y": -17
+            },
+            {
+              "x": 16,
+              "y": -21
+            },
+            {
+              "x": 12,
+              "y": -24
+            },
+            {
+              "x": 15,
+              "y": -34
+            },
+            {
+              "x": 11,
+              "y": -34
+            },
+            {
+              "x": 4,
+              "y": -27
+            },
+            {
+              "x": 3,
+              "y": -19
+            },
+            {
+              "x": -4,
+              "y": -14
+            },
+            {
+              "x": -9,
+              "y": -22
+            },
+            {
+              "x": -4,
+              "y": -32
+            },
+            {
+              "x": -25,
+              "y": -32
+            },
+            {
+              "x": -13,
+              "y": -27
+            },
+            {
+              "x": -17,
+              "y": -7
+            },
+            {
+              "x": -17,
+              "y": 18
+            },
+            {
+              "x": -7,
+              "y": 24
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 100
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 2,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 7,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 8,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 1,
+          "max": 3
+        },
+        "movement": 3,
+        "initiative": 5,
+        "health": 9,
+        "maxTroopSize": 25,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1509,
+          "type": "TraitRootsSpongeAuraArcana",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1514,
+              "type": "TraitRootsSpongeEffectArcana",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 26,
+                  "modifier": "TroopEssenceArcana",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "BlightedVessel",
+      "sprite": {
+        "name": "RootsBlightedVessel_Default_16_Hit_2",
+        "spriteSheet": "RootsBlightedVesselAtlas.png",
+        "x": 200,
+        "y": 249,
+        "width": 54,
+        "height": 68,
+        "outline": [
+          [
+            {
+              "x": 20,
+              "y": 22
+            },
+            {
+              "x": 16,
+              "y": 34
+            },
+            {
+              "x": 23,
+              "y": 34
+            },
+            {
+              "x": 27,
+              "y": 26
+            },
+            {
+              "x": 27,
+              "y": 1
+            },
+            {
+              "x": 11,
+              "y": 6
+            },
+            {
+              "x": 7,
+              "y": -7
+            },
+            {
+              "x": 1,
+              "y": -9
+            },
+            {
+              "x": 5,
+              "y": -34
+            },
+            {
+              "x": -3,
+              "y": -24
+            },
+            {
+              "x": -5,
+              "y": -15
+            },
+            {
+              "x": -9,
+              "y": -10
+            },
+            {
+              "x": -14,
+              "y": -27
+            },
+            {
+              "x": -27,
+              "y": -27
+            },
+            {
+              "x": -14,
+              "y": -4
+            },
+            {
+              "x": -10,
+              "y": 5
+            },
+            {
+              "x": -16,
+              "y": 6
+            },
+            {
+              "x": -10,
+              "y": 14
+            },
+            {
+              "x": -1,
+              "y": 12
+            },
+            {
+              "x": 5,
+              "y": 28
+            },
+            {
+              "x": 11,
+              "y": 28
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 13,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 10,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 9,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 1,
+          "max": 4
+        },
+        "movement": 3,
+        "initiative": 15,
+        "health": 14,
+        "maxTroopSize": 25,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "RootsLunge",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1509,
+          "type": "TraitRootsSpongeAuraArcana",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1514,
+              "type": "TraitRootsSpongeEffectArcana",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 26,
+                  "modifier": "TroopEssenceArcana",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "Spiker",
+      "sprite": {
+        "name": "RootsSpiker_Default_1_Idle_1",
+        "spriteSheet": "RootsSpikerAtlas.png",
+        "x": 160,
+        "y": 40,
+        "width": 79,
+        "height": 52,
+        "outline": [
+          [
+            {
+              "x": -14.5,
+              "y": -10
+            },
+            {
+              "x": -21.5,
+              "y": -8
+            },
+            {
+              "x": -39.5,
+              "y": -8
+            },
+            {
+              "x": -16.5,
+              "y": 15
+            },
+            {
+              "x": 13.5,
+              "y": 16
+            },
+            {
+              "x": 28.5,
+              "y": 26
+            },
+            {
+              "x": 25.5,
+              "y": 10
+            },
+            {
+              "x": 36.5,
+              "y": 20
+            },
+            {
+              "x": 39.5,
+              "y": 17
+            },
+            {
+              "x": 32.5,
+              "y": -1
+            },
+            {
+              "x": 39.5,
+              "y": -5
+            },
+            {
+              "x": 29.5,
+              "y": -21
+            },
+            {
+              "x": 21.5,
+              "y": -21
+            },
+            {
+              "x": 12.5,
+              "y": -18
+            },
+            {
+              "x": 10.5,
+              "y": -9
+            },
+            {
+              "x": 3.5,
+              "y": -11
+            },
+            {
+              "x": -1.5,
+              "y": -16
+            },
+            {
+              "x": 10.5,
+              "y": -18
+            },
+            {
+              "x": 13.5,
+              "y": -19
+            },
+            {
+              "x": 9.5,
+              "y": -23
+            },
+            {
+              "x": -3.5,
+              "y": -26
+            },
+            {
+              "x": -11.5,
+              "y": -22
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 250
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 3,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 9,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 12,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 4,
+          "max": 7
+        },
+        "movement": 5,
+        "initiative": 19,
+        "health": 20,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1510,
+          "type": "TraitRootsSpongeAuraChaos",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1515,
+              "type": "TraitRootsSpongeEffectChaos",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 25,
+                  "modifier": "TroopEssenceChaos",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "Piercer",
+      "sprite": {
+        "name": "RootsPiercer_Default_2_Idle_2",
+        "spriteSheet": "RootsPiercerAtlas.png",
+        "x": 258,
+        "y": 377,
+        "width": 82,
+        "height": 52,
+        "outline": [
+          [
+            {
+              "x": 5,
+              "y": -12
+            },
+            {
+              "x": -5,
+              "y": -17
+            },
+            {
+              "x": 9,
+              "y": -23
+            },
+            {
+              "x": -4,
+              "y": -26
+            },
+            {
+              "x": -14,
+              "y": -26
+            },
+            {
+              "x": -19,
+              "y": -21
+            },
+            {
+              "x": -23,
+              "y": -13
+            },
+            {
+              "x": -36,
+              "y": -14
+            },
+            {
+              "x": -41,
+              "y": -9
+            },
+            {
+              "x": -41,
+              "y": -4
+            },
+            {
+              "x": -32,
+              "y": -2
+            },
+            {
+              "x": -33,
+              "y": 5
+            },
+            {
+              "x": -20,
+              "y": 10
+            },
+            {
+              "x": -24,
+              "y": 14
+            },
+            {
+              "x": -11,
+              "y": 10
+            },
+            {
+              "x": -2,
+              "y": 13
+            },
+            {
+              "x": 7,
+              "y": 14
+            },
+            {
+              "x": 27,
+              "y": 26
+            },
+            {
+              "x": 27,
+              "y": 13
+            },
+            {
+              "x": 33,
+              "y": 19
+            },
+            {
+              "x": 41,
+              "y": 19
+            },
+            {
+              "x": 32,
+              "y": 1
+            },
+            {
+              "x": 34,
+              "y": -23
+            },
+            {
+              "x": 30,
+              "y": -23
+            },
+            {
+              "x": 26,
+              "y": -18
+            },
+            {
+              "x": 14,
+              "y": -26
+            },
+            {
+              "x": 14,
+              "y": -15
+            },
+            {
+              "x": 7,
+              "y": -22
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 350
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 13,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 1,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 16,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 17,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 5,
+          "max": 8
+        },
+        "movement": 5,
+        "initiative": 21,
+        "health": 30,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Leap",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1510,
+          "type": "TraitRootsSpongeAuraChaos",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1515,
+              "type": "TraitRootsSpongeEffectChaos",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 25,
+                  "modifier": "TroopEssenceChaos",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "Lob",
+      "sprite": {
+        "name": "RootsLob_Default_15_RangedAttack_3",
+        "spriteSheet": "RootsLobAtlas.png",
+        "x": 107,
+        "y": 585,
+        "width": 157,
+        "height": 55,
+        "outline": [
+          [
+            {
+              "x": -6.5,
+              "y": 27.5
+            },
+            {
+              "x": 2.5,
+              "y": 27.5
+            },
+            {
+              "x": 4.5,
+              "y": 21.5
+            },
+            {
+              "x": 19.5,
+              "y": 21.5
+            },
+            {
+              "x": 21.5,
+              "y": 14.5
+            },
+            {
+              "x": 32.5,
+              "y": 11.5
+            },
+            {
+              "x": 46.5,
+              "y": 5.5
+            },
+            {
+              "x": 70.5,
+              "y": -15.5
+            },
+            {
+              "x": 72.5,
+              "y": -13.5
+            },
+            {
+              "x": 72.5,
+              "y": -19.5
+            },
+            {
+              "x": 29.5,
+              "y": -26.5
+            },
+            {
+              "x": 13.5,
+              "y": -27.5
+            },
+            {
+              "x": -5.5,
+              "y": -23.5
+            },
+            {
+              "x": -21.5,
+              "y": -23.5
+            },
+            {
+              "x": -17.5,
+              "y": -5.5
+            },
+            {
+              "x": -4.5,
+              "y": -3.5
+            },
+            {
+              "x": -10.5,
+              "y": -1.5
+            },
+            {
+              "x": -24.5,
+              "y": -4.5
+            },
+            {
+              "x": -50.5,
+              "y": -7.5
+            },
+            {
+              "x": -73.5,
+              "y": -0.5
+            },
+            {
+              "x": -78.5,
+              "y": 8.5
+            },
+            {
+              "x": -75.5,
+              "y": 16.5
+            },
+            {
+              "x": -60.5,
+              "y": 14.5
+            },
+            {
+              "x": -65.5,
+              "y": 8.5
+            },
+            {
+              "x": -60.5,
+              "y": 3.5
+            },
+            {
+              "x": -45.5,
+              "y": 1.5
+            },
+            {
+              "x": -35.5,
+              "y": 3.5
+            },
+            {
+              "x": -26.5,
+              "y": 1.5
+            },
+            {
+              "x": -13.5,
+              "y": 5.5
+            },
+            {
+              "x": -6.5,
+              "y": 11.5
+            }
+          ],
+          [
+            {
+              "x": 75.5,
+              "y": -15.5
+            },
+            {
+              "x": 78.5,
+              "y": -18.5
+            },
+            {
+              "x": 73.5,
+              "y": -19.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 300
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 4,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 3,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 11,
+          "range": {
+            "min": 0,
+            "max": 5
+          },
+          "deadlyRange": 3,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 6,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 2,
+          "max": 5
+        },
+        "movement": 2,
+        "initiative": 16,
+        "health": 20,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1511,
+          "type": "TraitRootsSpongeAuraCreation",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1516,
+              "type": "TraitRootsSpongeEffectCreation",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 24,
+                  "modifier": "TroopEssenceCreation",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "Chuck",
+      "sprite": {
+        "name": "RootsChuck_Default_2_Idle_2",
+        "spriteSheet": "RootsChuckAtlas.png",
+        "x": 443.0129,
+        "y": 487,
+        "width": 84.98709,
+        "height": 74,
+        "outline": [
+          [
+            {
+              "x": -38.506454,
+              "y": 17
+            },
+            {
+              "x": -36.506454,
+              "y": 28
+            },
+            {
+              "x": -33.506454,
+              "y": 28
+            },
+            {
+              "x": -34.506454,
+              "y": 37
+            },
+            {
+              "x": -26.506454,
+              "y": 33
+            },
+            {
+              "x": -16.506454,
+              "y": 33
+            },
+            {
+              "x": -8.506454,
+              "y": 25
+            },
+            {
+              "x": 3.4935455,
+              "y": 29
+            },
+            {
+              "x": 14.493546,
+              "y": 22
+            },
+            {
+              "x": 19.493546,
+              "y": 26
+            },
+            {
+              "x": 30.493546,
+              "y": 26
+            },
+            {
+              "x": 39.493546,
+              "y": 17
+            },
+            {
+              "x": 33.493546,
+              "y": 11
+            },
+            {
+              "x": 38.493546,
+              "y": 4
+            },
+            {
+              "x": 28.493546,
+              "y": -1
+            },
+            {
+              "x": 21.493546,
+              "y": -7
+            },
+            {
+              "x": 18.493546,
+              "y": -3
+            },
+            {
+              "x": 14.493546,
+              "y": 9
+            },
+            {
+              "x": 9.493546,
+              "y": 9
+            },
+            {
+              "x": 21.493546,
+              "y": -8
+            },
+            {
+              "x": 27.493546,
+              "y": -11
+            },
+            {
+              "x": 34.493546,
+              "y": -26
+            },
+            {
+              "x": 37.493546,
+              "y": -24
+            },
+            {
+              "x": 37.493546,
+              "y": -29
+            },
+            {
+              "x": -9.506454,
+              "y": -37
+            },
+            {
+              "x": -33.506454,
+              "y": -32
+            },
+            {
+              "x": -36.506454,
+              "y": -24
+            },
+            {
+              "x": -36.506454,
+              "y": -11
+            },
+            {
+              "x": -39.506454,
+              "y": -11
+            },
+            {
+              "x": -32.506454,
+              "y": -4
+            },
+            {
+              "x": -42.506454,
+              "y": 1
+            },
+            {
+              "x": -32.506454,
+              "y": 1
+            },
+            {
+              "x": -32.506454,
+              "y": 8
+            },
+            {
+              "x": -26.506454,
+              "y": 7
+            },
+            {
+              "x": -29.506454,
+              "y": 16
+            }
+          ],
+          [
+            {
+              "x": 39.493546,
+              "y": -25
+            },
+            {
+              "x": 42.493546,
+              "y": -28
+            },
+            {
+              "x": 37.493546,
+              "y": -29
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 500
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 14,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 5,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 15,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 3,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 8,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 5,
+          "max": 7
+        },
+        "movement": 2,
+        "initiative": 18,
+        "health": 30,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "StickyShot",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1511,
+          "type": "TraitRootsSpongeAuraCreation",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1516,
+              "type": "TraitRootsSpongeEffectCreation",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 24,
+                  "modifier": "TroopEssenceCreation",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "Lasher",
+      "sprite": {
+        "name": "RootsLasher_Default_1_Idle_1",
+        "spriteSheet": "RootsLasherAtlas.png",
+        "x": 338,
+        "y": 404,
+        "width": 62,
+        "height": 84,
+        "outline": [
+          [
+            {
+              "x": -17,
+              "y": 25
+            },
+            {
+              "x": -10,
+              "y": 40
+            },
+            {
+              "x": -4,
+              "y": 42
+            },
+            {
+              "x": 8,
+              "y": 38
+            },
+            {
+              "x": 18,
+              "y": 21
+            },
+            {
+              "x": 26,
+              "y": 21
+            },
+            {
+              "x": 31,
+              "y": 16
+            },
+            {
+              "x": 31,
+              "y": 0
+            },
+            {
+              "x": 23,
+              "y": 8
+            },
+            {
+              "x": 23,
+              "y": -6
+            },
+            {
+              "x": 11,
+              "y": -9
+            },
+            {
+              "x": 4,
+              "y": -22
+            },
+            {
+              "x": 7,
+              "y": -35
+            },
+            {
+              "x": 5,
+              "y": -42
+            },
+            {
+              "x": -10,
+              "y": -42
+            },
+            {
+              "x": -10,
+              "y": -26
+            },
+            {
+              "x": -3,
+              "y": -12
+            },
+            {
+              "x": -18,
+              "y": -9
+            },
+            {
+              "x": -20,
+              "y": -17
+            },
+            {
+              "x": -17,
+              "y": -29
+            },
+            {
+              "x": -26,
+              "y": -27
+            },
+            {
+              "x": -31,
+              "y": -16
+            },
+            {
+              "x": -28,
+              "y": -7
+            },
+            {
+              "x": -19,
+              "y": 2
+            },
+            {
+              "x": -8,
+              "y": -6
+            },
+            {
+              "x": -3,
+              "y": -4
+            },
+            {
+              "x": -17,
+              "y": 14
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 400
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 5,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 21,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 25,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 6,
+          "max": 10
+        },
+        "movement": 2,
+        "initiative": 26,
+        "health": 30,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1512,
+          "type": "TraitRootsSpongeAuraDestruction",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1517,
+              "type": "TraitRootsSpongeEffectDestruction",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 27,
+                  "modifier": "TroopEssenceDestruction",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1508,
+          "type": "TraitSpinAttack",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "Flayer",
+      "sprite": {
+        "name": "RootsFlayer_Default_2_Idle_2",
+        "spriteSheet": "RootsFlayerAtlas.png",
+        "x": 0,
+        "y": 308,
+        "width": 138,
+        "height": 98,
+        "outline": [
+          [
+            {
+              "x": -41,
+              "y": 38
+            },
+            {
+              "x": -41,
+              "y": 46
+            },
+            {
+              "x": -31,
+              "y": 49
+            },
+            {
+              "x": -37,
+              "y": 32
+            },
+            {
+              "x": -26,
+              "y": 40
+            },
+            {
+              "x": -22,
+              "y": 36
+            },
+            {
+              "x": -27,
+              "y": 24
+            },
+            {
+              "x": -22,
+              "y": 17
+            },
+            {
+              "x": -6,
+              "y": 16
+            },
+            {
+              "x": -6,
+              "y": -5
+            },
+            {
+              "x": -18,
+              "y": 7
+            },
+            {
+              "x": -14,
+              "y": -5
+            },
+            {
+              "x": -19,
+              "y": -12
+            },
+            {
+              "x": -28,
+              "y": -19
+            },
+            {
+              "x": -14,
+              "y": -19
+            },
+            {
+              "x": -14,
+              "y": -36
+            },
+            {
+              "x": -22,
+              "y": -44
+            },
+            {
+              "x": -24,
+              "y": -31
+            },
+            {
+              "x": -33,
+              "y": -31
+            },
+            {
+              "x": -33,
+              "y": -46
+            },
+            {
+              "x": -40,
+              "y": -49
+            },
+            {
+              "x": -48,
+              "y": -46
+            },
+            {
+              "x": -44,
+              "y": -6
+            },
+            {
+              "x": -56,
+              "y": 8
+            },
+            {
+              "x": -56,
+              "y": 19
+            },
+            {
+              "x": -54,
+              "y": 27
+            },
+            {
+              "x": -57,
+              "y": 32
+            },
+            {
+              "x": -55,
+              "y": 41
+            },
+            {
+              "x": -50,
+              "y": 41
+            },
+            {
+              "x": -49,
+              "y": 34
+            }
+          ],
+          [
+            {
+              "x": -57,
+              "y": 1
+            },
+            {
+              "x": -45,
+              "y": -9
+            },
+            {
+              "x": -44,
+              "y": -6
+            },
+            {
+              "x": -45,
+              "y": -16
+            },
+            {
+              "x": -57,
+              "y": -12
+            },
+            {
+              "x": -58,
+              "y": -21
+            },
+            {
+              "x": -55,
+              "y": -33
+            },
+            {
+              "x": -61,
+              "y": -31
+            },
+            {
+              "x": -69,
+              "y": -23
+            },
+            {
+              "x": -69,
+              "y": -9
+            }
+          ],
+          [
+            {
+              "x": -50,
+              "y": -38
+            },
+            {
+              "x": -50,
+              "y": -21
+            },
+            {
+              "x": -45,
+              "y": -16
+            },
+            {
+              "x": -48,
+              "y": -46
+            }
+          ],
+          [
+            {
+              "x": 68,
+              "y": -19
+            },
+            {
+              "x": 68,
+              "y": -18
+            },
+            {
+              "x": 69,
+              "y": -18
+            },
+            {
+              "x": 69,
+              "y": -19
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 700
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 15,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 25,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 35,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 10,
+          "max": 14
+        },
+        "movement": 2,
+        "initiative": 27,
+        "health": 50,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Burrow",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1512,
+          "type": "TraitRootsSpongeAuraDestruction",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1517,
+              "type": "TraitRootsSpongeEffectDestruction",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 27,
+                  "modifier": "TroopEssenceDestruction",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1508,
+          "type": "TraitSpinAttack",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "Heart",
+      "sprite": {
+        "name": "RootsHeart_Default_2_Idle_2",
+        "spriteSheet": "RootsHeartAtlas.png",
+        "x": 360,
+        "y": 293,
+        "width": 72,
+        "height": 99,
+        "outline": [
+          [
+            {
+              "x": -20,
+              "y": 26.5
+            },
+            {
+              "x": -19,
+              "y": 47.5
+            },
+            {
+              "x": -4,
+              "y": 37.5
+            },
+            {
+              "x": 13,
+              "y": 49.5
+            },
+            {
+              "x": 36,
+              "y": 19.5
+            },
+            {
+              "x": 31,
+              "y": 7.5
+            },
+            {
+              "x": 31,
+              "y": -20.5
+            },
+            {
+              "x": 15,
+              "y": -20.5
+            },
+            {
+              "x": 0,
+              "y": -49.5
+            },
+            {
+              "x": -12,
+              "y": -23.5
+            },
+            {
+              "x": -29,
+              "y": -6.5
+            },
+            {
+              "x": -29,
+              "y": 9.5
+            },
+            {
+              "x": -36,
+              "y": 13.5
+            },
+            {
+              "x": -32,
+              "y": 23.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 6,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 23,
+          "range": {
+            "min": 0,
+            "max": 99
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 12,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 8,
+          "max": 12
+        },
+        "movement": 3,
+        "initiative": 16,
+        "health": 30,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 0,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "ThrumOfLeaves",
+        "bacterias": [
+          {
+            "bacteriaType": 1577,
+            "type": "TroopAbilityThrumOfLeaves",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 35,
+                "modifier": "CommanderSpellDamagePower",
+                "amountToAdd": 5,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 5,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1509,
+          "type": "TraitRootsSpongeAuraArcana",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1514,
+              "type": "TraitRootsSpongeEffectArcana",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 26,
+                  "modifier": "TroopEssenceArcana",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1170,
+          "type": "TraitMobile",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1562,
+          "type": "TraitReactive",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1561,
+          "type": "TraitBeamAttacks",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "Pulse",
+      "sprite": {
+        "name": "RootsPulse_Default_1_Idle_1",
+        "spriteSheet": "RootsPulseAtlas.png",
+        "x": 251,
+        "y": 289,
+        "width": 81,
+        "height": 101,
+        "outline": [
+          [
+            {
+              "x": 6.5,
+              "y": 42.5
+            },
+            {
+              "x": 19.5,
+              "y": 50.5
+            },
+            {
+              "x": 16.5,
+              "y": 32.5
+            },
+            {
+              "x": 27.5,
+              "y": 42.5
+            },
+            {
+              "x": 30.5,
+              "y": 41.5
+            },
+            {
+              "x": 24.5,
+              "y": 29.5
+            },
+            {
+              "x": 34.5,
+              "y": 26.5
+            },
+            {
+              "x": 29.5,
+              "y": 19.5
+            },
+            {
+              "x": 40.5,
+              "y": 19.5
+            },
+            {
+              "x": 36.5,
+              "y": 15.5
+            },
+            {
+              "x": 36.5,
+              "y": 5.5
+            },
+            {
+              "x": 26.5,
+              "y": 3.5
+            },
+            {
+              "x": 26.5,
+              "y": -5.5
+            },
+            {
+              "x": 30.5,
+              "y": -5.5
+            },
+            {
+              "x": 36.5,
+              "y": -12.5
+            },
+            {
+              "x": 30.5,
+              "y": -23.5
+            },
+            {
+              "x": 17.5,
+              "y": -16.5
+            },
+            {
+              "x": 12.5,
+              "y": -30.5
+            },
+            {
+              "x": 9.5,
+              "y": -30.5
+            },
+            {
+              "x": 0.5,
+              "y": -50.5
+            },
+            {
+              "x": -4.5,
+              "y": -45.5
+            },
+            {
+              "x": -9.5,
+              "y": -32.5
+            },
+            {
+              "x": -14.5,
+              "y": -28.5
+            },
+            {
+              "x": -24.5,
+              "y": -14.5
+            },
+            {
+              "x": -34.5,
+              "y": -7.5
+            },
+            {
+              "x": -24.5,
+              "y": -7.5
+            },
+            {
+              "x": -25.5,
+              "y": 2.5
+            },
+            {
+              "x": -33.5,
+              "y": 6.5
+            },
+            {
+              "x": -40.5,
+              "y": 21.5
+            },
+            {
+              "x": -30.5,
+              "y": 17.5
+            },
+            {
+              "x": -29.5,
+              "y": 21.5
+            },
+            {
+              "x": -22.5,
+              "y": 17.5
+            },
+            {
+              "x": -20.5,
+              "y": 28.5
+            },
+            {
+              "x": -24.5,
+              "y": 41.5
+            },
+            {
+              "x": -11.5,
+              "y": 50.5
+            },
+            {
+              "x": -0.5,
+              "y": 49.5
+            },
+            {
+              "x": -10.5,
+              "y": 28.5
+            },
+            {
+              "x": -1.5,
+              "y": 34.5
+            },
+            {
+              "x": 8.5,
+              "y": 35.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 16,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 28,
+          "range": {
+            "min": 0,
+            "max": 99
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 13,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 12,
+          "max": 16
+        },
+        "movement": 3,
+        "initiative": 17,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 0,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "VerdantPulse",
+        "bacterias": [
+          {
+            "bacteriaType": 1578,
+            "type": "TroopAbilityVerdantPulse",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 35,
+                "modifier": "CommanderSpellDamagePower",
+                "amountToAdd": 10,
+                "applicationType": 0
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1509,
+          "type": "TraitRootsSpongeAuraArcana",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1514,
+              "type": "TraitRootsSpongeEffectArcana",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 26,
+                  "modifier": "TroopEssenceArcana",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1170,
+          "type": "TraitMobile",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1562,
+          "type": "TraitReactive",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1561,
+          "type": "TraitBeamAttacks",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "Dread",
+      "sprite": {
+        "name": "RootsDread_Default_2_Idle_2",
+        "spriteSheet": "RootsDreadAtlas.png",
+        "x": 395,
+        "y": 370,
+        "width": 95,
+        "height": 92.92388,
+        "outline": [
+          [
+            {
+              "x": -47.5,
+              "y": 34.53806
+            },
+            {
+              "x": -34.5,
+              "y": 47.53806
+            },
+            {
+              "x": -28.5,
+              "y": 36.53806
+            },
+            {
+              "x": -6.5,
+              "y": 45.53806
+            },
+            {
+              "x": 6.5,
+              "y": 35.53806
+            },
+            {
+              "x": 11.5,
+              "y": 38.53806
+            },
+            {
+              "x": 21.5,
+              "y": 34.53806
+            },
+            {
+              "x": 26.5,
+              "y": 29.53806
+            },
+            {
+              "x": 33.5,
+              "y": 29.53806
+            },
+            {
+              "x": 31.5,
+              "y": 18.53806
+            },
+            {
+              "x": 40.5,
+              "y": 16.53806
+            },
+            {
+              "x": 30.5,
+              "y": 5.538059
+            },
+            {
+              "x": 30.5,
+              "y": 0.53805923
+            },
+            {
+              "x": 39.5,
+              "y": -4.461941
+            },
+            {
+              "x": 47.5,
+              "y": -34.46194
+            },
+            {
+              "x": 32.5,
+              "y": -33.46194
+            },
+            {
+              "x": 37.5,
+              "y": -22.46194
+            },
+            {
+              "x": 31.5,
+              "y": -14.461941
+            },
+            {
+              "x": 28.5,
+              "y": -14.461941
+            },
+            {
+              "x": 28.5,
+              "y": -27.46194
+            },
+            {
+              "x": 13.5,
+              "y": -39.46194
+            },
+            {
+              "x": -0.5,
+              "y": -36.46194
+            },
+            {
+              "x": 11.5,
+              "y": -30.46194
+            },
+            {
+              "x": 14.5,
+              "y": -22.46194
+            },
+            {
+              "x": 14.5,
+              "y": -15.461941
+            },
+            {
+              "x": 11.5,
+              "y": -12.461941
+            },
+            {
+              "x": 4.5,
+              "y": -32.46194
+            },
+            {
+              "x": -1.5,
+              "y": -35.46194
+            },
+            {
+              "x": -8.5,
+              "y": -33.46194
+            },
+            {
+              "x": -0.5,
+              "y": -23.46194
+            },
+            {
+              "x": 4.5,
+              "y": -13.461941
+            },
+            {
+              "x": -1.5,
+              "y": -16.46194
+            },
+            {
+              "x": -11.5,
+              "y": -28.46194
+            },
+            {
+              "x": -17.5,
+              "y": -40.46194
+            },
+            {
+              "x": -23.5,
+              "y": -46.46194
+            },
+            {
+              "x": -24.5,
+              "y": -38.46194
+            },
+            {
+              "x": -12.5,
+              "y": -7.461941
+            },
+            {
+              "x": -37.5,
+              "y": -45.46194
+            },
+            {
+              "x": -37.5,
+              "y": -37.46194
+            },
+            {
+              "x": -28.5,
+              "y": -6.461941
+            },
+            {
+              "x": -21.5,
+              "y": 1.5380592
+            },
+            {
+              "x": -29.5,
+              "y": 6.538059
+            },
+            {
+              "x": -36.5,
+              "y": 6.538059
+            },
+            {
+              "x": -38.5,
+              "y": 11.538059
+            },
+            {
+              "x": -43.5,
+              "y": 10.538059
+            },
+            {
+              "x": -39.5,
+              "y": 18.53806
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 7,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 42,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 12,
+          "max": 17
+        },
+        "movement": 5,
+        "initiative": 22,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1513,
+          "type": "TraitRootsSpongeAuraOrder",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1518,
+              "type": "TraitRootsSpongeEffectOrder",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 23,
+                  "modifier": "TroopEssenceOrder",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 871,
+          "type": "TraitCharger",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          },
+          "settings": {
+            "bacteriaToAddWhenMoving": {
+              "bacteriaType": 870,
+              "type": "TraitCharged",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "CurrentBattleStackTurn",
+                "duration": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "Terror",
+      "sprite": {
+        "name": "RootsTerror_Default_3_Idle_3",
+        "spriteSheet": "RootsTerrorAtlas.png",
+        "x": 101,
+        "y": 153,
+        "width": 105,
+        "height": 123,
+        "outline": [
+          [
+            {
+              "x": -0.5,
+              "y": 56.5
+            },
+            {
+              "x": 0.5,
+              "y": 61.5
+            },
+            {
+              "x": 11.5,
+              "y": 61.5
+            },
+            {
+              "x": 11.5,
+              "y": 50.5
+            },
+            {
+              "x": 4.5,
+              "y": 33.5
+            },
+            {
+              "x": -2.5,
+              "y": 33.5
+            },
+            {
+              "x": 0.5,
+              "y": 30.5
+            },
+            {
+              "x": 6.5,
+              "y": 34.5
+            },
+            {
+              "x": 12.5,
+              "y": 34.5
+            },
+            {
+              "x": 7.5,
+              "y": 26.5
+            },
+            {
+              "x": 16.5,
+              "y": 26.5
+            },
+            {
+              "x": 16.5,
+              "y": 20.5
+            },
+            {
+              "x": 8.5,
+              "y": 19.5
+            },
+            {
+              "x": 8.5,
+              "y": 8.5
+            },
+            {
+              "x": 22.5,
+              "y": 15.5
+            },
+            {
+              "x": 25.5,
+              "y": 9.5
+            },
+            {
+              "x": 32.5,
+              "y": 8.5
+            },
+            {
+              "x": 32.5,
+              "y": 1.5
+            },
+            {
+              "x": 44.5,
+              "y": -3.5
+            },
+            {
+              "x": 35.5,
+              "y": -13.5
+            },
+            {
+              "x": 35.5,
+              "y": -18.5
+            },
+            {
+              "x": 44.5,
+              "y": -23.5
+            },
+            {
+              "x": 52.5,
+              "y": -53.5
+            },
+            {
+              "x": 37.5,
+              "y": -52.5
+            },
+            {
+              "x": 42.5,
+              "y": -41.5
+            },
+            {
+              "x": 33.5,
+              "y": -32.5
+            },
+            {
+              "x": 33.5,
+              "y": -46.5
+            },
+            {
+              "x": 18.5,
+              "y": -58.5
+            },
+            {
+              "x": 9.5,
+              "y": -56.5
+            },
+            {
+              "x": 9.5,
+              "y": -53.5
+            },
+            {
+              "x": 16.5,
+              "y": -49.5
+            },
+            {
+              "x": 19.5,
+              "y": -34.5
+            },
+            {
+              "x": 15.5,
+              "y": -29.5
+            },
+            {
+              "x": 10.5,
+              "y": -49.5
+            },
+            {
+              "x": 0.5,
+              "y": -61.5
+            },
+            {
+              "x": -10.5,
+              "y": -59.5
+            },
+            {
+              "x": -4.5,
+              "y": -51.5
+            },
+            {
+              "x": -3.5,
+              "y": -39.5
+            },
+            {
+              "x": -12.5,
+              "y": -50.5
+            },
+            {
+              "x": -12.5,
+              "y": -56.5
+            },
+            {
+              "x": -26.5,
+              "y": -56.5
+            },
+            {
+              "x": -17.5,
+              "y": -44.5
+            },
+            {
+              "x": -19.5,
+              "y": -17.5
+            },
+            {
+              "x": -25.5,
+              "y": -24.5
+            },
+            {
+              "x": -45.5,
+              "y": -35.5
+            },
+            {
+              "x": -52.5,
+              "y": -34.5
+            },
+            {
+              "x": -35.5,
+              "y": -17.5
+            },
+            {
+              "x": -24.5,
+              "y": 0.5
+            },
+            {
+              "x": -17.5,
+              "y": 2.5
+            },
+            {
+              "x": -20.5,
+              "y": 17.5
+            },
+            {
+              "x": -26.5,
+              "y": 17.5
+            },
+            {
+              "x": -27.5,
+              "y": 23.5
+            },
+            {
+              "x": -38.5,
+              "y": 36.5
+            },
+            {
+              "x": -33.5,
+              "y": 44.5
+            },
+            {
+              "x": -34.5,
+              "y": 52.5
+            },
+            {
+              "x": -22.5,
+              "y": 60.5
+            },
+            {
+              "x": -17.5,
+              "y": 59.5
+            },
+            {
+              "x": -17.5,
+              "y": 49.5
+            },
+            {
+              "x": -7.5,
+              "y": 49.5
+            },
+            {
+              "x": -8.5,
+              "y": 60.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1000
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 17,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 45,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 21,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 18,
+          "max": 24
+        },
+        "movement": 5,
+        "initiative": 25,
+        "health": 80,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Wait",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1513,
+          "type": "TraitRootsSpongeAuraOrder",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1518,
+              "type": "TraitRootsSpongeEffectOrder",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 23,
+                  "modifier": "TroopEssenceOrder",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 871,
+          "type": "TraitCharger",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          },
+          "settings": {
+            "bacteriaToAddWhenMoving": {
+              "bacteriaType": 870,
+              "type": "TraitCharged",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "CurrentBattleStackTurn",
+                "duration": 1
+              }
+            }
+          }
+        },
+        {
+          "bacteriaType": 1179,
+          "type": "TraitFrontLineFighter",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 797,
+          "type": "TraitIntimidating",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 796,
+              "type": "TraitIntimidated",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 2,
+                  "modifier": "TroopDefense",
+                  "amountToAdd": -10,
+                  "applicationType": 0
+                },
+                {
+                  "type": 3,
+                  "modifier": "TroopInitiative",
+                  "amountToAdd": -10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "SeedOfTheMother",
+      "sprite": {
+        "name": "RootsSeedOfTheMother_Default_1_Idle_1",
+        "spriteSheet": "RootsSeedOfTheMotherAtlas.png",
+        "x": 83,
+        "y": 162,
+        "width": 83,
+        "height": 79,
+        "outline": [
+          [
+            {
+              "x": 10.5,
+              "y": 39.5
+            },
+            {
+              "x": 20.5,
+              "y": 39.5
+            },
+            {
+              "x": 20.5,
+              "y": 34.5
+            },
+            {
+              "x": 16.5,
+              "y": 29.5
+            },
+            {
+              "x": 23.5,
+              "y": 21.5
+            },
+            {
+              "x": 31.5,
+              "y": 6.5
+            },
+            {
+              "x": 40.5,
+              "y": 11.5
+            },
+            {
+              "x": 36.5,
+              "y": -1.5
+            },
+            {
+              "x": 40.5,
+              "y": -10.5
+            },
+            {
+              "x": 34.5,
+              "y": -13.5
+            },
+            {
+              "x": 41.5,
+              "y": -27.5
+            },
+            {
+              "x": 36.5,
+              "y": -27.5
+            },
+            {
+              "x": 36.5,
+              "y": -36.5
+            },
+            {
+              "x": 27.5,
+              "y": -31.5
+            },
+            {
+              "x": 20.5,
+              "y": -38.5
+            },
+            {
+              "x": 1.5,
+              "y": -28.5
+            },
+            {
+              "x": -7.5,
+              "y": -28.5
+            },
+            {
+              "x": -18.5,
+              "y": -39.5
+            },
+            {
+              "x": -19.5,
+              "y": -29.5
+            },
+            {
+              "x": -30.5,
+              "y": -30.5
+            },
+            {
+              "x": -24.5,
+              "y": -17.5
+            },
+            {
+              "x": -41.5,
+              "y": -25.5
+            },
+            {
+              "x": -40.5,
+              "y": -20.5
+            },
+            {
+              "x": -27.5,
+              "y": -7.5
+            },
+            {
+              "x": -33.5,
+              "y": -7.5
+            },
+            {
+              "x": -35.5,
+              "y": -1.5
+            },
+            {
+              "x": -26.5,
+              "y": 15.5
+            },
+            {
+              "x": -15.5,
+              "y": 17.5
+            },
+            {
+              "x": -6.5,
+              "y": 26.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1500
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 8,
+        "essenceStats": {
+          "order": 1,
+          "creation": 1,
+          "chaos": 1,
+          "arcana": 1,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 1,
+          "resistancePercent": 0
+        },
+        "defense": 49,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 0,
+          "max": 0
+        },
+        "movement": 1,
+        "initiative": 20,
+        "health": 150,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 1,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "GraspingRoots",
+        "bacterias": [
+          {
+            "bacteriaType": 1571,
+            "type": "TroopAbilityGraspingRoots",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRound",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1513,
+          "type": "TraitRootsSpongeAuraOrder",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1518,
+              "type": "TraitRootsSpongeEffectOrder",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 23,
+                  "modifier": "TroopEssenceOrder",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1504,
+          "type": "TraitMagicImmunity",
+          "customEffect": "MagicImmunityRestriction",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1419,
+          "type": "TraitMothersLoveProvider",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1547,
+          "type": "TraitMothersHate",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "RootsOfTheMother",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 2500
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 2
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 18,
+        "essenceStats": {
+          "order": 1,
+          "creation": 1,
+          "chaos": 1,
+          "arcana": 1,
+          "destruction": 1
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 1,
+          "resistancePercent": 0
+        },
+        "defense": 62,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 0,
+          "max": 0
+        },
+        "movement": 2,
+        "initiative": 24,
+        "health": 250,
+        "maxTroopSize": 5,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          10
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 2,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "GraspingRoots",
+        "bacterias": [
+          {
+            "bacteriaType": 1571,
+            "type": "TroopAbilityGraspingRoots",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 6,
+                "modifier": "TroopMovement",
+                "amountToAdd": -100,
+                "applicationType": 1
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRound",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1513,
+          "type": "TraitRootsSpongeAuraOrder",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1518,
+              "type": "TraitRootsSpongeEffectOrder",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 23,
+                  "modifier": "TroopEssenceOrder",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 0,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1504,
+          "type": "TraitMagicImmunity",
+          "customEffect": "MagicImmunityRestriction",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1419,
+          "type": "TraitMothersLoveProvider",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1592,
+          "type": "TraitMothersHateUpgraded",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null
+  },
+  {
+    "faction": "Roots",
+    "vanilla": {
+      "languageKey": "Ballista",
+      "sprite": {
+        "name": "RootsBallista_Default_1_Idle_1",
+        "spriteSheet": "RootsBallistaAtlas.png",
+        "x": 0.012912571,
+        "y": 140,
+        "width": 65.98709,
+        "height": 55,
+        "outline": [
+          [
+            {
+              "x": -16.006458,
+              "y": 15.5
+            },
+            {
+              "x": -17.006458,
+              "y": 25.5
+            },
+            {
+              "x": -9.006458,
+              "y": 20.5
+            },
+            {
+              "x": -10.006458,
+              "y": 27.5
+            },
+            {
+              "x": -5.0064583,
+              "y": 25.5
+            },
+            {
+              "x": -2.0064583,
+              "y": 18.5
+            },
+            {
+              "x": 7.9935417,
+              "y": 18.5
+            },
+            {
+              "x": 14.993542,
+              "y": 13.5
+            },
+            {
+              "x": 21.993542,
+              "y": 20.5
+            },
+            {
+              "x": 19.993542,
+              "y": 12.5
+            },
+            {
+              "x": 15.993542,
+              "y": 5.5
+            },
+            {
+              "x": 27.993542,
+              "y": 2.5
+            },
+            {
+              "x": 32.99354,
+              "y": -4.5
+            },
+            {
+              "x": 26.993542,
+              "y": -14.5
+            },
+            {
+              "x": 17.993542,
+              "y": -14.5
+            },
+            {
+              "x": 24.993542,
+              "y": -21.5
+            },
+            {
+              "x": 10.993542,
+              "y": -27.5
+            },
+            {
+              "x": 2.9935417,
+              "y": -27.5
+            },
+            {
+              "x": -6.0064583,
+              "y": -21.5
+            },
+            {
+              "x": -4.0064583,
+              "y": -15.5
+            },
+            {
+              "x": 1.9935417,
+              "y": -12.5
+            },
+            {
+              "x": -22.006458,
+              "y": -7.5
+            },
+            {
+              "x": -22.006458,
+              "y": 4.5
+            },
+            {
+              "x": -25.006458,
+              "y": 5.5
+            },
+            {
+              "x": -21.006458,
+              "y": 9.5
+            },
+            {
+              "x": -33.00646,
+              "y": 18.5
+            },
+            {
+              "x": -24.006458,
+              "y": 18.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          }
+        ]
+      },
+      "obsoleteGoldCost": 1750,
+      "stats": {
+        "tier": 0,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 20,
+          "range": {
+            "min": 2,
+            "max": 15
+          },
+          "deadlyRange": 3,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 20,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 40,
+          "max": 60
+        },
+        "movement": 0,
+        "initiative": 50,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
         "blessed": 0,
         "restrictions": [
           {

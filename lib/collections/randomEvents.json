@@ -1,12 +1,12 @@
 [
   {
-    "id": "Generic/SpoilsOfWar",
-    "uniqueName": "Generic/SpoilsOfWar",
+    "id": "Generic/SpoilsOfWarA",
+    "uniqueName": "Generic/SpoilsOfWarA",
     "descriptionKey": "RandomEvents/Generic/SpoilsOfWar/Description",
     "faction": "Generic",
     "eventChainNameKey": null,
     "eventType": "Good",
-    "name": "SpoilsOfWar",
+    "name": "SpoilsOfWarA",
     "chanceOfHappening": 0.5,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
@@ -29,6 +29,34 @@
           "nameKey": "Arleon/Farm"
         },
         "requirementType": "GreaterThanOrEqualBattlesWon"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "LessThanRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Generic/SpoilsOfWarB"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidNotHappen"
       }
     ],
     "eventRecipient": "Team",
@@ -40,8 +68,8 @@
         "resourceReward": {
           "type": "Gold",
           "amountMinMax": {
-            "min": 500,
-            "max": 1500
+            "min": 700,
+            "max": 1400
           }
         },
         "bacteriaReward": null,
@@ -175,7 +203,6 @@
           "type": "RandomEventWarmFires",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -471,7 +498,7 @@
     "eventChainNameKey": null,
     "eventType": "Good",
     "name": "ASplitTree",
-    "chanceOfHappening": 0.06,
+    "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 0,
@@ -483,7 +510,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 5,
+        "value": 15,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -594,10 +621,25 @@
         "eventReference": {
           "uniqueName": null
         },
+        "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualRound"
+      },
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
         "value": 2,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
+        "artifactType": "Crossbow",
         "entityType": {
           "nameKey": "MapEntities/ResourceGenerator/Gold"
         },
@@ -637,7 +679,7 @@
     "eventChainNameKey": null,
     "eventType": "Good",
     "name": "SmithsTribute",
-    "chanceOfHappening": 0.05,
+    "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 500,
@@ -649,10 +691,11 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 30,
+        "value": 5,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
+        "artifactType": "Crossbow",
         "entityType": {
           "nameKey": "Arleon/Farm"
         },
@@ -662,7 +705,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 45,
+        "value": 30,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -773,7 +816,6 @@
           "type": "RandomEventOptimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -887,7 +929,6 @@
           "type": "RandomEventPessimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -935,7 +976,7 @@
     "eventChainNameKey": null,
     "eventType": "Good",
     "name": "OldHut",
-    "chanceOfHappening": 0.05,
+    "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 0,
@@ -947,7 +988,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 5,
+        "value": 15,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -967,7 +1008,7 @@
           "type": "AncientAmber",
           "amountMinMax": {
             "min": 1,
-            "max": 1
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -987,7 +1028,7 @@
           "type": "Glimmerweave",
           "amountMinMax": {
             "min": 1,
-            "max": 1
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -1007,7 +1048,7 @@
           "type": "CelestialOre",
           "amountMinMax": {
             "min": 1,
-            "max": 1
+            "max": 2
           }
         },
         "bacteriaReward": null,
@@ -1070,7 +1111,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -1124,7 +1164,7 @@
     "eventChainNameKey": null,
     "eventType": "Good",
     "name": "TheDishonestMerchant",
-    "chanceOfHappening": 0.02,
+    "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientArtifactType": "Crossbow",
@@ -1137,7 +1177,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 5,
+        "value": 15,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -1166,7 +1206,6 @@
           "type": "RandomEventWarmFires",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -1248,7 +1287,7 @@
     "eventChainNameKey": null,
     "eventType": "Good",
     "name": "AnUnusallyLargeEgg",
-    "chanceOfHappening": 0.02,
+    "chanceOfHappening": 0.07,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientArtifactType": "Crossbow",
@@ -1261,7 +1300,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 5,
+        "value": 15,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -1281,7 +1320,7 @@
         "resourceReward": {
           "type": "AncientAmber",
           "amountMinMax": {
-            "min": 5,
+            "min": 3,
             "max": 5
           }
         },
@@ -1290,7 +1329,6 @@
           "type": "RandomEventWarmFires",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -1332,7 +1370,7 @@
     "eventChainNameKey": null,
     "eventType": "Good",
     "name": "Donations",
-    "chanceOfHappening": 0.05,
+    "chanceOfHappening": 0.06,
     "eventEvaluationTrigger": "YourTurn",
     "requirementEvaluationType": "AND",
     "recipientValue": 0,
@@ -1344,7 +1382,7 @@
         "eventReference": {
           "uniqueName": null
         },
-        "value": 5,
+        "value": 10,
         "factionIndex": 0,
         "unitIndex": 0,
         "resourceType": "Gold",
@@ -1425,6 +1463,77 @@
           "amountMinMax": {
             "min": 0,
             "max": 0
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      }
+    ],
+    "penalties": []
+  },
+  {
+    "id": "Generic/SpoilsOfWarB",
+    "uniqueName": "Generic/SpoilsOfWarB",
+    "descriptionKey": "RandomEvents/Generic/SpoilsOfWar/Description",
+    "faction": "Generic",
+    "eventChainNameKey": null,
+    "eventType": "Good",
+    "name": "SpoilsOfWarB",
+    "chanceOfHappening": 0.5,
+    "eventEvaluationTrigger": "YourTurn",
+    "requirementEvaluationType": "AND",
+    "recipientArtifactType": "Crossbow",
+    "recipientValue": 0,
+    "recipientFactionIndex": 1,
+    "recipientUnitIndex": 1,
+    "recipientTroopUpgradeType": "vanilla",
+    "requirements": [
+      {
+        "eventReference": {
+          "uniqueName": null
+        },
+        "value": 10,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "GreaterThanOrEqualBattlesWon"
+      },
+      {
+        "eventReference": {
+          "uniqueName": "Generic/SpoilsOfWarA"
+        },
+        "value": 1,
+        "factionIndex": 0,
+        "unitIndex": 0,
+        "resourceType": "Gold",
+        "artifactType": "Crossbow",
+        "entityType": {
+          "nameKey": "Arleon/Farm"
+        },
+        "requirementType": "PriorEventDidNotHappen"
+      }
+    ],
+    "eventRecipient": "Team",
+    "rewards": [
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 700,
+            "max": 1400
           }
         },
         "bacteriaReward": null,
@@ -1705,7 +1814,6 @@
           "type": "RandomEventDread",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -1938,7 +2046,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -2432,7 +2539,6 @@
           "type": "RandomEventTravellingEntertainers",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -3081,7 +3187,6 @@
           "type": "RandomEventRangedTactics",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -4274,7 +4379,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -4518,7 +4622,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -4649,7 +4752,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -4762,7 +4864,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -4993,7 +5094,6 @@
           "type": "RandomEventIrritation",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -5338,7 +5438,6 @@
           "type": "RandomEventDefensiveApproach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -5449,7 +5548,6 @@
           "type": "RandomEventAggressiveApproach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -5704,7 +5802,6 @@
           "type": "RandomEventRangedTactics",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -6228,7 +6325,7 @@
     "eventRecipient": "CommanderWithLeastOwnedArtifacts",
     "rewards": [
       {
-        "rewardType": "Artifact",
+        "rewardType": "RandomArtifact",
         "experience": 0,
         "troopRewards": [],
         "resourceReward": {
@@ -6241,7 +6338,7 @@
         "bacteriaReward": null,
         "artifactReward": "Dagger",
         "randomArtifact": {
-          "category": 1,
+          "category": 2,
           "tier": 0,
           "randomSeed": 0
         },
@@ -6283,6 +6380,26 @@
         "randomArtifact": {
           "category": 2,
           "tier": 0,
+          "randomSeed": 0
+        },
+        "levelReward": 1
+      },
+      {
+        "rewardType": "Resource",
+        "experience": 0,
+        "troopRewards": [],
+        "resourceReward": {
+          "type": "Gold",
+          "amountMinMax": {
+            "min": 100,
+            "max": 100
+          }
+        },
+        "bacteriaReward": null,
+        "artifactReward": null,
+        "randomArtifact": {
+          "category": 0,
+          "tier": 10,
           "randomSeed": 0
         },
         "levelReward": 1
@@ -6634,7 +6751,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7198,7 +7314,6 @@
           "type": "RandomEventCurse",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7504,7 +7619,6 @@
           "type": "RandomEventWellFed",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7645,7 +7759,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -7871,7 +7984,6 @@
           "type": "RandomEventCurse",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -8069,7 +8181,6 @@
           "type": "RandomEventTaxingMarch",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -8208,7 +8319,6 @@
           "type": "RandomEventEssenceSurge",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -9111,7 +9221,6 @@
           "type": "RandomEventPessimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -9335,7 +9444,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -10253,7 +10361,6 @@
           "type": "RandomEventOptimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -10355,7 +10462,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -10569,7 +10675,6 @@
           "type": "RandomEventGrowingPopulationSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -10829,7 +10934,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -11230,13 +11334,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -11317,7 +11431,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -11548,7 +11661,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -12071,7 +12183,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -12294,7 +12405,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -12500,7 +12610,6 @@
           "type": "RandomEventPeaceOfMind",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -12711,7 +12820,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -13265,7 +13373,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -13959,7 +14066,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -14164,7 +14270,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -14857,7 +14962,6 @@
           "type": "RandomEventLowSpirit",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -15413,7 +15517,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -15947,7 +16050,6 @@
           "type": "RandomEventEssenceSurge",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -16068,7 +16170,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -16127,7 +16228,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -16186,7 +16286,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17005,13 +17104,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -17483,7 +17592,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17779,7 +17887,6 @@
           "type": "RandomEventWellFed",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -17894,7 +18001,6 @@
           "type": "RandomEventIrritation",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -18116,7 +18222,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -18604,13 +18709,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -18821,7 +18936,6 @@
           "type": "RandomEventGrowingPopulationMedium",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -18904,7 +19018,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -18999,7 +19112,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -19331,7 +19443,6 @@
           "type": "RandomEventLowSpirit",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -19428,13 +19539,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -19517,7 +19638,6 @@
           "type": "RandomEventPeaceOfMind",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -19726,7 +19846,6 @@
           "type": "RandomEventGrowingPopulationMedium",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -19929,13 +20048,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -20032,7 +20161,6 @@
           "type": "RandomEventIrritation",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -20127,7 +20255,6 @@
           "type": "RandomEventPeaceOfMind",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -20297,7 +20424,6 @@
           "type": "RandomEventGrowingPopulationMedium",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -20436,7 +20562,6 @@
           "type": "RandomEventPeaceOfMind",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -20525,7 +20650,6 @@
           "type": "RandomEventEssenceSurge",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -20632,7 +20756,6 @@
           "type": "RandomEventMagicResonance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -20803,7 +20926,6 @@
           "type": "RandomEventRevealedRoutes",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -20909,7 +21031,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -21030,7 +21151,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -21321,7 +21441,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -21528,7 +21647,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -21975,7 +22093,6 @@
           "type": "RandomEventIrritation",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -22179,7 +22296,6 @@
           "type": "RandomEventDefensiveApproach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -22352,7 +22468,6 @@
           "type": "RandomEventRangedTactics",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -23291,7 +23406,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -23477,7 +23591,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -23788,7 +23901,6 @@
           "type": "RandomEventGrowingPopulationSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -24284,7 +24396,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -24393,7 +24504,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -24933,7 +25043,6 @@
           "type": "RandomEventEssenceSurge",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -25283,7 +25392,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -25500,13 +25608,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -25575,7 +25693,6 @@
           "type": "RandomEventAnxiousMinds",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -26022,7 +26139,6 @@
           "type": "RandomEventIrritation",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -26457,7 +26573,6 @@
           "type": "RandomEventAnxiousMinds",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -26749,7 +26864,6 @@
           "type": "RandomEventGrowingPopulationMedium",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -26975,7 +27089,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -27070,7 +27183,6 @@
           "type": "RandomEventAnxiousMinds",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -27400,7 +27512,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -27622,7 +27733,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -27751,7 +27861,6 @@
           "type": "RandomEventAggressiveApproach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -28020,7 +28129,6 @@
           "type": "RandomEventPeaceOfMind",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -28275,7 +28383,6 @@
           "type": "RandomEventGrowingPopulationMedium",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -28652,7 +28759,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -28976,7 +29082,6 @@
           "type": "RandomEventCurse",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -29065,7 +29170,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -29160,7 +29264,6 @@
           "type": "RandomEventOptimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -29273,7 +29376,6 @@
           "type": "RandomEventAnxiousMinds",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -29484,7 +29586,6 @@
           "type": "RandomEventEssenceSurge",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -29605,7 +29706,6 @@
           "type": "RandomEventMagicResonance",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -29803,7 +29903,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -29941,7 +30040,6 @@
           "type": "RandomEventCurse",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -30774,7 +30872,6 @@
           "type": "RandomEventAggressiveApproach",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -31301,7 +31398,6 @@
           "type": "RandomEventGrowingPopulationSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -31408,7 +31504,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -31550,7 +31645,6 @@
           "type": "RandomEventWellRested",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -31639,7 +31733,6 @@
           "type": "RandomEventSteadyMarch",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -31934,7 +32027,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -32113,7 +32205,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -32278,7 +32369,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -32449,7 +32539,6 @@
           "type": "RandomEventLowSpirit",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -32923,7 +33012,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -33437,7 +33525,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -33593,7 +33680,6 @@
           "type": "RandomEventDread",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -33758,7 +33844,6 @@
           "type": "RandomEventRage",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -33853,7 +33938,6 @@
           "type": "RandomEventOptimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -34420,7 +34504,6 @@
           "type": "RandomEventOptimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -34509,7 +34592,6 @@
           "type": "RandomEventCurse",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -34674,7 +34756,6 @@
           "type": "RandomEventEssenceSurge",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -34781,7 +34862,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -34960,7 +35040,6 @@
           "type": "RandomEventGrowingPopulationSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -35043,7 +35122,6 @@
           "type": "RandomEventAnxiousMinds",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -35214,7 +35292,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -35717,7 +35794,6 @@
           "type": "RandomEventAnxiousMinds",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -35826,7 +35902,6 @@
           "type": "RandomEventAnxiousMinds",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -35906,7 +35981,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36001,7 +36075,6 @@
           "type": "RandomEventLowSpirit",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36198,7 +36271,6 @@
           "type": "RandomEventRevealedRoutes",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36343,7 +36415,6 @@
           "type": "RandomEventTravellingEntertainers",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36432,7 +36503,6 @@
           "type": "RandomEventOptimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36535,7 +36605,6 @@
           "type": "RandomEventWellFed",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36630,7 +36699,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36725,7 +36793,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36848,7 +36915,6 @@
           "type": "RandomEventDread",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -36943,7 +37009,6 @@
           "type": "RandomEventGrowingPopulationSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -37130,7 +37195,6 @@
           "type": "RandomEventRangedTactics",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -37225,7 +37289,6 @@
           "type": "RandomEventWellFed",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -37320,7 +37383,6 @@
           "type": "RandomEventPeaceOfMind",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -37409,7 +37471,6 @@
           "type": "RandomEventPreparedness",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -37498,7 +37559,6 @@
           "type": "RandomEventAnxiousMinds",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -37617,13 +37677,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -37730,7 +37800,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -37853,7 +37922,6 @@
           "type": "RandomEventOptimism",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -37970,7 +38038,6 @@
           "type": "RandomEventGrowingPopulationSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -38185,7 +38252,6 @@
           "type": "RandomEventPeaceOfMind",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -38365,7 +38431,6 @@
           "type": "RandomEventStrongFaith",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -38522,7 +38587,6 @@
           "type": "RandomEventGreatSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -38843,13 +38907,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -38882,7 +38956,6 @@
           "type": "RandomEventGrowingPopulationSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -38978,7 +39051,6 @@
           "type": "RandomEventLackofRecruitsSmall",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -39238,7 +39310,6 @@
           "type": "RandomEventGoodSpirits",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -39318,7 +39389,6 @@
           "type": "RandomEventWellFed",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -39726,7 +39796,6 @@
           "type": "RandomEventHunger",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,
@@ -40098,13 +40167,23 @@
           }
         },
         "bacteriaReward": {
-          "bacteriaType": 1158,
-          "type": "ThighBootsGoldIncome",
+          "bacteriaType": 1589,
+          "type": "RandomEventHighLoyalty",
           "modifierData": [],
           "resourcesIncome": [
             {
               "type": "Gold",
-              "amount": 50,
+              "amount": 100,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Stone",
+              "amount": 1,
+              "allTimeAmount": 0
+            },
+            {
+              "type": "Wood",
+              "amount": 1,
               "allTimeAmount": 0
             }
           ],
@@ -40173,7 +40252,6 @@
           "type": "RandomEventRage",
           "customEffect": "None",
           "customEffectValue": 0,
-          "secondaryCustomEffectValue": 0,
           "auraSettings": {
             "recipients": "Friends",
             "hexRadius": 1,

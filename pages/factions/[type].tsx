@@ -11,6 +11,10 @@ import PageHead from "../../components/PageHead/PageHead";
 
 const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
   const terms = useTerms();
+  const factionBannerSrc = ["Roots", "Vanir"].includes(faction.type)
+    ? `/factions/${faction.type}Banner.png`
+    : `/factions/${faction.type}AnimatedFactionBanner.gif`;
+
   return (
     <>
       <PageHead
@@ -19,11 +23,7 @@ const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
       />
       <Stack>
         <Image
-          src={`/factions/${
-            faction.type === "Vanir"
-              ? "VanirBanner.png"
-              : faction.type + "AnimatedFactionBanner.gif"
-          }`}
+          src={factionBannerSrc}
           height={200}
           fit="contain"
           alt=""

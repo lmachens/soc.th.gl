@@ -528,6 +528,8 @@ for (const buildSite of buildSites) {
     factionId = 4;
   } else if (buildSite.nameKey.startsWith("Vanir")) {
     factionId = 5;
+  } else if (buildSite.nameKey.startsWith("Roots")) {
+    factionId = 6;
   } else {
     console.warn(`Unknown faction for ${buildSite.nameKey}`);
     continue;
