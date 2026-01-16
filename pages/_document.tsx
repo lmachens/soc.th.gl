@@ -17,7 +17,7 @@ export default class _Document extends Document {
             crossOrigin="anonymous"
           />
           <link
-            href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&family=Roboto&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Averia+Serif+Libre:wght@700&display=swap"
             rel="stylesheet"
           />
         </Head>

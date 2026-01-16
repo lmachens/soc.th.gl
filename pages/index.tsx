@@ -19,17 +19,29 @@ import { withStaticBase } from "../lib/staticProps";
 const Home: NextPageWithBanner = () => {
   return (
     <>
-      <Stack>
-        <Text size="lg">
-          Find all the information you need about building, factions, units,
+      <Stack spacing="xl">
+        <Text
+          size="lg"
+          sx={(theme) => ({
+            color: theme.colors.gray[4],
+            textAlign: "center",
+            maxWidth: 600,
+            margin: "0 auto",
+            paddingTop: theme.spacing.md,
+            paddingBottom: theme.spacing.lg,
+          })}
+        >
+          Find all the information you need about buildings, factions, units,
           skills, spells, wielders and more.
         </Text>
+
         <SimpleGrid
           breakpoints={[
             { minWidth: "xs", cols: 1 },
             { minWidth: "sm", cols: 2 },
-            { minWidth: "lg", cols: 5 },
+            { minWidth: "lg", cols: 4 },
           ]}
+          spacing="lg"
         >
           <Article
             name="Factions"
@@ -72,6 +84,7 @@ const Home: NextPageWithBanner = () => {
             href={`/random-events`}
           />
         </SimpleGrid>
+
         <Blockquote
           cite={
             <Anchor
@@ -91,10 +104,10 @@ const Home: NextPageWithBanner = () => {
           against armies that dare oppose you and hunt for powerful artifacts.
           The world is ripe for the taking – seize it!
         </Blockquote>
-        <Group>
+
+        <Group position="center">
           <Button
             size="md"
-            color="gray"
             component="a"
             target="blank"
             href="https://th.gl/discord"
@@ -102,6 +115,7 @@ const Home: NextPageWithBanner = () => {
             Join Discord
           </Button>
         </Group>
+
         <BannerAd />
       </Stack>
     </>

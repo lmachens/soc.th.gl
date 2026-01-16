@@ -18,12 +18,14 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
     <Header
       height={70}
       p="md"
-      sx={{
+      sx={(theme) => ({
         display: "flex",
         alignItems: "center",
         height: "100%",
         justifyContent: "space-between",
-      }}
+        backgroundColor: theme.colors.dark[8],
+        borderBottomColor: theme.fn.rgba(theme.colors.brand[7], 0.2),
+      })}
     >
       <Box
         sx={{
@@ -43,7 +45,7 @@ const AppHeader = ({ openedBurger, onBurgerClick }: Props) => {
           <Image src={LogoSmall} alt="SoC.th.gl" />
         </AppLink>
       </Box>
-      <Group spacing="xs">
+      <Group spacing="sm">
         <LocaleSelector />
         <HeaderControl
           link="https://th.gl/discord"

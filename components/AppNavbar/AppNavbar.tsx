@@ -25,17 +25,17 @@ const AppNavbar = ({ collectionLinks, opened }: Props) => {
       hiddenBreakpoint="sm"
       hidden={!opened}
       width={{ sm: APP_NAVBAR_WIDTH_SM, lg: APP_NAVBAR_WIDTH_LG }}
+      sx={(theme) => ({
+        backgroundColor: theme.colors.dark[8],
+        borderRightColor: theme.fn.rgba(theme.colors.brand[7], 0.2),
+      })}
     >
       <ScrollArea
         styles={{
           root: {
-            height: "100vh",
-            '[data-orientation="horizontal"]': {
-              display: "none",
-            },
+            height: "100%",
           },
           viewport: {
-            overflow: "hidden scroll !important",
             "> div": {
               display: "block !important",
             },
@@ -44,10 +44,11 @@ const AppNavbar = ({ collectionLinks, opened }: Props) => {
         type="scroll"
       >
         <SearchControl />
-        <Space h="xs" />
+        <Space h="md" />
         <NavbarMainLink icon={<RepoIcon />} href="/savegames">
           Savegames
         </NavbarMainLink>
+        <Space h="xs" />
         {links}
       </ScrollArea>
     </Navbar>

@@ -60,11 +60,22 @@ const LocaleSelector = () => {
               variant="subtle"
               uppercase
               fullWidth
-              styles={{
+              styles={(theme) => ({
+                root: {
+                  color: theme.colors.gray[3],
+                  fontFamily: theme.fontFamily,
+                  letterSpacing: "0.02em",
+                  "&:hover": {
+                    backgroundColor: theme.fn.rgba(theme.colors.brand[7], 0.2),
+                    color: theme.colors.brand[3],
+                    transform: "none",
+                    boxShadow: "none",
+                  },
+                },
                 inner: {
                   justifyContent: "flex-start",
                 },
-              }}
+              })}
               leftIcon={
                 <Image
                   alt="United States"

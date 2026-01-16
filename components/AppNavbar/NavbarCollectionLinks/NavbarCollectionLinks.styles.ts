@@ -15,7 +15,7 @@ export default createStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     width: `calc(100% + ${theme.spacing.md}px)`,
-    color: theme.colorScheme === "dark" ? theme.white : theme.colors.gray[7],
+    color: theme.white,
     height: 32,
     border: 0,
     padding: `0 ${theme.spacing.md}px`,
@@ -50,51 +50,25 @@ export default createStyles((theme) => ({
     paddingLeft: 23,
     marginLeft: 7,
     marginBottom: 5,
-    borderLeft: `1px solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[3]
-    }`,
+    borderLeft: `1px solid ${theme.colors.dark[6]}`,
     height: 34,
     display: "flex",
     alignItems: "center",
     fontSize: theme.fontSizes.xs,
-    backgroundColor:
-      theme.colorScheme === "dark"
-        ? theme.colors.dark[7]
-        : theme.colors.gray[0],
-    color:
-      theme.colorScheme === "dark"
-        ? theme.colors.dark[2]
-        : theme.colors.gray[6],
+    backgroundColor: theme.colors.dark[7],
+    color: theme.colors.dark[2],
     borderTopRightRadius: theme.radius.sm,
     borderBottomRightRadius: theme.radius.sm,
-
-    "&::after": {
-      content: '""',
-      position: "absolute",
-      bottom: -5,
-      left: -1,
-      height: 5,
-      width: 1,
-      backgroundColor:
-        theme.colorScheme === "dark"
-          ? theme.colors.dark[6]
-          : theme.colors.gray[3],
-    },
   },
 
   link: {
     ...theme.fn.focusStyles(),
     WebkitTapHighlightColor: "transparent",
-    borderLeft: `1px solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[6] : theme.colors.gray[3]
-    }`,
+    borderLeft: `1px solid ${theme.colors.dark[6]}`,
     outline: 0,
     display: "block",
     textDecoration: "none",
-    color:
-      theme.colorScheme === "dark"
-        ? theme.colors.dark[1]
-        : theme.colors.gray[7],
+    color: theme.colors.dark[1],
     paddingLeft: 23,
     paddingRight: theme.spacing.md,
     marginLeft: 7,
@@ -112,26 +86,22 @@ export default createStyles((theme) => ({
   },
 
   linkActive: {
-    borderLeftColor: theme.colors[theme.primaryColor][5],
-    backgroundColor:
-      theme.colorScheme === "dark"
-        ? theme.fn.rgba(theme.colors[theme.primaryColor][7], 0.45)
-        : theme.colors.blue[0],
-    color:
-      theme.colorScheme === "dark"
-        ? theme.colors.blue[1]
-        : theme.colors.blue[8],
+    borderLeftColor: theme.colors.brand[5],
+    backgroundColor: theme.fn.rgba(theme.colors.brand[7], 0.45),
+    color: theme.colors.brand[2],
     fontWeight: 500,
   },
 
   title: {
     userSelect: "none",
     fontWeight: 700,
-    fontFamily: `Greycliff CF, ${theme.fontFamily}`,
+    fontFamily: '"Cinzel", serif',
     lineHeight: 1,
     paddingTop: 4,
-    color: theme.colorScheme === "dark" ? theme.white : theme.colors.gray[7],
+    color: theme.colors.brand[4],
     letterSpacing: 0.5,
     wordSpacing: 1,
+    fontSize: 11,
+    textTransform: "uppercase",
   },
 }));

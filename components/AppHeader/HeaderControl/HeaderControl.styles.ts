@@ -6,21 +6,16 @@ export default createStyles((theme) => ({
     width: 34,
     height: 34,
     borderRadius: theme.radius.md,
-    border: `1px solid ${
-      theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.colors.gray[3]
-    }`,
+    border: `1px solid ${theme.colors.dark[4]}`,
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    color: theme.colorScheme === "dark" ? theme.white : theme.colors.gray[7],
-    backgroundColor:
-      theme.colorScheme === "dark" ? theme.colors.dark[4] : theme.white,
+    color: theme.white,
+    backgroundColor: theme.colors.dark[5],
+    transition: "background-color 0.2s ease",
 
     "&:hover": {
-      backgroundColor:
-        theme.colorScheme === "dark"
-          ? theme.colors.dark[3]
-          : theme.colors.gray[0],
+      backgroundColor: theme.colors.dark[4],
     },
 
     [theme.fn.smallerThan("sm")]: {
@@ -40,14 +35,11 @@ export default createStyles((theme) => ({
 
   discord: {
     color: theme.white,
-    backgroundColor: theme.colorScheme === "dark" ? "#5865f2" : "#7289da",
-    borderColor: theme.colorScheme === "dark" ? "#5865f2" : "#7289da",
+    backgroundColor: "#5865f2",
+    borderColor: "#5865f2",
 
     "&:hover": {
-      backgroundColor:
-        theme.colorScheme === "dark"
-          ? theme.fn.lighten("#5865f2", 0.1)
-          : theme.fn.darken("#7289da", 0.1),
+      backgroundColor: theme.fn.lighten("#5865f2", 0.1),
     },
   },
 }));

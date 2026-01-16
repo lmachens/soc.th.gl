@@ -7,10 +7,7 @@ export default createStyles((theme: MantineTheme) => ({
     display: "flex",
     alignItems: "center",
     textDecoration: "none",
-    color:
-      theme.colorScheme === "dark"
-        ? theme.colors.dark[1]
-        : theme.colors.gray[7],
+    color: theme.colors.dark[1],
     fontWeight: 500,
     fontSize: theme.fontSizes.sm,
     padding: 5,
@@ -25,11 +22,8 @@ export default createStyles((theme: MantineTheme) => ({
   },
 
   active: {
-    color: theme.colorScheme === "dark" ? theme.white : theme.black,
-    backgroundColor:
-      theme.colorScheme === "dark"
-        ? theme.fn.rgba(theme.colors[theme.primaryColor][7], 0.45)
-        : theme.colors.gray[0],
+    color: theme.white,
+    backgroundColor: theme.fn.rgba(theme.colors.brand[7], 0.45),
   },
 
   body: {

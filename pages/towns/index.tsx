@@ -15,25 +15,27 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
       />
       <Title>Town Build Calculators</Title>
       <Grid justify="center" mt="md">
-        {factions.map((faction) => (
-          <Grid.Col key={faction.type} lg={3} md={3} sm={6} xs={6} span={6}>
-            <AppLink href={`/towns/${faction.type}`}>
-              <Stack align="center">
-                <Image
-                  src={`/factions/${
-                    faction.type === "Vanir"
-                      ? "VanirBanner.png"
-                      : faction.type + "AnimatedFactionBanner.gif"
-                  }`}
-                  height={200}
-                  fit="contain"
-                  alt=""
-                />
-                <Text>{faction.name}</Text>
-              </Stack>
-            </AppLink>
-          </Grid.Col>
-        ))}
+        {factions.map((faction) => {
+          const factionBannerSrc = ["Roots", "Vanir"].includes(faction.type)
+            ? `/factions/${faction.type}Banner.png`
+            : `/factions/${faction.type}AnimatedFactionBanner.gif`;
+
+          return (
+            <Grid.Col key={faction.type} lg={3} md={3} sm={6} xs={6} span={6}>
+              <AppLink href={`/towns/${faction.type}`}>
+                <Stack align="center">
+                  <Image
+                    src={factionBannerSrc}
+                    height={200}
+                    fit="contain"
+                    alt=""
+                  />
+                  <Text>{faction.name}</Text>
+                </Stack>
+              </AppLink>
+            </Grid.Col>
+          );
+        })}
       </Grid>
     </>
   );

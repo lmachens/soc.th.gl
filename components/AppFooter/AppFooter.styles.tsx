@@ -2,10 +2,11 @@ import { createStyles } from "@mantine/core";
 
 export default createStyles((theme) => ({
   footer: {
-    marginTop: 120,
+    marginTop: "auto",
     paddingTop: theme.spacing.xl * 2,
     paddingBottom: theme.spacing.xl * 2,
-    borderTop: `1px solid ${theme.colors.dark[5]}`,
+    borderTop: `1px solid ${theme.fn.rgba(theme.colors.brand[7], 0.2)}`,
+    backgroundColor: theme.colors.dark[8],
   },
 
   logo: {
@@ -40,6 +41,7 @@ export default createStyles((theme) => ({
   groups: {
     display: "flex",
     flexWrap: "wrap",
+    gap: theme.spacing.md,
   },
 
   wrapper: {
@@ -48,22 +50,26 @@ export default createStyles((theme) => ({
 
   link: {
     display: "block",
-    color: theme.colors.gray[6],
+    color: theme.colors.gray[5],
     fontSize: theme.fontSizes.sm,
-    paddingTop: 3,
-    paddingBottom: 3,
+    paddingTop: 4,
+    paddingBottom: 4,
+    transition: "color 0.2s ease",
 
     "&:hover": {
-      textDecoration: "underline",
+      color: theme.colors.brand[4],
+      textDecoration: "none",
     },
   },
 
   title: {
-    fontSize: theme.fontSizes.lg,
-    fontWeight: 700,
-    fontFamily: `Greycliff CF, ${theme.fontFamily}`,
-    marginBottom: theme.spacing.xs / 2,
-    color: theme.white,
+    fontSize: 12,
+    fontWeight: 600,
+    fontFamily: '"Cinzel", serif',
+    marginBottom: theme.spacing.sm,
+    color: theme.colors.brand[4],
+    letterSpacing: "0.08em",
+    textTransform: "uppercase",
   },
 
   afterFooter: {
@@ -73,7 +79,7 @@ export default createStyles((theme) => ({
     marginTop: theme.spacing.xl,
     paddingTop: theme.spacing.xl,
     paddingBottom: theme.spacing.xl,
-    borderTop: `1px solid ${theme.colors.dark[4]}`,
+    borderTop: `1px solid ${theme.fn.rgba(theme.colors.dark[5], 0.5)}`,
 
     [theme.fn.smallerThan("sm")]: {
       flexDirection: "column",

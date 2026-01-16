@@ -37,20 +37,41 @@ const AppLayout = ({ collectionLinks, children, banner }: Props) => {
           <AppNavbar opened={openedNavbar} collectionLinks={collectionLinks} />
         }
         padding={0}
+        styles={{
+          main: {
+            display: "flex",
+            flexDirection: "column",
+            minHeight: "100vh",
+          },
+        }}
       >
-        {banner && (
-          <Box
-            sx={{
-              position: "relative",
-              height: 300,
-            }}
-          >
-            {banner}
-          </Box>
-        )}
-        <Container p="md" size="xl">
-          {children}
-        </Container>
+        <Box sx={{ flex: 1 }}>
+          {banner && (
+            <Box
+              sx={(theme) => ({
+                position: "relative",
+                height: 300,
+                overflow: "hidden",
+              })}
+            >
+              {banner}
+              <Box
+                sx={(theme) => ({
+                  position: "absolute",
+                  bottom: 0,
+                  left: 0,
+                  right: 0,
+                  height: 100,
+                  background: `linear-gradient(to top, ${theme.colors.dark[7]} 0%, transparent 100%)`,
+                  pointerEvents: "none",
+                })}
+              />
+            </Box>
+          )}
+          <Container p="md" size="xl">
+            {children}
+          </Container>
+        </Box>
         <AppFooter />
       </AppShell>
     </SpotlightSearchProvider>
