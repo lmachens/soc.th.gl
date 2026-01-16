@@ -1,6 +1,7 @@
-import { Anchor, Container, List, Text, Title } from "@mantine/core";
+import { Anchor, List, Text, Title } from "@mantine/core";
 import { useEffect } from "react";
 import { withStaticBase } from "../lib/staticProps";
+import PageHead from "../components/PageHead/PageHead";
 
 interface MyWindow extends Window {
   NitroPayCCPA?: {
@@ -17,7 +18,11 @@ export default function PrivacyPolicy() {
   }, []);
 
   return (
-    <Container>
+    <>
+      <PageHead
+        title="Privacy Policy - SoC.th.gl"
+        description="Privacy Policy for SoC.th.gl, the Songs of Conquest fansite."
+      />
       <Title order={2}>Details</Title>
       <Text>
         At SoC.th.gl, accessible from https://soc.th.gl, one of our main
@@ -28,7 +33,11 @@ export default function PrivacyPolicy() {
 
       <Text>
         If you have additional questions or require more information about our
-        Privacy Policy, do not hesitate to contact us.
+        Privacy Policy, do not hesitate to contact us via{" "}
+        <Anchor href="https://th.gl/discord" target="_blank">
+          Discord
+        </Anchor>
+        .
       </Text>
 
       <Text>
@@ -59,13 +68,12 @@ export default function PrivacyPolicy() {
       </Text>
       <Text>
         If you contact us directly, we may receive additional information about
-        you such as your name, steam username, the contents of the message
-        and/or attachments you may send us, and any other information you may
-        choose to provide.
+        you such as your name, the contents of the message and/or attachments
+        you may send us, and any other information you may choose to provide.
       </Text>
       <Text>
-        When you register for an Account, we may ask for your steam information,
-        including items such as name and Steam ID.
+        We use local browser storage to save your preferences and patron status.
+        No account registration is required to use this website.
       </Text>
 
       <Title order={2}>How we use your information</Title>
@@ -121,7 +129,7 @@ export default function PrivacyPolicy() {
       <Title order={2}>Advertising Partners Privacy Policies</Title>
 
       <Text>
-        You may consListt this list to find the Privacy Policy for each of the
+        You may consult this list to find the Privacy Policy for each of the
         advertising partners of SoC.th.gl.
       </Text>
 
@@ -182,7 +190,11 @@ export default function PrivacyPolicy() {
       </Text>
       <Text>
         If you make a request, we have one month to respond to you. If you would
-        like to exercise any of these rights, please contact us.
+        like to exercise any of these rights, please contact us via{" "}
+        <Anchor href="https://th.gl/discord" target="_blank">
+          Discord
+        </Anchor>
+        .
       </Text>
 
       <Text data-ccpa-link="1" />
@@ -222,7 +234,11 @@ export default function PrivacyPolicy() {
       </Text>
       <Text>
         If you make a request, we have one month to respond to you. If you would
-        like to exercise any of these rights, please contact us.
+        like to exercise any of these rights, please contact us via{" "}
+        <Anchor href="https://th.gl/discord" target="_blank">
+          Discord
+        </Anchor>
+        .
       </Text>
 
       <Title order={2}>Children&apos;s Information</Title>
@@ -240,7 +256,7 @@ export default function PrivacyPolicy() {
         encourage you to contact us immediately and we will do our best efforts
         to promptly remove such information from our records.
       </Text>
-    </Container>
+    </>
   );
 }
 

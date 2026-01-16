@@ -44,7 +44,7 @@ const AppFooter = () => {
         </Group>
         <Group className={classes.afterFooter}>
           <Text color="dimmed" size="sm">
-            © 2024 The Hidden Gaming Lair. All rights reserved.
+            © 2026 The Hidden Gaming Lair. All rights reserved.
           </Text>
           <ConsentLink />
         </Group>
