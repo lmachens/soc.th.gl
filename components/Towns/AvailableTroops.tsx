@@ -16,13 +16,25 @@ const ESSENCE_TYPE_TO_COLOR: { [key: string]: string } = {
   arcana: "#00c6b2",
 };
 
+const SYMBIOSIS_PREFIX = "TraitRootsSpongeAura";
+
+const getSymbiosisEssences = (
+  bacterias?: { type: string }[]
+): string[] => {
+  if (!bacterias) return [];
+  return bacterias
+    .filter((b) => b.type.startsWith(SYMBIOSIS_PREFIX))
+    .map((b) => b.type.slice(SYMBIOSIS_PREFIX.length).toLowerCase());
+};
+
 const UnitTypeBox: React.FC<{
   unit: UnitTypeDTO | null;
   available: boolean;
   buildingKey: string;
   toggleDwellingSelection: (key: string) => void;
   href: string;
-}> = ({ unit, available, buildingKey, toggleDwellingSelection, href }) => {
+  bacterias?: { type: string }[];
+}> = ({ unit, available, buildingKey, toggleDwellingSelection, href, bacterias }) => {
   if (!unit) {
     return null;
   }
@@ -41,6 +53,8 @@ const UnitTypeBox: React.FC<{
       }
     }
   );
+
+  const symbiosisEssences = getSymbiosisEssences(bacterias);
 
   return (
     <Box
@@ -79,6 +93,25 @@ const UnitTypeBox: React.FC<{
           >
             ⬤
           </Text>
+        ))}
+        {symbiosisEssences.map((essenceType, essenceIndex) => (
+          <Tooltip
+            key={`${unit.languageKey}-symbiosis-${essenceType}-${essenceIndex}`}
+            label="Symbiosis"
+          >
+            <Text
+              style={{
+                position: "absolute",
+                top: 10 * essenceList.length + 4 + 8 * essenceIndex,
+                right: 1,
+                color: ESSENCE_TYPE_TO_COLOR[essenceType],
+                opacity: available ? "100%" : "40%",
+              }}
+              size={6}
+            >
+              ⬤
+            </Text>
+          </Tooltip>
         ))}
       </span>
       <Text
@@ -153,6 +186,7 @@ const UnitStack: React.FC<{
         buildingKey={unitKeyToBuildingKey[unit.vanilla.languageKey]}
         toggleDwellingSelection={toggleNodeSelection}
         href={href}
+        bacterias={(unit.vanilla as any).bacterias}
       />
       {unit.upgraded && (
         <UnitTypeBox
@@ -161,6 +195,7 @@ const UnitStack: React.FC<{
           buildingKey={unitKeyToBuildingKey[unit.upgraded.languageKey]}
           toggleDwellingSelection={toggleNodeSelection}
           href={href}
+          bacterias={(unit.upgraded as any).bacterias}
         />
       )}
       {unit.superUpgraded && (
@@ -170,6 +205,7 @@ const UnitStack: React.FC<{
           buildingKey={unitKeyToBuildingKey[unit.superUpgraded.languageKey]}
           toggleDwellingSelection={toggleNodeSelection}
           href={href}
+          bacterias={(unit.superUpgraded as any).bacterias}
         />
       )}
     </Stack>
