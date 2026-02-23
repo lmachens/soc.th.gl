@@ -169,6 +169,81 @@ class NodeStack {
   }
 }
 
+/**
+ * Score a stack ordering. Lower is better.
+ * Primary: total edge span (sum of column distance for each cross-stack edge).
+ * Secondary: barycenter deviation (each stack's distance from the average
+ * position of its neighbors), which keeps highly-connected stacks central.
+ */
+function layoutCost(stacks: NodeStack[]): number {
+  const nodeKeyToX = new Map<string, number>();
+  stacks.forEach((stack, idx) => {
+    stack.nodeKeys.forEach((key) => nodeKeyToX.set(key, idx));
+  });
+
+  // Total edge span.
+  let span = 0;
+  // Neighbor positions per stack index, for barycenter.
+  const stackNeighborPositions: number[][] = stacks.map(() => []);
+
+  stacks.forEach((stack, stackIdx) => {
+    stack.nodes.forEach((node) => {
+      const x1 = nodeKeyToX.get(node.key)!;
+      node.childKeys.forEach((childKey) => {
+        const x2 = nodeKeyToX.get(childKey);
+        if (x2 !== undefined && x2 !== x1) {
+          span += Math.abs(x2 - x1);
+          // Track neighbor positions for both endpoints.
+          const childStackIdx = x2;
+          stackNeighborPositions[stackIdx].push(childStackIdx);
+          stackNeighborPositions[childStackIdx].push(stackIdx);
+        }
+      });
+    });
+  });
+
+  // Barycenter deviation: how far each stack is from its neighbors' average.
+  let baryDev = 0;
+  stacks.forEach((_, idx) => {
+    const positions = stackNeighborPositions[idx];
+    if (positions.length === 0) return;
+    const avg = positions.reduce((a, b) => a + b, 0) / positions.length;
+    baryDev += Math.abs(idx - avg);
+  });
+
+  return span + baryDev;
+}
+
+/**
+ * Find the stack ordering that minimizes layout cost.
+ * Tries all permutations (feasible for small graphs at build time).
+ */
+function minimizeCrossings(stacks: NodeStack[]): NodeStack[] {
+  if (stacks.length <= 2) return stacks;
+
+  let bestOrder = stacks;
+  let bestCost = layoutCost(stacks);
+
+  function permute(arr: NodeStack[], start: number) {
+    if (start === arr.length) {
+      const cost = layoutCost(arr);
+      if (cost < bestCost - 0.001) {
+        bestCost = cost;
+        bestOrder = [...arr];
+      }
+      return;
+    }
+    for (let i = start; i < arr.length; i++) {
+      [arr[start], arr[i]] = [arr[i], arr[start]];
+      permute(arr, start + 1);
+      [arr[start], arr[i]] = [arr[i], arr[start]];
+    }
+  }
+
+  permute([...stacks], 0);
+  return bestOrder;
+}
+
 function buildStacks(nodes: Node[]): NodeStack[] {
   const keyToNode = new Map<string, Node>();
   nodes.map((node) => keyToNode.set(node.key, node));
@@ -192,12 +267,8 @@ function buildStacks(nodes: Node[]): NodeStack[] {
     stacks.push(buildOneStack(node));
   });
 
-  return stacks.sort((a, b) => {
-    const aBefore = -1;
-    const aSame = 0;
-    const aAfter = 1;
-
-    // Children after parents.
+  // Topological sort: parents before children.
+  const sorted = stacks.sort((a, b) => {
     const aPointsToB =
       a.childNodeKeys.filter((aChildKey) => b.nodeKeys.includes(aChildKey))
         .length > 0;
@@ -205,14 +276,12 @@ function buildStacks(nodes: Node[]): NodeStack[] {
       b.childNodeKeys.filter((bChildKey) => a.nodeKeys.includes(bChildKey))
         .length > 0;
 
-    if (aPointsToB) {
-      return aBefore;
-    } else if (bPointsToA) {
-      return aAfter;
-    }
-
-    return aSame;
+    if (aPointsToB) return -1;
+    if (bPointsToA) return 1;
+    return 0;
   });
+
+  return minimizeCrossings(sorted);
 }
 
 /** A (connected) Component stacks that map to each other through requirements. */
