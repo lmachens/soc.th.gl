@@ -26,9 +26,17 @@ const FactionTown: NextPage<{
   faction: FactionDTO;
   nameToBuilding: { [key: string]: BuildingDTO };
   unitKeyToBuildingKey: { [key: string]: string };
+  unitKeyToRequiredResearch: { [key: string]: number[] };
   townData: TownDataPlain;
   units: UnitSimpleDTO[];
-}> = ({ faction, unitKeyToBuildingKey, nameToBuilding, townData, units }) => {
+}> = ({
+  faction,
+  unitKeyToBuildingKey,
+  unitKeyToRequiredResearch,
+  nameToBuilding,
+  townData,
+  units,
+}) => {
   const terms = useTerms();
   const { initialNodes, initialEdges } = useMemo(
     () => computeInitialGraphData(nameToBuilding, townData.components),
@@ -66,6 +74,7 @@ const FactionTown: NextPage<{
         <AvailableTroops
           units={units}
           unitKeyToBuildingKey={unitKeyToBuildingKey}
+          unitKeyToRequiredResearch={unitKeyToRequiredResearch}
         />
         <Title
           order={2}
@@ -102,6 +111,7 @@ export const getStaticProps = withStaticBase(async (context) => {
 
   const nameToBuilding: { [key: string]: BuildingDTO } = {};
   const unitKeyToBuildingKey: { [key: string]: string } = {};
+  const unitKeyToRequiredResearch: { [key: string]: number[] } = {};
   factionBuildings.forEach((building) => {
     if (!building) {
       return;
@@ -113,6 +123,8 @@ export const getStaticProps = withStaticBase(async (context) => {
           building.name,
           income.level
         );
+        unitKeyToRequiredResearch[troopIncome.unitKey] =
+          troopIncome.requiredResearch || [];
       });
     });
   });
@@ -130,6 +142,7 @@ export const getStaticProps = withStaticBase(async (context) => {
       faction,
       nameToBuilding,
       unitKeyToBuildingKey,
+      unitKeyToRequiredResearch,
       townData,
       units: factionUnits,
       terms,

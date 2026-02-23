@@ -31,10 +31,23 @@ const UnitTypeBox: React.FC<{
   unit: UnitTypeDTO | null;
   available: boolean;
   buildingKey: string;
+  requiredResearch: number[];
   toggleDwellingSelection: (key: string) => void;
+  toggleResearchSelection: (nodeId: string, researchId: number) => void;
+  selectedResearchIds: Set<number>;
   href: string;
   bacterias?: { type: string }[];
-}> = ({ unit, available, buildingKey, toggleDwellingSelection, href, bacterias }) => {
+}> = ({
+  unit,
+  available,
+  buildingKey,
+  requiredResearch,
+  toggleDwellingSelection,
+  toggleResearchSelection,
+  selectedResearchIds,
+  href,
+  bacterias,
+}) => {
   if (!unit) {
     return null;
   }
@@ -67,7 +80,25 @@ const UnitTypeBox: React.FC<{
       }}
     >
       <span
-        onClick={() => toggleDwellingSelection(buildingKey)}
+        onClick={() => {
+          const hasResearch = requiredResearch.length > 0;
+          if (hasResearch) {
+            const anyUnselected = requiredResearch.some(
+              (id) => !selectedResearchIds.has(id)
+            );
+            if (anyUnselected) {
+              requiredResearch.forEach((id) => {
+                if (!selectedResearchIds.has(id)) {
+                  toggleResearchSelection(buildingKey, id);
+                }
+              });
+            } else {
+              toggleDwellingSelection(buildingKey);
+            }
+          } else {
+            toggleDwellingSelection(buildingKey);
+          }
+        }}
         style={{
           cursor: "pointer",
         }}
@@ -169,12 +200,18 @@ const UnitStack: React.FC<{
   unit: UnitSimpleDTO;
   availableTroopKeys: Set<string>;
   unitKeyToBuildingKey: { [key: string]: string };
+  unitKeyToRequiredResearch: { [key: string]: number[] };
   toggleNodeSelection: (key: string) => void;
+  toggleResearchSelection: (nodeId: string, researchId: number) => void;
+  selectedResearchIds: Set<number>;
 }> = ({
   unit,
   availableTroopKeys,
   unitKeyToBuildingKey,
+  unitKeyToRequiredResearch,
   toggleNodeSelection,
+  toggleResearchSelection,
+  selectedResearchIds,
 }) => {
   // All unit levels in a stack come from the same building.
   const href = `/units/${unit.faction}/${unit.vanilla.languageKey}`;
@@ -184,7 +221,10 @@ const UnitStack: React.FC<{
         unit={unit.vanilla as UnitTypeDTO}
         available={availableTroopKeys.has(unit.vanilla.languageKey)}
         buildingKey={unitKeyToBuildingKey[unit.vanilla.languageKey]}
+        requiredResearch={unitKeyToRequiredResearch[unit.vanilla.languageKey] || []}
         toggleDwellingSelection={toggleNodeSelection}
+        toggleResearchSelection={toggleResearchSelection}
+        selectedResearchIds={selectedResearchIds}
         href={href}
         bacterias={(unit.vanilla as any).bacterias}
       />
@@ -193,7 +233,10 @@ const UnitStack: React.FC<{
           unit={unit.upgraded as UnitTypeDTO}
           available={availableTroopKeys.has(unit.upgraded.languageKey)}
           buildingKey={unitKeyToBuildingKey[unit.upgraded.languageKey]}
+          requiredResearch={unitKeyToRequiredResearch[unit.upgraded.languageKey] || []}
           toggleDwellingSelection={toggleNodeSelection}
+          toggleResearchSelection={toggleResearchSelection}
+          selectedResearchIds={selectedResearchIds}
           href={href}
           bacterias={(unit.upgraded as any).bacterias}
         />
@@ -203,7 +246,10 @@ const UnitStack: React.FC<{
           unit={unit.superUpgraded as UnitTypeDTO}
           available={availableTroopKeys.has(unit.superUpgraded.languageKey)}
           buildingKey={unitKeyToBuildingKey[unit.superUpgraded.languageKey]}
+          requiredResearch={unitKeyToRequiredResearch[unit.superUpgraded.languageKey] || []}
           toggleDwellingSelection={toggleNodeSelection}
+          toggleResearchSelection={toggleResearchSelection}
+          selectedResearchIds={selectedResearchIds}
           href={href}
           bacterias={(unit.superUpgraded as any).bacterias}
         />
@@ -215,15 +261,21 @@ const UnitStack: React.FC<{
 const selector = (state: TownGraphState) => ({
   availableTroopKeys: state.availableTroopKeys,
   toggleNodeSelection: state.toggleNodeSelection,
+  toggleResearchSelection: state.toggleResearchSelection,
+  selectedResearchIds: state.selectedResearchIds,
 });
 
 const AvailableTroops: React.FC<{
   units: UnitSimpleDTO[];
   unitKeyToBuildingKey: { [key: string]: string };
-}> = ({ units, unitKeyToBuildingKey }) => {
-  const { availableTroopKeys, toggleNodeSelection } = useStoreFromContext(
-    useShallow(selector)
-  );
+  unitKeyToRequiredResearch: { [key: string]: number[] };
+}> = ({ units, unitKeyToBuildingKey, unitKeyToRequiredResearch }) => {
+  const {
+    availableTroopKeys,
+    toggleNodeSelection,
+    toggleResearchSelection,
+    selectedResearchIds,
+  } = useStoreFromContext(useShallow(selector));
   return (
     <Grid columns={units.length}>
       {units.map((unit) => (
@@ -232,7 +284,10 @@ const AvailableTroops: React.FC<{
             unit={unit}
             availableTroopKeys={availableTroopKeys}
             unitKeyToBuildingKey={unitKeyToBuildingKey}
+            unitKeyToRequiredResearch={unitKeyToRequiredResearch}
             toggleNodeSelection={toggleNodeSelection}
+            toggleResearchSelection={toggleResearchSelection}
+            selectedResearchIds={selectedResearchIds}
           />
         </Grid.Col>
       ))}

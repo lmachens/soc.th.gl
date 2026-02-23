@@ -107,6 +107,7 @@ export const getBuilding = (
             name: upgrade.name,
             description: upgrade.description,
             size: troopIncome.size,
+            requiredResearch: troopIncome.requiredResearch || [],
           };
         }),
       })
@@ -184,6 +185,7 @@ export type BuildingDTO = {
       name: string;
       description: string;
       size: number;
+      requiredResearch: number[];
     }[];
   }[];
   stacks?: {
