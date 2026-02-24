@@ -5,7 +5,7 @@ import { withStaticBase } from "../../lib/staticProps";
 import PageHead from "../../components/PageHead/PageHead";
 import { BuildingDTO, getBuilding, getBuildings } from "../../lib/buildings";
 import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
-import { TermsDTO, getSiteTerm } from "../../lib/terms";
+import { TermsDTO, getSiteTerm, getTerm } from "../../lib/terms";
 import {
   EXCLUDED_UNIT_NAMES,
   TownDataPlain,
@@ -20,7 +20,10 @@ import TownGraph from "../../components/Towns/TownGraph";
 import { computeInitialGraphData } from "../../components/Towns/store";
 import TownGraphStoreProvider from "../../components/Towns/TownGraphStoreProvider";
 import AvailableTroops from "../../components/Towns/AvailableTroops";
+import BuildOrder from "../../components/Towns/BuildOrder";
 import { useTerms } from "../../components/Terms/Terms";
+import { getIcon } from "../../lib/icons";
+import { SpriteDTO } from "../../lib/sprites";
 
 const FactionTown: NextPage<{
   faction: FactionDTO;
@@ -29,6 +32,7 @@ const FactionTown: NextPage<{
   unitKeyToRequiredResearch: { [key: string]: number[] };
   townData: TownDataPlain;
   units: UnitSimpleDTO[];
+  resourceIcons: { [localizedName: string]: SpriteDTO };
 }> = ({
   faction,
   unitKeyToBuildingKey,
@@ -36,6 +40,7 @@ const FactionTown: NextPage<{
   nameToBuilding,
   townData,
   units,
+  resourceIcons,
 }) => {
   const terms = useTerms();
   const { initialNodes, initialEdges } = useMemo(
@@ -75,6 +80,11 @@ const FactionTown: NextPage<{
           units={units}
           unitKeyToBuildingKey={unitKeyToBuildingKey}
           unitKeyToRequiredResearch={unitKeyToRequiredResearch}
+        />
+        <BuildOrder
+          nameToBuilding={nameToBuilding}
+          keyToNode={townData.keyToNode}
+          resourceIcons={resourceIcons}
         />
         <Title
           order={2}
@@ -134,6 +144,23 @@ export const getStaticProps = withStaticBase(async (context) => {
     .filter((unit) => unit.faction === factionType)
     .filter((unit) => EXCLUDED_UNIT_NAMES.indexOf(unit.vanilla.name) === -1);
 
+  const RESOURCE_TYPE_TO_ICON_NAME: { [key: string]: string } = {
+    Gold: "ResourceIconGold",
+    Wood: "ResourceIconWood",
+    Stone: "ResourceIconStone",
+    Glimmerweave: "ResourceIconGlimmer",
+    AncientAmber: "ResourceIconAmber",
+    CelestialOre: "ResourceIconCelestialOre",
+  };
+  const resourceIcons: { [localizedName: string]: SpriteDTO } = {};
+  Object.entries(RESOURCE_TYPE_TO_ICON_NAME).forEach(([rawType, iconName]) => {
+    const localizedName = getTerm(`Common/Resource/${rawType}`, locale);
+    const icon = getIcon(iconName);
+    if (icon) {
+      resourceIcons[localizedName] = icon;
+    }
+  });
+
   const terms: TermsDTO = {
     townBuildDescription: getSiteTerm("townBuildDescription", locale),
   };
@@ -145,6 +172,7 @@ export const getStaticProps = withStaticBase(async (context) => {
       unitKeyToRequiredResearch,
       townData,
       units: factionUnits,
+      resourceIcons,
       terms,
     },
     revalidate: false,

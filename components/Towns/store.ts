@@ -37,6 +37,7 @@ export type TownGraphState = {
   onEdgesChange: OnEdgesChange;
   toggleNodeSelection: (nodeId: string) => void;
   toggleResearchSelection: (nodeId: string, researchId: number) => void;
+  resetSelection: () => void;
   resizeGraph: (
     components: PositionedComponentPlain[],
     numNodeColumns: number
@@ -325,6 +326,31 @@ const createUseTownStore = (
         selectedKeys,
         selectedResearchIds,
         availableTroopKeys,
+      });
+    },
+    resetSelection: () => {
+      const state = get();
+      set({
+        nodes: state.nodes.map((flowNode) => {
+          if (flowNode.data.selected) {
+            flowNode.data = { ...flowNode.data, selected: false };
+          }
+          return flowNode;
+        }),
+        edges: state.edges.map((flowEdge) => ({
+          ...flowEdge,
+          style: {
+            ...flowEdge.style,
+            stroke: TOWN_GRAPH_COLORS.selectionNeutral,
+          },
+          markerEnd: {
+            type: MarkerType.Arrow,
+            color: TOWN_GRAPH_COLORS.selectionNeutral,
+          },
+        })),
+        selectedKeys: new Set<string>(),
+        selectedResearchIds: new Set<number>(),
+        availableTroopKeys: new Set<string>(),
       });
     },
     dimensions: { width: 0, height: 0 },
