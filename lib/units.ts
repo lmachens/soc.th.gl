@@ -152,6 +152,7 @@ export type UnitSimpleDTO = {
     name: string;
     description: string;
     stats?: UnitTypeDTO["stats"];
+    bacterias?: { type: string }[];
   };
   upgraded: {
     languageKey: string;
@@ -159,6 +160,7 @@ export type UnitSimpleDTO = {
     name: string;
     description: string;
     stats?: UnitTypeDTO["stats"];
+    bacterias?: { type: string }[];
   } | null;
   superUpgraded: {
     languageKey: string;
@@ -166,6 +168,7 @@ export type UnitSimpleDTO = {
     name: string;
     description: string;
     stats?: UnitTypeDTO["stats"];
+    bacterias?: { type: string }[];
   } | null;
 };
 

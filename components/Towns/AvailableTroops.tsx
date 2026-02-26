@@ -1,6 +1,6 @@
 import { Box, Grid, Stack, Text, Tooltip } from "@mantine/core";
 import React from "react";
-import { UnitSimpleDTO, UnitTypeDTO } from "../../lib/units";
+import { UnitSimpleDTO } from "../../lib/units";
 import { useStoreFromContext } from "./TownGraphStoreProvider";
 import { useShallow } from "zustand/react/shallow";
 import { TownGraphState } from "./store";
@@ -27,8 +27,10 @@ const getSymbiosisEssences = (
     .map((b) => b.type.slice(SYMBIOSIS_PREFIX.length).toLowerCase());
 };
 
+type UnitVariant = UnitSimpleDTO["vanilla"];
+
 const UnitTypeBox: React.FC<{
-  unit: UnitTypeDTO | null;
+  unit: UnitVariant | null;
   available: boolean;
   buildingKey: string;
   requiredResearch: number[];
@@ -48,16 +50,17 @@ const UnitTypeBox: React.FC<{
   href,
   bacterias,
 }) => {
-  if (!unit) {
+  if (!unit || !unit.stats) {
     return null;
   }
+  const { stats } = unit;
   const maxOffense = Math.max(
-    unit.stats.meleeAttack.offense,
-    unit.stats.rangedAttack.offense
+    stats.meleeAttack.offense,
+    stats.rangedAttack.offense
   );
 
   const essenceList: string[] = [];
-  Object.entries(unit.stats.essenceStats).forEach(
+  Object.entries(stats.essenceStats).forEach(
     ([essenceType, essenceValue]) => {
       if (essenceValue > 0) {
         Array.from({ length: essenceValue }).forEach((_) => {
@@ -169,7 +172,7 @@ const UnitTypeBox: React.FC<{
       >
         <Tooltip label="damage">
           <span>
-            ⚔ {unit.stats.damage.min}–{unit.stats.damage.max}
+            ⚔ {stats.damage.min}–{stats.damage.max}
           </span>
         </Tooltip>
         &nbsp;
@@ -185,11 +188,11 @@ const UnitTypeBox: React.FC<{
         }}
       >
         <Tooltip label="health">
-          <span>♥ {unit.stats.health}</span>
+          <span>♥ {stats.health}</span>
         </Tooltip>
         &nbsp;
         <Tooltip label="defense">
-          <span>({unit.stats.defense})</span>
+          <span>({stats.defense})</span>
         </Tooltip>
       </Text>
     </Box>
@@ -218,7 +221,7 @@ const UnitStack: React.FC<{
   return (
     <Stack>
       <UnitTypeBox
-        unit={unit.vanilla as UnitTypeDTO}
+        unit={unit.vanilla}
         available={availableTroopKeys.has(unit.vanilla.languageKey)}
         buildingKey={unitKeyToBuildingKey[unit.vanilla.languageKey]}
         requiredResearch={unitKeyToRequiredResearch[unit.vanilla.languageKey] || []}
@@ -226,11 +229,11 @@ const UnitStack: React.FC<{
         toggleResearchSelection={toggleResearchSelection}
         selectedResearchIds={selectedResearchIds}
         href={href}
-        bacterias={(unit.vanilla as any).bacterias}
+        bacterias={unit.vanilla.bacterias}
       />
       {unit.upgraded && (
         <UnitTypeBox
-          unit={unit.upgraded as UnitTypeDTO}
+          unit={unit.upgraded}
           available={availableTroopKeys.has(unit.upgraded.languageKey)}
           buildingKey={unitKeyToBuildingKey[unit.upgraded.languageKey]}
           requiredResearch={unitKeyToRequiredResearch[unit.upgraded.languageKey] || []}
@@ -238,12 +241,12 @@ const UnitStack: React.FC<{
           toggleResearchSelection={toggleResearchSelection}
           selectedResearchIds={selectedResearchIds}
           href={href}
-          bacterias={(unit.upgraded as any).bacterias}
+          bacterias={unit.upgraded.bacterias}
         />
       )}
       {unit.superUpgraded && (
         <UnitTypeBox
-          unit={unit.superUpgraded as UnitTypeDTO}
+          unit={unit.superUpgraded}
           available={availableTroopKeys.has(unit.superUpgraded.languageKey)}
           buildingKey={unitKeyToBuildingKey[unit.superUpgraded.languageKey]}
           requiredResearch={unitKeyToRequiredResearch[unit.superUpgraded.languageKey] || []}
@@ -251,7 +254,7 @@ const UnitStack: React.FC<{
           toggleResearchSelection={toggleResearchSelection}
           selectedResearchIds={selectedResearchIds}
           href={href}
-          bacterias={(unit.superUpgraded as any).bacterias}
+          bacterias={unit.superUpgraded.bacterias}
         />
       )}
     </Stack>

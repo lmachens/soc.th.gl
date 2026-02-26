@@ -147,7 +147,7 @@ const getAvailableTroops = (
           troopIncomes: any[];
           level: number;
         }) => {
-          if (buildingLevel == incomeLevel) {
+          if (buildingLevel === incomeLevel) {
             (troopIncomes || []).forEach((income: any) => {
               const { unitKey, requiredResearch } = income;
               const researchSatisfied =
@@ -167,6 +167,42 @@ const getAvailableTroops = (
   });
   return activeUnits;
 };
+
+const applySelectionStyles = (
+  nodes: Node[],
+  edges: Edge[],
+  selectedKeys: Set<string>
+): { nodes: Node[]; edges: Edge[] } => ({
+  nodes: nodes.map((flowNode) => {
+    const wasSelected = flowNode.data.selected;
+    const isSelected = selectedKeys.has(flowNode.id);
+    if (wasSelected !== isSelected) {
+      flowNode.data = {
+        ...flowNode.data,
+        selected: isSelected,
+      };
+    }
+    return flowNode;
+  }),
+  edges: edges.map((flowEdge) => {
+    const sourceSelected = selectedKeys.has(flowEdge.source);
+    const targetSelected = selectedKeys.has(flowEdge.target);
+    const isSelected = sourceSelected && targetSelected;
+    flowEdge.style = {
+      ...flowEdge.style,
+      stroke: isSelected
+        ? TOWN_GRAPH_COLORS.selectionPrimary
+        : TOWN_GRAPH_COLORS.selectionNeutral,
+    };
+    flowEdge.markerEnd = {
+      type: MarkerType.Arrow,
+      color: isSelected
+        ? TOWN_GRAPH_COLORS.selectionPrimary
+        : TOWN_GRAPH_COLORS.selectionNeutral,
+    };
+    return flowEdge;
+  }),
+});
 
 const getResearchIdsForNode = (flowNode: Node): number[] => {
   const { building } = flowNode.data;
@@ -238,35 +274,7 @@ const createUseTownStore = (
       );
 
       set({
-        nodes: state.nodes.map((flowNode) => {
-          const wasSelected = flowNode.data.selected;
-          const isSelected = selectedKeys.has(flowNode.id);
-          if (wasSelected !== isSelected) {
-            flowNode.data = {
-              ...flowNode.data,
-              selected: isSelected,
-            };
-          }
-          return flowNode;
-        }),
-        edges: state.edges.map((flowEdge) => {
-          const sourceSelected = selectedKeys.has(flowEdge.source);
-          const targetSelected = selectedKeys.has(flowEdge.target);
-          const isSelected = sourceSelected && targetSelected;
-          flowEdge.style = {
-            ...flowEdge.style,
-            stroke: isSelected
-              ? TOWN_GRAPH_COLORS.selectionPrimary
-              : TOWN_GRAPH_COLORS.selectionNeutral,
-          };
-          flowEdge.markerEnd = {
-            type: MarkerType.Arrow,
-            color: isSelected
-              ? TOWN_GRAPH_COLORS.selectionPrimary
-              : TOWN_GRAPH_COLORS.selectionNeutral,
-          };
-          return flowEdge;
-        }),
+        ...applySelectionStyles(state.nodes, state.edges, selectedKeys),
         selectedKeys,
         selectedResearchIds,
         availableTroopKeys,
@@ -294,35 +302,7 @@ const createUseTownStore = (
       );
 
       set({
-        nodes: state.nodes.map((flowNode) => {
-          const wasSelected = flowNode.data.selected;
-          const isSelected = selectedKeys.has(flowNode.id);
-          if (wasSelected !== isSelected) {
-            flowNode.data = {
-              ...flowNode.data,
-              selected: isSelected,
-            };
-          }
-          return flowNode;
-        }),
-        edges: state.edges.map((flowEdge) => {
-          const sourceSelected = selectedKeys.has(flowEdge.source);
-          const targetSelected = selectedKeys.has(flowEdge.target);
-          const isSelected = sourceSelected && targetSelected;
-          flowEdge.style = {
-            ...flowEdge.style,
-            stroke: isSelected
-              ? TOWN_GRAPH_COLORS.selectionPrimary
-              : TOWN_GRAPH_COLORS.selectionNeutral,
-          };
-          flowEdge.markerEnd = {
-            type: MarkerType.Arrow,
-            color: isSelected
-              ? TOWN_GRAPH_COLORS.selectionPrimary
-              : TOWN_GRAPH_COLORS.selectionNeutral,
-          };
-          return flowEdge;
-        }),
+        ...applySelectionStyles(state.nodes, state.edges, selectedKeys),
         selectedKeys,
         selectedResearchIds,
         availableTroopKeys,
