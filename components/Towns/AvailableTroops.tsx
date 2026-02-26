@@ -1,6 +1,6 @@
 import { Box, Grid, Stack, Text, Tooltip } from "@mantine/core";
 import React from "react";
-import { UnitSimpleDTO, UnitTypeDTO } from "../../lib/units";
+import { UnitSimpleDTO } from "../../lib/units";
 import { useStoreFromContext } from "./TownGraphStoreProvider";
 import { useShallow } from "zustand/react/shallow";
 import { TownGraphState } from "./store";
@@ -16,23 +16,51 @@ const ESSENCE_TYPE_TO_COLOR: { [key: string]: string } = {
   arcana: "#00c6b2",
 };
 
+const SYMBIOSIS_PREFIX = "TraitRootsSpongeAura";
+
+const getSymbiosisEssences = (
+  bacterias?: { type: string }[]
+): string[] => {
+  if (!bacterias) return [];
+  return bacterias
+    .filter((b) => b.type.startsWith(SYMBIOSIS_PREFIX))
+    .map((b) => b.type.slice(SYMBIOSIS_PREFIX.length).toLowerCase());
+};
+
+type UnitVariant = UnitSimpleDTO["vanilla"];
+
 const UnitTypeBox: React.FC<{
-  unit: UnitTypeDTO | null;
+  unit: UnitVariant | null;
   available: boolean;
   buildingKey: string;
+  requiredResearch: number[];
   toggleDwellingSelection: (key: string) => void;
+  toggleResearchSelection: (nodeId: string, researchId: number) => void;
+  selectedResearchIds: Set<number>;
   href: string;
-}> = ({ unit, available, buildingKey, toggleDwellingSelection, href }) => {
-  if (!unit) {
+  bacterias?: { type: string }[];
+}> = ({
+  unit,
+  available,
+  buildingKey,
+  requiredResearch,
+  toggleDwellingSelection,
+  toggleResearchSelection,
+  selectedResearchIds,
+  href,
+  bacterias,
+}) => {
+  if (!unit || !unit.stats) {
     return null;
   }
+  const { stats } = unit;
   const maxOffense = Math.max(
-    unit.stats.meleeAttack.offense,
-    unit.stats.rangedAttack.offense
+    stats.meleeAttack.offense,
+    stats.rangedAttack.offense
   );
 
   const essenceList: string[] = [];
-  Object.entries(unit.stats.essenceStats).forEach(
+  Object.entries(stats.essenceStats).forEach(
     ([essenceType, essenceValue]) => {
       if (essenceValue > 0) {
         Array.from({ length: essenceValue }).forEach((_) => {
@@ -41,6 +69,8 @@ const UnitTypeBox: React.FC<{
       }
     }
   );
+
+  const symbiosisEssences = getSymbiosisEssences(bacterias);
 
   return (
     <Box
@@ -53,7 +83,25 @@ const UnitTypeBox: React.FC<{
       }}
     >
       <span
-        onClick={() => toggleDwellingSelection(buildingKey)}
+        onClick={() => {
+          const hasResearch = requiredResearch.length > 0;
+          if (hasResearch) {
+            const anyUnselected = requiredResearch.some(
+              (id) => !selectedResearchIds.has(id)
+            );
+            if (anyUnselected) {
+              requiredResearch.forEach((id) => {
+                if (!selectedResearchIds.has(id)) {
+                  toggleResearchSelection(buildingKey, id);
+                }
+              });
+            } else {
+              toggleDwellingSelection(buildingKey);
+            }
+          } else {
+            toggleDwellingSelection(buildingKey);
+          }
+        }}
         style={{
           cursor: "pointer",
         }}
@@ -80,6 +128,25 @@ const UnitTypeBox: React.FC<{
             ⬤
           </Text>
         ))}
+        {symbiosisEssences.map((essenceType, essenceIndex) => (
+          <Tooltip
+            key={`${unit.languageKey}-symbiosis-${essenceType}-${essenceIndex}`}
+            label="Symbiosis"
+          >
+            <Text
+              style={{
+                position: "absolute",
+                top: 10 * essenceList.length + 4 + 8 * essenceIndex,
+                right: 1,
+                color: ESSENCE_TYPE_TO_COLOR[essenceType],
+                opacity: available ? "100%" : "40%",
+              }}
+              size={6}
+            >
+              ⬤
+            </Text>
+          </Tooltip>
+        ))}
       </span>
       <Text
         size="xs"
@@ -105,7 +172,7 @@ const UnitTypeBox: React.FC<{
       >
         <Tooltip label="damage">
           <span>
-            ⚔ {unit.stats.damage.min}–{unit.stats.damage.max}
+            ⚔ {stats.damage.min}–{stats.damage.max}
           </span>
         </Tooltip>
         &nbsp;
@@ -121,11 +188,11 @@ const UnitTypeBox: React.FC<{
         }}
       >
         <Tooltip label="health">
-          <span>♥ {unit.stats.health}</span>
+          <span>♥ {stats.health}</span>
         </Tooltip>
         &nbsp;
         <Tooltip label="defense">
-          <span>({unit.stats.defense})</span>
+          <span>({stats.defense})</span>
         </Tooltip>
       </Text>
     </Box>
@@ -136,40 +203,58 @@ const UnitStack: React.FC<{
   unit: UnitSimpleDTO;
   availableTroopKeys: Set<string>;
   unitKeyToBuildingKey: { [key: string]: string };
+  unitKeyToRequiredResearch: { [key: string]: number[] };
   toggleNodeSelection: (key: string) => void;
+  toggleResearchSelection: (nodeId: string, researchId: number) => void;
+  selectedResearchIds: Set<number>;
 }> = ({
   unit,
   availableTroopKeys,
   unitKeyToBuildingKey,
+  unitKeyToRequiredResearch,
   toggleNodeSelection,
+  toggleResearchSelection,
+  selectedResearchIds,
 }) => {
   // All unit levels in a stack come from the same building.
   const href = `/units/${unit.faction}/${unit.vanilla.languageKey}`;
   return (
     <Stack>
       <UnitTypeBox
-        unit={unit.vanilla as UnitTypeDTO}
+        unit={unit.vanilla}
         available={availableTroopKeys.has(unit.vanilla.languageKey)}
         buildingKey={unitKeyToBuildingKey[unit.vanilla.languageKey]}
+        requiredResearch={unitKeyToRequiredResearch[unit.vanilla.languageKey] || []}
         toggleDwellingSelection={toggleNodeSelection}
+        toggleResearchSelection={toggleResearchSelection}
+        selectedResearchIds={selectedResearchIds}
         href={href}
+        bacterias={unit.vanilla.bacterias}
       />
       {unit.upgraded && (
         <UnitTypeBox
-          unit={unit.upgraded as UnitTypeDTO}
+          unit={unit.upgraded}
           available={availableTroopKeys.has(unit.upgraded.languageKey)}
           buildingKey={unitKeyToBuildingKey[unit.upgraded.languageKey]}
+          requiredResearch={unitKeyToRequiredResearch[unit.upgraded.languageKey] || []}
           toggleDwellingSelection={toggleNodeSelection}
+          toggleResearchSelection={toggleResearchSelection}
+          selectedResearchIds={selectedResearchIds}
           href={href}
+          bacterias={unit.upgraded.bacterias}
         />
       )}
       {unit.superUpgraded && (
         <UnitTypeBox
-          unit={unit.superUpgraded as UnitTypeDTO}
+          unit={unit.superUpgraded}
           available={availableTroopKeys.has(unit.superUpgraded.languageKey)}
           buildingKey={unitKeyToBuildingKey[unit.superUpgraded.languageKey]}
+          requiredResearch={unitKeyToRequiredResearch[unit.superUpgraded.languageKey] || []}
           toggleDwellingSelection={toggleNodeSelection}
+          toggleResearchSelection={toggleResearchSelection}
+          selectedResearchIds={selectedResearchIds}
           href={href}
+          bacterias={unit.superUpgraded.bacterias}
         />
       )}
     </Stack>
@@ -179,15 +264,21 @@ const UnitStack: React.FC<{
 const selector = (state: TownGraphState) => ({
   availableTroopKeys: state.availableTroopKeys,
   toggleNodeSelection: state.toggleNodeSelection,
+  toggleResearchSelection: state.toggleResearchSelection,
+  selectedResearchIds: state.selectedResearchIds,
 });
 
 const AvailableTroops: React.FC<{
   units: UnitSimpleDTO[];
   unitKeyToBuildingKey: { [key: string]: string };
-}> = ({ units, unitKeyToBuildingKey }) => {
-  const { availableTroopKeys, toggleNodeSelection } = useStoreFromContext(
-    useShallow(selector)
-  );
+  unitKeyToRequiredResearch: { [key: string]: number[] };
+}> = ({ units, unitKeyToBuildingKey, unitKeyToRequiredResearch }) => {
+  const {
+    availableTroopKeys,
+    toggleNodeSelection,
+    toggleResearchSelection,
+    selectedResearchIds,
+  } = useStoreFromContext(useShallow(selector));
   return (
     <Grid columns={units.length}>
       {units.map((unit) => (
@@ -196,7 +287,10 @@ const AvailableTroops: React.FC<{
             unit={unit}
             availableTroopKeys={availableTroopKeys}
             unitKeyToBuildingKey={unitKeyToBuildingKey}
+            unitKeyToRequiredResearch={unitKeyToRequiredResearch}
             toggleNodeSelection={toggleNodeSelection}
+            toggleResearchSelection={toggleResearchSelection}
+            selectedResearchIds={selectedResearchIds}
           />
         </Grid.Col>
       ))}
