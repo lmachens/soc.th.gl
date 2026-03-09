@@ -83,7 +83,7 @@ const Units: NextPage<{ units: UnitSimpleDTO[] }> = ({ units }) => {
 export default Units;
 
 export const getStaticProps = withStaticBase(async (context) => {
-  const units = getUnits(context.locale!);
+  const units = getUnits(context.locale!).filter((u) => u.vanilla.name);
   const locale = context.locale! as string;
 
   const terms: TermsDTO = {

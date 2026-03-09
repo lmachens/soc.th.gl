@@ -117,7 +117,7 @@
       },
       "obsoleteGoldCost": 0,
       "stats": {
-        "tier": 2,
+        "tier": 1,
         "essenceStats": {
           "order": 0,
           "creation": 0,
@@ -201,7 +201,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Neutral",
@@ -245,7 +248,7 @@
       },
       "obsoleteGoldCost": 0,
       "stats": {
-        "tier": 6,
+        "tier": 3,
         "essenceStats": {
           "order": 0,
           "creation": 0,
@@ -301,7 +304,10 @@
       "bacterias": []
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Neutral",
@@ -417,7 +423,7 @@
       },
       "obsoleteGoldCost": 0,
       "stats": {
-        "tier": 3,
+        "tier": 5,
         "essenceStats": {
           "order": 0,
           "creation": 0,
@@ -501,7 +507,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Neutral",
@@ -625,7 +634,7 @@
       },
       "obsoleteGoldCost": 0,
       "stats": {
-        "tier": 2,
+        "tier": 7,
         "essenceStats": {
           "order": 0,
           "creation": 0,
@@ -709,7 +718,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Neutral",
@@ -833,7 +845,7 @@
       },
       "obsoleteGoldCost": 0,
       "stats": {
-        "tier": 6,
+        "tier": 4,
         "essenceStats": {
           "order": 1,
           "creation": 0,
@@ -1010,7 +1022,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Neutral",
@@ -1114,7 +1129,7 @@
       },
       "obsoleteGoldCost": 0,
       "stats": {
-        "tier": 13,
+        "tier": 6,
         "essenceStats": {
           "order": 0,
           "creation": 0,
@@ -1208,7 +1223,10 @@
       "bacterias": []
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -1549,7 +1567,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -1908,7 +1929,10 @@
       },
       "bacterias": []
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -2382,7 +2406,10 @@
       },
       "bacterias": []
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -2812,7 +2839,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -2820,7 +2850,7 @@
       "languageKey": "Knight",
       "sprite": {
         "name": "ArleonKnight_Default_1_Idle_1",
-        "spriteSheet": "ArleonKnightAtlas_0.png",
+        "spriteSheet": "ArleonKnightAtlas.png",
         "x": 458,
         "y": 663,
         "width": 83,
@@ -3146,7 +3176,7 @@
       "languageKey": "FistOfOrder",
       "sprite": {
         "name": "ArleonKnight_Upgrade_1_Idle_1",
-        "spriteSheet": "ArleonKnightAtlas_0.png",
+        "spriteSheet": "ArleonKnightAtlas.png",
         "x": 148,
         "y": 273,
         "width": 85,
@@ -3534,7 +3564,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -3756,7 +3789,7 @@
       "languageKey": "QueensGuard",
       "sprite": {
         "name": "ArleonQueensGuard_Default_1_Idle_1",
-        "spriteSheet": "ArleonQueensGuardAtlas_0.png",
+        "spriteSheet": "ArleonQueensGuardAtlas.png",
         "x": 142,
         "y": 193,
         "width": 69,
@@ -4025,7 +4058,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -4621,7 +4657,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -5277,7 +5316,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Arleon",
@@ -5485,7 +5527,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -5815,7 +5860,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -6391,7 +6439,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -6713,7 +6764,10 @@
       },
       "bacterias": []
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -7100,7 +7154,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -7544,7 +7601,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -8274,7 +8334,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -8652,7 +8715,7 @@
         "restrictions": []
       },
       "troopAbility": {
-        "type": "DrainEssence",
+        "type": "Wait",
         "bacterias": []
       },
       "bacterias": [
@@ -8682,10 +8745,33 @@
             "type": "Permanent",
             "duration": 0
           }
+        },
+        {
+          "bacteriaType": 1707,
+          "type": "TraitEssenceEater",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -9871,7 +9957,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -10030,7 +10119,10 @@
       "bacterias": []
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Loth",
@@ -10238,7 +10330,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -10632,7 +10727,10 @@
       },
       "bacterias": []
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -11077,7 +11175,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -11484,7 +11585,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -12090,7 +12194,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -12637,7 +12744,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -13002,7 +13112,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -13394,7 +13507,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -13897,7 +14013,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Barya",
@@ -14105,7 +14224,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -14500,7 +14622,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -15112,7 +15237,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -15551,7 +15679,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -16145,7 +16276,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -16678,7 +16812,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -17060,7 +17197,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -17636,7 +17776,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -18450,7 +18593,10 @@
           }
         }
       ]
-    }
+    },
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Rana",
@@ -18658,7 +18804,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -19108,7 +19257,10 @@
       },
       "bacterias": []
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -19562,7 +19714,10 @@
       },
       "bacterias": []
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -19901,7 +20056,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -20284,7 +20442,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -20777,7 +20938,10 @@
       },
       "bacterias": []
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -21582,7 +21746,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -22054,7 +22221,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -22655,7 +22825,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Vanir",
@@ -22855,7 +23028,10 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -23262,7 +23438,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -23697,7 +23876,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -24156,7 +24338,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -24704,7 +24889,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -25289,7 +25477,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -25891,7 +26082,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -26718,7 +26912,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -27228,7 +27425,10 @@
         }
       ]
     },
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   },
   {
     "faction": "Roots",
@@ -27440,6 +27640,9 @@
       ]
     },
     "upgraded": null,
-    "superUpgraded": null
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
   }
 ]

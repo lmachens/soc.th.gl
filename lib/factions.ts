@@ -45,48 +45,47 @@ export const getFaction = (type: string, locale: string) => {
         (wielder) => wielder.type === commander.type
       )!.stats,
     })),
-    units: factionSrc.units.map((unit) => ({
-      ...unit,
-      vanilla: {
-        ...unit.vanilla,
-        stats: getUnit(factionSrc.type, unit.vanilla.languageKey, locale)
-          ?.vanilla.stats,
-        name: getTerm(
-          `${factionSrc.type}/${unit.vanilla.languageKey}/Name`,
-          locale
+    units: factionSrc.units.map((unit) => {
+      const localizeVariant = (
+        variant: { languageKey: string; sprite?: any } | null | undefined,
+        key: string
+      ) => {
+        if (!variant) return null;
+        return {
+          ...variant,
+          stats: getUnit(factionSrc.type, variant.languageKey, locale)?.[
+            key as keyof Omit<ReturnType<typeof getUnit> & {}, "faction">
+          ]?.stats,
+          name: getTerm(
+            `${factionSrc.type}/${variant.languageKey}/Name`,
+            locale
+          ),
+          description: getTerm(
+            `${factionSrc.type}/${variant.languageKey}/Description`,
+            locale
+          ),
+        };
+      };
+
+      return {
+        ...unit,
+        vanilla: localizeVariant(unit.vanilla, "vanilla")!,
+        upgraded: localizeVariant(unit.upgraded, "upgraded"),
+        superUpgraded: localizeVariant(unit.superUpgraded, "superUpgraded"),
+        arcanaUpgraded: localizeVariant(
+          (unit as any).arcanaUpgraded,
+          "arcanaUpgraded"
         ),
-        description: getTerm(
-          `${factionSrc.type}/${unit.vanilla.languageKey}/Description`,
-          locale
+        creationUpgraded: localizeVariant(
+          (unit as any).creationUpgraded,
+          "creationUpgraded"
         ),
-      },
-      upgraded: unit.upgraded && {
-        ...unit.upgraded,
-        stats: getUnit(factionSrc.type, unit.upgraded.languageKey, locale)
-          ?.upgraded?.stats,
-        name: getTerm(
-          `${factionSrc.type}/${unit.upgraded.languageKey}/Name`,
-          locale
+        orderUpgraded: localizeVariant(
+          (unit as any).orderUpgraded,
+          "orderUpgraded"
         ),
-        description: getTerm(
-          `${factionSrc.type}/${unit.upgraded.languageKey}/Description`,
-          locale
-        ),
-      },
-      superUpgraded: unit.superUpgraded && {
-        ...unit.superUpgraded,
-        stats: getUnit(factionSrc.type, unit.superUpgraded.languageKey, locale)
-          ?.superUpgraded?.stats,
-        name: getTerm(
-          `${factionSrc.type}/${unit.superUpgraded.languageKey}/Name`,
-          locale
-        ),
-        description: getTerm(
-          `${factionSrc.type}/${unit.superUpgraded.languageKey}/Description`,
-          locale
-        ),
-      },
-    })),
+      };
+    }),
     buildings: getBuildings(locale).filter(
       (building) => building.factionId === factionSrc.id
     ),
@@ -139,6 +138,27 @@ export type FactionDTO = {
       stats?: UnitTypeDTO["stats"];
     } | null;
     superUpgraded: {
+      languageKey: string;
+      sprite?: SpriteDTO;
+      name: string;
+      description: string;
+      stats?: UnitTypeDTO["stats"];
+    } | null;
+    arcanaUpgraded: {
+      languageKey: string;
+      sprite?: SpriteDTO;
+      name: string;
+      description: string;
+      stats?: UnitTypeDTO["stats"];
+    } | null;
+    creationUpgraded: {
+      languageKey: string;
+      sprite?: SpriteDTO;
+      name: string;
+      description: string;
+      stats?: UnitTypeDTO["stats"];
+    } | null;
+    orderUpgraded: {
       languageKey: string;
       sprite?: SpriteDTO;
       name: string;

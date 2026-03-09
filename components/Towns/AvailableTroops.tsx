@@ -257,6 +257,45 @@ const UnitStack: React.FC<{
           bacterias={unit.superUpgraded.bacterias}
         />
       )}
+      {unit.arcanaUpgraded && (
+        <UnitTypeBox
+          unit={unit.arcanaUpgraded}
+          available={availableTroopKeys.has(unit.arcanaUpgraded.languageKey)}
+          buildingKey={unitKeyToBuildingKey[unit.arcanaUpgraded.languageKey]}
+          requiredResearch={unitKeyToRequiredResearch[unit.arcanaUpgraded.languageKey] || []}
+          toggleDwellingSelection={toggleNodeSelection}
+          toggleResearchSelection={toggleResearchSelection}
+          selectedResearchIds={selectedResearchIds}
+          href={href}
+          bacterias={unit.arcanaUpgraded.bacterias}
+        />
+      )}
+      {unit.creationUpgraded && (
+        <UnitTypeBox
+          unit={unit.creationUpgraded}
+          available={availableTroopKeys.has(unit.creationUpgraded.languageKey)}
+          buildingKey={unitKeyToBuildingKey[unit.creationUpgraded.languageKey]}
+          requiredResearch={unitKeyToRequiredResearch[unit.creationUpgraded.languageKey] || []}
+          toggleDwellingSelection={toggleNodeSelection}
+          toggleResearchSelection={toggleResearchSelection}
+          selectedResearchIds={selectedResearchIds}
+          href={href}
+          bacterias={unit.creationUpgraded.bacterias}
+        />
+      )}
+      {unit.orderUpgraded && (
+        <UnitTypeBox
+          unit={unit.orderUpgraded}
+          available={availableTroopKeys.has(unit.orderUpgraded.languageKey)}
+          buildingKey={unitKeyToBuildingKey[unit.orderUpgraded.languageKey]}
+          requiredResearch={unitKeyToRequiredResearch[unit.orderUpgraded.languageKey] || []}
+          toggleDwellingSelection={toggleNodeSelection}
+          toggleResearchSelection={toggleResearchSelection}
+          selectedResearchIds={selectedResearchIds}
+          href={href}
+          bacterias={unit.orderUpgraded.bacterias}
+        />
+      )}
     </Stack>
   );
 };

@@ -2740,9 +2740,8 @@
           {
             "bacteriaType": 273,
             "type": "SpellChainLightning1",
-            "customEffect": "ChainFromTarget",
+            "customEffect": "Damage",
             "customEffectValue": 40,
-            "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2780,9 +2779,8 @@
           {
             "bacteriaType": 274,
             "type": "SpellChainLightning2",
-            "customEffect": "ChainFromTarget",
+            "customEffect": "Damage",
             "customEffectValue": 80,
-            "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,
@@ -2820,9 +2818,8 @@
           {
             "bacteriaType": 275,
             "type": "SpellChainLightning3",
-            "customEffect": "ChainFromTarget",
+            "customEffect": "Damage",
             "customEffectValue": 120,
-            "secondaryCustomEffectValue": 2,
             "auraSettings": {
               "recipients": "Friends",
               "hexRadius": 1,

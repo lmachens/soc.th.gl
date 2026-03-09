@@ -204,7 +204,7 @@ export const getStaticProps = withStaticBase(async (context) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const factions = getFactions("en")
-    .filter((faction) => faction.symbolSprite)
+    .filter((faction) => faction.symbolSprite && faction.name)
     .map((faction) => ({
       params: {
         type: faction.type,

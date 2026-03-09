@@ -203,13 +203,13 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
   const artifacts = getArtifacts(locale);
   const buildings = getBuildings(locale);
   const factions = getFactions(locale).filter(
-    (faction) => faction.symbolSprite
+    (faction) => faction.symbolSprite && faction.name
   );
   const randomEvents = getRandomEvents(locale);
   const skills = getSkills(locale);
   const spells = getSpells(locale);
-  const units = getUnits(locale);
-  const wielders = getWielders(locale);
+  const units = getUnits(locale).filter((u) => u.vanilla.name);
+  const wielders = getWielders(locale).filter((w) => w.name);
 
   const sitemap = generateSiteMap({
     artifacts,

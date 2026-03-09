@@ -4,7 +4,7 @@ import factionsCollection from "./collections/factions.json";
 import { getFactions } from "./factions";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
-import { getUnit } from "./units";
+import { UnitDTO, getUnit } from "./units";
 
 export const getBuildings = (locale: string) => {
   const buildings = buildingsCollection.map<BuildingSimpleDTO>((building) => {
@@ -95,10 +95,7 @@ export const getBuilding = (
           )!;
           const upgrade =
             unit[
-              troopIncome.upgradeType as
-                | "vanilla"
-                | "upgraded"
-                | "superUpgraded"
+              troopIncome.upgradeType as keyof Omit<UnitDTO, "faction">
             ]!;
 
           return {

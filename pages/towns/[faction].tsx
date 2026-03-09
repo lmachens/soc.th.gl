@@ -117,6 +117,9 @@ export const getStaticProps = withStaticBase(async (context) => {
   const factionBuildings = getBuildings(locale)
     .filter((building) => building.factionName === faction.name)
     .map((building) => getBuilding(building.type, locale));
+  if (factionBuildings.length === 0) {
+    return { notFound: true };
+  }
   const townData = createTownData(factionBuildings as BuildingDTO[]);
 
   const nameToBuilding: { [key: string]: BuildingDTO } = {};
@@ -181,7 +184,7 @@ export const getStaticProps = withStaticBase(async (context) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const factions = getFactions("en") // Keep as "en" for routing.
-    .filter((faction) => faction.type !== "Neutral")
+    .filter((faction) => faction.type !== "Neutral" && faction.name)
     .map((faction) => ({
       params: {
         faction: faction.type,

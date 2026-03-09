@@ -45,7 +45,7 @@ export default Factions;
 
 export const getStaticProps = withStaticBase(async (context) => {
   const factions = getFactions(context.locale!).filter(
-    (faction) => faction.symbolSprite
+    (faction) => faction.symbolSprite && faction.name
   );
 
   return {

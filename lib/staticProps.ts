@@ -42,7 +42,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
 
     const locale = context.locale!;
     const factions = getFactions(locale).filter(
-      (faction) => faction.symbolSprite
+      (faction) => faction.symbolSprite && faction.name
     );
     const factionLinks = factions
       .map((faction) => ({
@@ -67,6 +67,7 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       .sort(sortByLabel);
 
     const wielders = getWielders(locale)
+      .filter((wielder) => wielder.name)
       .map((wielder) => ({
         to: `/wielders/${wielder.type}`,
         label: wielder.name,
@@ -75,13 +76,20 @@ export const withStaticBase = <T extends { terms?: TermsDTO }>(
       .sort(sortByLabel);
 
     const units = getUnits(locale)
+      .filter((unit) => unit.vanilla.name)
       .map((unit) => {
         let label = unit.vanilla.name;
-        if (unit.upgraded) {
-          label += ` / ${unit.upgraded.name}`;
-        }
-        if (unit.superUpgraded) {
-          label += ` / ${unit.superUpgraded.name}`;
+        const variants = [
+          unit.upgraded,
+          unit.superUpgraded,
+          unit.arcanaUpgraded,
+          unit.creationUpgraded,
+          unit.orderUpgraded,
+        ];
+        for (const variant of variants) {
+          if (variant) {
+            label += ` / ${variant.name}`;
+          }
         }
 
         return {

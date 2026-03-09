@@ -127,6 +127,9 @@ const Unit: NextPage<{ unit: UnitDTO }> = ({ unit }) => {
         {renderType(unit.vanilla)}
         {unit.upgraded && renderType(unit.upgraded)}
         {unit.superUpgraded && renderType(unit.superUpgraded)}
+        {unit.arcanaUpgraded && renderType(unit.arcanaUpgraded)}
+        {unit.creationUpgraded && renderType(unit.creationUpgraded)}
+        {unit.orderUpgraded && renderType(unit.orderUpgraded)}
       </Stack>
     </>
   );
@@ -184,7 +187,7 @@ const sanitizeBacteriaData = (bacteria: BacteriaDTO) => {
 };
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const units = getUnits("en").map((unit) => ({
+  const units = getUnits("en").filter((u) => u.vanilla.name).map((unit) => ({
     params: {
       faction: unit.faction,
       type: unit.vanilla.languageKey,

@@ -3,64 +3,48 @@ import unitsCollection from "./collections/units.json";
 import { SpriteDTO } from "./sprites";
 import { getTerm } from "./terms";
 
+const UPGRADE_KEYS = [
+  "upgraded",
+  "superUpgraded",
+  "arcanaUpgraded",
+  "creationUpgraded",
+  "orderUpgraded",
+] as const;
+
 export const getUnits = (locale: string): UnitSimpleDTO[] => {
-  const units = unitsCollection.map((unit) => ({
-    ...unit,
-    vanilla: {
-      ...unit.vanilla,
+  const localizeVariant = (
+    faction: string,
+    variant: (typeof unitsCollection)[number]["vanilla"] | null
+  ) => {
+    if (!variant) return null;
+    return {
+      ...variant,
       stats: {
-        ...unit.vanilla.stats,
-        statuses: unit.vanilla.stats.statuses
-          ? unit.vanilla.stats.statuses.map((status) =>
+        ...variant.stats,
+        statuses: variant.stats.statuses
+          ? variant.stats.statuses.map((status) =>
               getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
             )
           : null,
       },
-      name: getTerm(`${unit.faction}/${unit.vanilla.languageKey}/Name`, locale),
+      name: getTerm(`${faction}/${variant.languageKey}/Name`, locale),
       description: getTerm(
-        `${unit.faction}/${unit.vanilla.languageKey}/Description`,
+        `${faction}/${variant.languageKey}/Description`,
         locale
       ),
-    },
-    upgraded: unit.upgraded && {
-      ...unit.upgraded,
-      stats: {
-        ...unit.upgraded.stats,
-        statuses: unit.upgraded.stats.statuses
-          ? unit.upgraded.stats.statuses.map((status) =>
-              getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
-            )
-          : null,
-      },
-      name: getTerm(
-        `${unit.faction}/${unit.upgraded.languageKey}/Name`,
-        locale
-      ),
-      description: getTerm(
-        `${unit.faction}/${unit.upgraded.languageKey}/Description`,
-        locale
-      ),
-    },
-    superUpgraded: unit.superUpgraded && {
-      ...unit.superUpgraded,
-      stats: {
-        ...unit.superUpgraded.stats,
-        statuses: unit.superUpgraded.stats.statuses
-          ? unit.superUpgraded.stats.statuses.map((status) =>
-              getTerm(`Common/BacteriaOwnerStatus/${status}`, locale)
-            )
-          : null,
-      },
-      name: getTerm(
-        `${unit.faction}/${unit.superUpgraded.languageKey}/Name`,
-        locale
-      ),
-      description: getTerm(
-        `${unit.faction}/${unit.superUpgraded.languageKey}/Description`,
-        locale
-      ),
-    },
-  }));
+    };
+  };
+
+  const units = unitsCollection.map((unit) => {
+    const result: any = {
+      ...unit,
+      vanilla: localizeVariant(unit.faction, unit.vanilla)!,
+    };
+    for (const key of UPGRADE_KEYS) {
+      result[key] = localizeVariant(unit.faction, (unit as any)[key]);
+    }
+    return result;
+  });
   return units;
 };
 
@@ -73,8 +57,9 @@ export const getUnit = (
     (unit) =>
       unit.faction === faction &&
       (unit.vanilla.languageKey === type ||
-        unit.upgraded?.languageKey === type ||
-        unit.superUpgraded?.languageKey === type)
+        UPGRADE_KEYS.some(
+          (key) => (unit as any)[key]?.languageKey === type
+        ))
   );
   if (!unitSrc) {
     return null;
@@ -135,41 +120,33 @@ export const getUnit = (
     };
   };
 
-  const unit = {
+  const unit: any = {
     ...unitSrc,
     vanilla: getType(unitSrc.vanilla)!,
-    upgraded: getType(unitSrc.upgraded),
-    superUpgraded: getType(unitSrc.superUpgraded),
   };
+  for (const key of UPGRADE_KEYS) {
+    unit[key] = getType((unitSrc as any)[key]);
+  }
   return unit;
+};
+
+type UnitVariantSimpleDTO = {
+  languageKey: string;
+  sprite?: SpriteDTO;
+  name: string;
+  description: string;
+  stats?: UnitTypeDTO["stats"];
+  bacterias?: { type: string }[];
 };
 
 export type UnitSimpleDTO = {
   faction: string;
-  vanilla: {
-    languageKey: string;
-    sprite?: SpriteDTO;
-    name: string;
-    description: string;
-    stats?: UnitTypeDTO["stats"];
-    bacterias?: { type: string }[];
-  };
-  upgraded: {
-    languageKey: string;
-    sprite?: SpriteDTO;
-    name: string;
-    description: string;
-    stats?: UnitTypeDTO["stats"];
-    bacterias?: { type: string }[];
-  } | null;
-  superUpgraded: {
-    languageKey: string;
-    sprite?: SpriteDTO;
-    name: string;
-    description: string;
-    stats?: UnitTypeDTO["stats"];
-    bacterias?: { type: string }[];
-  } | null;
+  vanilla: UnitVariantSimpleDTO;
+  upgraded: UnitVariantSimpleDTO | null;
+  superUpgraded: UnitVariantSimpleDTO | null;
+  arcanaUpgraded: UnitVariantSimpleDTO | null;
+  creationUpgraded: UnitVariantSimpleDTO | null;
+  orderUpgraded: UnitVariantSimpleDTO | null;
 };
 
 export type UnitTypeDTO = {
@@ -250,4 +227,7 @@ export type UnitDTO = {
   vanilla: UnitTypeDTO;
   upgraded: UnitTypeDTO | null;
   superUpgraded: UnitTypeDTO | null;
+  arcanaUpgraded: UnitTypeDTO | null;
+  creationUpgraded: UnitTypeDTO | null;
+  orderUpgraded: UnitTypeDTO | null;
 };

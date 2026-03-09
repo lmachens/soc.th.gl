@@ -4,6 +4,7 @@ import { copyImageFile, readJSONFile, writeJSONFile } from "./lib/out.mjs";
 const bacteriasSrc = await readJSONFile("./out/bacteria.json");
 const skillsSrc = await readJSONFile("./out/skill.json");
 const factionsSrc = await readJSONFile("./out/faction.json");
+const wielderManifestSrc = await readJSONFile("./out/wielder.json");
 const skillPoolsSrc = await readJSONFile("./out/skillPool.json");
 const troopAbilitiesSrc = await readJSONFile("./out/troopAbility.json");
 const artifactsSrc = await readJSONFile("./out/artifact.json");
@@ -30,7 +31,14 @@ await writeJSONFile(termMapSrc, "../../lib/collections/termMap");
 const resourceTypes = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Economy/ResourceType.cs"
 );
-const UNIT_TYPES = ["vanilla", "upgraded", "superUpgraded"];
+const UNIT_TYPES = [
+  "vanilla",
+  "upgraded",
+  "superUpgraded",
+  "arcanaUpgraded",
+  "creationUpgraded",
+  "orderUpgraded",
+];
 
 const essenceTypes = await readCSTypes(
   "./SongsOfConquest/ExportedProject/Assets/Scripts/Lavapotion.SongsOfConquest.GameLogicLayer.Runtime/SongsOfConquest/Common/Gamestate/EssenceType.cs"
@@ -122,20 +130,65 @@ const factions = factionsSrc.map((factionSrc) => ({
         sprite: unit.vanilla.visuals?.prefab.sprite,
         adventureSprite: unit.vanilla.visuals?.adventurePrefab.sprite,
       },
-      upgraded: unit.upgraded.languageKey
+      upgraded: unit.upgraded?.languageKey
         ? {
             languageKey: unit.upgraded.languageKey,
             sprite: unit.upgraded.visuals?.adventurePrefab.sprite,
           }
         : null,
-      superUpgraded: unit.superUpgraded.languageKey
+      superUpgraded: unit.superUpgraded?.languageKey
         ? {
             languageKey: unit.superUpgraded.languageKey,
             sprite: unit.superUpgraded.visuals?.adventurePrefab.sprite,
           }
         : null,
+      arcanaUpgraded: unit.arcanaUpgraded?.languageKey
+        ? {
+            languageKey: unit.arcanaUpgraded.languageKey,
+            sprite: unit.arcanaUpgraded.visuals?.adventurePrefab.sprite,
+          }
+        : null,
+      creationUpgraded: unit.creationUpgraded?.languageKey
+        ? {
+            languageKey: unit.creationUpgraded.languageKey,
+            sprite: unit.creationUpgraded.visuals?.adventurePrefab.sprite,
+          }
+        : null,
+      orderUpgraded: unit.orderUpgraded?.languageKey
+        ? {
+            languageKey: unit.orderUpgraded.languageKey,
+            sprite: unit.orderUpgraded.visuals?.adventurePrefab.sprite,
+          }
+        : null,
     })),
 }));
+
+// Add DLC wielders to their faction's commanders list
+const factionCommanderTypes = new Set(
+  factions.flatMap((f) => f.commanders.map((c) => c.type))
+);
+for (const manifestWielder of wielderManifestSrc) {
+  if (
+    manifestWielder.type &&
+    manifestWielder.usageType === 0 &&
+    manifestWielder.portrait &&
+    !factionCommanderTypes.has(manifestWielder.type)
+  ) {
+    const faction = factions.find((f) => f.id === manifestWielder.faction);
+    if (!faction) continue;
+    faction.commanders.push({
+      type: manifestWielder.type,
+      portrait: {
+        name: manifestWielder.portrait.name,
+        spriteSheet: manifestWielder.portrait.spriteSheet,
+        x: manifestWielder.portrait.x,
+        y: manifestWielder.portrait.y,
+        width: manifestWielder.portrait.width,
+        height: manifestWielder.portrait.height,
+      },
+    });
+  }
+}
 
 await writeJSONFile(factions, "../../lib/collections/factions");
 
@@ -277,80 +330,115 @@ const getSimpleSkill = ({ skill, level }) => {
 
 const getUnit = ({ factionIndex, unitIndex, upgradeType }) => {
   const unitType = UNIT_TYPES[upgradeType];
+  const faction = factions[factionIndex];
+  const unit = faction?.units[unitIndex];
+  const variant = unit?.[unitType];
+  if (!variant) {
+    return { languageKey: "Unknown", faction: faction?.languageKey || "Unknown" };
+  }
   return {
-    ...factions[factionIndex].units[unitIndex][unitType],
-    faction: factions[factionIndex].languageKey,
+    ...variant,
+    faction: faction.languageKey,
   };
 };
+const convertCommander = (commander, factionLanguageKey) => {
+  const skillPool = skillPoolsSrc.find(
+    (skillPoolSrc) => skillPoolSrc.id === commander.skillPool
+  );
+
+  const startingSkills = commander.skills.map(getSimpleSkill);
+  const skillPools = skillPool.pools.map((pool) => ({
+    name: pool.name,
+    evaluationType: SKILL_POOL_EVALUATION[pool.evaluationType],
+    levelRange: pool.levelRange,
+    levelIntervalStartLevel: pool.levelIntervalStartLevel,
+    levelInterval: pool.levelInterval,
+    skills: pool.skills.map((skill) => {
+      const type = skillsSrc.find(
+        (skillSrc) => skillSrc.id === skill.skill
+      ).type;
+      return {
+        type: type,
+        requiresSkill: skill.requiresSkill ? true : false,
+        requirementType:
+          skill.requirementType === 0 ? "RequireAny" : "RequireAll",
+        requiredSkills: skill.requiredSkills.map(getSimpleSkill),
+      };
+    }),
+  }));
+
+  return {
+    type: commander.type,
+    commanderClass: commanderClassType[commander.class],
+    race: raceType[commander.race],
+    faction: factionLanguageKey,
+    portrait: {
+      name: commander.portrait.name,
+      spriteSheet: commander.portrait.spriteSheet,
+      x: commander.portrait.x,
+      y: commander.portrait.y,
+      width: commander.portrait.width,
+      height: commander.portrait.height,
+    },
+    stats: {
+      defense: commander.stats.defense,
+      offense: commander.stats.offense,
+      movement: commander.stats.movement,
+      viewRadius: commander.stats.viewRadius,
+      command: commander.stats.command,
+    },
+    startingSkills: startingSkills,
+    skillPools: skillPools,
+    units: commander.units.map((unit) => ({
+      languageKey: getUnit(unit).languageKey,
+      size: unit.size,
+    })),
+    specializations: commander.specializations.map((bacteria) =>
+      getBacteria({
+        bacteriaType: bacteria.bacteriaType,
+        duration: {
+          type: bacteriaDurationTypes[bacteria.duration.type],
+          duration: bacteria.duration.duration,
+        },
+      })
+    ),
+    dlc: {
+      4: "Rise Eternal",
+      32: "Embrace of the Storm",
+      64: "Symbiosis",
+    }[commander.addonProfile?.includedInAddon] || undefined,
+  };
+};
+
 const wielders = factionsSrc
   .map((factionSrc) =>
     factionSrc.commanders
       .filter((commander) => commander.type && commander.usageType === 0)
-      .map((commander) => {
-        const skillPool = skillPoolsSrc.find(
-          (skillPoolSrc) => skillPoolSrc.id === commander.skillPool
-        );
-
-        const startingSkills = commander.skills.map(getSimpleSkill);
-        const skillPools = skillPool.pools.map((pool) => ({
-          name: pool.name,
-          evaluationType: SKILL_POOL_EVALUATION[pool.evaluationType],
-          levelRange: pool.levelRange,
-          levelIntervalStartLevel: pool.levelIntervalStartLevel,
-          levelInterval: pool.levelInterval,
-          skills: pool.skills.map((skill) => {
-            const type = skillsSrc.find(
-              (skillSrc) => skillSrc.id === skill.skill
-            ).type;
-            return {
-              type: type,
-              requiresSkill: skill.requiresSkill ? true : false,
-              requirementType:
-                skill.requirementType === 0 ? "RequireAny" : "RequireAll",
-              requiredSkills: skill.requiredSkills.map(getSimpleSkill),
-            };
-          }),
-        }));
-
-        return {
-          type: commander.type,
-          commanderClass: commanderClassType[commander.class],
-          race: raceType[commander.race],
-          faction: factionSrc.languageKey,
-          portrait: {
-            name: commander.portrait.name,
-            spriteSheet: commander.portrait.spriteSheet,
-            x: commander.portrait.x,
-            y: commander.portrait.y,
-            width: commander.portrait.width,
-            height: commander.portrait.height,
-          },
-          stats: {
-            defense: commander.stats.defense,
-            offense: commander.stats.offense,
-            movement: commander.stats.movement,
-            viewRadius: commander.stats.viewRadius,
-            command: commander.stats.command,
-          },
-          startingSkills: startingSkills,
-          skillPools: skillPools,
-          units: commander.units.map((unit) => ({
-            languageKey: getUnit(unit).languageKey,
-            size: unit.size,
-          })),
-          specializations: commander.specializations.map((bacteria) =>
-            getBacteria({
-              bacteriaType: bacteria.bacteriaType,
-              duration: {
-                type: bacteriaDurationTypes[bacteria.duration.type],
-                duration: bacteria.duration.duration,
-              },
-            })
-          ),
-        };
-      })
+      .map((commander) => convertCommander(commander, factionSrc.languageKey))
   )
   .flat();
+
+// Add wielders from WielderManifest that aren't already in the faction commanders list
+const wielderTypes = new Set(wielders.map((w) => w.type));
+for (const manifestWielder of wielderManifestSrc) {
+  if (
+    manifestWielder.type &&
+    manifestWielder.usageType === 0 &&
+    manifestWielder.portrait &&
+    !wielderTypes.has(manifestWielder.type)
+  ) {
+    const faction = factions.find((f) => f.id === manifestWielder.faction);
+    if (!faction) continue;
+    try {
+      wielders.push(
+        convertCommander(manifestWielder, faction.languageKey)
+      );
+      console.log(`Added DLC wielder: ${manifestWielder.type} (${faction.languageKey})`);
+    } catch (e) {
+      console.warn(`Could not convert wielder ${manifestWielder.type}: ${e.message}`);
+    }
+  }
+}
 
 await writeJSONFile(wielders, "../../lib/collections/wielders");
 
@@ -407,29 +495,41 @@ const units = factionsSrc
       .map((unit) => ({
         faction: factionSrc.languageKey,
         vanilla: getUnitType(unit.vanilla),
-        upgraded: unit.upgraded.languageKey ? getUnitType(unit.upgraded) : null,
-        superUpgraded: unit.superUpgraded.languageKey
+        upgraded: unit.upgraded?.languageKey ? getUnitType(unit.upgraded) : null,
+        superUpgraded: unit.superUpgraded?.languageKey
           ? getUnitType(unit.superUpgraded)
+          : null,
+        arcanaUpgraded: unit.arcanaUpgraded?.languageKey
+          ? getUnitType(unit.arcanaUpgraded)
+          : null,
+        creationUpgraded: unit.creationUpgraded?.languageKey
+          ? getUnitType(unit.creationUpgraded)
+          : null,
+        orderUpgraded: unit.orderUpgraded?.languageKey
+          ? getUnitType(unit.orderUpgraded)
           : null,
       }))
   )
   .flat();
 
 await writeJSONFile(units, "../../lib/collections/units");
+const UPGRADE_KEYS = [
+  "upgraded",
+  "superUpgraded",
+  "arcanaUpgraded",
+  "creationUpgraded",
+  "orderUpgraded",
+];
 for (const unit of units) {
   if (!unit.vanilla.sprite?.spriteSheet) {
     console.log(`Missing sprite for ${unit.vanilla.languageKey}`);
     continue;
   }
   await copyImageFile(unit.vanilla.sprite.spriteSheet, "../public/units");
-  if (unit.upgraded?.sprite?.spriteSheet) {
-    await copyImageFile(unit.upgraded.sprite.spriteSheet, "../public/units");
-  }
-  if (unit.superUpgraded) {
-    await copyImageFile(
-      unit.superUpgraded.sprite.spriteSheet,
-      "../public/units"
-    );
+  for (const key of UPGRADE_KEYS) {
+    if (unit[key]?.sprite?.spriteSheet) {
+      await copyImageFile(unit[key].sprite.spriteSheet, "../public/units");
+    }
   }
 }
 
@@ -530,6 +630,8 @@ for (const buildSite of buildSites) {
     factionId = 5;
   } else if (buildSite.nameKey.startsWith("Roots")) {
     factionId = 6;
+  } else if (buildSite.nameKey.startsWith("Yulan")) {
+    factionId = 7;
   } else {
     console.warn(`Unknown faction for ${buildSite.nameKey}`);
     continue;
@@ -570,9 +672,14 @@ for (const buildSite of buildSites) {
                 return null;
               }
               const upgradeType = UNIT_TYPES[troopIncome.reference.upgradeType];
-
-              const unit =
-                faction.units[troopIncome.reference.unitIndex][upgradeType];
+              const unitEntry = faction.units[troopIncome.reference.unitIndex];
+              if (!unitEntry) {
+                return null;
+              }
+              const unit = unitEntry[upgradeType];
+              if (!unit) {
+                return null;
+              }
               return {
                 factionKey: faction.languageKey,
                 upgradeType,

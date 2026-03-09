@@ -549,7 +549,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -672,7 +675,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -847,7 +853,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -1014,7 +1023,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -1189,7 +1201,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -1352,7 +1367,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       }
     ]
   },
@@ -1665,7 +1683,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_1_Militia_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 346,
             "y": 87,
             "width": 25,
@@ -1720,7 +1738,7 @@
           "languageKey": "Sapper",
           "sprite": {
             "name": "ArleonHostiles_Idle_7_Sapper_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 395,
             "y": 160,
             "width": 27,
@@ -1771,7 +1789,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -1886,7 +1907,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_25_Ranger_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 167,
             "y": 190,
             "width": 33,
@@ -1953,7 +1974,7 @@
           "languageKey": "Archer",
           "sprite": {
             "name": "ArleonHostiles_Idle_31_Archer_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 67,
             "y": 116,
             "width": 36.881676,
@@ -2024,7 +2045,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -2139,7 +2163,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_13_Minstrel_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 284,
             "y": 74,
             "width": 21,
@@ -2190,7 +2214,7 @@
           "languageKey": "Troubadour",
           "sprite": {
             "name": "ArleonHostiles_Idle_19_Troubadour_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 220,
             "y": 85,
             "width": 21,
@@ -2233,7 +2257,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -2336,7 +2363,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_37_Footman_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 395,
             "y": 202,
             "width": 31,
@@ -2411,7 +2438,7 @@
           "languageKey": "ShieldOfOrder",
           "sprite": {
             "name": "ArleonHostiles_Idle_43_ShieldOfOrder_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 335,
             "y": 203,
             "width": 31,
@@ -2474,14 +2501,17 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
           "languageKey": "Knight",
           "sprite": {
             "name": "ArleonKnight_Default_1_Idle_1",
-            "spriteSheet": "ArleonKnightAtlas_0.png",
+            "spriteSheet": "ArleonKnightAtlas.png",
             "x": 458,
             "y": 663,
             "width": 83,
@@ -2673,7 +2703,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_49_Knight_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 0,
             "y": 374,
             "width": 51,
@@ -2770,7 +2800,7 @@
           "languageKey": "FistOfOrder",
           "sprite": {
             "name": "ArleonHostiles_Idle_55_FistOfOrder_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 228,
             "y": 444,
             "width": 47,
@@ -2861,7 +2891,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -3004,7 +3037,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_69_HornedOne_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 143,
             "y": 288,
             "width": 39,
@@ -3091,7 +3124,7 @@
           "languageKey": "QueensGuard",
           "sprite": {
             "name": "ArleonHostiles_Idle_75_QueensGuard_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 343,
             "y": 322,
             "width": 39,
@@ -3174,7 +3207,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -3341,7 +3377,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_61_FaeySpirit_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 0.05131668,
             "y": 91.07612,
             "width": 45.921932,
@@ -3408,7 +3444,7 @@
           "languageKey": "FaeyRager",
           "sprite": {
             "name": "ArleonHostiles_Idle_65_FaeyRager_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 455,
             "y": 331,
             "width": 45.973248,
@@ -3471,7 +3507,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -3654,7 +3693,7 @@
           },
           "adventureSprite": {
             "name": "ArleonHostiles_Idle_81_FaeyNoble_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 289,
             "y": 387,
             "width": 44,
@@ -3729,7 +3768,7 @@
           "languageKey": "FaeyQueen",
           "sprite": {
             "name": "ArleonHostiles_Idle_87_FaeyQueen_1",
-            "spriteSheet": "ArleonHostilesAtlas_0.png",
+            "spriteSheet": "ArleonHostilesAtlas.png",
             "x": 259,
             "y": 340,
             "width": 49,
@@ -3804,7 +3843,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -3927,7 +3969,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       }
     ]
   },
@@ -4148,6 +4193,17 @@
           "width": 159,
           "height": 204
         }
+      },
+      {
+        "type": "Kastus",
+        "portrait": {
+          "name": "KastusPortrait",
+          "spriteSheet": "LothWielderPortraits_0.png",
+          "x": 190,
+          "y": 85,
+          "width": 193,
+          "height": 215
+        }
       }
     ],
     "units": [
@@ -4330,7 +4386,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -4599,7 +4658,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -4756,7 +4818,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -4941,7 +5006,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -5140,7 +5208,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -5539,7 +5610,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -5754,7 +5828,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -6363,7 +6440,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -6518,7 +6598,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -6641,7 +6724,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       }
     ]
   },
@@ -7028,7 +7114,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -7273,7 +7362,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -7490,7 +7582,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -7781,7 +7876,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -8134,7 +8232,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -8369,7 +8470,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -8622,7 +8726,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -8927,7 +9034,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -9050,7 +9160,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       }
     ]
   },
@@ -9509,7 +9622,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -9814,7 +9930,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -10055,7 +10174,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -10416,7 +10538,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -10669,7 +10794,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -10970,7 +11098,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -11287,7 +11418,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -11674,7 +11808,10 @@
               ]
             ]
           }
-        }
+        },
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -11797,7 +11934,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       }
     ]
   },
@@ -12232,7 +12372,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -12461,7 +12604,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -12638,7 +12784,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -12899,7 +13048,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -13266,7 +13418,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -13695,7 +13850,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -13904,7 +14062,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -14153,7 +14314,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -14268,7 +14432,10 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       }
     ]
   },
@@ -14679,7 +14846,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -14912,7 +15082,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -15141,7 +15314,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -15436,7 +15612,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -15733,7 +15912,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -15982,7 +16164,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -16371,7 +16556,10 @@
             ]
           }
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -16560,7 +16748,10 @@
         "upgraded": {
           "languageKey": "RootsOfTheMother"
         },
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       },
       {
         "vanilla": {
@@ -16687,8 +16878,232 @@
           }
         },
         "upgraded": null,
-        "superUpgraded": null
+        "superUpgraded": null,
+        "arcanaUpgraded": null,
+        "creationUpgraded": null,
+        "orderUpgraded": null
       }
     ]
+  },
+  {
+    "id": 7,
+    "type": "Yulan",
+    "languageKey": "Yulan",
+    "bannerSprite": {
+      "name": "BannerColorable",
+      "spriteSheet": "ArleonUI.png",
+      "x": 1436,
+      "y": 1712,
+      "width": 96,
+      "height": 147,
+      "outline": [
+        [
+          {
+            "x": -48,
+            "y": -73.5
+          },
+          {
+            "x": -48,
+            "y": 73.5
+          },
+          {
+            "x": 48,
+            "y": 73.5
+          },
+          {
+            "x": 48,
+            "y": -73.5
+          }
+        ]
+      ]
+    },
+    "symbolSprite": {
+      "name": "TopCircleSymbol",
+      "spriteSheet": "ArleonUI_0.png",
+      "x": 1894,
+      "y": 1863,
+      "width": 82,
+      "height": 91,
+      "outline": [
+        [
+          {
+            "x": -41,
+            "y": -45.5
+          },
+          {
+            "x": -41,
+            "y": 45.5
+          },
+          {
+            "x": 41,
+            "y": 45.5
+          },
+          {
+            "x": 41,
+            "y": -45.5
+          }
+        ]
+      ]
+    },
+    "wielderFrames": [
+      {
+        "name": "HostileArleonFrame",
+        "spriteSheet": "ArleonWielderFrames.png",
+        "x": 316,
+        "y": 682,
+        "width": 310,
+        "height": 340,
+        "outline": [
+          [
+            {
+              "x": -155,
+              "y": -170
+            },
+            {
+              "x": -155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": -170
+            }
+          ]
+        ]
+      },
+      {
+        "name": "ArleonWielderHUDFrame",
+        "spriteSheet": "ArleonWielderFrames.png",
+        "x": 2,
+        "y": 682,
+        "width": 310,
+        "height": 340,
+        "outline": [
+          [
+            {
+              "x": -155,
+              "y": -170
+            },
+            {
+              "x": -155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": 170
+            },
+            {
+              "x": 155,
+              "y": -170
+            }
+          ]
+        ]
+      }
+    ],
+    "commanders": [
+      {
+        "type": "LadyZhengLi",
+        "portrait": {
+          "name": "SilverlinkPortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 396,
+          "y": 524,
+          "width": 147,
+          "height": 227
+        }
+      },
+      {
+        "type": "JinhaiLi",
+        "portrait": {
+          "name": "StoutheartPortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 569,
+          "y": 590,
+          "width": 185,
+          "height": 208
+        }
+      },
+      {
+        "type": "ShanTheUnbroken",
+        "portrait": {
+          "name": "EthyllePortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 288,
+          "y": 755,
+          "width": 277,
+          "height": 269
+        }
+      },
+      {
+        "type": "MinisterQuioming",
+        "portrait": {
+          "name": "StormspirePortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 0,
+          "y": 551,
+          "width": 208,
+          "height": 228
+        }
+      },
+      {
+        "type": "MasterRu",
+        "portrait": {
+          "name": "GnawPortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 0,
+          "y": 783,
+          "width": 284,
+          "height": 241
+        }
+      },
+      {
+        "type": "Meilin",
+        "portrait": {
+          "name": "HammondPortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 569,
+          "y": 802,
+          "width": 191,
+          "height": 222
+        }
+      },
+      {
+        "type": "LordKuangSheng",
+        "portrait": {
+          "name": "PeradinePortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 758,
+          "y": 581,
+          "width": 180,
+          "height": 214
+        }
+      },
+      {
+        "type": "ShunSheng",
+        "portrait": {
+          "name": "RavenfayrePortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 547,
+          "y": 368,
+          "width": 173,
+          "height": 218
+        }
+      },
+      {
+        "type": "YuboTheHowler",
+        "portrait": {
+          "name": "ThornecliffPortrait",
+          "spriteSheet": "ArleonWielderPortraits_0.png",
+          "x": 764,
+          "y": 799,
+          "width": 190,
+          "height": 225
+        }
+      }
+    ],
+    "units": []
   }
 ]

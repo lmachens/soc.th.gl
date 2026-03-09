@@ -74,7 +74,7 @@ const Wielders: NextPage<{ wielders: WielderSimpleDTO[]; icons: IconsDTO }> = ({
               />
             }
             name={wielder.name}
-            subtitle={wielder.factionName}
+            subtitle={wielder.dlc ? `${wielder.factionName} (${wielder.dlc})` : wielder.factionName}
             description={wielder.description}
             href={`/wielders/${wielder.type}`}
           >
@@ -128,7 +128,7 @@ export default Wielders;
 export const getStaticProps = withStaticBase(async (context) => {
   const locale = context.locale!;
 
-  const wielders = getWielders(context.locale!);
+  const wielders = getWielders(context.locale!).filter((w) => w.name);
   const icons = getWielderStatsIcons();
   const terms = {
     sortBy: getSiteTerm("SortBy", locale),

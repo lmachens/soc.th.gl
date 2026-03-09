@@ -5,7 +5,7 @@
       "name": "Precision",
       "spriteSheet": "SkillIcons.png",
       "x": 96,
-      "y": 274,
+      "y": 180,
       "width": 90,
       "height": 90,
       "outline": [
@@ -141,7 +141,7 @@
       "name": "Cunning",
       "spriteSheet": "SkillIcons.png",
       "x": 2,
-      "y": 274,
+      "y": 180,
       "width": 90,
       "height": 90,
       "outline": [
@@ -306,7 +306,7 @@
     "icon": {
       "name": "Guard",
       "spriteSheet": "SkillIcons.png",
-      "x": 378,
+      "x": 472,
       "y": 932,
       "width": 90,
       "height": 90,
@@ -436,7 +436,7 @@
     "icon": {
       "name": "Hand to Hand",
       "spriteSheet": "SkillIcons.png",
-      "x": 472,
+      "x": 566,
       "y": 932,
       "width": 90,
       "height": 90,
@@ -573,7 +573,7 @@
       "name": "Prepared",
       "spriteSheet": "SkillIcons.png",
       "x": 96,
-      "y": 180,
+      "y": 86,
       "width": 90,
       "height": 90,
       "outline": [
@@ -833,7 +833,7 @@
       "name": "Chaos Magic",
       "spriteSheet": "SkillIcons.png",
       "x": 2,
-      "y": 556,
+      "y": 462,
       "width": 90,
       "height": 90,
       "outline": [
@@ -963,7 +963,7 @@
       "name": "Creation Magic",
       "spriteSheet": "SkillIcons.png",
       "x": 2,
-      "y": 368,
+      "y": 274,
       "width": 90,
       "height": 90,
       "outline": [
@@ -1093,7 +1093,7 @@
       "name": "Destruction",
       "spriteSheet": "SkillIcons.png",
       "x": 2,
-      "y": 180,
+      "y": 86,
       "width": 90,
       "height": 90,
       "outline": [
@@ -1223,7 +1223,7 @@
       "name": "Order Magic",
       "spriteSheet": "SkillIcons.png",
       "x": 96,
-      "y": 462,
+      "y": 368,
       "width": 90,
       "height": 90,
       "outline": [
@@ -1353,7 +1353,7 @@
       "name": "Command",
       "spriteSheet": "SkillIcons.png",
       "x": 2,
-      "y": 462,
+      "y": 368,
       "width": 90,
       "height": 90,
       "outline": [
@@ -1645,7 +1645,7 @@
       "name": "Taxes",
       "spriteSheet": "SkillIcons.png",
       "x": 190,
-      "y": 462,
+      "y": 368,
       "width": 90,
       "height": 90,
       "outline": [
@@ -1844,8 +1844,8 @@
     "icon": {
       "name": "Rigor",
       "spriteSheet": "SkillIcons.png",
-      "x": 848,
-      "y": 838,
+      "x": 190,
+      "y": 744,
       "width": 90,
       "height": 90,
       "outline": [
@@ -1948,7 +1948,7 @@
       "name": "March",
       "spriteSheet": "SkillIcons.png",
       "x": 96,
-      "y": 744,
+      "y": 650,
       "width": 90,
       "height": 90,
       "outline": [
@@ -2078,7 +2078,7 @@
       "name": "Melee",
       "spriteSheet": "SkillIcons.png",
       "x": 96,
-      "y": 650,
+      "y": 556,
       "width": 90,
       "height": 90,
       "outline": [
@@ -2214,7 +2214,7 @@
       "name": "Speed of Winds",
       "spriteSheet": "SkillIcons.png",
       "x": 190,
-      "y": 556,
+      "y": 462,
       "width": 90,
       "height": 90,
       "outline": [
@@ -2323,7 +2323,7 @@
       "name": "Scouting",
       "spriteSheet": "SkillIcons.png",
       "x": 190,
-      "y": 744,
+      "y": 650,
       "width": 90,
       "height": 90,
       "outline": [
@@ -2458,7 +2458,7 @@
     "icon": {
       "name": "Levy",
       "spriteSheet": "SkillIcons.png",
-      "x": 754,
+      "x": 848,
       "y": 932,
       "width": 90,
       "height": 90,
@@ -2562,7 +2562,7 @@
       "name": "Magic Resistance",
       "spriteSheet": "SkillIcons.png",
       "x": 96,
-      "y": 838,
+      "y": 744,
       "width": 90,
       "height": 90,
       "outline": [
@@ -2692,7 +2692,7 @@
       "name": "Channeling",
       "spriteSheet": "SkillIcons.png",
       "x": 2,
-      "y": 650,
+      "y": 556,
       "width": 90,
       "height": 90,
       "outline": [
@@ -2821,7 +2821,7 @@
     "icon": {
       "name": "Raider",
       "spriteSheet": "SkillIcons.png",
-      "x": 660,
+      "x": 754,
       "y": 838,
       "width": 90,
       "height": 90,
@@ -2993,7 +2993,7 @@
     "icon": {
       "name": "Learning",
       "spriteSheet": "SkillIcons.png",
-      "x": 660,
+      "x": 754,
       "y": 932,
       "width": 90,
       "height": 90,
@@ -3123,7 +3123,7 @@
     "icon": {
       "name": "Production Glimmerweave",
       "spriteSheet": "SkillIcons.png",
-      "x": 190,
+      "x": 284,
       "y": 838,
       "width": 90,
       "height": 90,
@@ -3220,8 +3220,8 @@
     "icon": {
       "name": "Production Amber",
       "spriteSheet": "SkillIcons.png",
-      "x": 96,
-      "y": 86,
+      "x": 190,
+      "y": 838,
       "width": 90,
       "height": 90,
       "outline": [
@@ -3317,7 +3317,7 @@
     "icon": {
       "name": "Production Ore",
       "spriteSheet": "SkillIcons.png",
-      "x": 284,
+      "x": 378,
       "y": 838,
       "width": 90,
       "height": 90,
@@ -3414,7 +3414,7 @@
     "icon": {
       "name": "Farsight",
       "spriteSheet": "SkillIcons.png",
-      "x": 284,
+      "x": 378,
       "y": 932,
       "width": 90,
       "height": 90,
@@ -3523,7 +3523,7 @@
     "icon": {
       "name": "Production Stone",
       "spriteSheet": "SkillIcons.png",
-      "x": 378,
+      "x": 472,
       "y": 838,
       "width": 90,
       "height": 90,
@@ -3620,7 +3620,7 @@
     "icon": {
       "name": "Production Wood",
       "spriteSheet": "SkillIcons.png",
-      "x": 472,
+      "x": 566,
       "y": 838,
       "width": 90,
       "height": 90,
@@ -3717,8 +3717,8 @@
     "icon": {
       "name": "Eager",
       "spriteSheet": "SkillIcons.png",
-      "x": 2,
-      "y": 86,
+      "x": 96,
+      "y": 932,
       "width": 90,
       "height": 90,
       "outline": [
@@ -3827,7 +3827,7 @@
       "name": "Positioning",
       "spriteSheet": "SkillIcons.png",
       "x": 96,
-      "y": 368,
+      "y": 274,
       "width": 90,
       "height": 90,
       "outline": [
@@ -3956,7 +3956,7 @@
     "icon": {
       "name": "Impressive",
       "spriteSheet": "SkillIcons.png",
-      "x": 566,
+      "x": 660,
       "y": 932,
       "width": 90,
       "height": 90,
@@ -4086,7 +4086,7 @@
     "icon": {
       "name": "Essence Burst",
       "spriteSheet": "SkillIcons.png",
-      "x": 96,
+      "x": 190,
       "y": 932,
       "width": 90,
       "height": 90,
@@ -4238,7 +4238,7 @@
       "name": "Shielded",
       "spriteSheet": "SkillIcons.png",
       "x": 190,
-      "y": 650,
+      "y": 556,
       "width": 90,
       "height": 90,
       "outline": [
@@ -4393,7 +4393,7 @@
       "name": "Tutoring",
       "spriteSheet": "SkillIcons.png",
       "x": 190,
-      "y": 368,
+      "y": 274,
       "width": 90,
       "height": 90,
       "outline": [
@@ -4673,7 +4673,7 @@
     "icon": {
       "name": "Essence Leech",
       "spriteSheet": "SkillIcons.png",
-      "x": 190,
+      "x": 284,
       "y": 932,
       "width": 90,
       "height": 90,
@@ -4801,10 +4801,10 @@
   {
     "type": "GenerateRisen",
     "icon": {
-      "name": "Scouting",
+      "name": "CallOfTheFaithful",
       "spriteSheet": "SkillIcons.png",
-      "x": 190,
-      "y": 744,
+      "x": 2,
+      "y": 650,
       "width": 90,
       "height": 90,
       "outline": [
@@ -4818,16 +4818,16 @@
             "y": 45
           },
           {
-            "x": 3,
+            "x": 4,
             "y": 45
           },
           {
             "x": 45,
-            "y": 3
+            "y": 4
           },
           {
             "x": 45,
-            "y": -4
+            "y": -17
           },
           {
             "x": 4,
@@ -4889,7 +4889,7 @@
           {
             "type": 51,
             "modifier": "CommanderTroopGenerationRisen",
-            "amountToAdd": 3,
+            "amountToAdd": 5,
             "applicationType": 0
           }
         ],
@@ -4916,7 +4916,7 @@
           {
             "type": 51,
             "modifier": "CommanderTroopGenerationRisen",
-            "amountToAdd": 5,
+            "amountToAdd": 10,
             "applicationType": 0
           }
         ],
@@ -4934,7 +4934,7 @@
       "name": "March",
       "spriteSheet": "SkillIcons.png",
       "x": 96,
-      "y": 744,
+      "y": 650,
       "width": 90,
       "height": 90,
       "outline": [
@@ -5063,7 +5063,7 @@
     "icon": {
       "name": "ReapTheHarvets",
       "spriteSheet": "SkillIcons.png",
-      "x": 754,
+      "x": 848,
       "y": 838,
       "width": 90,
       "height": 90,

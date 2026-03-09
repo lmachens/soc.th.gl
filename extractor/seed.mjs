@@ -51,6 +51,25 @@ const promises = manifests.map(async (manifest) => {
 });
 await Promise.all(promises);
 
+console.log(`Processing WielderManifest`);
+const wielderManifest = await readYAMLFile(
+  "./SongsOfConquest/ExportedProject/Assets/MonoBehaviour/WielderManifest.asset"
+);
+const wielders = [];
+for (const ref of wielderManifest.localWielders) {
+  const wielder = await findAssetByGUID(ref);
+  if (wielder) {
+    wielder.type = wielder.mName.replace("Definition", "");
+    // Resolve portrait sprite
+    if (wielder.portrait?.guid) {
+      wielder.portrait = await findAssetByGUID(wielder.portrait);
+    }
+    wielders.push(wielder);
+  }
+}
+console.log(`Found ${wielders.length} wielders`);
+await writeJSONFile(wielders, "wielder");
+
 console.log(`Copying icons`);
 const iconsMeta = await readYAMLFile(
   `./SongsOfConquest/ExportedProject/Assets/Texture2D/Icons.png.meta`

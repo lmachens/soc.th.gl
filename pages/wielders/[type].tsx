@@ -1,7 +1,7 @@
 import { GetStaticPaths, NextPage } from "next";
 import { withStaticBase } from "../../lib/staticProps";
 
-import { Box, Group, Stack, Text, Title } from "@mantine/core";
+import { Badge, Box, Group, Stack, Text, Title } from "@mantine/core";
 import { Fragment } from "react";
 import Lore from "../../components/Lore/Lore";
 import PageHead from "../../components/PageHead/PageHead";
@@ -31,7 +31,19 @@ const Wielder: NextPage<{ wielder: WielderDTO; icons: IconsDTO }> = ({
         <Group>
           <SpriteSheet spriteSheet={wielder.portrait} folder="wielders" />
           <Stack spacing="xs">
-            <Title order={2}>{wielder.name}</Title>
+            <Group spacing="sm" align="center">
+              <Title order={2}>{wielder.name}</Title>
+              {wielder.dlc && (
+                <Badge
+                  variant="outline"
+                  color="yellow"
+                  size="sm"
+                  sx={{ verticalAlign: "middle" }}
+                >
+                  {wielder.dlc}
+                </Badge>
+              )}
+            </Group>
             <Text>
               {wielder.race} {wielder.commanderClassName}
             </Text>
@@ -185,7 +197,7 @@ export const getStaticProps = withStaticBase(async (context) => {
 });
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const wielders = getWielders("en").map((wielder) => ({
+  const wielders = getWielders("en").filter((w) => w.name).map((wielder) => ({
     params: {
       type: wielder.type,
     },

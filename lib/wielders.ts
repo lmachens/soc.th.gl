@@ -16,6 +16,7 @@ export const getWielders = (locale: string): WielderSimpleDTO[] => {
       `${wielder.faction}/${wielder.type}/Description`,
       locale
     ),
+    ...(wielder.dlc ? { dlc: wielder.dlc } : {}),
   }));
   return wielders;
 };
@@ -46,16 +47,31 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
       locale
     ),
     units: wielderSrc.units.map((unit) => {
+      const VARIANT_KEYS = [
+        "vanilla",
+        "upgraded",
+        "superUpgraded",
+        "arcanaUpgraded",
+        "creationUpgraded",
+        "orderUpgraded",
+      ] as const;
       const unitSrc = unitsCollection.find(
         (unitSrc) =>
           unitSrc.faction === wielderSrc.faction &&
-          (unitSrc.vanilla.languageKey === unit.languageKey ||
-            unitSrc.upgraded?.languageKey === unit.languageKey)
+          VARIANT_KEYS.some(
+            (key) =>
+              (unitSrc as any)[key]?.languageKey === unit.languageKey
+          )
       );
-      const sprite =
-        unitSrc!.vanilla.languageKey === unit.languageKey
-          ? unitSrc!.vanilla.sprite
-          : unitSrc!.upgraded!.sprite;
+      const matchedVariant = unitSrc
+        ? VARIANT_KEYS.find(
+            (key) =>
+              (unitSrc as any)[key]?.languageKey === unit.languageKey
+          )
+        : undefined;
+      const sprite = matchedVariant
+        ? (unitSrc as any)[matchedVariant]?.sprite
+        : unitSrc?.vanilla.sprite;
 
       return {
         languageKey: unit.languageKey,
@@ -65,7 +81,7 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
           locale
         ),
         size: unit.size,
-        sprite: sprite,
+        sprite: sprite || null,
       };
     }),
     startingSkills: wielderSrc.startingSkills.map((skill) => ({
@@ -94,6 +110,7 @@ export const getWielder = (type: string, locale: string): WielderDTO | null => {
     specializations: wielderSrc.specializations.map((specialization) =>
       getLocaleBacteria(specialization, locale)
     ),
+    ...(wielderSrc.dlc ? { dlc: wielderSrc.dlc } : {}),
   };
 
   return wielder;
@@ -105,6 +122,7 @@ export type WielderSimpleDTO = {
   portrait: SpriteDTO;
   name: string;
   description: string;
+  dlc?: string;
   stats: {
     defense: number;
     offense: number;
@@ -160,4 +178,5 @@ export type WielderDTO = {
     sprite?: SpriteDTO;
   }[];
   specializations: BacteriaDTO[];
+  dlc?: string;
 };

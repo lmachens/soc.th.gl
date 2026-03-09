@@ -15239,7 +15239,7 @@
         "icon": {
           "name": "ResearchScholarSmall",
           "spriteSheet": "LothIcons.png",
-          "x": 344,
+          "x": 572,
           "y": 570,
           "width": 110,
           "height": 110,
@@ -16733,8 +16733,8 @@
         "icon": {
           "name": "ResearchToxocologistPlus",
           "spriteSheet": "LothIcons.png",
-          "x": 800,
-          "y": 570,
+          "x": 116,
+          "y": 456,
           "width": 110,
           "height": 110,
           "outline": [
@@ -16947,7 +16947,7 @@
         "icon": {
           "name": "ResearchScholarPlus",
           "spriteSheet": "LothIcons.png",
-          "x": 230,
+          "x": 458,
           "y": 570,
           "width": 110,
           "height": 110,
@@ -17375,7 +17375,7 @@
         "icon": {
           "name": "ResearchSpectrePlus",
           "spriteSheet": "LothIcons.png",
-          "x": 572,
+          "x": 800,
           "y": 570,
           "width": 110,
           "height": 110,
@@ -17995,6 +17995,193 @@
                         "troop": {
                           "faction": "Loth",
                           "languageKey": "HighLegion",
+                          "size": 0
+                        },
+                        "status": "Human"
+                      }
+                    ]
+                  }
+                ],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": "Permanent"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nameKey": "Loth/Research/LibraryOfAurelia/Undead/RisenStackSize",
+        "descriptionKey": null,
+        "icon": {
+          "name": "ResearchRisenPlus",
+          "spriteSheet": "LothIcons.png",
+          "x": 230,
+          "y": 570,
+          "width": 110,
+          "height": 110,
+          "outline": [
+            [
+              {
+                "x": -55,
+                "y": -55
+              },
+              {
+                "x": -55,
+                "y": 55
+              },
+              {
+                "x": 55,
+                "y": 55
+              },
+              {
+                "x": 55,
+                "y": -55
+              }
+            ]
+          ]
+        },
+        "research": [
+          {
+            "id": 839,
+            "nameKey": "Loth/Research/LibraryOfAurelia/Undead/OathboundStackSize1",
+            "descriptionKey": null,
+            "costEntries": [
+              {
+                "type": "AncientAmber",
+                "amount": 5
+              }
+            ],
+            "bacterias": [
+              {
+                "bacteriaType": 1700,
+                "type": "LothLibraryOfAureliaRisenStackSizeBacteria1",
+                "customEffect": "None",
+                "customEffectValue": 0,
+                "auraSettings": {
+                  "recipients": "Friends",
+                  "hexRadius": 1,
+                  "bacteriaToAdd": null,
+                  "isStackable": 1,
+                  "isPassable": 1,
+                  "isSingleShot": 0
+                },
+                "modifierData": [
+                  {
+                    "type": 36,
+                    "modifier": "TroopMaxTroopSize",
+                    "amountToAdd": 50,
+                    "applicationType": 0,
+                    "filterEvaluation": 1,
+                    "filters": [
+                      {
+                        "filterType": 2,
+                        "troop": {
+                          "faction": "Loth",
+                          "languageKey": "Risen",
+                          "size": 0
+                        },
+                        "status": "Human"
+                      }
+                    ]
+                  }
+                ],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": "Permanent"
+                }
+              }
+            ]
+          },
+          {
+            "id": 840,
+            "nameKey": "Loth/Research/LibraryOfAurelia/Undead/OathboundStackSize1",
+            "descriptionKey": null,
+            "costEntries": [
+              {
+                "type": "AncientAmber",
+                "amount": 5
+              }
+            ],
+            "bacterias": [
+              {
+                "bacteriaType": 1701,
+                "type": "LothLibraryOfAureliaRisenStackSizeBacteria2",
+                "customEffect": "None",
+                "customEffectValue": 0,
+                "auraSettings": {
+                  "recipients": "Friends",
+                  "hexRadius": 1,
+                  "bacteriaToAdd": null,
+                  "isStackable": 1,
+                  "isPassable": 1,
+                  "isSingleShot": 0
+                },
+                "modifierData": [
+                  {
+                    "type": 36,
+                    "modifier": "TroopMaxTroopSize",
+                    "amountToAdd": 50,
+                    "applicationType": 0,
+                    "filterEvaluation": 1,
+                    "filters": [
+                      {
+                        "filterType": 2,
+                        "troop": {
+                          "faction": "Loth",
+                          "languageKey": "Risen",
+                          "size": 0
+                        },
+                        "status": "Human"
+                      }
+                    ]
+                  }
+                ],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": "Permanent"
+                }
+              }
+            ]
+          },
+          {
+            "id": 841,
+            "nameKey": "Loth/Research/LibraryOfAurelia/Undead/OathboundStackSize1",
+            "descriptionKey": null,
+            "costEntries": [
+              {
+                "type": "AncientAmber",
+                "amount": 5
+              }
+            ],
+            "bacterias": [
+              {
+                "bacteriaType": 1702,
+                "type": "LothLibraryOfAureliaRisenStackSizeBacteria3",
+                "customEffect": "None",
+                "customEffectValue": 0,
+                "auraSettings": {
+                  "recipients": "Friends",
+                  "hexRadius": 1,
+                  "bacteriaToAdd": null,
+                  "isStackable": 1,
+                  "isPassable": 1,
+                  "isSingleShot": 0
+                },
+                "modifierData": [
+                  {
+                    "type": 36,
+                    "modifier": "TroopMaxTroopSize",
+                    "amountToAdd": 50,
+                    "applicationType": 0,
+                    "filterEvaluation": 1,
+                    "filters": [
+                      {
+                        "filterType": 2,
+                        "troop": {
+                          "faction": "Loth",
+                          "languageKey": "Risen",
                           "size": 0
                         },
                         "status": "Human"
@@ -20431,8 +20618,8 @@
         "icon": {
           "name": "ResearchToxocologist",
           "spriteSheet": "LothIcons.png",
-          "x": 686,
-          "y": 570,
+          "x": 2,
+          "y": 456,
           "width": 110,
           "height": 110,
           "outline": [
@@ -20658,7 +20845,7 @@
         "icon": {
           "name": "ResearchScholar",
           "spriteSheet": "LothIcons.png",
-          "x": 116,
+          "x": 344,
           "y": 570,
           "width": 110,
           "height": 110,
@@ -21103,7 +21290,7 @@
         "icon": {
           "name": "ResearchSpectre",
           "spriteSheet": "LothIcons.png",
-          "x": 458,
+          "x": 686,
           "y": 570,
           "width": 110,
           "height": 110,
@@ -21731,10 +21918,10 @@
         "nameKey": "Loth/Research/TheUnseenSociety/Troops/Risen",
         "descriptionKey": null,
         "icon": {
-          "name": "ResearchFootmen",
-          "spriteSheet": "ArleonIcons.png",
-          "x": 2,
-          "y": 798,
+          "name": "ResearchRisen",
+          "spriteSheet": "LothIcons.png",
+          "x": 116,
+          "y": 570,
           "width": 110,
           "height": 110,
           "outline": [
@@ -21769,7 +21956,48 @@
                 "amount": 10
               }
             ],
-            "bacterias": []
+            "bacterias": [
+              {
+                "bacteriaType": 1260,
+                "type": "ResearchLungingRisen",
+                "modifierData": [],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": "Permanent"
+                },
+                "settings": {
+                  "bacterias": [
+                    {
+                      "bacteriaType": 1214,
+                      "type": "TroopAbilityLunge",
+                      "customEffect": "None",
+                      "customEffectValue": 0,
+                      "auraSettings": {
+                        "recipients": "Friends",
+                        "hexRadius": 1,
+                        "bacteriaToAdd": null,
+                        "isStackable": 1,
+                        "isPassable": 1,
+                        "isSingleShot": 0
+                      },
+                      "modifierData": [
+                        {
+                          "type": 5,
+                          "modifier": "TroopMeleeOffense",
+                          "amountToAdd": 10,
+                          "applicationType": 0
+                        }
+                      ],
+                      "resourcesIncome": [],
+                      "duration": {
+                        "type": "Permanent",
+                        "duration": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
           },
           {
             "id": 571,
