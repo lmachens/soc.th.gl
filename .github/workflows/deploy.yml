@@ -1,0 +1,129 @@
+name: Deploy soc.th.gl Container
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-soc
+  cancel-in-progress: true
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository_owner }}/soc-th-gl
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set image name lowercase
+        run: echo "IMAGE_NAME_LC=${IMAGE_NAME,,}" >> $GITHUB_ENV
+
+      - name: Log in to Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and push
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME_LC }}:latest
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME_LC }}:${{ github.sha }}
+          platforms: linux/amd64
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      # Point the Magic Container at the freshly-built image. Gated on
+      # the app id var so the first build (before the MC app exists)
+      # just publishes the image to GHCR without trying to deploy.
+      - name: Update Magic Container
+        if: vars.BUNNY_SOC_APP_ID != ''
+        env:
+          APP_ID: ${{ vars.BUNNY_SOC_APP_ID }}
+          API_KEY: ${{ secrets.BUNNY_ACCOUNT_API_KEY }}
+          CONTAINER_NAME: ${{ vars.BUNNY_SOC_CONTAINER_NAME }}
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+
+          APP_JSON=$(curl -fsS -H "AccessKey: $API_KEY" \
+            "https://api.bunny.net/mc/apps/$APP_ID")
+          CONTAINER_ID=$(echo "$APP_JSON" \
+            | jq -r --arg n "$CONTAINER_NAME" \
+                '.containerTemplates[] | select(.name == $n) | .id')
+          if [ -z "$CONTAINER_ID" ] || [ "$CONTAINER_ID" = "null" ]; then
+            echo "Container '$CONTAINER_NAME' not found in app $APP_ID" >&2
+            exit 1
+          fi
+          echo "Updating container '$CONTAINER_NAME' ($CONTAINER_ID) → $IMAGE_TAG"
+
+          BODY=$(jq -nc --arg id "$CONTAINER_ID" --arg tag "$IMAGE_TAG" \
+            '{id: $id, imageTag: $tag}')
+
+          for attempt in 1 2 3 4 5; do
+            HTTP=$(curl -s -o /tmp/resp.txt -w "%{http_code}" -X PATCH \
+              -H "AccessKey: $API_KEY" -H "Content-Type: application/json" \
+              -d "$BODY" \
+              "https://api.bunny.net/mc/apps/$APP_ID/containers/$CONTAINER_ID")
+            if [ "$HTTP" = "200" ] || [ "$HTTP" = "204" ]; then
+              echo "Update succeeded on attempt $attempt"; break
+            fi
+            echo "Attempt $attempt: HTTP $HTTP"; cat /tmp/resp.txt; echo
+            if [ "$HTTP" -lt 500 ] && [ "$HTTP" != "429" ]; then
+              echo "Non-retryable error, giving up" >&2; exit 1
+            fi
+            if [ "$attempt" = "5" ]; then
+              echo "Update failed after 5 attempts" >&2; exit 1
+            fi
+            sleep $((attempt * 10))
+          done
+
+      # Bunny's deploy placeholder is served with Cache-Control:
+      # max-age=25600000 (~296 days). An edge that serves a request
+      # mid-rollout caches it for ~10 months. Purge after the new
+      # container is live so every edge re-pulls the real app.
+      - name: Wait for rollout and purge edge cache
+        if: vars.BUNNY_SOC_APP_ID != '' && vars.BUNNY_SOC_PULLZONE_ID != ''
+        env:
+          API_KEY: ${{ secrets.BUNNY_ACCOUNT_API_KEY }}
+          PULL_ZONE_ID: ${{ vars.BUNNY_SOC_PULLZONE_ID }}
+          PROBE_URL: "https://soc.th.gl/"
+        run: |
+          set -uo pipefail
+          purge() {
+            curl -s -o /dev/null -w "purge HTTP %{http_code}\n" -X POST \
+              -H "AccessKey: $API_KEY" \
+              "https://api.bunny.net/pullzone/$PULL_ZONE_ID/purgeCache"
+          }
+          clean=0; live=0
+          for i in $(seq 1 90); do
+            body=$(curl -fsS --max-time 10 "$PROBE_URL" 2>/dev/null || true)
+            if [ -n "$body" ] && ! printf '%s' "$body" | grep -q "We're deploying your app"; then
+              clean=$((clean + 1)); echo "Clean response $clean/3 (poll $i)"
+              if [ "$clean" -ge 3 ]; then live=1; break; fi
+            else
+              clean=0; echo "Still deploying or unreachable (poll $i)"
+            fi
+            sleep 10
+          done
+          [ "$live" = "1" ] || echo "::warning::App not confirmed healthy within ~15min; purging anyway"
+          purge
+          sleep 60
+          purge
+          echo "Edge cache purged"

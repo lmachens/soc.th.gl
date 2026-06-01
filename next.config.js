@@ -2,6 +2,8 @@ const locales = require("./lib/collections/locale.json");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Standalone server output for the Bunny Magic Container deployment.
+  output: "standalone",
   reactStrictMode: true,
   i18n: {
     // These are all the locales you want to support in

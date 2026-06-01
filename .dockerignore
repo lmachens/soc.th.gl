@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.git
+.github
+extractor
+overwolf
+*.md
+Dockerfile
+.dockerignore
+.env*
+npm-debug.log*
