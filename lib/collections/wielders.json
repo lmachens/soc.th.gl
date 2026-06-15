@@ -15867,7 +15867,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "NimanderBreeze",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 552,
       "y": 12,
       "width": 145,
@@ -16748,7 +16748,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Mehry",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 618,
       "y": 268,
       "width": 195,
@@ -17494,7 +17494,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Silkspool",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 199,
       "width": 218,
@@ -18354,7 +18354,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Aleah",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 425,
       "y": 240,
       "width": 191,
@@ -19286,7 +19286,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Bihgli",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 1,
       "y": 1,
       "width": 184,
@@ -20002,7 +20002,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Everthink",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 387,
       "y": 35,
       "width": 163,
@@ -20722,7 +20722,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Rosewater",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 699,
       "y": 65,
       "width": 157,
@@ -21654,7 +21654,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Sanaz",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 221,
       "y": 241,
       "width": 202,
@@ -22526,7 +22526,7 @@
     "faction": "Barya",
     "portrait": {
       "name": "Soughtfor",
-      "spriteSheet": "BaryaWielderPortraitsAtlas_1.png",
+      "spriteSheet": "BaryaWielderPortraitsAtlas_0.png",
       "x": 221,
       "y": 40,
       "width": 164,
@@ -47082,17 +47082,17 @@
     "dlc": "Symbiosis"
   },
   {
-    "type": "LadyZhengLi",
-    "commanderClass": "Commander",
+    "type": "LadyLiZheng",
+    "commanderClass": "LiWielder",
     "race": "Human",
     "faction": "Yulan",
     "portrait": {
-      "name": "SilverlinkPortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 396,
-      "y": 524,
-      "width": 147,
-      "height": 227
+      "name": "YulanLadyLiPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 432,
+      "y": 21,
+      "width": 175,
+      "height": 220
     },
     "stats": {
       "defense": 10,
@@ -47889,12 +47889,12 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
-        "size": 1
+        "languageKey": "LiMandateGuard",
+        "size": 5
       },
       {
-        "languageKey": "Unknown",
-        "size": 2
+        "languageKey": "Conscript",
+        "size": 10
       }
     ],
     "specializations": [
@@ -47928,17 +47928,17 @@
     ]
   },
   {
-    "type": "JinhaiLi",
-    "commanderClass": "Commander",
+    "type": "LiJinhai",
+    "commanderClass": "LiWielder",
     "race": "Human",
     "faction": "Yulan",
     "portrait": {
-      "name": "StoutheartPortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 569,
-      "y": 590,
-      "width": 185,
-      "height": 208
+      "name": "YulanLiJinhaiPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 0,
+      "y": 12,
+      "width": 206,
+      "height": 228
     },
     "stats": {
       "defense": 10,
@@ -48735,12 +48735,12 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
-        "size": 10
+        "languageKey": "LiYi",
+        "size": 1
       },
       {
-        "languageKey": "Unknown",
-        "size": 5
+        "languageKey": "Rider",
+        "size": 2
       }
     ],
     "specializations": [
@@ -48787,16 +48787,16 @@
   },
   {
     "type": "ShanTheUnbroken",
-    "commanderClass": "Erudite",
-    "race": "Faey",
+    "commanderClass": "LiWielder",
+    "race": "Transcendent",
     "faction": "Yulan",
     "portrait": {
-      "name": "EthyllePortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 288,
-      "y": 755,
-      "width": 277,
-      "height": 269
+      "name": "YulanShanTheUnbrokenPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 717,
+      "y": 305,
+      "width": 171,
+      "height": 207
     },
     "stats": {
       "defense": 5,
@@ -49593,12 +49593,12 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
+        "languageKey": "LiSeeker",
         "size": 1
       },
       {
-        "languageKey": "Unknown",
-        "size": 7
+        "languageKey": "LiMandateGuard",
+        "size": 3
       }
     ],
     "specializations": [
@@ -49633,16 +49633,16 @@
   },
   {
     "type": "MinisterQuioming",
-    "commanderClass": "Erudite",
-    "race": "Faey",
+    "commanderClass": "XuanWielder",
+    "race": "Human",
     "faction": "Yulan",
     "portrait": {
-      "name": "StormspirePortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 0,
-      "y": 551,
-      "width": 208,
-      "height": 228
+      "name": "YulanMinistQuiomingPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 549,
+      "y": 293,
+      "width": 164,
+      "height": 219
     },
     "stats": {
       "defense": 5,
@@ -50457,77 +50457,54 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
-        "size": 4
+        "languageKey": "Jiuweihu",
+        "size": 3
       },
       {
-        "languageKey": "Unknown",
-        "size": 4
+        "languageKey": "Jiuweihu",
+        "size": 2
       }
     ],
     "specializations": [
       {
-        "bacteriaType": 1713,
-        "type": "SpecializationHuHP",
-        "customEffect": "None",
-        "customEffectValue": 0,
-        "auraSettings": {
-          "recipients": "Friends",
-          "hexRadius": 1,
-          "bacteriaToAdd": null,
-          "isStackable": 1,
-          "isPassable": 1,
-          "isSingleShot": 0
-        },
-        "modifierData": [
-          {
-            "type": 13,
-            "modifier": "TroopHealth",
-            "amountToAdd": 5,
-            "applicationType": 0,
-            "filterEvaluation": 0,
-            "filters": [
-              {
-                "filterType": 2,
-                "troop": {
-                  "faction": "Yulan",
-                  "languageKey": "Unknown",
-                  "size": 0
-                },
-                "status": "Human"
-              },
-              {
-                "filterType": 2,
-                "troop": {
-                  "faction": "Yulan",
-                  "languageKey": "Unknown",
-                  "size": 0
-                },
-                "status": "Human"
-              }
-            ]
-          }
-        ],
+        "bacteriaType": 1723,
+        "type": "SpecializationHuBackstabber",
+        "modifierData": [],
         "resourcesIncome": [],
         "duration": {
           "type": "Permanent",
           "duration": 0
+        },
+        "settings": {
+          "bacterias": [
+            {
+              "bacteriaType": 801,
+              "type": "TraitBackstabber",
+              "restriction": "CantBeRetaliatedOn",
+              "modifierData": [],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "Permanent",
+                "duration": 0
+              }
+            }
+          ]
         }
       }
     ]
   },
   {
     "type": "MasterRu",
-    "commanderClass": "Erudite",
-    "race": "Faey",
+    "commanderClass": "XuanWielder",
+    "race": "Human",
     "faction": "Yulan",
     "portrait": {
-      "name": "GnawPortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 0,
-      "y": 783,
-      "width": 284,
-      "height": 241
+      "name": "YulanMasterRuPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 815,
+      "y": 97,
+      "width": 189,
+      "height": 204
     },
     "stats": {
       "defense": 0,
@@ -51342,11 +51319,7 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
-        "size": 5
-      },
-      {
-        "languageKey": "Unknown",
+        "languageKey": "Tian",
         "size": 5
       }
     ],
@@ -51379,16 +51352,16 @@
   },
   {
     "type": "Meilin",
-    "commanderClass": "Commander",
-    "race": "Human",
+    "commanderClass": "XuanWielder",
+    "race": "Transcendent",
     "faction": "Yulan",
     "portrait": {
-      "name": "HammondPortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 569,
-      "y": 802,
-      "width": 191,
-      "height": 222
+      "name": "YulanMeilinPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 0,
+      "y": 244,
+      "width": 263,
+      "height": 268
     },
     "stats": {
       "defense": 10,
@@ -52203,12 +52176,12 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
-        "size": 4
+        "languageKey": "XuanSeeker",
+        "size": 1
       },
       {
-        "languageKey": "Unknown",
-        "size": 1
+        "languageKey": "Hu",
+        "size": 3
       }
     ],
     "specializations": [
@@ -52242,17 +52215,17 @@
     ]
   },
   {
-    "type": "LordKuangSheng",
-    "commanderClass": "Warden",
+    "type": "LordShengKuang",
+    "commanderClass": "ShengWielder",
     "race": "Human",
     "faction": "Yulan",
     "portrait": {
-      "name": "PeradinePortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 758,
-      "y": 581,
-      "width": 180,
-      "height": 214
+      "name": "YulanLordShengKuangPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 611,
+      "y": 76,
+      "width": 200,
+      "height": 213
     },
     "stats": {
       "defense": 5,
@@ -52965,16 +52938,12 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
+        "languageKey": "Feng",
         "size": 1
       },
       {
-        "languageKey": "Unknown",
-        "size": 8
-      },
-      {
-        "languageKey": "Unknown",
-        "size": 4
+        "languageKey": "ShengMandateGuard",
+        "size": 6
       }
     ],
     "specializations": [
@@ -53005,17 +52974,17 @@
     ]
   },
   {
-    "type": "ShunSheng",
-    "commanderClass": "Warden",
+    "type": "ShengShun",
+    "commanderClass": "ShengWielder",
     "race": "Human",
     "faction": "Yulan",
     "portrait": {
-      "name": "RavenfayrePortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 547,
-      "y": 368,
-      "width": 173,
-      "height": 218
+      "name": "YulanShengShunPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 210,
+      "y": 16,
+      "width": 218,
+      "height": 224
     },
     "stats": {
       "defense": 0,
@@ -53728,11 +53697,11 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
-        "size": 6
+        "languageKey": "Grenadier",
+        "size": 5
       },
       {
-        "languageKey": "Unknown",
+        "languageKey": "Grenadier",
         "size": 5
       }
     ],
@@ -53765,16 +53734,16 @@
   },
   {
     "type": "YuboTheHowler",
-    "commanderClass": "Warden",
-    "race": "Human",
+    "commanderClass": "ShengWielder",
+    "race": "Transcendent",
     "faction": "Yulan",
     "portrait": {
-      "name": "ThornecliffPortrait",
-      "spriteSheet": "ArleonWielderPortraits_0.png",
-      "x": 764,
-      "y": 799,
-      "width": 190,
-      "height": 225
+      "name": "YulanYuboTheHowlerPortrait",
+      "spriteSheet": "YulanWielderPortraitsAtlas_0.png",
+      "x": 267,
+      "y": 245,
+      "width": 278,
+      "height": 267
     },
     "stats": {
       "defense": 5,
@@ -54487,11 +54456,11 @@
     ],
     "units": [
       {
-        "languageKey": "Unknown",
+        "languageKey": "Seeker",
         "size": 1
       },
       {
-        "languageKey": "Unknown",
+        "languageKey": "ShengSeeker",
         "size": 1
       }
     ],
@@ -54511,17 +54480,17 @@
         },
         "modifierData": [
           {
-            "type": 13,
-            "modifier": "TroopHealth",
-            "amountToAdd": 5,
+            "type": 24,
+            "modifier": "TroopEssenceCreation",
+            "amountToAdd": 1,
             "applicationType": 0,
-            "filterEvaluation": 0,
+            "filterEvaluation": 1,
             "filters": [
               {
                 "filterType": 2,
                 "troop": {
                   "faction": "Yulan",
-                  "languageKey": "Unknown",
+                  "languageKey": "Seeker",
                   "size": 0
                 },
                 "status": "Human"
@@ -54530,7 +54499,7 @@
                 "filterType": 2,
                 "troop": {
                   "faction": "Yulan",
-                  "languageKey": "Unknown",
+                  "languageKey": "ShengSeeker",
                   "size": 0
                 },
                 "status": "Human"
@@ -54539,7 +54508,7 @@
                 "filterType": 2,
                 "troop": {
                   "faction": "Yulan",
-                  "languageKey": "Unknown",
+                  "languageKey": "XuanSeeker",
                   "size": 0
                 },
                 "status": "Human"
@@ -54548,7 +54517,7 @@
                 "filterType": 2,
                 "troop": {
                   "faction": "Yulan",
-                  "languageKey": "Unknown",
+                  "languageKey": "LiSeeker",
                   "size": 0
                 },
                 "status": "Human"
