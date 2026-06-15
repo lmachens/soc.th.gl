@@ -127,37 +127,37 @@ const factions = factionsSrc.map((factionSrc) => ({
     .map((unit) => ({
       vanilla: {
         languageKey: unit.vanilla.languageKey,
-        sprite: unit.vanilla.visuals?.prefab.sprite,
-        adventureSprite: unit.vanilla.visuals?.adventurePrefab.sprite,
+        sprite: unit.vanilla.visuals?.prefab?.sprite,
+        adventureSprite: unit.vanilla.visuals?.adventurePrefab?.sprite,
       },
       upgraded: unit.upgraded?.languageKey
         ? {
             languageKey: unit.upgraded.languageKey,
-            sprite: unit.upgraded.visuals?.adventurePrefab.sprite,
+            sprite: unit.upgraded.visuals?.adventurePrefab?.sprite,
           }
         : null,
       superUpgraded: unit.superUpgraded?.languageKey
         ? {
             languageKey: unit.superUpgraded.languageKey,
-            sprite: unit.superUpgraded.visuals?.adventurePrefab.sprite,
+            sprite: unit.superUpgraded.visuals?.adventurePrefab?.sprite,
           }
         : null,
       arcanaUpgraded: unit.arcanaUpgraded?.languageKey
         ? {
             languageKey: unit.arcanaUpgraded.languageKey,
-            sprite: unit.arcanaUpgraded.visuals?.adventurePrefab.sprite,
+            sprite: unit.arcanaUpgraded.visuals?.adventurePrefab?.sprite,
           }
         : null,
       creationUpgraded: unit.creationUpgraded?.languageKey
         ? {
             languageKey: unit.creationUpgraded.languageKey,
-            sprite: unit.creationUpgraded.visuals?.adventurePrefab.sprite,
+            sprite: unit.creationUpgraded.visuals?.adventurePrefab?.sprite,
           }
         : null,
       orderUpgraded: unit.orderUpgraded?.languageKey
         ? {
             languageKey: unit.orderUpgraded.languageKey,
-            sprite: unit.orderUpgraded.visuals?.adventurePrefab.sprite,
+            sprite: unit.orderUpgraded.visuals?.adventurePrefab?.sprite,
           }
         : null,
     })),
@@ -468,7 +468,7 @@ const getTroopAbility = (id) => {
 
 const getUnitType = (type) => ({
   languageKey: type.languageKey,
-  sprite: type.visuals.prefab.sprite,
+  sprite: type.visuals?.prefab?.sprite,
   purchaseCost: {
     costEntries: type.purchaseCost.costEntries.map((costEntry) => ({
       type: resourceTypes[costEntry.type],

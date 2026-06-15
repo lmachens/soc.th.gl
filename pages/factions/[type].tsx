@@ -4,16 +4,19 @@ import { withStaticBase } from "../../lib/staticProps";
 import { Group, Image, Stack, Text, Title, SimpleGrid } from "@mantine/core";
 import SpriteSheet from "../../components/SpriteSheet/SpriteSheet";
 import { getSiteTerm, getTerm, TermsDTO } from "../../lib/terms";
-import { FactionDTO, getFaction, getFactions } from "../../lib/factions";
+import {
+  FactionDTO,
+  getFaction,
+  getFactionBannerSrc,
+  getFactions,
+} from "../../lib/factions";
 import Article from "../../components/Article/Article";
 import { useTerms } from "../../components/Terms/Terms";
 import PageHead from "../../components/PageHead/PageHead";
 
 const Faction: NextPage<{ faction: FactionDTO }> = ({ faction }) => {
   const terms = useTerms();
-  const factionBannerSrc = ["Roots", "Vanir"].includes(faction.type)
-    ? `/factions/${faction.type}Banner.png`
-    : `/factions/${faction.type}AnimatedFactionBanner.gif`;
+  const factionBannerSrc = getFactionBannerSrc(faction.type);
 
   return (
     <>

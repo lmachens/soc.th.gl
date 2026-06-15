@@ -1234,7 +1234,7 @@
       "languageKey": "Militia",
       "sprite": {
         "name": "ArleonMilitia_Default_1_idle_1",
-        "spriteSheet": "ArleonMilitiaAtlas_0.png",
+        "spriteSheet": "ArleonMilitiaAtlas.png",
         "x": 380,
         "y": 328,
         "width": 39.941795,
@@ -1397,7 +1397,7 @@
       "languageKey": "Sapper",
       "sprite": {
         "name": "ArleonMilitia_Upgrade_1_idle_1",
-        "spriteSheet": "ArleonMilitiaAtlas_0.png",
+        "spriteSheet": "ArleonMilitiaAtlas.png",
         "x": 59,
         "y": 218,
         "width": 43.923878,
@@ -27550,6 +27550,4953 @@
             {
               "x": -24.006458,
               "y": 18.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "CelestialOre",
+            "amount": 5
+          }
+        ]
+      },
+      "obsoleteGoldCost": 1750,
+      "stats": {
+        "tier": 0,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 20,
+          "range": {
+            "min": 2,
+            "max": 15
+          },
+          "deadlyRange": 3,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 20,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 40,
+          "max": 60
+        },
+        "movement": 0,
+        "initiative": 50,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": [
+          {
+            "statistic": 2,
+            "range": {
+              "min": 0,
+              "max": 0
+            }
+          }
+        ]
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": null,
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Conscript",
+      "sprite": {
+        "name": "YulanConscript_Default_1_Idle_1",
+        "spriteSheet": "YulanConscriptAtlas.png",
+        "x": 131,
+        "y": 129,
+        "width": 90,
+        "height": 62,
+        "outline": [
+          [
+            {
+              "x": -4,
+              "y": 31
+            },
+            {
+              "x": 5,
+              "y": 31
+            },
+            {
+              "x": 19,
+              "y": 24
+            },
+            {
+              "x": 20,
+              "y": 14
+            },
+            {
+              "x": 23,
+              "y": 11
+            },
+            {
+              "x": 26,
+              "y": 0
+            },
+            {
+              "x": 45,
+              "y": -4
+            },
+            {
+              "x": 43,
+              "y": -7
+            },
+            {
+              "x": 22,
+              "y": -4
+            },
+            {
+              "x": 19,
+              "y": -15
+            },
+            {
+              "x": 23,
+              "y": -28
+            },
+            {
+              "x": 15,
+              "y": -31
+            },
+            {
+              "x": 16,
+              "y": -22
+            },
+            {
+              "x": 13,
+              "y": -17
+            },
+            {
+              "x": 4,
+              "y": -12
+            },
+            {
+              "x": 2,
+              "y": -26
+            },
+            {
+              "x": -8,
+              "y": -26
+            },
+            {
+              "x": -5,
+              "y": -17
+            },
+            {
+              "x": -6,
+              "y": 1
+            },
+            {
+              "x": -18,
+              "y": 6
+            },
+            {
+              "x": -24,
+              "y": -5
+            },
+            {
+              "x": -28,
+              "y": 6
+            },
+            {
+              "x": -37,
+              "y": 5
+            },
+            {
+              "x": -45,
+              "y": 17
+            },
+            {
+              "x": -37,
+              "y": 19
+            },
+            {
+              "x": -30,
+              "y": 13
+            },
+            {
+              "x": -6,
+              "y": 8
+            },
+            {
+              "x": -2,
+              "y": 21
+            },
+            {
+              "x": -8,
+              "y": 27
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 100
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 1,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 7,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 3,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 1,
+          "max": 3
+        },
+        "movement": 3,
+        "initiative": 28,
+        "health": 10,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 61,
+          "type": "TraitHelpless",
+          "restriction": "CantRetaliate",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 799,
+          "type": "TraitReach",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [
+            {
+              "type": 41,
+              "modifier": "TroopMeleeRange",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": null,
+    "superUpgraded": null,
+    "arcanaUpgraded": {
+      "languageKey": "XuanMandateGuard",
+      "sprite": {
+        "name": "YulanMandateGuard_Default_1_Idle_1",
+        "spriteSheet": "YulanMandateGuardAtlas.png",
+        "x": 0.076120496,
+        "y": 226,
+        "width": 94.92388,
+        "height": 67,
+        "outline": [
+          [
+            {
+              "x": 6.461933,
+              "y": 29.5
+            },
+            {
+              "x": 22.461933,
+              "y": 33.5
+            },
+            {
+              "x": 22.461933,
+              "y": 18.5
+            },
+            {
+              "x": 28.461933,
+              "y": -3.5
+            },
+            {
+              "x": 47.461933,
+              "y": -7.5
+            },
+            {
+              "x": 45.461933,
+              "y": -10.5
+            },
+            {
+              "x": 24.461933,
+              "y": -7.5
+            },
+            {
+              "x": 22.461933,
+              "y": -10.5
+            },
+            {
+              "x": 26.461933,
+              "y": -33.5
+            },
+            {
+              "x": 18.461933,
+              "y": -32.5
+            },
+            {
+              "x": 18.461933,
+              "y": -25.5
+            },
+            {
+              "x": 12.461933,
+              "y": -19.5
+            },
+            {
+              "x": 9.461933,
+              "y": -23.5
+            },
+            {
+              "x": 4.461933,
+              "y": -21.5
+            },
+            {
+              "x": 4.461933,
+              "y": -29.5
+            },
+            {
+              "x": -5.538067,
+              "y": -30.5
+            },
+            {
+              "x": -3.5380669,
+              "y": -21.5
+            },
+            {
+              "x": -3.5380669,
+              "y": -2.5
+            },
+            {
+              "x": -15.538067,
+              "y": 2.5
+            },
+            {
+              "x": -17.538067,
+              "y": -6.5
+            },
+            {
+              "x": -23.538067,
+              "y": -3.5
+            },
+            {
+              "x": -25.538067,
+              "y": 4.5
+            },
+            {
+              "x": -31.538067,
+              "y": 3.5
+            },
+            {
+              "x": -47.538067,
+              "y": 14.5
+            },
+            {
+              "x": -29.538067,
+              "y": 11.5
+            },
+            {
+              "x": -19.538067,
+              "y": 7.5
+            },
+            {
+              "x": -4.538067,
+              "y": 5.5
+            },
+            {
+              "x": 1.4619331,
+              "y": 25.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 21,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 15,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 10,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 3,
+          "max": 6
+        },
+        "movement": 3,
+        "initiative": 26,
+        "health": 14,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Spearwall",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 799,
+          "type": "TraitReach",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [
+            {
+              "type": 41,
+              "modifier": "TroopMeleeRange",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "creationUpgraded": {
+      "languageKey": "ShengMandateGuard",
+      "sprite": {
+        "name": "YulanMandateGuard_Default_1_Idle_1",
+        "spriteSheet": "YulanMandateGuardAtlas.png",
+        "x": 0.076120496,
+        "y": 226,
+        "width": 94.92388,
+        "height": 67,
+        "outline": [
+          [
+            {
+              "x": 6.461933,
+              "y": 29.5
+            },
+            {
+              "x": 22.461933,
+              "y": 33.5
+            },
+            {
+              "x": 22.461933,
+              "y": 18.5
+            },
+            {
+              "x": 28.461933,
+              "y": -3.5
+            },
+            {
+              "x": 47.461933,
+              "y": -7.5
+            },
+            {
+              "x": 45.461933,
+              "y": -10.5
+            },
+            {
+              "x": 24.461933,
+              "y": -7.5
+            },
+            {
+              "x": 22.461933,
+              "y": -10.5
+            },
+            {
+              "x": 26.461933,
+              "y": -33.5
+            },
+            {
+              "x": 18.461933,
+              "y": -32.5
+            },
+            {
+              "x": 18.461933,
+              "y": -25.5
+            },
+            {
+              "x": 12.461933,
+              "y": -19.5
+            },
+            {
+              "x": 9.461933,
+              "y": -23.5
+            },
+            {
+              "x": 4.461933,
+              "y": -21.5
+            },
+            {
+              "x": 4.461933,
+              "y": -29.5
+            },
+            {
+              "x": -5.538067,
+              "y": -30.5
+            },
+            {
+              "x": -3.5380669,
+              "y": -21.5
+            },
+            {
+              "x": -3.5380669,
+              "y": -2.5
+            },
+            {
+              "x": -15.538067,
+              "y": 2.5
+            },
+            {
+              "x": -17.538067,
+              "y": -6.5
+            },
+            {
+              "x": -23.538067,
+              "y": -3.5
+            },
+            {
+              "x": -25.538067,
+              "y": 4.5
+            },
+            {
+              "x": -31.538067,
+              "y": 3.5
+            },
+            {
+              "x": -47.538067,
+              "y": 14.5
+            },
+            {
+              "x": -29.538067,
+              "y": 11.5
+            },
+            {
+              "x": -19.538067,
+              "y": 7.5
+            },
+            {
+              "x": -4.538067,
+              "y": 5.5
+            },
+            {
+              "x": 1.4619331,
+              "y": 25.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 31,
+        "essenceStats": {
+          "order": 1,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 12,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 13,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 3,
+          "max": 5
+        },
+        "movement": 3,
+        "initiative": 29,
+        "health": 16,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Spearwall",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 799,
+          "type": "TraitReach",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [
+            {
+              "type": 41,
+              "modifier": "TroopMeleeRange",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "orderUpgraded": {
+      "languageKey": "LiMandateGuard",
+      "sprite": {
+        "name": "YulanMandateGuard_Default_1_Idle_1",
+        "spriteSheet": "YulanMandateGuardAtlas.png",
+        "x": 0.076120496,
+        "y": 226,
+        "width": 94.92388,
+        "height": 67,
+        "outline": [
+          [
+            {
+              "x": 6.461933,
+              "y": 29.5
+            },
+            {
+              "x": 22.461933,
+              "y": 33.5
+            },
+            {
+              "x": 22.461933,
+              "y": 18.5
+            },
+            {
+              "x": 28.461933,
+              "y": -3.5
+            },
+            {
+              "x": 47.461933,
+              "y": -7.5
+            },
+            {
+              "x": 45.461933,
+              "y": -10.5
+            },
+            {
+              "x": 24.461933,
+              "y": -7.5
+            },
+            {
+              "x": 22.461933,
+              "y": -10.5
+            },
+            {
+              "x": 26.461933,
+              "y": -33.5
+            },
+            {
+              "x": 18.461933,
+              "y": -32.5
+            },
+            {
+              "x": 18.461933,
+              "y": -25.5
+            },
+            {
+              "x": 12.461933,
+              "y": -19.5
+            },
+            {
+              "x": 9.461933,
+              "y": -23.5
+            },
+            {
+              "x": 4.461933,
+              "y": -21.5
+            },
+            {
+              "x": 4.461933,
+              "y": -29.5
+            },
+            {
+              "x": -5.538067,
+              "y": -30.5
+            },
+            {
+              "x": -3.5380669,
+              "y": -21.5
+            },
+            {
+              "x": -3.5380669,
+              "y": -2.5
+            },
+            {
+              "x": -15.538067,
+              "y": 2.5
+            },
+            {
+              "x": -17.538067,
+              "y": -6.5
+            },
+            {
+              "x": -23.538067,
+              "y": -3.5
+            },
+            {
+              "x": -25.538067,
+              "y": 4.5
+            },
+            {
+              "x": -31.538067,
+              "y": 3.5
+            },
+            {
+              "x": -47.538067,
+              "y": 14.5
+            },
+            {
+              "x": -29.538067,
+              "y": 11.5
+            },
+            {
+              "x": -19.538067,
+              "y": 7.5
+            },
+            {
+              "x": -4.538067,
+              "y": 5.5
+            },
+            {
+              "x": 1.4619331,
+              "y": 25.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 11,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 10,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 3,
+          "max": 4
+        },
+        "movement": 4,
+        "initiative": 34,
+        "health": 18,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Spearwall",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 799,
+          "type": "TraitReach",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [
+            {
+              "type": 41,
+              "modifier": "TroopMeleeRange",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Grenadier",
+      "sprite": {
+        "name": "YulanGrenadier_Default_1_Idle_1",
+        "spriteSheet": "YulanGrenadierAtlas.png",
+        "x": 269,
+        "y": 123,
+        "width": 41,
+        "height": 70,
+        "outline": [
+          [
+            {
+              "x": -0.5,
+              "y": 34
+            },
+            {
+              "x": 7.5,
+              "y": 35
+            },
+            {
+              "x": 8.5,
+              "y": 28
+            },
+            {
+              "x": 20.5,
+              "y": 5
+            },
+            {
+              "x": 20.5,
+              "y": -7
+            },
+            {
+              "x": 13.5,
+              "y": -10
+            },
+            {
+              "x": 13.5,
+              "y": -34
+            },
+            {
+              "x": 7.5,
+              "y": -35
+            },
+            {
+              "x": 4.5,
+              "y": -25
+            },
+            {
+              "x": -5.5,
+              "y": -30
+            },
+            {
+              "x": -14.5,
+              "y": -31
+            },
+            {
+              "x": -11.5,
+              "y": -26
+            },
+            {
+              "x": -18.5,
+              "y": -4
+            },
+            {
+              "x": -12.5,
+              "y": 3
+            },
+            {
+              "x": -20.5,
+              "y": 11
+            },
+            {
+              "x": -20.5,
+              "y": 19
+            },
+            {
+              "x": -15.5,
+              "y": 19
+            },
+            {
+              "x": -10.5,
+              "y": 14
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 200
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 2,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 8,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 15,
+          "range": {
+            "min": 0,
+            "max": 2
+          },
+          "deadlyRange": 2,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 8,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 2,
+          "max": 4
+        },
+        "movement": 3,
+        "initiative": 16,
+        "health": 12,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "LanternsAndLaughter",
+        "bacterias": [
+          {
+            "bacteriaType": 1717,
+            "type": "TroopAbilityLanternsAndLaughter",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 5,
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    },
+                    "status": "Human"
+                  }
+                ]
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 5,
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    },
+                    "status": "Human"
+                  }
+                ]
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": []
+    },
+    "upgraded": null,
+    "superUpgraded": null,
+    "arcanaUpgraded": {
+      "languageKey": "XuanGrenadier",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 400
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 12,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 18,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 26,
+          "range": {
+            "min": 0,
+            "max": 2
+          },
+          "deadlyRange": 2,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 11,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 4,
+          "max": 7
+        },
+        "movement": 3,
+        "initiative": 18,
+        "health": 15,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "SilkAndShadows",
+        "bacterias": [
+          {
+            "bacteriaType": 1719,
+            "type": "TroopAbilitySilkAndShadows",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 35,
+                "modifier": "CommanderSpellDamagePower",
+                "amountToAdd": 10,
+                "applicationType": 0
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": []
+    },
+    "creationUpgraded": {
+      "languageKey": "ShengGrenadier",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 400
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 22,
+        "essenceStats": {
+          "order": 1,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 15,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 21,
+          "range": {
+            "min": 0,
+            "max": 2
+          },
+          "deadlyRange": 2,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 17,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 3,
+          "max": 6
+        },
+        "movement": 3,
+        "initiative": 22,
+        "health": 20,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "RacingTheSun",
+        "bacterias": [
+          {
+            "bacteriaType": 1718,
+            "type": "TroopAbilityRacingTheSun",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 3,
+                "modifier": "TroopInitiative",
+                "amountToAdd": 5,
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    },
+                    "status": "Human"
+                  }
+                ]
+              },
+              {
+                "type": 5,
+                "modifier": "TroopMeleeOffense",
+                "amountToAdd": 5,
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    },
+                    "status": "Human"
+                  }
+                ]
+              },
+              {
+                "type": 8,
+                "modifier": "TroopRangedOffense",
+                "amountToAdd": 5,
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    },
+                    "status": "Human"
+                  }
+                ]
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": []
+    },
+    "orderUpgraded": {
+      "languageKey": "LiGrenadier",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 400
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 32,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 14,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 16,
+          "range": {
+            "min": 0,
+            "max": 2
+          },
+          "deadlyRange": 2,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 21,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 3,
+          "max": 5
+        },
+        "movement": 4,
+        "initiative": 26,
+        "health": 25,
+        "maxTroopSize": 30,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "StillUnbroken",
+        "bacterias": [
+          {
+            "bacteriaType": 1720,
+            "type": "TroopAbilityStillUnbroken",
+            "customEffect": "None",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": null,
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [
+              {
+                "type": 2,
+                "modifier": "TroopDefense",
+                "amountToAdd": 10,
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    },
+                    "status": "Human"
+                  }
+                ]
+              },
+              {
+                "type": 34,
+                "modifier": "TroopSpellDamageResistance",
+                "amountToAdd": 10,
+                "applicationType": 0,
+                "filterEvaluation": 0,
+                "filters": [
+                  {
+                    "filterType": 0,
+                    "troop": {
+                      "faction": "Arleon",
+                      "languageKey": "Archer",
+                      "size": 0
+                    },
+                    "status": "Human"
+                  }
+                ]
+              }
+            ],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": []
+    }
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Hu",
+      "sprite": {
+        "name": "YulanHu_Default_1_Idle_1",
+        "spriteSheet": "YulanHuAtlas.png",
+        "x": 327,
+        "y": 108,
+        "width": 61,
+        "height": 58,
+        "outline": [
+          [
+            {
+              "x": -17.5,
+              "y": 15
+            },
+            {
+              "x": -11.5,
+              "y": 23
+            },
+            {
+              "x": -4.5,
+              "y": 21
+            },
+            {
+              "x": -2.5,
+              "y": 29
+            },
+            {
+              "x": 5.5,
+              "y": 28
+            },
+            {
+              "x": 23.5,
+              "y": 5
+            },
+            {
+              "x": 28.5,
+              "y": 5
+            },
+            {
+              "x": 30.5,
+              "y": -2
+            },
+            {
+              "x": 19.5,
+              "y": -9
+            },
+            {
+              "x": 6.5,
+              "y": -10
+            },
+            {
+              "x": 3.5,
+              "y": -24
+            },
+            {
+              "x": -7.5,
+              "y": -20
+            },
+            {
+              "x": -16.5,
+              "y": -29
+            },
+            {
+              "x": -16.5,
+              "y": -23
+            },
+            {
+              "x": -13.5,
+              "y": -16
+            },
+            {
+              "x": -17.5,
+              "y": -13
+            },
+            {
+              "x": -22.5,
+              "y": -23
+            },
+            {
+              "x": -26.5,
+              "y": -18
+            },
+            {
+              "x": -30.5,
+              "y": 8
+            },
+            {
+              "x": -17.5,
+              "y": 21
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 250
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 3,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 12,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 9,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 5,
+          "max": 10
+        },
+        "movement": 5,
+        "initiative": 31,
+        "health": 12,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          5
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 795,
+          "type": "TraitQuick",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "Jiuweihu",
+      "sprite": {
+        "name": "YulanJiuweihu_Default_1_Idle_1",
+        "spriteSheet": "YulanJiuweihuAtlas.png",
+        "x": 177,
+        "y": 176,
+        "width": 65,
+        "height": 68,
+        "outline": [
+          [
+            {
+              "x": 3.5,
+              "y": 33
+            },
+            {
+              "x": 14.5,
+              "y": 34
+            },
+            {
+              "x": 16.5,
+              "y": 21
+            },
+            {
+              "x": 20.5,
+              "y": 19
+            },
+            {
+              "x": 18.5,
+              "y": 9
+            },
+            {
+              "x": 25.5,
+              "y": 7
+            },
+            {
+              "x": 32.5,
+              "y": -10
+            },
+            {
+              "x": 26.5,
+              "y": -10
+            },
+            {
+              "x": 26.5,
+              "y": -18
+            },
+            {
+              "x": 18.5,
+              "y": -22
+            },
+            {
+              "x": 3.5,
+              "y": -19
+            },
+            {
+              "x": 1.5,
+              "y": -29
+            },
+            {
+              "x": -9.5,
+              "y": -25
+            },
+            {
+              "x": -18.5,
+              "y": -34
+            },
+            {
+              "x": -18.5,
+              "y": -28
+            },
+            {
+              "x": -15.5,
+              "y": -21
+            },
+            {
+              "x": -19.5,
+              "y": -19
+            },
+            {
+              "x": -24.5,
+              "y": -28
+            },
+            {
+              "x": -27.5,
+              "y": -24
+            },
+            {
+              "x": -32.5,
+              "y": 3
+            },
+            {
+              "x": -23.5,
+              "y": 16
+            },
+            {
+              "x": -5.5,
+              "y": 30
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 400
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 13,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 15,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 9,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 8,
+          "max": 13
+        },
+        "movement": 5,
+        "initiative": 37,
+        "health": 20,
+        "maxTroopSize": 20,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          5
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Wait",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1707,
+          "type": "TraitEssenceEater",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 795,
+          "type": "TraitQuick",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Rider",
+      "sprite": {
+        "name": "YulanRider_Default_1_Idle_1",
+        "spriteSheet": "YulanRiderAtlas.png",
+        "x": 213,
+        "y": 215,
+        "width": 81,
+        "height": 94,
+        "outline": [
+          [
+            {
+              "x": 4.5,
+              "y": 42
+            },
+            {
+              "x": 4.5,
+              "y": 38
+            },
+            {
+              "x": 25.5,
+              "y": 31
+            },
+            {
+              "x": 25.5,
+              "y": 22
+            },
+            {
+              "x": 18.5,
+              "y": 21
+            },
+            {
+              "x": 19.5,
+              "y": 17
+            },
+            {
+              "x": 29.5,
+              "y": 12
+            },
+            {
+              "x": 34.5,
+              "y": 2
+            },
+            {
+              "x": 34.5,
+              "y": -11
+            },
+            {
+              "x": 40.5,
+              "y": -17
+            },
+            {
+              "x": 35.5,
+              "y": -31
+            },
+            {
+              "x": 30.5,
+              "y": -25
+            },
+            {
+              "x": 26.5,
+              "y": -38
+            },
+            {
+              "x": 21.5,
+              "y": -40
+            },
+            {
+              "x": 17.5,
+              "y": -36
+            },
+            {
+              "x": 22.5,
+              "y": -31
+            },
+            {
+              "x": 24.5,
+              "y": -19
+            },
+            {
+              "x": 18.5,
+              "y": -19
+            },
+            {
+              "x": 15.5,
+              "y": -34
+            },
+            {
+              "x": 7.5,
+              "y": -37
+            },
+            {
+              "x": 7.5,
+              "y": -22
+            },
+            {
+              "x": 3.5,
+              "y": -17
+            },
+            {
+              "x": -1.5,
+              "y": -20
+            },
+            {
+              "x": 0.5,
+              "y": -38
+            },
+            {
+              "x": -2.5,
+              "y": -46
+            },
+            {
+              "x": -10.5,
+              "y": -47
+            },
+            {
+              "x": -8.5,
+              "y": -21
+            },
+            {
+              "x": -12.5,
+              "y": -20
+            },
+            {
+              "x": -12.5,
+              "y": -42
+            },
+            {
+              "x": -22.5,
+              "y": -42
+            },
+            {
+              "x": -19.5,
+              "y": -25
+            },
+            {
+              "x": -26.5,
+              "y": -6
+            },
+            {
+              "x": -31.5,
+              "y": -9
+            },
+            {
+              "x": -36.5,
+              "y": -4
+            },
+            {
+              "x": -40.5,
+              "y": 26
+            },
+            {
+              "x": -17.5,
+              "y": 20
+            },
+            {
+              "x": -13.5,
+              "y": 23
+            },
+            {
+              "x": -8.5,
+              "y": 33
+            },
+            {
+              "x": -8.5,
+              "y": 42
+            },
+            {
+              "x": -0.5,
+              "y": 47
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 600
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 4,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 17,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 11,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 7,
+          "max": 13
+        },
+        "movement": 5,
+        "initiative": 8,
+        "health": 30,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 871,
+          "type": "TraitCharger",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          },
+          "settings": {
+            "bacteriaToAddWhenMoving": {
+              "bacteriaType": 870,
+              "type": "TraitCharged",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "CurrentBattleStackTurn",
+                "duration": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "WindRider",
+      "sprite": {
+        "name": "YulanWindRider_Default_22_RangedAttack_2",
+        "spriteSheet": "YulanWindRiderAtlas.png",
+        "x": 265,
+        "y": 409.0761,
+        "width": 78,
+        "height": 107.92388,
+        "outline": [
+          [
+            {
+              "x": 5,
+              "y": 20.961948
+            },
+            {
+              "x": -5,
+              "y": 14.961948
+            },
+            {
+              "x": -13,
+              "y": 34.96195
+            },
+            {
+              "x": -9,
+              "y": 41.96195
+            },
+            {
+              "x": -18,
+              "y": 53.96195
+            },
+            {
+              "x": -5,
+              "y": 48.96195
+            },
+            {
+              "x": 23,
+              "y": 48.96195
+            },
+            {
+              "x": 24,
+              "y": 44.96195
+            },
+            {
+              "x": 30,
+              "y": 44.96195
+            },
+            {
+              "x": 35,
+              "y": 39.96195
+            },
+            {
+              "x": 35,
+              "y": 18.961948
+            },
+            {
+              "x": 29,
+              "y": 11.961948
+            },
+            {
+              "x": 37,
+              "y": 1.9619484
+            },
+            {
+              "x": 39,
+              "y": -8.038052
+            },
+            {
+              "x": 38,
+              "y": -17.038052
+            },
+            {
+              "x": 38,
+              "y": -47.03805
+            },
+            {
+              "x": 28,
+              "y": -48.03805
+            },
+            {
+              "x": 33,
+              "y": -35.03805
+            }
+          ],
+          [
+            {
+              "x": -39,
+              "y": -18.038052
+            },
+            {
+              "x": -36,
+              "y": 8.961948
+            },
+            {
+              "x": -26,
+              "y": 2.9619484
+            },
+            {
+              "x": 4,
+              "y": 11.961948
+            },
+            {
+              "x": 5,
+              "y": 20.961948
+            },
+            {
+              "x": 30,
+              "y": -29.038052
+            },
+            {
+              "x": 23,
+              "y": -25.038052
+            },
+            {
+              "x": 19,
+              "y": -29.038052
+            },
+            {
+              "x": 14,
+              "y": -41.03805
+            },
+            {
+              "x": 5,
+              "y": -42.03805
+            },
+            {
+              "x": 14,
+              "y": -23.038052
+            },
+            {
+              "x": 2,
+              "y": -28.038052
+            },
+            {
+              "x": -2,
+              "y": -51.03805
+            },
+            {
+              "x": -8,
+              "y": -54.03805
+            },
+            {
+              "x": -15,
+              "y": -47.03805
+            },
+            {
+              "x": -12,
+              "y": -37.03805
+            },
+            {
+              "x": -15,
+              "y": -32.03805
+            },
+            {
+              "x": -15,
+              "y": -25.038052
+            },
+            {
+              "x": -21,
+              "y": -19.038052
+            },
+            {
+              "x": -27,
+              "y": -25.038052
+            },
+            {
+              "x": -28,
+              "y": -32.03805
+            },
+            {
+              "x": -34,
+              "y": -29.038052
+            }
+          ],
+          [
+            {
+              "x": 30,
+              "y": -29.038052
+            },
+            {
+              "x": 33,
+              "y": -35.03805
+            },
+            {
+              "x": 30,
+              "y": -34.03805
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 900
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 14,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 29,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 25,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 11,
+          "max": 17
+        },
+        "movement": 5,
+        "initiative": 15,
+        "health": 50,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Switch",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 871,
+          "type": "TraitCharger",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          },
+          "settings": {
+            "bacteriaToAddWhenMoving": {
+              "bacteriaType": 870,
+              "type": "TraitCharged",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 10,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "CurrentBattleStackTurn",
+                "duration": 1
+              }
+            }
+          }
+        },
+        {
+          "bacteriaType": 1170,
+          "type": "TraitMobile",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Yi",
+      "sprite": {
+        "name": "YulanYi_Default_1_Idle_1",
+        "spriteSheet": "YulanYiAtlas.png",
+        "x": 0,
+        "y": 161,
+        "width": 54,
+        "height": 97,
+        "outline": [
+          [
+            {
+              "x": -17,
+              "y": -1.5
+            },
+            {
+              "x": -22,
+              "y": 11.5
+            },
+            {
+              "x": -18,
+              "y": 29.5
+            },
+            {
+              "x": -23,
+              "y": 48.5
+            },
+            {
+              "x": -7,
+              "y": 28.5
+            },
+            {
+              "x": -9,
+              "y": 24.5
+            },
+            {
+              "x": -16,
+              "y": 8.5
+            },
+            {
+              "x": -13,
+              "y": 5.5
+            },
+            {
+              "x": -5,
+              "y": 18.5
+            },
+            {
+              "x": 5,
+              "y": 34.5
+            },
+            {
+              "x": 9,
+              "y": 36.5
+            },
+            {
+              "x": 10,
+              "y": 20.5
+            },
+            {
+              "x": 19,
+              "y": 17.5
+            },
+            {
+              "x": 24,
+              "y": 12.5
+            },
+            {
+              "x": 20,
+              "y": -7.5
+            },
+            {
+              "x": 27,
+              "y": -19.5
+            },
+            {
+              "x": 27,
+              "y": -37.5
+            },
+            {
+              "x": 18,
+              "y": -32.5
+            },
+            {
+              "x": 18,
+              "y": -47.5
+            },
+            {
+              "x": 6,
+              "y": -45.5
+            },
+            {
+              "x": -10,
+              "y": -48.5
+            },
+            {
+              "x": -12,
+              "y": -38.5
+            },
+            {
+              "x": -8,
+              "y": -22.5
+            },
+            {
+              "x": -17,
+              "y": -9.5
+            },
+            {
+              "x": -27,
+              "y": -12.5
+            },
+            {
+              "x": -27,
+              "y": -9.5
+            }
+          ],
+          [
+            {
+              "x": -6,
+              "y": 18.5
+            },
+            {
+              "x": -6,
+              "y": 20.5
+            },
+            {
+              "x": -5,
+              "y": 20.5
+            },
+            {
+              "x": -5,
+              "y": 18.5
+            }
+          ],
+          [
+            {
+              "x": -7,
+              "y": 20.5
+            },
+            {
+              "x": -7,
+              "y": 21.5
+            },
+            {
+              "x": -6,
+              "y": 21.5
+            },
+            {
+              "x": -6,
+              "y": 20.5
+            }
+          ],
+          [
+            {
+              "x": -8,
+              "y": 21.5
+            },
+            {
+              "x": -8,
+              "y": 22.5
+            },
+            {
+              "x": -7,
+              "y": 22.5
+            },
+            {
+              "x": -7,
+              "y": 21.5
+            }
+          ],
+          [
+            {
+              "x": -9,
+              "y": 22.5
+            },
+            {
+              "x": -9,
+              "y": 24.5
+            },
+            {
+              "x": -8,
+              "y": 24.5
+            },
+            {
+              "x": -8,
+              "y": 22.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 500
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 5,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 5,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 21,
+          "range": {
+            "min": 0,
+            "max": 7
+          },
+          "deadlyRange": 4,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 6,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 5,
+          "max": 8
+        },
+        "movement": 3,
+        "initiative": 7,
+        "health": 25,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": []
+    },
+    "upgraded": null,
+    "superUpgraded": null,
+    "arcanaUpgraded": {
+      "languageKey": "XuanYi",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1000
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 15,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 6,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 32,
+          "range": {
+            "min": 0,
+            "max": 7
+          },
+          "deadlyRange": 4,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 10,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 12,
+          "max": 18
+        },
+        "movement": 3,
+        "initiative": 11,
+        "health": 40,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "RepellingArrow",
+        "bacterias": []
+      },
+      "bacterias": []
+    },
+    "creationUpgraded": {
+      "languageKey": "ShengYi",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1000
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 17,
+        "essenceStats": {
+          "order": 1,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 7,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 29,
+          "range": {
+            "min": 0,
+            "max": 9
+          },
+          "deadlyRange": 4,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 12,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 10,
+          "max": 15
+        },
+        "movement": 3,
+        "initiative": 16,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "GrowingArrow",
+        "bacterias": []
+      },
+      "bacterias": []
+    },
+    "orderUpgraded": {
+      "languageKey": "LiYi",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1000
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 35,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 8,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 27,
+          "range": {
+            "min": 0,
+            "max": 8
+          },
+          "deadlyRange": 5,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 8,
+          "max": 14
+        },
+        "movement": 3,
+        "initiative": 25,
+        "health": 60,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0,
+          8
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "PiercingArrow",
+        "bacterias": []
+      },
+      "bacterias": []
+    }
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Tian",
+      "sprite": {
+        "name": "YulanTian_Default_1_Idle_1",
+        "spriteSheet": "YulanTianAtlas.png",
+        "x": 48,
+        "y": 96,
+        "width": 51,
+        "height": 67,
+        "outline": [
+          [
+            {
+              "x": 2.5,
+              "y": 33.5
+            },
+            {
+              "x": 11.5,
+              "y": 33.5
+            },
+            {
+              "x": 20.5,
+              "y": 24.5
+            },
+            {
+              "x": 25.5,
+              "y": 12.5
+            },
+            {
+              "x": 19.5,
+              "y": 2.5
+            },
+            {
+              "x": 23.5,
+              "y": -4.5
+            },
+            {
+              "x": 21.5,
+              "y": -11.5
+            },
+            {
+              "x": 17.5,
+              "y": -15.5
+            },
+            {
+              "x": 17.5,
+              "y": -26.5
+            },
+            {
+              "x": 10.5,
+              "y": -33.5
+            },
+            {
+              "x": 1.5,
+              "y": -33.5
+            },
+            {
+              "x": -6.5,
+              "y": -25.5
+            },
+            {
+              "x": -7.5,
+              "y": -13.5
+            },
+            {
+              "x": -12.5,
+              "y": -13.5
+            },
+            {
+              "x": -15.5,
+              "y": -10.5
+            },
+            {
+              "x": -10.5,
+              "y": -6.5
+            },
+            {
+              "x": -2.5,
+              "y": -5.5
+            },
+            {
+              "x": -4.5,
+              "y": 1.5
+            },
+            {
+              "x": -16.5,
+              "y": -7.5
+            },
+            {
+              "x": -24.5,
+              "y": -6.5
+            },
+            {
+              "x": -25.5,
+              "y": 7.5
+            },
+            {
+              "x": -20.5,
+              "y": 17.5
+            },
+            {
+              "x": -12.5,
+              "y": 24.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 400
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 6,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 21,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 8,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 7,
+          "max": 10
+        },
+        "movement": 4,
+        "initiative": 33,
+        "health": 35,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          5
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": []
+    },
+    "upgraded": null,
+    "superUpgraded": null,
+    "arcanaUpgraded": {
+      "languageKey": "XuanTian",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 750
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 16,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 2,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 27,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 11,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 14,
+          "max": 20
+        },
+        "movement": 4,
+        "initiative": 35,
+        "health": 45,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          5
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Teleport",
+        "bacterias": []
+      },
+      "bacterias": []
+    },
+    "creationUpgraded": {
+      "languageKey": "ShengTian",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 750
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 26,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 24,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 16,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 14,
+          "max": 17
+        },
+        "movement": 4,
+        "initiative": 39,
+        "health": 50,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          5
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1704,
+          "type": "TraitVenomousPlus",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "orderUpgraded": {
+      "languageKey": "LiTian",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 750
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 36,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 21,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 21,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 10,
+          "max": 16
+        },
+        "movement": 5,
+        "initiative": 46,
+        "health": 60,
+        "maxTroopSize": 15,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          5
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Energize",
+        "bacterias": []
+      },
+      "bacterias": []
+    }
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Feng",
+      "sprite": {
+        "name": "YulanFeng_Default_1_Idle_1",
+        "spriteSheet": "YulanFengAtlas.png",
+        "x": 213,
+        "y": 221,
+        "width": 80,
+        "height": 96,
+        "outline": [
+          [
+            {
+              "x": -10,
+              "y": 46
+            },
+            {
+              "x": 4,
+              "y": 48
+            },
+            {
+              "x": 9,
+              "y": 41
+            },
+            {
+              "x": 3,
+              "y": 35
+            },
+            {
+              "x": 10,
+              "y": 35
+            },
+            {
+              "x": 10,
+              "y": 28
+            },
+            {
+              "x": -2,
+              "y": 15
+            },
+            {
+              "x": 3,
+              "y": -3
+            },
+            {
+              "x": 36,
+              "y": -10
+            },
+            {
+              "x": 32,
+              "y": -14
+            },
+            {
+              "x": 24,
+              "y": -14
+            },
+            {
+              "x": 30,
+              "y": -19
+            },
+            {
+              "x": 40,
+              "y": -20
+            },
+            {
+              "x": 35,
+              "y": -26
+            },
+            {
+              "x": 35,
+              "y": -41
+            },
+            {
+              "x": 13,
+              "y": -41
+            },
+            {
+              "x": -2,
+              "y": -29
+            },
+            {
+              "x": -3,
+              "y": -43
+            },
+            {
+              "x": -8,
+              "y": -48
+            },
+            {
+              "x": -19,
+              "y": -43
+            },
+            {
+              "x": -10,
+              "y": -34
+            },
+            {
+              "x": -9,
+              "y": -28
+            },
+            {
+              "x": -14,
+              "y": -30
+            },
+            {
+              "x": -14,
+              "y": -37
+            },
+            {
+              "x": -26,
+              "y": -43
+            },
+            {
+              "x": -36,
+              "y": -33
+            },
+            {
+              "x": -24,
+              "y": -33
+            },
+            {
+              "x": -19,
+              "y": -25
+            },
+            {
+              "x": -35,
+              "y": -5
+            },
+            {
+              "x": -40,
+              "y": 10
+            },
+            {
+              "x": -36,
+              "y": 16
+            },
+            {
+              "x": -26,
+              "y": 19
+            },
+            {
+              "x": -20,
+              "y": 25
+            },
+            {
+              "x": -28,
+              "y": 24
+            },
+            {
+              "x": -22,
+              "y": 37
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 800
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 7,
+        "essenceStats": {
+          "order": 0,
+          "creation": 1,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 42,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 15,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 12,
+          "max": 17
+        },
+        "movement": 5,
+        "initiative": 22,
+        "health": 50,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          5
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1722,
+          "type": "TraitBlessAura",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1721,
+              "type": "TraitBlessed",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 49,
+                  "modifier": "TroopBlessed",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "type": "TraitInspired",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                },
+                {
+                  "type": 8,
+                  "modifier": "TroopRangedOffense",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                },
+                {
+                  "type": 3,
+                  "modifier": "TroopInitiative",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": {
+      "languageKey": "Fenghuang",
+      "sprite": {
+        "name": "YulanFenghuang_Default_1_Idle_1",
+        "spriteSheet": "YulanFenghuangAtlas.png",
+        "x": 0,
+        "y": 457,
+        "width": 80,
+        "height": 115,
+        "outline": [
+          [
+            {
+              "x": -3,
+              "y": 45.5
+            },
+            {
+              "x": -5,
+              "y": 50.5
+            },
+            {
+              "x": 2,
+              "y": 57.5
+            },
+            {
+              "x": 2,
+              "y": 28.5
+            },
+            {
+              "x": 6,
+              "y": 32.5
+            },
+            {
+              "x": 7,
+              "y": 16.5
+            },
+            {
+              "x": 0,
+              "y": -8.5
+            },
+            {
+              "x": 3,
+              "y": -15.5
+            },
+            {
+              "x": 11,
+              "y": -11.5
+            },
+            {
+              "x": 20,
+              "y": -14.5
+            },
+            {
+              "x": 20,
+              "y": -16.5
+            },
+            {
+              "x": 9,
+              "y": -20.5
+            },
+            {
+              "x": 16,
+              "y": -22.5
+            },
+            {
+              "x": 23,
+              "y": -15.5
+            },
+            {
+              "x": 40,
+              "y": -15.5
+            },
+            {
+              "x": 30,
+              "y": -20.5
+            },
+            {
+              "x": 25,
+              "y": -20.5
+            },
+            {
+              "x": 17,
+              "y": -28.5
+            },
+            {
+              "x": 36,
+              "y": -28.5
+            },
+            {
+              "x": 29,
+              "y": -53.5
+            },
+            {
+              "x": 23,
+              "y": -56.5
+            },
+            {
+              "x": 16,
+              "y": -56.5
+            },
+            {
+              "x": 24,
+              "y": -45.5
+            },
+            {
+              "x": 10,
+              "y": -57.5
+            },
+            {
+              "x": -16,
+              "y": -55.5
+            },
+            {
+              "x": -29,
+              "y": -57.5
+            },
+            {
+              "x": -36,
+              "y": -54.5
+            },
+            {
+              "x": -30,
+              "y": -46.5
+            },
+            {
+              "x": -37,
+              "y": -39.5
+            },
+            {
+              "x": -25,
+              "y": -39.5
+            },
+            {
+              "x": -20,
+              "y": -31.5
+            },
+            {
+              "x": -38,
+              "y": -9.5
+            },
+            {
+              "x": -40,
+              "y": 5.5
+            },
+            {
+              "x": -31,
+              "y": 17.5
+            },
+            {
+              "x": -31,
+              "y": 20.5
+            },
+            {
+              "x": -24,
+              "y": 27.5
+            },
+            {
+              "x": -19,
+              "y": 41.5
+            },
+            {
+              "x": -11,
+              "y": 45.5
+            },
+            {
+              "x": -11,
+              "y": 39.5
+            }
+          ],
+          [
+            {
+              "x": 4,
+              "y": 4.5
+            },
+            {
+              "x": 4,
+              "y": 5.5
+            },
+            {
+              "x": 6,
+              "y": 5.5
+            },
+            {
+              "x": 6,
+              "y": 4.5
+            }
+          ],
+          [
+            {
+              "x": 8,
+              "y": 19.5
+            },
+            {
+              "x": 8,
+              "y": 20.5
+            },
+            {
+              "x": 9,
+              "y": 20.5
+            },
+            {
+              "x": 9,
+              "y": 19.5
+            }
+          ],
+          [
+            {
+              "x": -17,
+              "y": 44.5
+            },
+            {
+              "x": -17,
+              "y": 45.5
+            },
+            {
+              "x": -15,
+              "y": 45.5
+            },
+            {
+              "x": -15,
+              "y": 44.5
+            }
+          ],
+          [
+            {
+              "x": -10,
+              "y": 48.5
+            },
+            {
+              "x": -10,
+              "y": 45.5
+            },
+            {
+              "x": -13,
+              "y": 45.5
+            }
+          ],
+          [
+            {
+              "x": -9,
+              "y": 52.5
+            },
+            {
+              "x": -6,
+              "y": 48.5
+            },
+            {
+              "x": -9,
+              "y": 45.5
+            }
+          ],
+          [
+            {
+              "x": -6,
+              "y": 46.5
+            },
+            {
+              "x": -6,
+              "y": 47.5
+            },
+            {
+              "x": -5,
+              "y": 47.5
+            },
+            {
+              "x": -5,
+              "y": 46.5
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1000
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 17,
+        "essenceStats": {
+          "order": 0,
+          "creation": 2,
+          "chaos": 0,
+          "arcana": 1,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 45,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "defense": 21,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 18,
+          "max": 24
+        },
+        "movement": 5,
+        "initiative": 26,
+        "health": 80,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          5
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "FireballDrop",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1722,
+          "type": "TraitBlessAura",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1721,
+              "type": "TraitBlessed",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 49,
+                  "modifier": "TroopBlessed",
+                  "amountToAdd": 1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 62,
+          "type": "TraitInspiring",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 63,
+              "type": "TraitInspired",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 5,
+                  "modifier": "TroopMeleeOffense",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                },
+                {
+                  "type": 8,
+                  "modifier": "TroopRangedOffense",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                },
+                {
+                  "type": 3,
+                  "modifier": "TroopInitiative",
+                  "amountToAdd": 5,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "superUpgraded": null,
+    "arcanaUpgraded": null,
+    "creationUpgraded": null,
+    "orderUpgraded": null
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Seeker",
+      "sprite": {
+        "name": "YulanSeeker_Default_1_Idle_1",
+        "spriteSheet": "YulanSeekerAtlas.png",
+        "x": 276,
+        "y": 199,
+        "width": 64,
+        "height": 82,
+        "outline": [
+          [
+            {
+              "x": -6,
+              "y": 41
+            },
+            {
+              "x": 0,
+              "y": 41
+            },
+            {
+              "x": 0,
+              "y": 35
+            },
+            {
+              "x": 8,
+              "y": 27
+            },
+            {
+              "x": 16,
+              "y": 13
+            },
+            {
+              "x": 32,
+              "y": 29
+            },
+            {
+              "x": 32,
+              "y": 24
+            },
+            {
+              "x": 11,
+              "y": 3
+            },
+            {
+              "x": 10,
+              "y": 0
+            },
+            {
+              "x": 20,
+              "y": 0
+            },
+            {
+              "x": 20,
+              "y": -12
+            },
+            {
+              "x": 27,
+              "y": -14
+            },
+            {
+              "x": 22,
+              "y": -20
+            },
+            {
+              "x": 17,
+              "y": -15
+            },
+            {
+              "x": 17,
+              "y": -32
+            },
+            {
+              "x": 12,
+              "y": -32
+            },
+            {
+              "x": 12,
+              "y": -16
+            },
+            {
+              "x": 6,
+              "y": -15
+            },
+            {
+              "x": 6,
+              "y": -27
+            },
+            {
+              "x": 3,
+              "y": -39
+            },
+            {
+              "x": -2,
+              "y": -41
+            },
+            {
+              "x": -2,
+              "y": -30
+            },
+            {
+              "x": -11,
+              "y": -37
+            },
+            {
+              "x": -14,
+              "y": -22
+            },
+            {
+              "x": -26,
+              "y": -34
+            },
+            {
+              "x": -26,
+              "y": -29
+            },
+            {
+              "x": -19,
+              "y": -21
+            },
+            {
+              "x": -24,
+              "y": -21
+            },
+            {
+              "x": -28,
+              "y": -10
+            },
+            {
+              "x": -24,
+              "y": 3
+            },
+            {
+              "x": -19,
+              "y": 8
+            },
+            {
+              "x": -24,
+              "y": 11
+            },
+            {
+              "x": -25,
+              "y": 3
+            },
+            {
+              "x": -32,
+              "y": 3
+            },
+            {
+              "x": -29,
+              "y": 29
+            },
+            {
+              "x": -17,
+              "y": 20
+            },
+            {
+              "x": -13,
+              "y": 34
+            }
+          ]
+        ]
+      },
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 700
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 8,
+        "essenceStats": {
+          "order": 1,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 24,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 6
+          },
+          "deadlyRange": 4,
+          "lobbing": 1,
+          "resistancePercent": 0
+        },
+        "defense": 18,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 12,
+          "max": 18
+        },
+        "movement": 4,
+        "initiative": 30,
+        "health": 60,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": null,
+      "bacterias": [
+        {
+          "bacteriaType": 1177,
+          "type": "TraitEssenceFighter",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "upgraded": null,
+    "superUpgraded": null,
+    "arcanaUpgraded": {
+      "languageKey": "XuanSeeker",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1000
+          },
+          {
+            "type": "CelestialOre",
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 18,
+        "essenceStats": {
+          "order": 0,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 2,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 42,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 0,
+          "lobbing": 1,
+          "resistancePercent": 0
+        },
+        "defense": 26,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 26,
+          "max": 36
+        },
+        "movement": 4,
+        "initiative": 33,
+        "health": 70,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "ArcanaBlast",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1161,
+          "type": "TraitMagicResistance",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [
+            {
+              "type": 34,
+              "modifier": "TroopSpellDamageResistance",
+              "amountToAdd": 50,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "creationUpgraded": {
+      "languageKey": "ShengSeeker",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1000
+          },
+          {
+            "type": "Glimmerweave",
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 0,
+      "stats": {
+        "tier": 28,
+        "essenceStats": {
+          "order": 0,
+          "creation": 2,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 33,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 5,
+          "lobbing": 1,
+          "resistancePercent": 0
+        },
+        "defense": 32,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 20,
+          "max": 32
+        },
+        "movement": 4,
+        "initiative": 36,
+        "health": 85,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "CloudOfInsects",
+        "bacterias": []
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 804,
+          "type": "TraitStealthy1",
+          "customEffect": "None",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Friends",
+            "hexRadius": 1,
+            "bacteriaToAdd": null,
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [
+            {
+              "type": 42,
+              "modifier": "TroopIgnoreZoneOfControl",
+              "amountToAdd": 1,
+              "applicationType": 0
+            }
+          ],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    },
+    "orderUpgraded": {
+      "languageKey": "LiSeeker",
+      "purchaseCost": {
+        "costEntries": [
+          {
+            "type": "Gold",
+            "amount": 1000
+          },
+          {
+            "type": "AncientAmber",
+            "amount": 1
+          }
+        ]
+      },
+      "obsoleteGoldCost": 1350,
+      "stats": {
+        "tier": 38,
+        "essenceStats": {
+          "order": 2,
+          "creation": 0,
+          "chaos": 0,
+          "arcana": 0,
+          "destruction": 0
+        },
+        "meleeAttack": {
+          "offense": 29,
+          "range": {
+            "min": 1,
+            "max": 1
+          },
+          "deadlyRange": 0,
+          "lobbing": 0,
+          "resistancePercent": 0
+        },
+        "rangedAttack": {
+          "offense": 0,
+          "range": {
+            "min": 0,
+            "max": 0
+          },
+          "deadlyRange": 5,
+          "lobbing": 1,
+          "resistancePercent": 0
+        },
+        "defense": 38,
+        "attacks": 1,
+        "retaliations": 1,
+        "attacksOfOpportunity": 1,
+        "damage": {
+          "min": 20,
+          "max": 25
+        },
+        "movement": 4,
+        "initiative": 41,
+        "health": 100,
+        "maxTroopSize": 10,
+        "damageMultiplier": 0,
+        "spellDamageResistance": 0,
+        "statuses": [
+          0
+        ],
+        "size": 0,
+        "canPerformAttacksOfOpportunity": 1,
+        "ignoresZoneOfControlCounter": 0,
+        "rootSpread": 0,
+        "blessed": 0,
+        "restrictions": []
+      },
+      "troopAbility": {
+        "type": "Protect",
+        "bacterias": [
+          {
+            "bacteriaType": 409,
+            "type": "TroopAbilityProtect",
+            "customEffect": "Aura",
+            "customEffectValue": 0,
+            "auraSettings": {
+              "recipients": "Friends",
+              "hexRadius": 1,
+              "bacteriaToAdd": {
+                "bacteriaType": 410,
+                "type": "TroopAbilityProtected",
+                "customEffect": "None",
+                "customEffectValue": 0,
+                "auraSettings": {
+                  "recipients": "Friends",
+                  "hexRadius": 1,
+                  "bacteriaToAdd": null,
+                  "isStackable": 1,
+                  "isPassable": 1,
+                  "isSingleShot": 0
+                },
+                "modifierData": [
+                  {
+                    "type": 2,
+                    "modifier": "TroopDefense",
+                    "amountToAdd": 25,
+                    "applicationType": 0
+                  },
+                  {
+                    "type": 34,
+                    "modifier": "TroopSpellDamageResistance",
+                    "amountToAdd": 25,
+                    "applicationType": 0
+                  }
+                ],
+                "resourcesIncome": [],
+                "duration": {
+                  "type": "EntireBattle",
+                  "duration": 0
+                }
+              },
+              "isStackable": 1,
+              "isPassable": 1,
+              "isSingleShot": 0
+            },
+            "modifierData": [],
+            "resourcesIncome": [],
+            "duration": {
+              "type": "BattleStackRoundWithTail",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      "bacterias": [
+        {
+          "bacteriaType": 1691,
+          "type": "TraitCurseAura",
+          "customEffect": "Aura",
+          "customEffectValue": 0,
+          "auraSettings": {
+            "recipients": "Enemies",
+            "hexRadius": 1,
+            "bacteriaToAdd": {
+              "bacteriaType": 1692,
+              "type": "TraitCursed",
+              "customEffect": "None",
+              "customEffectValue": 0,
+              "auraSettings": {
+                "recipients": "Friends",
+                "hexRadius": 1,
+                "bacteriaToAdd": null,
+                "isStackable": 1,
+                "isPassable": 1,
+                "isSingleShot": 0
+              },
+              "modifierData": [
+                {
+                  "type": 49,
+                  "modifier": "TroopBlessed",
+                  "amountToAdd": -1,
+                  "applicationType": 0
+                }
+              ],
+              "resourcesIncome": [],
+              "duration": {
+                "type": "EntireBattle",
+                "duration": 0
+              }
+            },
+            "isStackable": 1,
+            "isPassable": 1,
+            "isSingleShot": 0
+          },
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        },
+        {
+          "bacteriaType": 1179,
+          "type": "TraitFrontLineFighter",
+          "modifierData": [],
+          "resourcesIncome": [],
+          "duration": {
+            "type": "Permanent",
+            "duration": 0
+          }
+        }
+      ]
+    }
+  },
+  {
+    "faction": "Yulan",
+    "vanilla": {
+      "languageKey": "Ballista",
+      "sprite": {
+        "name": "YulanBalista_Default_1_Idle_1",
+        "spriteSheet": "YulanBallistazAtlas.png",
+        "x": 1.0129125,
+        "y": 40,
+        "width": 66.98709,
+        "height": 54.957092,
+        "outline": [
+          [
+            {
+              "x": -8.506458,
+              "y": -7.478546
+            },
+            {
+              "x": -20.506458,
+              "y": 0.52145386
+            },
+            {
+              "x": -20.506458,
+              "y": 13.521454
+            },
+            {
+              "x": -34.50646,
+              "y": 27.521454
+            },
+            {
+              "x": -4.5064583,
+              "y": 19.521454
+            },
+            {
+              "x": 12.493542,
+              "y": 17.521454
+            },
+            {
+              "x": 12.493542,
+              "y": 9.521454
+            },
+            {
+              "x": 17.493542,
+              "y": 9.521454
+            },
+            {
+              "x": 17.493542,
+              "y": 3.5214539
+            },
+            {
+              "x": 33.49354,
+              "y": 3.5214539
+            },
+            {
+              "x": 33.49354,
+              "y": -10.478546
+            },
+            {
+              "x": 25.493542,
+              "y": -13.478546
+            },
+            {
+              "x": 23.493542,
+              "y": -5.478546
+            },
+            {
+              "x": 6.4935417,
+              "y": -6.478546
+            },
+            {
+              "x": 13.493542,
+              "y": -9.478546
+            },
+            {
+              "x": 17.493542,
+              "y": -6.478546
+            },
+            {
+              "x": 18.493542,
+              "y": -6.478546
+            },
+            {
+              "x": 24.493542,
+              "y": -12.478546
+            },
+            {
+              "x": 18.493542,
+              "y": -18.478546
+            },
+            {
+              "x": 18.493542,
+              "y": -27.478546
+            },
+            {
+              "x": 5.4935417,
+              "y": -27.478546
+            },
+            {
+              "x": -3.5064583,
+              "y": -24.478546
+            },
+            {
+              "x": -11.506458,
+              "y": -25.478546
             }
           ]
         ]

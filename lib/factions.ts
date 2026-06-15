@@ -93,6 +93,14 @@ export const getFaction = (type: string, locale: string) => {
   return faction;
 };
 
+// Factions without an animated banner gif fall back to a static banner png.
+const STATIC_BANNER_FACTIONS = ["Roots", "Vanir", "Yulan"];
+
+export const getFactionBannerSrc = (type: string) =>
+  STATIC_BANNER_FACTIONS.includes(type)
+    ? `/factions/${type}Banner.png`
+    : `/factions/${type}AnimatedFactionBanner.gif`;
+
 export type FactionSimpleDTO = {
   id: number;
   type: string;

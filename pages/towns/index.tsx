@@ -4,7 +4,11 @@ import { withStaticBase } from "../../lib/staticProps";
 import { Grid, Image, Stack, Text, Title } from "@mantine/core";
 import AppLink from "../../components/AppLink/AppLink";
 import PageHead from "../../components/PageHead/PageHead";
-import { FactionSimpleDTO, getFactions } from "../../lib/factions";
+import {
+  FactionSimpleDTO,
+  getFactionBannerSrc,
+  getFactions,
+} from "../../lib/factions";
 
 const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
   return (
@@ -16,9 +20,7 @@ const Factions: NextPage<{ factions: FactionSimpleDTO[] }> = ({ factions }) => {
       <Title>Town Build Calculators</Title>
       <Grid justify="center" mt="md">
         {factions.map((faction) => {
-          const factionBannerSrc = ["Roots", "Vanir"].includes(faction.type)
-            ? `/factions/${faction.type}Banner.png`
-            : `/factions/${faction.type}AnimatedFactionBanner.gif`;
+          const factionBannerSrc = getFactionBannerSrc(faction.type);
 
           return (
             <Grid.Col key={faction.type} lg={3} md={3} sm={6} xs={6} span={6}>
