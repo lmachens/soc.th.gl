@@ -1,3 +1,20 @@
+> # ⚠️ Deprecated
+>
+> This repository is no longer maintained. **Songs of Conquest is now part of the
+> main [The Hidden Gaming Lair](https://www.th.gl) project**, which lets it be
+> updated faster and benefit from improvements shared across the whole platform.
+>
+> - **The site lives on at [soc.th.gl](https://soc.th.gl)** — rebuilt on the
+>   shared THGL games-web platform. All old links permanently redirect to their
+>   new homes (e.g. `/units/Yulan/Yi` → `/db/unit/yulan_yi`).
+> - **Frontend code** now lives in
+>   [The-Hidden-Gaming-Lair/thgl-web-components](https://github.com/The-Hidden-Gaming-Lair/thgl-web-components).
+> - **Data mining / extraction** has moved into a private THGL repository.
+>
+> The original README is kept below for reference.
+
+---
+
 ![](/public/logo.png)
 
 # soc.th.gl - A Songs of Conquest fansite
